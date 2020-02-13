@@ -1,14 +1,6 @@
 # Building device naming standard
 
-
 ## Specification for naming syntax
-
-
-[TOC]
-
-
-
-
 
 # Purpose and scope
 
