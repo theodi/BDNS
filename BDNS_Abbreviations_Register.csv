@@ -1,0 +1,3 @@
+asset_type,abbreviation,ifc_class,ifc_type,haystack_parent,haystack_child,brick_parent,brick_child
+actuator,ACT,ifcActuator,UNDEFINED,Actuator,actuator,-,-
+air handling unit,AHU,UnitaryEquipment,AIRHANDLER,Air Handling Unit,"ahu, airHandlingEquip",AHU,"Air Handler Unit, AHU"
