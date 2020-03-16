@@ -18,8 +18,8 @@ Chilled Beam,CHB,IfcCooledBeam,UNDEFINED,Radiant Equipment,chilledBeam,,
 Chillers - Chiller,CH,IfcChiller,UNDEFINED,Chiller,chiller,Chiller,Chiller
 Chillers - Dry Air Cooler,DAC,,,,,,
 Coil,COIL,IfcCoil,UNDEFINED,Heat Exchanger,coil,Coil,Coil
-Coil - Cooling Coil,CC,IfcCoil,HYDRONICCOIL (superscenedes WATERCOOLINGCOIL),Heat Exchanger,coolingCoil,Coil,Cooling Coil
-Coil - Heating Coil,HC,IfcCoil,HYDRONICCOIL (superscedes WATERHEATINGCOIL),Heat Exchanger,heatingCoil,Coil,Heating Coil
+Coil - Cooling Coil,CC,IfcCoil,HYDRONICCOIL,Heat Exchanger,coolingCoil,Coil,Cooling Coil
+Coil - Heating Coil,HC,IfcCoil,HYDRONICCOIL,Heat Exchanger,heatingCoil,Coil,Heating Coil
 Compressor,CMP,IfcCompressor,UNDEFINED,,,Compressor,Compressor
 Computer Room AC Unit,CRAC,,,Fan Coil Unit,crac,Computer Room Air Conditioning,"Computer Room Air Conditioning, CRAC"
 Condenser Water Makeup System,CWMS,,,,,,
