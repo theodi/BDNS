@@ -1,0 +1,340 @@
+asset_type,abbreviation,ifc_class,ifc_type,haystack_parent,haystack_child,brick_parent,brick_child
+AHU - Air Handling Units,AHU,IfcUnitaryEquipment,AIRHANDLER,Air Handling Unit,"ahu, airHandlingEquip",AHU,"Air Handler Unit, AHU"
+AHU - Heat Recovery Unit,HRU,,,,,,
+AHU - Make-up Air Handler,MAU,,,Air Handling Unit,mau,,
+Air Conditioning Unit (Generic),ACU,,,,,,
+Air Dryer,ADY,,,,,,
+Air Heat Recovery - Run Around Coil,RAC,IfcAirToAirHeatRecovery,RUNAROUNDCOILLOOP,,,Coil,HX/Heat Exchanger
+Air Heat Recovery - Thermal Wheel,TW,IfcAirToAirHeatRecovery,ROTARYWHEEL,,,,
+Air Separator,AS,,,,,,
+Air Terminal Box - CAV Box,CAV,IfcAirTerminalBox,CONSTANTFLOW,Air Terminal Unit,cav,,
+Air Terminal Box - VAV Box,VAV,IfcAirTerminalBox,UNDEFINED,Air Terminal Unit,vav,Variable Air Volume Box,"Variable Air Volume Box, VAV"
+Automatic Air Vents,AAV,,,,,,
+Automatic Transfer Switch - Automatic transfer switching equipment (TSE),ATS,,,,,,
+BMS - BMS Control Panel,BMSCP,,,,,,
+Boiler - Water Boiler,BLR,ifcBoiler,WATER,Boiler,hot-water-boiler,,
+Break Glass Alarm - Break Glass Unit,BGU,,,,,,
+Chilled Beam,CHB,IfcCooledBeam,UNDEFINED,Radiant Equipment,chilledBeam,,
+Chillers - Chiller,CH,IfcChiller,UNDEFINED,Chiller,chiller,Chiller,Chiller
+Chillers - Dry Air Cooler,DAC,,,,,,
+Coil,COIL,IfcCoil,UNDEFINED,Heat Exchanger,coil,Coil,Coil
+Coil - Cooling Coil,CC,IfcCoil,HYDRONICCOIL,Heat Exchanger,coolingCoil,Coil,Cooling Coil
+Coil - Heating Coil,HC,IfcCoil,HYDRONICCOIL,Heat Exchanger,heatingCoil,Coil,Heating Coil
+Compressor,CMP,IfcCompressor,UNDEFINED,,,Compressor,Compressor
+Computer Room AC Unit,CRAC,,,Fan Coil Unit,crac,Computer Room Air Conditioning,"Computer Room Air Conditioning, CRAC"
+Condenser Water Makeup System,CWMS,,,,,,
+Condensing Unit,CU,,,,,,
+Controller - Direct Digital Controller,DDC,,,,,,
+Controller - Programmable Logic Controller,PLC,IfcController,PROGRAMMABLE,,,,
+Cooling Tower,CT,IfcCoolingTower,UNDEFINED,Cooling Tower,coolingTower,,
+Cooling Tower - Cooling Tower Separator,CTSEP,IfcCoolingTower,UNDEFINED,Cooling Tower,coolingTower,,
+Cooling Tower Filtration,CTFS,IfcCoolingTower,UNDEFINED,Cooling Tower,coolingTower,,
+Cooling Tower Water Treatment Skid,CTWT,IfcCoolingTower,UNDEFINED,Cooling Tower,coolingTower,,
+Damper,DMP,IfcDamper,UNDEFINED,(as a tag: Damper),,Damper,Damper
+Damper - Balancing Damper,BD,IfcDamper,BALANCINGDAMPER,(as a tag: Damper),,Damper,Damper
+Damper - Bypass Damper,BYD,,,,,,
+Damper - Fire and Smoke Damper,FSD,IfcDamper,FIRESMOKEDAMPER,,,,
+Damper - Fire Damper,FD,IfcDamper,FIREDAMPER,(as a tag: Damper),,Damper,Damper
+Damper - Manual Damper,MLD,,,,,,
+Damper - Motorised Fire Smoke Damper,MFSD,IfcDamper,FIRESMOKEDAMPER,(as a tag: Damper),,Damper,Damper
+Damper - Motorised Smoke Damper,MSD,,,,,,
+Damper - Pressure relief dampers,RLD,IfcDamper,RELIEFDAMPER,(as a tag: Damper),,Damper,Damper
+Damper - Volume Control Damper,VCD,IfcDamper,BALANCINGDAMPER,(as a tag: Damper),,Damper,
+Deareator,DEA,,,,,,
+Degasser,DGA,,,,,,
+Dehumidifier,DHUM,IfcUnitaryEquipment,DEHUMIDIFIER,,,,
+Direct Expansion Cooling Unit,DX,,,,,,
+Disconnect,DSCT,,,,,,
+Door,DR,IfcDoor,UNDEFINED,,,,
+Door - Fire Door,FDR,IfcDoor,UNDEFINED,,,,
+Dosing Pot,DPOT,,,,,,
+Duct Silencer - Attenuator,SLCR,IfcDuctSilencer,UNDEFINED,,,,
+DX System - Variable Refrigerant Flow Unit,VRF,IfcUnitaryEquipment,SPLITSYSTEM,,, airHandlingEquip,heatPump
+DX System - Variable Refrigerant Volume Unit,VRV,IfcUnitaryEquipment,SPLITSYSTEM,,, airHandlingEquip,heatPump
+Electric Distribution - Branch Circuit Panel Board 120/208V,LVCPB,,,,,,
+Electric Distribution - Branch Circuit Panel Board 277/480V,HVCPB,,,,,,
+Electric Distribution - Distribution Panel / Board,DB,IfcElectricDistributionBoard,"DISTRIBUTIONBOARD, UNDEFINED",,,,
+Electric Distribution - Distribution Panel 120/208V,LVDP,,,,,,
+Electric Distribution - Distribution Panel 277/480V,HVDP,,,,,,
+Electric Distribution - EVC (Electric Vehicle Charging) Distribution Panel,EVDP,,,,,,
+Electric Distribution - High Voltage Switchboard,HVSB,,,,,,
+Electric Distribution - IT Distribution Panel,ITDP,,,,,,
+Electric Distribution - Low Voltage Switchboard,LVSB,,,,,,
+Electric Distribution - Main Panel,MNPL,,,,,,
+Electric Distribution - Mains Switchboard,MSB,,,,,,
+Electric Distribution - Mechanical Distribution Panel / Board,MDP,,,,,,
+Electric Distribution - Panel Board,PNLB,,,,,,
+Electric Distribution - Switchgear (12KV typ),SWGR,,,,,,
+Electric Distribution - UPS Board,UPSB,,,,,,
+Electric Generator - Generator sets,GEN,IfcElectricGenerator,STANDALONE,,,,
+Electric vehicle - Electrical Vehicle Supply Equipment,EVSE,,,,,,
+Electrical Appliance - Dispenser,DISP,,,,,,
+Electrical Appliance - Freezer,FRZ,,,,,,
+Electrical Appliance - Fryer,FRY,,,,,,
+Electrical Appliance - Ice Maker,IM,,,,,,
+Electrical Appliance - Oven,OVN,,,,,,
+Electrical Appliance - Refrigerator,REF,,,,,,
+Electrical Appliance - Steamer,STE,,,,,,
+Electrical Appliance - Warm Drawer,WDR,,,,,,
+Electrical Protective Device - Disconnect Fuse,DSCTF,,,,,,
+Elevator Door Motor,ELDM,,,,,,
+Energy Management System,EMS,,,,,,
+Energy/Power Management System,PMS,,,,,,
+Evaporator,EVP,IfcEvaporator,UNDEFINED,,,,
+Facade Management System,FMS,,,,,,
+Fan,FAN,IfcFan,UNDEFINED,,,Fan,Fan
+Fan - Cooling Tower Fan,CTF,,,,,Fan,Cooling Tower Fan
+Fan - Exhaust Fan,EF,,,,,Fan,Exhaust Fan
+Fan Coil Unit,FCU,,,Fan Coil Unit,fcu,FCU,"FCU, Fan Coil Unit"
+Fire Detectors - Smoke detector,SD,,,,,,
+Heat emitters - Gas Unit Heater,GUH,,,,,,
+Heat emitters - Heater,HTR,,,,,,
+Heat Emitters - Hydronic Trench Convector,TC,,,,,,
+Heat Emitters - Trench Heating,TRH,,,,,,
+Heat emitters - Unit Heater,EUH,,,,,,
+Heat Exchanger,HX,IfcHeatExchanger,UNDEFINED,Heat Exchanger,heatExchanger,Heat Exchanger,"Heat Exchanger, HX"
+Heat Exchanger - Plate heat exchanger,PHX,IfcHeatExchanger,PLATE,,,,
+Heat pumps - Heat Pump,HP,,,,, airHandlingEquip,heatPump
+Human Machine Interface,HMI,,,,,,
+Humidifier,HUM,IfcHumidifier,UNDEFINED,,,,
+Intermediate Distribution Frame,IDF,,,,,,
+Lift,ELV,,,Vertical Transport,elevator,Elevator,Elevator
+Lift - Elevator Controller,ELC,,,,,,
+Lift - Elevator Inverter,ELI,,,,,,
+Lift - Elevator Traction Machine,ELTM,,,,,,
+Lift - Lift Station,LFST,,,,,,
+Light Fixture - Exit Sign (Illuminated),EXIT,,,,,,
+Sensor - Light Motion sensor,LMS,,,,,Sensor,Occupancy Sensor
+Lighting - Light Photocell sensor,LPS,,,,,,
+Lighting - Lighting Control Module,LCM,,,,,,
+Lighting - Lighting Control Panel,LCP,,,,,,
+Lighting - Lighting Control System,LCS,,,,,,
+Lighting - Lighting Fixture,LT,,,,,,
+Lighting - Lighting Gateway,LTGW,,,,,,
+Lighting - Lighting Keypad,LKP,,,,,,
+Load Bank,LB,,,,,,
+Meter,MTR,IfcFlowMeter,UNDEFINED,Meter,meter,Meter,Meter
+Meter - Electrical Meter,EM,IfcFlowMeter,ENERGYMETER,Meter,elec-meter,,
+Meter - Flow Meter,FM,IfcFlowMeter,UNDEFINED,Meter,flow-meter,,
+Meter - Gas Meters,GM,IfcFlowMeter,GASMETER,,,,
+Meter - Heat meters,HM,,,,,,
+Meter - Waste Water Meter,WWM,,,,,,
+Meter - Water Meters,WM,IfcFlowMeter,WATERMETER,,,,
+Motor Controller - VSD (Inverter Drive),VSD,,,Motor,vfd,VFD,VFD
+Motor Controllers - Motor Control Center Panel,MCC,,,,,,
+Panels - Chemical Treatment Control Panel,CTCP,,,,,,
+Panels - Control Panel (Generic),CTRP,,,,,,
+Panels - Fire Alarm Control Panel,FACP,,,,,,
+Panels - Gas Detection Panel,GASDET,IfcUnitaryControlElement,GASDETECTIONPANEL,,,,
+Panels - Remote I/O Panel,RIO,,,,,,
+Pollution Control Unit,PCU,,,,,,
+Power Distribution Unit,PDU,,,,,,
+Pressurization Units,PU,,,,,,
+Primary / Secondary Low Loss Header,LLC,,,,,,
+Pump,PMP,IfcPump,"CIRCULATOR, UNDEFINED",,,Pump,Pump
+Pump - Auxilliary Process Cooling Water Pump,AXCWP,,,,,,
+Pump - Boiler Circulation Pump (at headered-Primary),PBCP,,,,,,
+Pump - Boiler Circulation Pump (at headered-Secondary),SBCP,,,,,,
+Pump - Boiler Hot Water Pump,HHWP,,,,,,
+Pump - Booster Pump,BSP,,,,,,
+Pump - Chilled Water Pump,CHWP,,,,,Pump,Chilled Water Pump
+Pump - Circulating Pump,CP,,,,,,
+Pump - Condenser Water Pump,CDWP,,,,,Pump,Condenser Water Pump
+Pump - Cooling Tower Separator Pump,CTSEPP,,,,,,
+Pump - Domestic Hot Water Pump,DHWP,,,,,,
+Pump - Dosing Pump,DP,,,,,,
+Pump - Dry Cooler Pump,DACP,,,,,,
+Pump - Fire Hydrant Pump,FHP,,,,,,
+Pump - Heat Exchanger Pump,HXP,,,,,,
+Pump - High Temperature Chilled Water Pump,HTCHP,,,,,,
+Pump - High Temperature Condenser Water Pump,HTCWP,,,,,,
+Pump - Hot Water Recirculation Pump,HWRP,,,,,,
+Pump - Low Temperature Chilled Water Pump,LTCHWP,,,,,,
+Pump - Low Temperature Condenser Water Pump,LTCWP,,,,,,
+Pump - Low Temperature Hot Water Pump,LTHWP,,,,,,
+Pump - Packaged Pump Set,PAPS,,,,,,
+Pump - Potable/Domestic Water Booster Pump,DWBP,,,,,,
+Pump - Potable/Domestic Water Transfer Pump,DWTP,,,,,,
+Pump - Primary Boiler Pump,PBP,,,,,,
+Pump - Primary Pump,PP,,,,,,
+Pump - Process Cooling Water Pump,PCWP,,,,,,
+Pump - Process Water Pump,PWP,,,,,,
+Pump - Recirculation Pump,RCP,,,,,,
+Pump - Recycled Water Pump,RWP,,,,,,
+Pump - Secondary Boiler Pump,SBP,,,,,,
+Pump - Secondary Pump,SP,,,,,,
+Pump - Separator Pump,SEPP,,,,,,
+Pump - Service Water Distribution Pump,SWDP,,,,,,
+Pump - Sump Pump,SMPP,IfcPump,SUMPPUMP,,,,
+Pump - Tower Make Up Pump,TMUP,,,,,,
+Pump - Transfer Pump,TRP,,,,,,
+Pump - Vacuum Pump,VCP,,,,,,
+Pump - Waste Water Pump,WWP,,,,,,
+Sand Oil Interceptor,SOI,,,,,,
+Sand Separator,TSP,,,,,,
+Sanitary Terminal - Sink,SK,IfcSanitaryTerminal,SINK,,,,
+Sensor - Humidity - Humidity Sensors,HMS,IfcSensor,HUMIDITYSENSOR,,,Humidity Sensor,Humidity Sensor
+Sensor - Temperature Sensor,TPS,,,,,Sensor,Temperature Sensor
+Sewage Ejector,SE,,,,,,
+Shade and Drape Controller,SDC,,,,,,
+Static Transfer Switch,STS,,,,,,
+Switch - Safety Switch or Disconnect Switch,DSCTS,,,,,,
+Tanks - Break Tank & Booster Set,BTBS,,,,,,
+Tanks - Expansion Tank,ETK,,,,,,
+Tanks - Fire Hydrant Tank,FHT,,,,,,
+Tanks - Hot Water Cylinder,HWC,,,,,,
+Tanks - Potable/Domestic Water Transfer Tank,DWTT,,,,,,
+Tanks - Sprinkler Tank,SPT,,,,,,
+Tanks - Thermal Storage Tank,TST,,,,,,
+Tanks - Water Tank,TK,,,,,,
+Thermal Storage System,TSS,,,,,,
+Thermostat,TSTAT,,,Thermostat,thermostat,Thermostat,Thermostat
+Trace Heating,EHT,,,,,,
+Transformer,TXMR,IfcTransformer,UNDEFINED,,,,
+UPS - Uninteruptable Power Supply (UPS) Units,UPS,IfcElectricFlowStorageDevice,UPS,,,,
+Valve,VLV,IfcValve,UNDEFINED,,,Valve,Valve
+Valve - Balancing Valve,BLV,,,,,,
+Valve - Blowdown Valve,BDV,,,,,,
+Valve - Bypass Valve,BVY,,,,,,
+Valve - Check Valve,CKV,IfcValve,CHECK,,,,
+Valve - Chilled Water Valve,CHWV,,,,,Valve,"Chilled Water Valve, Chilled Water Valve"
+Valve - Condenser Water Valve,CWV,,,,,,
+Valve - Control Valve,CV,,,,,,
+Valve - Float Valve,FV,,,,,,
+Valve - Flow Control Valve,FCV,,,,,,
+Valve - Isolation Valve,ISV,,,,,Valve,Isolation Valve
+Valve - Level Control Valve,LCV,,,,,,
+Valve - Make Up Water Valve,MUV,,,,,,
+Valve - Master Thermostatic Valve,MMV,,,,,,
+Valve - Pressure reducing valves,PRV,,,,,,
+Valve - Process Water Valve,PWV,,,,,,
+Valve - Recirculation Valve,RCZ,,,,,,
+Valve - Return Valve,RTV,,,,,,
+Valve - Supply Valve,SPV,,,,,,
+Valve - Temperature Control Valve,TCV,,,,,,
+Valve - Thermostatic Mixing Valve,TMV,,,,,,
+Valve - Tower Make Up Valve,TMU,,,,,,
+Valve - Water Hammer Arrestor,WHA,,,,,,
+Valves - Pressure Relief - Pressure relief valves,PRFV,,,,,,
+Variable Frequency Drive,VFD,,,Motor,vfd,VFD,VFD
+Waste Terminal - Roof Drain,RD,IfcWasteTerminal,ROOFDRAIN,,,,
+Weather Station,WST,,,,,,
+Water Solenoid Valve,SNV,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+actuator,ACT,IfcActuator,UNDEFINED,Actuator,actuator,,
+air handling unit,AHU,IfcUnitaryEquipment,AIRHANDLER,Air Handling Unit,"ahu, airHandlingEquip",AHU,"Air Handler Unit, AHU"
+air heat recovery - air to air heat recovery,HRU,IfcAirToAirHeatRecovery,UNDEFINED,,,,
+air heat recovery - run around coil,RAC,IfcAirToAirHeatRecovery,RUNAROUNDCOILLOOP,,,Coil,HX/Heat Exchanger
+air heat recovery - thermal wheel,TW,IfcAirToAirHeatRecovery,ROTARYWHEEL,,,,
+air terminal,,IfcAirTerminal,UNDEFINED,,,,
+air terminal box,,IfcAirTerminalBox,UNDEFINED,,,,
+air terminal box - cav box,CAV,IfcAirTerminalBox,CONSTANTFLOW,Air Terminal Unit,cav,,
+air terminal box - vav box,VAV,IfcAirTerminalBox,UNDEFINED,Air Terminal Unit,vav,Variable Air Volume Box,"Variable Air Volume Box, VAV"
+alarm,,IfcAlarm,UNDEFINED,,,,
+antenna,,IfcCommunicationsAppliance,"ANTENNA, UNDEFINED",,,,
+audio visual appliance - audo visual appliance,,IfcAudioVisualAppliance,UNDEFINED,,,,
+boiler,BLR,ifcBoiler,UNDEFINED,,,,
+boiler - steam boiler,BLR,ifcBoiler,STEAM,,,,
+boiler - water boiler,BLR,ifcBoiler,WATER,Boiler,hot-water-boiler,,
+burner,,IFCBurner,UNDEFINED,,,,
+burner - burners,,IFCBurner,IFCBurner,,,,
+cable carrier fitting,,IfcCableCarrierFitting,UNDEFINED,,,,
+cable carrier segment,,IfcCableCarrierSegment,UNDEFINED,,,,
+cable fitting,,IfcCableFitting,UNDEFINED,,,,
+cable segment,,IfcCableSegment,UNDEFINED,,,,
+camera,,IfcAudioVisualAppliance,CAMERA,,,,
+chilled beam,CHB,IfcCooledBeam,UNDEFINED,Radiant Equipment,chilledBeam,,
+chiller,CH,,UNDEFINED,Chiller,chiller,Chiller,Chiller
+coil,COIL,IfcCoil,UNDEFINED,Heat Exchanger,coil,Coil,Coil
+communications appliance - computer,,IfcCommunicationsAppliance,COMPUTER,,,,
+compressor,CMP,IfcCompressor,UNDEFINED,,,Compressor,Compressor
+computer room ac unit,CRAC,,,Fan Coil Unit,crac,Computer Room Air Conditioning,"Computer Room Air Conditioning, CRAC"
+condenser,,IfcCondenser,UNDEFINED,,,Condenser,Condenser
+condenser - air cooled condenser,CNU,IfcCondenser,AIRCOOLED,,,,
+controller - programmable logic controller,PLC,IfcController,PROGRAMMABLE,,,,
+cooling tower,CT,IfcCoolingTower,UNDEFINED,Cooling Tower,coolingTower,??? (removed?),??? (removed?)
+damper,DMP,IfcDamper,UNDEFINED,(as a tag: Damper),,Damper,Damper
+disconnectors - fused disconnector,,IfcProtectiveDevice,FUSEDISCONNECTOR,,,,
+duct fitting,,IfcDuctFitting,UNDEFINED,,,,
+duct segment,,IfcDuctSegment,UNDEFINED,,,,
+duct silencer,,IfcDuctSilencerTypeEnum,UNDEFINED,,,,
+electric distribution - distribution board,DSTRB,IfcElectricDistributionBoard,"DISTRIBUTIONBOARD, UNDEFINED",,,,
+electric distribution - motor control centre,MCR,IfcElectricDistributionBoard,MOTORCONTROLCENTRE,,,,
+equipment,,IfcUnitaryEquipment,UNDEFINED,,,,
+electric generator,,IfcElectricGenerator,UNDEFINED,,,,
+electric time control,,IfcElectricTimeControl,UNDEFINED,,,,
+electrical appliance,,IfcElectricAppliance,UNDEFINED,,,,
+electrical filter (energy storage) - harmonic filter,,IfcElectricFlowStorageDevice,HARMONICFILTER,,,,
+electrical protective device tripping unit,,IfcProtectiveDeviceTrippingUnit,UNDEFINED,,,,
+electrical protective devices,,IfcProtectiveDevice,UNDEFINED,,,,
+engine,,IfcEngine,UNDEFINED,,,,
+evaporative cooler,,IfcEvaporativeCooler,UNDEFINED,,,,
+evaporator,EVP,IfcEvaporator,UNDEFINED,,,,
+fan,FAN,IfcFan,UNDEFINED,,,Fan,Fan
+filter,,IfcFilter,UNDEFINED,,,,
+fan coil unit,FCU,,,Fan Coil Unit,fcu,FCU,"FCU, Fan Coil Unit"
+fire suppression terminal,,IfcFireSuppressionTerminal,UNDEFINED,,,,
+fire suppression terminal - sprinkler,SPH,IfcFireSuppressionTerminal,SPRINKLER,,,,
+heat emitters - space heater,,IfcSpaceHeater,UNDEFINED,,,,
+heat exchanger,HX,IfcHeatExchanger,UNDEFINED,Heat Exchanger,heatExchanger,Heat Exchanger,"Heat Exchanger, HX"
+humidifier,HUM,IfcHumidifier,UNDEFINED,,,,
+humidstat,,IfcUnitaryControlElement,HUMIDISTAT,,,,
+interceptor,,IfcInterceptor,UNDEFINED,,,,
+junction box,JNB,IfcJunctionBox,UNDEFINED,,,,
+lift,ELV,,,Vertical Transport,elevator,Elevator,Elevator
+lighting,LT,,,,,Lighting,Lighting
+lighting - compact fluorescent lamp,,IfcLamp,COMPACTFLUORESCENT,,,,
+lighting - light fixture,,IfcLightFixture,UNDEFINED,,,,
+medical device,,IfcMedicalDevice,UNDEFINED,,,,
+meter,MTR,IfcFlowMeter,UNDEFINED,Meter,meter,Meter,Meter
+meter - electrical meter,EM,IfcFlowMeter,ENERGYMETER,Meter,elec-meter,,
+meter - energy meters,MTR,IfcFlowMeter,ENERGYMETER,,,,
+meter - flow instrument,,IfcFlowInstrument,UNDEFINED,,,,
+meter - flow meter,FM,IfcFlowMeter,UNDEFINED,Meter,flow-meter,,
+meter - gas meters,GM,IfcFlowMeter,GASMETER,,,,
+meter - oil meters,MTR,IfcFlowMeter,OILMETER,,,,
+meter - thermal meters,TMX,IfcFlowMeter,UNDEFINED,Meter,thermal-meter,,
+meter - water meters,WM,IfcFlowMeter,WATERMETER,,,,
+motor,,IfcElectricMotor,UNDEFINED,,,,
+motor connection,,IfcMotorConnection,UNDEFINED,,,,
+motor controller - vfd,VFD,,,Motor,vfd,VFD,VFD
+outlet,OUT,IfcOutlet,UNDEFINED,,,,
+outlet - audio/ visual outlets,AVO,IfcOutlet,AUDIOVISUALOUTLET,,,,
+outlet - communications outlet,COM,IfcOutlet,COMMUNICATIONSOUTLET,,,,
+panels - gas detection panel,GASDET,IfcUnitaryControlElement,GASDETECTIONPANEL,,,,
+panels - indicator panels,INZ,IfcUnitaryControlElement,INDICATORPANEL,,,,
+panels - panel,PNL,,,Panel,panel,,
+pump,PMP,IfcPump,"CIRCULATOR, UNDEFINED",,,Pump,Pump
+pump - chilled water pump,CHWP,,,,,Pump,Chilled Water Pump
+pump - condenser water pump,CDWP,,,,,Pump,Condenser Water Pump
+pump - sump pump,SMPP,IfcPump,SUMPPUMP,,,,
+sanitary terminal - sink,SK,IfcSanitaryTerminal,SINK,,,,
+sensor - air temperature - air temperature sensor,TPS,,,,,Temperature Sensor,Air Temperature Sensor
+sensor - air temperature - outside temperature sensor,TOX,,,,,Air Temperature Sensor,Outside Air Temperature Sensor
+sensor - enthalpy - outside enthalpy sensor,EOX,,,,,Air Enthalpy Sensor,Outside Air Enthalpy Sensor
+sensor - gas - co sensor,COS,IfcSensor,COSENSOR,,,,
+sensor - gas - co2 sensor,CDS,IfcSensor,CO2SENSOR,,,Sensor,CO2 Sensor
+sensor - humidity - humidity sensors,HMS,IfcSensor,HUMIDITYSENSOR,,,Humidity Sensor,Humidity Sensor
+sensor - occupancy/presence - motion sensors,MNS,,,,,Sensor,Motion Sensor
+sensor - occupancy/presence - pirs,PER,,,,,Motion Sensor,"PIR Sensor, PIR Sensor"
+sensor - outside humidity sensor,HOX,IfcSensor,HUMIDITYSENSOR,,,Air Humidity Sensor,Outside Air Humidity Sensor
+sensor - outside light sensor,LOX,IfcSensor,LIGHTSENSOR,,,Luminance Sensor,Outside Luminance Sensor
+sensor - pressure - differential pressure sensor,"DTT, DPX",IfcSensor,PRESSURESENSOR,,,Pressure Sensor,Differential Pressure Sensor
+sensor - pressure - pressure sensor,PRX,IfcSensor,PRESSURESENSOR,,,Sensor,Pressure Sensor
+sensor - pressure - static pressure sensor,SPX,IfcSensor,PRESSURESENSOR,,,Pressure Sensor,Static Pressure Sensor
+sensor - temperature sensor,TPS,,,,,Sensor,Temperature Sensor
+sensor - water temperature - water temperature sensors,WTS,,,,,Temperature Sensor,Water Temperature Sensor
+switch - dimmer,DSW,IfcSwitchingDevice,DIMMERSWITCH,,,Switch,Dimmer
+thermostat,TSTAT,,,Thermostat,thermostat,Thermostat,Thermostat
+transformer,TXMR,IfcTransformer,UNDEFINED,,,,
+transformer - current transformers,CTX,IfcTransformer,CURRENT,,,,
+ups - uninteruptable power supply (ups) units,UPS,IfcElectricFlowStorageDevice,UPS,,,,
+valve,VLV,IfcValve,UNDEFINED,,,Valve,Valve
+valve - check valve,CKV,IfcValve,CHECK,,,,
+valve - chilled water valve,CHWV,,,,,Valve,"Chilled Water Valve, Chilled Water Valve"
+valve - isolation valve,ISV,,,,,Valve,Isolation Valve
+waste terminal - roof drain,RD,IfcWasteTerminal,ROOFDRAIN,,,,
