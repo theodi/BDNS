@@ -1,6 +1,6 @@
 # Building Device Naming Standards initiative
 
-This repository is a placeholder for an initiative to improve interoperability in building management, by focusing on standardising naming of connected devices.
+This repository holds resources for an initiative to improve interoperability in building management, by focusing on standardising naming of connected devices.
 
 Being able to efficiently collect, analyse and leverage data insights from buildings is a catalyst for optimising building performance, improving the use of resources and moving towards predictive maintenance and buildings that can respond  to the climate emergency.
 
