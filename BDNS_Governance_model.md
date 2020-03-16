@@ -53,7 +53,7 @@ We are working to improve our process to ensure that we are living up to these p
 
 ## Intellectual property
 
-All the outputs from this standards initiatve are openly licensed.
+All the outputs from this standards initiative are openly licensed.
 
 The formal specifications created within the W3C community group are published under [the W3C software and document notice and license](https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document). It gives permission for you to reuse the work, including implementing the specifications for free, for any purpose.
 
