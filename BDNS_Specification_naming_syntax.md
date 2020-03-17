@@ -221,7 +221,7 @@ Physical device labels shall contain the following items:
 QR codes and NFC tags are intended for use cases facilitating the maintenance of equipment and for providing a code or a web based user interface to a physical object.
 
 
-![QR code example](https://user-images.githubusercontent.com/1533891/76905452-df11eb80-6899-11ea-8d71-6d196c01f54f.png "QR code example")
+![QR code example](https://user-images.githubusercontent.com/1533891/76905452-df11eb80-6899-11ea-8d71-6d196c01f54f.png "QR code example" | width=100 )
 
 
 ## Physical device human readable label
