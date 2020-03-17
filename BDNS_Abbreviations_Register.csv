@@ -6,6 +6,6 @@ make-up air handler,MAU,IfcUnitaryEquipment,AIRHANDLER,Air Handling Unit,mau,,
 run around coil,RAC,IfcAirToAirHeatRecovery,RUNAROUNDCOILLOOP,,,Coil,"HX, Heat Exchanger"
 thermal wheel,TW,IfcAirToAirHeatRecovery,ROTARYWHEEL,,,,
 constant air volume box,CAV,IfcAirTerminalBox,CONSTANTFLOW,Air Terminal Unit,cav,,
-variable air volume box,VAV,IfcAirTerminalBox,"UNDEFINED, VARIABLEFLOWPRESSUREDEPENDANT, VARIABLEFLOWPRESSUREINDEPENDANT",Air Terminal Unit,vav,Variable Air Volume Box,"Variable Air Volume Box, VAV"
+variable air volume box,VAV,IfcAirTerminalBox,"UNDEFINED",Air Terminal Unit,vav,Variable Air Volume Box,"Variable Air Volume Box, VAV"
 automatic transfer switch,ATS,IfcProtectiveDevice ,NOTDEFINED,,,,
 boiler,BLR,ifcBoiler,UNDEFINED,Boiler,boiler,Boiler,Boiler
