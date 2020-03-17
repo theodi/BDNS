@@ -209,14 +209,9 @@ The validation procedure shall include the following tests:
 ```
 
 
-
-
-
 # Physical device labels
 
 Physical device labels shall contain the following items:
-
-
 
 1. A human readable label with the device name.
 2. A machine readable label with encoded identification and metadata in at least one of the following two formats:
@@ -226,7 +221,7 @@ Physical device labels shall contain the following items:
 QR codes and NFC tags are intended for use cases facilitating the maintenance of equipment and for providing a code or a web based user interface to a physical object.
 
 
-![QR code example](images/Building-device0.png "image_tooltip")
+![QR code example](https://user-images.githubusercontent.com/1533891/76905452-df11eb80-6899-11ea-8d71-6d196c01f54f.png "QR code example")
 
 
 ## Physical device human readable label
@@ -413,4 +408,4 @@ The QR code shall be created according to ISO/IEC 18004:2015 in the Version 5 (3
 
 [^1]:
 
-     Note that the IFC standard is slightly different than the web-standard base64 encoding, specifically using _ and $ instead of / and +  -- if necessary, it would be easy to do a simple 1:1 mapping for _ ⇔ / and $ ⇔ + if necessary for other parts of the system that may treat $ or _ as reserved characters.
+Note that the IFC standard is slightly different than the web-standard base64 encoding, specifically using _ and $ instead of / and +  -- if necessary, it would be easy to do a simple 1:1 mapping for _ ⇔ / and $ ⇔ + if necessary for other parts of the system that may treat $ or _ as reserved characters.
