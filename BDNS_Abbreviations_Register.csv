@@ -1,11 +1,217 @@
 asset_type,abbreviation,ifc_class,ifc_type,haystack_parent,haystack_child,brick_parent,brick_child
 actuator,ATR,IfcActuator,NOTDEFINED,Actuator,actuator,,
 air handling unit,AHU,IfcUnitaryEquipment,AIRHANDLER,Air Handling Unit,"ahu, airHandlingEquip","Air Handler Unit, AHU",
-heat recovery unit,HRU,IfcAirToAirHeatRecovery,NOTDEFINED,Air Handling Unit,"ahu, airHandlingEquip","Air Handler Unit, AHU",
-make-up air handler,MAU,IfcUnitaryEquipment,AIRHANDLER,Air Handling Unit,mau,,
-run around coil,RAC,IfcAirToAirHeatRecovery,RUNAROUNDCOILLOOP,,,Coil,"HX, Heat Exchanger"
-thermal wheel,TW,IfcAirToAirHeatRecovery,ROTARYWHEEL,,,,
-constant air volume box,CAV,IfcAirTerminalBox,CONSTANTFLOW,Air Terminal Unit,cav,,
-variable air volume box,VAV,IfcAirTerminalBox,"UNDEFINED",Air Terminal Unit,vav,Variable Air Volume Box,"Variable Air Volume Box, VAV"
 automatic transfer switch,ATS,IfcProtectiveDevice ,NOTDEFINED,,,,
-boiler,BLR,ifcBoiler,UNDEFINED,Boiler,boiler,Boiler,Boiler
+boiler,BLR,ifcBoiler,NOTDEFINED,Boiler,boiler,Boiler,Boiler
+break glass unit,BGU,,,,,,
+air conditioning unit,ACU,IfcUnitaryEquipment,AIRCONDITIONINGUNIT,,,,
+chilled beam,CHB,IfcCooledBeam,NOTDEFINED,Radiant Equipment,chilledBeam,,
+chiller ,CH,IfcChiller,NOTDEFINED,Chiller,chiller,Chiller,Chiller
+dry air cooler,DAC,IfcCondenser,AIRCOOLED,,,,
+coil,COIL,IfcCoil,NOTDEFINED,Heat Exchanger,coil,Coil,Coil
+coil - cooling coil,CC,IfcCoil,WATERCOOLINGCOIL,Heat Exchanger,coolingCoil,Coil,Cooling Coil
+water boiler,BLR,ifcBoiler,WATER,Boiler,hot-water-boiler,Boiler,Boiler
+coil - electric heating coil,EHC,IfcCoil,ELECTRICHEATINGCOIL,Heat Exchanger,heatingCoil,Coil,Heating Coil
+call point,CP,,,,,,
+static transfer switch,STS,,,,,,
+coil - heating coil,HC,IfcCoil,WATERHEATINGCOIL,Heat Exchanger,heatingCoil,Coil,Heating Coil
+compressor,CMP,IfcCompressor,NOTDEFINED,,,Compressor,Compressor
+computer room AC unit,CRAC,IfcUnitaryEquipment,AIRCONDITIONINGUNIT,Fan Coil Unit,crac,Computer Room Air Conditioning,"Computer Room Air Conditioning, CRAC"
+constant air volume box,CAV,IfcAirTerminalBox,CONSTANTFLOW,Air Terminal Unit,cav,,
+controller - programmable logic controller,PLC,IfcController,PROGRAMMABLE,"
+lib:phIct",controller,,
+coil - refrigerant cooling coils,DXCC,IfcCoil,DXCOOLINGCOIL,,,,
+cooling tower ,CT,IfcCoolingTower,NOTDEFINED,Cooling Tower,coolingTower,,
+damper ,DMP,IfcDamper,NOTDEFINED,Damper,,Damper,Damper
+condenser water makeup system,CWMS,,,,,,
+controller - direct digital controller,DDC,IfcController,PROGRAMMABLE,,,,
+damper - balancing damper,BD,IfcDamper,BALANCINGDAMPER,Damper,,Damper,Damper
+damper - bypass damper,BYD,IfcDamper,CONTROLDAMPER,,,,
+damper - fire damper,FD,IfcDamper,FIREDAMPER,Damper,,Damper,Damper
+cooling tower filtration system,CTFS,IfcDistributionSystem,NOTDEFINED,,,,
+cooling tower water treatment system,CTWT,IfcDistributionSystem,NOTDEFINED,,,,
+damper - manual damper,MLD,IfcDamper,NOTDEFINED,,,,
+damper - modulating control damper,CDM,IfcDamper,CONTROLDAMPER,Damper,,Damper,Damper
+damper - motorised fire smoke damper,MFSD,IfcDamper,FIRESMOKEDAMPER,Damper,,Damper,Damper
+damper - fire and smoke damper,FSD,IfcDamper,FIRESMOKEDAMPER,,,,
+damper - on/off control damper,CDO,IfcDamper,CONTROLDAMPER,Damper,,Damper,Damper
+damper - pressure relief dampers,RLD,IfcDamper,RELIEFDAMPER,Damper,,Damper,Damper
+damper - purge damper,PD,IfcDamper,RELIEFDAMPER,Damper,,Damper,Damper
+damper - volume control damper,VCD,IfcDamper,BALANCINGDAMPER,Damper,,Damper,
+degasser,DGA,,,,,,
+dehumidifier,DHUM,IfcUnitaryEquipment,DEHUMIDIFIER,,,,
+direct expansion cooling unit,DX,IfcUnitaryEquipment,SPLITSYSTEM,,,,
+deareator,DEA,,,,,,
+DX system - variable refrigerant flow unit,VRF,IfcUnitaryEquipment,SPLITSYSTEM,,, airHandlingEquip,heatPump
+DX system - variable refrigerant volume unit,VRV,IfcUnitaryEquipment,SPLITSYSTEM,,, airHandlingEquip,heatPump
+electric distribution - branch circuit panel board 120/208V,LVCPB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,Panel,elec-panel,,
+electric distribution - branch circuit panel board 277/480V,HVCPB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,Panel,elec-panel,,
+electric distribution - distribution panel 120/208V,LVDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,Panel,elec-panel,,
+electric distribution - distribution panel 277/480V,HVDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,Panel,elec-panel,,
+Electric Distribution - EVC (Electric Vehicle Charging) Distribution Panel,EVDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,Panel,elec-panel,,
+Electric Distribution - High Voltage Switchboard,HVSB,IfcElectricDistributionBoard,SWITCHBOARD,Panel,elec-panel,,
+Electric Distribution - Distribution Panel / Board,DB,IfcElectricDistributionBoard,"DISTRIBUTIONBOARD, NOTDEFINED",,,,
+Electric Distribution - IT Distribution Panel,ITDP,Panel,elec-panel,Panel,elec-panel,,
+Electric Distribution - Low Voltage Switchboard,LVSB,IfcElectricDistributionBoard,SWITCHBOARD,Panel,elec-panel,,
+Electric Distribution - Main Panel,MNPL,IfcElectricDistributionBoard,NOTDEFINED,Panel,elec-panel,,
+Electric Distribution - Mains Switchboard,MSB,IfcElectricDistributionBoard,SWITCHBOARD,Panel,elec-panel,,
+Electric Distribution - Mechanical Distribution Panel / Board,MDP,,,Panel,elec-panel,,
+Electric Distribution - Panel Board,PNLB,IfcElectricDistributionBoard,NOTDEFINED,Panel,elec-panel,,
+Electric Distribution - Switchgear (12KV typ),SWGR,IfcElectricDistributionBoard,SWITCHBOARD,Panel,elec-panel,,
+Electric Distribution - UPS Board,UPSB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,Panel,elec-panel,,
+Electric Generator - Generator sets,GEN,IfcElectricGenerator,NOTDEFINED,,,,
+Electric vehicle - Electrical Vehicle Supply Equipment,EVSE,,,,,,
+Electrical Protective Device - Disconnect Fuse,DSCTF,IfcProtectiveDevice,FUSEDISCONNECTOR,,,,
+Elevator Door Motor,ELDM,,,,,,
+Energy Management System,EMS,,,,,,
+power Management System,PMS,,,,,,
+Evaporator,EVP,IfcEvaporator,NOTDEFINED,,,,
+Facade Management System,FMS,,,,,,
+Fan,FAN,IfcFan,NOTDEFINED,(Marker),fan,Fan,Fan
+Fan - Cooling Tower Fan,CTF,IfcFan,NOTDEFINED,(Marker),fan,Fan,Cooling Tower Fan
+Fan - Exhaust Fan,EF,IfcFan,NOTDEFINED,(Marker),fan,Fan,Exhaust Fan
+Fan Coil Unit,FCU,IfcUnitaryEquipment,NOTDEFINED,Fan Coil Unit,fcu,FCU,"FCU, Fan Coil Unit"
+Fire Detectors - Smoke detector,SD,,,,,,
+Heat emitters - Gas Unit Heater,GUH,,,,,,
+Heat emitters - Heater,HTR,ifcSpaceHeater,NOTDEFINED,,, Space Heater, Space Heater
+Heat Emitters - Hydronic Trench Convector,TC,ifcSpaceHeater,NOTDEFINED,,, Space Heater, Space Heater
+Heat Emitters - Trench Heating,TRH,ifcSpaceHeater,NOTDEFINED,,,,
+Heat emitters - Unit Heater,EUH,ifcSpaceHeater,NOTDEFINED,,, Space Heater, Space Heater
+Heat Exchanger,HX,IfcHeatExchanger,NOTDEFINED,Heat Exchanger,heatExchanger,Heat Exchanger,"Heat Exchanger, HX"
+Heat Exchanger - Plate heat exchanger,PHX,IfcHeatExchanger,PLATE,,,,
+Heat pumps - Heat Pump,HP,,,,, airHandlingEquip,heatPump
+heat recovery unit,HRU,IfcAirToAirHeatRecovery,NOTDEFINED,Air Handling Unit,"ahu, airHandlingEquip","Air Handler Unit, AHU",
+Human Machine Interface,HMI,,,,,,
+Humidifier,HUM,IfcHumidifier,NOTDEFINED,(equipFunctions),(humidifies),,
+Intermediate Distribution Frame,IDF,,,,,,
+Light Fixture - Exit Sign (Illuminated),EXIT,,,IfcLightFixture,SECURITYLIGHTING,,
+Lighting - Light Photocell sensor,LPS,IfcSensorType,LIGHTSENSOR,,,,
+Lighting - Lighting Control Module,LCM,ifcController,NOTDEFINED,device,controller,,
+Lighting - Lighting Control Panel,LCP,IfcUnitaryControlElement,NOTDEFINED,Panel,"
+controls-panel",,
+Lighting - Lighting Control System,LCS,ifcController,NOTDEFINED,,,,
+Lighting - Lighting Fixture,LT,IfcLightFixture,NOTDEFINED,equip,luminaire,Lighting,Luminaire
+Lighting - Lighting Gateway,LTGW,IfcCommunicationsAppliance,NOTDEFINED,device,networking-device,,
+Lighting - Lighting Keypad,LKP,IfcSwitchingDevice,KEYPAD,,,Interface,Touchpanel
+Load Bank,LB,,,,,,
+make-up air handler,MAU,IfcUnitaryEquipment,AIRHANDLER,Air Handling Unit,mau,,
+Meter,MTR,IfcFlowMeter,NOTDEFINED,Meter,meter,Meter,Meter
+Meter - Electrical Meter,EM,IfcFlowMeter,ENERGYMETER,Meter,elec-meter,Meter,Meter
+Meter - Flow Meter,FM,IfcFlowMeter,NOTDEFINED,Meter,flow-meter,Meter,Meter
+Meter - Gas Meters,GM,IfcFlowMeter,GASMETER,Meter,flow-meter,Meter,Meter
+Meter - Heat meters,HM,IfcFlowMeter,NOTDEFINED,Meter,thermal-meter,Meter,Meter
+Meter - Waste Water Meter,WWM,IfcFlowMeter,NOTDEFINED,Meter,flow-meter,Meter,Meter
+Meter - Water Meters,WM,IfcFlowMeter,WATERMETER,Meter,flow-meter,Meter,Meter
+Motor Controller - VSD (Inverter Drive),VSD,,,Motor,vfd,VFD,VFD
+Motor Controllers - Motor Control Center Panel,MCC,IfcUnitaryControlElement,NOTDEFINED,Panel,"
+controls-panel",,
+Panels - Chemical Treatment Control Panel,CTCP,IfcUnitaryControlElement,NOTDEFINED,Panel,"
+controls-panel",,
+Panels - Control Panel (Generic),CTRP,IfcUnitaryControlElement,CONTROLPANEL,Panel,"
+controls-panel",,
+Panels - Fire Alarm Control Panel,FACP,IfcUnitaryControlElement, NOTDEFINED,Panel,"
+controls-panel",Fire Safety System,Fire Control Panel
+Panels - Gas Detection Panel,GASDET,IfcUnitaryControlElement,GASDETECTIONPANEL,Panel,"
+controls-panel",,
+Panels - Control Panel,CTRP,IfcUnitaryControlElement,CONTROLPANEL,Panel,controls-panel,,
+Panels - Remote I/O Panel,RIO,IfcUnitaryControlElement,NOTDEFINED,Panel,controls-panel,,
+Pollution Control Unit,PCU,,,,,,
+Power Distribution Unit,PDU,,,,,,
+Pressurization Units,PU,IfcUnitaryEquipment,NOTDEFINED,,,,
+Primary / Secondary Low Loss Header,LLC,IfcPipeFitting,NOTDEFINED,,,,
+Pump,PMP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Auxilliary Process Cooling Water Pump,AXCWP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Boiler Circulation Pump (at headered-Primary),PBCP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Boiler Circulation Pump (at headered-Secondary),SBCP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Boiler Hot Water Pump,HHWP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Booster Pump,BSP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Chilled Water Pump,CHWP,IfcPump,NOTDEFINED,(Marker),pump,Water Pump,Chilled Water Pump
+Pump - Circulating Pump,CP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Condenser Water Pump,CDWP,IfcPump,NOTDEFINED,(Marker),pump,Water Pump,Condenser Water Pump
+Pump - Cooling Tower Separator Pump,CTSEPP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Domestic Hot Water Pump,DHWP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Dosing Pump,DP,IfcPump,NOTDEFINED,(Marker),pump,HVAC,Water Pump
+Pump - Dry Cooler Pump,DACP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Fire Hydrant Pump,FHP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Heat Exchanger Pump,HXP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - High Temperature Chilled Water Pump,HTCHP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - High Temperature Condenser Water Pump,HTCWP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Hot Water Recirculation Pump,HWRP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Low Temperature Chilled Water Pump,LTCHWP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Low Temperature Condenser Water Pump,LTCWP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Low Temperature Hot Water Pump,LTHWP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Packaged Pump Set,PAPS,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Potable/Domestic Water Booster Pump,DWBP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Potable/Domestic Water Transfer Pump,DWTP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Primary Boiler Pump,PBP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Primary Pump,PP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Process Cooling Water Pump,PCWP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Process Water Pump,PWP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Recirculation Pump,RCP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Recycled Water Pump,RWP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Secondary Boiler Pump,SBP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Secondary Pump,SP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Separator Pump,SEPP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Service Water Distribution Pump,SWDP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Sump Pump,SMPP,IfcPump,SUMPPUMP,(Marker),pump,Pump,Water Pump
+Pump - Tower Make Up Pump,TMUP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Transfer Pump,TRP,IfcPump,NOTDEFINED,(Marker),pump,HVAC,Pump
+Pump - Vacuum Pump,VCP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+Pump - Waste Water Pump,WWP,IfcPump,NOTDEFINED,(Marker),pump,Pump,Water Pump
+run around coil,RAC,IfcAirToAirHeatRecovery,RUNAROUNDCOILLOOP," heatExchanger
+",coil,Coil,"HX, Heat Exchanger"
+Sand Oil Interceptor,SOI,IfcInterceptor,OIL,,,,
+Sand Separator,TSP,,,,,,
+Sanitary Terminal - Sink,SK,IfcSanitaryTerminal,SINK,,,,
+Sensor - Humidity - Humidity Sensors,HMS,IfcSensor,HUMIDITYSENSOR,(point),air humidity point,Humidity Sensor,Humidity Sensor
+Sensor - Light Motion sensor,LMS,IfcSensor,MOVEMENTSENSOR,,,Sensor,Occupancy Sensor
+Sensor - Gas - CO sensors (CMOS),COS,,,,,,
+Sensor - Gas - CO2 (Carbon Dioxide) Sensor (CDOS),CDS,,,,,,
+Sensor - Temperature Sensor,TPS,IfcSensor,TEMPERATURESENSOR,,,Sensor,Temperature Sensor
+Sewage Ejector,SE,,,,,,
+Shade and Drape Controller,SDC,,,,,,
+Static Transfer Switch,STS,,,,,,
+Switch - Disconnect,DSCT,ifcSwitchingDevice,SWITCHDISCONNECTOR,,,,
+Switch - Safety Switch or Disconnect Switch,DSCTS,IfcSwitchingDevice,,,,,
+Tanks - Break Tank & Booster Set,BTBS,IfcTank,BREAKPRESSURE,equip,tank,,
+Tanks - Expansion Tank,ETK,IfcTank,EXPANSION,equip,tank,,
+Tanks - Fire Hydrant Tank,FHT,IfcTank,STORAGE,equip,tank,,
+Tanks - Hot Water Cylinder,HWC,IfcTank,STORAGE,equip,tank,,
+Tanks - Potable/Domestic Water Transfer Tank,DWTT,IfcTank,NOTDEFINED,equip,tank,,
+Tanks - Sprinkler Tank,SPT,IfcTank,STORAGE,equip,tank,,
+Tanks - Thermal Storage Tank,TST,IfcTank,STORAGE,equip,tank,,
+Tanks - Water Tank,TK,IfcTank,STORAGE,equip,tank,,
+Thermal Storage System,TSS,,,,,,
+thermal wheel,TW,IfcAirToAirHeatRecovery,ROTARYWHEEL,equip,heatExchanger,HVAC,HX
+Thermostat,TSTAT,ifcUnitaryControlElement,THERMOSTAT,Thermostat,thermostat,Thermostat,Thermostat
+Trace Heating,EHT,,,,,,
+Transformer,TXMR,IfcTransformer,NOTDEFINED,,,,
+UPS - Uninteruptable Power Supply (UPS) Units,UPS,IfcElectricFlowStorageDevice,UPS,,,Electrical System,Energy Storage
+Valve,VLV,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Balancing Valve,BLV,IfcValve,COMMISSIONING,(Marker),valve,Valve,Valve
+Valve - Blowdown Valve,BDV,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Bypass Valve,BVY,IfcValve,DIVERTING,"(Marker), 
+also: pipeSectionType","valve,
+also: bypass",Valve,Valve
+Valve - Check Valve,CKV,IfcValve,CHECK,(Marker),valve,Valve,Valve
+Valve - Chilled Water Valve,CHWV,IfcValve,NOTDEFINED,(Marker),valve,Valve,"Chilled Water Valve, Chilled Water Valve"
+Valve - Condenser Water Valve,CWV,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Control Valve,CV,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Float Valve,FV,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Flow Control Valve,FCV,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Isolation Valve,ISV,IfcValve,ISOLATING,(Marker),valve,Valve,Isolation Valve
+Valve - Level Control Valve,LCV,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Make Up Water Valve,MUV,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Master Thermostatic Valve,MMV,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Pressure reducing valves,PRV,IfcValve,PRESSUREREDUCING,(Marker),valve,Valve,Valve
+Valve - Process Water Valve,PWV,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Recirculation Valve,RCV,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Temperature Control Valve,TCV,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Thermostatic Mixing Valve,TMV,IfcValve,MIXING,(Marker),valve,Valve,Valve
+Valve - Tower Make Up Valve,TMU,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valve - Water Hammer Arrestor,WHA,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
+Valves - Pressure Relief - Pressure relief valves,PRFV,IfcValve,PRESSURERELIEF,(Marker),valve,Valve,Valve
+variable air volume box,VAV,IfcAirTerminalBox,"NOTDEFINED, VARIABLEFLOWPRESSUREDEPENDANT, VARIABLEFLOWPRESSUREINDEPENDANT",AirTerminalUnit,vav,Variable Air Volume Box,"Variable Air Volume Box, VAV"
+Variable Frequency Drive,VFD,IFCMotorConnection,NOTDEFINED,Motor,vfd,VFD,VFD
+Water Solenoid Valve,SNV,IfcValve,SAFETYCUTOFF(?),(Marker),valve,Valve,Valve
+Weather Station,WST,IfcUnitaryControlElement,WEATHERSTATION,(Marker),weatherStation,Equipment,Weather
