@@ -211,7 +211,7 @@ Valve - Thermostatic Mixing Valve,TMV,IfcValve,MIXING,(Marker),valve,Valve,Valve
 Valve - Tower Make Up Valve,TMU,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
 Valve - Water Hammer Arrestor,WHA,IfcValve,NOTDEFINED,(Marker),valve,Valve,Valve
 Valves - Pressure Relief - Pressure relief valves,PRFV,IfcValve,PRESSURERELIEF,(Marker),valve,Valve,Valve
-variable air volume box,VAV,IfcAirTerminalBox,"NOTDEFINED, VARIABLEFLOWPRESSUREDEPENDANT, VARIABLEFLOWPRESSUREINDEPENDANT",AirTerminalUnit,vav,Variable Air Volume Box,"Variable Air Volume Box, VAV"
+variable air volume box,VAV,IfcAirTerminalBox,"NOTDEFINED",AirTerminalUnit,vav,Variable Air Volume Box,"Variable Air Volume Box, VAV"
 Variable Frequency Drive,VFD,IFCMotorConnection,NOTDEFINED,Motor,vfd,VFD,VFD
 Water Solenoid Valve,SNV,IfcValve,SAFETYCUTOFF(?),(Marker),valve,Valve,Valve
 Weather Station,WST,IfcUnitaryControlElement,WEATHERSTATION,(Marker),weatherStation,Equipment,Weather
