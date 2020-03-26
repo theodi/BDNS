@@ -71,12 +71,10 @@ A W3C community group provides a neutral location for organisations working acro
 
 The W3C provide the group with a homepage, a means to publish specifications, and some collaboration tools (e.g. our mailing list). This provides the group with a stable presence on the web, even though the membership of the group might change over time.
 
-The community group has a charter [TBD], based on a recommended W3C community group template. It includes additional details about how disputes are handled, new chairs are selected, etc.
-
 
 ### Chair(s)
 
-The community group is currently chaired by [TBD]. In the future other organisations may take on responsibility for chairing and managing the group.
+The community group is currently chaired by Sotiria Lavasa (Arup), having been nominated by the members of the Community Group in March 2020. In the future other organisations may take on responsibility for chairing and managing the group.
 
 It is the responsibility of the Chair to ensure that we are following our governance principles. For example, ensuring that we have developed broad consensus around planned changes, are being transparent around decision making, and are working in the open.
 
@@ -87,8 +85,11 @@ The role of the editor(s) is to document decisions and write the specifications 
 
 Editors appointments are suggested by the chairs, and the decision to appoint follows the group’s usual [process for consensus](#heading=h.xhh6rjqudxhq).
 
-Current editor(s) for the group is/are [TBD].
+Current editor(s) for the group is/are:
 
+* Francesco Anselmo (@pisuke) – Arup – Register and Syntax
+* Richard Reid (@richardkreid) – Google – Register and Syntax
+* Olivier Thereaux (@olivierthereaux) - ODI - Governance document
 
 ### Community Group members
 
@@ -125,10 +126,10 @@ Currently we use the following:
 
 
 *   **Mailing list**. The community group has a public mailing list which can be used to contact all current members of the group. We use this list for key announcements and co-ordinating events. Archives of the mailing-list are public.
-*   **Regular teleconference**. We hold monthly (TBC) open video calls to provide updates on progress and to help discuss key issues. The calls are recorded or minuted, and minutes/recordings are published as a record of our discussions and to allow others to monitor progress. The calendar of meetings is available online [TBA] and can be imported into your calendar.
+*   **Regular teleconference**. Active members of the community group meet frequently (currently: weekly)to discuss progress on the documents and issues. Decisions made during the meeting will be documented in Github issues or commit messages, and may also be posted on the public mailing-list. We also hold monthly open video calls to provide updates on progress and to help discuss key issues. Dates and logistics of the next call, as well as notes or minutes of previous calls, will be posted on the public mailing-list.
 *   **Github**. We use github to manage our working documents and as an issue tracker. The issue tracker for each specification is clearly linked at the top of the document.
 *   **Google Documents**. We occasionally use google documents to help to collaborate on additional best practice guidance or documentation. Documents are always made openly available for anyone to view and/or comment. Documents are shared via the mailing list.
-*   **Blog**. For key milestones we publish short blog posts [Location TBD].
+*   **Blog**. For key milestones we publish short blog posts on the [W3C Community Group blog](https://www.w3.org/community/bdns/).
 
 Over time we may use additional tools and website to help publish additional tutorials and other supporting documentation.
 
@@ -227,7 +228,7 @@ Anyone can submit a new name to the register. The process for submission is as f
     1. Additions to the register can be proposed by submitting a “pull request” to the [Github repository](https://github.com/theodi/BDNS).
     2. Alternative submission mechanisms (e.g. through a mail address) may be made available if the Github PR mechanisms are deemed too technical.
 2. A notification of the submission is made available to the Community Group
-3. If there are no objections from members of the Community Group or Editors, the editors will either integrate the submission or suggest an alternative to the submitter within two weeks (TBC)
+3. If there are no objections from members of the Community Group or Editors, the editors will either integrate the submission or suggest an alternative to the submitter within two weeks.
     3. If the submission is tantamount to a substantial change ([as defined by the W3C Process](https://www.w3.org/2019/Process-20190301/#correction-classes)), the submitter will be required to sign the W3C Community Contributor Licence Agreement before the change can be accepted and integrated. Joining the [Community Group](https://www.w3.org/community/bdns/) involves signing the CLA, therefore members of the group do not need to sign it when suggesting a change.
 4. If there are objections from members of the Community Group or Editors, the issue is escalated to the attention of the Community Group and its Chair(s), and the normal consensus building process applies
 
