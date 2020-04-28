@@ -1,6 +1,7 @@
 
 # Building device naming standard
 
+Status: *Editors' draft*
 
 ## Scoping guidelines and principles
 
