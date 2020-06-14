@@ -1,7 +1,8 @@
 asset_type,abbreviation,ifc_class,ifc_type,haystack_parent,haystack_child,brick_parent,brick_child
 actuator,ATR,IfcActuator,NOTDEFINED,Actuator,actuator,,
 air handling unit,AHU,IfcUnitaryEquipment,AIRHANDLER,Air Handling Unit,"ahu, airHandlingEquip","Air Handler Unit, AHU",
-automatic transfer switch,ATS,IfcProtectiveDevice ,NOTDEFINED,,,,
+automatic transfer switch,ATS,IfcProtectiveDevice,NOTDEFINED,,,,
+automatic heat and smoke vent,AHSV,IfcUnitaryEquipment,NOTDEFINED,,,,
 boiler,BLR,ifcBoiler,NOTDEFINED,Boiler,boiler,Boiler,Boiler
 break glass unit,BGU,,,,,,
 air conditioning unit,ACU,IfcUnitaryEquipment,AIRCONDITIONINGUNIT,,,,
