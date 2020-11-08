@@ -30,18 +30,22 @@ burner - furnace,FR,IfcBurner,NOTDEFINED,,,,,,,,,
 chilled beam,CHB,IfcCooledBeam,NOTDEFINED,chilledBeam,,,Space heating and cooling products,"Climatic beams and ceilings
 ",Pr_70_60_14,Convection Heating and Cooling Units,Chilled Beams,22-23 82 14
 chiller ,CH,IfcChiller,NOTDEFINED,chiller,Chiller,,Heating and cooling source products,"Chillers and cooling towers
-","Pr_60_60_13",,,
+","Pr_60_60_13
+",,,
 chiller - critical cooling chiller,CCCH,IfcChiller,NOTDEFINED,chiller,Chiller,,,,,,,
 chiller - high temperature chiller,HTCH,IfcChiller,NOTEDEFINED,chiller,Chiller,,,,,,,
 chiller - hybrid air cooler,HYAC,IfcEvaporativeCooler,NOTDEFINED,,,,,,,,,
 chiller - low temperature chiller,LTCH,IfcChiller,NOTDEFINED,chiller,Chiller,,,,,,,
-coil,COIL,IfcCoil,NOTDEFINED,coil,Heat Exchanger,Coil,Air and fume source products,"Heating and cooling coils",Pr_60_65_37,,,
-coil - cooling coil,CC,IfcCoil,WATERCOOLINGCOIL,coolingCoil,Coil,Cooling Coil,Air and fume source products,"Chilled water cooling coils",Pr_60_65_37_12,,,
+coil,COIL,IfcCoil,NOTDEFINED,coil,Heat Exchanger,Coil,Air and fume source products,"Heating and cooling coils
+",Pr_60_65_37,,,
+coil - cooling coil,CC,IfcCoil,WATERCOOLINGCOIL,coolingCoil,Coil,Cooling Coil,Air and fume source products,"Chilled water cooling coils
+",Pr_60_65_37_12,,,
 coil - frost coil,FRC,IfcCoil,NOTDEFINED,coil,Heat Exchanger,Coil,,,,,,
 coil - heating coil,HC,IfcCoil,WATERHEATINGCOIL,heatingCoil,,,Air and fume source products,Low temperature hot water heating coils,Pr_60_65_37_47,,,
 coil - reheat coil,RHC,IfcCoil,NOTDEFINED,coil,Heat Exchanger,Coil,,,,,,
 coil - run around coil,RAC,IfcAirToAirHeatRecovery,RUNAROUNDCOILLOOP,coil,Heat Exchanger,Coil,"Heat recovery distribution equipment
-","Run-around coils","Pr_60_60_36_7
+","Run-around coils
+","Pr_60_60_36_7
 ",,,
 communications gateway,CGW,IfcCommunicationsAppliance,GATEWAY,,,,,,,,,
 compressor,CMP,IfcCompressor,NOTDEFINED,,Compressor,,,,,,,
@@ -56,11 +60,13 @@ controller - direct digital controller,DDC,IfcController,PROGRAMMABLE,controller
 controller - programmable logic controller,PLC,IfcController,PROGRAMMABLE,controller,,,Controllers and control panels,Programmers,Pr_75_50_18_70,,,
 cooling skid,CSK,IfcVibrationIsolator,NOTDEFINED,,,,,,,,,
 cooling tower ,CT,IfcCoolingTower,NOTDEFINED,coolingTower,,,Heating and cooling source products,"Chillers and cooling towers
-","Pr_60_60_13",Cooling Towers,Cooling Towers,22-23 65 00
+","Pr_60_60_13
+",Cooling Towers,Cooling Towers,22-23 65 00
 cooling tower filtration system,CTFS,IfcDistributionSystem,NOTDEFINED,,,,,,,,,
 cooling tower separator / sand separator,CTSSEP,IfcFilter,NOTDEFINED,,,,,,,,,
 cooling tower water treatment system / skid,CTSK,IfcDistributionSystem,NOTDEFINED,,,,,,,,,
-damper ,DMP,IfcDamper,NOTDEFINED,damper,Damper,,"Ductwork products",Duct dampers,Pr_65_65_24,,,
+damper ,DMP,IfcDamper,NOTDEFINED,damper,Damper,,"Ductwork products
+",Duct dampers,Pr_65_65_24,,,
 damper - air control damper,ACD,IfcDamper,CONTROLDAMPER,damper,Damper,,,,,,,
 damper - balancing damper,BD,IfcDamper,BALANCINGDAMPER,damper,Damper,,,,,,,
 damper - bypass damper,BYD,IfcDamper,CONTROLDAMPER,damper,Dmper,,,,,,,
@@ -80,9 +86,14 @@ deareator,DEA,IfcTank,NOTDEFINED,tank,,,,,,,,
 degasser,DGA,IfcFilter,NOTDEFINED,tank,,,,,,,,
 dehumidifier,DHUM,IfcUnitaryEquipment,DEHUMIDIFIER,,,,Air and fume distribution products,Humidifiers and dehumidifiers,Pr_65_67_39,,,
 direct expansion cooling unit,DX,IfcUnitaryEquipment,SPLITSYSTEM,,,,,,,,,
-door,DOOR,IfcDoor,DOOR,,,,Openings and opening component products,Doorsets,"Pr_30_59_24",,,
-door - fire door,FDOOR,IfcDoor,NOTDEFINED,,,,Doorsets,Fire doorsets,"Pr_30_59_24_28",,,
-dosing pot,DPOT,IfcDistributionFlowElement,,,,,"Water treatment products","Water treatment dosing pots","Pr_60_55_97_97",,,
+door,DOOR,IfcDoor,DOOR,,,,Openings and opening component products,Doorsets,"Pr_30_59_24
+",,,
+door - fire door,FDOOR,IfcDoor,NOTDEFINED,,,,Doorsets,Fire doorsets,"Pr_30_59_24_28
+",,,
+dosing pot,DPOT,IfcDistributionFlowElement,,,,,"Water treatment products
+","Water treatment dosing pots
+","Pr_60_55_97_97
+",,,
 drinking fountain / bottle filler,DF,IfcSanitaryTerminal,SANITARYFOUNTAIN,,,,,,,,,
 dry air cooler,DAC,IfcCondenser,AIRCOOLED,,Condenser,,,,,,,
 duct heater,DH,IfcSpaceHeater,NOTDEFINED,duct,,,,,,,,
@@ -154,7 +165,8 @@ fan - transfer fan,TF,IfcFan,NOTDEFINED,fan,Fan,,,,,,,
 fan coil unit,FCU,IfcUnitaryEquipment,NOTDEFINED,fcu,FCU,"FCU, Fan Coil Unit",Air conditioning units,Fan coil units,Pr_70_65_03_29,Convection Heating and Cooling Units,Fan Coil Units,22-23 82 19
 filter - cooling tower sand filter,CTSF,IfcFilter,NOTDEFINED,filter,Filter,,,,,,,
 filter - cooling tower separator,CTSEP,IfcFilter,NOTDEFINED,filter,Filter,,Heating and cooling source products,"Chillers and cooling towers
-","Pr_60_60_13",Cooling Towers,Cooling Towers,22-23 65 00
+","Pr_60_60_13
+",Cooling Towers,Cooling Towers,22-23 65 00
 filter - pollution control unit,PCU,IfcFilter,AIRPARTICLEFILTER,filter,Filter,,,,,,,
 filter - process filtration unit,PFU,IfcUnitaryEquipment,NOTDEFINED,,,,,,,,,
 filter - reverse osmosis system,RO,,,,,,,,,,,

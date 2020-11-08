@@ -1,6 +1,7 @@
 
 # Building device naming standard
 
+Status: *Editors' draft*
 
 ## Scoping guidelines and principles
 
@@ -14,13 +15,11 @@ The lack of standardised naming and labelling for building devices through desig
 
 # Purpose
 
-This project intends to provide an industry wide naming convention framework for  Information Technology (IT), Mechanical, Electrical and Public Health (MEP), and other Operational Technology (OT) devices within buildings.
+This project intends to provide an **industry wide naming convention framework** for  Information Technology (IT), Mechanical, Electrical and Public Health (MEP), and other Operational Technology (OT) devices within buildings.
 
 We believe that sharing data in an open and secure way would be a significant benefit for the industry, and is an important first step in being able to normalise data interactions in the future. Being able to efficiently collect, analyse and leverage data insights from buildings is a catalyst for optimising building performance, improving the use of resources and moving towards predictive maintenance and buildings that can respond to the climate emergency.
 
 There is a number of initiatives around naming and tagging already in the industry, namely:
-
-
 
 *   Omniclass (asset management)
 *   Uniclass (asset management)
@@ -28,22 +27,25 @@ There is a number of initiatives around naming and tagging already in the indust
 *   Brick schema (linked data for control systems)
 *   Haystack (tagging and linked data for control system)
 
-The intent is not to replace these standards or create an overarching umbrella standard on top of existing initiatives, but to create a convention that is complementary and can address the correct naming of control system devices from the early design stages through to operation, while ensuring relevance and suitability to all design and operational building stakeholders.
+The intent is not to replace these standards or create an overarching umbrella standard on top of existing initiatives, but to create a convention that is complementary and can address the correct naming of control system devices and associated maintainable assets (within the framework) from the early design stages through to operation, while ensuring relevance and suitability to all design and operational building stakeholders.
 
 
 # Scope
 
-The scope of this project is to provide an open naming convention and associated specifications for the naming of building control devices within buildings.
+The scope of this project is to provide an open naming convention and associated specifications for the naming of building control devices and associated items of equipment (within the defined framework) within buildings.
 
-For the purpose of this standard, the definition of building control devices is _any equipment that can change state and is monitored within a building_. Example of devices are:
-
-
+For the purpose of this standard, the definition of **building control devices** is _any equipment that can change state and is monitored within a building_. Example of controls devices are:
 
 *   temperature sensors,
 *   fan coil units,
 *   VAV boxes,
 *   pumps,
 *   luminaires.
+
+**Associated items of equipment** are:
+
+*   manual devices that require maintenance or are used to setup a system - e.g. commissioning sets, regulating valves etc.
+*   an architectural element that may have a building control device associated with it - e.g. a door or a window
 
 The naming standard is applicable to fixed equipment only. Mobile equipment such as desk modules and portable sensors are not considered devices in the context of this project and therefore the naming convention is not applicable. Components that are part of a device, such as fan coil unit valves and controllers are not considered to be standalone devices, and therefore do not need individual names.
 

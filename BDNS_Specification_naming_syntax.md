@@ -1,5 +1,6 @@
 # Building device naming standard
 
+Status: *Editors' draft*
 
 ## Specification for naming syntax
 
