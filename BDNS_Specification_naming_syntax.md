@@ -182,12 +182,12 @@ The format is composed of a 2 to 6 uppercase alphabetical characters long type a
 
 Only numeric and uppercase alphabetic characters are allowed, according to the regular expression below. The separator character between the type enumeration and incremental identifier is a hyphen (`-`).
 
-For practical reasons, at the discretion of the user and as long as there are no name clashes between devices in the same building, the 6 digits forming the second part of the device role name can be assigned following spatial or discipline specific scoping methods. For instance, the lighting fixtures on level 3 of a 20 stories building can all share the same first part of the name `LTF-03####` and the subsequent integer numbers can be attributed incrementally.
+For practical reasons, at the discretion of the user and as long as there are no name clashes between devices in the same building, the 6 digits forming the second part of the device role name can be assigned following spatial or discipline specific scoping methods. For instance, the lighting fixtures on level 3 of a 20 stories building can all share the same first part of the name `LT-03####` and the subsequent integer numbers can be attributed incrementally.
 
 
 ### Examples
 
-Name example for a lighting fixture: `LTF-15`
+Name example for a lighting fixture: `LT-15`
 
 Name example for an air handling unit: `AHU-3`
 
