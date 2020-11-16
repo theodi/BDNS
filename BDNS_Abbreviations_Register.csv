@@ -216,3 +216,5 @@ variable air volume box,VAV,IfcAirTerminalBox,NOTDEFINED,AirTerminalUnit,vav,Var
 variable frequency drive,VFD,IFCMotorConnection,NOTDEFINED,Motor,vfd,VFD,VFD
 water solenoid valve,SNV,IfcValve,SAFETYCUTOFF(?),(Marker),valve,Valve,Valve
 weather station,WST,IfcUnitaryControlElement,WEATHERSTATION,(Marker),weatherStation,Equipment,Weather
+Audio Visual - Display,AVD,IfcAudioVisualAppliance,DISPLAY,,,,
+Audio Visual - Speaker,SPK,IfcAudioVisualAppliance,SPEAKER,,,,
