@@ -2,7 +2,7 @@
 
 This repository holds resources for an initiative to improve interoperability in building management, by focusing on standardising naming of connected devices.
 
-Achieving a common standard across building devices’ naming is an important first step towards being able to efficiently collect, analyse and capture data insights from buildings, an thus optimise building performance and reduce the operational cost and environmental impact of managing buildings.  
+Achieving a common standard across building devices’ naming is an important first step towards being able to efficiently collect, analyse and capture data insights from buildings, and thus optimise building performance to reduce the operational cost and environmental impact of managing buildings.
 
 Longer-term, this sets the groundwork for real industry collaboration - with the potential to create industry-wide benchmarking, and to facilitate trading of buildings between portfolios.
 
