@@ -3,7 +3,7 @@ actuator,ACT,"HVAC Control, Facade, LC",IfcActuator,NOTDEFINED,actuator,,,Contro
 Valve actuators","Pr_75_50_18_21,
 Pr_75_50_18_94
 "
-ahu - air handling unit,AHU,HVAC,IfcUnitaryEquipment,AIRHANDLER,Air Handling Unit,"Air Handler Unit, AHU",,Air and fume source products,Air handling units,Pr_60_65_03
+ahu - air handling unit,AHU,HVAC,IfcUnitaryEquipment,AIRHANDLER,ahu,"Air Handler Unit, AHU",,Air and fume source products,Air handling units,Pr_60_65_03
 ahu - heat recovery unit,HRU,HVAC,IfcAirToAirHeatRecovery,NOTDEFINED,ahu,"Air Handler Unit, AHU",,Air and fume source products,Air handling units,Pr_60_65_03
 ahu - make-up air handler,MAU,HVAC,IfcUnitaryEquipment,AIRHANDLER,mau,Air Handler Unit,,,,
 air conditioning unit,ACU,HVAC,IfcUnitaryEquipment,AIRCONDITIONINGUNIT,hvac,,,,,
@@ -31,21 +31,26 @@ cgw,PHX,HVAC,IfcHeatExchanger,PLATE,heatExchanger,"HX, Heat Exchanger",,Calorifi
 chilled beam,CHB,HVAC,IfcCooledBeam,NOTDEFINED,chilledBeam,,,Space heating and cooling products,"Climatic beams and ceilings
 ",Pr_70_60_14
 chiller ,CH,HVAC,IfcChiller,NOTDEFINED,chiller,Chiller,,Heating and cooling source products,"Chillers and cooling towers
-","Pr_60_60_13"
+","Pr_60_60_13
+"
 chiller - cooling tower ,CT,HVAC,IfcCoolingTower,NOTDEFINED,coolingTower,,,Heating and cooling source products,"Chillers and cooling towers
-","Pr_60_60_13"
+","Pr_60_60_13
+"
 chiller - critical cooling chiller,CCCH,HVAC,IfcChiller,NOTDEFINED,chiller,Chiller,,,,
 chiller - dry air cooler,DAC,HVAC,IfcCondenser,AIRCOOLED,,Condenser,,,,
 chiller - high temperature chiller,HTCH,HVAC,IfcChiller,NOTEDEFINED,chiller,Chiller,,,,
 chiller - hybrid air cooler or fluid cooler,HYAC,HVAC,IfcEvaporativeCooler,NOTDEFINED,,,,,,
 chiller - low temperature chiller,LTCH,HVAC,IfcChiller,NOTDEFINED,chiller,Chiller,,,,
-coil,COIL,HVAC,IfcCoil,NOTDEFINED,coil,Heat Exchanger,Coil,Air and fume source products,"Heating and cooling coils",Pr_60_65_37
-coil - cooling coil,CC,HVAC,IfcCoil,WATERCOOLINGCOIL,coolingCoil,Coil,Cooling Coil,Air and fume source products,"Chilled water cooling coils",Pr_60_65_37_12
+coil,COIL,HVAC,IfcCoil,NOTDEFINED,coil,Heat Exchanger,Coil,Air and fume source products,"Heating and cooling coils
+",Pr_60_65_37
+coil - cooling coil,CC,HVAC,IfcCoil,WATERCOOLINGCOIL,coolingCoil,Coil,Cooling Coil,Air and fume source products,"Chilled water cooling coils
+",Pr_60_65_37_12
 coil - frost or preheat coil,PHC,HVAC,IfcCoil,NOTDEFINED,coil,Heat Exchanger,Coil,,,
 coil - heating coil,HC,HVAC,IfcCoil,WATERHEATINGCOIL,heatingCoil,,,Air and fume source products,Low temperature hot water heating coils,Pr_60_65_37_47
 coil - reheat coil,RHC,HVAC,IfcCoil,NOTDEFINED,coil,Heat Exchanger,Coil,,,
 coil - run around coil,RAC,HVAC,IfcAirToAirHeatRecovery,RUNAROUNDCOILLOOP,coil,Heat Exchanger,Coil,"Heat recovery distribution equipment
-","Run-around coils","Pr_60_60_36_7
+","Run-around coils
+","Pr_60_60_36_7
 "
 communication gateway,CGW,"HVAC Controls, LC, EM, ITC, Fire, Security, Electrical, Transportation, Facade, AV, ES",IfcCommunicationsAppliance,GATEWAY,,,,,,
 compressor,CMP,HVAC,IfcCompressor,NOTDEFINED,,Compressor,,,,
@@ -55,7 +60,8 @@ controller,CNTRL,"HVAC Controls, PH, BMS, LC, Fire, Facade, ITC, AV, Electrical"
 controller - direct digital controller,DDC,HVAC Control,IfcController,PROGRAMMABLE,controller,,,,,
 controller - programmable logic controller,PLC,Electrical,IfcController,PROGRAMMABLE,controller,,,Controllers and control panels,Programmers,Pr_75_50_18_70
 controller - shading device controller,SDC,Facade,IfcController,NOTDEFINED,controller,,,,,
-damper ,DMP,"HVAC, Fire",IfcDamper,NOTDEFINED,damper,Damper,,"Ductwork products",Duct dampers,Pr_65_65_24
+damper ,DMP,"HVAC, Fire",IfcDamper,NOTDEFINED,damper,Damper,,"Ductwork products
+",Duct dampers,Pr_65_65_24
 damper - bypass control damper,BYCD,HVAC,IfcDamper,CONTROLDAMPER,damper,Dmper,,,,
 damper - fire damper,FD,Fire,IfcDamper,FIREDAMPER,damper,Damper,,Duct dampers,Fire dampers,Pr_65_65_24_30
 damper - inlet control damper,ICD,HVAC,IfcDamper,CONTROLDAMPER,damper,Damper,,,,
@@ -70,8 +76,10 @@ damper - return isolation damper,RTISD,HVAC,IfcDamper,CONTROLDAMPER,,,,,,
 damper - volume control damper,VCD,HVAC,IfcDamper,BALANCINGDAMPER,damper,Damper,,Duct dampers,Volume control dampers,Pr_65_65_24_95
 data processing unit / computer,DPU,ITC,IfcCommunicationsAppliance,NOTDEFINED,,,,,,
 dehumidifier,DHUM,HVAC,IfcUnitaryEquipment,DEHUMIDIFIER,,,,Air and fume distribution products,Humidifiers and dehumidifiers,Pr_65_67_39
-door,DOOR,"Architecture, Fire, Security",IfcDoor,DOOR,,,,Openings and opening component products,Doorsets,"Pr_30_59_24"
-door - fire door,FDOOR,"Architecture, Fire, Security",IfcDoor,NOTDEFINED,,,,Doorsets,Fire doorsets,"Pr_30_59_24_28"
+door,DOOR,"Architecture, Fire, Security",IfcDoor,DOOR,,,,Openings and opening component products,Doorsets,"Pr_30_59_24
+"
+door - fire door,FDOOR,"Architecture, Fire, Security",IfcDoor,NOTDEFINED,,,,Doorsets,Fire doorsets,"Pr_30_59_24_28
+"
 drinking fountain / bottle filler,DF,PH,IfcSanitaryTerminal,SANITARYFOUNTAIN,,,,,,
 duct silencer - attenuator,SLCR,HVAC,IfcDuctSilencer,NOTDEFINED,,,,Air and fume distribution products,Sound attenuators,Pr_65_67_78
 dx system - variable refrigerant flow unit,VRF,HVAC,IfcUnitaryEquipment,SPLITSYSTEM,,,,Heat pumps,Variable refrigerant flow (VRF) air-to-air heat pumps,Pr_70_60_37_94
@@ -133,7 +141,8 @@ filter - air separator,AS,"HVAC, PH",IfcFlowTreatmentDevice,,,,,,,
 filter - cooling tower filtration unit,CTFU,HVAC,IfcUnitaryEquipment,NOTDEFINED,,,,,,
 filter - cooling tower sand filter,CTSF,HVAC,IfcFilter,NOTDEFINED,filter,Filter,,,,
 filter - cooling tower separator,CTSEP,HVAC,IfcFilter,NOTDEFINED,filter,Filter,,Heating and cooling source products,"Chillers and cooling towers
-","Pr_60_60_13"
+","Pr_60_60_13
+"
 filter - cooling tower separator / sand separator,CTSSEP,HVAC,IfcFilter,NOTDEFINED,,,,,,
 filter - degasser filter,DGA,HVAC,IfcFilter,NOTDEFINED,tank,,,,,
 filter - pollution control unit,PCU,HVAC,IfcFilter,AIRPARTICLEFILTER,filter,Filter,,,,
@@ -345,7 +354,10 @@ water heater - domestic electric water heater,DEWH,PH,IfcElectricAppliance,FREES
 water heater - domestic gas water heater ,DGWH,PH,IfcBoiler,WATER,boiler,Boiler,,,,
 water heater - instantaneous water heater,IWH,PH,IfcElectricAppliance,,,,,,,
 water treatment - cooling tower water treatment unit,CTSU,HVAC,IfcUnitaryEquipment,NOTDEFINED,,,,,,
-water treatment - dosing pot,DPOT,"HVAC, PH",IfcDistributionFlowElement,NOTDEFINED,,,,"Water treatment products","Water treatment dosing pots","Pr_60_55_97_97"
+water treatment - dosing pot,DPOT,"HVAC, PH",IfcDistributionFlowElement,NOTDEFINED,,,,"Water treatment products
+","Water treatment dosing pots
+","Pr_60_55_97_97
+"
 water treatment - electro magnetic water conditioner,EMWC,"HVAC, PH",IfcFlowTreatmentDevice,,,,,,,
 weather station,WST,"HVAC, HVAC Control",IfcUnitaryControlElement,WEATHERSTATION,weatherStation,Weather Station,,Meteorological instrumentation,Weather stations,Pr_75_50_52_97
 window,WINDOW,"Architecture, Security",IfcWindow,NOTDEFINED,,,,,,
