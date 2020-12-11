@@ -13,3 +13,8 @@ The work of this community group will align with and complement other initiative
 In scope for this work are:
 - A [specification for naming syntax](BDNS_Specification_naming_syntax.md)
 - A [register of building device type abbreviations](BDNS_Abbreviations_Register.csv)
+
+## Note
+At the moment of release 1.0, the standard is focusing on naming of building control devices. 
+
+With time it will also include maintainable asset names.
