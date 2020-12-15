@@ -15,6 +15,7 @@ antenna - wi-fi antenna,WANT,IfcCommunicationsAppliance,ANTENNA
 av equipment - digital whiteboard,DWB,IfcAudioVisualAppliance,DISPLAY
 av equipment - display screen,DS,IfcAudioVisualAppliance,DISPLAY
 av equipment - iptv content management system device,CMS,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - speaker,SPK,IfcAudioVisualAppliance,SPEAKER
 av equipment - networked video recorder,NVR,IfcAudioVisualAppliance,PLAYER
 av equipment - video wall,VDW,IfcAudioVisualAppliance,DISPLAY
 burner - boiler,BLR,ifcBoiler,NOTDEFINED
