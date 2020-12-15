@@ -1,10 +1,9 @@
 
-# Building device naming standard
+# Building Device and Asset Naming Standards initiative
 
-Status: *Editors' draft*
+Status: *release 1.0.0*
 
 ## Governance model
-
 
 ## Background
 
@@ -12,18 +11,14 @@ This document provides an overview of governance and processes used in the initi
 
 This document is intended to be a useful reference point for anyone involved in contributing to the open standard(s) being developed.
 
-
 ## Scope
 
 Building devices in scope for this work are Mechanical, Electrical, Public Health (MEP) devices (known as Operational Technologies - OT) and Information Technology (IT).
 
 This standard is developed to align and complement with other initiatives in the industry such as BRICK, Haystack, Omniclass, Uniclass, IFC etc. In scope for this work are:
 
-
-
-*   A simple specification for naming syntax
-*   A register of building device names and labels
-
+* A [specification for the naming syntax](BDNS_Specification_naming_syntax.md)
+* A [register of building device and asset type abbreviations](BDNS_Abbreviations_Register.csv)
 
 ## Governance and platforms
 
