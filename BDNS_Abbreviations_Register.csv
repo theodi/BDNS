@@ -23,7 +23,6 @@ burner - furnace,FR,IfcBurner,NOTDEFINED
 burner - steam boiler,SB,IfcBoiler,STEAM
 camera,CAM,IfcAudioVisualAppliance,CAMERA
 "camera - pan, tilt, zoom camera",PTZCAM,IfcAudioVisualAppliance,CAMERA
-cgw,PHX,IfcHeatExchanger,PLATE
 chilled beam,CHB,IfcCooledBeam,NOTDEFINED
 chiller ,CH,IfcChiller,NOTDEFINED
 chiller - cooling tower ,CT,IfcCoolingTower,NOTDEFINED
@@ -144,6 +143,7 @@ heat emitters - hydronic trench convector,TC,IfcSpaceHeater,NOTDEFINED
 heat emitters - trace heating,EHT, - , - 
 heat emitters - trench heating,TRH,ifcSpaceHeater,NOTDEFINED
 heat exchanger,HXP,IfcHeatExchanger,NOTDEFINED
+heat exchanger - plate heat exchanger,PHX,IfcHeatExchanger,PLATE
 heat pumps - heat pump,HP,IfcUnitaryEquipment,
 high level interface,HLI,IfcController,PROGRAMMABLE
 horn strobe,HS,,
