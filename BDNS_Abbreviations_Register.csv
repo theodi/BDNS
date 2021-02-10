@@ -96,7 +96,7 @@ electrical distribution - medium voltage switchboard,MVSB,IfcElectricDistributio
 electrical distribution - power distribution unit,PDU,IfcElectricDistributionBoard,
 electrical distribution - static transfer switch,STS,IfcSwitchingDevice,
 electrical distribution - switchgear (12kv typ),SWGR,IfcElectricDistributionBoard,SWITCHBOARD
-electrical distribution - ups panel / board,UPS,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electrical distribution - ups panel / board,UPSB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electrical protective device - circuit breaker,CB,IfcProtectiveDevice,CIRCUITBREAKER
 electrical protective device - disconnect fuse,DSCTF,IfcProtectiveDevice,FUSEDISCONNECTOR
 electrical switch - safety switch or disconnect switch,DSCTS,IfcSwitchingDevice,SWITCHDISCONNECTOR
