@@ -100,7 +100,8 @@ electrical distribution - ups panel / board,UPSB,IfcElectricDistributionBoard,DI
 electrical protective device - circuit breaker,CB,IfcProtectiveDevice,CIRCUITBREAKER
 electrical protective device - disconnect fuse,DSCTF,IfcProtectiveDevice,FUSEDISCONNECTOR
 electrical switch - safety switch or disconnect switch,DSCTS,IfcSwitchingDevice,SWITCHDISCONNECTOR
-electrical switch - sectionalizer switch,SCS,IfcSwitchingDevice,SELECTORSWITCH	
+electrical switch - sectionalizer switch,SCS,IfcSwitchingDevice,SELECTORSWITCH
+electrochromic glass,ECG,-,-
 electronic key cabinet,EKC,IfcFurniture,NOTDEFINED
 evaporator,EEW,IfcSanitaryTerminal,SANITARYFOUNTAIN
 evaporator,EVP,IfcEvaporator,NOTDEFINED
