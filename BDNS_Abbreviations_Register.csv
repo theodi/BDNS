@@ -12,6 +12,7 @@ air terminal box - variable volume and temperature box,VVTB,IfcAirTerminalBox,NO
 air terminal box - variable volume terminal unit,VVT,IfcAirTerminalBox,NOTDEFINED
 antenna,ANT,IfcCommunicationsAppliance,ANTENNA
 antenna - wi-fi antenna,WANT,IfcCommunicationsAppliance,ANTENNA
+architecture - room,ROOM,IfcSpace,INTERNAL
 av equipment - digital whiteboard,DWB,IfcAudioVisualAppliance,DISPLAY
 av equipment - display screen,DS,IfcAudioVisualAppliance,DISPLAY
 av equipment - iptv content management system device,CMS,IfcAudioVisualAppliance,NOTDEFINED
@@ -132,6 +133,7 @@ filter - vacuum system filter,VSFLT,IfcFilter,NOTDEFINED
 filter - water - reverse rinsing filter,RRFLT,IfcFilter,NOTDEFINED
 fire - break glass unit,BGU,IfcAlarm,BREAKGLASSBUTTON
 fire suppression terminal - sprinkler head,SPH,IfcFireSuppressionTerminal,SPRINKLER
+furniture - desk,	DESK,IfcFurniture,DESK
 generator - clean steam generators,CSG,,
 generator - electricity generator,GEN,IfcElectricGenerator,ENGINEGENERATOR
 grease waste interceptor,GI,IfcInterceptor,GREASE
@@ -288,6 +290,7 @@ transportation - moving walkway,AW,IfcTransportElement,MOVINGWALKWAY
 trap primer,TP,IfcValve,NOTDEFINED
 trap primer - electronic trap primer,TPE,IfcValve,NOTDEFINED
 ups - uninteruptable power supply unit,UPS,IfcElectricFlowStorageDevice,UPS
+user interface - keypad,KP,IfcSwitchingDevice,KEYPAD
 valve,VLV,IfcValve,NOTDEFINED
 valve - air admittance valve,AAV,IfcValve,AIRRELEASE
 valve - angle stop valve,AV,IfcValve ,NOTDEFINED
