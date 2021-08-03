@@ -7,8 +7,8 @@ air conditioning unit,ACU,IfcUnitaryEquipment,AIRCONDITIONINGUNIT
 air conditioning unit - computer room AC unit,CRAC,IfcUnitaryEquipment,AIRCONDITIONINGUNIT
 air conditioning unit - direct expansion cooling unit,DX,IfcUnitaryEquipment,SPLITSYSTEM
 air terminal box - constant air volume box,CAV,IfcAirTerminalBox,CONSTANTFLOW
+air terminal box - fan powered variable air volume box,FPVAV,IfcAirTerminalBox,NOTDEFINED
 air terminal box - variable air volume box,VAV,IfcAirTerminalBox,NOTDEFINED
-air terminal box - fan powered variable air volume box,VAVFP,IfcAirTerminalBox,NOTDEFINED
 antenna,ANT,IfcCommunicationsAppliance,ANTENNA
 antenna - wi-fi antenna,WANT,IfcCommunicationsAppliance,ANTENNA
 architecture - room,ROOM,IfcSpace,INTERNAL
