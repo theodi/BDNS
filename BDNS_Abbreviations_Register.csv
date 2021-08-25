@@ -122,6 +122,7 @@ electrical protective device - circuit breaker,CB,IfcProtectiveDevice,CIRCUITBRE
 electrical protective device - disconnect fuse,DSCTF,IfcProtectiveDevice,FUSEDISCONNECTOR
 electrical switch - safety switch or disconnect switch,DSCTS,IfcSwitchingDevice,SWITCHDISCONNECTOR
 electrical switch - sectionalizer switch,SCS,IfcSwitchingDevice,SELECTORSWITCH	
+electrochromic glass,ECG,IfcWindow,NOTDEFINED
 electronic key cabinet,EKC,IfcFurniture,NOTDEFINED
 evaporator,EVP,IfcEvaporator,NOTDEFINED
 evaporator,EEW,IfcSanitaryTerminal,SANITARYFOUNTAIN
