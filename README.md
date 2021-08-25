@@ -4,9 +4,9 @@ Status: *release 1.0.0*
 
 This repository holds resources for an initiative to improve interoperability in building management, by focusing on standardising naming of building devices and assets.
 
-Being able to efficiently collect, analyse and leverage data insights from buildings is a catalyst for optimising building performance, improving the use of resources and moving towards predictive maintenance and buildings that can respond to the climate emergency.
+Achieving a common standard across building devices’ naming is an important first step towards being able to efficiently collect, analyse and capture data insights from buildings, and thus optimise building performance to reduce the operational cost and environmental impact of managing buildings.
 
-The lack of standardised naming and labelling for  devices and assets in the built environment means we are failing to leverage the value of data to allow interoperability, improve building efficiency and increase occupant productivity and happiness.
+Longer-term, this sets the groundwork for real industry collaboration - with the potential to create industry-wide benchmarking, and to facilitate trading of buildings between portfolios.
 
 A naming and labelling standard (complementing other industry initiatives ) will simplify and drive consistency, thus increasing value by unlocking the application of technologies such as machine learning.  
 
