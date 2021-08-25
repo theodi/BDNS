@@ -192,7 +192,6 @@ lighting - lighting control panel,LCP,IfcUnitaryControlElement,NOTDEFINED
 lighting - lighting fixture,LT,IfcLightFixture,NOTDEFINED
 lighting - lighting gateway,LTGW,IfcCommunicationsAppliance,GATEWAY
 lighting - lighting keypad,LKP,IfcSwitchingDevice,KEYPAD
-lighting - lighting multisensor,LTMTS,IfcUnitaryControlElement ,NOTDEFINED
 location services - beacon,LBCN,IfcCommunicationsAppliance,NOTDEFINED
 locker ,LCKR,IfcFurniture ,NOTDEFINED
 meter,MTR,IfcFlowMeter,NOTDEFINED
@@ -288,6 +287,7 @@ sensor - glycol protector sensor,GLYPR,IfcSensor,NOTDEFINED
 sensor - humidity sensor,HMS,IfcSensor,HUMIDITYSENSOR
 sensor - leak detection sensor,LDS,IfcSensor,NOTDEFINED
 sensor - lighting motion sensor,LMS,IfcSensor,MOVEMENTSENSOR
+sensor - lighting multisensor,LTMTS,IfcUnitaryControlElement,NOTDEFINED
 sensor - lighting photocell sensor,LPS,IfcSensor,LIGHTSENSOR
 sensor - motion sensor,MOS,IfcSensor,MOVEMENTSENSOR
 sensor - multi sensor,MTS,IfcSensor,NOT DEFINED
