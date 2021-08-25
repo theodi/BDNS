@@ -33,7 +33,7 @@ burner - boiler,BLR,ifcBoiler,NOTDEFINED
 burner - furnace,FR,IfcBurner,NOTDEFINED
 burner - steam boiler,SB,IfcBoiler,STEAM
 camera,CAM,IfcAudioVisualAppliance,CAMERA
-"camera - pan, tilt, zoom camera",PTZCAM,IfcAudioVisualAppliance,CAMERA
+camera - pan tilt zoom camera,PTZCAM,IfcAudioVisualAppliance,CAMERA
 chiller ,CH,IfcChiller,NOTDEFINED
 chiller - cooling tower ,CT,IfcCoolingTower,NOTDEFINED
 chiller - critical cooling chiller,CCCH,IfcChiller,NOTDEFINED
@@ -98,7 +98,7 @@ electrical appliance - warm drawer,WDR,IfcElectricAppliance,ELECTRICCOOKER
 electrical distribution - automatic transfer switch,ATS,IfcProtectiveDevice,NOTDEFINED
 electrical distribution - branch circuit panel board 120/208V,LVCPB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electrical distribution - branch circuit panel board 277/480V,HVCPB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electrical distribution - distribution panel / board,DB,IfcElectricDistributionBoard,"DISTRIBUTIONBOARD, NOTDEFINED"
+electrical distribution - distribution panel / board,DB,IfcElectricDistributionBoard, DISTRIBUTIONBOARD
 electrical distribution - distribution panel 120/208V,LVDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electrical distribution - distribution panel 277/480V,HVDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electrical distribution - distribution panel for itc equipment,ITDP,IfcElectricDistributionBoard,NOTDEFINED
