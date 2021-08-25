@@ -287,7 +287,7 @@ sensor - glycol protector sensor,GLYPR,IfcSensor,NOTDEFINED
 sensor - humidity sensor,HMS,IfcSensor,HUMIDITYSENSOR
 sensor - leak detection sensor,LDS,IfcSensor,NOTDEFINED
 sensor - lighting motion sensor,LMS,IfcSensor,MOVEMENTSENSOR
-sensor - lighting multisensor,LTMTS,IfcUnitaryControlElement,NOTDEFINED
+sensor - lighting multisensor,LTMTS,IfcSensor,NOTDEFINED
 sensor - lighting photocell sensor,LPS,IfcSensor,LIGHTSENSOR
 sensor - motion sensor,MOS,IfcSensor,MOVEMENTSENSOR
 sensor - multi sensor,MTS,IfcSensor,NOT DEFINED
