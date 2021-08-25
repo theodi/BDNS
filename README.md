@@ -2,6 +2,7 @@
 
 Status: *release 1.0.0*
 
+This repository holds resources for an initiative to improve interoperability in building management, by focusing on standardising naming of building devices and assets.
 
 Achieving a common standard across building devices’ naming is an important first step towards being able to efficiently collect, analyse and capture data insights from buildings, and thus optimise building performance to reduce the operational cost and environmental impact of managing buildings.
 
