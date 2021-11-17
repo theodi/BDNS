@@ -291,6 +291,7 @@ sensor - leak detection sensor,LDS,IfcSensor,NOTDEFINED
 sensor - lighting motion sensor,LMS,IfcSensor,MOVEMENTSENSOR
 sensor - lighting multisensor,LTMTS,IfcSensor,NOTDEFINED
 sensor - lighting photocell sensor,LPS,IfcSensor,LIGHTSENSOR
+sensor - moisture content sensor,MCS,IfcSensor,NOTDEFINED
 sensor - motion sensor,MOS,IfcSensor,MOVEMENTSENSOR
 sensor - multi sensor,MTS,IfcSensor,NOT DEFINED
 sensor - nitrogen dioxide sensor,NDS,IfcSensor ,NOTDEFINED
