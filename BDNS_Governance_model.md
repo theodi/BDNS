@@ -66,6 +66,14 @@ A W3C community group provides a neutral location for organisations working acro
 
 The W3C provide the group with a homepage, a means to publish specifications, and some collaboration tools (e.g. our mailing list). This provides the group with a stable presence on the web, even though the membership of the group might change over time.
 
+The active organisations participating in the Community Group are:
+
+* Arup
+* British Land
+* BuildingsIOT
+* FPC
+* Google
+* Lloret
 
 ### Chair(s)
 
