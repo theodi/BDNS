@@ -29,7 +29,7 @@ av equipment - iptv content management system device,CMS,IfcAudioVisualAppliance
 av equipment - networked video recorder,NVR,IfcAudioVisualAppliance,PLAYER
 av equipment - speaker,SPK,IfcAudioVisualAppliance,SPEAKER
 av equipment - video wall,VDW,IfcAudioVisualAppliance,DISPLAY
-battery,BAT,IfcElectricFlowStorageDevice,BATTERY
+battery,BATT,IfcElectricFlowStorageDevice,BATTERY
 burner - boiler,BLR,ifcBoiler,NOTDEFINED
 burner - furnace,FR,IfcBurner,NOTDEFINED
 burner - steam boiler,SB,IfcBoiler,STEAM
