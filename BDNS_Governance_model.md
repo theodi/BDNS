@@ -234,3 +234,9 @@ Anyone can submit a new name to the register. The process for submission is as f
 4. If there are objections from members of the Community Group or Editors, the issue is escalated to the attention of the Community Group and its Chair(s), and the normal consensus building process applies.
 
 Any change to the register of names will follow the process for [proposing specification changes](#heading=h.a8exiljj8ajq) and the [consensus building rules](#heading=h.xhh6rjqudxhq).
+
+
+## Funding
+
+The ODI's contribution during Phase 1 (2019/2020) of the project was funded through the Arup-ODI Partnership agreement.
+
