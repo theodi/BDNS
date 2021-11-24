@@ -114,7 +114,7 @@ To support members we provide a number of ways to engage with our work. These ar
 
 Other roles, such as test manager, etc. may be appointed at certain phases of the lifecycle of the standard. A number of those roles and their typical responsibilities are listed in the [Open Standards for Data guidebook](https://standards.theodi.org/creating-open-standards/roles-and-responsibilities/).
 
-Appointment of those roles among Community Group members are suggested by the chairs, and the decision to appoint follows the group’s usual [process for consensus](#heading=h.xhh6rjqudxhq).
+Appointment of those roles among Community Group members are suggested by the chairs, and the decision to appoint follows the group’s usual process for consensus.
 
 
 ## How we collaborate
