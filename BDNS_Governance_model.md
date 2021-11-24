@@ -77,7 +77,7 @@ The active organisations participating in the Community Group are:
 
 ### Chair(s)
 
-The community group is currently chaired by Sotiria Lavasa (Arup), having been nominated by the members of the Community Group in March 2020. In the future other organisations may take on responsibility for chairing and managing the group.
+The community group is currently chaired by Sotiria Lavasa (Arup), having been nominated by the members of the Community Group in March 2020. In the future members from other community group organisations may take on responsibility for chairing and managing the group. The Community Group shall (at the end of each calendar year) review whether the nominated chair continues in term for another year.
 
 It is the responsibility of the Chair to ensure that we are following our governance principles. For example, ensuring that we have developed broad consensus around planned changes, are being transparent around decision making, and are working in the open.
 
