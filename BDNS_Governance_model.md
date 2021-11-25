@@ -240,7 +240,7 @@ Any change to the register of names will follow the process for [proposing speci
 
 The ODI's contribution during Phase 1 (2019/2020) of the project was funded through the Arup-ODI Partnership agreement.
 
-Arup worked in 2021 as part of an agreed Statement of Work funded by Google to undertake the following: 
+[Arup](https://www.arup/com), [Buildings IoT](https://www.buildingsiot.com/) and [FPC](https://www.fpc-global.com/) worked in 2020 and 2021 as part of agreed Statement of Works funded by Google to undertake the following: 
 * Facilitate the adoption of a Google internal list of abbreviations into BDNS.
 * Review, updating and addition of Google project related abbreviations.
 
