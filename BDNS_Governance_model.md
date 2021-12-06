@@ -7,27 +7,28 @@ Status: *release 1.0.0*
 
 ## Background
 
-This document provides an overview of governance and processes used in the initiative to create a standard for device naming and labeling in the built environment. This initiative was started in late 2019 by a number of organisations working on or with data and/or built environment systems, with an ambition to create an open standard for Building Device Naming.
+This document provides an overview of governance and processes used in the initiative to create a standard for device and assets naming and labeling in the built environment. This initiative was started in late 2019 by a number of organisations working on or with data and/or built environment systems, with an ambition to create an open standard for Building Device Naming.
 
 This document is intended to be a useful reference point for anyone involved in contributing to the open standard(s) being developed.
 
 ## Scope
 
-Building devices in scope for this work are Mechanical, Electrical, Public Health (MEP) devices (known as Operational Technologies - OT) and Information Technology (IT).
+Building devices and assets in scope for this work are Mechanical, Electrical, Public Health (MEP) devices (known as Operational Technologies - OT) and Information Technology (IT).
 
-This standard is developed to align and complement with other initiatives in the industry such as BRICK, Haystack, Omniclass, Uniclass, IFC etc. In scope for this work are:
+This standard is developed to align and complement other initiatives in the industry such as Brick Schema, Haystack, Omniclass, Uniclass, IFC etc. In scope for this work are:
 
 * A [specification for the naming syntax](BDNS_Specification_naming_syntax.md)
 * A [register of building device and asset type abbreviations](BDNS_Abbreviations_Register.csv)
 
 ## Governance and platforms
 
-Development and future maintenance of the naming and labelling standard for building devices will rely on technical platforms. At the time of writing this document, the platforms proposed are:
+Development and future maintenance of the naming and labelling standard for building devices will rely on technical platforms. 
+
+The used platforms are:
 
 
-
-1. GitHub for hosting of the draft specifications and related documentation, issue tracking and resolution;
-2. and a W3C Community group for mailing-lists and other collaboration tools.
+1. GitHub for hosting of the specifications and related documentation, issue tracking and resolution;
+2. a W3C Community group for mailing-lists and other collaboration tools.
 
 The platforms provide mechanisms to raise, discuss and resolve issues. They are however agnostic on the decision process used to resolve issues, deal with disagreement, or appoint key roles. This document describes the associated governance.
 
@@ -35,8 +36,6 @@ The platforms provide mechanisms to raise, discuss and resolve issues. They are 
 ## Our governance principles
 
 As a group we are committed to [the OpenStand principles](https://open-stand.org/about-us/principles/). These are five principles that guide our work:
-
-
 
 *   **Due process**. Decisions are made with equity and fairness among participants. No one party dominates or guides standards development. Standards processes are transparent and opportunities exist to appeal decisions. Processes for periodic standards review and updating are well defined.
 *   **Broad consensus**. Processes allow for all views to be considered and addressed, such that agreement can be found across a range of interests.
@@ -55,7 +54,7 @@ The formal specifications created within the W3C community group are published u
 
 Additional documentation and source code produced by this initiative will also be published under an open licence, e.g. the Creative Commons Attribution Licence, or the MIT licence. We encourage other organisations to similarly licence their work, so that it can be used for the benefit of the wider community.
 
-Your individual contributions to the work of the group are covered by [the contributor agreement](https://www.w3.org/community/about/agreements/cla/). This gives the group permission to use your contributions (e.g. suggested text, contributions to test suites) and publish them under an open licence.
+Individual contributions to the work of the group are covered by [the contributor agreement](https://www.w3.org/community/about/agreements/cla/). This gives the group permission to use individual contributions (e.g. suggested text, contributions to test suites) and publish them under an open licence.
 
 
 ## Roles and responsibilities
@@ -67,10 +66,18 @@ A W3C community group provides a neutral location for organisations working acro
 
 The W3C provide the group with a homepage, a means to publish specifications, and some collaboration tools (e.g. our mailing list). This provides the group with a stable presence on the web, even though the membership of the group might change over time.
 
+The active organisations participating in the Community Group are:
+
+* Arup
+* British Land
+* BuildingsIOT
+* FPC
+* Google
+* Lloret
 
 ### Chair(s)
 
-The community group is currently chaired by Sotiria Lavasa (Arup), having been nominated by the members of the Community Group in March 2020. In the future other organisations may take on responsibility for chairing and managing the group.
+The community group is currently chaired by Sotiria Lavasa (Arup), having been nominated by the members of the Community Group in March 2020. In the future members from other community group organisations may take on responsibility for chairing and managing the group. The Community Group shall (at the end of each calendar year) review whether the nominated chair continues in term for another year.
 
 It is the responsibility of the Chair to ensure that we are following our governance principles. For example, ensuring that we have developed broad consensus around planned changes, are being transparent around decision making, and are working in the open.
 
@@ -94,7 +101,6 @@ Anyone can join the community group. Everyone who joins the group signs [a contr
 Contributions from the group are voluntary. However we ask that all members think about [how they can contribute](https://www.w3.org/community/openactive/how-to-contribute/), including:
 
 
-
 *   where possible, attending meetings to provide feedback on current plans
 *   providing feedback on working documents, and reviewing and voting on issues to help us progress our work
 *   adopting our standards in your projects and platforms
@@ -108,7 +114,7 @@ To support members we provide a number of ways to engage with our work. These ar
 
 Other roles, such as test manager, etc. may be appointed at certain phases of the lifecycle of the standard. A number of those roles and their typical responsibilities are listed in the [Open Standards for Data guidebook](https://standards.theodi.org/creating-open-standards/roles-and-responsibilities/).
 
-Appointment of those roles among Community Group members are suggested by the chairs, and the decision to appoint follows the group’s usual [process for consensus](#heading=h.xhh6rjqudxhq).
+Appointment of those roles among Community Group members are suggested by the chairs, and the decision to appoint follows the group’s usual process for consensus.
 
 
 ## How we collaborate
@@ -122,8 +128,8 @@ Currently we use the following:
 
 
 *   **Mailing lists**. The community group has a two mailing-lists: an internal mailing-list used for logistics of the group, and a [publicly available and archived mailing list](https://lists.w3.org/Archives/Public/public-bdns/) which anyone can subscribe to. We use this list for key announcements and co-ordinating events. 
-*   **Regular teleconference**. Active members of the community group meet frequently (currently: weekly) to discuss progress on the documents and issues. Decisions made during the meeting will be documented in Github issues or commit messages, and may also be posted on the public mailing-list. We also hold monthly open video calls to provide updates on progress and to help discuss key issues. Dates and logistics of the next call, as well as notes or minutes of previous calls, will be posted on the public mailing-list.
-*   **Github**. We use github to manage our working documents and as an issue tracker. The issue tracker for each specification is clearly linked at the top of the document.
+*   **Regular teleconference**. Active members of the community group meet frequently (currently: weekly) to discuss progress on the documents and issues. Decisions made during the meeting will be documented in Github issues or commit messages, and may also be posted on the public mailing-list. We also hold quarterly open video calls to provide updates on progress and to help discuss key issues. Dates and logistics of the next call, as well as notes or minutes of previous calls, will be posted on the public mailing-list.
+*   **GitHub**. We use GitHub to manage our working documents and as an issue tracker. The issue tracker for each specification is clearly linked at the top of the document.
 *   **Google Documents**. We occasionally use google documents to help to collaborate on additional best practice guidance or documentation. Documents are always made openly available for anyone to view and/or comment. Documents are shared via the mailing list.
 *   **Blog**. For key milestones we publish short blog posts on the [W3C Community Group blog](https://www.w3.org/community/bdns/).
 
@@ -225,6 +231,16 @@ Anyone can submit a new name to the register. The process for submission is as f
     2. Alternative submission mechanisms (e.g. through a mail address) may be made available if the Github PR mechanisms are deemed too technical.
 2. A notification of the submission is made available to the Community Group
 3. If there are no objections from members of the Community Group or Editors, the editors will either integrate the submission or suggest an alternative to the submitter within two weeks.
-4. If there are objections from members of the Community Group or Editors, the issue is escalated to the attention of the Community Group and its Chair(s), and the normal consensus building process applies
+4. If there are objections from members of the Community Group or Editors, the issue is escalated to the attention of the Community Group and its Chair(s), and the normal consensus building process applies.
 
 Any change to the register of names will follow the process for [proposing specification changes](#heading=h.a8exiljj8ajq) and the [consensus building rules](#heading=h.xhh6rjqudxhq).
+
+
+## Funding
+
+The ODI's contribution during Phase 1 (2019/2020) of the project was funded through the Arup-ODI Partnership agreement.
+
+[Arup](https://www.arup/com), [Buildings IoT](https://www.buildingsiot.com/) and [FPC](https://www.fpc-global.com/) worked in 2020 and 2021 as part of agreed Statement of Works funded by Google to undertake the following: 
+* Facilitate the adoption of a Google internal list of abbreviations into BDNS.
+* Review, updating and addition of Google project related abbreviations.
+
