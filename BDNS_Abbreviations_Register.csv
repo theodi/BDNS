@@ -44,6 +44,7 @@ chiller - hybrid air cooler or fluid cooler,HYAC,IfcEvaporativeCooler,NOTDEFINED
 chiller - low temperature chiller,LTCH,IfcChiller,NOTDEFINED
 coil,COIL,IfcCoil,NOTDEFINED
 coil - cooling coil,CC,IfcCoil,WATERCOOLINGCOIL
+coil - dx reversible coil,DXC,IfcCoil,NOTDEFINED
 coil - frost or preheat coil,PHC,IfcCoil,NOTDEFINED
 coil - heating coil,HC,IfcCoil,WATERHEATINGCOIL
 coil - reheat coil,RHC,IfcCoil,NOTDEFINED
