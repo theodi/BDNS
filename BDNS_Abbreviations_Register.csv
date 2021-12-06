@@ -3,7 +3,7 @@ access control - biometric reader,BIOR,IfcCommunicationsAppliance,SCANNER
 access control - RFID controller,RFIDC,IfcController,NOTDEFINED
 access control - RFID reader,RFIDR,IfcCommunicationsAppliance,SCANNER
 actuator,ACT,IfcActuator,NOTDEFINED
-actuator - dew point switch,DPSW,IfcUnitaryControlElement ,HUMIDISTAT
+actuator - dew point switch,DPSW,IfcUnitaryControlElement,HUMIDISTAT
 actuator - frost protection switch,FPSW,IfcActuator,ELECTRICACTUATOR
 actuator - motorized window operator,WDO,IfcActuator,ELECTRICACTUATOR
 actuator - switch actuator,SWACT,IfcActuator,ELECTRICACTUATOR
@@ -29,14 +29,15 @@ av equipment - iptv content management system device,CMS,IfcAudioVisualAppliance
 av equipment - networked video recorder,NVR,IfcAudioVisualAppliance,PLAYER
 av equipment - speaker,SPK,IfcAudioVisualAppliance,SPEAKER
 av equipment - video wall,VDW,IfcAudioVisualAppliance,DISPLAY
+av equipment - white noise generator,WNG,IfcAudioVisualAppliance,NOTDEFINED
 battery,BATT,IfcElectricFlowStorageDevice,BATTERY
 burner - boiler,BLR,ifcBoiler,NOTDEFINED
 burner - furnace,FR,IfcBurner,NOTDEFINED
 burner - steam boiler,SB,IfcBoiler,STEAM
 camera,CAM,IfcAudioVisualAppliance,CAMERA
 camera - pan tilt zoom camera,PTZCAM,IfcAudioVisualAppliance,CAMERA
-chiller ,CH,IfcChiller,NOTDEFINED
-chiller - cooling tower ,CT,IfcCoolingTower,NOTDEFINED
+chiller,CH,IfcChiller,NOTDEFINED
+chiller - cooling tower,CT,IfcCoolingTower,NOTDEFINED
 chiller - critical cooling chiller,CCCH,IfcChiller,NOTDEFINED
 chiller - dry air cooler,DAC,IfcCondenser,AIRCOOLED
 chiller - high temperature chiller,HTCH,IfcChiller,NOTEDEFINED
@@ -58,7 +59,7 @@ controller - direct digital controller,DDC,IfcController,PROGRAMMABLE
 controller - irrigation controller,IRRC,IfcController,NOTDEFINED
 controller - programmable logic controller,PLC,IfcController,PROGRAMMABLE
 controller - shading device controller,SDC,IfcController,NOTDEFINED
-damper ,DMP,IfcDamper,NOTDEFINED
+damper,DMP,IfcDamper,NOTDEFINED
 damper - bypass control damper,BYCD,IfcDamper,CONTROLDAMPER
 damper - exhaust damper,EXD,IfcDamper,NOTDEFINED
 damper - fire damper,FD,IfcDamper,FIREDAMPER
@@ -84,6 +85,7 @@ electric appliance - electronic point of sale,EPOS,IfcElectricAppliance,NOTDEFIN
 electric appliance - exercise / gym equipment,GYMEQ,IfcElectricAppliance,NOTDEFINED
 electric appliance - food equipment,FOODEQ,IfcElectricAppliance,NOTDEFINED
 electric appliance - scanning device,SCAN,IfcCommunicationsAppliance,SCANNER
+electric appliance - generic vending machine,VEND,IfcElectricAppliance,VENDINGMACHINE
 electric distribution - kitchen electrical distribution panel/board,KPB,IfcElectricDistributionBoard,NOTDEFINED
 electric distribution - mechanical distribution panel / board,MDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electrical appliance - air dryer,ADY,IfcElectricAppliance,NOTDEFINED
@@ -195,7 +197,7 @@ lighting - lighting fixture,LT,IfcLightFixture,NOTDEFINED
 lighting - lighting gateway,LTGW,IfcCommunicationsAppliance,GATEWAY
 lighting - lighting keypad,LKP,IfcSwitchingDevice,KEYPAD
 location services - beacon,LBCN,IfcCommunicationsAppliance,NOTDEFINED
-locker ,LCKR,IfcFurniture ,NOTDEFINED
+locker,LCKR,IfcFurniture,NOTDEFINED
 meter,MTR,IfcFlowMeter,NOTDEFINED
 meter - electrical meter,EM,IfcFlowMeter,ENERGYMETER
 meter - flow meter,FM,IfcFlowMeter,NOTDEFINED
@@ -249,15 +251,15 @@ pump - low temperature hot water pump,LTHWP,IfcPump,NOTDEFINED
 pump - packaged pump set,PAPS,IfcPump,NOTDEFINED
 pump - potable/domestic water booster pump,DWBP,IfcPump,NOTDEFINED
 pump - potable/domestic water transfer pump,DWTP,IfcPump,NOTDEFINED
-pump - primary chilled water pump ,PCHWP,IfcPump,NOTDEFINED
+pump - primary chilled water pump,PCHWP,IfcPump,NOTDEFINED
 pump - primary pump,PP,IfcPump,NOTDEFINED
 pump - process cooling water pump,PCWP,IfcPump,NOTDEFINED
 pump - process water pump,PWP,IfcPump,NOTDEFINED
 pump - recirculation pump,RCP,IfcPump,NOTDEFINED
 pump - recycled water pump,RWP,IfcPump,NOTDEFINED
 pump - secondary chilled water pump,SCHWP,IfcPump,NOTDEFINED
-pump - secondary heating circulation pump ,SHCP,IfcPump,NOTDEFINED
-pump - secondary hot water circulating pump ,SHWP,IfcPump,NOTDEFINED
+pump - secondary heating circulation pump,SHCP,IfcPump,NOTDEFINED
+pump - secondary hot water circulating pump,SHWP,IfcPump,NOTDEFINED
 pump - secondary pump,SP,IfcPump,NOTDEFINED
 pump - separator pump,SEPP,IfcPump,NOTDEFINED
 pump - sewage ejector,SE,IfcPump,NOTDEFINED
@@ -279,7 +281,7 @@ pv module-level power electronics,PVMLPE,IfcController,NOTDEFINED
 pv panel,PVP,IfcSolarDevice,SOLARPANEL
 pv tranformer,PVTXMR,IfcTransformer,NOTDEFINED
 radiant surface - chilled beam,CHB,IfcCooledBeam,NOTDEFINED
-radiant surface - hot water beam,HTB,IfcSpaceHeater ,RADIATOR
+radiant surface - hot water beam,HTB,IfcSpaceHeater,RADIATOR
 sand oil interceptor,SOI,IfcInterceptor,OIL
 sand separator,SSP,IfcInterceptor,NOTDEFINED
 sensor - CO sensor,COS,IfcSensor,COSENSOR
@@ -294,8 +296,8 @@ sensor - lighting photocell sensor,LPS,IfcSensor,LIGHTSENSOR
 sensor - moisture content sensor,MCS,IfcSensor,NOTDEFINED
 sensor - motion sensor,MOS,IfcSensor,MOVEMENTSENSOR
 sensor - multi sensor,MTS,IfcSensor,NOT DEFINED
-sensor - nitrogen dioxide sensor,NDS,IfcSensor ,NOTDEFINED
-sensor - people counting sensor,PCS,IfcSensor ,NOTDEFINED
+sensor - nitrogen dioxide sensor,NDS,IfcSensor,NOTDEFINED
+sensor - people counting sensor,PCS,IfcSensor,NOTDEFINED
 sensor - pressure sensor,PS,IfcSensor,PRESSURESENSOR
 sensor - smoke detector,SD,IfcSensor,SMOKESENSOR
 sensor - static pressure sensor,SPS,IfcSensor,PRESSURESENSOR
@@ -337,7 +339,7 @@ ups - uninteruptable power supply unit,UPS,IfcElectricFlowStorageDevice,UPS
 user interface - keypad,KP,IfcSwitchingDevice,KEYPAD
 valve,VLV,IfcValve,NOTDEFINED
 valve - air admittance valve,AAV,IfcValve,AIRRELEASE
-valve - angle stop valve,AV,IfcValve ,NOTDEFINED
+valve - angle stop valve,AV,IfcValve,NOTDEFINED
 valve - backflow preventer valve,BFP,IfcValve,NOTDEFINED
 valve - balancing valve,BLV,IfcValve,COMMISSIONING
 valve - ball valve,BV,Ifcvalve,GASCOCK
@@ -378,7 +380,7 @@ valve - water solenoid valve,SNV,IfcValve,SAFETYCUTOFF(?)
 variable frequency drive,VFD,IfcMotorConnection,NOTDEFINED
 waste terminal - area drain,AD,IfcWasteTerminal,NOTDEFINED
 water heater - domestic electric water heater,DEWH,IfcElectricAppliance,FREESTANDINGWATERHEATER
-water heater - domestic gas water heater ,DGWH,IfcBoiler,WATER
+water heater - domestic gas water heater,DGWH,IfcBoiler,WATER
 water heater - instantaneous water heater,IWH,IfcElectricAppliance,NOTDEFINED
 water treatment - chemical dosage unit,CHDU,IfcDistributionSystem,CHEMICAL
 water treatment - cooling tower water treatment unit,CTSU,IfcUnitaryEquipment,NOTDEFINED
