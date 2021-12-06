@@ -260,7 +260,7 @@ pump - secondary heating circulation pump ,SHCP,IfcPump,NOTDEFINED
 pump - secondary hot water circulating pump ,SHWP,IfcPump,NOTDEFINED
 pump - secondary pump,SP,IfcPump,NOTDEFINED
 pump - separator pump,SEPP,IfcPump,NOTDEFINED
-pump - sewage ejector pump,SE,IfcPump,NOTDEFINED
+pump - sewage ejector,SE,IfcPump,NOTDEFINED
 pump - sewage ejector pump,SEP,IfcPump,NOTDEFINED
 pump - sump pump,SMPP,IfcPump,SUMPPUMP
 pump - tower make up pump,TMUP,IfcPump,NOTDEFINED
