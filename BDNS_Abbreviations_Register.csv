@@ -2,6 +2,7 @@ asset_description,asset_abbreviation,ifc_class,ifc_type
 access control - biometric reader,BIOR,IfcCommunicationsAppliance,SCANNER
 access control - RFID controller,RFIDC,IfcController,NOTDEFINED
 access control - RFID reader,RFIDR,IfcCommunicationsAppliance,SCANNER
+active harmonic filter,AHF,IfcElectricFlowStorageDevice,HARMONICFILTER
 actuator,ACT,IfcActuator,NOTDEFINED
 actuator - dew point switch,DPSW,IfcUnitaryControlElement,HUMIDISTAT
 actuator - frost protection switch,FPSW,IfcActuator,ELECTRICACTUATOR
