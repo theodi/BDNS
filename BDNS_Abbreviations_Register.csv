@@ -179,6 +179,9 @@ heat emitters - unit heater,UH,IfcSpaceHeater,NOTDEFINED
 heat exchanger,HX,IfcHeatExchanger,NOTDEFINED
 heat exchanger - plate heat exchanger,PHX,IfcHeatExchanger,PLATE
 heat pumps - heat pump,HP,IfcUnitaryEquipment,NOTDEFINED
+heat pumps - air source heat pump,ASHP,IfcUnitaryEquipment,NOTDEFINED
+heat pumps - water source heat pump,WSHP,IfcUnitaryEquipment,NOTDEFINED
+heat pumps - ground source heat pump,GSHP,IfcUnitaryEquipment,NOTDEFINED
 high level interface,HLI,IfcController,PROGRAMMABLE
 horn strobe,HS,IfcAlarm,SIREN
 human machine interface,HMI,IfcCommunicationsAppliance,NOTDEFINED
