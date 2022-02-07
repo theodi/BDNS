@@ -140,7 +140,6 @@ electric appliance - generic vending machine,VEND,IfcElectricAppliance,VENDINGMA
 electric appliance - oven,OVN,IfcElectricAppliance,ELECTRICCOOKER
 electric appliance - scanning device,SCAN,IfcCommunicationsAppliance,SCANNER
 electric appliance - steamer,STE,IfcElectricAppliance,NOTDEFINED
-electric appliance - warm drawer,WDR,IfcElectricAppliance,ELECTRICCOOKER
 electric distribution - automatic transfer switch,ATS,IfcProtectiveDevice,NOTDEFINED
 electric distribution - branch circuit panel board 120/208V,LVCPB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - branch circuit panel board 277/480V,HVCPB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
@@ -511,3 +510,4 @@ water treatment - dosing pot,DPOT,IfcDistributionFlowElement,NOTDEFINED
 water treatment - electro magnetic water conditioner,EMWC,IfcFlowTreatmentDevice,NOTDEFINED
 weather station,WST,IfcUnitaryControlElement,WEATHERSTATION
 window,WD,IfcWindow,NOTDEFINED
+heat interface unit,HIU,IfcDistributionSystem,HEATING
