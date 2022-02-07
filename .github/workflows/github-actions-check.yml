@@ -6,16 +6,12 @@ name: BDNS validation checks
 on:
   push:
     branches: [ master ]
-    paths: 
-      - ./**
 
   pull_request:
     branches: [ master ]
-    paths: 
-      - ./**
 
 jobs:
-  build:
+  Check-Duplicates:
   
     runs-on: ubuntu-latest
     strategy:
@@ -24,6 +20,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
