@@ -510,3 +510,4 @@ water treatment - dosing pot,DPOT,IfcDistributionFlowElement,NOTDEFINED
 water treatment - electro magnetic water conditioner,EMWC,IfcFlowTreatmentDevice,NOTDEFINED
 weather station,WST,IfcUnitaryControlElement,WEATHERSTATION
 window,WD,IfcWindow,NOTDEFINED
+heat interface unit,HIU,IfcDistributionSystem,HEATING
