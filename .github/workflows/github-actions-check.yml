@@ -1,0 +1,41 @@
+# This workflow runs some checks on the abbreviation file 
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: BDNS validation checks
+
+on:
+  push:
+    branches: [ master ]
+    paths: 
+      - ./**
+
+  pull_request:
+    branches: [ master ]
+    paths: 
+      - ./**
+
+jobs:
+  build:
+  
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9"]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+        
+    - name:  Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      working-directory: ./tools/
+    
+    - name:  Check for duplicates
+      run: |
+        python check-duplicates.py --input ../BDNS_Abbreviations_Register.csv
+      working-directory: ./tools/
