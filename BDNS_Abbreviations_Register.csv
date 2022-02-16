@@ -218,7 +218,7 @@ fire suppression - fire pump control panel,FPCP,IfcUnitaryControlElement,CONTROL
 fire suppression - gas suppression control panel,GSCP,IfcUnitaryControlElement,CONTROLPANEL
 fire suppression - gas suppression head,GSH,IfcFireSuppressionTerminal,NOTDEFINED
 fire suppression - hose reel terminal,KHRL,IfcFireSuppressionTerminal,HOSEREEL
-fire suppression - kitchen fire supression system,KFSS,IfcDistributionSystem,FIREPROTECTION
+fire suppression - kitchen fire suppression system,KFSS,IfcDistributionSystem,FIREPROTECTION
 fire suppression - sprinkler alarm bell,FB,IfcAlarm,BELL
 fire suppression - sprinkler flow switch,FS,IfcSwitchingDevice,NOTDEFINED
 fire suppression - sprinkler head terminal,SPH,IfcFireSuppressionTerminal,SPRINKLER
