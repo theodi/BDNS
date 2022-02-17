@@ -204,10 +204,25 @@ filter - vacuum system filter,VSFLT,IfcFilter,NOTDEFINED
 filter - water - reverse rinsing filter,RRFLT,IfcFilter,NOTDEFINED
 filter - water conditioner,WCR,IfcFilter,WATERFILTER
 filter - water softener,WSR,IfcFilter,WATERFILTER
-fire suppression - break glass unit,BGU,IfcAlarm,BREAKGLASSBUTTON
+fire detection - alarm annunciator sounder or beacon,FAS,IfcAlarm,NOTDEFINED
+fire detection - aspirating smoke detector,ASD,IfcSensor,SMOKESENSOR
+fire detection - break glass unit,BGU,IfcAlarm,BREAKGLASSBUTTON
+fire detection - control and indication equipment,CIE,IfcUnitaryControlElement,INDICATORPANEL
+fire detection - gas detector,GD,IfcSensor,GASSENSOR
+fire detection - heat detector,HD,IfcSensor,HEATSENSOR
+fire detection - input output interface unit,IFU,IfcSwitchingDevice,NOTDEFINED
+fire detection - smoke detector,SD,IfcSensor,SMOKESENSOR
+fire suppression - fire jockey pump,FJP,IfcPump,NOTDEFINED
+fire suppression - fire pump,FP,IfcPump,NOTDEFINED
+fire suppression - fire pump control panel,FPCP,IfcUnitaryControlElement,CONTROLPANEL
+fire suppression - gas suppression control panel,GSCP,IfcUnitaryControlElement,CONTROLPANEL
+fire suppression - gas suppression head,GSH,IfcFireSuppressionTerminal,NOTDEFINED
 fire suppression - hose reel terminal,KHRL,IfcFireSuppressionTerminal,HOSEREEL
-fire suppression - kitchen fire supression system,KFSS,IfcDistributionSystem,FIREPROTECTION
+fire suppression - kitchen fire suppression system,KFSS,IfcDistributionSystem,FIREPROTECTION
+fire suppression - sprinkler alarm bell,FB,IfcAlarm,BELL
+fire suppression - sprinkler flow switch,FS,IfcSwitchingDevice,NOTDEFINED
 fire suppression - sprinkler head terminal,SPH,IfcFireSuppressionTerminal,SPRINKLER
+fire suppression - sprinkler isolation valve,SISV,IfcValve,ISOLATING
 food serving - cold plate,FSCPL,IfcFlowTerminal,NOTDEFINED
 food serving - cold well,FSCWL,IfcFlowStorageDevice,NOTDEFINED
 food serving - heat lamp,FSHL,IfcSpaceHeater,NOTDEFINED
@@ -235,18 +250,19 @@ furniture - locker,LCKR,IfcFurniture,NOTDEFINED
 generator - clean steam generator,CSG,IfcElectricGenerator,NOTDEFINED
 generator - electricity generator,GEN,IfcElectricGenerator,ENGINEGENERATOR
 grease waste interceptor,GI,IfcInterceptor,GREASE
-heat emitter - radiant panel,RP,ifcSpaceHeater,NOTDEFINED
 heat emitter - duct heater,DH,IfcSpaceHeater,NOTDEFINED
 heat emitter - electric unit heater,EUH,ifcSpaceHeater,NOTDEFINED
 heat emitter - gas unit heater,GUH,IfcSpaceHeater,NOTDEFINED
 heat emitter - heater,HTR,IfcSpaceHeater,NOTDEFINED
 heat emitter - hydronic trench convector,TC,IfcSpaceHeater,NOTDEFINED
+heat emitter - radiant panel,RP,ifcSpaceHeater,NOTDEFINED
 heat emitter - trace heating,EHT,ifcSpaceHeater,NOTDEFINED
 heat emitter - trench heater and cooler,TRHC,ifcSpaceHeater,NOTDEFINED
 heat emitter - trench heating,TRH,ifcSpaceHeater,NOTDEFINED
 heat emitter - unit heater,UH,IfcSpaceHeater,NOTDEFINED
 heat exchanger,HX,IfcHeatExchanger,NOTDEFINED
 heat exchanger - plate heat exchanger,PHX,IfcHeatExchanger,PLATE
+heat interface unit,HIU,IfcDistributionSystem,HEATING
 heat pump - air source heat pump,ASHP,IfcUnitaryEquipment,NOTDEFINED
 heat pump - ground source heat pump,GSHP,IfcUnitaryEquipment,NOTDEFINED
 heat pump - heat pump,HP,IfcUnitaryEquipment,NOTDEFINED
@@ -255,12 +271,12 @@ high level interface,HLI,IfcController,PROGRAMMABLE
 horn strobe,HS,IfcAlarm,SIREN
 human machine interface,HMI,IfcCommunicationsAppliance,NOTDEFINED
 humidifier,HUM,IfcHumidifier,NOTDEFINED
-itc equipment - software-defined networking controller,SDNC,IfcCommunicationsAppliance,NOTDEFINED
 itc equipment - ethernet switch,ETS,ifcCommunicationsAppliance,NETWORKBRIDGE
 itc equipment - intermediate distribution frame,IDF,IfcCommunicationsAppliance,NOTDEFINED
 itc equipment - network firewall,FW,IfcCommunicationsAppliance,NETWORKAPPLIANCE
 itc equipment - network router,RTR,IfcCommunicationsAppliance,ROUTER
 itc equipment - power-over-ethernet network switch,POEETS,IfcCommunicationsAppliance,NOTDEFINED
+itc equipment - software-defined networking controller,SDNC,IfcCommunicationsAppliance,NOTDEFINED
 itc equipment - wi-fi router,WRTR,IfcCommunicationsAppliance,ROUTER
 itc equipment - wireless access point,WAP,IfcCommunicationsAppliance,ROUTER
 kitchen appliance - blender/smoothie maker,KSMBL,IfcElectricAppliance,NOTDEFINED
@@ -411,7 +427,6 @@ sensor - multi sensor,MTS,IfcSensor,NOT DEFINED
 sensor - nitrogen dioxide sensor,NDS,IfcSensor,NOTDEFINED
 sensor - people counting sensor,PCS,IfcSensor,NOTDEFINED
 sensor - pressure sensor,PS,IfcSensor,PRESSURESENSOR
-sensor - smoke detector,SD,IfcSensor,SMOKESENSOR
 sensor - static pressure sensor,SPS,IfcSensor,PRESSURESENSOR
 sensor - temperature sensor,TPS,IfcSensor,TEMPERATURESENSOR
 sensor - thermostat,TSTAT,IfcUnitaryControlElement,THERMOSTAT
@@ -510,4 +525,3 @@ water treatment - dosing pot,DPOT,IfcDistributionFlowElement,NOTDEFINED
 water treatment - electro magnetic water conditioner,EMWC,IfcFlowTreatmentDevice,NOTDEFINED
 weather station,WST,IfcUnitaryControlElement,WEATHERSTATION
 window,WD,IfcWindow,NOTDEFINED
-heat interface unit,HIU,IfcDistributionSystem,HEATING
