@@ -1,527 +1,523 @@
-asset_description,asset_abbreviation,ifc_class,ifc_type
-access control - biometric reader,BIOR,IfcCommunicationsAppliance,SCANNER
-access control - RFID controller,RFIDC,IfcController,NOTDEFINED
-access control - RFID reader,RFIDR,IfcCommunicationsAppliance,SCANNER
-active harmonic filter,AHF,IfcElectricFlowStorageDevice,HARMONICFILTER
-actuator,ACT,IfcActuator,NOTDEFINED
-actuator - dew point switch,DPSW,IfcUnitaryControlElement,HUMIDISTAT
-actuator - frost protection switch,FPSW,IfcActuator,ELECTRICACTUATOR
-actuator - motorized window operator,WDO,IfcActuator,ELECTRICACTUATOR
-actuator - switch actuator,SWACT,IfcActuator,ELECTRICACTUATOR
-ahu - air handling unit,AHU,IfcUnitaryEquipment,AIRHANDLER
-ahu - dedicated outside air system unit,DOAS,IfcUnitaryEquipment,AIRHANDLER
-ahu - heat recovery unit,HRU,IfcAirToAirHeatRecovery,NOTDEFINED
-ahu - make-up air handler,MAU,IfcUnitaryEquipment,AIRHANDLER
-ahu - roof top unit,RTU,IfcUnitaryEquipment,ROOFTOPUNIT
-air conditioning unit,ACU,IfcUnitaryEquipment,AIRCONDITIONINGUNIT
-air conditioning unit - computer room AC unit,CRAC,IfcUnitaryEquipment,AIRCONDITIONINGUNIT
-air conditioning unit - direct expansion cooling unit,DX,IfcUnitaryEquipment,SPLITSYSTEM
-air terminal box - constant air volume box,CAV,IfcAirTerminalBox,CONSTANTFLOW
-air terminal box - variable air volume box,VAV,IfcAirTerminalBox,NOTDEFINED
-air terminal box - variable volume and temperature box,VVTB,IfcAirTerminalBox,NOTDEFINED
-air terminal box - variable volume terminal unit,VVT,IfcAirTerminalBox,NOTDEFINED
-antenna,ANT,IfcCommunicationsAppliance,ANTENNA
-antenna - wi-fi antenna,WANT,IfcCommunicationsAppliance,ANTENNA
-architecture - room,ROOM,IfcSpace,INTERNAL
-av equipment,AVEQ,IfcAudioVisualAppliance,NOTDEFINED
-av equipment - digital whiteboard,DWB,IfcAudioVisualAppliance,DISPLAY
-av equipment - display screen,DS,IfcAudioVisualAppliance,DISPLAY
-av equipment - iptv content management system device,CMS,IfcAudioVisualAppliance,NOTDEFINED
-av equipment - networked video recorder,NVR,IfcAudioVisualAppliance,PLAYER
-av equipment - speaker,SPK,IfcAudioVisualAppliance,SPEAKER
-av equipment - video wall,VDW,IfcAudioVisualAppliance,DISPLAY
-av equipment - white noise generator,WNG,IfcAudioVisualAppliance,NOTDEFINED
-battery,BATT,IfcElectricFlowStorageDevice,BATTERY
-beverage machine - airpot,BVAP,IfcElectricAppliance,NOTDEFINED
-beverage machine - chai machine,BVC,IfcElectricAppliance,NOTDEFINED
-beverage machine - coffee grinder,BVCFMG,IfcElectricAppliance,NOTDEFINED
-beverage machine - coffee machine,BVCFM,IfcElectricAppliance,NOTDEFINED
-beverage machine - coffee nitro machine,BVCFMN,IfcElectricAppliance,NOTDEFINED
-beverage machine - coffee urn,BVCFMU,IfcElectricAppliance,NOTDEFINED
-beverage machine - espresso machine,BVCFME,IfcElectricAppliance,NOTDEFINED
-beverage machine - knock out chute,BVKOC,IfcWasteTerminal,NOTDEFINED
-beverage machine - steamer,BVS,IfcElectricAppliance,NOTDEFINED
-beverage machine - water boiler,BVWB,IfcBoiler,WATER
-burner - boiler,BLR,ifcBoiler,NOTDEFINED
-burner - furnace,FR,IfcBurner,NOTDEFINED
-burner - steam boiler,SB,IfcBoiler,STEAM
-camera,CAM,IfcAudioVisualAppliance,CAMERA
-camera - pan tilt zoom camera,PTZCAM,IfcAudioVisualAppliance,CAMERA
-chiller,CH,IfcChiller,NOTDEFINED
-chiller - cooling tower,CT,IfcCoolingTower,NOTDEFINED
-chiller - critical cooling chiller,CCCH,IfcChiller,NOTDEFINED
-chiller - dry air cooler,DAC,IfcCondenser,AIRCOOLED
-chiller - high temperature chiller,HTCH,IfcChiller,NOTEDEFINED
-chiller - hybrid air cooler or fluid cooler,HYAC,IfcEvaporativeCooler,NOTDEFINED
-chiller - low temperature chiller,LTCH,IfcChiller,NOTDEFINED
-cleaning - floor cleaner scrubber dryer,FCSD,IfcElectricAppliance,NOTDEFINED
-coil,COIL,IfcCoil,NOTDEFINED
-coil - cooling coil,CC,IfcCoil,WATERCOOLINGCOIL
-coil - dx reversible coil,DXC,IfcCoil,NOTDEFINED
-coil - frost or preheat coil,PHC,IfcCoil,NOTDEFINED
-coil - heating coil,HC,IfcCoil,WATERHEATINGCOIL
-coil - reheat coil,RHC,IfcCoil,NOTDEFINED
-coil - run around coil,RAC,IfcAirToAirHeatRecovery,RUNAROUNDCOILLOOP
-communication appliance - printing device,PRNTR,IfcCommunicationsAppliance,PRINTER
-communication gateway,CGW,IfcCommunicationsAppliance,GATEWAY
-compressor,CMP,IfcCompressor,NOTDEFINED
-compressor - air compressor,ACP,ifcCompressor,NOTDEFINED
-condensing unit,CDU,IfcCondenser,NOTDEFINED
-controller,CNTRL,IfcController,NOTDEFINED
-controller - direct digital controller,DDC,IfcController,PROGRAMMABLE
-controller - irrigation controller,IRRC,IfcController,NOTDEFINED
-controller - programmable logic controller,PLC,IfcController,PROGRAMMABLE
-controller - shading device controller,SDC,IfcController,NOTDEFINED
-cooking appliance - bratt pan,CKBP,IfcElectricAppliance,NOTDEFINED
-cooking appliance - chargrill,CKCGR,IfcFlowTerminal,NOTDEFINED
-cooking appliance - combination microwave/high speed oven,CKCMWO,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - combination oven,CKCMOV,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - convection oven,CKCVOV,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - deck/pizza oven,CKDOVN,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - dim sum steamer,CKDSTE,IfcElectricAppliance,NOTDEFINED
-cooking appliance - fry dump,CKFRYD,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - fryer,CKFRY,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - gas range,CKGRCK,IfcFlowTerminal,NOTDEFINED
-cooking appliance - gas wok range,CKGWR,IfcFlowTerminal,NOTDEFINED
-cooking appliance - griddle,CKGRD,IfcElectricAppliance,NOTDEFINED
-cooking appliance - hearth oven,CKHOVN,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - impinger conveyor oven,CKICOV,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - induction,CKIU,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - induction range,CKIRCK,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - induction wok,CKIW,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - kettle,CKKET,IfcElectricAppliance,NOTDEFINED
-cooking appliance - mobile cook station,KMCS,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - pasta cooker,CKPC,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - potato oven,CKPOVN,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - pressure bratt pan,CKPBP,IfcElectricAppliance,NOTDEFINED
-cooking appliance - pressure steamer,CKPSTE,IfcElectricAppliance,NOTDEFINED
-cooking appliance - rice cooker,CKRC,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - rotisserie,CKROT,IfcFlowTerminal,NOTDEFINED
-cooking appliance - salamander grill,CKSGRL,IfcElectricAppliance,ELECTRICCOOKER
-cooking appliance - steamer,CKSTE,IfcElectricAppliance,NOTDEFINED
-cooking appliance - tandoor oven,CKTOVN,IfcElectricAppliance,ELECTRICCOOKER
-damper,DMP,IfcDamper,NOTDEFINED
-damper - bypass control damper,BYCD,IfcDamper,CONTROLDAMPER
-damper - exhaust damper,EXD,IfcDamper,NOTDEFINED
-damper - fire damper,FD,IfcDamper,FIREDAMPER
-damper - inlet control damper,ICD,IfcDamper,CONTROLDAMPER
-damper - inlet isolation damper,IISD,IfcDamper,NOTDEFINED
-damper - motorised fire smoke damper,MFSD,IfcDamper,FIRESMOKEDAMPER
-damper - motorised smoke damper,MSD,IfcDamper,SMOKEDAMPER
-damper - pressure relief dampers,PRLD,IfcDamper,RELIEFDAMPER
-damper - recirculation control damper,RECD,IfcDamper,CONTROLDAMPER
-damper - return control damper,RTCD,IfcDamper,CONTROLDAMPER
-damper - return isolation damper,RTISD,IfcDamper,CONTROLDAMPER
-damper - volume control damper,VCD,IfcDamper,BALANCINGDAMPER
-data processing unit / computer,DPU,IfcCommunicationsAppliance,NOTDEFINED
-dehumidifier,DHUM,IfcUnitaryEquipment,DEHUMIDIFIER
-dispenser,DISP,IfcElectricAppliance,NOTDEFINED
-dispenser - broth,DISPB,IfcElectricAppliance,NOTDEFINED
-dispenser - cereal,DISPC,IfcElectricAppliance,NOTDEFINED
-dispenser - ice/beverage,DISPIB,IfcElectricAppliance,NOTDEFINED
-dispenser - juice,DISPJ,IfcElectricAppliance,NOTDEFINED
-dispenser - milk,DISPMK,IfcElectricAppliance,NOTDEFINED
-dispenser - soft serve ice cream,DISPIC,IfcElectricAppliance,NOTDEFINED
-dispenser - water,DISPW,IfcElectricAppliance,NOTDEFINED
-door,DR,IfcDoor,DOOR
-door - fire door,FDR,IfcDoor,NOTDEFINED
-drinking fountain / bottle filler,DF,IfcSanitaryTerminal,SANITARYFOUNTAIN
-duct silencer - attenuator,SLCR,IfcDuctSilencer,NOTDEFINED
-dx system - variable refrigerant flow unit,VRF,IfcUnitaryEquipment,SPLITSYSTEM
-dx system - variable refrigerant volume unit,VRV,IfcUnitaryEquipment,SPLITSYSTEM
-electric appliance,EAPPL,IfcElectricAppliance,NOTDEFINED
-electric appliance - air dryer,ADY,IfcElectricAppliance,NOTDEFINED
-electric appliance - dishwasher,DW,IfcElectricAppliance,DISHWASHER
-electric appliance - electronic point of sale,EPOS,IfcElectricAppliance,NOTDEFINED
-electric appliance - exercise / gym equipment,GYMEQ,IfcElectricAppliance,NOTDEFINED
-electric appliance - food equipment,FOODEQ,IfcElectricAppliance,NOTDEFINED
-electric appliance - fryer,FRY,IfcElectricAppliance,ELECTRICCOOKER
-electric appliance - generic vending machine,VEND,IfcElectricAppliance,VENDINGMACHINE
-electric appliance - oven,OVN,IfcElectricAppliance,ELECTRICCOOKER
-electric appliance - scanning device,SCAN,IfcCommunicationsAppliance,SCANNER
-electric appliance - steamer,STE,IfcElectricAppliance,NOTDEFINED
-electric distribution - automatic transfer switch,ATS,IfcProtectiveDevice,NOTDEFINED
-electric distribution - branch circuit panel board 120/208V,LVCPB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - branch circuit panel board 277/480V,HVCPB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - distribution panel / board,DB,IfcElectricDistributionBoard," DISTRIBUTIONBOARD"
-electric distribution - distribution panel 120/208V,LVDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - distribution panel 277/480V,HVDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - distribution panel for itc equipment,ITDP,IfcElectricDistributionBoard,NOTDEFINED
-electric distribution - electric switch,ELSW,IfcSwitchingDevice,TOGGLESWITCH
-electric distribution - EVC electric vehicle charging distribution panel,EVDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - EVC electric vehicle charging equipment,EVCE,IfcOutlet,POWEROUTLET
-electric distribution - high voltage switchboard,HVSB,IfcElectricDistributionBoard,SWITCHBOARD
-electric distribution - kitchen electric distribution panel/board,KPB,IfcElectricDistributionBoard,NOTDEFINED
-electric distribution - kitchen electric distribution panel/board,KDP,IfcElectricDistributionBoard,NOTDEFINED
-electric distribution - load bank,LB,IfcElectricFlowStorageDevice,NOTDEFINED
-electric distribution - low voltage switchboard,LVSB,IfcElectricDistributionBoard,SWITCHBOARD
-electric distribution - main panel / board,MPNL,IfcElectricDistributionBoard,NOTDEFINED
-electric distribution - mains distribution unit,MDU,IfcElectricDistributionBoard,NOTDEFINED
-electric distribution - mains switchboard,MSB,IfcElectricDistributionBoard,SWITCHBOARD
-electric distribution - mechanical distribution panel / board,MDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - mechanical distribution panel / board,MDB,IfcElectricDistributionBoard,"DISTRIBUTIONBOARD "
-electric distribution - medium voltage switchboard,MVSB,IfcElectricDistributionBoard,SWITCHBOARD
-electric distribution - power distribution unit,PDU,IfcElectricDistributionBoard,NOTDEFINED
-electric distribution - static transfer switch,STS,IfcSwitchingDevice,NOTDEFINED
-electric distribution - switchgear (12kv typ),SWGR,IfcElectricDistributionBoard,SWITCHBOARD
-electric distribution - ups panel / board,UPSB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric protective device - circuit breaker,CB,IfcProtectiveDevice,CIRCUITBREAKER
-electric protective device - disconnect fuse,DSCTF,IfcProtectiveDevice,FUSEDISCONNECTOR
-electric switch - safety switch or disconnect switch,DSCTS,IfcSwitchingDevice,SWITCHDISCONNECTOR
-electric switch - sectionalizer switch,SCS,IfcSwitchingDevice,SELECTORSWITCH
-electrochromic glass,ECG,IfcWindow,NOTDEFINED
-electronic key cabinet,EKC,IfcFurniture,NOTDEFINED
-employee timeclock with fingerprint scanner,ETCFP,IfcElectricAppliance,NOTDEFINED
-evaporator,EVP,IfcEvaporator,NOTDEFINED
-evaporator,EEW,IfcSanitaryTerminal,SANITARYFOUNTAIN
-fan,FAN,IfcFan,NOTDEFINED
-fan - cooling tower fan,CTF,IfcFan,NOTDEFINED
-fan - exhaust fan,EF,IfcFan,NOTDEFINED
-fan - fume hood exhaust fan,FHEX,IfcDamper,FUMEHOODEXHAUST
-fan - garage / car park supply fan,GSF,IfcFan,NOTDEFINED
-fan - garage / car park transfer fan,GTF,IfcFan,NOTDEFINED
-fan - kitchen exhaust fan,KEF,IfcFan,NOTDEFINED
-fan - relief fan,RLF,IfcFan,NOTDEFINED
-fan - return fan,RTF,IfcFan,NOTDEFINED
-fan - smoke exhaust fan,SEF,IfcFan,NOTDEFINED
-fan - stairwell pressurization fan,SPF,IfcFan,NOTDEFINED
-fan - supply fan,SF,IfcFan,NOTDEFINED
-fan - transfer fan,TF,IfcFan,NOTDEFINED
-fan coil unit,FCU,IfcUnitaryEquipment,NOTDEFINED
-filter,FLT,IfcFilter,NOTDEFINED
-filter - air separator,AS,IfcFlowTreatmentDevice,NOTDEFINED
-filter - cooling tower filtration unit,CTFS,IfcFilter,NOTDEFINED
-filter - cooling tower filtration unit,CTFU,IfcUnitaryEquipment,NOTDEFINED
-filter - cooling tower sand filter,CTSFLT,IfcFilter,NOTDEFINED
-filter - cooling tower separator,CTSEP,IfcFilter,NOTDEFINED
-filter - cooling tower separator / sand separator,CTSSEP,IfcFilter,NOTDEFINED
-filter - degasser filter,DGA,IfcFilter,NOTDEFINED
-filter - pollution control unit,PCU,IfcFilter,AIRPARTICLEFILTER
-filter - process filtration unit,PFU,IfcUnitaryEquipment,NOTDEFINED
-filter - reverse osmosis system,RO,IfcFilter,NOTDEFINED
-filter - side stream water filters,SSFLT,IfcFilter,NOTDEFINED
-filter - vacuum system filter,VSFLT,IfcFilter,NOTDEFINED
-filter - water - reverse rinsing filter,RRFLT,IfcFilter,NOTDEFINED
-filter - water conditioner,WCR,IfcFilter,WATERFILTER
-filter - water softener,WSR,IfcFilter,WATERFILTER
-fire detection - alarm annunciator sounder or beacon,FAS,IfcAlarm,NOTDEFINED
-fire detection - aspirating smoke detector,ASD,IfcSensor,SMOKESENSOR
-fire detection - break glass unit,BGU,IfcAlarm,BREAKGLASSBUTTON
-fire detection - control and indication equipment,CIE,IfcUnitaryControlElement,INDICATORPANEL
-fire detection - gas detector,GD,IfcSensor,GASSENSOR
-fire detection - heat detector,HD,IfcSensor,HEATSENSOR
-fire detection - input output interface unit,IFU,IfcSwitchingDevice,NOTDEFINED
-fire detection - smoke detector,SD,IfcSensor,SMOKESENSOR
-fire suppression - fire jockey pump,FJP,IfcPump,NOTDEFINED
-fire suppression - fire pump,FP,IfcPump,NOTDEFINED
-fire suppression - fire pump control panel,FPCP,IfcUnitaryControlElement,CONTROLPANEL
-fire suppression - gas suppression control panel,GSCP,IfcUnitaryControlElement,CONTROLPANEL
-fire suppression - gas suppression head,GSH,IfcFireSuppressionTerminal,NOTDEFINED
-fire suppression - hose reel terminal,KHRL,IfcFireSuppressionTerminal,HOSEREEL
-fire suppression - kitchen fire suppression system,KFSS,IfcDistributionSystem,FIREPROTECTION
-fire suppression - sprinkler alarm bell,FB,IfcAlarm,BELL
-fire suppression - sprinkler flow switch,FS,IfcSwitchingDevice,NOTDEFINED
-fire suppression - sprinkler head terminal,SPH,IfcFireSuppressionTerminal,SPRINKLER
-fire suppression - sprinkler isolation valve,SISV,IfcValve,ISOLATING
-food serving - cold plate,FSCPL,IfcFlowTerminal,NOTDEFINED
-food serving - cold well,FSCWL,IfcFlowStorageDevice,NOTDEFINED
-food serving - heat lamp,FSHL,IfcSpaceHeater,NOTDEFINED
-food serving - hot and cold plate,FSHCPL,IfcFlowTerminal,NOTDEFINED
-food serving - hot and cold well,FSHCWL,IfcFlowStorageDevice,NOTDEFINED
-food serving - hot plate,FSHPL,IfcFlowTerminal,NOTDEFINED
-food serving - hot well,FSHWL,IfcFlowStorageDevice,NOTDEFINED
-food serving - ice cream display,FSICD,IfcElectricAppliance,NOTDEFINED
-food serving - ice well,FSIWL,IfcFlowStorageDevice,NOTDEFINED
-food serving - induction warmer,FSIW,IfcElectricAppliance,NOTDEFINED
-food serving - sneeze guard,FSSG,IfcFurniture,NOTDEFINED
-food serving - soup well,FSSWL,IfcFlowStorageDevice,NOTDEFINED
-furniture - chemical storage cabinet,CSC,IfcFurniture,NOTDEFINED
-furniture - commercial kitchen mobile soak sink,KSINKM,IfcSanitaryTerminal,SINK
-furniture - commercial kitchen sink,KSINK,IfcSanitaryTerminal,SINK
-furniture - commercial kitchen storage cabinet,KSTC,IfcFurniture,NOTDEFINED
-furniture - commercial kitchen storage cabinet heated,KSTCH,IfcFlowStorageDevice,NOTDEFINED
-furniture - commercial kitchen table,KTBL,IfcFurniture,TABLE
-furniture - commercial kitchen trolley/cart,KCART,IfcFurniture,NOTDEFINED
-furniture - commercial kitchen utlity distribution system,KUDS,IfcDistributionSystem,NOTDEFINED
-furniture - commercial kitchen wall mounted glass rack,KWMGR,IfcFurniture,SHELF
-furniture - commercial kithcen utility chase system,KUCS,IfcDistributionSystem,NOTDEFINED
-furniture - desk,DESK,IfcFurniture,DESK
-furniture - locker,LCKR,IfcFurniture,NOTDEFINED
-generator - clean steam generator,CSG,IfcElectricGenerator,NOTDEFINED
-generator - electricity generator,GEN,IfcElectricGenerator,ENGINEGENERATOR
-grease waste interceptor,GI,IfcInterceptor,GREASE
-heat emitter - duct heater,DH,IfcSpaceHeater,NOTDEFINED
-heat emitter - electric unit heater,EUH,ifcSpaceHeater,NOTDEFINED
-heat emitter - gas unit heater,GUH,IfcSpaceHeater,NOTDEFINED
-heat emitter - heater,HTR,IfcSpaceHeater,NOTDEFINED
-heat emitter - hydronic trench convector,TC,IfcSpaceHeater,NOTDEFINED
-heat emitter - radiant panel,RP,ifcSpaceHeater,NOTDEFINED
-heat emitter - trace heating,EHT,ifcSpaceHeater,NOTDEFINED
-heat emitter - trench heater and cooler,TRHC,ifcSpaceHeater,NOTDEFINED
-heat emitter - trench heating,TRH,ifcSpaceHeater,NOTDEFINED
-heat emitter - unit heater,UH,IfcSpaceHeater,NOTDEFINED
-heat exchanger,HX,IfcHeatExchanger,NOTDEFINED
-heat exchanger - plate heat exchanger,PHX,IfcHeatExchanger,PLATE
-heat interface unit,HIU,IfcDistributionSystem,HEATING
-heat pump - air source heat pump,ASHP,IfcUnitaryEquipment,NOTDEFINED
-heat pump - ground source heat pump,GSHP,IfcUnitaryEquipment,NOTDEFINED
-heat pump - heat pump,HP,IfcUnitaryEquipment,NOTDEFINED
-heat pump - water source heat pump,WSHP,IfcUnitaryEquipment,NOTDEFINED
-high level interface,HLI,IfcController,PROGRAMMABLE
-horn strobe,HS,IfcAlarm,SIREN
-human machine interface,HMI,IfcCommunicationsAppliance,NOTDEFINED
-humidifier,HUM,IfcHumidifier,NOTDEFINED
-itc equipment - ethernet switch,ETS,ifcCommunicationsAppliance,NETWORKBRIDGE
-itc equipment - intermediate distribution frame,IDF,IfcCommunicationsAppliance,NOTDEFINED
-itc equipment - network firewall,FW,IfcCommunicationsAppliance,NETWORKAPPLIANCE
-itc equipment - network router,RTR,IfcCommunicationsAppliance,ROUTER
-itc equipment - power-over-ethernet network switch,POEETS,IfcCommunicationsAppliance,NOTDEFINED
-itc equipment - software-defined networking controller,SDNC,IfcCommunicationsAppliance,NOTDEFINED
-itc equipment - wi-fi router,WRTR,IfcCommunicationsAppliance,ROUTER
-itc equipment - wireless access point,WAP,IfcCommunicationsAppliance,ROUTER
-kitchen appliance - blender/smoothie maker,KSMBL,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - bowl blender,KBBL,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - bowl cutter,KBC,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - can opener,KCO,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - crepe and waffle maker,KCWM,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - cutlery dryer,KCDY,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - dough divider/rounder,KDR,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - dough press,KDPR,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - insect trap,KICT,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - juicer,KJC,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - meat bone saw,KMBS,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - meat mincer,KMM,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - meat slicer,KMS,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - microwave oven,CKMWO,IfcElectricAppliance,MICROWAVE
-kitchen appliance - mixer,KMIX,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - pacotizing machine,KPM,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - potato peeling machine,KPPM,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - scale,KFS,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - stick blender,KSBL,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - storage rack,KSR,IfcFurniture,SHELF
-kitchen appliance - toaster,KST,IfcElectricAppliance,ELECTRICCOOKER
-kitchen appliance - toaster,KTST,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - uv knife steralizer,KUVSC,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - vacuum packing machine,KVPM,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - veg cutting machine,KVCM,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - vegetable washer,KVWM,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - vegetable washer and dryer,KVW,IfcElectricAppliance,NOTDEFINED
-kitchen appliance - warming drawer,WDR,IfcElectricAppliance,ELECTRICCOOKER
-kitchen ventilation - condensate hood,KVCH,IfcDamper,FUMEHOODEXHAUST
-kitchen ventilation - extraction/exhuast grease hood,KVGH,IfcDamper,FUMEHOODEXHAUST
-kitchen ventilation - ventilated ceiling,KVVC,IfcAirTerminalBox,NOTDEFINED
-lighting - illuminated exit sign,EXIT,IfcLightFixture,SECURITYLIGHTING
-lighting - lighting control module,LCM,IfcUnitaryControlElement,NOTDEFINED
-lighting - lighting control panel,LCP,IfcUnitaryControlElement,NOTDEFINED
-lighting - lighting fixture,LT,IfcLightFixture,NOTDEFINED
-lighting - lighting gateway,LTGW,IfcCommunicationsAppliance,GATEWAY
-lighting - lighting keypad,LKP,IfcSwitchingDevice,KEYPAD
-location services - beacon,LBCN,IfcCommunicationsAppliance,NOTDEFINED
-meter,MTR,IfcFlowMeter,NOTDEFINED
-meter - electric meter,EM,IfcFlowMeter,ENERGYMETER
-meter - flow meter,FM,IfcFlowMeter,NOTDEFINED
-meter - gas meter,GM,IfcFlowMeter,GASMETER
-meter - heat meter,HM,IfcFlowMeter,NOTDEFINED
-meter - water meter,WM,IfcFlowMeter,WATERMETER
-motor controller - vsd (inverter drive),VSD,IfcMotorConnection,NOTDEFINED
-natural air ventilator,AVR,ifcStackTerminal,NOTDEFINED
-oil interceptor,OI,IfcInterceptor,OIL
-outlet,OUT,IfcOutlet,NOTDEFINED
-outlet - ceiling duplex,CGDXO,IfcOutlet,POWEROUTLET
-outlet - controlled duplex,CNDO,IfcOutlet,DATAOUTLET
-outlet - data wall outlet,DATA,IfcOutlet,DATAOUTLET
-outlet - double 20A duplex receptacle,DDR,IfcOutlet,POWEROUTLET
-outlet - duplex outlets,DXO,IfcOutlet,POWEROUTLET
-outlet - floor duplex outlet,FLRDX,IfcOutlet,DATAOUTLET
-outlet - floor quad outlet,FLRQD,IfcOutlet,DATAOUTLET
-outlet - linear electric receptacle,LER,IfcOutlet,NOTDEFINED
-outlet - raised floor box,FLRB,IfcOutlet,NOTDEFINED
-panel - alarm panel,AP,IfcUnitaryControlElement,ALARMPANEL
-panel - chemical treatment control panel,CTCP,IfcUnitaryControlElement,NOTDEFINED
-panel - control panel,CTRP,IfcUnitaryControlElement,CONTROLPANEL
-panel - fire alarm control panel,FACP,IfcUnitaryControlElement," NOTDEFINED"
-panel - gas detection panel,GASDET,IfcUnitaryControlElement,GASDETECTIONPANEL
-panel - hvac control panel,HVACCP,IfcUnitaryControlElement,CONTROLPANEL
-panel - leak detection panel,LDP,IfcUnitaryControlElement,CONTROLPANEL
-panel - motor control center,MCC,IfcUnitaryControlElement,NOTDEFINED
-panel - remote i/o control panel,RIO,IfcUnitaryControlElement,NOTDEFINED
-panel - variable air volume control station / panel,VAVCTR,IfcUnitaryControlElement,NOTDEFINED
-pressurisation unit,PU,IfcUnitaryEquipment,NOTDEFINED
-pressurisation unit - water system makeup unit,WMS,IfcUnitaryEquipment,NOTDEFINED
-pump,PMP,IfcPump,NOTDEFINED
-pump - automatic condensate pump,CNP,IfcPump,NOTDEFINED
-pump - auxilliary process cooling water pump,AXCWP,IfcPump,NOTDEFINED
-pump - booster pump,BSP,IfcPump,NOTDEFINED
-pump - chilled water pump,CHWP,IfcPump,NOTDEFINED
-pump - circulating pump,CP,IfcPump,CIRCULATOR
-pump - condenser water pump,CDWP,IfcPump,NOTDEFINED
-pump - cooling tower separator pump,CTSEPP,IfcPump,NOTDEFINED
-pump - domestic hot water circulation pump,DHWP,IfcPump,NOTDEFINED
-pump - dosing pump,DP,IfcPump,NOTDEFINED
-pump - fire hydrant pump,FHP,IfcPump,NOTDEFINED
-pump - fuel oil pump,FOP,IfcPump,NOTDEFINED
-pump - heat exchanger pump,HXP,IfcPump,NOTDEFINED
-pump - high temperature chilled water pump,HTCHP,IfcPump,NOTDEFINED
-pump - high temperature condenser water pump,HTCWP,IfcPump,NOTDEFINED
-pump - hot water pump,HWP,IfcPump,NOTDEFINED
-pump - low temperature chilled water pump,LTCHWP,IfcPump,NOTDEFINED
-pump - low temperature condenser water pump,LTCDWP,IfcPump,NOTDEFINED
-pump - low temperature hot water pump,LTHWP,IfcPump,NOTDEFINED
-pump - packaged pump set,PAPS,IfcPump,NOTDEFINED
-pump - potable/domestic water booster pump,DWBP,IfcPump,NOTDEFINED
-pump - potable/domestic water transfer pump,DWTP,IfcPump,NOTDEFINED
-pump - primary chilled water pump,PCHWP,IfcPump,NOTDEFINED
-pump - primary pump,PP,IfcPump,NOTDEFINED
-pump - process cooling water pump,PCWP,IfcPump,NOTDEFINED
-pump - process water pump,PWP,IfcPump,NOTDEFINED
-pump - recirculation pump,RCP,IfcPump,NOTDEFINED
-pump - recycled water pump,RWP,IfcPump,NOTDEFINED
-pump - secondary chilled water pump,SCHWP,IfcPump,NOTDEFINED
-pump - secondary heating circulation pump,SHCP,IfcPump,NOTDEFINED
-pump - secondary hot water circulating pump,SHWP,IfcPump,NOTDEFINED
-pump - secondary pump,SP,IfcPump,NOTDEFINED
-pump - separator pump,SEPP,IfcPump,NOTDEFINED
-pump - sewage ejector pump,SEP,IfcPump,NOTDEFINED
-pump - sump pump,SMPP,IfcPump,SUMPPUMP
-pump - tower make up pump,TMUP,IfcPump,NOTDEFINED
-pump - tower make up valve,TMUV,IfcValve,NOTDEFINED
-pump - transfer pump,TRP,IfcPump,NOTDEFINED
-pump - vacuum pump,VCP,IfcPump,NOTDEFINED
-pump - waste water pump,WWP,IfcPump,NOTDEFINED
-pv ac disconnect,PVACDS,IfcSwitchingDevice,SWITCHDISCONNECTOR
-pv data acquisition system,PVDAS,IfcController,NOTDEFINED
-pv dc combiner,PVDCC,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-pv dc disconnect,PVDCDS,IfcSwitchingDevice,SWITCHDISCONNECTOR
-pv distribution board,PVDB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-pv inverter,PVI,IfcTransformer,INVERTER
-pv microgrid controller,PVMC,IfcController,NOTDEFINED
-pv module-level power electronics,PVMLPE,IfcController,NOTDEFINED
-pv panel,PVP,IfcSolarDevice,SOLARPANEL
-pv tranformer,PVTXMR,IfcTransformer,NOTDEFINED
-radiant surface - chilled beam,CHB,IfcCooledBeam,NOTDEFINED
-radiant surface - hot water beam,HTB,IfcSpaceHeater,RADIATOR
-refrgeration - blast chiller/freezer,FRZBCF,IfcElectricAppliance,FREEZER
-refrigeration - coldroom freezer,CRFRZ,IfcElectricAppliance,FREEZER
-refrigeration - coldroom hardware/plant,CRHW,IfcElectricAppliance,REFRIGERATOR
-refrigeration - coldroom refrigerated,CRREF,IfcElectricAppliance,REFRIGERATOR
-refrigeration - freezer,FRZ,IfcElectricAppliance,FREEZER
-refrigeration - ice cream chest freezer,FRZICC,IfcElectricAppliance,FREEZER
-refrigeration - ice maker,IM,IfcElectricAppliance,NOTDEFINED
-refrigeration - refrigerator,REF,IfcElectricAppliance,REFRIGERATOR
-refrigeration - retarder/proover,REFRP,IfcElectricAppliance,REFRIGERATOR
-sand oil interceptor,SOI,IfcInterceptor,OIL
-sand separator,SSP,IfcInterceptor,NOTDEFINED
-sanitary terminal - hand wash basin,HWB,IfcSanitaryTerminal,WASHHANDBASIN
-sensor - CO sensor,COS,IfcSensor,COSENSOR
-sensor - CO2 sensor,CDS,IfcSensor,CO2SENSOR
-sensor - condensation water sensor,CS,IfcSensor,TEMPERATURESENSOR
-sensor - glycol protector sensor,GLYPR,IfcSensor,NOTDEFINED
-sensor - humidity sensor,HMS,IfcSensor,HUMIDITYSENSOR
-sensor - leak detection sensor,LDS,IfcSensor,NOTDEFINED
-sensor - lighting motion sensor,LMS,IfcSensor,MOVEMENTSENSOR
-sensor - lighting multisensor,LTMTS,IfcSensor,NOTDEFINED
-sensor - lighting photocell sensor,LPS,IfcSensor,LIGHTSENSOR
-sensor - moisture content sensor,MCS,IfcSensor,NOTDEFINED
-sensor - motion sensor,MOS,IfcSensor,MOVEMENTSENSOR
-sensor - multi sensor,MTS,IfcSensor,NOT DEFINED
-sensor - nitrogen dioxide sensor,NDS,IfcSensor,NOTDEFINED
-sensor - people counting sensor,PCS,IfcSensor,NOTDEFINED
-sensor - pressure sensor,PS,IfcSensor,PRESSURESENSOR
-sensor - static pressure sensor,SPS,IfcSensor,PRESSURESENSOR
-sensor - temperature sensor,TPS,IfcSensor,TEMPERATURESENSOR
-sensor - thermostat,TSTAT,IfcUnitaryControlElement,THERMOSTAT
-shading - shading / blinds / drapes device actuator,SDACT,IfcActuator,ELECTRICACTUATOR
-shading - shading / blinds / drapes device keypad,SDKP,IfcSwitchingDevice,KEYPAD
-signal - beacon,BCN,ifcAlarm,LIGHT
-tank - break tank and booster set,BTBS,IfcTank,BREAKPRESSURE
-tank - condensate receiver tank,CNR,ifcTank,STORAGE
-tank - deareator tank,DEA,IfcTank,NOTDEFINED
-tank - decontamination tank,DET,IfcTank,NOTDEFINED
-tank - emergency sewer tank,EST,IfcTank,NOTDEFINED
-tank - emergency water tank,EWT,IfcTank,STORAGE
-tank - expansion tank,ET,IfcTank,EXPANSION
-tank - fire hydrant tank,FHT,IfcTank,STORAGE
-tank - fuel oil day tank,FODT,IfcTank,NOTDEFINED
-tank - fuel oil storage tank,FOST,IfcTank,STORAGE
-tank - hot water cylinder,HWC,IfcTank,STORAGE
-tank - potable/domestic water storage tank,DWST,IfcTank,STORAGE
-tank - potable/domestic water transfer tank,DWTT,IfcTank,NOTDEFINED
-tank - sprinkler tank,SPT,IfcTank,STORAGE
-tank - thermal storage tank,TST,IfcTank,STORAGE
-tank - water tank,TK,IfcTank,STORAGE
-thermal wheel,TW,IfcAirToAirHeatRecovery,ROTARYWHEEL
-timeclock,TMCLK,IfcElectricTimeControl,TIMECLOCK
-transformer,TXMR,IfcTransformer,NOTDEFINED
-transportation - escalator,ESC,IfcTransportElement,ESCALATOR
-transportation - lift / elevator,ELV,IfcTransportElement,ELEVATOR
-transportation - lift / elevator controller,ELC,IfcUnitaryControlElement,NOTDEFINED
-transportation - lift / elevator door motor,ELDM,IfcElectricMotor,NOTDEFINED
-transportation - lift / elevator inverter,ELI,IfcTransformer,INVERTER
-transportation - lift / elevator traction machine,ELTM,IfcElectricMotor,NOTDEFINED
-transportation - moving walkway,AW,IfcTransportElement,MOVINGWALKWAY
-trap primer,TP,IfcValve,NOTDEFINED
-trap primer - electronic trap primer,TPE,IfcValve,NOTDEFINED
-ups - uninteruptable power supply unit,UPS,IfcElectricFlowStorageDevice,UPS
-user interface - keypad,KP,IfcSwitchingDevice,KEYPAD
-valve,VLV,IfcValve,NOTDEFINED
-valve - air admittance valve,AAV,IfcValve,AIRRELEASE
-valve - angle stop valve,AV,IfcValve,NOTDEFINED
-valve - backflow preventer valve,BFP,IfcValve,NOTDEFINED
-valve - balancing valve,BLV,IfcValve,COMMISSIONING
-valve - ball valve,BV,Ifcvalve,GASCOCK
-valve - blowdown valve,BDV,IfcValve,NOTDEFINED
-valve - butterfly valve,BFV,IfcValve,NOTDEFINED
-valve - bypass valve,BYV,IfcValve,DIVERTING
-valve - check valve,CKV,IfcValve,CHECK
-valve - chilled water valve,CHWV,IfcValve,NOTDEFINED
-valve - condenser water valve,CDWV,IfcValve,NOTDEFINED
-valve - control valve,CV,IfcValve,NOTDEFINED
-valve - control valve modulating,CVM,IfcValve,NOTDEFINED
-valve - control valve open closed,CVO,IfcValve,NOTDEFINED
-valve - differential pressure control valve,DPCV,IfcValve,NOTDEFINED
-valve - energy valve,ENV,IfcValve,"NOTDEFINED "
-valve - float valve,FV,IfcValve,NOTDEFINED
-valve - flow control valve,FCV,IfcValve,NOTDEFINED
-valve - gate valve,GV,IfcValve,STEAMTRAP
-valve - hot water valve,HWV,IfcValve,NOTDEFINED
-valve - isolation valve,ISV,IfcValve,ISOLATING
-valve - level control valve,LCV,IfcValve,NOTDEFINED
-valve - make up water valve,MUV,IfcValve,NOTDEFINED
-valve - master thermostatic valve,MMV,IfcValve,NOTDEFINED
-valve - pressure attenuator,PA,IfcValve,NOTDEFINED
-valve - pressure control valve,PCV,IfcValve,NOTDEFINED
-valve - pressure independent control valve,PICV,IfcValve,NOTDEFINED
-valve - pressure reducing valve,PRV,IfcValve,PRESSUREREDUCING
-valve - pressure relief valve,PRFV,IfcValve,PRESSURERELIEF
-valve - process water valve,PWV,IfcValve,NOTDEFINED
-valve - recirculation valve,RCV,IfcValve,NOTDEFINED
-valve - return valve,RTV,IfcValve,NOTDEFINED
-valve - seismic gas valve,SGV,IfcValve,NOTDEFINED
-valve - steam pressure reducing valve,SPRV,IfcValve,NOTDEFINED
-valve - supply valve,SPV,IfcValve,NOTDEFINED
-valve - temperature control valve,TCV,IfcValve,NOTDEFINED
-valve - thermostatic mixing valve,TMV,IfcValve,MIXING
-valve - water hammer arrestor,WHAV,IfcValve,NOTDEFINED
-valve - water solenoid valve,SNV,IfcValve,SAFETYCUTOFF(?)
-variable frequency drive,VFD,IfcMotorConnection,NOTDEFINED
-washing appliance - commercial flight machine,CDWFM,IfcElectricAppliance,DISHWASHER
-washing appliance - commercial pass through machine,CDWPTM,IfcElectricAppliance,DISHWASHER
-washing appliance - commercial pot and utensil machine,CDWPUW,IfcElectricAppliance,DISHWASHER
-washing appliance - commercial rack machine,CDWRM,IfcElectricAppliance,DISHWASHER
-washing appliance - commercial undercounter machine,CDWUM,IfcElectricAppliance,DISHWASHER
-washing appliance - conveyor system,CDWSCS,IfcElectricAppliance,DISHWASHER
-washing appliance - roller table,CDWRT,IfcFurniture,TABLE
-waste management - food dehydrator,WSTFD,IfcElectricAppliance,NOTDEFINED
-waste management - waste bin,WSTBIN,IfcFurniture,NOTDEFINED
-waste management - waste compactor,WSTC,IfcElectricAppliance,NOTDEFINED
-waste management - wet waste grinder,WSTWG,IfcElectricAppliance,NOTDEFINED
-waste terminal - area drain,AD,IfcWasteTerminal,NOTDEFINED
-water heater - domestic electric water heater,DEWH,IfcElectricAppliance,FREESTANDINGWATERHEATER
-water heater - domestic gas water heater,DGWH,IfcBoiler,WATER
-water heater - instantaneous water heater,IWH,IfcElectricAppliance,NOTDEFINED
-water treatment - chemical dosage unit,CHDU,IfcDistributionSystem,CHEMICAL
-water treatment - cooling tower water treatment unit,CTSU,IfcUnitaryEquipment,NOTDEFINED
-water treatment - dosing pot,DPOT,IfcDistributionFlowElement,NOTDEFINED
-water treatment - electro magnetic water conditioner,EMWC,IfcFlowTreatmentDevice,NOTDEFINED
-weather station,WST,IfcUnitaryControlElement,WEATHERSTATION
-window,WD,IfcWindow,NOTDEFINED
+asset_description,asset_abbreviation,connected,dbo_entity_type,ifc_class,ifc_type
+access control - biometric reader,BIOR,yes,,IfcCommunicationsAppliance,SCANNER
+access control - RFID controller,RFIDC,yes,,IfcController,NOTDEFINED
+access control - RFID reader,RFIDR,yes,,IfcCommunicationsAppliance,SCANNER
+active harmonic filter,AHF,no,,IfcElectricFlowStorageDevice,HARMONICFILTER
+actuator,ACT,no,,IfcActuator,NOTDEFINED
+actuator - dew point switch,DPSW,no,,IfcUnitaryControlElement,HUMIDISTAT
+actuator - frost protection switch,FPSW,no,,IfcActuator,ELECTRICACTUATOR
+actuator - motorized window operator,WDO,no,,IfcActuator,ELECTRICACTUATOR
+actuator - switch actuator,SWACT,no,,IfcActuator,ELECTRICACTUATOR
+ahu - air handling unit,AHU,yes,AHU,IfcUnitaryEquipment,AIRHANDLER
+ahu - dedicated outside air system unit,DOAS,yes,DOAS,IfcUnitaryEquipment,AIRHANDLER
+ahu - heat recovery unit,HRU,yes,AHU,IfcAirToAirHeatRecovery,NOTDEFINED
+ahu - make-up air handler,MAU,yes,MAU,IfcUnitaryEquipment,AIRHANDLER
+ahu - roof top unit,RTU,yes,AHU,IfcUnitaryEquipment,ROOFTOPUNIT
+air conditioning unit,ACU,yes,,IfcUnitaryEquipment,AIRCONDITIONINGUNIT
+air conditioning unit - computer room AC unit,CRAC,yes,,IfcUnitaryEquipment,AIRCONDITIONINGUNIT
+air conditioning unit - direct expansion cooling unit,DX,yes,,IfcUnitaryEquipment,SPLITSYSTEM
+air terminal box - constant air volume box,CAV,yes,,IfcAirTerminalBox,CONSTANTFLOW
+air terminal box - variable air volume box,VAV,yes,VAV,IfcAirTerminalBox,NOTDEFINED
+air terminal box - variable volume and temperature box,VVTB,yes,,IfcAirTerminalBox,NOTDEFINED
+air terminal box - variable volume terminal unit,VVT,yes,,IfcAirTerminalBox,NOTDEFINED
+antenna,ANT,no,,IfcCommunicationsAppliance,ANTENNA
+antenna - wi-fi antenna,WANT,no,,IfcCommunicationsAppliance,ANTENNA
+architecture - room,ROOM,no,,IfcSpace,INTERNAL
+av equipment,AVEQ,yes,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - digital whiteboard,DWB,yes,,IfcAudioVisualAppliance,DISPLAY
+av equipment - display screen,DS,yes,,IfcAudioVisualAppliance,DISPLAY
+av equipment - iptv content management system device,CMS,yes,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - networked video recorder,NVR,yes,,IfcAudioVisualAppliance,PLAYER
+av equipment - speaker,SPK,yes,,IfcAudioVisualAppliance,SPEAKER
+av equipment - video wall,VDW,yes,,IfcAudioVisualAppliance,DISPLAY
+av equipment - white noise generator,WNG,yes,,IfcAudioVisualAppliance,NOTDEFINED
+battery,BATT,no,BATT,IfcElectricFlowStorageDevice,BATTERY
+beverage machine - airpot,BVAP,no,,IfcElectricAppliance,NOTDEFINED
+beverage machine - chai machine,BVC,no,,IfcElectricAppliance,NOTDEFINED
+beverage machine - coffee grinder,BVCFMG,no,,IfcElectricAppliance,NOTDEFINED
+beverage machine - coffee machine,BVCFM,no,,IfcElectricAppliance,NOTDEFINED
+beverage machine - coffee nitro machine,BVCFMN,no,,IfcElectricAppliance,NOTDEFINED
+beverage machine - coffee urn,BVCFMU,no,,IfcElectricAppliance,NOTDEFINED
+beverage machine - espresso machine,BVCFME,no,,IfcElectricAppliance,NOTDEFINED
+beverage machine - knock out chute,BVKOC,no,,IfcWasteTerminal,NOTDEFINED
+beverage machine - steamer,BVS,no,,IfcElectricAppliance,NOTDEFINED
+beverage machine - water boiler,BVWB,no,,IfcBoiler,WATER
+burner - boiler,BLR,yes,BLR,ifcBoiler,NOTDEFINED
+burner - furnace,FR,yes,,IfcBurner,NOTDEFINED
+burner - steam boiler,SB,yes,BLR,IfcBoiler,STEAM
+camera,CAM,yes,,IfcAudioVisualAppliance,CAMERA
+camera - pan tilt zoom camera,PTZCAM,yes,,IfcAudioVisualAppliance,CAMERA
+chiller,CH,yes,CH,IfcChiller,NOTDEFINED
+chiller - cooling tower,CT,yes,CT,IfcCoolingTower,NOTDEFINED
+chiller - critical cooling chiller,CCCH,yes,CH,IfcChiller,NOTDEFINED
+chiller - dry air cooler,DAC,yes,DC,IfcCondenser,AIRCOOLED
+chiller - high temperature chiller,HTCH,yes,CH,IfcChiller,NOTEDEFINED
+chiller - hybrid air cooler or fluid cooler,HYAC,yes,CH,IfcEvaporativeCooler,NOTDEFINED
+chiller - low temperature chiller,LTCH,yes,CH,IfcChiller,NOTDEFINED
+cleaning - floor cleaner scrubber dryer,FCSD,yes,,IfcElectricAppliance,NOTDEFINED
+coil,COIL,no,,IfcCoil,NOTDEFINED
+coil - cooling coil,CC,no,,IfcCoil,WATERCOOLINGCOIL
+coil - dx reversible coil,DXC,no,,IfcCoil,NOTDEFINED
+coil - frost or preheat coil,PHC,no,,IfcCoil,NOTDEFINED
+coil - heating coil,HC,no,,IfcCoil,WATERHEATINGCOIL
+coil - reheat coil,RHC,no,,IfcCoil,NOTDEFINED
+coil - run around coil,RAC,no,,IfcAirToAirHeatRecovery,RUNAROUNDCOILLOOP
+communication appliance - printing device,PRNTR,yes,,IfcCommunicationsAppliance,PRINTER
+communication gateway,CGW,yes,,IfcCommunicationsAppliance,GATEWAY
+compressor,CMP,no,CMP,IfcCompressor,NOTDEFINED
+compressor - air compressor,ACP,no,CMP,ifcCompressor,NOTDEFINED
+condensing unit,CDU,no,,IfcCondenser,NOTDEFINED
+controller,CNTRL,yes,,IfcController,NOTDEFINED
+controller - direct digital controller,DDC,yes,,IfcController,PROGRAMMABLE
+controller - irrigation controller,IRRC,yes,,IfcController,NOTDEFINED
+controller - programmable logic controller,PLC,yes,,IfcController,PROGRAMMABLE
+controller - shading device controller,SDC,yes,,IfcController,NOTDEFINED
+cooking appliance - bratt pan,CKBP,no,,IfcElectricAppliance,NOTDEFINED
+cooking appliance - chargrill,CKCGR,no,,IfcFlowTerminal,NOTDEFINED
+cooking appliance - combination microwave/high speed oven,CKCMWO,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - combination oven,CKCMOV,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - convection oven,CKCVOV,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - deck/pizza oven,CKDOVN,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - dim sum steamer,CKDSTE,no,,IfcElectricAppliance,NOTDEFINED
+cooking appliance - fry dump,CKFRYD,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - fryer,CKFRY,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - gas range,CKGRCK,no,,IfcFlowTerminal,NOTDEFINED
+cooking appliance - gas wok range,CKGWR,no,,IfcFlowTerminal,NOTDEFINED
+cooking appliance - griddle,CKGRD,no,,IfcElectricAppliance,NOTDEFINED
+cooking appliance - hearth oven,CKHOVN,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - impinger conveyor oven,CKICOV,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - induction,CKIU,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - induction range,CKIRCK,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - induction wok,CKIW,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - kettle,CKKET,no,,IfcElectricAppliance,NOTDEFINED
+cooking appliance - mobile cook station,KMCS,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - pasta cooker,CKPC,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - potato oven,CKPOVN,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - pressure bratt pan,CKPBP,no,,IfcElectricAppliance,NOTDEFINED
+cooking appliance - pressure steamer,CKPSTE,no,,IfcElectricAppliance,NOTDEFINED
+cooking appliance - rice cooker,CKRC,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - rotisserie,CKROT,no,,IfcFlowTerminal,NOTDEFINED
+cooking appliance - salamander grill,CKSGRL,no,,IfcElectricAppliance,ELECTRICCOOKER
+cooking appliance - steamer,CKSTE,no,,IfcElectricAppliance,NOTDEFINED
+cooking appliance - tandoori oven,CKTOVN,no,,IfcElectricAppliance,ELECTRICCOOKER
+damper,DMP,yes,DMP,IfcDamper,NOTDEFINED
+damper - bypass control damper,BYCD,yes,DMP,IfcDamper,CONTROLDAMPER
+damper - exhaust damper,EXD,yes,DMP,IfcDamper,NOTDEFINED
+damper - fire damper,FD,yes,FD,IfcDamper,FIREDAMPER
+damper - inlet control damper,ICD,yes,DMP,IfcDamper,CONTROLDAMPER
+damper - inlet isolation damper,IISD,yes,DMP,IfcDamper,NOTDEFINED
+damper - motorised fire smoke damper,MFSD,yes,DMP,IfcDamper,FIRESMOKEDAMPER
+damper - motorised smoke damper,MSD,yes,DMP,IfcDamper,SMOKEDAMPER
+damper - pressure relief dampers,PRLD,yes,DMP,IfcDamper,RELIEFDAMPER
+damper - recirculation control damper,RECD,yes,DMP,IfcDamper,CONTROLDAMPER
+damper - return control damper,RTCD,yes,DMP,IfcDamper,CONTROLDAMPER
+damper - return isolation damper,RTISD,yes,DMP,IfcDamper,CONTROLDAMPER
+damper - volume control damper,VCD,yes,DMP,IfcDamper,BALANCINGDAMPER
+data processing unit / computer,DPU,yes,,IfcCommunicationsAppliance,NOTDEFINED
+dehumidifier,DHUM,no,,IfcUnitaryEquipment,DEHUMIDIFIER
+dispenser,DISP,no,,IfcElectricAppliance,NOTDEFINED
+dispenser - broth,DISPB,no,,IfcElectricAppliance,NOTDEFINED
+dispenser - cereal,DISPC,no,,IfcElectricAppliance,NOTDEFINED
+dispenser - ice/beverage,DISPIB,no,,IfcElectricAppliance,NOTDEFINED
+dispenser - juice,DISPJ,no,,IfcElectricAppliance,NOTDEFINED
+dispenser - milk,DISPMK,no,,IfcElectricAppliance,NOTDEFINED
+dispenser - soft serve ice cream,DISPIC,no,,IfcElectricAppliance,NOTDEFINED
+dispenser - water,DISPW,no,,IfcElectricAppliance,NOTDEFINED
+door,DR,no,,IfcDoor,DOOR
+door - fire door,FDR,no,FDR,IfcDoor,NOTDEFINED
+drinking fountain / bottle filler,DF,no,,IfcSanitaryTerminal,SANITARYFOUNTAIN
+duct silencer - attenuator,SLCR,no,,IfcDuctSilencer,NOTDEFINED
+dx system - variable refrigerant flow unit,VRF,no,,IfcUnitaryEquipment,SPLITSYSTEM
+dx system - variable refrigerant volume unit,VRV,no,,IfcUnitaryEquipment,SPLITSYSTEM
+electric appliance,EAPPL,no,,IfcElectricAppliance,NOTDEFINED
+electric appliance - air dryer,ADY,no,ADY,IfcElectricAppliance,NOTDEFINED
+electric appliance - dishwasher,DW,no,,IfcElectricAppliance,DISHWASHER
+electric appliance - electronic point of sale,EPOS,yes,,IfcElectricAppliance,NOTDEFINED
+electric appliance - exercise / gym equipment,GYMEQ,no,,IfcElectricAppliance,NOTDEFINED
+electric appliance - food equipment,FOODEQ,no,,IfcElectricAppliance,NOTDEFINED
+electric appliance - fryer,FRY,no,,IfcElectricAppliance,ELECTRICCOOKER
+electric appliance - generic vending machine,VEND,no,,IfcElectricAppliance,VENDINGMACHINE
+electric appliance - oven,OVN,no,,IfcElectricAppliance,ELECTRICCOOKER
+electric appliance - scanning device,SCAN,no,,IfcCommunicationsAppliance,SCANNER
+electric appliance - steamer,STE,no,,IfcElectricAppliance,NOTDEFINED
+electric distribution - automatic transfer switch,ATS,yes,,IfcProtectiveDevice,NOTDEFINED
+electric distribution - branch circuit panel board 120/208V,LVCPB,no,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - branch circuit panel board 277/480V,HVCPB,no,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - distribution panel / board,DB,no,PANEL,IfcElectricDistributionBoard," DISTRIBUTIONBOARD"
+electric distribution - distribution panel 120/208V,LVDP,no,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - distribution panel 277/480V,HVDP,no,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - distribution panel for itc equipment,ITDP,no,PANEL,IfcElectricDistributionBoard,NOTDEFINED
+electric distribution - electric switch,ELSW,no,,IfcSwitchingDevice,TOGGLESWITCH
+electric distribution - EVC electric vehicle charging distribution panel,EVDP,no,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - EVC electric vehicle charging equipment,EVCE,no,,IfcOutlet,POWEROUTLET
+electric distribution - high voltage switchboard,HVSB,no,,IfcElectricDistributionBoard,SWITCHBOARD
+electric distribution - kitchen electric distribution panel/board,KDP,no,PANEL,IfcElectricDistributionBoard,NOTDEFINED
+electric distribution - load bank,LB,no,,IfcElectricFlowStorageDevice,NOTDEFINED
+electric distribution - low voltage switchboard,LVSB,no,,IfcElectricDistributionBoard,SWITCHBOARD
+electric distribution - main panel / board,MPNL,no,PANEL,IfcElectricDistributionBoard,NOTDEFINED
+electric distribution - mains distribution unit,MDU,no,,IfcElectricDistributionBoard,NOTDEFINED
+electric distribution - mains switchboard,MSB,no,,IfcElectricDistributionBoard,SWITCHBOARD
+electric distribution - mechanical distribution panel / board,MDP,no,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - medium voltage switchboard,MVSB,no,,IfcElectricDistributionBoard,SWITCHBOARD
+electric distribution - power distribution unit,PDU,yes,,IfcElectricDistributionBoard,NOTDEFINED
+electric distribution - static transfer switch,STS,no,,IfcSwitchingDevice,NOTDEFINED
+electric distribution - switchgear (12kv typ),SWGR,no,,IfcElectricDistributionBoard,SWITCHBOARD
+electric distribution - ups panel / board,UPSB,yes,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric protective device - circuit breaker,CB,no,,IfcProtectiveDevice,CIRCUITBREAKER
+electric protective device - disconnect fuse,DSCTF,no,,IfcProtectiveDevice,FUSEDISCONNECTOR
+electric protective device - safety switch or disconnect switch,DSCTS,no,,IfcSwitchingDevice,SWITCHDISCONNECTOR
+electric protective device - sectionalizer switch,SCS,no,,IfcSwitchingDevice,SELECTORSWITCH
+electrochromic glass,ECG,yes,,IfcWindow,NOTDEFINED
+electronic key cabinet,EKC,yes,,IfcFurniture,NOTDEFINED
+employee timeclock with fingerprint scanner,ETCFP,yes,,IfcElectricAppliance,NOTDEFINED
+evaporator,EVP,no,,IfcEvaporator,NOTDEFINED
+fan,FAN,yes,FAN,IfcFan,NOTDEFINED
+fan - cooling tower fan,CTF,yes,FAN,IfcFan,NOTDEFINED
+fan - exhaust fan,EF,yes,FAN,IfcFan,NOTDEFINED
+fan - fume hood exhaust fan,FHEX,yes,FAN,IfcDamper,FUMEHOODEXHAUST
+fan - garage / car park supply fan,GSF,yes,FAN,IfcFan,NOTDEFINED
+fan - garage / car park transfer fan,GTF,yes,FAN,IfcFan,NOTDEFINED
+fan - kitchen exhaust fan,KEF,yes,FAN,IfcFan,NOTDEFINED
+fan - relief fan,RLF,yes,FAN,IfcFan,NOTDEFINED
+fan - return fan,RTF,yes,FAN,IfcFan,NOTDEFINED
+fan - smoke exhaust fan,SEF,yes,FAN,IfcFan,NOTDEFINED
+fan - stairwell pressurization fan,SPF,yes,FAN,IfcFan,NOTDEFINED
+fan - supply fan,SF,yes,FAN,IfcFan,NOTDEFINED
+fan - transfer fan,TF,yes,FAN,IfcFan,NOTDEFINED
+fan coil unit,FCU,yes,FCU,IfcUnitaryEquipment,NOTDEFINED
+filter,FLT,no,,IfcFilter,NOTDEFINED
+filter - air separator,AS,no,,IfcFlowTreatmentDevice,NOTDEFINED
+filter - cooling tower filtration unit,CTFS,no,,IfcFilter,NOTDEFINED
+filter - cooling tower filtration unit,CTFU,no,,IfcUnitaryEquipment,NOTDEFINED
+filter - cooling tower sand filter,CTSFLT,no,,IfcFilter,NOTDEFINED
+filter - cooling tower separator,CTSEP,no,,IfcFilter,NOTDEFINED
+filter - cooling tower separator / sand separator,CTSSEP,no,,IfcFilter,NOTDEFINED
+filter - degasser filter,DGA,no,,IfcFilter,NOTDEFINED
+filter - pollution control unit,PCU,no,,IfcFilter,AIRPARTICLEFILTER
+filter - process filtration unit,PFU,no,,IfcUnitaryEquipment,NOTDEFINED
+filter - reverse osmosis system,RO,no,,IfcFilter,NOTDEFINED
+filter - side stream water filters,SSFLT,no,,IfcFilter,NOTDEFINED
+filter - vacuum system filter,VSFLT,no,,IfcFilter,NOTDEFINED
+filter - water - reverse rinsing filter,RRFLT,no,,IfcFilter,NOTDEFINED
+filter - water conditioner,WCR,no,,IfcFilter,WATERFILTER
+filter - water softener,WSR,no,,IfcFilter,WATERFILTER
+fire detection - alarm annunciator sounder or beacon,FAS,yes,,IfcAlarm,NOTDEFINED
+fire detection - aspirating smoke detector,ASD,yes,SD,IfcSensor,SMOKESENSOR
+fire detection - break glass unit,BGU,yes,BGU,IfcAlarm,BREAKGLASSBUTTON
+fire detection - control and indication equipment,CIE,yes,,IfcUnitaryControlElement,INDICATORPANEL
+fire detection - gas detector,GD,yes,SENSOR,IfcSensor,GASSENSOR
+fire detection - heat detector,HD,yes,SENSOR,IfcSensor,HEATSENSOR
+fire detection - input output interface unit,IFU,yes,,IfcSwitchingDevice,NOTDEFINED
+fire detection - smoke detector,SD,yes,SD,IfcSensor,SMOKESENSOR
+fire suppression - fire jockey pump,FJP,yes,,IfcPump,NOTDEFINED
+fire suppression - fire pump,FP,yes,,IfcPump,NOTDEFINED
+fire suppression - fire pump control panel,FPCP,yes,,IfcUnitaryControlElement,CONTROLPANEL
+fire suppression - gas suppression control panel,GSCP,yes,,IfcUnitaryControlElement,CONTROLPANEL
+fire suppression - gas suppression head,GSH,no,,IfcFireSuppressionTerminal,NOTDEFINED
+fire suppression - hose reel terminal,KHRL,no,,IfcFireSuppressionTerminal,HOSEREEL
+fire suppression - kitchen fire suppression system,KFSS,yes,,IfcDistributionSystem,FIREPROTECTION
+fire suppression - sprinkler alarm bell,FB,yes,,IfcAlarm,BELL
+fire suppression - sprinkler flow switch,FS,yes,,IfcSwitchingDevice,NOTDEFINED
+fire suppression - sprinkler head terminal,SPH,no,,IfcFireSuppressionTerminal,SPRINKLER
+fire suppression - sprinkler isolation valve,SISV,no,,IfcValve,ISOLATING
+food serving - cold plate,FSCPL,no,,IfcFlowTerminal,NOTDEFINED
+food serving - cold well,FSCWL,no,,IfcFlowStorageDevice,NOTDEFINED
+food serving - heat lamp,FSHL,no,,IfcSpaceHeater,NOTDEFINED
+food serving - hot and cold plate,FSHCPL,no,,IfcFlowTerminal,NOTDEFINED
+food serving - hot and cold well,FSHCWL,no,,IfcFlowStorageDevice,NOTDEFINED
+food serving - hot plate,FSHPL,no,,IfcFlowTerminal,NOTDEFINED
+food serving - hot well,FSHWL,no,,IfcFlowStorageDevice,NOTDEFINED
+food serving - ice cream display,FSICD,no,,IfcElectricAppliance,NOTDEFINED
+food serving - ice well,FSIWL,no,,IfcFlowStorageDevice,NOTDEFINED
+food serving - induction warmer,FSIW,no,,IfcElectricAppliance,NOTDEFINED
+food serving - sneeze guard,FSSG,no,,IfcFurniture,NOTDEFINED
+food serving - soup well,FSSWL,no,,IfcFlowStorageDevice,NOTDEFINED
+furniture - chemical storage cabinet,CSC,no,,IfcFurniture,NOTDEFINED
+furniture - commercial kitchen mobile soak sink,KSINKM,no,,IfcSanitaryTerminal,SINK
+furniture - commercial kitchen sink,KSINK,no,,IfcSanitaryTerminal,SINK
+furniture - commercial kitchen storage cabinet,KSTC,no,,IfcFurniture,NOTDEFINED
+furniture - commercial kitchen storage cabinet heated,KSTCH,no,,IfcFlowStorageDevice,NOTDEFINED
+furniture - commercial kitchen table,KTBL,no,,IfcFurniture,TABLE
+furniture - commercial kitchen trolley/cart,KCART,no,,IfcFurniture,NOTDEFINED
+furniture - commercial kitchen utlity distribution system,KUDS,no,,IfcDistributionSystem,NOTDEFINED
+furniture - commercial kitchen wall mounted glass rack,KWMGR,no,,IfcFurniture,SHELF
+furniture - commercial kithcen utility chase system,KUCS,no,,IfcDistributionSystem,NOTDEFINED
+furniture - desk,DESK,no,,IfcFurniture,DESK
+furniture - locker,LCKR,no,,IfcFurniture,NOTDEFINED
+generator - clean steam generator,CSG,yes,,IfcElectricGenerator,NOTDEFINED
+generator - electricity generator,GEN,yes,,IfcElectricGenerator,ENGINEGENERATOR
+grease waste interceptor,GI,no,,IfcInterceptor,GREASE
+heat emitter - duct heater,DH,yes,DH,IfcSpaceHeater,NOTDEFINED
+heat emitter - electric unit heater,EUH,yes,UH,ifcSpaceHeater,NOTDEFINED
+heat emitter - gas unit heater,GUH,yes,UH,IfcSpaceHeater,NOTDEFINED
+heat emitter - heater,HTR,yes,,IfcSpaceHeater,NOTDEFINED
+heat emitter - hydronic trench convector,TC,yes,,IfcSpaceHeater,NOTDEFINED
+heat emitter - radiant panel,RP,yes,RP,ifcSpaceHeater,NOTDEFINED
+heat emitter - trace heating,EHT,yes,,ifcSpaceHeater,NOTDEFINED
+heat emitter - trench heater and cooler,TRHC,yes,,ifcSpaceHeater,NOTDEFINED
+heat emitter - trench heating,TRH,yes,,ifcSpaceHeater,NOTDEFINED
+heat emitter - unit heater,UH,yes,,IfcSpaceHeater,NOTDEFINED
+heat exchanger,HX,yes,HX,IfcHeatExchanger,NOTDEFINED
+heat exchanger - plate heat exchanger,PHX,yes,,IfcHeatExchanger,PLATE
+heat interface unit,HIU,yes,,IfcDistributionSystem,HEATING
+heat pump - air source heat pump,ASHP,yes,,IfcUnitaryEquipment,NOTDEFINED
+heat pump - ground source heat pump,GSHP,yes,,IfcUnitaryEquipment,NOTDEFINED
+heat pump - heat pump,HP,yes,,IfcUnitaryEquipment,NOTDEFINED
+heat pump - water source heat pump,WSHP,yes,,IfcUnitaryEquipment,NOTDEFINED
+high level interface,HLI,yes,,IfcController,PROGRAMMABLE
+horn strobe,HS,yes,HS,IfcAlarm,SIREN
+human machine interface,HMI,yes,,IfcCommunicationsAppliance,NOTDEFINED
+humidifier,HUM,yes,HUM,IfcHumidifier,NOTDEFINED
+itc equipment - ethernet switch,ETS,yes,,ifcCommunicationsAppliance,NETWORKBRIDGE
+itc equipment - intermediate distribution frame,IDF,yes,,IfcCommunicationsAppliance,NOTDEFINED
+itc equipment - network firewall,FW,yes,,IfcCommunicationsAppliance,NETWORKAPPLIANCE
+itc equipment - network router,RTR,yes,,IfcCommunicationsAppliance,ROUTER
+itc equipment - power-over-ethernet network switch,POEETS,yes,,IfcCommunicationsAppliance,NOTDEFINED
+itc equipment - software-defined networking controller,SDNC,yes,,IfcCommunicationsAppliance,NOTDEFINED
+itc equipment - wi-fi router,WRTR,yes,,IfcCommunicationsAppliance,ROUTER
+itc equipment - wireless access point,WAP,yes,,IfcCommunicationsAppliance,ROUTER
+kitchen appliance - blender/smoothie maker,KSMBL,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - bowl blender,KBBL,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - bowl cutter,KBC,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - can opener,KCO,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - crepe and waffle maker,KCWM,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - cutlery dryer,KCDY,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - dough divider/rounder,KDR,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - dough press,KDPR,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - insect trap,KICT,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - juicer,KJC,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - meat bone saw,KMBS,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - meat mincer,KMM,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - meat slicer,KMS,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - microwave oven,CKMWO,no,,IfcElectricAppliance,MICROWAVE
+kitchen appliance - mixer,KMIX,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - pacotizing machine,KPM,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - potato peeling machine,KPPM,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - scale,KFS,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - stick blender,KSBL,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - storage rack,KSR,no,,IfcFurniture,SHELF
+kitchen appliance - toaster,KTST,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - uv knife steralizer,KUVSC,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - vacuum packing machine,KVPM,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - veg cutting machine,KVCM,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - vegetable washer,KVWM,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - vegetable washer and dryer,KVW,no,,IfcElectricAppliance,NOTDEFINED
+kitchen appliance - warming drawer,WDR,no,,IfcElectricAppliance,ELECTRICCOOKER
+kitchen ventilation - condensate hood,KVCH,yes,,IfcDamper,FUMEHOODEXHAUST
+kitchen ventilation - extraction/exhuast grease hood,KVGH,yes,,IfcDamper,FUMEHOODEXHAUST
+kitchen ventilation - ventilated ceiling,KVVC,yes,,IfcAirTerminalBox,NOTDEFINED
+lighting - illuminated exit sign,EXIT,yes,,IfcLightFixture,SECURITYLIGHTING
+lighting - lighting control module,LCM,yes,LCM,IfcUnitaryControlElement,NOTDEFINED
+lighting - lighting control panel,LCP,yes,,IfcUnitaryControlElement,NOTDEFINED
+lighting - lighting fixture,LT,yes,LT,IfcLightFixture,NOTDEFINED
+lighting - lighting gateway,LTGW,yes,LTGW,IfcCommunicationsAppliance,GATEWAY
+lighting - lighting keypad,LKP,yes,LKP,IfcSwitchingDevice,KEYPAD
+location services - beacon,LBCN,yes,,IfcCommunicationsAppliance,NOTDEFINED
+meter,MTR,yes,MTR,IfcFlowMeter,NOTDEFINED
+meter - electric meter,EM,yes,EM,IfcFlowMeter,ENERGYMETER
+meter - flow meter,FM,yes,FM,IfcFlowMeter,NOTDEFINED
+meter - gas meter,GM,yes,GM,IfcFlowMeter,GASMETER
+meter - heat meter,HM,yes,HM,IfcFlowMeter,NOTDEFINED
+meter - water meter,WM,yes,WM,IfcFlowMeter,WATERMETER
+motor controller - vsd (inverter drive),VSD,yes,,IfcMotorConnection,NOTDEFINED
+natural air ventilator,AVR,yes,,ifcStackTerminal,NOTDEFINED
+oil interceptor,OI,no,,IfcInterceptor,OIL
+outlet,OUT,no,,IfcOutlet,NOTDEFINED
+outlet - ceiling duplex,CGDXO,no,,IfcOutlet,POWEROUTLET
+outlet - controlled duplex,CNDO,no,,IfcOutlet,DATAOUTLET
+outlet - data wall outlet,DATA,no,,IfcOutlet,DATAOUTLET
+outlet - double 20A duplex receptacle,DDR,no,,IfcOutlet,POWEROUTLET
+outlet - duplex outlets,DXO,no,,IfcOutlet,POWEROUTLET
+outlet - floor duplex outlet,FLRDX,no,,IfcOutlet,DATAOUTLET
+outlet - floor quad outlet,FLRQD,no,,IfcOutlet,DATAOUTLET
+outlet - linear electric receptacle,LER,no,,IfcOutlet,NOTDEFINED
+outlet - raised floor box,FLRB,no,,IfcOutlet,NOTDEFINED
+panel - alarm panel,AP,yes,,IfcUnitaryControlElement,ALARMPANEL
+panel - chemical treatment control panel,CTCP,yes,,IfcUnitaryControlElement,NOTDEFINED
+panel - control panel,CTRP,yes,,IfcUnitaryControlElement,CONTROLPANEL
+panel - fire alarm control panel,FACP,yes,FACP,IfcUnitaryControlElement," NOTDEFINED"
+panel - gas detection panel,GASDET,yes,,IfcUnitaryControlElement,GASDETECTIONPANEL
+panel - hvac control panel,HVACCP,yes,,IfcUnitaryControlElement,CONTROLPANEL
+panel - leak detection panel,LDP,yes,,IfcUnitaryControlElement,CONTROLPANEL
+panel - motor control center,MCC,yes,,IfcUnitaryControlElement,NOTDEFINED
+panel - remote i/o control panel,RIO,yes,,IfcUnitaryControlElement,NOTDEFINED
+panel - variable air volume control station / panel,VAVCTR,yes,,IfcUnitaryControlElement,NOTDEFINED
+pressurisation unit,PU,yes,,IfcUnitaryEquipment,NOTDEFINED
+pressurisation unit - water system makeup unit,WMS,yes,,IfcUnitaryEquipment,NOTDEFINED
+pump,PMP,yes,PMP,IfcPump,NOTDEFINED
+pump - automatic condensate pump,CNP,yes,PMP,IfcPump,NOTDEFINED
+pump - auxilliary process cooling water pump,AXCWP,yes,PMP,IfcPump,NOTDEFINED
+pump - booster pump,BSP,yes,PMP,IfcPump,NOTDEFINED
+pump - chilled water pump,CHWP,yes,PMP,IfcPump,NOTDEFINED
+pump - circulating pump,CP,yes,PMP,IfcPump,CIRCULATOR
+pump - condenser water pump,CDWP,yes,PMP,IfcPump,NOTDEFINED
+pump - cooling tower separator pump,CTSEPP,yes,PMP,IfcPump,NOTDEFINED
+pump - domestic hot water circulation pump,DHWP,yes,PMP,IfcPump,NOTDEFINED
+pump - dosing pump,DP,yes,PMP,IfcPump,NOTDEFINED
+pump - fire hydrant pump,FHP,yes,FHP,IfcPump,NOTDEFINED
+pump - fuel oil pump,FOP,yes,PMP,IfcPump,NOTDEFINED
+pump - heat exchanger pump,HXP,yes,PMP,IfcPump,NOTDEFINED
+pump - high temperature chilled water pump,HTCHP,yes,PMP,IfcPump,NOTDEFINED
+pump - high temperature condenser water pump,HTCWP,yes,PMP,IfcPump,NOTDEFINED
+pump - hot water pump,HWP,yes,PMP,IfcPump,NOTDEFINED
+pump - low temperature chilled water pump,LTCHWP,yes,PMP,IfcPump,NOTDEFINED
+pump - low temperature condenser water pump,LTCDWP,yes,PMP,IfcPump,NOTDEFINED
+pump - low temperature hot water pump,LTHWP,yes,PMP,IfcPump,NOTDEFINED
+pump - packaged pump set,PAPS,yes,PMP,IfcPump,NOTDEFINED
+pump - potable/domestic water booster pump,DWBP,yes,PMP,IfcPump,NOTDEFINED
+pump - potable/domestic water transfer pump,DWTP,yes,PMP,IfcPump,NOTDEFINED
+pump - primary chilled water pump,PCHWP,yes,PMP,IfcPump,NOTDEFINED
+pump - primary pump,PP,yes,PMP,IfcPump,NOTDEFINED
+pump - process cooling water pump,PCWP,yes,PMP,IfcPump,NOTDEFINED
+pump - process water pump,PWP,yes,PMP,IfcPump,NOTDEFINED
+pump - recirculation pump,RCP,yes,PMP,IfcPump,NOTDEFINED
+pump - recycled water pump,RWP,yes,PMP,IfcPump,NOTDEFINED
+pump - secondary chilled water pump,SCHWP,yes,PMP,IfcPump,NOTDEFINED
+pump - secondary heating circulation pump,SHCP,yes,PMP,IfcPump,NOTDEFINED
+pump - secondary hot water circulating pump,SHWP,yes,PMP,IfcPump,NOTDEFINED
+pump - secondary pump,SP,yes,PMP,IfcPump,NOTDEFINED
+pump - separator pump,SEPP,yes,PMP,IfcPump,NOTDEFINED
+pump - sewage ejector pump,SEP,yes,PMP,IfcPump,NOTDEFINED
+pump - sump pump,SMPP,yes,PMP,IfcPump,SUMPPUMP
+pump - tower make up pump,TMUP,yes,PMP,IfcPump,NOTDEFINED
+pump - tower make up valve,TMUV,yes,PMP,IfcValve,NOTDEFINED
+pump - transfer pump,TRP,yes,PMP,IfcPump,NOTDEFINED
+pump - vacuum pump,VCP,yes,PMP,IfcPump,NOTDEFINED
+pump - waste water pump,WWP,yes,PMP,IfcPump,NOTDEFINED
+pv ac disconnect,PVACDS,yes,,IfcSwitchingDevice,SWITCHDISCONNECTOR
+pv data acquisition system,PVDAS,yes,,IfcController,NOTDEFINED
+pv dc combiner,PVDCC,yes,,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+pv dc disconnect,PVDCDS,yes,,IfcSwitchingDevice,SWITCHDISCONNECTOR
+pv distribution board,PVDB,yes,,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+pv inverter,PVI,yes,,IfcTransformer,INVERTER
+pv microgrid controller,PVMC,yes,,IfcController,NOTDEFINED
+pv module-level power electronics,PVMLPE,yes,,IfcController,NOTDEFINED
+pv panel,PVP,yes,,IfcSolarDevice,SOLARPANEL
+pv tranformer,PVTXMR,yes,,IfcTransformer,NOTDEFINED
+radiant surface - chilled beam,CHB,yes,,IfcCooledBeam,NOTDEFINED
+radiant surface - hot water beam,HTB,yes,,IfcSpaceHeater,RADIATOR
+refrigeration - blast chiller/freezer,FRZBCF,no,,IfcElectricAppliance,FREEZER
+refrigeration - coldroom freezer,CRFRZ,no,,IfcElectricAppliance,FREEZER
+refrigeration - coldroom hardware/plant,CRHW,no,,IfcElectricAppliance,REFRIGERATOR
+refrigeration - coldroom refrigerated,CRREF,no,,IfcElectricAppliance,REFRIGERATOR
+refrigeration - freezer,FRZ,no,,IfcElectricAppliance,FREEZER
+refrigeration - ice cream chest freezer,FRZICC,no,,IfcElectricAppliance,FREEZER
+refrigeration - ice maker,IM,no,,IfcElectricAppliance,NOTDEFINED
+refrigeration - refrigerator,REF,no,,IfcElectricAppliance,REFRIGERATOR
+refrigeration - retarder/proover,REFRP,no,,IfcElectricAppliance,REFRIGERATOR
+sand oil interceptor,SOI,no,,IfcInterceptor,OIL
+sand separator,SSP,no,,IfcInterceptor,NOTDEFINED
+sanitary terminal - hand wash basin,HWB,no,,IfcSanitaryTerminal,WASHHANDBASIN
+sensor - CO sensor,COS,yes,SENSOR,IfcSensor,COSENSOR
+sensor - CO2 sensor,CDS,yes,SENSOR,IfcSensor,CO2SENSOR
+sensor - condensation water sensor,CS,yes,SENSOR,IfcSensor,TEMPERATURESENSOR
+sensor - glycol protector sensor,GLYPR,yes,SENSOR,IfcSensor,NOTDEFINED
+sensor - humidity sensor,HMS,yes,SENSOR,IfcSensor,HUMIDITYSENSOR
+sensor - leak detection sensor,LDS,yes,SENSOR,IfcSensor,NOTDEFINED
+sensor - lighting motion sensor,LMS,yes,SENSOR,IfcSensor,MOVEMENTSENSOR
+sensor - lighting multisensor,LTMTS,yes,SENSOR,IfcSensor,NOTDEFINED
+sensor - lighting photocell sensor,LPS,yes,SENSOR,IfcSensor,LIGHTSENSOR
+sensor - moisture content sensor,MCS,yes,SENSOR,IfcSensor,NOTDEFINED
+sensor - motion sensor,MOS,yes,SENSOR,IfcSensor,MOVEMENTSENSOR
+sensor - multi sensor,MTS,yes,SENSOR,IfcSensor,NOT DEFINED
+sensor - nitrogen dioxide sensor,NDS,yes,SENSOR,IfcSensor,NOTDEFINED
+sensor - people counting sensor,PCS,yes,SENSOR,IfcSensor,NOTDEFINED
+sensor - pressure sensor,PS,yes,SENSOR,IfcSensor,PRESSURESENSOR
+sensor - static pressure sensor,SPS,yes,SENSOR,IfcSensor,PRESSURESENSOR
+sensor - temperature sensor,TPS,yes,SENSOR,IfcSensor,TEMPERATURESENSOR
+sensor - thermostat,TSTAT,yes,,IfcUnitaryControlElement,THERMOSTAT
+shading - shading / blinds / drapes device actuator,SDACT,yes,SDC,IfcActuator,ELECTRICACTUATOR
+shading - shading / blinds / drapes device keypad,SDKP,yes,,IfcSwitchingDevice,KEYPAD
+signal - beacon,BCN,yes,,ifcAlarm,LIGHT
+tank - break tank and booster set,BTBS,yes,,IfcTank,BREAKPRESSURE
+tank - condensate receiver tank,CNR,yes,,ifcTank,STORAGE
+tank - deareator tank,DEA,yes,,IfcTank,NOTDEFINED
+tank - decontamination tank,DET,yes,,IfcTank,NOTDEFINED
+tank - emergency sewer tank,EST,yes,,IfcTank,NOTDEFINED
+tank - emergency water tank,EWT,yes,,IfcTank,STORAGE
+tank - expansion tank,ET,yes,,IfcTank,EXPANSION
+tank - fire hydrant tank,FHT,yes,,IfcTank,STORAGE
+tank - fuel oil day tank,FODT,yes,,IfcTank,NOTDEFINED
+tank - fuel oil storage tank,FOST,yes,,IfcTank,STORAGE
+tank - hot water cylinder,HWC,yes,,IfcTank,STORAGE
+tank - potable/domestic water storage tank,DWST,yes,,IfcTank,STORAGE
+tank - potable/domestic water transfer tank,DWTT,yes,,IfcTank,NOTDEFINED
+tank - sprinkler tank,SPT,yes,,IfcTank,STORAGE
+tank - thermal storage tank,TST,yes,,IfcTank,STORAGE
+tank - water tank,TK,yes,,IfcTank,STORAGE
+thermal wheel,TW,no,,IfcAirToAirHeatRecovery,ROTARYWHEEL
+timeclock,TMCLK,yes,,IfcElectricTimeControl,TIMECLOCK
+transformer,TXMR,no,,IfcTransformer,NOTDEFINED
+transportation - escalator,ESC,yes,,IfcTransportElement,ESCALATOR
+transportation - lift / elevator,ELV,yes,,IfcTransportElement,ELEVATOR
+transportation - lift / elevator controller,ELC,yes,,IfcUnitaryControlElement,NOTDEFINED
+transportation - lift / elevator door motor,ELDM,yes,,IfcElectricMotor,NOTDEFINED
+transportation - lift / elevator inverter,ELI,yes,,IfcTransformer,INVERTER
+transportation - lift / elevator traction machine,ELTM,yes,,IfcElectricMotor,NOTDEFINED
+transportation - moving walkway,AW,yes,,IfcTransportElement,MOVINGWALKWAY
+trap primer,TP,no,,IfcValve,NOTDEFINED
+trap primer - electronic trap primer,TPE,no,,IfcValve,NOTDEFINED
+ups - uninteruptable power supply unit,UPS,yes,UPS,IfcElectricFlowStorageDevice,UPS
+user interface - keypad,KP,yes,,IfcSwitchingDevice,KEYPAD
+valve,VLV,yes,VLV,IfcValve,NOTDEFINED
+valve - air admittance valve,AAV,yes,,IfcValve,AIRRELEASE
+valve - angle stop valve,AV,yes,,IfcValve,NOTDEFINED
+valve - backflow preventer valve,BFP,yes,,IfcValve,NOTDEFINED
+valve - balancing valve,BLV,yes,,IfcValve,COMMISSIONING
+valve - ball valve,BV,yes,,Ifcvalve,GASCOCK
+valve - blowdown valve,BDV,yes,,IfcValve,NOTDEFINED
+valve - butterfly valve,BFV,yes,,IfcValve,NOTDEFINED
+valve - bypass valve,BYV,yes,,IfcValve,DIVERTING
+valve - check valve,CKV,yes,,IfcValve,CHECK
+valve - chilled water valve,CHWV,yes,,IfcValve,NOTDEFINED
+valve - condenser water valve,CDWV,yes,,IfcValve,NOTDEFINED
+valve - control valve,CV,yes,,IfcValve,NOTDEFINED
+valve - control valve modulating,CVM,yes,,IfcValve,NOTDEFINED
+valve - control valve open closed,CVO,yes,,IfcValve,NOTDEFINED
+valve - differential pressure control valve,DPCV,yes,,IfcValve,NOTDEFINED
+valve - energy valve,ENV,yes,,IfcValve,"NOTDEFINED "
+valve - float valve,FV,yes,,IfcValve,NOTDEFINED
+valve - flow control valve,FCV,yes,,IfcValve,NOTDEFINED
+valve - gate valve,GV,yes,,IfcValve,STEAMTRAP
+valve - hot water valve,HWV,yes,,IfcValve,NOTDEFINED
+valve - isolation valve,ISV,yes,,IfcValve,ISOLATING
+valve - level control valve,LCV,yes,,IfcValve,NOTDEFINED
+valve - make up water valve,MUV,yes,,IfcValve,NOTDEFINED
+valve - master thermostatic valve,MMV,yes,,IfcValve,NOTDEFINED
+valve - pressure attenuator,PA,yes,,IfcValve,NOTDEFINED
+valve - pressure control valve,PCV,yes,,IfcValve,NOTDEFINED
+valve - pressure independent control valve,PICV,yes,,IfcValve,NOTDEFINED
+valve - pressure reducing valve,PRV,yes,,IfcValve,PRESSUREREDUCING
+valve - pressure relief valve,PRFV,yes,,IfcValve,PRESSURERELIEF
+valve - process water valve,PWV,yes,,IfcValve,NOTDEFINED
+valve - recirculation valve,RCV,yes,,IfcValve,NOTDEFINED
+valve - return valve,RTV,yes,,IfcValve,NOTDEFINED
+valve - seismic gas valve,SGV,yes,,IfcValve,NOTDEFINED
+valve - steam pressure reducing valve,SPRV,yes,,IfcValve,NOTDEFINED
+valve - supply valve,SPV,yes,,IfcValve,NOTDEFINED
+valve - temperature control valve,TCV,yes,,IfcValve,NOTDEFINED
+valve - thermostatic mixing valve,TMV,yes,,IfcValve,MIXING
+valve - water hammer arrestor,WHAV,yes,,IfcValve,NOTDEFINED
+valve - water solenoid valve,SNV,yes,,IfcValve,SAFETYCUTOFF(?)
+variable frequency drive,VFD,yes,,IfcMotorConnection,NOTDEFINED
+washing appliance - commercial flight machine,CDWFM,no,,IfcElectricAppliance,DISHWASHER
+washing appliance - commercial pass through machine,CDWPTM,no,,IfcElectricAppliance,DISHWASHER
+washing appliance - commercial pot and utensil machine,CDWPUW,no,,IfcElectricAppliance,DISHWASHER
+washing appliance - commercial rack machine,CDWRM,no,,IfcElectricAppliance,DISHWASHER
+washing appliance - commercial undercounter machine,CDWUM,no,,IfcElectricAppliance,DISHWASHER
+washing appliance - conveyor system,CDWSCS,no,,IfcElectricAppliance,DISHWASHER
+washing appliance - roller table,CDWRT,no,,IfcFurniture,TABLE
+waste management - food dehydrator,WSTFD,no,,IfcElectricAppliance,NOTDEFINED
+waste management - waste bin,WSTBIN,no,,IfcFurniture,NOTDEFINED
+waste management - waste compactor,WSTC,no,,IfcElectricAppliance,NOTDEFINED
+waste management - wet waste grinder,WSTWG,no,,IfcElectricAppliance,NOTDEFINED
+waste terminal - area drain,AD,no,,IfcWasteTerminal,NOTDEFINED
+water heater - domestic electric water heater,DEWH,yes,HWS,IfcElectricAppliance,FREESTANDINGWATERHEATER
+water heater - domestic gas water heater,DGWH,yes,HWS,IfcBoiler,WATER
+water heater - instantaneous water heater,IWH,yes,HWS,IfcElectricAppliance,NOTDEFINED
+water treatment - chemical dosage unit,CHDU,no,,IfcDistributionSystem,CHEMICAL
+water treatment - cooling tower water treatment unit,CTSU,no,,IfcUnitaryEquipment,NOTDEFINED
+water treatment - dosing pot,DPOT,no,,IfcDistributionFlowElement,NOTDEFINED
+water treatment - electro magnetic water conditioner,EMWC,no,,IfcFlowTreatmentDevice,NOTDEFINED
+weather station,WST,yes,WEATHER,IfcUnitaryControlElement,WEATHERSTATION
+window,WD,no,,IfcWindow,NOTDEFINED
