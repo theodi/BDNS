@@ -1,4 +1,4 @@
-asset_description,asset_abbreviation,connected,dbo_entity_type,ifc_class,ifc_type
+asset_description,asset_abbreviation,can_be_connected,dbo_entity_type,ifc_class,ifc_type
 access control - biometric reader,BIOR,yes,,IfcCommunicationsAppliance,SCANNER
 access control - RFID controller,RFIDC,yes,,IfcController,NOTDEFINED
 access control - RFID reader,RFIDR,yes,,IfcCommunicationsAppliance,SCANNER
@@ -8,16 +8,16 @@ actuator - dew point switch,DPSW,no,,IfcUnitaryControlElement,HUMIDISTAT
 actuator - frost protection switch,FPSW,no,,IfcActuator,ELECTRICACTUATOR
 actuator - motorized window operator,WDO,no,,IfcActuator,ELECTRICACTUATOR
 actuator - switch actuator,SWACT,no,,IfcActuator,ELECTRICACTUATOR
-ahu - air handling unit,AHU,yes,AHU,IfcUnitaryEquipment,AIRHANDLER
-ahu - dedicated outside air system unit,DOAS,yes,DOAS,IfcUnitaryEquipment,AIRHANDLER
-ahu - heat recovery unit,HRU,yes,AHU,IfcAirToAirHeatRecovery,NOTDEFINED
-ahu - make-up air handler,MAU,yes,MAU,IfcUnitaryEquipment,AIRHANDLER
-ahu - roof top unit,RTU,yes,AHU,IfcUnitaryEquipment,ROOFTOPUNIT
-air conditioning unit,ACU,yes,,IfcUnitaryEquipment,AIRCONDITIONINGUNIT
-air conditioning unit - computer room AC unit,CRAC,yes,,IfcUnitaryEquipment,AIRCONDITIONINGUNIT
-air conditioning unit - direct expansion cooling unit,DX,yes,,IfcUnitaryEquipment,SPLITSYSTEM
+ahu - air handling unit,AHU,yes,HVAC/AHU,IfcUnitaryEquipment,AIRHANDLER
+ahu - dedicated outside air system unit,DOAS,yes,HVAC/DOAS,IfcUnitaryEquipment,AIRHANDLER
+ahu - heat recovery unit,HRU,yes,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED
+ahu - make-up air handler,MAU,yes,HVAC/MAU,IfcUnitaryEquipment,AIRHANDLER
+ahu - roof top unit,RTU,yes,HVAC/AHU,IfcUnitaryEquipment,ROOFTOPUNIT
+air conditioning unit,ACU,yes,HVAC/AHU,IfcUnitaryEquipment,AIRCONDITIONINGUNIT
+air conditioning unit - computer room AC unit,CRAC,yes,HVAC/AHU,IfcUnitaryEquipment,AIRCONDITIONINGUNIT
+air conditioning unit - direct expansion cooling unit,DX,yes,HVAC/AHU,IfcUnitaryEquipment,SPLITSYSTEM
 air terminal box - constant air volume box,CAV,yes,,IfcAirTerminalBox,CONSTANTFLOW
-air terminal box - variable air volume box,VAV,yes,VAV,IfcAirTerminalBox,NOTDEFINED
+air terminal box - variable air volume box,VAV,yes,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED
 air terminal box - variable volume and temperature box,VVTB,yes,,IfcAirTerminalBox,NOTDEFINED
 air terminal box - variable volume terminal unit,VVT,yes,,IfcAirTerminalBox,NOTDEFINED
 antenna,ANT,no,,IfcCommunicationsAppliance,ANTENNA
@@ -31,7 +31,7 @@ av equipment - networked video recorder,NVR,yes,,IfcAudioVisualAppliance,PLAYER
 av equipment - speaker,SPK,yes,,IfcAudioVisualAppliance,SPEAKER
 av equipment - video wall,VDW,yes,,IfcAudioVisualAppliance,DISPLAY
 av equipment - white noise generator,WNG,yes,,IfcAudioVisualAppliance,NOTDEFINED
-battery,BATT,no,BATT,IfcElectricFlowStorageDevice,BATTERY
+battery,BATT,no,ELECTRICAL/BATT,IfcElectricFlowStorageDevice,BATTERY
 beverage machine - airpot,BVAP,no,,IfcElectricAppliance,NOTDEFINED
 beverage machine - chai machine,BVC,no,,IfcElectricAppliance,NOTDEFINED
 beverage machine - coffee grinder,BVCFMG,no,,IfcElectricAppliance,NOTDEFINED
@@ -42,18 +42,18 @@ beverage machine - espresso machine,BVCFME,no,,IfcElectricAppliance,NOTDEFINED
 beverage machine - knock out chute,BVKOC,no,,IfcWasteTerminal,NOTDEFINED
 beverage machine - steamer,BVS,no,,IfcElectricAppliance,NOTDEFINED
 beverage machine - water boiler,BVWB,no,,IfcBoiler,WATER
-burner - boiler,BLR,yes,BLR,ifcBoiler,NOTDEFINED
+burner - boiler,BLR,yes,HVAC/BLR,ifcBoiler,NOTDEFINED
 burner - furnace,FR,yes,,IfcBurner,NOTDEFINED
-burner - steam boiler,SB,yes,BLR,IfcBoiler,STEAM
+burner - steam boiler,SB,yes,HVAC/BLR,IfcBoiler,STEAM
 camera,CAM,yes,,IfcAudioVisualAppliance,CAMERA
 camera - pan tilt zoom camera,PTZCAM,yes,,IfcAudioVisualAppliance,CAMERA
-chiller,CH,yes,CH,IfcChiller,NOTDEFINED
-chiller - cooling tower,CT,yes,CT,IfcCoolingTower,NOTDEFINED
-chiller - critical cooling chiller,CCCH,yes,CH,IfcChiller,NOTDEFINED
-chiller - dry air cooler,DAC,yes,DC,IfcCondenser,AIRCOOLED
-chiller - high temperature chiller,HTCH,yes,CH,IfcChiller,NOTEDEFINED
-chiller - hybrid air cooler or fluid cooler,HYAC,yes,CH,IfcEvaporativeCooler,NOTDEFINED
-chiller - low temperature chiller,LTCH,yes,CH,IfcChiller,NOTDEFINED
+chiller,CH,yes,HVAC/CH,IfcChiller,NOTDEFINED
+chiller - cooling tower,CT,yes,HVAC/CT,IfcCoolingTower,NOTDEFINED
+chiller - critical cooling chiller,CCCH,yes,HVAC/CH,IfcChiller,NOTDEFINED
+chiller - dry air cooler,DAC,yes,HVAC/DC,IfcCondenser,AIRCOOLED
+chiller - high temperature chiller,HTCH,yes,HVAC/CH,IfcChiller,NOTEDEFINED
+chiller - hybrid air cooler or fluid cooler,HYAC,yes,HVAC/CH,IfcEvaporativeCooler,NOTDEFINED
+chiller - low temperature chiller,LTCH,yes,HVAC/CH,IfcChiller,NOTDEFINED
 cleaning - floor cleaner scrubber dryer,FCSD,yes,,IfcElectricAppliance,NOTDEFINED
 coil,COIL,no,,IfcCoil,NOTDEFINED
 coil - cooling coil,CC,no,,IfcCoil,WATERCOOLINGCOIL
@@ -64,8 +64,8 @@ coil - reheat coil,RHC,no,,IfcCoil,NOTDEFINED
 coil - run around coil,RAC,no,,IfcAirToAirHeatRecovery,RUNAROUNDCOILLOOP
 communication appliance - printing device,PRNTR,yes,,IfcCommunicationsAppliance,PRINTER
 communication gateway,CGW,yes,,IfcCommunicationsAppliance,GATEWAY
-compressor,CMP,no,CMP,IfcCompressor,NOTDEFINED
-compressor - air compressor,ACP,no,CMP,ifcCompressor,NOTDEFINED
+compressor,CMP,no,HVAC/CMP,IfcCompressor,NOTDEFINED
+compressor - air compressor,ACP,no,HVAC/CMP,ifcCompressor,NOTDEFINED
 condensing unit,CDU,no,,IfcCondenser,NOTDEFINED
 controller,CNTRL,yes,,IfcController,NOTDEFINED
 controller - direct digital controller,DDC,yes,,IfcController,PROGRAMMABLE
@@ -100,19 +100,19 @@ cooking appliance - rotisserie,CKROT,no,,IfcFlowTerminal,NOTDEFINED
 cooking appliance - salamander grill,CKSGRL,no,,IfcElectricAppliance,ELECTRICCOOKER
 cooking appliance - steamer,CKSTE,no,,IfcElectricAppliance,NOTDEFINED
 cooking appliance - tandoori oven,CKTOVN,no,,IfcElectricAppliance,ELECTRICCOOKER
-damper,DMP,yes,DMP,IfcDamper,NOTDEFINED
-damper - bypass control damper,BYCD,yes,DMP,IfcDamper,CONTROLDAMPER
-damper - exhaust damper,EXD,yes,DMP,IfcDamper,NOTDEFINED
-damper - fire damper,FD,yes,FD,IfcDamper,FIREDAMPER
-damper - inlet control damper,ICD,yes,DMP,IfcDamper,CONTROLDAMPER
-damper - inlet isolation damper,IISD,yes,DMP,IfcDamper,NOTDEFINED
-damper - motorised fire smoke damper,MFSD,yes,DMP,IfcDamper,FIRESMOKEDAMPER
-damper - motorised smoke damper,MSD,yes,DMP,IfcDamper,SMOKEDAMPER
-damper - pressure relief dampers,PRLD,yes,DMP,IfcDamper,RELIEFDAMPER
-damper - recirculation control damper,RECD,yes,DMP,IfcDamper,CONTROLDAMPER
-damper - return control damper,RTCD,yes,DMP,IfcDamper,CONTROLDAMPER
-damper - return isolation damper,RTISD,yes,DMP,IfcDamper,CONTROLDAMPER
-damper - volume control damper,VCD,yes,DMP,IfcDamper,BALANCINGDAMPER
+damper,DMP,yes,HVAC/DMP,IfcDamper,NOTDEFINED
+damper - bypass control damper,BYCD,yes,HVAC/DMP,IfcDamper,CONTROLDAMPER
+damper - exhaust damper,EXD,yes,HVAC/DMP,IfcDamper,NOTDEFINED
+damper - fire damper,FD,yes,SAFETY/FD,IfcDamper,FIREDAMPER
+damper - inlet control damper,ICD,yes,HVAC/DMP,IfcDamper,CONTROLDAMPER
+damper - inlet isolation damper,IISD,yes,HVAC/DMP,IfcDamper,NOTDEFINED
+damper - motorised fire smoke damper,MFSD,yes,HVAC/DMP,IfcDamper,FIRESMOKEDAMPER
+damper - motorised smoke damper,MSD,yes,HVAC/DMP,IfcDamper,SMOKEDAMPER
+damper - pressure relief dampers,PRLD,yes,HVAC/DMP,IfcDamper,RELIEFDAMPER
+damper - recirculation control damper,RECD,yes,HVAC/DMP,IfcDamper,CONTROLDAMPER
+damper - return control damper,RTCD,yes,HVAC/DMP,IfcDamper,CONTROLDAMPER
+damper - return isolation damper,RTISD,yes,HVAC/DMP,IfcDamper,CONTROLDAMPER
+damper - volume control damper,VCD,yes,HVAC/DMP,IfcDamper,BALANCINGDAMPER
 data processing unit / computer,DPU,yes,,IfcCommunicationsAppliance,NOTDEFINED
 dehumidifier,DHUM,no,,IfcUnitaryEquipment,DEHUMIDIFIER
 dispenser,DISP,no,,IfcElectricAppliance,NOTDEFINED
@@ -124,13 +124,13 @@ dispenser - milk,DISPMK,no,,IfcElectricAppliance,NOTDEFINED
 dispenser - soft serve ice cream,DISPIC,no,,IfcElectricAppliance,NOTDEFINED
 dispenser - water,DISPW,no,,IfcElectricAppliance,NOTDEFINED
 door,DR,no,,IfcDoor,DOOR
-door - fire door,FDR,no,FDR,IfcDoor,NOTDEFINED
+door - fire door,FDR,no,SAFETY/FDR,IfcDoor,NOTDEFINED
 drinking fountain / bottle filler,DF,no,,IfcSanitaryTerminal,SANITARYFOUNTAIN
 duct silencer - attenuator,SLCR,no,,IfcDuctSilencer,NOTDEFINED
 dx system - variable refrigerant flow unit,VRF,no,,IfcUnitaryEquipment,SPLITSYSTEM
 dx system - variable refrigerant volume unit,VRV,no,,IfcUnitaryEquipment,SPLITSYSTEM
 electric appliance,EAPPL,no,,IfcElectricAppliance,NOTDEFINED
-electric appliance - air dryer,ADY,no,ADY,IfcElectricAppliance,NOTDEFINED
+electric appliance - air dryer,ADY,no,HVAC/ADY,IfcElectricAppliance,NOTDEFINED
 electric appliance - dishwasher,DW,no,,IfcElectricAppliance,DISHWASHER
 electric appliance - electronic point of sale,EPOS,yes,,IfcElectricAppliance,NOTDEFINED
 electric appliance - exercise / gym equipment,GYMEQ,no,,IfcElectricAppliance,NOTDEFINED
@@ -141,28 +141,28 @@ electric appliance - oven,OVN,no,,IfcElectricAppliance,ELECTRICCOOKER
 electric appliance - scanning device,SCAN,no,,IfcCommunicationsAppliance,SCANNER
 electric appliance - steamer,STE,no,,IfcElectricAppliance,NOTDEFINED
 electric distribution - automatic transfer switch,ATS,yes,,IfcProtectiveDevice,NOTDEFINED
-electric distribution - branch circuit panel board 120/208V,LVCPB,no,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - branch circuit panel board 277/480V,HVCPB,no,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - distribution panel / board,DB,no,PANEL,IfcElectricDistributionBoard," DISTRIBUTIONBOARD"
-electric distribution - distribution panel 120/208V,LVDP,no,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - distribution panel 277/480V,HVDP,no,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - distribution panel for itc equipment,ITDP,no,PANEL,IfcElectricDistributionBoard,NOTDEFINED
+electric distribution - branch circuit panel board 120/208V,LVCPB,no,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - branch circuit panel board 277/480V,HVCPB,no,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - distribution panel / board,DB,no,ELECTRICAL/PANEL,IfcElectricDistributionBoard," DISTRIBUTIONBOARD"
+electric distribution - distribution panel 120/208V,LVDP,no,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - distribution panel 277/480V,HVDP,no,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - distribution panel for itc equipment,ITDP,no,ELECTRICAL/PANEL,IfcElectricDistributionBoard,NOTDEFINED
 electric distribution - electric switch,ELSW,no,,IfcSwitchingDevice,TOGGLESWITCH
-electric distribution - EVC electric vehicle charging distribution panel,EVDP,no,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - EVC electric vehicle charging distribution panel,EVDP,no,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - EVC electric vehicle charging equipment,EVCE,no,,IfcOutlet,POWEROUTLET
 electric distribution - high voltage switchboard,HVSB,no,,IfcElectricDistributionBoard,SWITCHBOARD
-electric distribution - kitchen electric distribution panel/board,KDP,no,PANEL,IfcElectricDistributionBoard,NOTDEFINED
+electric distribution - kitchen electric distribution panel/board,KDP,no,ELECTRICAL/PANEL,IfcElectricDistributionBoard,NOTDEFINED
 electric distribution - load bank,LB,no,,IfcElectricFlowStorageDevice,NOTDEFINED
 electric distribution - low voltage switchboard,LVSB,no,,IfcElectricDistributionBoard,SWITCHBOARD
-electric distribution - main panel / board,MPNL,no,PANEL,IfcElectricDistributionBoard,NOTDEFINED
+electric distribution - main panel / board,MPNL,no,ELECTRICAL/PANEL,IfcElectricDistributionBoard,NOTDEFINED
 electric distribution - mains distribution unit,MDU,no,,IfcElectricDistributionBoard,NOTDEFINED
 electric distribution - mains switchboard,MSB,no,,IfcElectricDistributionBoard,SWITCHBOARD
-electric distribution - mechanical distribution panel / board,MDP,no,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - mechanical distribution panel / board,MDP,no,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - medium voltage switchboard,MVSB,no,,IfcElectricDistributionBoard,SWITCHBOARD
 electric distribution - power distribution unit,PDU,yes,,IfcElectricDistributionBoard,NOTDEFINED
 electric distribution - static transfer switch,STS,no,,IfcSwitchingDevice,NOTDEFINED
 electric distribution - switchgear (12kv typ),SWGR,no,,IfcElectricDistributionBoard,SWITCHBOARD
-electric distribution - ups panel / board,UPSB,yes,PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - ups panel / board,UPSB,yes,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric protective device - circuit breaker,CB,no,,IfcProtectiveDevice,CIRCUITBREAKER
 electric protective device - disconnect fuse,DSCTF,no,,IfcProtectiveDevice,FUSEDISCONNECTOR
 electric protective device - safety switch or disconnect switch,DSCTS,no,,IfcSwitchingDevice,SWITCHDISCONNECTOR
@@ -171,20 +171,20 @@ electrochromic glass,ECG,yes,,IfcWindow,NOTDEFINED
 electronic key cabinet,EKC,yes,,IfcFurniture,NOTDEFINED
 employee timeclock with fingerprint scanner,ETCFP,yes,,IfcElectricAppliance,NOTDEFINED
 evaporator,EVP,no,,IfcEvaporator,NOTDEFINED
-fan,FAN,yes,FAN,IfcFan,NOTDEFINED
-fan - cooling tower fan,CTF,yes,FAN,IfcFan,NOTDEFINED
-fan - exhaust fan,EF,yes,FAN,IfcFan,NOTDEFINED
-fan - fume hood exhaust fan,FHEX,yes,FAN,IfcDamper,FUMEHOODEXHAUST
-fan - garage / car park supply fan,GSF,yes,FAN,IfcFan,NOTDEFINED
-fan - garage / car park transfer fan,GTF,yes,FAN,IfcFan,NOTDEFINED
-fan - kitchen exhaust fan,KEF,yes,FAN,IfcFan,NOTDEFINED
-fan - relief fan,RLF,yes,FAN,IfcFan,NOTDEFINED
-fan - return fan,RTF,yes,FAN,IfcFan,NOTDEFINED
-fan - smoke exhaust fan,SEF,yes,FAN,IfcFan,NOTDEFINED
-fan - stairwell pressurization fan,SPF,yes,FAN,IfcFan,NOTDEFINED
-fan - supply fan,SF,yes,FAN,IfcFan,NOTDEFINED
-fan - transfer fan,TF,yes,FAN,IfcFan,NOTDEFINED
-fan coil unit,FCU,yes,FCU,IfcUnitaryEquipment,NOTDEFINED
+fan,FAN,yes,HVAC/FAN,IfcFan,NOTDEFINED
+fan - cooling tower fan,CTF,yes,HVAC/FAN,IfcFan,NOTDEFINED
+fan - exhaust fan,EF,yes,HVAC/FAN,IfcFan,NOTDEFINED
+fan - fume hood exhaust fan,FHEX,yes,HVAC/FAN,IfcDamper,FUMEHOODEXHAUST
+fan - garage / car park supply fan,GSF,yes,HVAC/FAN,IfcFan,NOTDEFINED
+fan - garage / car park transfer fan,GTF,yes,HVAC/FAN,IfcFan,NOTDEFINED
+fan - kitchen exhaust fan,KEF,yes,HVAC/FAN,IfcFan,NOTDEFINED
+fan - relief fan,RLF,yes,HVAC/FAN,IfcFan,NOTDEFINED
+fan - return fan,RTF,yes,HVAC/FAN,IfcFan,NOTDEFINED
+fan - smoke exhaust fan,SEF,yes,HVAC/FAN,IfcFan,NOTDEFINED
+fan - stairwell pressurization fan,SPF,yes,HVAC/FAN,IfcFan,NOTDEFINED
+fan - supply fan,SF,yes,HVAC/FAN,IfcFan,NOTDEFINED
+fan - transfer fan,TF,yes,HVAC/FAN,IfcFan,NOTDEFINED
+fan coil unit,FCU,yes,HVAC/FCU,IfcUnitaryEquipment,NOTDEFINED
 filter,FLT,no,,IfcFilter,NOTDEFINED
 filter - air separator,AS,no,,IfcFlowTreatmentDevice,NOTDEFINED
 filter - cooling tower filtration unit,CTFS,no,,IfcFilter,NOTDEFINED
@@ -202,13 +202,13 @@ filter - water - reverse rinsing filter,RRFLT,no,,IfcFilter,NOTDEFINED
 filter - water conditioner,WCR,no,,IfcFilter,WATERFILTER
 filter - water softener,WSR,no,,IfcFilter,WATERFILTER
 fire detection - alarm annunciator sounder or beacon,FAS,yes,,IfcAlarm,NOTDEFINED
-fire detection - aspirating smoke detector,ASD,yes,SD,IfcSensor,SMOKESENSOR
-fire detection - break glass unit,BGU,yes,BGU,IfcAlarm,BREAKGLASSBUTTON
+fire detection - aspirating smoke detector,ASD,yes,SAFETY/SD,IfcSensor,SMOKESENSOR
+fire detection - break glass unit,BGU,yes,SAFETY/BGU,IfcAlarm,BREAKGLASSBUTTON
 fire detection - control and indication equipment,CIE,yes,,IfcUnitaryControlElement,INDICATORPANEL
 fire detection - gas detector,GD,yes,SENSOR,IfcSensor,GASSENSOR
 fire detection - heat detector,HD,yes,SENSOR,IfcSensor,HEATSENSOR
 fire detection - input output interface unit,IFU,yes,,IfcSwitchingDevice,NOTDEFINED
-fire detection - smoke detector,SD,yes,SD,IfcSensor,SMOKESENSOR
+fire detection - smoke detector,SD,yes,SAFETY/SD,IfcSensor,SMOKESENSOR
 fire suppression - fire jockey pump,FJP,yes,,IfcPump,NOTDEFINED
 fire suppression - fire pump,FP,yes,,IfcPump,NOTDEFINED
 fire suppression - fire pump control panel,FPCP,yes,,IfcUnitaryControlElement,CONTROLPANEL
@@ -247,17 +247,17 @@ furniture - locker,LCKR,no,,IfcFurniture,NOTDEFINED
 generator - clean steam generator,CSG,yes,,IfcElectricGenerator,NOTDEFINED
 generator - electricity generator,GEN,yes,,IfcElectricGenerator,ENGINEGENERATOR
 grease waste interceptor,GI,no,,IfcInterceptor,GREASE
-heat emitter - duct heater,DH,yes,DH,IfcSpaceHeater,NOTDEFINED
-heat emitter - electric unit heater,EUH,yes,UH,ifcSpaceHeater,NOTDEFINED
-heat emitter - gas unit heater,GUH,yes,UH,IfcSpaceHeater,NOTDEFINED
+heat emitter - duct heater,DH,yes,HVAC/DH,IfcSpaceHeater,NOTDEFINED
+heat emitter - electric unit heater,EUH,yes,HVAC/UH,ifcSpaceHeater,NOTDEFINED
+heat emitter - gas unit heater,GUH,yes,HVAC/UH,IfcSpaceHeater,NOTDEFINED
 heat emitter - heater,HTR,yes,,IfcSpaceHeater,NOTDEFINED
 heat emitter - hydronic trench convector,TC,yes,,IfcSpaceHeater,NOTDEFINED
-heat emitter - radiant panel,RP,yes,RP,ifcSpaceHeater,NOTDEFINED
+heat emitter - radiant panel,RP,yes,HVAC/RP,ifcSpaceHeater,NOTDEFINED
 heat emitter - trace heating,EHT,yes,,ifcSpaceHeater,NOTDEFINED
 heat emitter - trench heater and cooler,TRHC,yes,,ifcSpaceHeater,NOTDEFINED
 heat emitter - trench heating,TRH,yes,,ifcSpaceHeater,NOTDEFINED
 heat emitter - unit heater,UH,yes,,IfcSpaceHeater,NOTDEFINED
-heat exchanger,HX,yes,HX,IfcHeatExchanger,NOTDEFINED
+heat exchanger,HX,yes,HVAC/HX,IfcHeatExchanger,NOTDEFINED
 heat exchanger - plate heat exchanger,PHX,yes,,IfcHeatExchanger,PLATE
 heat interface unit,HIU,yes,,IfcDistributionSystem,HEATING
 heat pump - air source heat pump,ASHP,yes,,IfcUnitaryEquipment,NOTDEFINED
@@ -265,9 +265,9 @@ heat pump - ground source heat pump,GSHP,yes,,IfcUnitaryEquipment,NOTDEFINED
 heat pump - heat pump,HP,yes,,IfcUnitaryEquipment,NOTDEFINED
 heat pump - water source heat pump,WSHP,yes,,IfcUnitaryEquipment,NOTDEFINED
 high level interface,HLI,yes,,IfcController,PROGRAMMABLE
-horn strobe,HS,yes,HS,IfcAlarm,SIREN
+horn strobe,HS,yes,SAFETY/HS,IfcAlarm,SIREN
 human machine interface,HMI,yes,,IfcCommunicationsAppliance,NOTDEFINED
-humidifier,HUM,yes,HUM,IfcHumidifier,NOTDEFINED
+humidifier,HUM,yes,HVAC/HUM,IfcHumidifier,NOTDEFINED
 itc equipment - ethernet switch,ETS,yes,,ifcCommunicationsAppliance,NETWORKBRIDGE
 itc equipment - intermediate distribution frame,IDF,yes,,IfcCommunicationsAppliance,NOTDEFINED
 itc equipment - network firewall,FW,yes,,IfcCommunicationsAppliance,NETWORKAPPLIANCE
@@ -307,18 +307,18 @@ kitchen ventilation - condensate hood,KVCH,yes,,IfcDamper,FUMEHOODEXHAUST
 kitchen ventilation - extraction/exhuast grease hood,KVGH,yes,,IfcDamper,FUMEHOODEXHAUST
 kitchen ventilation - ventilated ceiling,KVVC,yes,,IfcAirTerminalBox,NOTDEFINED
 lighting - illuminated exit sign,EXIT,yes,,IfcLightFixture,SECURITYLIGHTING
-lighting - lighting control module,LCM,yes,LCM,IfcUnitaryControlElement,NOTDEFINED
+lighting - lighting control module,LCM,yes,LIGHTING/LCM,IfcUnitaryControlElement,NOTDEFINED
 lighting - lighting control panel,LCP,yes,,IfcUnitaryControlElement,NOTDEFINED
-lighting - lighting fixture,LT,yes,LT,IfcLightFixture,NOTDEFINED
-lighting - lighting gateway,LTGW,yes,LTGW,IfcCommunicationsAppliance,GATEWAY
-lighting - lighting keypad,LKP,yes,LKP,IfcSwitchingDevice,KEYPAD
+lighting - lighting fixture,LT,yes,LIGHTING/LT,IfcLightFixture,NOTDEFINED
+lighting - lighting gateway,LTGW,yes,LIGHTING/LTGW,IfcCommunicationsAppliance,GATEWAY
+lighting - lighting keypad,LKP,yes,LIGHTING/LKP,IfcSwitchingDevice,KEYPAD
 location services - beacon,LBCN,yes,,IfcCommunicationsAppliance,NOTDEFINED
-meter,MTR,yes,MTR,IfcFlowMeter,NOTDEFINED
-meter - electric meter,EM,yes,EM,IfcFlowMeter,ENERGYMETER
-meter - flow meter,FM,yes,FM,IfcFlowMeter,NOTDEFINED
-meter - gas meter,GM,yes,GM,IfcFlowMeter,GASMETER
-meter - heat meter,HM,yes,HM,IfcFlowMeter,NOTDEFINED
-meter - water meter,WM,yes,WM,IfcFlowMeter,WATERMETER
+meter,MTR,yes,METERS/MTR,IfcFlowMeter,NOTDEFINED
+meter - electric meter,EM,yes,METERS/EM,IfcFlowMeter,ENERGYMETER
+meter - flow meter,FM,yes,METERS/FM,IfcFlowMeter,NOTDEFINED
+meter - gas meter,GM,yes,METERS/GM,IfcFlowMeter,GASMETER
+meter - heat meter,HM,yes,METERS/HM,IfcFlowMeter,NOTDEFINED
+meter - water meter,WM,yes,METERS/WM,IfcFlowMeter,WATERMETER
 motor controller - vsd (inverter drive),VSD,yes,,IfcMotorConnection,NOTDEFINED
 natural air ventilator,AVR,yes,,ifcStackTerminal,NOTDEFINED
 oil interceptor,OI,no,,IfcInterceptor,OIL
@@ -335,7 +335,7 @@ outlet - raised floor box,FLRB,no,,IfcOutlet,NOTDEFINED
 panel - alarm panel,AP,yes,,IfcUnitaryControlElement,ALARMPANEL
 panel - chemical treatment control panel,CTCP,yes,,IfcUnitaryControlElement,NOTDEFINED
 panel - control panel,CTRP,yes,,IfcUnitaryControlElement,CONTROLPANEL
-panel - fire alarm control panel,FACP,yes,FACP,IfcUnitaryControlElement," NOTDEFINED"
+panel - fire alarm control panel,FACP,yes,SAFETY/FACP,IfcUnitaryControlElement," NOTDEFINED"
 panel - gas detection panel,GASDET,yes,,IfcUnitaryControlElement,GASDETECTIONPANEL
 panel - hvac control panel,HVACCP,yes,,IfcUnitaryControlElement,CONTROLPANEL
 panel - leak detection panel,LDP,yes,,IfcUnitaryControlElement,CONTROLPANEL
@@ -344,46 +344,46 @@ panel - remote i/o control panel,RIO,yes,,IfcUnitaryControlElement,NOTDEFINED
 panel - variable air volume control station / panel,VAVCTR,yes,,IfcUnitaryControlElement,NOTDEFINED
 pressurisation unit,PU,yes,,IfcUnitaryEquipment,NOTDEFINED
 pressurisation unit - water system makeup unit,WMS,yes,,IfcUnitaryEquipment,NOTDEFINED
-pump,PMP,yes,PMP,IfcPump,NOTDEFINED
-pump - automatic condensate pump,CNP,yes,PMP,IfcPump,NOTDEFINED
-pump - auxilliary process cooling water pump,AXCWP,yes,PMP,IfcPump,NOTDEFINED
-pump - booster pump,BSP,yes,PMP,IfcPump,NOTDEFINED
-pump - chilled water pump,CHWP,yes,PMP,IfcPump,NOTDEFINED
-pump - circulating pump,CP,yes,PMP,IfcPump,CIRCULATOR
-pump - condenser water pump,CDWP,yes,PMP,IfcPump,NOTDEFINED
-pump - cooling tower separator pump,CTSEPP,yes,PMP,IfcPump,NOTDEFINED
-pump - domestic hot water circulation pump,DHWP,yes,PMP,IfcPump,NOTDEFINED
-pump - dosing pump,DP,yes,PMP,IfcPump,NOTDEFINED
-pump - fire hydrant pump,FHP,yes,FHP,IfcPump,NOTDEFINED
-pump - fuel oil pump,FOP,yes,PMP,IfcPump,NOTDEFINED
-pump - heat exchanger pump,HXP,yes,PMP,IfcPump,NOTDEFINED
-pump - high temperature chilled water pump,HTCHP,yes,PMP,IfcPump,NOTDEFINED
-pump - high temperature condenser water pump,HTCWP,yes,PMP,IfcPump,NOTDEFINED
-pump - hot water pump,HWP,yes,PMP,IfcPump,NOTDEFINED
-pump - low temperature chilled water pump,LTCHWP,yes,PMP,IfcPump,NOTDEFINED
-pump - low temperature condenser water pump,LTCDWP,yes,PMP,IfcPump,NOTDEFINED
-pump - low temperature hot water pump,LTHWP,yes,PMP,IfcPump,NOTDEFINED
-pump - packaged pump set,PAPS,yes,PMP,IfcPump,NOTDEFINED
-pump - potable/domestic water booster pump,DWBP,yes,PMP,IfcPump,NOTDEFINED
-pump - potable/domestic water transfer pump,DWTP,yes,PMP,IfcPump,NOTDEFINED
-pump - primary chilled water pump,PCHWP,yes,PMP,IfcPump,NOTDEFINED
-pump - primary pump,PP,yes,PMP,IfcPump,NOTDEFINED
-pump - process cooling water pump,PCWP,yes,PMP,IfcPump,NOTDEFINED
-pump - process water pump,PWP,yes,PMP,IfcPump,NOTDEFINED
-pump - recirculation pump,RCP,yes,PMP,IfcPump,NOTDEFINED
-pump - recycled water pump,RWP,yes,PMP,IfcPump,NOTDEFINED
-pump - secondary chilled water pump,SCHWP,yes,PMP,IfcPump,NOTDEFINED
-pump - secondary heating circulation pump,SHCP,yes,PMP,IfcPump,NOTDEFINED
-pump - secondary hot water circulating pump,SHWP,yes,PMP,IfcPump,NOTDEFINED
-pump - secondary pump,SP,yes,PMP,IfcPump,NOTDEFINED
-pump - separator pump,SEPP,yes,PMP,IfcPump,NOTDEFINED
-pump - sewage ejector pump,SEP,yes,PMP,IfcPump,NOTDEFINED
-pump - sump pump,SMPP,yes,PMP,IfcPump,SUMPPUMP
-pump - tower make up pump,TMUP,yes,PMP,IfcPump,NOTDEFINED
-pump - tower make up valve,TMUV,yes,PMP,IfcValve,NOTDEFINED
-pump - transfer pump,TRP,yes,PMP,IfcPump,NOTDEFINED
-pump - vacuum pump,VCP,yes,PMP,IfcPump,NOTDEFINED
-pump - waste water pump,WWP,yes,PMP,IfcPump,NOTDEFINED
+pump,PMP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - automatic condensate pump,CNP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - auxilliary process cooling water pump,AXCWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - booster pump,BSP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - chilled water pump,CHWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - circulating pump,CP,yes,HVAC/PMP,IfcPump,CIRCULATOR
+pump - condenser water pump,CDWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - cooling tower separator pump,CTSEPP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - domestic hot water circulation pump,DHWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - dosing pump,DP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - fire hydrant pump,FHP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - fuel oil pump,FOP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - heat exchanger pump,HXP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - high temperature chilled water pump,HTCHP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - high temperature condenser water pump,HTCWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - hot water pump,HWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - low temperature chilled water pump,LTCHWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - low temperature condenser water pump,LTCDWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - low temperature hot water pump,LTHWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - packaged pump set,PAPS,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - potable/domestic water booster pump,DWBP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - potable/domestic water transfer pump,DWTP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - primary chilled water pump,PCHWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - primary pump,PP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - process cooling water pump,PCWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - process water pump,PWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - recirculation pump,RCP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - recycled water pump,RWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - secondary chilled water pump,SCHWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - secondary heating circulation pump,SHCP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - secondary hot water circulating pump,SHWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - secondary pump,SP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - separator pump,SEPP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - sewage ejector pump,SEP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - sump pump,SMPP,yes,HVAC/PMP,IfcPump,SUMPPUMP
+pump - tower make up pump,TMUP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - tower make up valve,TMUV,yes,HVAC/PMP,IfcValve,NOTDEFINED
+pump - transfer pump,TRP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - vacuum pump,VCP,yes,HVAC/PMP,IfcPump,NOTDEFINED
+pump - waste water pump,WWP,yes,HVAC/PMP,IfcPump,NOTDEFINED
 pv ac disconnect,PVACDS,yes,,IfcSwitchingDevice,SWITCHDISCONNECTOR
 pv data acquisition system,PVDAS,yes,,IfcController,NOTDEFINED
 pv dc combiner,PVDCC,yes,,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
@@ -426,7 +426,7 @@ sensor - pressure sensor,PS,yes,SENSOR,IfcSensor,PRESSURESENSOR
 sensor - static pressure sensor,SPS,yes,SENSOR,IfcSensor,PRESSURESENSOR
 sensor - temperature sensor,TPS,yes,SENSOR,IfcSensor,TEMPERATURESENSOR
 sensor - thermostat,TSTAT,yes,,IfcUnitaryControlElement,THERMOSTAT
-shading - shading / blinds / drapes device actuator,SDACT,yes,SDC,IfcActuator,ELECTRICACTUATOR
+shading - shading / blinds / drapes device actuator,SDACT,yes,HVAC/SDC,IfcActuator,ELECTRICACTUATOR
 shading - shading / blinds / drapes device keypad,SDKP,yes,,IfcSwitchingDevice,KEYPAD
 signal - beacon,BCN,yes,,ifcAlarm,LIGHT
 tank - break tank and booster set,BTBS,yes,,IfcTank,BREAKPRESSURE
@@ -457,48 +457,48 @@ transportation - lift / elevator traction machine,ELTM,yes,,IfcElectricMotor,NOT
 transportation - moving walkway,AW,yes,,IfcTransportElement,MOVINGWALKWAY
 trap primer,TP,no,,IfcValve,NOTDEFINED
 trap primer - electronic trap primer,TPE,no,,IfcValve,NOTDEFINED
-ups - uninteruptable power supply unit,UPS,yes,UPS,IfcElectricFlowStorageDevice,UPS
+ups - uninteruptable power supply unit,UPS,yes,ELECTRICAL/UPS,IfcElectricFlowStorageDevice,UPS
 user interface - keypad,KP,yes,,IfcSwitchingDevice,KEYPAD
-valve,VLV,yes,VLV,IfcValve,NOTDEFINED
-valve - air admittance valve,AAV,yes,,IfcValve,AIRRELEASE
-valve - angle stop valve,AV,yes,,IfcValve,NOTDEFINED
-valve - backflow preventer valve,BFP,yes,,IfcValve,NOTDEFINED
-valve - balancing valve,BLV,yes,,IfcValve,COMMISSIONING
-valve - ball valve,BV,yes,,Ifcvalve,GASCOCK
-valve - blowdown valve,BDV,yes,,IfcValve,NOTDEFINED
-valve - butterfly valve,BFV,yes,,IfcValve,NOTDEFINED
-valve - bypass valve,BYV,yes,,IfcValve,DIVERTING
-valve - check valve,CKV,yes,,IfcValve,CHECK
-valve - chilled water valve,CHWV,yes,,IfcValve,NOTDEFINED
-valve - condenser water valve,CDWV,yes,,IfcValve,NOTDEFINED
-valve - control valve,CV,yes,,IfcValve,NOTDEFINED
-valve - control valve modulating,CVM,yes,,IfcValve,NOTDEFINED
-valve - control valve open closed,CVO,yes,,IfcValve,NOTDEFINED
-valve - differential pressure control valve,DPCV,yes,,IfcValve,NOTDEFINED
-valve - energy valve,ENV,yes,,IfcValve,"NOTDEFINED "
-valve - float valve,FV,yes,,IfcValve,NOTDEFINED
-valve - flow control valve,FCV,yes,,IfcValve,NOTDEFINED
-valve - gate valve,GV,yes,,IfcValve,STEAMTRAP
-valve - hot water valve,HWV,yes,,IfcValve,NOTDEFINED
-valve - isolation valve,ISV,yes,,IfcValve,ISOLATING
-valve - level control valve,LCV,yes,,IfcValve,NOTDEFINED
-valve - make up water valve,MUV,yes,,IfcValve,NOTDEFINED
-valve - master thermostatic valve,MMV,yes,,IfcValve,NOTDEFINED
-valve - pressure attenuator,PA,yes,,IfcValve,NOTDEFINED
-valve - pressure control valve,PCV,yes,,IfcValve,NOTDEFINED
-valve - pressure independent control valve,PICV,yes,,IfcValve,NOTDEFINED
-valve - pressure reducing valve,PRV,yes,,IfcValve,PRESSUREREDUCING
-valve - pressure relief valve,PRFV,yes,,IfcValve,PRESSURERELIEF
-valve - process water valve,PWV,yes,,IfcValve,NOTDEFINED
-valve - recirculation valve,RCV,yes,,IfcValve,NOTDEFINED
-valve - return valve,RTV,yes,,IfcValve,NOTDEFINED
-valve - seismic gas valve,SGV,yes,,IfcValve,NOTDEFINED
-valve - steam pressure reducing valve,SPRV,yes,,IfcValve,NOTDEFINED
-valve - supply valve,SPV,yes,,IfcValve,NOTDEFINED
-valve - temperature control valve,TCV,yes,,IfcValve,NOTDEFINED
-valve - thermostatic mixing valve,TMV,yes,,IfcValve,MIXING
-valve - water hammer arrestor,WHAV,yes,,IfcValve,NOTDEFINED
-valve - water solenoid valve,SNV,yes,,IfcValve,SAFETYCUTOFF(?)
+valve,VLV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - air admittance valve,AAV,yes,HVAC/VLV,IfcValve,AIRRELEASE
+valve - angle stop valve,AV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - backflow preventer valve,BFP,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - balancing valve,BLV,yes,HVAC/VLV,IfcValve,COMMISSIONING
+valve - ball valve,BV,yes,HVAC/VLV,Ifcvalve,GASCOCK
+valve - blowdown valve,BDV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - butterfly valve,BFV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - bypass valve,BYV,yes,HVAC/VLV,IfcValve,DIVERTING
+valve - check valve,CKV,yes,HVAC/VLV,IfcValve,CHECK
+valve - chilled water valve,CHWV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - condenser water valve,CDWV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - control valve,CV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - control valve modulating,CVM,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - control valve open closed,CVO,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - differential pressure control valve,DPCV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - energy valve,ENV,yes,HVAC/VLV,IfcValve,"NOTDEFINED "
+valve - float valve,FV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - flow control valve,FCV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - gate valve,GV,yes,HVAC/VLV,IfcValve,STEAMTRAP
+valve - hot water valve,HWV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - isolation valve,ISV,yes,HVAC/VLV,IfcValve,ISOLATING
+valve - level control valve,LCV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - make up water valve,MUV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - master thermostatic valve,MMV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - pressure attenuator,PA,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - pressure control valve,PCV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - pressure independent control valve,PICV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - pressure reducing valve,PRV,yes,HVAC/VLV,IfcValve,PRESSUREREDUCING
+valve - pressure relief valve,PRFV,yes,HVAC/VLV,IfcValve,PRESSURERELIEF
+valve - process water valve,PWV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - recirculation valve,RCV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - return valve,RTV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - seismic gas valve,SGV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - steam pressure reducing valve,SPRV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - supply valve,SPV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - temperature control valve,TCV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - thermostatic mixing valve,TMV,yes,HVAC/VLV,IfcValve,MIXING
+valve - water hammer arrestor,WHAV,yes,HVAC/VLV,IfcValve,NOTDEFINED
+valve - water solenoid valve,SNV,yes,HVAC/VLV,IfcValve,SAFETYCUTOFF(?)
 variable frequency drive,VFD,yes,,IfcMotorConnection,NOTDEFINED
 washing appliance - commercial flight machine,CDWFM,no,,IfcElectricAppliance,DISHWASHER
 washing appliance - commercial pass through machine,CDWPTM,no,,IfcElectricAppliance,DISHWASHER
@@ -512,12 +512,12 @@ waste management - waste bin,WSTBIN,no,,IfcFurniture,NOTDEFINED
 waste management - waste compactor,WSTC,no,,IfcElectricAppliance,NOTDEFINED
 waste management - wet waste grinder,WSTWG,no,,IfcElectricAppliance,NOTDEFINED
 waste terminal - area drain,AD,no,,IfcWasteTerminal,NOTDEFINED
-water heater - domestic electric water heater,DEWH,yes,HWS,IfcElectricAppliance,FREESTANDINGWATERHEATER
-water heater - domestic gas water heater,DGWH,yes,HWS,IfcBoiler,WATER
-water heater - instantaneous water heater,IWH,yes,HWS,IfcElectricAppliance,NOTDEFINED
+water heater - domestic electric water heater,DEWH,yes,HVAC/HWS,IfcElectricAppliance,FREESTANDINGWATERHEATER
+water heater - domestic gas water heater,DGWH,yes,HVAC/HWS,IfcBoiler,WATER
+water heater - instantaneous water heater,IWH,yes,HVAC/HWS,IfcElectricAppliance,NOTDEFINED
 water treatment - chemical dosage unit,CHDU,no,,IfcDistributionSystem,CHEMICAL
 water treatment - cooling tower water treatment unit,CTSU,no,,IfcUnitaryEquipment,NOTDEFINED
 water treatment - dosing pot,DPOT,no,,IfcDistributionFlowElement,NOTDEFINED
 water treatment - electro magnetic water conditioner,EMWC,no,,IfcFlowTreatmentDevice,NOTDEFINED
-weather station,WST,yes,WEATHER,IfcUnitaryControlElement,WEATHERSTATION
+weather station,WST,yes,HVAC/WEATHER,IfcUnitaryControlElement,WEATHERSTATION
 window,WD,no,,IfcWindow,NOTDEFINED
