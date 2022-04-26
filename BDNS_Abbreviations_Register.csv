@@ -143,7 +143,7 @@ electric appliance - steamer,STE,IfcElectricAppliance,NOTDEFINED
 electric distribution - automatic transfer switch,ATS,IfcProtectiveDevice,NOTDEFINED
 electric distribution - branch circuit panel board 120/208V,LVCPB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - branch circuit panel board 277/480V,HVCPB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - distribution panel / board,DB,IfcElectricDistributionBoard," DISTRIBUTIONBOARD"
+electric distribution - distribution panel / board,DB,IfcElectricDistributionBoard, DISTRIBUTIONBOARD
 electric distribution - distribution panel 120/208V,LVDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - distribution panel 277/480V,HVDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - distribution panel for itc equipment,ITDP,IfcElectricDistributionBoard,NOTDEFINED
@@ -159,7 +159,7 @@ electric distribution - main panel / board,MPNL,IfcElectricDistributionBoard,NOT
 electric distribution - mains distribution unit,MDU,IfcElectricDistributionBoard,NOTDEFINED
 electric distribution - mains switchboard,MSB,IfcElectricDistributionBoard,SWITCHBOARD
 electric distribution - mechanical distribution panel / board,MDP,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - mechanical distribution panel / board,MDB,IfcElectricDistributionBoard,"DISTRIBUTIONBOARD "
+electric distribution - mechanical distribution panel / board,MDB,IfcElectricDistributionBoard,DISTRIBUTIONBOARD 
 electric distribution - medium voltage switchboard,MVSB,IfcElectricDistributionBoard,SWITCHBOARD
 electric distribution - power distribution unit,PDU,IfcElectricDistributionBoard,NOTDEFINED
 electric distribution - static transfer switch,STS,IfcSwitchingDevice,NOTDEFINED
@@ -339,7 +339,7 @@ outlet - raised floor box,FLRB,IfcOutlet,NOTDEFINED
 panel - alarm panel,AP,IfcUnitaryControlElement,ALARMPANEL
 panel - chemical treatment control panel,CTCP,IfcUnitaryControlElement,NOTDEFINED
 panel - control panel,CTRP,IfcUnitaryControlElement,CONTROLPANEL
-panel - fire alarm control panel,FACP,IfcUnitaryControlElement," NOTDEFINED"
+panel - fire alarm control panel,FACP,IfcUnitaryControlElement, NOTDEFINED
 panel - gas detection panel,GASDET,IfcUnitaryControlElement,GASDETECTIONPANEL
 panel - hvac control panel,HVACCP,IfcUnitaryControlElement,CONTROLPANEL
 panel - leak detection panel,LDP,IfcUnitaryControlElement,CONTROLPANEL
@@ -479,7 +479,7 @@ valve - control valve,CV,IfcValve,NOTDEFINED
 valve - control valve modulating,CVM,IfcValve,NOTDEFINED
 valve - control valve open closed,CVO,IfcValve,NOTDEFINED
 valve - differential pressure control valve,DPCV,IfcValve,NOTDEFINED
-valve - energy valve,ENV,IfcValve,"NOTDEFINED "
+valve - energy valve,ENV,IfcValve,NOTDEFINED 
 valve - float valve,FV,IfcValve,NOTDEFINED
 valve - flow control valve,FCV,IfcValve,NOTDEFINED
 valve - gate valve,GV,IfcValve,STEAMTRAP
@@ -525,3 +525,14 @@ water treatment - dosing pot,DPOT,IfcDistributionFlowElement,NOTDEFINED
 water treatment - electro magnetic water conditioner,EMWC,IfcFlowTreatmentDevice,NOTDEFINED
 weather station,WST,IfcUnitaryControlElement,WEATHERSTATION
 window,WD,IfcWindow,NOTDEFINED
+filter - Exhaust Dry scrubber Unit,DSU,IfcFilter,NOTDEFINED
+filter - Air Purifier Unit,APU,IfcFilter,NOTDEFINED
+filter - Air Washer Unit,AWSH,IfcFilter,NOTDEFINED
+fire suppression - Vaporizer Panel,VP,IfcUnitaryControlElement,CONTROLPANEL
+fire detection - Hydrogen Sensor,HDS,IfcSensor,HYDROGENSENSOR
+sensor - Velocity Sensor,VS,IfcSensor,VELOCITYSENSOR
+water heater - Solar Water Heating Panel,SWHP,IfcBoiler,WATER
+fan - Liftwell pressurization fan,ELVPF,IfcFan,NOTDEFINED
+tank - Lift Pit,ELVSMP,IfcTank,NOTDEFINED
+chiller - Water Cooled Chiller,WCCH,IfcChiller,NOTDEFINED
+chiller - Air Cooled Chiller,ACCH,IfcChiller,NOTDEFINED
