@@ -27,6 +27,18 @@ In scope for this work are:
 - A [specification for naming syntax](BDNS_Specification_naming_syntax.md)
 - A [register of building device type abbreviations](BDNS_Abbreviations_Register.csv)
 
+The [register of building device type abbreviations](BDNS_Abbreviations_Register.csv) includes the following columns:
+
+* `asset_description` - a desription of what is named; the description typically includes a category when the level of granularity of the abbreviation is more specific
+* `asset_abbreviation` - the BDNS abbreviation itself
+* `can_be_connected` - a boolean value that distinguishes between assets that do not include any means of network connectivity and connectable devices
+* `dbo_entity_type` - the [Digital Buildings Ontology](https://github.com/google/digitalbuildings) namespace and entity type that can be associated to the BDNS abbreviation; NOTE: while BDNS presupposes that modelers will apply abbreviations consistently based on similar domain expertise, DBO does not; instead, it provides definitions for devices which may have overlapping function or where terms are ambiguous. For example, while a BDNS user may find the distinction between AHU, ACU, and RTU to be meaningful, DBO does consider all of these as classes of AHU (and provides a definition for what an AHU is.
+* `ifc_class` - the [IFC](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/) class that can be associated to the BDNS abbreviation
+* `ifc_type` - the specific [IFC](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/) type associated to the IFC class that can be associated to the BDNS abbreviation
+
+The comparison columns have the purpose of providing a simple means to correlate the naming of instances with ontology objects that are present in different building services and systems related ontologies, like the [Digital Buildings Ontology](https://github.com/google/digitalbuildings) and [IFC](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/).
+
+
 ## Use
 
 The device and asset names defined in this standard are meant to be used in the following applications:
