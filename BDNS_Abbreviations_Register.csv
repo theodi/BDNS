@@ -411,6 +411,7 @@ sanitary terminal - hand wash basin,HWB,,IfcSanitaryTerminal,WASHHANDBASIN
 sensor - CO sensor,COS,SENSOR,IfcSensor,COSENSOR
 sensor - CO2 sensor,CDS,SENSOR,IfcSensor,CO2SENSOR
 sensor - condensation water sensor,CS,SENSOR,IfcSensor,TEMPERATURESENSOR
+sensor - contact sensor,CNTS,SENSOR,IfcSensor,CONTACTSENSOR
 sensor - glycol protector sensor,GLYPR,SENSOR,IfcSensor,NOTDEFINED
 sensor - humidity sensor,HMS,SENSOR,IfcSensor,HUMIDITYSENSOR
 sensor - leak detection sensor,LDS,SENSOR,IfcSensor,NOTDEFINED
@@ -423,6 +424,7 @@ sensor - multi sensor,MTS,SENSOR,IfcSensor,NOT DEFINED
 sensor - nitrogen dioxide sensor,NDS,SENSOR,IfcSensor,NOTDEFINED
 sensor - people counting sensor,PCS,SENSOR,IfcSensor,NOTDEFINED
 sensor - pressure sensor,PS,SENSOR,IfcSensor,PRESSURESENSOR
+sensor - sound level sensor,SLS,SENSOR,IfcSensor,SOUNDSENSOR
 sensor - static pressure sensor,SPS,SENSOR,IfcSensor,PRESSURESENSOR
 sensor - temperature sensor,TPS,SENSOR,IfcSensor,TEMPERATURESENSOR
 sensor - thermostat,TSTAT,,IfcUnitaryControlElement,THERMOSTAT
