@@ -536,3 +536,4 @@ fan - Liftwell pressurization fan,ELVPF,IfcFan,NOTDEFINED
 tank - Lift Pit,ELVSMP,IfcTank,NOTDEFINED
 chiller - Water Cooled Chiller,WCCH,IfcChiller,NOTDEFINED
 chiller - Air Cooled Chiller,ACCH,IfcChiller,NOTDEFINED
+generator - Diesel electricity generator,DG,IfcElectricGenerator,ENGINEGENERATOR
