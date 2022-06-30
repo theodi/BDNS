@@ -3,7 +3,7 @@ name: New Abbreviation Request
 about: Suggest a new abbreviation to be added to the BDNS register
 title: ''
 labels: enhancement
-assignees: pisuke, RitaLav
+assignees: ''
 
 ---
 
