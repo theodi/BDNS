@@ -213,7 +213,7 @@ fire detection - break glass unit,BGU,SAFETY/BGU,IfcAlarm,BREAKGLASSBUTTON
 fire detection - control and indication equipment,CIE,,IfcUnitaryControlElement,INDICATORPANEL
 fire detection - gas detector,GD,SENSOR,IfcSensor,GASSENSOR
 fire detection - heat detector,HD,SENSOR,IfcSensor,HEATSENSOR
-fire detection - hydrogen sensor,HDS,,IfcSensor,NOTDEFINED
+fire detection - hydrogen detector,HDS,,IfcSensor,NOTDEFINED
 fire detection - input output interface unit,IFU,,IfcSwitchingDevice,NOTDEFINED
 fire detection - smoke detector,SD,SAFETY/SD,IfcSensor,SMOKESENSOR
 fire suppression - fire jockey pump,FJP,,IfcPump,NOTDEFINED
