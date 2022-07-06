@@ -455,7 +455,6 @@ tank - fire hydrant tank,FHT,,IfcTank,STORAGE
 tank - fuel oil day tank,FODT,,IfcTank,NOTDEFINED
 tank - fuel oil storage tank,FOST,,IfcTank,STORAGE
 tank - hot water cylinder,HWC,,IfcTank,STORAGE
-tank - lift pit,ELVSMP,,IfcTank,NOTDEFINED
 tank - potable/domestic water storage tank,DWST,,IfcTank,STORAGE
 tank - potable/domestic water transfer tank,DWTT,,IfcTank,NOTDEFINED
 tank - sprinkler tank,SPT,,IfcTank,STORAGE
