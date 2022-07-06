@@ -530,7 +530,7 @@ waste terminal - area drain,AD,,IfcWasteTerminal,NOTDEFINED
 water heater - domestic electric water heater,DEWH,HVAC/HWS,IfcElectricAppliance,FREESTANDINGWATERHEATER
 water heater - domestic gas water heater,DGWH,HVAC/HWS,IfcBoiler,WATER
 water heater - instantaneous water heater,IWH,HVAC/HWS,IfcElectricAppliance,NOTDEFINED
-water heater - solar water heating panel,SWHP,,IfcBoiler,WATER
+water heater - solar water heating panel,SWHP,,IfcSolarDevice,SOLARCOLLECTOR
 water treatment - chemical dosage unit,CHDU,,IfcDistributionSystem,CHEMICAL
 water treatment - cooling tower water treatment unit,CTSU,,IfcUnitaryEquipment,NOTDEFINED
 water treatment - dosing pot,DPOT,,IfcDistributionFlowElement,NOTDEFINED
