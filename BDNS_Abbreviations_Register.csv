@@ -143,7 +143,7 @@ electric appliance - steamer,STE,,IfcElectricAppliance,NOTDEFINED
 electric distribution - automatic transfer switch,ATS,,IfcProtectiveDevice,NOTDEFINED
 electric distribution - branch circuit panel board 120/208V,LVCPB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - branch circuit panel board 277/480V,HVCPB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - distribution panel / board,DB,ELECTRICAL/PANEL,IfcElectricDistributionBoard," DISTRIBUTIONBOARD"
+electric distribution - distribution panel / board,DB,ELECTRICAL/PANEL,IfcElectricDistributionBoard, DISTRIBUTIONBOARD
 electric distribution - distribution panel 120/208V,LVDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - distribution panel 277/480V,HVDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - distribution panel for itc equipment,ITDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,NOTDEFINED
@@ -178,6 +178,7 @@ fan - fume hood exhaust fan,FHEX,HVAC/FAN,IfcDamper,FUMEHOODEXHAUST
 fan - garage / car park supply fan,GSF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - garage / car park transfer fan,GTF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - kitchen exhaust fan,KEF,HVAC/FAN,IfcFan,NOTDEFINED
+fan - liftwell pressurization fan,LWPF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - relief fan,RLF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - return fan,RTF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - smoke exhaust fan,SEF,HVAC/FAN,IfcFan,NOTDEFINED
@@ -220,6 +221,7 @@ fire suppression - sprinkler alarm bell,FB,,IfcAlarm,BELL
 fire suppression - sprinkler flow switch,FS,,IfcSwitchingDevice,NOTDEFINED
 fire suppression - sprinkler head terminal,SPH,,IfcFireSuppressionTerminal,SPRINKLER
 fire suppression - sprinkler isolation valve,SISV,,IfcValve,ISOLATING
+fire suppression - system gas release panel,FSS,,IfcFireSuppressionSystem,NOTDEFINED
 food serving - cold plate,FSCPL,,IfcFlowTerminal,NOTDEFINED
 food serving - cold well,FSCWL,,IfcFlowStorageDevice,NOTDEFINED
 food serving - heat lamp,FSHL,,IfcSpaceHeater,NOTDEFINED
@@ -335,12 +337,13 @@ outlet - raised floor box,FLRB,,IfcOutlet,NOTDEFINED
 panel - alarm panel,AP,,IfcUnitaryControlElement,ALARMPANEL
 panel - chemical treatment control panel,CTCP,,IfcUnitaryControlElement,NOTDEFINED
 panel - control panel,CTRP,,IfcUnitaryControlElement,CONTROLPANEL
-panel - fire alarm control panel,FACP,SAFETY/FACP,IfcUnitaryControlElement," NOTDEFINED"
+panel - fire alarm control panel,FACP,SAFETY/FACP,IfcUnitaryControlElement, NOTDEFINED
 panel - gas detection panel,GASDET,,IfcUnitaryControlElement,GASDETECTIONPANEL
 panel - hvac control panel,HVACCP,,IfcUnitaryControlElement,CONTROLPANEL
 panel - leak detection panel,LDP,,IfcUnitaryControlElement,CONTROLPANEL
 panel - motor control center,MCC,,IfcUnitaryControlElement,NOTDEFINED
 panel - remote i/o control panel,RIO,,IfcUnitaryControlElement,NOTDEFINED
+panel-rodent repellent,RDT,,IfcUnitaryControlElement,NOTDEFINED
 panel - variable air volume control station / panel,VAVCTR,,IfcUnitaryControlElement,NOTDEFINED
 pressurisation unit,PU,,IfcUnitaryEquipment,NOTDEFINED
 pressurisation unit - water system makeup unit,WMS,,IfcUnitaryEquipment,NOTDEFINED
@@ -424,6 +427,7 @@ sensor - multi sensor,MTS,SENSOR,IfcSensor,NOT DEFINED
 sensor - nitrogen dioxide sensor,NDS,SENSOR,IfcSensor,NOTDEFINED
 sensor - people counting sensor,PCS,SENSOR,IfcSensor,NOTDEFINED
 sensor - pressure sensor,PS,SENSOR,IfcSensor,PRESSURESENSOR
+sensor-seismic sensor,SSS,SENSOR,IfcSensor,SEISMICSENSOR
 sensor - sound level sensor,SLS,SENSOR,IfcSensor,SOUNDSENSOR
 sensor - static pressure sensor,SPS,SENSOR,IfcSensor,PRESSURESENSOR
 sensor - temperature sensor,TPS,SENSOR,IfcSensor,TEMPERATURESENSOR
@@ -477,7 +481,7 @@ valve - control valve,CV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - control valve modulating,CVM,HVAC/VLV,IfcValve,NOTDEFINED
 valve - control valve open closed,CVO,HVAC/VLV,IfcValve,NOTDEFINED
 valve - differential pressure control valve,DPCV,HVAC/VLV,IfcValve,NOTDEFINED
-valve - energy valve,ENV,HVAC/VLV,IfcValve,"NOTDEFINED "
+valve - energy valve,ENV,HVAC/VLV,IfcValve,NOTDEFINED 
 valve - float valve,FV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - flow control valve,FCV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - gate valve,GV,HVAC/VLV,IfcValve,STEAMTRAP
