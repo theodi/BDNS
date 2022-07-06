@@ -492,7 +492,6 @@ valve - control valve modulating,CVM,HVAC/VLV,IfcValve,NOTDEFINED
 valve - control valve open closed,CVO,HVAC/VLV,IfcValve,NOTDEFINED
 valve - differential pressure control valve,DPCV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - energy valve,ENV,HVAC/VLV,IfcValve,NOTDEFINED
-valve - energy valve,ENV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - float valve,FV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - flow control valve,FCV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - gate valve,GV,HVAC/VLV,IfcValve,STEAMTRAP
