@@ -48,12 +48,14 @@ burner - steam boiler,SB,HVAC/BLR,IfcBoiler,STEAM
 camera,CAM,,IfcAudioVisualAppliance,CAMERA
 camera - pan tilt zoom camera,PTZCAM,,IfcAudioVisualAppliance,CAMERA
 chiller,CH,HVAC/CH,IfcChiller,NOTDEFINED
+chiller - air cooled chiller,ACCH,HVAC/CH,IfcChiller,NOTDEFINED
 chiller - cooling tower,CT,HVAC/CT,IfcCoolingTower,NOTDEFINED
 chiller - critical cooling chiller,CCCH,HVAC/CH,IfcChiller,NOTDEFINED
 chiller - dry air cooler,DAC,HVAC/DC,IfcCondenser,AIRCOOLED
 chiller - high temperature chiller,HTCH,HVAC/CH,IfcChiller,NOTEDEFINED
 chiller - hybrid air cooler or fluid cooler,HYAC,HVAC/CH,IfcEvaporativeCooler,NOTDEFINED
 chiller - low temperature chiller,LTCH,HVAC/CH,IfcChiller,NOTDEFINED
+chiller - water cooled chiller,WCCH,HVAC/CH,IfcChiller,NOTDEFINED
 cleaning - floor cleaner scrubber dryer,FCSD,,IfcElectricAppliance,NOTDEFINED
 coil,COIL,,IfcCoil,NOTDEFINED
 coil - cooling coil,CC,,IfcCoil,WATERCOOLINGCOIL
@@ -143,7 +145,7 @@ electric appliance - steamer,STE,,IfcElectricAppliance,NOTDEFINED
 electric distribution - automatic transfer switch,ATS,,IfcProtectiveDevice,NOTDEFINED
 electric distribution - branch circuit panel board 120/208V,LVCPB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - branch circuit panel board 277/480V,HVCPB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
-electric distribution - distribution panel / board,DB,ELECTRICAL/PANEL,IfcElectricDistributionBoard," DISTRIBUTIONBOARD"
+electric distribution - distribution panel / board,DB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - distribution panel 120/208V,LVDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - distribution panel 277/480V,HVDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - distribution panel for itc equipment,ITDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,NOTDEFINED
@@ -178,6 +180,7 @@ fan - fume hood exhaust fan,FHEX,HVAC/FAN,IfcDamper,FUMEHOODEXHAUST
 fan - garage / car park supply fan,GSF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - garage / car park transfer fan,GTF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - kitchen exhaust fan,KEF,HVAC/FAN,IfcFan,NOTDEFINED
+fan - elevator / lift well pressurization fan,ELVPF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - relief fan,RLF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - return fan,RTF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - smoke exhaust fan,SEF,HVAC/FAN,IfcFan,NOTDEFINED
@@ -186,13 +189,16 @@ fan - supply fan,SF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - transfer fan,TF,HVAC/FAN,IfcFan,NOTDEFINED
 fan coil unit,FCU,HVAC/FCU,IfcUnitaryEquipment,NOTDEFINED
 filter,FLT,,IfcFilter,NOTDEFINED
+filter - air purifier unit,APU,,IfcFilter,NOTDEFINED
 filter - air separator,AS,,IfcFlowTreatmentDevice,NOTDEFINED
+filter - air washer unit,AWSH,,IfcFilter,NOTDEFINED
 filter - cooling tower filtration unit,CTFS,,IfcFilter,NOTDEFINED
 filter - cooling tower filtration unit,CTFU,,IfcUnitaryEquipment,NOTDEFINED
 filter - cooling tower sand filter,CTSFLT,,IfcFilter,NOTDEFINED
 filter - cooling tower separator,CTSEP,,IfcFilter,NOTDEFINED
 filter - cooling tower separator / sand separator,CTSSEP,,IfcFilter,NOTDEFINED
 filter - degasser filter,DGA,,IfcFilter,NOTDEFINED
+filter - exhaust dry scrubber unit,DSU,,IfcFilter,NOTDEFINED
 filter - pollution control unit,PCU,,IfcFilter,AIRPARTICLEFILTER
 filter - process filtration unit,PFU,,IfcUnitaryEquipment,NOTDEFINED
 filter - reverse osmosis system,RO,,IfcFilter,NOTDEFINED
@@ -207,6 +213,7 @@ fire detection - break glass unit,BGU,SAFETY/BGU,IfcAlarm,BREAKGLASSBUTTON
 fire detection - control and indication equipment,CIE,,IfcUnitaryControlElement,INDICATORPANEL
 fire detection - gas detector,GD,SENSOR,IfcSensor,GASSENSOR
 fire detection - heat detector,HD,SENSOR,IfcSensor,HEATSENSOR
+fire detection - hydrogen sensor,HDS,,IfcSensor,NOTDEFINED
 fire detection - input output interface unit,IFU,,IfcSwitchingDevice,NOTDEFINED
 fire detection - smoke detector,SD,SAFETY/SD,IfcSensor,SMOKESENSOR
 fire suppression - fire jockey pump,FJP,,IfcPump,NOTDEFINED
@@ -220,6 +227,8 @@ fire suppression - sprinkler alarm bell,FB,,IfcAlarm,BELL
 fire suppression - sprinkler flow switch,FS,,IfcSwitchingDevice,NOTDEFINED
 fire suppression - sprinkler head terminal,SPH,,IfcFireSuppressionTerminal,SPRINKLER
 fire suppression - sprinkler isolation valve,SISV,,IfcValve,ISOLATING
+fire suppression - system gas release panel,FSS,,IfcUnitaryControlElement,CONTROLPANEL
+fire suppression - vaporizer panel,VP,,IfcUnitaryControlElement,CONTROLPANEL
 food serving - cold plate,FSCPL,,IfcFlowTerminal,NOTDEFINED
 food serving - cold well,FSCWL,,IfcFlowStorageDevice,NOTDEFINED
 food serving - heat lamp,FSHL,,IfcSpaceHeater,NOTDEFINED
@@ -245,6 +254,7 @@ furniture - commercial kithcen utility chase system,KUCS,,IfcDistributionSystem,
 furniture - desk,DESK,,IfcFurniture,DESK
 furniture - locker,LCKR,,IfcFurniture,NOTDEFINED
 generator - clean steam generator,CSG,,IfcElectricGenerator,NOTDEFINED
+generator - diesel electricity generator,DG,,IfcElectricGenerator,ENGINEGENERATOR
 generator - electricity generator,GEN,,IfcElectricGenerator,ENGINEGENERATOR
 grease waste interceptor,GI,,IfcInterceptor,GREASE
 heat emitter - duct heater,DH,HVAC/DH,IfcSpaceHeater,NOTDEFINED
@@ -335,12 +345,13 @@ outlet - raised floor box,FLRB,,IfcOutlet,NOTDEFINED
 panel - alarm panel,AP,,IfcUnitaryControlElement,ALARMPANEL
 panel - chemical treatment control panel,CTCP,,IfcUnitaryControlElement,NOTDEFINED
 panel - control panel,CTRP,,IfcUnitaryControlElement,CONTROLPANEL
-panel - fire alarm control panel,FACP,SAFETY/FACP,IfcUnitaryControlElement," NOTDEFINED"
+panel - fire alarm control panel,FACP,SAFETY/FACP,IfcUnitaryControlElement,NOTDEFINED
 panel - gas detection panel,GASDET,,IfcUnitaryControlElement,GASDETECTIONPANEL
 panel - hvac control panel,HVACCP,,IfcUnitaryControlElement,CONTROLPANEL
 panel - leak detection panel,LDP,,IfcUnitaryControlElement,CONTROLPANEL
 panel - motor control center,MCC,,IfcUnitaryControlElement,NOTDEFINED
 panel - remote i/o control panel,RIO,,IfcUnitaryControlElement,NOTDEFINED
+panel - rodent repellent panel,RDT,,IfcUnitaryControlElement,CONTROLPANEL
 panel - variable air volume control station / panel,VAVCTR,,IfcUnitaryControlElement,NOTDEFINED
 pressurisation unit,PU,,IfcUnitaryEquipment,NOTDEFINED
 pressurisation unit - water system makeup unit,WMS,,IfcUnitaryEquipment,NOTDEFINED
@@ -424,10 +435,12 @@ sensor - multi sensor,MTS,SENSOR,IfcSensor,NOT DEFINED
 sensor - nitrogen dioxide sensor,NDS,SENSOR,IfcSensor,NOTDEFINED
 sensor - people counting sensor,PCS,SENSOR,IfcSensor,NOTDEFINED
 sensor - pressure sensor,PS,SENSOR,IfcSensor,PRESSURESENSOR
+sensor - seismic sensor,SSS,SENSOR,IfcSensor,NOTDEFINED
 sensor - sound level sensor,SLS,SENSOR,IfcSensor,SOUNDSENSOR
 sensor - static pressure sensor,SPS,SENSOR,IfcSensor,PRESSURESENSOR
 sensor - temperature sensor,TPS,SENSOR,IfcSensor,TEMPERATURESENSOR
 sensor - thermostat,TSTAT,,IfcUnitaryControlElement,THERMOSTAT
+sensor - velocity sensor,VS,SENSOR,IfcSensor,NOTDEFINED
 shading - shading / blinds / drapes device actuator,SDACT,HVAC/SDC,IfcActuator,ELECTRICACTUATOR
 shading - shading / blinds / drapes device keypad,SDKP,,IfcSwitchingDevice,KEYPAD
 signal - beacon,BCN,,ifcAlarm,LIGHT
@@ -442,6 +455,7 @@ tank - fire hydrant tank,FHT,,IfcTank,STORAGE
 tank - fuel oil day tank,FODT,,IfcTank,NOTDEFINED
 tank - fuel oil storage tank,FOST,,IfcTank,STORAGE
 tank - hot water cylinder,HWC,,IfcTank,STORAGE
+tank - lift pit,ELVSMP,,IfcTank,NOTDEFINED
 tank - potable/domestic water storage tank,DWST,,IfcTank,STORAGE
 tank - potable/domestic water transfer tank,DWTT,,IfcTank,NOTDEFINED
 tank - sprinkler tank,SPT,,IfcTank,STORAGE
@@ -477,7 +491,8 @@ valve - control valve,CV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - control valve modulating,CVM,HVAC/VLV,IfcValve,NOTDEFINED
 valve - control valve open closed,CVO,HVAC/VLV,IfcValve,NOTDEFINED
 valve - differential pressure control valve,DPCV,HVAC/VLV,IfcValve,NOTDEFINED
-valve - energy valve,ENV,HVAC/VLV,IfcValve,"NOTDEFINED "
+valve - energy valve,ENV,HVAC/VLV,IfcValve,NOTDEFINED
+valve - energy valve,ENV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - float valve,FV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - flow control valve,FCV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - gate valve,GV,HVAC/VLV,IfcValve,STEAMTRAP
@@ -500,7 +515,7 @@ valve - supply valve,SPV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - temperature control valve,TCV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - thermostatic mixing valve,TMV,HVAC/VLV,IfcValve,MIXING
 valve - water hammer arrestor,WHAV,HVAC/VLV,IfcValve,NOTDEFINED
-valve - water solenoid valve,SNV,HVAC/VLV,IfcValve,SAFETYCUTOFF(?)
+valve - water solenoid valve,SNV,HVAC/VLV,IfcValve,SAFETYCUTOFF
 variable frequency drive,VFD,,IfcMotorConnection,NOTDEFINED
 washing appliance - commercial flight machine,CDWFM,,IfcElectricAppliance,DISHWASHER
 washing appliance - commercial pass through machine,CDWPTM,,IfcElectricAppliance,DISHWASHER
@@ -517,6 +532,7 @@ waste terminal - area drain,AD,,IfcWasteTerminal,NOTDEFINED
 water heater - domestic electric water heater,DEWH,HVAC/HWS,IfcElectricAppliance,FREESTANDINGWATERHEATER
 water heater - domestic gas water heater,DGWH,HVAC/HWS,IfcBoiler,WATER
 water heater - instantaneous water heater,IWH,HVAC/HWS,IfcElectricAppliance,NOTDEFINED
+water heater - solar water heating panel,SWHP,,IfcBoiler,WATER
 water treatment - chemical dosage unit,CHDU,,IfcDistributionSystem,CHEMICAL
 water treatment - cooling tower water treatment unit,CTSU,,IfcUnitaryEquipment,NOTDEFINED
 water treatment - dosing pot,DPOT,,IfcDistributionFlowElement,NOTDEFINED
