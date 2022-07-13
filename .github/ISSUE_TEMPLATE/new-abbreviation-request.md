@@ -2,7 +2,7 @@
 name: New Abbreviation Request
 about: Suggest a new abbreviation to be added to the BDNS register
 title: ''
-labels: enhancement
+labels: abbreviation request
 assignees: ''
 
 ---
