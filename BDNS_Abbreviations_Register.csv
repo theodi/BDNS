@@ -434,6 +434,7 @@ sensor - moisture content sensor,MCS,SENSOR,IfcSensor,NOTDEFINED
 sensor - motion sensor,MOS,SENSOR,IfcSensor,MOVEMENTSENSOR
 sensor - multi sensor,MTS,SENSOR,IfcSensor,NOT DEFINED
 sensor - nitrogen dioxide sensor,NDS,SENSOR,IfcSensor,NOTDEFINED
+sensor - particulate matter sensor,PMS,SENSOR,IfcSensor,NOTDEFINED
 sensor - people counting sensor,PCS,SENSOR,IfcSensor,NOTDEFINED
 sensor - pressure sensor,PS,SENSOR,IfcSensor,PRESSURESENSOR
 sensor - seismic sensor,SSS,SENSOR,IfcSensor,NOTDEFINED
@@ -536,5 +537,6 @@ water treatment - chemical dosage unit,CHDU,,IfcDistributionSystem,CHEMICAL
 water treatment - cooling tower water treatment unit,CTSU,,IfcUnitaryEquipment,NOTDEFINED
 water treatment - dosing pot,DPOT,,IfcDistributionFlowElement,NOTDEFINED
 water treatment - electro magnetic water conditioner,EMWC,,IfcFlowTreatmentDevice,NOTDEFINED
+water treatment - reverse osmosis plant,RO,,IfcUnitaryEquipment,NOTDEFINED
 weather station,WST,HVAC/WEATHER,IfcUnitaryControlElement,WEATHERSTATION
 window,WD,,IfcWindow,NOTDEFINED
