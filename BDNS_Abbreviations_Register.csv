@@ -537,6 +537,5 @@ water treatment - chemical dosage unit,CHDU,,IfcDistributionSystem,CHEMICAL
 water treatment - cooling tower water treatment unit,CTSU,,IfcUnitaryEquipment,NOTDEFINED
 water treatment - dosing pot,DPOT,,IfcDistributionFlowElement,NOTDEFINED
 water treatment - electro magnetic water conditioner,EMWC,,IfcFlowTreatmentDevice,NOTDEFINED
-water treatment - reverse osmosis plant,RO,,IfcUnitaryEquipment,NOTDEFINED
 weather station,WST,HVAC/WEATHER,IfcUnitaryControlElement,WEATHERSTATION
 window,WD,,IfcWindow,NOTDEFINED
