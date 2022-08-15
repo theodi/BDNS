@@ -434,6 +434,7 @@ sensor - moisture content sensor,MCS,SENSOR,IfcSensor,NOTDEFINED
 sensor - motion sensor,MOS,SENSOR,IfcSensor,MOVEMENTSENSOR
 sensor - multi sensor,MTS,SENSOR,IfcSensor,NOT DEFINED
 sensor - nitrogen dioxide sensor,NDS,SENSOR,IfcSensor,NOTDEFINED
+sensor - particulate matter sensor,PMS,SENSOR,IfcSensor,NOTDEFINED
 sensor - people counting sensor,PCS,SENSOR,IfcSensor,NOTDEFINED
 sensor - pressure sensor,PS,SENSOR,IfcSensor,PRESSURESENSOR
 sensor - seismic sensor,SSS,SENSOR,IfcSensor,NOTDEFINED
