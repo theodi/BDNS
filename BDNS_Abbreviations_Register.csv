@@ -2,6 +2,7 @@ asset_description,asset_abbreviation,dbo_entity_type,ifc_class,ifc_type
 access control - biometric reader,BIOR,,IfcCommunicationsAppliance,SCANNER
 access control - RFID controller,RFIDC,,IfcController,NOTDEFINED
 access control - RFID reader,RFIDR,,IfcCommunicationsAppliance,SCANNER
+access control - access control system,ACS,,IfcDistributionSystem,SECURITY
 active harmonic filter,AHF,,IfcElectricFlowStorageDevice,HARMONICFILTER
 actuator,ACT,,IfcActuator,NOTDEFINED
 actuator - dew point switch,DPSW,,IfcUnitaryControlElement,HUMIDISTAT
@@ -56,6 +57,8 @@ chiller - high temperature chiller,HTCH,HVAC/CH,IfcChiller,NOTEDEFINED
 chiller - hybrid air cooler or fluid cooler,HYAC,HVAC/CH,IfcEvaporativeCooler,NOTDEFINED
 chiller - low temperature chiller,LTCH,HVAC/CH,IfcChiller,NOTDEFINED
 chiller - water cooled chiller,WCCH,HVAC/CH,IfcChiller,NOTDEFINED
+cleaning - standalone laundry washing mashine,WSH,,IfcElectricAppliance,WASHINGMACHINE
+cleaning - standalone laundry tumble dryer,TDY,,IfcElectricAppliance,TUMBLEDRYER
 cleaning - floor cleaner scrubber dryer,FCSD,,IfcElectricAppliance,NOTDEFINED
 coil,COIL,,IfcCoil,NOTDEFINED
 coil - cooling coil,CC,,IfcCoil,WATERCOOLINGCOIL
@@ -134,6 +137,7 @@ dx system - variable refrigerant volume unit,VRV,,IfcUnitaryEquipment,SPLITSYSTE
 dx system - hybrid variable refrigerant flow unit,HVRF,,IfcUnitaryEquipment,SPLITSYSTEM
 electric appliance,EAPPL,,IfcElectricAppliance,NOTDEFINED
 electric appliance - air dryer,ADY,HVAC/ADY,IfcElectricAppliance,NOTDEFINED
+electric appliance - hand dryer,HDY,,IfcElectricAppliance,NOTDEFINED
 electric appliance - dishwasher,DW,,IfcElectricAppliance,DISHWASHER
 electric appliance - electronic point of sale,EPOS,,IfcElectricAppliance,NOTDEFINED
 electric appliance - exercise / gym equipment,GYMEQ,,IfcElectricAppliance,NOTDEFINED
@@ -280,9 +284,11 @@ horn strobe,HS,SAFETY/HS,IfcAlarm,SIREN
 human machine interface,HMI,,IfcCommunicationsAppliance,NOTDEFINED
 humidifier,HUM,HVAC/HUM,IfcHumidifier,NOTDEFINED
 itc equipment - ethernet switch,ETS,,ifcCommunicationsAppliance,NETWORKBRIDGE
+itc equipment - fibre switch,FBS,,ifcCommunicationsAppliance,NETWORKBRIDGE
 itc equipment - intermediate distribution frame,IDF,,IfcCommunicationsAppliance,NOTDEFINED
 itc equipment - network firewall,FW,,IfcCommunicationsAppliance,NETWORKAPPLIANCE
 itc equipment - network router,RTR,,IfcCommunicationsAppliance,ROUTER
+itc equipment - pdu ip dongle,PDUIPD,,IfcCommunicationsAppliance,NOTDEFINED
 itc equipment - power-over-ethernet network switch,POEETS,,IfcCommunicationsAppliance,NOTDEFINED
 itc equipment - software-defined networking controller,SDNC,,IfcCommunicationsAppliance,NOTDEFINED
 itc equipment - wi-fi router,WRTR,,IfcCommunicationsAppliance,ROUTER
@@ -426,7 +432,9 @@ sensor - condensation water sensor,CS,SENSOR,IfcSensor,TEMPERATURESENSOR
 sensor - contact sensor,CNTS,SENSOR,IfcSensor,CONTACTSENSOR
 sensor - glycol protector sensor,GLYPR,SENSOR,IfcSensor,NOTDEFINED
 sensor - humidity sensor,HMS,SENSOR,IfcSensor,HUMIDITYSENSOR
+sensor - inertial measurement unit sensor,IMUS,SENSOR,IfcSensor,NOTDEFINED
 sensor - leak detection sensor,LDS,SENSOR,IfcSensor,NOTDEFINED
+sensor - level sensor,LVLS,SENSOR,IfcSensor,NOTDEFINED
 sensor - lighting motion sensor,LMS,SENSOR,IfcSensor,MOVEMENTSENSOR
 sensor - lighting multisensor,LTMTS,SENSOR,IfcSensor,NOTDEFINED
 sensor - lighting photocell sensor,LPS,SENSOR,IfcSensor,LIGHTSENSOR
