@@ -5,6 +5,7 @@ access control - RFID reader,RFIDR,,IfcCommunicationsAppliance,SCANNER
 active harmonic filter,AHF,,IfcElectricFlowStorageDevice,HARMONICFILTER
 actuator,ACT,,IfcActuator,NOTDEFINED
 actuator - dew point switch,DPSW,,IfcUnitaryControlElement,HUMIDISTAT
+actuator - differential pressure switch,DPRSW,,IfcActuator,NOTDEFINED
 actuator - frost protection switch,FPSW,,IfcActuator,ELECTRICACTUATOR
 actuator - motorized window operator,WDO,,IfcActuator,ELECTRICACTUATOR
 actuator - switch actuator,SWACT,,IfcActuator,ELECTRICACTUATOR
