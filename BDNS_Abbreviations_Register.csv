@@ -447,7 +447,6 @@ sensor - velocity sensor,VS,SENSOR,IfcSensor,NOTDEFINED
 shading - shading / blinds / drapes device actuator,SDACT,HVAC/SDC,IfcActuator,ELECTRICACTUATOR
 shading - shading / blinds / drapes device keypad,SDKP,,IfcSwitchingDevice,KEYPAD
 signal - beacon,BCN,,ifcAlarm,LIGHT
-switch-differential pressure switch,DPS,,IfcSwitchingDevice,NOTDEFINED
 tank - break tank and booster set,BTBS,,IfcTank,BREAKPRESSURE
 tank - condensate receiver tank,CNR,,ifcTank,STORAGE
 tank - deareator tank,DEA,,IfcTank,NOTDEFINED
