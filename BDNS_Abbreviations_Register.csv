@@ -22,6 +22,7 @@ air terminal box - constant air volume box,CAV,,IfcAirTerminalBox,CONSTANTFLOW
 air terminal box - variable air volume box,VAV,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED
 air terminal box - variable volume and temperature box,VVTB,,IfcAirTerminalBox,NOTDEFINED
 air terminal box - variable volume terminal unit,VVT,,IfcAirTerminalBox,NOTDEFINED
+alarm - disabled alarm,DA,,IfcAlarm,MANUALPULLBOX
 antenna,ANT,,IfcCommunicationsAppliance,ANTENNA
 antenna - wi-fi antenna,WANT,,IfcCommunicationsAppliance,ANTENNA
 architecture - room,ROOM,,IfcSpace,INTERNAL
@@ -192,6 +193,7 @@ fan - return fan,RTF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - smoke exhaust fan,SEF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - stairwell pressurization fan,SPF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - supply fan,SF,HVAC/FAN,IfcFan,NOTDEFINED
+fan - toilet extract fan,TEF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - transfer fan,TF,HVAC/FAN,IfcFan,NOTDEFINED
 fan coil unit,FCU,HVAC/FCU,IfcUnitaryEquipment,NOTDEFINED
 filter,FLT,,IfcFilter,NOTDEFINED
