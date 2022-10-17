@@ -284,16 +284,21 @@ high level interface,HLI,,IfcController,PROGRAMMABLE
 horn strobe,HS,SAFETY/HS,IfcAlarm,SIREN
 human machine interface,HMI,,IfcCommunicationsAppliance,NOTDEFINED
 humidifier,HUM,HVAC/HUM,IfcHumidifier,NOTDEFINED
-itc equipment - ethernet switch,ETS,,ifcCommunicationsAppliance,NETWORKBRIDGE
-itc equipment - fibre switch,FBS,,ifcCommunicationsAppliance,NETWORKBRIDGE
-itc equipment - intermediate distribution frame,IDF,,IfcCommunicationsAppliance,NOTDEFINED
-itc equipment - network firewall,FW,,IfcCommunicationsAppliance,NETWORKAPPLIANCE
-itc equipment - network router,RTR,,IfcCommunicationsAppliance,ROUTER
-itc equipment - pdu ip dongle,PDUIPD,,IfcCommunicationsAppliance,NOTDEFINED
-itc equipment - power-over-ethernet network switch,POEETS,,IfcCommunicationsAppliance,NOTDEFINED
-itc equipment - software-defined networking controller,SDNC,,IfcCommunicationsAppliance,NOTDEFINED
-itc equipment - wi-fi router,WRTR,,IfcCommunicationsAppliance,ROUTER
-itc equipment - wireless access point,WAP,,IfcCommunicationsAppliance,ROUTER
+ict equipment - ethernet switch,ETS,,ifcCommunicationsAppliance,NETWORKBRIDGE
+ict equipment - fibre switch,FBS,,ifcCommunicationsAppliance,NETWORKBRIDGE
+ict equipment - intermediate distribution frame,IDF,,IfcCommunicationsAppliance,NOTDEFINED
+ict equipment - multi-purpose server,SRV,,IfcCommunicationsAppliance,NOTDEFINED
+ict equipment - network access manager,NAM,,IfcCommunicationsAppliance,NOTDEFINED
+ict equipment - network firewall,FW,,IfcCommunicationsAppliance,NETWORKAPPLIANCE
+ict equipment - network monitoring system,NMS,,IfcCommunicationsAppliance,NOTDEFINED
+ict equipment - network router,RTR,,IfcCommunicationsAppliance,ROUTER
+ict equipment - pdu ip dongle,PDUIPD,,IfcCommunicationsAppliance,NOTDEFINED
+ict equipment - power-over-ethernet network switch,POEETS,,IfcCommunicationsAppliance,NOTDEFINED
+ict equipment - software-defined networking controller,SDNC,,IfcCommunicationsAppliance,NOTDEFINED
+ict equipment - ups management system,UPSMS,,IfcCommunicationsAppliance,NOTDEFINED
+ict equipment - wi-fi router,WRTR,,IfcCommunicationsAppliance,ROUTER
+ict equipment - wireless access point,WAP,,IfcCommunicationsAppliance,ROUTER
+ict equipment - wireless lan controller,WLC,,IfcController,PROGRAMMABLE
 kitchen appliance - blender/smoothie maker,KSMBL,,IfcElectricAppliance,NOTDEFINED
 kitchen appliance - bowl blender,KBBL,,IfcElectricAppliance,NOTDEFINED
 kitchen appliance - bowl cutter,KBC,,IfcElectricAppliance,NOTDEFINED
