@@ -308,7 +308,7 @@ Master system integrator or 3rd party subcontractor, using information from the 
 
 #### Physical format
 
-The QR code shall be created according to ISO/IEC 18004:2015 in the Version 5 (37×37) format, with a possibility to encode up to 154 ASCII characters. The QR code payload shall be [minified](https://en.wikipedia.org/wiki/Minification_(programming)) to reduce the number of characters and shall include the following information.
+The QR code shall be created according to ISO/IEC 18004:2015. The QR code payload shall be [minified](https://en.wikipedia.org/wiki/Minification_(programming)) to reduce the number of characters and shall include the following information.
 
 
 ##### Model format (encoding) example for BIM models
