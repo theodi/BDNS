@@ -280,6 +280,8 @@ heat emitter - trench heater and cooler,TRHC,,ifcSpaceHeater,NOTDEFINED
 heat emitter - trench heating,TRH,,ifcSpaceHeater,NOTDEFINED
 heat emitter - unit heater,UH,,IfcSpaceHeater,NOTDEFINED
 heat exchanger,HX,HVAC/HX,IfcHeatExchanger,NOTDEFINED
+heat exchanger - cooling plate heat exchanger,CPHX,,IfcHeatExchanger,PLATE
+heat exchanger - heating plate heat exchanger,HPHX,,IfcHeatExchanger,PLATE
 heat exchanger - plate heat exchanger,PHX,,IfcHeatExchanger,PLATE
 heat interface unit,HIU,,IfcDistributionSystem,HEATING
 heat pump - air source heat pump,ASHP,,IfcUnitaryEquipment,NOTDEFINED
