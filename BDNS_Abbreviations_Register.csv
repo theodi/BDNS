@@ -360,6 +360,10 @@ outlet - floor duplex outlet,FLRDX,,IfcOutlet,DATAOUTLET
 outlet - floor quad outlet,FLRQD,,IfcOutlet,DATAOUTLET
 outlet - linear electric receptacle,LER,,IfcOutlet,NOTDEFINED
 outlet - raised floor box,FLRB,,IfcOutlet,NOTDEFINED
+package unit - air conditioning package unit,ACPU,HVAC/PU,IfcUnitaryEquipment,PACKAGE 
+package unit - gas/electric package unit, GEPU,HVAC/PU,IfcUnitaryEquipment,PACKAGE 
+package unit - heat pump package unit, HPPU,HVAC/PU,IfcUnitaryEquipment,PACKAGE 
+package unit - dual-fuel package unit, DFPU,HVAC/PU,IfcUnitaryEquipment,PACKAGE 
 panel - alarm panel,AP,,IfcUnitaryControlElement,ALARMPANEL
 panel - chemical treatment control panel,CTCP,,IfcUnitaryControlElement,NOTDEFINED
 panel - control panel,CTRP,,IfcUnitaryControlElement,CONTROLPANEL
