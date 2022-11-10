@@ -14,7 +14,6 @@ air handling unit - air handling unit,AHU,HVAC/AHU,IfcUnitaryEquipment,AIRHANDLE
 air handling unit - dedicated outside air system unit,DOAS,HVAC/DOAS,IfcUnitaryEquipment,AIRHANDLER
 air handling unit - heat recovery unit,HRU,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED
 air handling unit - make-up air handler,MAU,HVAC/MAU,IfcUnitaryEquipment,AIRHANDLER
-air handling unit - roof top unit,RTU,HVAC/AHU,IfcUnitaryEquipment,ROOFTOPUNIT
 air conditioning unit,ACU,HVAC/AHU,IfcUnitaryEquipment,AIRCONDITIONINGUNIT
 air conditioning unit - computer room AC unit,CRAC,HVAC/AHU,IfcUnitaryEquipment,AIRCONDITIONINGUNIT
 air conditioning unit - direct expansion cooling unit,DX,HVAC/AHU,IfcUnitaryEquipment,SPLITSYSTEM
