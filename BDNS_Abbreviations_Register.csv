@@ -64,7 +64,7 @@ cleaning - standalone laundry tumble dryer,TDY,,IfcElectricAppliance,TUMBLEDRYER
 cleaning - floor cleaner scrubber dryer,FCSD,,IfcElectricAppliance,NOTDEFINED
 coil,COIL,,IfcCoil,NOTDEFINED
 coil - cooling coil,CC,,IfcCoil,WATERCOOLINGCOIL
-coil - dx reversible coil,DXC,,IfcCoil,NOTDEFINED
+coil - dx reversible coil,DXRC,,IfcCoil,NOTDEFINED
 coil - frost or preheat coil,PHC,,IfcCoil,NOTDEFINED
 coil - heating coil,HC,,IfcCoil,WATERHEATINGCOIL
 coil - reheat coil,RHC,,IfcCoil,NOTDEFINED
