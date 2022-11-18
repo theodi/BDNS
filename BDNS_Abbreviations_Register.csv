@@ -401,6 +401,8 @@ pump - primary chilled water pump,PCHWP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - primary pump,PP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - process cooling water pump,PCWP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - process water pump,PWP,HVAC/PMP,IfcPump,NOTDEFINED
+pump - rainwater booster pump,RNWBP,HVAC/PMP,IfcPump,NOTDEFINED
+pump - rainwater pump,RNWP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - recirculation pump,RCP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - recycled water pump,RWP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - secondary chilled water pump,SCHWP,HVAC/PMP,IfcPump,NOTDEFINED
@@ -409,6 +411,7 @@ pump - secondary hot water circulating pump,SHWP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - secondary pump,SP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - separator pump,SEPP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - sewage ejector pump,SEP,HVAC/PMP,IfcPump,NOTDEFINED
+pump - sprinkler pump,SPP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - sump pump,SMPP,HVAC/PMP,IfcPump,SUMPPUMP
 pump - tower make up pump,TMUP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - tower make up valve,TMUV,HVAC/PMP,IfcValve,NOTDEFINED
@@ -480,6 +483,7 @@ tank - fuel oil storage tank,FOST,,IfcTank,STORAGE
 tank - hot water cylinder,HWC,,IfcTank,STORAGE
 tank - potable/domestic water storage tank,DWST,,IfcTank,STORAGE
 tank - potable/domestic water transfer tank,DWTT,,IfcTank,NOTDEFINED
+tank - rainwater storage tank,RNWST,,IfcTank,STORAGE
 tank - sprinkler tank,SPT,,IfcTank,STORAGE
 tank - thermal storage tank,TST,,IfcTank,STORAGE
 tank - water tank,TK,,IfcTank,STORAGE
@@ -500,6 +504,7 @@ trap primer,TP,,IfcValve,NOTDEFINED
 trap primer - electronic trap primer,TPE,,IfcValve,NOTDEFINED
 ups - uninteruptable power supply unit,UPS,ELECTRICAL/UPS,IfcElectricFlowStorageDevice,UPS
 user interface - keypad,KP,,IfcSwitchingDevice,KEYPAD
+uv disinfection unit,UVDU,,IfcFilter,NOTDEFINED
 valve,VLV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - air admittance valve,AAV,HVAC/VLV,IfcValve,AIRRELEASE
 valve - angle stop valve,AV,HVAC/VLV,IfcValve,NOTDEFINED
