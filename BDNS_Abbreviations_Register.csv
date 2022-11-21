@@ -500,6 +500,7 @@ trap primer,TP,,IfcValve,NOTDEFINED
 trap primer - electronic trap primer,TPE,,IfcValve,NOTDEFINED
 ups - uninteruptable power supply unit,UPS,ELECTRICAL/UPS,IfcElectricFlowStorageDevice,UPS
 user interface - keypad,KP,,IfcSwitchingDevice,KEYPAD
+under floor air terminal - under floor variable air volume box,UFT,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED
 valve,VLV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - air admittance valve,AAV,HVAC/VLV,IfcValve,AIRRELEASE
 valve - angle stop valve,AV,HVAC/VLV,IfcValve,NOTDEFINED
