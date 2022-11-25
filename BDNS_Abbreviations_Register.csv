@@ -10,6 +10,7 @@ actuator - differential pressure switch,DPRSW,,IfcActuator,NOTDEFINED
 actuator - frost protection switch,FPSW,,IfcActuator,ELECTRICACTUATOR
 actuator - motorized window operator,WDO,,IfcActuator,ELECTRICACTUATOR
 actuator - switch actuator,SWACT,,IfcActuator,ELECTRICACTUATOR
+air handling - mechanical ventilation with heat recovery,MVHR,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED
 air handling unit - air handling unit,AHU,HVAC/AHU,IfcUnitaryEquipment,AIRHANDLER
 air handling unit - dedicated outside air system unit,DOAS,HVAC/DOAS,IfcUnitaryEquipment,AIRHANDLER
 air handling unit - heat recovery unit,HRU,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED
@@ -190,6 +191,7 @@ fan - garage / car park supply fan,GSF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - garage / car park transfer fan,GTF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - kitchen exhaust fan,KEF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - elevator / lift well pressurization fan,ELVPF,HVAC/FAN,IfcFan,NOTDEFINED
+fan - mechanical extract ventilation,MEV,HVAC/FAN,IfcFan,NOTDEFINED
 fan - relief fan,RLF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - return fan,RTF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - smoke exhaust fan,SEF,HVAC/FAN,IfcFan,NOTDEFINED
