@@ -37,6 +37,7 @@ av equipment - speaker,SPK,,IfcAudioVisualAppliance,SPEAKER
 av equipment - video wall,VDW,,IfcAudioVisualAppliance,DISPLAY
 av equipment - white noise generator,WNG,,IfcAudioVisualAppliance,NOTDEFINED
 battery,BATT,ELECTRICAL/BATT,IfcElectricFlowStorageDevice,BATTERY
+battery - electric heater battery,EHB,ELECTRICAL/BATT,IfcElectricFlowStorageDevice,BATTERY
 beverage machine - airpot,BVAP,,IfcElectricAppliance,NOTDEFINED
 beverage machine - chai machine,BVC,,IfcElectricAppliance,NOTDEFINED
 beverage machine - coffee grinder,BVCFMG,,IfcElectricAppliance,NOTDEFINED
@@ -177,6 +178,7 @@ electric distribution - ups panel / board,UPSB,ELECTRICAL/PANEL,IfcElectricDistr
 electric distribution - power factor correction system,PFC,,IfcElectricFlowTreatmentDevice,NOTDEFINED
 electric protective device - circuit breaker,CB,,IfcProtectiveDevice,CIRCUITBREAKER
 electric protective device - disconnect fuse,DSCTF,,IfcProtectiveDevice,FUSEDISCONNECTOR
+electric protective device - high temperature cut out switch,HTCO,,IfcSwitchingDevice,NOTDEFINED
 electric protective device - safety switch or disconnect switch,DSCTS,,IfcSwitchingDevice,SWITCHDISCONNECTOR
 electric protective device - sectionalizer switch,SCS,,IfcSwitchingDevice,SELECTORSWITCH
 electrochromic glass,ECG,,IfcWindow,NOTDEFINED
@@ -232,6 +234,7 @@ fire detection - smoke detector,SD,SAFETY/SD,IfcSensor,SMOKESENSOR
 fire suppression - fire jockey pump,FJP,,IfcPump,NOTDEFINED
 fire suppression - fire pump,FP,,IfcPump,NOTDEFINED
 fire suppression - fire pump control panel,FPCP,,IfcUnitaryControlElement,CONTROLPANEL
+fire suppression - firemans override switch,FMO,,IfcSwitchingDevice,NOTDEFINED
 fire suppression - gas suppression control panel,GSCP,,IfcUnitaryControlElement,CONTROLPANEL
 fire suppression - gas suppression head,GSH,,IfcFireSuppressionTerminal,NOTDEFINED
 fire suppression - hose reel terminal,KHRL,,IfcFireSuppressionTerminal,HOSEREEL
@@ -391,6 +394,7 @@ pump - domestic hot water circulation pump,DHWP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - dosing pump,DP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - fire hydrant pump,FHP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - fuel oil pump,FOP,HVAC/PMP,IfcPump,NOTDEFINED
+pump - gas booster pump,GBP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - heat exchanger pump,HXP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - high temperature chilled water pump,HTCHP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - high temperature condenser water pump,HTCWP,HVAC/PMP,IfcPump,NOTDEFINED
