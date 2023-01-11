@@ -347,6 +347,7 @@ lighting - lighting control module,LCM,LIGHTING/LCM,IfcUnitaryControlElement,NOT
 lighting - lighting control panel,LCP,,IfcUnitaryControlElement,NOTDEFINED
 lighting - lighting fixture,LT,LIGHTING/LT,IfcLightFixture,NOTDEFINED
 lighting - lighting gateway,LTGW,LIGHTING/LTGW,IfcCommunicationsAppliance,GATEWAY
+lighting - lighting group,LGRP,LIGHTING/LGRP,IfcGroup,NOTDEFINED
 lighting - lighting keypad,LKP,LIGHTING/LKP,IfcSwitchingDevice,KEYPAD
 location services - beacon,LBCN,,IfcCommunicationsAppliance,NOTDEFINED
 meter,MTR,METERS/MTR,IfcFlowMeter,NOTDEFINED
