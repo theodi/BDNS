@@ -10,6 +10,7 @@ actuator - differential pressure switch,DPRSW,,IfcActuator,NOTDEFINED
 actuator - frost protection switch,FPSW,,IfcActuator,ELECTRICACTUATOR
 actuator - motorized window operator,WDO,,IfcActuator,ELECTRICACTUATOR
 actuator - switch actuator,SWACT,,IfcActuator,ELECTRICACTUATOR
+air handling - mechanical ventilation with heat recovery,MVHR,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED
 air handling unit - air handling unit,AHU,HVAC/AHU,IfcUnitaryEquipment,AIRHANDLER
 air handling unit - dedicated outside air system unit,DOAS,HVAC/DOAS,IfcUnitaryEquipment,AIRHANDLER
 air handling unit - heat recovery unit,HRU,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED
@@ -23,6 +24,7 @@ air terminal box - variable air volume box,VAV,HVAC/VAV,IfcAirTerminalBox,NOTDEF
 air terminal box - variable volume and temperature box,VVTB,,IfcAirTerminalBox,NOTDEFINED
 air terminal box - variable volume terminal unit,VVT,,IfcAirTerminalBox,NOTDEFINED
 air terminal box - fan powered box,FPB,,IfcAirTerminalBox,NOTDEFINED
+air terminal box - under floor variable air volume box,UFT,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED
 alarm - disabled alarm,DA,,IfcAlarm,MANUALPULLBOX
 antenna,ANT,,IfcCommunicationsAppliance,ANTENNA
 antenna - wi-fi antenna,WANT,,IfcCommunicationsAppliance,ANTENNA
@@ -36,6 +38,7 @@ av equipment - speaker,SPK,,IfcAudioVisualAppliance,SPEAKER
 av equipment - video wall,VDW,,IfcAudioVisualAppliance,DISPLAY
 av equipment - white noise generator,WNG,,IfcAudioVisualAppliance,NOTDEFINED
 battery,BATT,ELECTRICAL/BATT,IfcElectricFlowStorageDevice,BATTERY
+battery - electric heater battery,EHB,ELECTRICAL/BATT,IfcElectricFlowStorageDevice,BATTERY
 beverage machine - airpot,BVAP,,IfcElectricAppliance,NOTDEFINED
 beverage machine - chai machine,BVC,,IfcElectricAppliance,NOTDEFINED
 beverage machine - coffee grinder,BVCFMG,,IfcElectricAppliance,NOTDEFINED
@@ -176,6 +179,7 @@ electric distribution - ups panel / board,UPSB,ELECTRICAL/PANEL,IfcElectricDistr
 electric distribution - power factor correction system,PFC,,IfcElectricFlowTreatmentDevice,NOTDEFINED
 electric protective device - circuit breaker,CB,,IfcProtectiveDevice,CIRCUITBREAKER
 electric protective device - disconnect fuse,DSCTF,,IfcProtectiveDevice,FUSEDISCONNECTOR
+electric protective device - high temperature cut out switch,HTCO,,IfcSwitchingDevice,NOTDEFINED
 electric protective device - safety switch or disconnect switch,DSCTS,,IfcSwitchingDevice,SWITCHDISCONNECTOR
 electric protective device - sectionalizer switch,SCS,,IfcSwitchingDevice,SELECTORSWITCH
 electrochromic glass,ECG,,IfcWindow,NOTDEFINED
@@ -190,6 +194,7 @@ fan - garage / car park supply fan,GSF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - garage / car park transfer fan,GTF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - kitchen exhaust fan,KEF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - elevator / lift well pressurization fan,ELVPF,HVAC/FAN,IfcFan,NOTDEFINED
+fan - mechanical extract ventilation,MEV,HVAC/FAN,IfcFan,NOTDEFINED
 fan - relief fan,RLF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - return fan,RTF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - smoke exhaust fan,SEF,HVAC/FAN,IfcFan,NOTDEFINED
@@ -230,6 +235,7 @@ fire detection - smoke detector,SD,SAFETY/SD,IfcSensor,SMOKESENSOR
 fire suppression - fire jockey pump,FJP,,IfcPump,NOTDEFINED
 fire suppression - fire pump,FP,,IfcPump,NOTDEFINED
 fire suppression - fire pump control panel,FPCP,,IfcUnitaryControlElement,CONTROLPANEL
+fire suppression - firemans override switch,FMO,,IfcSwitchingDevice,NOTDEFINED
 fire suppression - gas suppression control panel,GSCP,,IfcUnitaryControlElement,CONTROLPANEL
 fire suppression - gas suppression head,GSH,,IfcFireSuppressionTerminal,NOTDEFINED
 fire suppression - hose reel terminal,KHRL,,IfcFireSuppressionTerminal,HOSEREEL
@@ -280,7 +286,9 @@ heat emitter - trench heater and cooler,TRHC,,ifcSpaceHeater,NOTDEFINED
 heat emitter - trench heating,TRH,,ifcSpaceHeater,NOTDEFINED
 heat emitter - unit heater,UH,,IfcSpaceHeater,NOTDEFINED
 heat exchanger,HX,HVAC/HX,IfcHeatExchanger,NOTDEFINED
-heat exchanger - plate heat exchanger,PHX,,IfcHeatExchanger,PLATE
+heat exchanger - cooling plate heat exchanger,CPHX,HVAC/HX,IfcHeatExchanger,PLATE
+heat exchanger - heating plate heat exchanger,HPHX,HVAC/HX,IfcHeatExchanger,PLATE
+heat exchanger - plate heat exchanger,PHX,HVAC/HX,IfcHeatExchanger,PLATE
 heat interface unit,HIU,,IfcDistributionSystem,HEATING
 heat pump - air source heat pump,ASHP,,IfcUnitaryEquipment,NOTDEFINED
 heat pump - ground source heat pump,GSHP,,IfcUnitaryEquipment,NOTDEFINED
@@ -340,6 +348,7 @@ lighting - lighting control module,LCM,LIGHTING/LCM,IfcUnitaryControlElement,NOT
 lighting - lighting control panel,LCP,,IfcUnitaryControlElement,NOTDEFINED
 lighting - lighting fixture,LT,LIGHTING/LT,IfcLightFixture,NOTDEFINED
 lighting - lighting gateway,LTGW,LIGHTING/LTGW,IfcCommunicationsAppliance,GATEWAY
+lighting - lighting group,LGRP,LIGHTING/LGRP,IfcGroup,NOTDEFINED
 lighting - lighting keypad,LKP,LIGHTING/LKP,IfcSwitchingDevice,KEYPAD
 location services - beacon,LBCN,,IfcCommunicationsAppliance,NOTDEFINED
 meter,MTR,METERS/MTR,IfcFlowMeter,NOTDEFINED
@@ -387,6 +396,7 @@ pump - domestic hot water circulation pump,DHWP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - dosing pump,DP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - fire hydrant pump,FHP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - fuel oil pump,FOP,HVAC/PMP,IfcPump,NOTDEFINED
+pump - gas booster pump,GBP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - heat exchanger pump,HXP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - high temperature chilled water pump,HTCHP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - high temperature condenser water pump,HTCWP,HVAC/PMP,IfcPump,NOTDEFINED
@@ -401,6 +411,8 @@ pump - primary chilled water pump,PCHWP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - primary pump,PP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - process cooling water pump,PCWP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - process water pump,PWP,HVAC/PMP,IfcPump,NOTDEFINED
+pump - rainwater booster pump,RNWBP,HVAC/PMP,IfcPump,NOTDEFINED
+pump - rainwater pump,RNWP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - recirculation pump,RCP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - recycled water pump,RWP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - secondary chilled water pump,SCHWP,HVAC/PMP,IfcPump,NOTDEFINED
@@ -409,6 +421,7 @@ pump - secondary hot water circulating pump,SHWP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - secondary pump,SP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - separator pump,SEPP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - sewage ejector pump,SEP,HVAC/PMP,IfcPump,NOTDEFINED
+pump - sprinkler pump,SPP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - sump pump,SMPP,HVAC/PMP,IfcPump,SUMPPUMP
 pump - tower make up pump,TMUP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - tower make up valve,TMUV,HVAC/PMP,IfcValve,NOTDEFINED
@@ -480,6 +493,7 @@ tank - fuel oil storage tank,FOST,,IfcTank,STORAGE
 tank - hot water cylinder,HWC,,IfcTank,STORAGE
 tank - potable/domestic water storage tank,DWST,,IfcTank,STORAGE
 tank - potable/domestic water transfer tank,DWTT,,IfcTank,NOTDEFINED
+tank - rainwater storage tank,RNWST,,IfcTank,STORAGE
 tank - sprinkler tank,SPT,,IfcTank,STORAGE
 tank - thermal storage tank,TST,,IfcTank,STORAGE
 tank - water tank,TK,,IfcTank,STORAGE
@@ -500,7 +514,7 @@ trap primer,TP,,IfcValve,NOTDEFINED
 trap primer - electronic trap primer,TPE,,IfcValve,NOTDEFINED
 ups - uninteruptable power supply unit,UPS,ELECTRICAL/UPS,IfcElectricFlowStorageDevice,UPS
 user interface - keypad,KP,,IfcSwitchingDevice,KEYPAD
-under floor air terminal - under floor variable air volume box,UFT,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED
+uv disinfection unit,UVDU,,IfcFilter,NOTDEFINED
 valve,VLV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - air admittance valve,AAV,HVAC/VLV,IfcValve,AIRRELEASE
 valve - angle stop valve,AV,HVAC/VLV,IfcValve,NOTDEFINED
