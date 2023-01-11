@@ -24,6 +24,7 @@ air terminal box - variable air volume box,VAV,HVAC/VAV,IfcAirTerminalBox,NOTDEF
 air terminal box - variable volume and temperature box,VVTB,,IfcAirTerminalBox,NOTDEFINED
 air terminal box - variable volume terminal unit,VVT,,IfcAirTerminalBox,NOTDEFINED
 air terminal box - fan powered box,FPB,,IfcAirTerminalBox,NOTDEFINED
+air terminal box - under floor variable air volume box,UFT,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED
 alarm - disabled alarm,DA,,IfcAlarm,MANUALPULLBOX
 antenna,ANT,,IfcCommunicationsAppliance,ANTENNA
 antenna - wi-fi antenna,WANT,,IfcCommunicationsAppliance,ANTENNA
