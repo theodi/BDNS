@@ -554,7 +554,7 @@ valve - supply valve,SPV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - temperature control valve,TCV,HVAC/VLV,IfcValve,NOTDEFINED
 valve - thermostatic mixing valve,TMV,HVAC/VLV,IfcValve,MIXING
 valve - water hammer arrestor,WHAV,HVAC/VLV,IfcValve,NOTDEFINED
-valve - water solenoid valve,SNV,HVAC/VLV,IfcValve,SAFETYCUTOFF
+valve - solenoid valve,SNV,HVAC/VLV,IfcValve,SAFETYCUTOFF
 variable frequency drive,VFD,,IfcMotorConnection,NOTDEFINED
 washing appliance - commercial flight machine,CDWFM,,IfcElectricAppliance,DISHWASHER
 washing appliance - commercial pass through machine,CDWPTM,,IfcElectricAppliance,DISHWASHER
