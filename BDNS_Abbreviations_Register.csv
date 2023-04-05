@@ -397,6 +397,7 @@ pump - dosing pump,DP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - fire hydrant pump,FHP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - fuel oil pump,FOP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - gas booster pump,GBP,HVAC/PMP,IfcPump,NOTDEFINED
+pump - greywater booster pump,GWBP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - heat exchanger pump,HXP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - high temperature chilled water pump,HTCHP,HVAC/PMP,IfcPump,NOTDEFINED
 pump - high temperature condenser water pump,HTCWP,HVAC/PMP,IfcPump,NOTDEFINED
@@ -490,6 +491,7 @@ tank - expansion tank,ET,,IfcTank,EXPANSION
 tank - fire hydrant tank,FHT,,IfcTank,STORAGE
 tank - fuel oil day tank,FODT,,IfcTank,NOTDEFINED
 tank - fuel oil storage tank,FOST,,IfcTank,STORAGE
+tank - greywater storage tank,GWST,,IfcTank,STORAGE
 tank - hot water cylinder,HWC,,IfcTank,STORAGE
 tank - potable/domestic water storage tank,DWST,,IfcTank,STORAGE
 tank - potable/domestic water transfer tank,DWTT,,IfcTank,NOTDEFINED
