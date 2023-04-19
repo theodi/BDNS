@@ -74,6 +74,7 @@ The active organisations participating in the Community Group are:
 * FPC
 * Google
 * Lloret
+* Max Fordham LLP
 
 ### Chair(s)
 
