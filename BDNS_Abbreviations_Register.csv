@@ -375,6 +375,8 @@ outlet - double unswitched socket outlet,DSO,,IfcOutlet,POWEROUTLET
 outlet - single unswitched socket outlet,SSO,,IfcOutlet,POWEROUTLET
 outlet - double switched socket outlet,DSSO,,IfcOutlet,POWEROUTLET
 outlet - single switched socket outlet,SSSO,,IfcOutlet,POWEROUTLET
+outlet - connection unit switched fused,CUSF,,IfcOutlet,POWEROUTLET
+outlet - connection unit unswitched fused,CUUF,,IfcOutlet,POWEROUTLET
 panel - alarm panel,AP,,IfcUnitaryControlElement,ALARMPANEL
 panel - chemical treatment control panel,CTCP,,IfcUnitaryControlElement,NOTDEFINED
 panel - control panel,CTRP,,IfcUnitaryControlElement,CONTROLPANEL
