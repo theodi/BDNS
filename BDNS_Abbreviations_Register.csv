@@ -119,6 +119,7 @@ damper - inlet control damper,ICD,HVAC/DMP,IfcDamper,CONTROLDAMPER
 damper - inlet isolation damper,IISD,HVAC/DMP,IfcDamper,NOTDEFINED
 damper - motorised fire smoke damper,MFSD,HVAC/DMP,IfcDamper,FIRESMOKEDAMPER
 damper - motorised smoke damper,MSD,HVAC/DMP,IfcDamper,SMOKEDAMPER
+damper - motorised smoke control damper,MSCD,HVAC/DMP,IfcDamper,SMOKEDAMPER
 damper - pressure relief dampers,PRLD,HVAC/DMP,IfcDamper,RELIEFDAMPER
 damper - recirculation control damper,RECD,HVAC/DMP,IfcDamper,CONTROLDAMPER
 damper - return control damper,RTCD,HVAC/DMP,IfcDamper,CONTROLDAMPER
