@@ -158,6 +158,8 @@ electric distribution - automatic transfer switch,ATS,,IfcProtectiveDevice,NOTDE
 electric distribution - branch circuit panel board 120/208V,LVCPB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - branch circuit panel board 277/480V,HVCPB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - distribution panel / board,DB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - panel board,PB,,IfcElectricDistributionBoard,NOTDEFINED
+electric distribution - main switch panel,MSP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,SWITCHBOARD
 electric distribution - distribution panel 120/208V,LVDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - distribution panel 277/480V,HVDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - distribution panel for itc equipment,ITDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,NOTDEFINED
@@ -177,12 +179,25 @@ electric distribution - power distribution unit,PDU,,IfcElectricDistributionBoar
 electric distribution - static transfer switch,STS,,IfcSwitchingDevice,NOTDEFINED
 electric distribution - switchgear (12kv typ),SWGR,,IfcElectricDistributionBoard,SWITCHBOARD
 electric distribution - ups panel / board,UPSB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - busbar,BB,,IfcCableSegment,BUSBARSEGMENT
+electric distribution - rising busbar,RBB,,IfcCableSegment,BUSBARSEGMENT
+electric distribution - busbar tapoff,BBTO,,IfcCableSegment,BUSBARSEGMENT
 electric distribution - power factor correction system,PFC,,IfcElectricFlowTreatmentDevice,NOTDEFINED
+electric distribution - invertor,IVT,,IfcTransformerType,INVERTER
+electric distribution - rectifier,REC,,IfcTransformerType,RECTIFIER
+electric distribution - dc-dc converter,DCDC,,IfcTransformerType,NOTDEFINED
+electric distribution - passive harmonic filter,PHF,,IfcElectricFlowStorageDevice,HARMONICFILTER
 electric protective device - circuit breaker,CB,,IfcProtectiveDevice,CIRCUITBREAKER
+electric protective device - residual current circuit breaker,RCCB,,IfcProtectiveDevice,RESIDUALCURRENTCIRCUITBREAKER
+electric protective device - residual current circuit breaker with over-current,RCBO,,IfcProtectiveDevice,RESIDUALCURRENTCIRCUITBREAKER
+electric protective device - miniature circuit breaker,MCB,,IfcProtectiveDevice,CIRCUITBREAKER
 electric protective device - disconnect fuse,DSCTF,,IfcProtectiveDevice,FUSEDISCONNECTOR
 electric protective device - high temperature cut out switch,HTCO,,IfcSwitchingDevice,NOTDEFINED
 electric protective device - safety switch or disconnect switch,DSCTS,,IfcSwitchingDevice,SWITCHDISCONNECTOR
 electric protective device - sectionalizer switch,SCS,,IfcSwitchingDevice,SELECTORSWITCH
+electric protective device - electrical isolator (disconnector),EISO,,IfcSwitchingDevice,SWITCHDISCONNECTOR
+electric protective device - surge protection,SPD,,IfcProtectiveDevice,VARISTOR
+electric protective device - isolation transformer,EISOTX,,IfcProtectiveDevice,NOTDEFINED
 electrochromic glass,ECG,,IfcWindow,NOTDEFINED
 electronic key cabinet,EKC,,IfcFurniture,NOTDEFINED
 employee timeclock with fingerprint scanner,ETCFP,,IfcElectricAppliance,NOTDEFINED
