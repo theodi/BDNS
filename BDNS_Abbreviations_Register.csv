@@ -270,6 +270,7 @@ furniture - commercial kitchen utlity distribution system,KUDS,,IfcDistributionS
 furniture - commercial kitchen wall mounted glass rack,KWMGR,,IfcFurniture,SHELF
 furniture - commercial kithcen utility chase system,KUCS,,IfcDistributionSystem,NOTDEFINED
 furniture - desk,DESK,,IfcFurniture,DESK
+furniture - emergency eyewash station,EEW,,IfcSanitaryTerminal,SANITARYFOUNTAIN
 furniture - locker,LCKR,,IfcFurniture,NOTDEFINED
 generator - clean steam generator,CSG,,IfcElectricGenerator,NOTDEFINED
 generator - diesel electricity generator,DG,,IfcElectricGenerator,ENGINEGENERATOR
