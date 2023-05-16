@@ -483,6 +483,7 @@ shading - shading / blinds / drapes device actuator,SDACT,HVAC/SDC,IfcActuator,E
 shading - shading / blinds / drapes device keypad,SDKP,,IfcSwitchingDevice,KEYPAD
 signal - beacon,BCN,,ifcAlarm,LIGHT
 tank - break tank and booster set,BTBS,,IfcTank,BREAKPRESSURE
+tank - brine tank,BTK,,IfcTank,VESSEL
 tank - condensate receiver tank,CNR,,ifcTank,STORAGE
 tank - deareator tank,DEA,,IfcTank,NOTDEFINED
 tank - decontamination tank,DET,,IfcTank,NOTDEFINED
