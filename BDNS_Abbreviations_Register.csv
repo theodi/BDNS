@@ -3,7 +3,6 @@ access control - biometric reader,BIOR,,IfcCommunicationsAppliance,SCANNER
 access control - RFID controller,RFIDC,,IfcController,NOTDEFINED
 access control - RFID reader,RFIDR,,IfcCommunicationsAppliance,SCANNER
 access control - access control system,ACS,,IfcDistributionSystem,SECURITY
-active harmonic filter,AHF,,IfcElectricFlowStorageDevice,HARMONICFILTER
 actuator,ACT,,IfcActuator,NOTDEFINED
 actuator - dew point switch,DPSW,,IfcUnitaryControlElement,HUMIDISTAT
 actuator - differential pressure switch,DPRSW,,IfcActuator,NOTDEFINED
@@ -186,6 +185,7 @@ electric distribution - busbar tapoff,BBTO,,IfcCableSegment,BUSBARSEGMENT
 electric distribution - invertor,IVT,,IfcTransformerType,INVERTER
 electric distribution - rectifier,REC,,IfcTransformerType,RECTIFIER
 electric distribution - dc-dc converter,DCDC,,IfcTransformerType,NOTDEFINED
+electric distribution - active harmonic filter,AHF,,IfcElectricFlowStorageDevice,HARMONICFILTER
 electric distribution - passive harmonic filter,PHF,,IfcElectricFlowStorageDevice,HARMONICFILTER
 electric protective device - circuit breaker,CB,,IfcProtectiveDevice,CIRCUITBREAKER
 electric protective device - disconnect fuse,DSCTF,,IfcProtectiveDevice,FUSEDISCONNECTOR
