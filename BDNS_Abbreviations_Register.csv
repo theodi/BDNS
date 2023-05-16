@@ -371,6 +371,10 @@ outlet - floor duplex outlet,FLRDX,,IfcOutlet,DATAOUTLET
 outlet - floor quad outlet,FLRQD,,IfcOutlet,DATAOUTLET
 outlet - linear electric receptacle,LER,,IfcOutlet,NOTDEFINED
 outlet - raised floor box,FLRB,,IfcOutlet,NOTDEFINED
+outlet - double unswitched socket outlet,DSO,,IfcOutlet,POWEROUTLET
+outlet - single unswitched socket outlet,SSO,,IfcOutlet,POWEROUTLET
+outlet - double switched socket outlet,DSSO,,IfcOutlet,POWEROUTLET
+outlet - single switched socket outlet,SSSO,,IfcOutlet,POWEROUTLET
 panel - alarm panel,AP,,IfcUnitaryControlElement,ALARMPANEL
 panel - chemical treatment control panel,CTCP,,IfcUnitaryControlElement,NOTDEFINED
 panel - control panel,CTRP,,IfcUnitaryControlElement,CONTROLPANEL
