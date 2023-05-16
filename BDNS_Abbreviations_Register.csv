@@ -363,6 +363,8 @@ natural air ventilator,AVR,,ifcStackTerminal,NOTDEFINED
 oil interceptor,OI,,IfcInterceptor,OIL
 outlet,OUT,,IfcOutlet,NOTDEFINED
 outlet - ceiling duplex,CGDXO,,IfcOutlet,POWEROUTLET
+outlet - connection unit switched fused,CUSF,,IfcOutlet,POWEROUTLET
+outlet - connection unit unswitched fused,CUUF,,IfcOutlet,POWEROUTLET
 outlet - controlled duplex,CNDO,,IfcOutlet,DATAOUTLET
 outlet - data wall outlet,DATA,,IfcOutlet,DATAOUTLET
 outlet - double 20A duplex receptacle,DDR,,IfcOutlet,POWEROUTLET
