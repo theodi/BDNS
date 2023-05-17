@@ -382,11 +382,15 @@ outlet - ceiling duplex,CGDXO,,IfcOutlet,POWEROUTLET
 outlet - controlled duplex,CNDO,,IfcOutlet,DATAOUTLET
 outlet - data wall outlet,DATA,,IfcOutlet,DATAOUTLET
 outlet - double 20A duplex receptacle,DDR,,IfcOutlet,POWEROUTLET
+outlet - double switched socket outlet,DSSO,,IfcOutlet,POWEROUTLET
+outlet - double unswitched socket outlet,DSO,,IfcOutlet,POWEROUTLET
 outlet - duplex outlets,DXO,,IfcOutlet,POWEROUTLET
 outlet - floor duplex outlet,FLRDX,,IfcOutlet,DATAOUTLET
 outlet - floor quad outlet,FLRQD,,IfcOutlet,DATAOUTLET
 outlet - linear electric receptacle,LER,,IfcOutlet,NOTDEFINED
 outlet - raised floor box,FLRB,,IfcOutlet,NOTDEFINED
+outlet - single switched socket outlet,SSSO,,IfcOutlet,POWEROUTLET
+outlet - single unswitched socket outlet,SSO,,IfcOutlet,POWEROUTLET
 panel - alarm panel,AP,,IfcUnitaryControlElement,ALARMPANEL
 panel - chemical treatment control panel,CTCP,,IfcUnitaryControlElement,NOTDEFINED
 panel - control panel,CTRP,,IfcUnitaryControlElement,CONTROLPANEL
