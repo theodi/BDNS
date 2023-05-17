@@ -3,7 +3,6 @@ access control - biometric reader,BIOR,,IfcCommunicationsAppliance,SCANNER
 access control - RFID controller,RFIDC,,IfcController,NOTDEFINED
 access control - RFID reader,RFIDR,,IfcCommunicationsAppliance,SCANNER
 access control - access control system,ACS,,IfcDistributionSystem,SECURITY
-active harmonic filter,AHF,,IfcElectricFlowStorageDevice,HARMONICFILTER
 actuator,ACT,,IfcActuator,NOTDEFINED
 actuator - dew point switch,DPSW,,IfcUnitaryControlElement,HUMIDISTAT
 actuator - differential pressure switch,DPRSW,,IfcActuator,NOTDEFINED
@@ -178,11 +177,27 @@ electric distribution - static transfer switch,STS,,IfcSwitchingDevice,NOTDEFINE
 electric distribution - switchgear (12kv typ),SWGR,,IfcElectricDistributionBoard,SWITCHBOARD
 electric distribution - ups panel / board,UPSB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - power factor correction system,PFC,,IfcElectricFlowTreatmentDevice,NOTDEFINED
+electric distribution - panel board,PB,,IfcElectricDistributionBoard,NOTDEFINED
+electric distribution - main switch panel,MSP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,SWITCHBOARD
+electric distribution - busbar,BB,,IfcCableSegment,BUSBARSEGMENT
+electric distribution - rising busbar,RBB,,IfcCableSegment,BUSBARSEGMENT
+electric distribution - busbar tapoff,BBTO,,IfcCableSegment,BUSBARSEGMENT
+electric distribution - invertor,IVT,,IfcTransformerType,INVERTER
+electric distribution - rectifier,REC,,IfcTransformerType,RECTIFIER
+electric distribution - dc-dc converter,DCDC,,IfcTransformerType,NOTDEFINED
+electric distribution - active harmonic filter,AHF,,IfcElectricFlowStorageDevice,HARMONICFILTER
+electric distribution - passive harmonic filter,PHF,,IfcElectricFlowStorageDevice,HARMONICFILTER
 electric protective device - circuit breaker,CB,,IfcProtectiveDevice,CIRCUITBREAKER
 electric protective device - disconnect fuse,DSCTF,,IfcProtectiveDevice,FUSEDISCONNECTOR
 electric protective device - high temperature cut out switch,HTCO,,IfcSwitchingDevice,NOTDEFINED
 electric protective device - safety switch or disconnect switch,DSCTS,,IfcSwitchingDevice,SWITCHDISCONNECTOR
 electric protective device - sectionalizer switch,SCS,,IfcSwitchingDevice,SELECTORSWITCH
+electric protective device - residual current circuit breaker,RCCB,,IfcProtectiveDevice,RESIDUALCURRENTCIRCUITBREAKER
+electric protective device - residual current circuit breaker with over-current,RCBO,,IfcProtectiveDevice,RESIDUALCURRENTCIRCUITBREAKER
+electric protective device - miniature circuit breaker,MCB,,IfcProtectiveDevice,CIRCUITBREAKER
+electric protective device - electrical isolator (disconnector),EISO,,IfcSwitchingDevice,SWITCHDISCONNECTOR
+electric protective device - surge protection,SPD,,IfcProtectiveDevice,VARISTOR
+electric protective device - isolation transformer,EISOTX,,IfcProtectiveDevice,NOTDEFINED
 electrochromic glass,ECG,,IfcWindow,NOTDEFINED
 electronic key cabinet,EKC,,IfcFurniture,NOTDEFINED
 employee timeclock with fingerprint scanner,ETCFP,,IfcElectricAppliance,NOTDEFINED
@@ -270,6 +285,7 @@ furniture - commercial kitchen utlity distribution system,KUDS,,IfcDistributionS
 furniture - commercial kitchen wall mounted glass rack,KWMGR,,IfcFurniture,SHELF
 furniture - commercial kithcen utility chase system,KUCS,,IfcDistributionSystem,NOTDEFINED
 furniture - desk,DESK,,IfcFurniture,DESK
+furniture - emergency eyewash station,EEW,,IfcSanitaryTerminal,SANITARYFOUNTAIN
 furniture - locker,LCKR,,IfcFurniture,NOTDEFINED
 generator - clean steam generator,CSG,,IfcElectricGenerator,NOTDEFINED
 generator - diesel electricity generator,DG,,IfcElectricGenerator,ENGINEGENERATOR
@@ -483,6 +499,7 @@ shading - shading / blinds / drapes device actuator,SDACT,HVAC/SDC,IfcActuator,E
 shading - shading / blinds / drapes device keypad,SDKP,,IfcSwitchingDevice,KEYPAD
 signal - beacon,BCN,,ifcAlarm,LIGHT
 tank - break tank and booster set,BTBS,,IfcTank,BREAKPRESSURE
+tank - brine tank,BTK,,IfcTank,VESSEL
 tank - condensate receiver tank,CNR,,ifcTank,STORAGE
 tank - deareator tank,DEA,,IfcTank,NOTDEFINED
 tank - decontamination tank,DET,,IfcTank,NOTDEFINED
