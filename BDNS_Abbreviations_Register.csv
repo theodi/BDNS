@@ -224,8 +224,8 @@ filter,FLT,,IfcFilter,NOTDEFINED
 filter - air purifier unit,APU,,IfcFilter,NOTDEFINED
 filter - air separator,AS,,IfcFlowTreatmentDevice,NOTDEFINED
 filter - air washer unit,AWSH,,IfcFilter,NOTDEFINED
-filter - cooling tower filtration unit,CTFS,,IfcFilter,NOTDEFINED
 filter - cooling tower filtration unit,CTFU,,IfcUnitaryEquipment,NOTDEFINED
+filter - cooling tower filtration unit,CTFS,,IfcFilter,NOTDEFINED
 filter - cooling tower sand filter,CTSFLT,,IfcFilter,NOTDEFINED
 filter - cooling tower separator,CTSEP,,IfcFilter,NOTDEFINED
 filter - cooling tower separator / sand separator,CTSSEP,,IfcFilter,NOTDEFINED
@@ -379,14 +379,20 @@ natural air ventilator,AVR,,ifcStackTerminal,NOTDEFINED
 oil interceptor,OI,,IfcInterceptor,OIL
 outlet,OUT,,IfcOutlet,NOTDEFINED
 outlet - ceiling duplex,CGDXO,,IfcOutlet,POWEROUTLET
+outlet - connection unit switched fused,CUSF,,IfcOutlet,POWEROUTLET
+outlet - connection unit unswitched fused,CUUF,,IfcOutlet,POWEROUTLET
 outlet - controlled duplex,CNDO,,IfcOutlet,DATAOUTLET
 outlet - data wall outlet,DATA,,IfcOutlet,DATAOUTLET
 outlet - double 20A duplex receptacle,DDR,,IfcOutlet,POWEROUTLET
+outlet - double switched socket outlet,DSSO,,IfcOutlet,POWEROUTLET
+outlet - double unswitched socket outlet,DSO,,IfcOutlet,POWEROUTLET
 outlet - duplex outlets,DXO,,IfcOutlet,POWEROUTLET
+outlet - floor box,FLRB,,IfcOutlet,NOTDEFINED
 outlet - floor duplex outlet,FLRDX,,IfcOutlet,DATAOUTLET
 outlet - floor quad outlet,FLRQD,,IfcOutlet,DATAOUTLET
 outlet - linear electric receptacle,LER,,IfcOutlet,NOTDEFINED
-outlet - raised floor box,FLRB,,IfcOutlet,NOTDEFINED
+outlet - single switched socket outlet,SSSO,,IfcOutlet,POWEROUTLET
+outlet - single unswitched socket outlet,SSO,,IfcOutlet,POWEROUTLET
 panel - alarm panel,AP,,IfcUnitaryControlElement,ALARMPANEL
 panel - chemical treatment control panel,CTCP,,IfcUnitaryControlElement,NOTDEFINED
 panel - control panel,CTRP,,IfcUnitaryControlElement,CONTROLPANEL
