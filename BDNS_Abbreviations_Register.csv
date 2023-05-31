@@ -200,7 +200,6 @@ electric protective device - sectionalizer switch,SCS,,IfcSwitchingDevice,SELECT
 electric protective device - surge protection,SPD,,IfcProtectiveDevice,VARISTOR
 electrochromic glass,ECG,,IfcWindow,NOTDEFINED
 electronic key cabinet,EKC,,IfcFurniture,NOTDEFINED
-employee timeclock with fingerprint scanner,ETCFP,,IfcElectricAppliance,NOTDEFINED
 emergency voice communication - control panel,EVCCP,,IfcAudioVisualAppliance,COMMUNICATIONTERMINAL
 emergency voice communication - outstation,EVCO,,IfcAudioVisualAppliance,RECEIVER
 emergency voice communication - outstation disabled refuge,DRO,,IfcAudioVisualAppliance,RECEIVER
@@ -209,6 +208,7 @@ emergency voice communication - outstation fire telephone,FTO,,IfcAudioVisualApp
 emergency voice communication - repeater unit,EVCRU,,IfcAudioVisualAppliance,SWITCHER
 emergency voice communication - voice alarm apeaker,VAS,,IfcAudioVisualAppliance,SPEAKER
 emergency voice communication - voice alarm microphones,VAM,,IfcAudioVisualAppliance,MICROPHONE
+employee timeclock with fingerprint scanner,ETCFP,,IfcElectricAppliance,NOTDEFINED
 evaporator,EVP,,IfcEvaporator,NOTDEFINED
 fan,FAN,HVAC/FAN,IfcFan,NOTDEFINED
 fan - cooling tower fan,CTF,HVAC/FAN,IfcFan,NOTDEFINED
