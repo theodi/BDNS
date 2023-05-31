@@ -141,6 +141,7 @@ duct silencer - attenuator,SLCR,,IfcDuctSilencer,NOTDEFINED
 dx system - hybrid variable refrigerant flow unit,HVRF,,IfcUnitaryEquipment,SPLITSYSTEM
 dx system - variable refrigerant flow unit,VRF,,IfcUnitaryEquipment,SPLITSYSTEM
 dx system - variable refrigerant volume unit,VRV,,IfcUnitaryEquipment,SPLITSYSTEM
+dx system - branch controller/selector box,BCBOX,,IfcUnitaryEquipment,SPLITSYSTEM
 electric appliance,EAPPL,,IfcElectricAppliance,NOTDEFINED
 electric appliance - air dryer,ADY,HVAC/ADY,IfcElectricAppliance,NOTDEFINED
 electric appliance - dishwasher,DW,,IfcElectricAppliance,DISHWASHER
