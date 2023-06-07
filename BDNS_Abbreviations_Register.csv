@@ -141,6 +141,7 @@ duct silencer - attenuator,SLCR,,IfcDuctSilencer,NOTDEFINED
 dx system - hybrid variable refrigerant flow unit,HVRF,,IfcUnitaryEquipment,SPLITSYSTEM
 dx system - variable refrigerant flow unit,VRF,,IfcUnitaryEquipment,SPLITSYSTEM
 dx system - variable refrigerant volume unit,VRV,,IfcUnitaryEquipment,SPLITSYSTEM
+dx system - branch controller/selector box,BCBOX,,IfcUnitaryEquipment,SPLITSYSTEM
 electric appliance,EAPPL,,IfcElectricAppliance,NOTDEFINED
 electric appliance - air dryer,ADY,HVAC/ADY,IfcElectricAppliance,NOTDEFINED
 electric appliance - dishwasher,DW,,IfcElectricAppliance,DISHWASHER
@@ -204,6 +205,14 @@ emergency assistance - disabled wc control panel,DWCCP,,IfcController,PROGRAMMAB
 emergency assistance - disabled wc overdoor indicator,DWCOI,,IfcAlarm,LIGHT
 emergency assistance - disabled wc pull cord,DWCPC,,IfcAlarm,MANUALPULLBOX
 emergency assistance - disabled wc reset button,DWCRB,,IfcController,TWOPOSITION
+emergency voice communication - control panel,EVCCP,,IfcAudioVisualAppliance,COMMUNICATIONTERMINAL
+emergency voice communication - outstation,EVCO,,IfcAudioVisualAppliance,RECEIVER
+emergency voice communication - outstation disabled refuge,DRO,,IfcAudioVisualAppliance,RECEIVER
+emergency voice communication - outstation emergency telephone,ETO,,IfcAudioVisualAppliance,RECEIVER
+emergency voice communication - outstation fire telephone,FTO,,IfcAudioVisualAppliance,RECEIVER
+emergency voice communication - repeater unit,EVCRU,,IfcAudioVisualAppliance,SWITCHER
+emergency voice communication - voice alarm apeaker,VAS,,IfcAudioVisualAppliance,SPEAKER
+emergency voice communication - voice alarm microphones,VAM,,IfcAudioVisualAppliance,MICROPHONE
 employee timeclock with fingerprint scanner,ETCFP,,IfcElectricAppliance,NOTDEFINED
 evaporator,EVP,,IfcEvaporator,NOTDEFINED
 fan,FAN,HVAC/FAN,IfcFan,NOTDEFINED
