@@ -201,6 +201,10 @@ electric protective device - sectionalizer switch,SCS,,IfcSwitchingDevice,SELECT
 electric protective device - surge protection,SPD,,IfcProtectiveDevice,VARISTOR
 electrochromic glass,ECG,,IfcWindow,NOTDEFINED
 electronic key cabinet,EKC,,IfcFurniture,NOTDEFINED
+emergency assistance - disabled wc control panel,DWCCP,,IfcController,PROGRAMMABLE
+emergency assistance - disabled wc overdoor indicator,DWCOI,,IfcAlarm,LIGHT
+emergency assistance - disabled wc pull cord,DWCPC,,IfcAlarm,MANUALPULLBOX
+emergency assistance - disabled wc reset button,DWCRB,,IfcController,TWOPOSITION
 emergency voice communication - control panel,EVCCP,,IfcAudioVisualAppliance,COMMUNICATIONTERMINAL
 emergency voice communication - outstation,EVCO,,IfcAudioVisualAppliance,RECEIVER
 emergency voice communication - outstation disabled refuge,DRO,,IfcAudioVisualAppliance,RECEIVER
