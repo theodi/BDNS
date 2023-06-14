@@ -51,6 +51,11 @@ beverage machine - water boiler,BVWB,,IfcBoiler,WATER
 burner - boiler,BLR,HVAC/BLR,ifcBoiler,NOTDEFINED
 burner - furnace,FR,,IfcBurner,NOTDEFINED
 burner - steam boiler,SB,HVAC/BLR,IfcBoiler,STEAM
+cable management - cable basket,CABASK,,IfcCableCarrierSegmentType,NOTDEFINED
+cable management - cable ladder,CALAD,,IfcCableCarrierSegmentType,CABLELADDERSEGMENT
+cable management - cable tray,CATR,,IfcCableCarrierSegmentType,CABLETRAYSEGMENT
+cable management - cable trunking,CATRK,,IfcCableCarrierSegmentType,CABLETRUNKINGSEGMENT
+cable management - floor trunking,CAFTRK,,IfcCableCarrierSegmentType,NOTDEFINED
 camera,CAM,,IfcAudioVisualAppliance,CAMERA
 camera - pan tilt zoom camera,PTZCAM,,IfcAudioVisualAppliance,CAMERA
 chiller,CH,HVAC/CH,IfcChiller,NOTDEFINED
