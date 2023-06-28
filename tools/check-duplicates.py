@@ -38,7 +38,7 @@ def check_duplicates(filename):
 def main():
     show_title()
     parser = argparse.ArgumentParser()
-    parser.add_argument("-i","--input", default="abbreviations.csv", help="Input CSV file to check for duplicates")
+    parser.add_argument("-i","--input", default="BDNS_Abbreviations_Register.csv", help="Input CSV file to check for duplicates")
     args = parser.parse_args()
     if exists(args.input):
         check_duplicates(args.input)
