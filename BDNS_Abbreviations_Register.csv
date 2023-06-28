@@ -500,7 +500,7 @@ sensor - static pressure sensor,SPS,SENSOR,IfcSensor,PRESSURESENSOR
 sensor - temperature sensor,TPS,SENSOR,IfcSensor,TEMPERATURESENSOR
 sensor - thermostat,TSTAT,,IfcUnitaryControlElement,THERMOSTAT
 sensor - velocity sensor,VS,SENSOR,IfcSensor,NOTDEFINED
-shading - blinds,BL,,IfcShadingDevice,NOTDEFINED
+shading - shading device blinds,BL,,IfcShadingDevice,NOTDEFINED
 shading - shading device actuator,SDACT,HVAC/SDC,IfcActuator,ELECTRICACTUATOR
 shading - shading device controller,SDC,,IfcController,NOTDEFINED
 shading - shading device keypad,SDKP,,IfcSwitchingDevice,KEYPAD
