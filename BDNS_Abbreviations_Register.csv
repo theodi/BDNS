@@ -360,13 +360,13 @@ kitchen appliance - warming drawer,WDR,,IfcElectricAppliance,ELECTRICCOOKER
 kitchen ventilation - condensate hood,KVCH,,IfcDamper,FUMEHOODEXHAUST
 kitchen ventilation - extraction/exhuast grease hood,KVGH,,IfcDamper,FUMEHOODEXHAUST
 kitchen ventilation - ventilated ceiling,KVVC,,IfcAirTerminalBox,NOTDEFINED
-lighting - illuminated exit sign,EXIT,,IfcLightFixture,SECURITYLIGHTING
-lighting - lighting control module,LCM,LIGHTING/LCM,IfcUnitaryControlElement,NOTDEFINED
-lighting - lighting control panel,LCP,,IfcUnitaryControlElement,NOTDEFINED
-lighting - lighting fixture,LT,LIGHTING/LT,IfcLightFixture,NOTDEFINED
-lighting - lighting gateway,LTGW,LIGHTING/LTGW,IfcCommunicationsAppliance,GATEWAY
-lighting - lighting group,LGRP,LIGHTING/LGRP,IfcGroup,NOTDEFINED
-lighting - lighting keypad,LKP,LIGHTING/LKP,IfcSwitchingDevice,KEYPAD
+lighting - control - keypad,LKP,LIGHTING/LKP,IfcSwitchingDevice,KEYPAD
+lighting - control - module,LCM,LIGHTING/LCM,IfcUnitaryControlElement,NOTDEFINED
+lighting - control - panel,LCP,,IfcUnitaryControlElement,NOTDEFINED
+lighting - fixture,LT,LIGHTING/LT,IfcLightFixture,NOTDEFINED
+lighting - fixture - illuminated exit sign,EXIT,,IfcLightFixture,SECURITYLIGHTING
+lighting - gateway,LTGW,LIGHTING/LTGW,IfcCommunicationsAppliance,GATEWAY
+lighting - group,LGRP,LIGHTING/LGRP,IfcGroup,NOTDEFINED
 location services - beacon,LBCN,,IfcCommunicationsAppliance,NOTDEFINED
 meter,MTR,METERS/MTR,IfcFlowMeter,NOTDEFINED
 meter - electric meter,EM,METERS/EM,IfcFlowMeter,ENERGYMETER
