@@ -364,9 +364,20 @@ lighting - control - keypad,LKP,LIGHTING/LKP,IfcSwitchingDevice,KEYPAD
 lighting - control - module,LCM,LIGHTING/LCM,IfcUnitaryControlElement,NOTDEFINED
 lighting - control - panel,LCP,,IfcUnitaryControlElement,NOTDEFINED
 lighting - fixture,LT,LIGHTING/LT,IfcLightFixture,NOTDEFINED
+lighting - fixture - downlight,DL,LIGHTING/LT,IfcLightFixture,NOTDEFINED
 lighting - fixture - illuminated exit sign,EXIT,,IfcLightFixture,SECURITYLIGHTING
+lighting - fixture - linear,LL,LIGHTING/LT,IfcLightFixture,DIRECTIONSOURCE
+lighting - fixture - linear tape,TL,LIGHTING/LT,IfcLightFixture,DIRECTIONSOURCE
+lighting - fixture - pendant,PL,LIGHTING/LT,IfcLightFixture,POINTSOURCE
+lighting - fixture - spot light,SL,LIGHTING/LT,IfcLightFixture,POINTSOURCE
+lighting - fixture - standalone emergency light,EL,LIGHTING/LT,IfcLightFixture,NOTDEFINED
+lighting - fixture - uplight,UL,LIGHTING/LT,IfcLightFixture,NOTDEFINED
+lighting - fixture - wall light,WL,LIGHTING/LT,IfcLightFixture,NOTDEFINED
+lighting - fixture external - bollard,LBO,LIGHTING/LT,IfcLightFixture,NOTDEFINED
+lighting - fixture external - lampost,LPO,LIGHTING/LT,IfcLightFixture,NOTDEFINED
 lighting - gateway,LTGW,LIGHTING/LTGW,IfcCommunicationsAppliance,GATEWAY
 lighting - group,LGRP,LIGHTING/LGRP,IfcGroup,NOTDEFINED
+lighting - track - electric track for lights,TR,LIGHTING/LT,IfcCableSegment,NOTDEFINED
 location services - beacon,LBCN,,IfcCommunicationsAppliance,NOTDEFINED
 meter,MTR,METERS/MTR,IfcFlowMeter,NOTDEFINED
 meter - electric meter,EM,METERS/EM,IfcFlowMeter,ENERGYMETER
