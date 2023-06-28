@@ -500,9 +500,12 @@ sensor - static pressure sensor,SPS,SENSOR,IfcSensor,PRESSURESENSOR
 sensor - temperature sensor,TPS,SENSOR,IfcSensor,TEMPERATURESENSOR
 sensor - thermostat,TSTAT,,IfcUnitaryControlElement,THERMOSTAT
 sensor - velocity sensor,VS,SENSOR,IfcSensor,NOTDEFINED
+shading - shading device,SD,,IfcShadingDevice,NOTDEFINED
 shading - shading device actuator,SDACT,HVAC/SDC,IfcActuator,ELECTRICACTUATOR
 shading - shading device controller,SDC,,IfcController,NOTDEFINED
 shading - shading device keypad,SDKP,,IfcSwitchingDevice,KEYPAD
+shading - shading device motor,SDM,,IfcElectricMotor,NOTDEFINED
+shading - shading device solar tracking module,SDSTM,,IfcSensor,RADIATIONSENSOR
 signal - beacon,BCN,,ifcAlarm,LIGHT
 tank - break tank and booster set,BTBS,,IfcTank,BREAKPRESSURE
 tank - brine tank,BTK,,IfcTank,VESSEL
