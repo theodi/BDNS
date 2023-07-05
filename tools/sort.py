@@ -64,7 +64,7 @@ def main():
     parser.add_argument(
         "-i",
         "--input",
-        default="../BDNS_Abbreviations_Register.csv",
+        default="BDNS_Abbreviations_Register.csv",
         help="Input CSV file to check sorted",
     )
     parser.add_argument(
