@@ -18,6 +18,7 @@ air handling unit - dedicated outside air system unit,DOAS,HVAC/DOAS,IfcUnitaryE
 air handling unit - heat recovery unit,HRU,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED
 air handling unit - make-up air handler,MAU,HVAC/MAU,IfcUnitaryEquipment,AIRHANDLER
 air handling unit - roof top unit,RTU,HVAC/AHU,IfcUnitaryEquipment,ROOFTOPUNIT
+air terminal - generic,AT,,IfcAirTerminal,NOTDEFINED
 air terminal box - constant air volume box,CAV,,IfcAirTerminalBox,CONSTANTFLOW
 air terminal box - fan powered box,FPB,,IfcAirTerminalBox,NOTDEFINED
 air terminal box - under floor variable air volume box,UFT,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED
