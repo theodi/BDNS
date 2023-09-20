@@ -243,6 +243,7 @@ filter - air purifier unit,APU,,IfcFilter,NOTDEFINED
 filter - air separator,AS,,IfcFlowTreatmentDevice,NOTDEFINED
 filter - air washer unit,AWSH,,IfcFilter,NOTDEFINED
 filter - bag filter,BFLT,,IfcFilter,NOTDEFINED
+filter - carbon filter,CFLT,,IfcFilter,NOTDEFINED
 filter - cooling tower filtration unit,CTFU,,IfcUnitaryEquipment,NOTDEFINED
 filter - cooling tower filtration unit,CTFS,,IfcFilter,NOTDEFINED
 filter - cooling tower sand filter,CTSFLT,,IfcFilter,NOTDEFINED
