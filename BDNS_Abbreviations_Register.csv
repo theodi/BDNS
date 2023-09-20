@@ -140,7 +140,9 @@ dispenser - milk,DISPMK,,IfcElectricAppliance,NOTDEFINED
 dispenser - soft serve ice cream,DISPIC,,IfcElectricAppliance,NOTDEFINED
 dispenser - water,DISPW,,IfcElectricAppliance,NOTDEFINED
 door,DR,,IfcDoor,DOOR
+door - electromagnetic door holder,EMDH,,IfcElectricAppliance,NOTDEFINED
 door - fire door,FDR,SAFETY/FDR,IfcDoor,NOTDEFINED
+door - magnetic lock,MLOCK,,IfcElectricAppliance,NOTDEFINED
 drinking fountain / bottle filler,DF,,IfcSanitaryTerminal,SANITARYFOUNTAIN
 duct silencer - attenuator,SLCR,,IfcDuctSilencer,NOTDEFINED
 dx system - branch controller/selector box,BCBOX,,IfcUnitaryEquipment,SPLITSYSTEM
@@ -243,6 +245,7 @@ filter - air purifier unit,APU,,IfcFilter,NOTDEFINED
 filter - air separator,AS,,IfcFlowTreatmentDevice,NOTDEFINED
 filter - air washer unit,AWSH,,IfcFilter,NOTDEFINED
 filter - bag filter,BFLT,,IfcFilter,NOTDEFINED
+filter - carbon filter,CFLT,,IfcFilter,NOTDEFINED
 filter - cooling tower filtration unit,CTFU,,IfcUnitaryEquipment,NOTDEFINED
 filter - cooling tower filtration unit,CTFS,,IfcFilter,NOTDEFINED
 filter - cooling tower sand filter,CTSFLT,,IfcFilter,NOTDEFINED
