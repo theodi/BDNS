@@ -140,6 +140,7 @@ dispenser - milk,DISPMK,,IfcElectricAppliance,NOTDEFINED
 dispenser - soft serve ice cream,DISPIC,,IfcElectricAppliance,NOTDEFINED
 dispenser - water,DISPW,,IfcElectricAppliance,NOTDEFINED
 door,DR,,IfcDoor,DOOR
+door - electromagnetic door holder,EMDH,,IfcElectricAppliance,NOTDEFINED
 door - fire door,FDR,SAFETY/FDR,IfcDoor,NOTDEFINED
 drinking fountain / bottle filler,DF,,IfcSanitaryTerminal,SANITARYFOUNTAIN
 duct silencer - attenuator,SLCR,,IfcDuctSilencer,NOTDEFINED
