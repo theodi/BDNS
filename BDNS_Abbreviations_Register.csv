@@ -386,6 +386,7 @@ kitchen appliance - warming drawer,WDR,,IfcElectricAppliance,ELECTRICCOOKER
 kitchen ventilation - condensate hood,KVCH,,IfcDamper,FUMEHOODEXHAUST
 kitchen ventilation - extraction/exhuast grease hood,KVGH,,IfcDamper,FUMEHOODEXHAUST
 kitchen ventilation - ventilated ceiling,KVVC,,IfcAirTerminalBox,NOTDEFINED
+lighting - control - dimmer,DIM,LIGHTING/LCM,IfcSwitchingDevice,DIMMERSWITCH
 lighting - control - keypad,LKP,LIGHTING/LKP,IfcSwitchingDevice,KEYPAD
 lighting - control - module,LCM,LIGHTING/LCM,IfcUnitaryControlElement,NOTDEFINED
 lighting - control - panel,LCP,,IfcUnitaryControlElement,NOTDEFINED
