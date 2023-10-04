@@ -241,6 +241,7 @@ fan - toilet extract fan,TEF,HVAC/FAN,IfcFan,NOTDEFINED
 fan - transfer fan,TF,HVAC/FAN,IfcFan,NOTDEFINED
 fan coil unit,FCU,HVAC/FCU,IfcUnitaryEquipment,NOTDEFINED
 filter,FLT,,IfcFilter,NOTDEFINED
+filter - air and dirt separator,ADS,,IfcFlowTreatmentDevice,NOTDEFINED
 filter - air purifier unit,APU,,IfcFilter,NOTDEFINED
 filter - air separator,AS,,IfcFlowTreatmentDevice,NOTDEFINED
 filter - air washer unit,AWSH,,IfcFilter,NOTDEFINED
