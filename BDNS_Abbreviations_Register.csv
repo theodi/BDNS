@@ -390,6 +390,7 @@ kitchen ventilation - ventilated ceiling,KVVC,,IfcAirTerminalBox,NOTDEFINED
 lighting - control - keypad,LKP,LIGHTING/LKP,IfcSwitchingDevice,KEYPAD
 lighting - control - module,LCM,LIGHTING/LCM,IfcUnitaryControlElement,NOTDEFINED
 lighting - control - panel,LCP,,IfcUnitaryControlElement,NOTDEFINED
+lighting - control - switch,LSW,,IfcSwitchingDeviceTypeEnum,NOTDEFINED
 lighting - fixture,LT,LIGHTING/LT,IfcLightFixture,NOTDEFINED
 lighting - fixture - downlight,DL,LIGHTING/LT,IfcLightFixture,NOTDEFINED
 lighting - fixture - illuminated exit sign,EXIT,,IfcLightFixture,SECURITYLIGHTING
