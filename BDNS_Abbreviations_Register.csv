@@ -326,6 +326,7 @@ heat emitter - radiator electric,ERAD,,IfcSpaceHeater,RADIATOR
 heat emitter - trace heating,EHT,,ifcSpaceHeater,NOTDEFINED
 heat emitter - trench heater and cooler,TRHC,,ifcSpaceHeater,NOTDEFINED
 heat emitter - trench heating,TRH,,ifcSpaceHeater,NOTDEFINED
+heat emitter - underfloor manifold,UFM,,ifcSpaceHeater,NOTDEFINED
 heat emitter - unit heater,UH,,IfcSpaceHeater,NOTDEFINED
 heat emitter - warm air curtain,WAC,,IfcSpaceHeater,NOTDEFINED
 heat exchanger,HX,HVAC/HX,IfcHeatExchanger,NOTDEFINED
