@@ -218,7 +218,7 @@ emergency voice communication - outstation disabled refuge,DRO,,IfcAudioVisualAp
 emergency voice communication - outstation emergency telephone,ETO,,IfcAudioVisualAppliance,RECEIVER
 emergency voice communication - outstation fire telephone,FTO,,IfcAudioVisualAppliance,RECEIVER
 emergency voice communication - repeater unit,EVCRU,,IfcAudioVisualAppliance,SWITCHER
-emergency voice communication - voice alarm apeaker,VAS,,IfcAudioVisualAppliance,SPEAKER
+emergency voice communication - voice alarm speaker,VAS,,IfcAudioVisualAppliance,SPEAKER
 emergency voice communication - voice alarm microphones,VAM,,IfcAudioVisualAppliance,MICROPHONE
 employee timeclock with fingerprint scanner,ETCFP,,IfcElectricAppliance,NOTDEFINED
 evaporator,EVP,,IfcEvaporator,NOTDEFINED
