@@ -171,6 +171,7 @@ electric distribution - busbar,BB,,IfcCableSegment,BUSBARSEGMENT
 electric distribution - busbar tapoff,BBTO,,IfcCableSegment,BUSBARSEGMENT
 electric distribution - dc-dc converter,DCDC,,IfcTransformerType,NOTDEFINED
 electric distribution - distribution panel / board,DB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
+electric distribution - distribution panel / board - consumer unit,CU,ELECTRICAL/PANEL,IfcElectricDistributionBoard,CONSUMERUNIT
 electric distribution - distribution panel 120/208V,LVDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - distribution panel 277/480V,HVDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD
 electric distribution - distribution panel for itc equipment,ITDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,NOTDEFINED
