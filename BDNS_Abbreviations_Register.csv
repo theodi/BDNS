@@ -440,8 +440,10 @@ panel - alarm panel,AP,,IfcUnitaryControlElement,ALARMPANEL
 panel - chemical treatment control panel,CTCP,,IfcUnitaryControlElement,NOTDEFINED
 panel - control panel,CTRP,,IfcUnitaryControlElement,CONTROLPANEL
 panel - fire alarm control panel,FACP,SAFETY/FACP,IfcUnitaryControlElement,NOTDEFINED
+panel - gas booster control panel,GBCP,,IfcUnitaryControlElement,CONTROLPANEL
 panel - gas detection panel,GASDET,,IfcUnitaryControlElement,GASDETECTIONPANEL
 panel - generator control panel,GENCP,,IfcUnitaryControlElement,CONTROLPANEL
+panel - greywater control panel,GWCP,,IfcUnitaryControlElement,CONTROLPANEL
 panel - hvac control panel,HVACCP,,IfcUnitaryControlElement,CONTROLPANEL
 panel - leak detection panel,LDP,,IfcUnitaryControlElement,CONTROLPANEL
 panel - motor control center,MCC,,IfcUnitaryControlElement,NOTDEFINED
