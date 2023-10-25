@@ -38,6 +38,7 @@ av equipment - speaker,SPK,,IfcAudioVisualAppliance,SPEAKER
 av equipment - video wall,VDW,,IfcAudioVisualAppliance,DISPLAY
 av equipment - white noise generator,WNG,,IfcAudioVisualAppliance,NOTDEFINED
 battery,BATT,ELECTRICAL/BATT,IfcElectricFlowStorageDevice,BATTERY
+battery - battery trip unit,BTR,ELECTRICAL/BATT,IfcProtectiveDevice,NOTDEFINED
 battery - electric heater battery,EHB,ELECTRICAL/BATT,IfcElectricFlowStorageDevice,BATTERY
 beverage machine - airpot,BVAP,,IfcElectricAppliance,NOTDEFINED
 beverage machine - chai machine,BVC,,IfcElectricAppliance,NOTDEFINED
