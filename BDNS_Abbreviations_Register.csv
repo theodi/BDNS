@@ -58,7 +58,7 @@ av equipment - video wall,VDW,,IfcAudioVisualAppliance,DISPLAY
 av equipment - vision mixing desk,VMIX,,IfcAudioVisualAppliance,NOTDEFINED
 av equipment - white noise generator,WNG,,IfcAudioVisualAppliance,NOTDEFINED
 av equipment - wireless presentation device,WPD,,IfcAudioVisualAppliance,NOTDEFINED
-av equipment - wireless receive,WRCVR,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - wireless receiver,WRCVR,,IfcAudioVisualAppliance,NOTDEFINED
 av equipment - wireless sender,WSEND,,IfcAudioVisualAppliance,NOTDEFINED
 battery,BATT,ELECTRICAL/BATT,IfcElectricFlowStorageDevice,BATTERY
 battery - battery trip unit,BTR,ELECTRICAL/BATT,IfcProtectiveDevice,NOTDEFINED
