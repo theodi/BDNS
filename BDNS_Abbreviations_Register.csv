@@ -30,13 +30,36 @@ antenna,ANT,,IfcCommunicationsAppliance,ANTENNA
 antenna - wi-fi antenna,WANT,,IfcCommunicationsAppliance,ANTENNA
 architecture - room,ROOM,,IfcSpace,INTERNAL
 av equipment,AVEQ,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - audio amplifier,AMP,,IfcAudioVisualAppliance,AMPLIFIER
+av equipment - audio assistive equipment,AAE,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - audio mixer / splitter / equalizer / diplexer,AMIX,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - audio mixing desk,MIX,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - audio monitor,AMON,,IfcAudioVisualAppliance,DISPLAY
+av equipment - audio video control keypad,AVKP,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - audio visual encoder,AVE,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - audio visual outlet,AVO,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - audio visual switch,AVS,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - bluetooth audio interface,BAI,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - camera control unit,CCU,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - codec device,CD,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - digital signal processor,DSP,,IfcAudioVisualAppliance,TUNER
 av equipment - digital whiteboard,DWB,,IfcAudioVisualAppliance,DISPLAY
 av equipment - display screen,DS,,IfcAudioVisualAppliance,DISPLAY
+av equipment - iptv / digital signage decoder,DEC,,IfcAudioVisualAppliance,NOTDEFINED
 av equipment - iptv content management system device,CMS,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - matrix switcher,MSW,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - microphone,MIC,,IfcAudioVisualAppliance,MICROPHONE
 av equipment - networked video recorder,NVR,,IfcAudioVisualAppliance,PLAYER
+av equipment - room booking panel,RBP,,IfcAudioVisualAppliance,NOTDEFINED
 av equipment - speaker,SPK,,IfcAudioVisualAppliance,SPEAKER
+av equipment - thin client device,TCD,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - touch panel,TPAN,,IfcAudioVisualAppliance,NOTDEFINED
 av equipment - video wall,VDW,,IfcAudioVisualAppliance,DISPLAY
+av equipment - vision mixing desk,VMIX,,IfcAudioVisualAppliance,NOTDEFINED
 av equipment - white noise generator,WNG,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - wireless presentation device,WPD,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - wireless receiver,WRCVR,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - wireless sender,WSEND,,IfcAudioVisualAppliance,NOTDEFINED
 battery,BATT,ELECTRICAL/BATT,IfcElectricFlowStorageDevice,BATTERY
 battery - battery trip unit,BTR,ELECTRICAL/BATT,IfcProtectiveDevice,NOTDEFINED
 battery - electric heater battery,EHB,ELECTRICAL/BATT,IfcElectricFlowStorageDevice,BATTERY
@@ -122,10 +145,10 @@ damper - exhaust damper,EXD,HVAC/DMP,IfcDamper,NOTDEFINED
 damper - fire damper,FD,SAFETY/FD,IfcDamper,FIREDAMPER
 damper - inlet control damper,ICD,HVAC/DMP,IfcDamper,CONTROLDAMPER
 damper - inlet isolation damper,IISD,HVAC/DMP,IfcDamper,NOTDEFINED
+damper - motorised damper,MD,HVAC/DMP,IfcDamper,NOTDEFINED
 damper - motorised fire smoke damper,MFSD,HVAC/DMP,IfcDamper,FIRESMOKEDAMPER
 damper - motorised smoke control damper,MSCD,HVAC/DMP,IfcDamper,SMOKEDAMPER
 damper - motorised smoke damper,MSD,HVAC/DMP,IfcDamper,SMOKEDAMPER
-damper - motorised damper,MD,HVAC/DMP,IfcDamper,NOTDEFINED
 damper - pressure relief dampers,PRLD,HVAC/DMP,IfcDamper,RELIEFDAMPER
 damper - recirculation control damper,RECD,HVAC/DMP,IfcDamper,CONTROLDAMPER
 damper - return control damper,RTCD,HVAC/DMP,IfcDamper,CONTROLDAMPER
@@ -221,8 +244,8 @@ emergency voice communication - outstation disabled refuge,DRO,,IfcAudioVisualAp
 emergency voice communication - outstation emergency telephone,ETO,,IfcAudioVisualAppliance,RECEIVER
 emergency voice communication - outstation fire telephone,FTO,,IfcAudioVisualAppliance,RECEIVER
 emergency voice communication - repeater unit,EVCRU,,IfcAudioVisualAppliance,SWITCHER
-emergency voice communication - voice alarm speaker,VAS,,IfcAudioVisualAppliance,SPEAKER
 emergency voice communication - voice alarm microphones,VAM,,IfcAudioVisualAppliance,MICROPHONE
+emergency voice communication - voice alarm speaker,VAS,,IfcAudioVisualAppliance,SPEAKER
 employee timeclock with fingerprint scanner,ETCFP,,IfcElectricAppliance,NOTDEFINED
 evaporator,EVP,,IfcEvaporator,NOTDEFINED
 fan,FAN,HVAC/FAN,IfcFan,NOTDEFINED
@@ -250,8 +273,8 @@ filter - air separator,AS,,IfcFlowTreatmentDevice,NOTDEFINED
 filter - air washer unit,AWSH,,IfcFilter,NOTDEFINED
 filter - bag filter,BFLT,,IfcFilter,NOTDEFINED
 filter - carbon filter,CFLT,,IfcFilter,NOTDEFINED
-filter - cooling tower filtration unit,CTFU,,IfcUnitaryEquipment,NOTDEFINED
 filter - cooling tower filtration unit,CTFS,,IfcFilter,NOTDEFINED
+filter - cooling tower filtration unit,CTFU,,IfcUnitaryEquipment,NOTDEFINED
 filter - cooling tower sand filter,CTSFLT,,IfcFilter,NOTDEFINED
 filter - cooling tower separator,CTSEP,,IfcFilter,NOTDEFINED
 filter - cooling tower separator / sand separator,CTSSEP,,IfcFilter,NOTDEFINED
