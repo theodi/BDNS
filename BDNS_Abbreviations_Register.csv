@@ -30,6 +30,7 @@ antenna,ANT,,IfcCommunicationsAppliance,ANTENNA
 antenna - wi-fi antenna,WANT,,IfcCommunicationsAppliance,ANTENNA
 architecture - room,ROOM,,IfcSpace,INTERNAL
 av equipment,AVEQ,,IfcAudioVisualAppliance,NOTDEFINED
+av equipment - audio amplifier,AMP,,IfcAudioVisualAppliance,AMPLIFIER
 av equipment - digital whiteboard,DWB,,IfcAudioVisualAppliance,DISPLAY
 av equipment - display screen,DS,,IfcAudioVisualAppliance,DISPLAY
 av equipment - iptv content management system device,CMS,,IfcAudioVisualAppliance,NOTDEFINED
