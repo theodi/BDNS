@@ -279,6 +279,7 @@ filter - cooling tower sand filter,CTSFLT,,IfcFilter,NOTDEFINED
 filter - cooling tower separator,CTSEP,,IfcFilter,NOTDEFINED
 filter - cooling tower separator / sand separator,CTSSEP,,IfcFilter,NOTDEFINED
 filter - degasser filter,DGA,,IfcFilter,NOTDEFINED
+filter - dirt separator,DTS,,IfcFilter,NOTDEFINED
 filter - exhaust dry scrubber unit,DSU,,IfcFilter,NOTDEFINED
 filter - panel filter,PFLT,,IfcFilter,NOTDEFINED
 filter - pollution control unit,PCU,,IfcFilter,AIRPARTICLEFILTER
