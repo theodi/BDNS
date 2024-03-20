@@ -551,6 +551,7 @@ sensor - CO sensor,COS,SENSOR,IfcSensor,COSENSOR
 sensor - CO2 sensor,CDS,SENSOR,IfcSensor,CO2SENSOR
 sensor - condensation water sensor,CS,SENSOR,IfcSensor,TEMPERATURESENSOR
 sensor - contact sensor,CNTS,SENSOR,IfcSensor,CONTACTSENSOR
+sensor - differential pressure switch,DPRS,SENSOR,IfcSensor,PRESSURESENSOR
 sensor - glycol protector sensor,GLYPR,SENSOR,IfcSensor,NOTDEFINED
 sensor - humidity sensor,HMS,SENSOR,IfcSensor,HUMIDITYSENSOR
 sensor - inertial measurement unit sensor,IMUS,SENSOR,IfcSensor,NOTDEFINED
@@ -569,7 +570,9 @@ sensor - pressure sensor,PS,SENSOR,IfcSensor,PRESSURESENSOR
 sensor - seismic sensor,SSS,SENSOR,IfcSensor,NOTDEFINED
 sensor - sound level sensor,SLS,SENSOR,IfcSensor,SOUNDSENSOR
 sensor - static pressure sensor,SPS,SENSOR,IfcSensor,PRESSURESENSOR
+sensor - static pressure switch,SPSW,SENSOR,IfcSensor,PRESSURESENSOR
 sensor - temperature sensor,TPS,SENSOR,IfcSensor,TEMPERATURESENSOR
+sensor - thermal dispersion flow proving switch,TDSW,SENSOR,IfcSensor,FLOWSENSOR
 sensor - thermostat,TSTAT,,IfcUnitaryControlElement,THERMOSTAT
 sensor - velocity sensor,VS,SENSOR,IfcSensor,NOTDEFINED
 sensor - volumetric flow sensor - air,AVFS,SENSOR,IfcSensor,FLOWSENSOR
