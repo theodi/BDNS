@@ -15,6 +15,7 @@ air conditioning unit - direct expansion cooling unit,DX,HVAC/AHU,IfcUnitaryEqui
 air handling - mechanical ventilation with heat recovery,MVHR,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED,1
 air handling unit - air handling unit,AHU,HVAC/AHU,IfcUnitaryEquipment,AIRHANDLER,1
 air handling unit - dedicated outside air system unit,DOAS,HVAC/DOAS,IfcUnitaryEquipment,AIRHANDLER,1
+air handling unit - computer room air handler,CRAH,HVAC/AHU,IfcUnitaryEquipment,AIRHANDLER,1
 air handling unit - heat recovery unit,HRU,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED,1
 air handling unit - make-up air handler,MAU,HVAC/MAU,IfcUnitaryEquipment,AIRHANDLER,1
 air handling unit - roof top unit,RTU,HVAC/AHU,IfcUnitaryEquipment,ROOFTOPUNIT,1
