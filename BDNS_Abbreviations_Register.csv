@@ -229,6 +229,7 @@ electric protective device - miniature circuit breaker,MCB,,IfcProtectiveDevice,
 electric protective device - residual current circuit breaker,RCCB,,IfcProtectiveDevice,RESIDUALCURRENTCIRCUITBREAKER,1
 electric protective device - residual current circuit breaker with over-current,RCBO,,IfcProtectiveDevice,RESIDUALCURRENTCIRCUITBREAKER,1
 electric protective device - safety switch or disconnect switch,DSCTS,,IfcSwitchingDevice,SWITCHDISCONNECTOR,0
+electric protective device - safety switch or disconnect switch - emergency stop button,ESB,,IfcSwitchingDevice,SWITCHDISCONNECTOR,0
 electric protective device - sectionalizer switch,SCS,,IfcSwitchingDevice,SELECTORSWITCH,0
 electric protective device - surge protection,SPD,,IfcProtectiveDevice,VARISTOR,0
 electrochromic glass,ECG,,IfcWindow,NOTDEFINED,0
