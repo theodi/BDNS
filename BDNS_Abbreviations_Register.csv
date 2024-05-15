@@ -229,6 +229,7 @@ electric protective device - miniature circuit breaker,MCB,,IfcProtectiveDevice,
 electric protective device - residual current circuit breaker,RCCB,,IfcProtectiveDevice,RESIDUALCURRENTCIRCUITBREAKER,1
 electric protective device - residual current circuit breaker with over-current,RCBO,,IfcProtectiveDevice,RESIDUALCURRENTCIRCUITBREAKER,1
 electric protective device - safety switch or disconnect switch,DSCTS,,IfcSwitchingDevice,SWITCHDISCONNECTOR,0
+electric protective device - safety switch or disconnect switch - emergency stop button,ESB,,IfcSwitchingDevice,SWITCHDISCONNECTOR,0
 electric protective device - sectionalizer switch,SCS,,IfcSwitchingDevice,SELECTORSWITCH,0
 electric protective device - surge protection,SPD,,IfcProtectiveDevice,VARISTOR,0
 electrochromic glass,ECG,,IfcWindow,NOTDEFINED,0
@@ -552,6 +553,7 @@ sensor - contact sensor,CNTS,SENSOR,IfcSensor,CONTACTSENSOR,1
 sensor - differential pressure sensor,DPS,SENSOR,IfcSensor,PRESSURESENSOR,1
 sensor - glycol protector sensor,GLYPR,SENSOR,IfcSensor,NOTDEFINED,1
 sensor - humidity sensor,HMS,SENSOR,IfcSensor,HUMIDITYSENSOR,1
+sensor - humidity sensor - outside,OHMS,SENSOR,IfcSensor,HUMIDITYSENSOR,1
 sensor - inertial measurement unit sensor,IMUS,SENSOR,IfcSensor,NOTDEFINED,1
 sensor - leak detection sensor,LDS,SENSOR,IfcSensor,NOTDEFINED,1
 sensor - level sensor,LVLS,SENSOR,IfcSensor,NOTDEFINED,1
@@ -569,6 +571,7 @@ sensor - seismic sensor,SSS,SENSOR,IfcSensor,NOTDEFINED,1
 sensor - sound level sensor,SLS,SENSOR,IfcSensor,SOUNDSENSOR,1
 sensor - static pressure sensor,SPS,SENSOR,IfcSensor,PRESSURESENSOR,1
 sensor - temperature sensor,TPS,SENSOR,IfcSensor,TEMPERATURESENSOR,1
+sensor - temperature sensor - outside,OTPS,SENSOR,IfcSensor,TEMPERATURESENSOR,1
 sensor - thermostat,TSTAT,,IfcUnitaryControlElement,THERMOSTAT,1
 sensor - velocity sensor,VS,SENSOR,IfcSensor,NOTDEFINED,1
 sensor - volumetric flow sensor - air,AVFS,SENSOR,IfcSensor,FLOWSENSOR,1
