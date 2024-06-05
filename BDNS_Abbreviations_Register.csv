@@ -681,6 +681,8 @@ waste management - wet waste grinder,WSTWG,,IfcElectricAppliance,NOTDEFINED,0
 waste terminal - area drain,AD,,IfcWasteTerminal,NOTDEFINED,0
 water heater - domestic electric water heater,DEWH,HVAC/HWS,IfcElectricAppliance,FREESTANDINGWATERHEATER,0
 water heater - domestic gas water heater,DGWH,HVAC/HWS,IfcBoiler,WATER,0
+water heater - electric water heater,EWH,HVAC/HWS,IfcElectricAppliance,FREESTANDINGWATERHEATER,0
+water heater - gas water heater,GWH,HVAC/HWS,IfcBoiler,WATER,0
 water heater - instantaneous water heater,IWH,HVAC/HWS,IfcElectricAppliance,NOTDEFINED,0
 water heater - solar water heating panel,SWHP,,IfcSolarDevice,SOLARCOLLECTOR,0
 water treatment - chemical dosage unit,CHDU,,IfcDistributionSystem,CHEMICAL,1
