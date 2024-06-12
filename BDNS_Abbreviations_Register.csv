@@ -436,6 +436,12 @@ lighting - fixture external - lampost,LPO,LIGHTING/LT,IfcLightFixture,NOTDEFINED
 lighting - gateway,LTGW,LIGHTING/LTGW,IfcCommunicationsAppliance,GATEWAY,1
 lighting - group,LGRP,LIGHTING/LGRP,IfcGroup,NOTDEFINED,1
 lighting - track - electric track for lights,TR,LIGHTING/LT,IfcCableSegment,NOTDEFINED,0
+lightning protection - cast-in-socket,CIS,,IfcFastener,NOTDEFINED,0
+lightning protection - concrete inspection pit,CIP,,IfcDistributionElement,NOTDEFINED,0
+lightning protection - earthing bar,EBA,,IfcDistributionElement,NOTDEFINED,0
+lightning protection - earthing clamp,ECL,,IfcFastener,NOTDEFINED,0
+lightning protection - earthing rod,ERO,,IfcDistributionElement,NOTDEFINED,0
+lightning protection - earthing tape,ETA,,IfcDistributionElement,NOTDEFINED,0
 location services - beacon,LBCN,,IfcCommunicationsAppliance,NOTDEFINED,1
 meter,MTR,METERS/MTR,IfcFlowMeter,NOTDEFINED,1
 meter - electric branch meter,EBM,METERS/MTR,IfcFlowMeter,NOTDEFINED,1
