@@ -3,6 +3,7 @@ access control - RFID controller,RFIDC,,IfcController,NOTDEFINED,1
 access control - RFID reader,RFIDR,,IfcCommunicationsAppliance,SCANNER,1
 access control - access control system,ACS,,IfcDistributionSystem,SECURITY,1
 access control - biometric reader,BIOR,,IfcCommunicationsAppliance,SCANNER,1
+access control - request to exit,RTE,,IfcSwitchingDevice,CONTACTOR,1
 actuator,ACT,,IfcActuator,NOTDEFINED,1
 actuator - frost protection switch,FPSW,,IfcActuator,ELECTRICACTUATOR,1
 actuator - motorized window operator,WDO,,IfcActuator,ELECTRICACTUATOR,1
@@ -12,8 +13,8 @@ air conditioning unit - computer room AC unit,CRAC,HVAC/AHU,IfcUnitaryEquipment,
 air conditioning unit - direct expansion cooling unit,DX,HVAC/AHU,IfcUnitaryEquipment,SPLITSYSTEM,1
 air handling - mechanical ventilation with heat recovery,MVHR,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED,1
 air handling unit - air handling unit,AHU,HVAC/AHU,IfcUnitaryEquipment,AIRHANDLER,1
-air handling unit - dedicated outside air system unit,DOAS,HVAC/DOAS,IfcUnitaryEquipment,AIRHANDLER,1
 air handling unit - computer room air handler,CRAH,HVAC/AHU,IfcUnitaryEquipment,AIRHANDLER,1
+air handling unit - dedicated outside air system unit,DOAS,HVAC/DOAS,IfcUnitaryEquipment,AIRHANDLER,1
 air handling unit - heat recovery unit,HRU,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED,1
 air handling unit - make-up air handler,MAU,HVAC/MAU,IfcUnitaryEquipment,AIRHANDLER,1
 air handling unit - roof top unit,RTU,HVAC/AHU,IfcUnitaryEquipment,ROOFTOPUNIT,1
