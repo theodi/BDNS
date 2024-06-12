@@ -12,8 +12,8 @@ air conditioning unit - computer room AC unit,CRAC,HVAC/AHU,IfcUnitaryEquipment,
 air conditioning unit - direct expansion cooling unit,DX,HVAC/AHU,IfcUnitaryEquipment,SPLITSYSTEM,1
 air handling - mechanical ventilation with heat recovery,MVHR,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED,1
 air handling unit - air handling unit,AHU,HVAC/AHU,IfcUnitaryEquipment,AIRHANDLER,1
-air handling unit - dedicated outside air system unit,DOAS,HVAC/DOAS,IfcUnitaryEquipment,AIRHANDLER,1
 air handling unit - computer room air handler,CRAH,HVAC/AHU,IfcUnitaryEquipment,AIRHANDLER,1
+air handling unit - dedicated outside air system unit,DOAS,HVAC/DOAS,IfcUnitaryEquipment,AIRHANDLER,1
 air handling unit - heat recovery unit,HRU,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED,1
 air handling unit - make-up air handler,MAU,HVAC/MAU,IfcUnitaryEquipment,AIRHANDLER,1
 air handling unit - roof top unit,RTU,HVAC/AHU,IfcUnitaryEquipment,ROOFTOPUNIT,1
@@ -435,6 +435,12 @@ lighting - fixture external - lampost,LPO,LIGHTING/LT,IfcLightFixture,NOTDEFINED
 lighting - gateway,LTGW,LIGHTING/LTGW,IfcCommunicationsAppliance,GATEWAY,1
 lighting - group,LGRP,LIGHTING/LGRP,IfcGroup,NOTDEFINED,1
 lighting - track - electric track for lights,TR,LIGHTING/LT,IfcCableSegment,NOTDEFINED,0
+lightning protection - cast-in-socket,CIS,,IfcFastener,NOTDEFINED,0
+lightning protection - concrete inspection pit,CIP,,IfcDistributionElement,NOTDEFINED,0
+lightning protection - earthing bar,EBA,,IfcDistributionElement,NOTDEFINED,0
+lightning protection - earthing clamp,ECL,,IfcFastener,NOTDEFINED,0
+lightning protection - earthing rod,ERO,,IfcDistributionElement,NOTDEFINED,0
+lightning protection - earthing tape,ETA,,IfcDistributionElement,NOTDEFINED,0
 location services - beacon,LBCN,,IfcCommunicationsAppliance,NOTDEFINED,1
 meter,MTR,METERS/MTR,IfcFlowMeter,NOTDEFINED,1
 meter - electric branch meter,EBM,METERS/MTR,IfcFlowMeter,NOTDEFINED,1
