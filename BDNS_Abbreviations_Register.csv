@@ -601,6 +601,7 @@ tank - brine tank,BTK,,IfcTank,VESSEL,0
 tank - buffer vessel - cooling,CBUFF,,IfcTank,VESSEL,0
 tank - buffer vessel - generic,BUFF,,IfcTank,VESSEL,0
 tank - buffer vessel - heating,HBUFF,,IfcTank,VESSEL,0
+tank - compressed air storage tank,CAST,,ifcTank,STORAGE,0
 tank - condensate receiver tank,CNR,,ifcTank,STORAGE,0
 tank - deareator tank,DEA,,IfcTank,NOTDEFINED,0
 tank - decontamination tank,DET,,IfcTank,NOTDEFINED,0
