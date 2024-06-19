@@ -530,6 +530,7 @@ pump - tower make up valve,TMUV,HVAC/PMP,IfcValve,NOTDEFINED,1
 pump - transfer pump,TRP,HVAC/PMP,IfcPump,NOTDEFINED,1
 pump - vacuum pump,VCP,HVAC/PMP,IfcPump,NOTDEFINED,1
 pump - waste water pump,WWP,HVAC/PMP,IfcPump,NOTDEFINED,1
+pump - wet riser pump,WRP,HVAC/PMP,IfcPump,NOTDEFINED,1
 pv ac disconnect,PVACDS,,IfcSwitchingDevice,SWITCHDISCONNECTOR,0
 pv data acquisition system,PVDAS,,IfcController,NOTDEFINED,1
 pv dc combiner,PVDCC,,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,0
@@ -619,6 +620,7 @@ tank - rainwater storage tank,RNWST,,IfcTank,STORAGE,0
 tank - sprinkler tank,SPT,,IfcTank,STORAGE,0
 tank - thermal storage tank,TST,,IfcTank,STORAGE,0
 tank - water tank,TK,,IfcTank,STORAGE,0
+tank - wet riser tank,WRT,,IfcTank,STORAGE,0
 thermal wheel,TW,,IfcAirToAirHeatRecovery,ROTARYWHEEL,0
 timeclock,TMCLK,,IfcElectricTimeControl,TIMECLOCK,1
 transformer,TXMR,,IfcTransformer,NOTDEFINED,0
