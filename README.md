@@ -1,6 +1,6 @@
 # Building Device and Asset Naming Standards initiative
 
-Status: *release 1.0.0*
+Status: *release 1.1.0*
 
 This repository holds resources for an initiative to improve interoperability in building management, by focusing on standardising naming of building devices and assets.
 
@@ -53,6 +53,4 @@ The device and asset names defined in this standard are meant to be used in the 
 
 ## Note
 
-At the moment of release 1.0, the standard is primarily focusing on naming of building control devices.
-
-With time, it will also include maintainable asset names.
+At the moment of release 1.1.0, the standard is primarily focusing on naming of building control devices. It also includes a number of maintainable asset names.
