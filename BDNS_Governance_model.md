@@ -1,7 +1,7 @@
 
 # Building Device and Asset Naming Standards initiative
 
-Status: *release 1.0.0*
+Status: *release 1.1.0*
 
 ## Governance model
 
