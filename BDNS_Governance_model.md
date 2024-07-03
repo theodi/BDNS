@@ -1,7 +1,7 @@
 
 # Building Device and Asset Naming Standards initiative
 
-Status: *release 1.0.0*
+Status: *release 1.1.0*
 
 ## Governance model
 
@@ -199,6 +199,7 @@ This process provides for multiple points of feedback and communication, giving 
 *   call for feedback on new and updated Editors Drafts
 *   annual call for feedback prior to a major release
 
+We will aim to do quarterly release updates to the abbreviations register. 
 
 ### Proposing specification changes
 
