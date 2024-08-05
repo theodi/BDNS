@@ -39,7 +39,7 @@ av equipment - audio video control keypad,AVKP,,IfcAudioVisualAppliance,NOTDEFIN
 av equipment - audio visual encoder,AVE,,IfcAudioVisualAppliance,NOTDEFINED,0
 av equipment - audio visual outlet,AVO,,IfcAudioVisualAppliance,NOTDEFINED,0
 av equipment - audio visual switch,AVS,,IfcAudioVisualAppliance,NOTDEFINED,0
-av equipment - bluetooth audio interface,BAI,,IfcAudioVisualAppliance,NOTDEFINED,0
+av equipment - bluetooth audio interface,BTAI,,IfcAudioVisualAppliance,NOTDEFINED,0
 av equipment - camera control unit,CCU,,IfcAudioVisualAppliance,NOTDEFINED,0
 av equipment - codec device,CD,,IfcAudioVisualAppliance,NOTDEFINED,0
 av equipment - digital signal processor,DSP,,IfcAudioVisualAppliance,TUNER,0
@@ -107,6 +107,7 @@ communication gateway,CGW,,IfcCommunicationsAppliance,GATEWAY,1
 compressor,CMP,HVAC/CMP,IfcCompressor,NOTDEFINED,1
 compressor - air compressor,ACP,HVAC/CMP,ifcCompressor,NOTDEFINED,1
 condensing unit,CDU,,IfcCondenser,NOTDEFINED,1
+control - bluetooth beacon,BTB,,IfcCommunicationsAppliance,NOTDEFINED,1
 controller,CNTRL,,IfcController,NOTDEFINED,1
 controller - direct digital controller,DDC,,IfcController,PROGRAMMABLE,1
 controller - irrigation controller,IRRC,,IfcController,NOTDEFINED,1
