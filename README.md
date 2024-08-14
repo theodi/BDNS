@@ -1,6 +1,6 @@
 # Building Device and Asset Naming Standards initiative
 
-Status: *release 1.1.0*
+Status: *work in progress 1.2.1*
 
 This repository holds resources for an initiative to improve interoperability in building management, by focusing on standardising naming of building devices and assets.
 

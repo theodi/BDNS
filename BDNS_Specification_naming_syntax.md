@@ -1,6 +1,6 @@
 # Building Device and Asset Naming Standards initiative
 
-Status: *release 1.1.0*
+Status: *work in progress 1.2.1*
 
 # Specification for naming syntax
 
