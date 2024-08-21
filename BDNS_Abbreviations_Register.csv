@@ -107,7 +107,6 @@ communication gateway,CGW,,IfcCommunicationsAppliance,GATEWAY,1
 compressor,CMP,HVAC/CMP,IfcCompressor,NOTDEFINED,1
 compressor - air compressor,ACP,HVAC/CMP,ifcCompressor,NOTDEFINED,1
 condensing unit,CDU,,IfcCondenser,NOTDEFINED,1
-control - bluetooth beacon,BTB,,IfcCommunicationsAppliance,NOTDEFINED,1
 controller,CNTRL,,IfcController,NOTDEFINED,1
 controller - direct digital controller,DDC,,IfcController,PROGRAMMABLE,1
 controller - irrigation controller,IRRC,,IfcController,NOTDEFINED,1
