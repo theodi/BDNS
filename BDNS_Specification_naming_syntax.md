@@ -37,7 +37,7 @@ The following specification clause is provided so that BDNS naming can be includ
 * https://github.com/theodi/BDNS/blob/master/BDNS_Specification_naming_syntax.md
 * https://github.com/theodi/BDNS/blob/master/BDNS_Abbreviations_Register.csv
 
-## Device/Asset identification and naming
+## Device/Asset instance identification and naming
 
 Each device or asset will be assigned as a minimum, the following attributes:
 
@@ -49,6 +49,10 @@ The structure and purpose of these attributes is described in the subsequent sec
 Where a device or asset is represented in control system software then it shall be named in accordance with this naming standard within the control system software, e.g. a controller or an inverter must be named.
 
 Wherever possible, the naming shall be applied as close to the edge as possible, i.e. within the device itself rather than at a gateway device, e.g. an M-Bus meter may not be able to adopt the naming within the meters software itself due to the simplicity of the M-Bus protocol, meaning that a mapping would be required between the meter’s software identifier and the naming convention at a gateway.
+
+## Device/Asset type identification and naming
+
+During early stages of design, or for generic components (/ BIM objects) where `can_be_connected` = False, and there are many instances in the BIM model that do not need individual identification (e.g. cables, data cables, pipework, ductwork, ...); it may be appropriate to give only a type identification of the object. In these scenarios refer to the [asset type naming](#Device/Asset-type-(asset.type)) guidance only.
 
 
 ### Device/Asset instance GUID (asset.guid)
