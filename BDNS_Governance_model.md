@@ -7,7 +7,7 @@ format:
 
 Status: *release 1.1.0*
 
-## Governance model
+# Governance model
 
 ## Background
 

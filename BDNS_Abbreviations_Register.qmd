@@ -19,7 +19,7 @@ jupyter:
 
 Status: *release 1.1.0*
 
-## Abbreviations Register
+# Abbreviations Register
 
 ```{python}
 import pandas as pd

@@ -8,9 +8,9 @@ format:
 
 Status: *release 1.1.0*
 
-## Scoping guidelines and principles
+# Scoping guidelines and principles
 
-# Context and background
+## Context and background
 
 Building data is currently structured in many different ways, with no single standard. Although several attempts have been made to introduce a universal standard, these have not been universally adopted, and have often found to be insufficiently detailed to allow automated acquisition and surfacing of data from device (both input and outputs), into a structured database for use in end user and building operator applications.
 
@@ -18,7 +18,7 @@ The lack of standardised naming and labelling for building devices from design t
 
 A naming and labelling standard (complementing other industry initiatives) will simplify and drive consistency, thus increasing value by unlocking the application of technologies such as machine learning.  
 
-# Purpose
+## Purpose
 
 This project intends to provide an **industry wide naming convention framework** for  Information Technology (IT), Mechanical, Electrical and Public Health (MEP), and other Operational Technology (OT) devices and assets within buildings.
 
@@ -41,7 +41,7 @@ There is a number of initiatives around naming and tagging already in the indust
 
 The intent is not to replace these standards or create an overarching umbrella standard on top of existing initiatives, but to create a convention that is complementary and can address the correct naming of control system devices and associated maintainable assets (within the framework) from the early design stages through to operation, while ensuring relevance and suitability to all design and operational building stakeholders.
 
-# Scope
+## Scope
 
 The scope of this project is very focused: to provide an open naming convention and associated specifications for the naming of building control devices and associated items (within the defined framework) within buildings.
 
@@ -64,7 +64,7 @@ The naming standard is applicable to fixed equipment only. Mobile equipment such
 
 Components that are part of a device, such as fan coil unit valves and controllers are not considered to be standalone devices, and therefore do not need individual names. Their data points can however be described and named using complementary standards such as [Project Haystack](https://project-haystack.org/),  [Brick Schema](https://brickschema.org/) and the [Digital Buildings Ontology](https://github.com/google/digitalbuildings).
 
-# Deliverables
+## Deliverables
 
 The following documents have been developed as part of the scope:
 
@@ -72,7 +72,7 @@ The following documents have been developed as part of the scope:
 * A [register of building device and asset type abbreviations](BDNS_Abbreviations_Register.csv)
 * A [governance model](BDNS_Governance_model.md) for the initiative
 
-# Principles
+## Principles
 
 The guiding principles for the standard are the following:
 
@@ -86,7 +86,7 @@ Our recommendation is to store data in shared repositories and not standalone sy
 * Consistency of device identity across phases
 * Transfer of design parameters from design model to operational models
 
-# Process
+## Process
 
 The proposed governance principles and change process are documented in the [Building Device and Asset Naming Standard Proposed Governance](https://docs.google.com/document/d/141jJWvlckhQtMX-F310I1KpWGwD7rvurKyeMpwVq_-g/edit#) document. The document includes information on the open licensing of the work being driven by this initiative, communication mechanisms and a process for consensus building.
 
@@ -95,7 +95,7 @@ In practice, the proposed change process will rely on the GitHub platform:
 * Changes to the syntax can be proposed by submitting an [issue](https://github.com/theodi/BDNS/issues) on the Github platform. Issues will be discussed and resolved on GitHub, and may be discussed additionally through the other communication mechanisms of the group, including mailing-list and semi-regular teleconferences.
 * Additions to the register can be proposed by submitting a [pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) (PR) to the [Github repository](https://github.com/theodi/BDNS). Alternative submission mechanisms (e.g. through a mail address) may be made available if the Github PR mechanisms are deemed too technical.
 
-# Future work
+## Future work
 
 The intention is for this work to develop further to cover standardisation of naming for maintainable assets, but to exclude the naming of **metadata** and **data points**, which are meant to be named with a complementary standard, as discussed above.
 
