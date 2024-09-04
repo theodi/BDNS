@@ -1,0 +1,15 @@
+name: bdns
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+# ---------------------------------
+# dev env currently contains   
+# requirements for both UI and API
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - jupyter>=3
+  - quarto
+  - itables
