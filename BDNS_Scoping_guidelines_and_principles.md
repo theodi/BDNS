@@ -1,7 +1,13 @@
+---
+format: 
+  html: default
+  pdf: default
+---
 
 # Building Device and Asset Naming Standards initiative
 
 Status: *release 1.1.0*
+
 ## Scoping guidelines and principles
 
 # Context and background
