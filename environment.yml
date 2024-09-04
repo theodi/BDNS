@@ -10,6 +10,6 @@ channels:
   - conda-forge
 dependencies:
   - python>=3.8
-  - jupyter>=3
+  - jupyter
   - quarto
   - itables
