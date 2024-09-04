@@ -164,6 +164,13 @@ dispenser - juice,DISPJ,,IfcElectricAppliance,NOTDEFINED,0
 dispenser - milk,DISPMK,,IfcElectricAppliance,NOTDEFINED,0
 dispenser - soft serve ice cream,DISPIC,,IfcElectricAppliance,NOTDEFINED,0
 dispenser - water,DISPW,,IfcElectricAppliance,NOTDEFINED,0
+distribution data - coaxial cable,COAXCA,,IfcCableSegment,NOTDEFINED,0
+distribution data - data cable,DCA,,IfcCableSegment,NOTDEFINED,0
+distribution electric - cable,CA,,IfcCableSegment,NOTDEFINED,0
+distribution electric - fire rated cable,FCA,,IfcCableSegment,NOTDEFINED,0
+distribution piped services - pipework,PW,,IfcPipeSegment,NOTDEFINED,0
+distribution ventilation - ductwork,DUW,,IfcDuctSegment,NOTDEFINED,0
+distribution ventilation - ductwork fire rated,FDUW,,IfcDuctSegment,NOTDEFINED,0
 door,DR,,IfcDoor,DOOR,1
 door - electromagnetic door holder,EMDH,,IfcElectricAppliance,NOTDEFINED,1
 door - fire door,FDR,SAFETY/FDR,IfcDoor,NOTDEFINED,1
