@@ -2,6 +2,10 @@
 execute:
   echo: false
 tbl-cap-location: bottom
+format: 
+  html:
+    page-layout: full
+toc: false
 jupyter:
   jupytext:
     text_representation:
@@ -27,5 +31,5 @@ from itables import init_notebook_mode, show
 
 init_notebook_mode(all_interactive=True)
 df = pd.read_csv("BDNS_Abbreviations_Register.csv")
-show(df, buttons=["pageLength", "csvHtml5"], lengthMenu=[20, 50, 100, 500])
+show(df, buttons=["pageLength", "csvHtml5"], lengthMenu=[20, 50, 100, 500], style="table-layout:auto;width:100%;float:left")
 ```
