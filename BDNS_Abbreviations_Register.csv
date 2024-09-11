@@ -442,6 +442,7 @@ lightning protection - earthing bar,EBA,,IfcDistributionElement,NOTDEFINED,0
 lightning protection - earthing clamp,ECL,,IfcFastener,NOTDEFINED,0
 lightning protection - earthing rod,ERO,,IfcDistributionElement,NOTDEFINED,0
 lightning protection - earthing tape,ETA,,IfcDistributionElement,NOTDEFINED,0
+battery - lithium ion cell,BATTLI,,IfcElectricFlowStorageDevice,NOTDEFINED,1
 location services - beacon,LBCN,,IfcCommunicationsAppliance,NOTDEFINED,1
 meter,MTR,METERS/MTR,IfcFlowMeter,NOTDEFINED,1
 meter - electric branch meter,EBM,METERS/MTR,IfcFlowMeter,NOTDEFINED,1
