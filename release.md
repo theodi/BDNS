@@ -1,1 +1,1 @@
-<!-- this file exists for development only. it is overwritten when the site is built with the current GH release. -->
+<!-- This file exists for development only, without local testing fails. It is overwritten when the site is built with the current GH release. -->
