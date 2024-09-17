@@ -12,3 +12,5 @@ dependencies:
   - jupyter
   - quarto
   - itables
+  - pyfiglet
+  - pandas
