@@ -55,6 +55,15 @@ The device and asset names defined in this standard are meant to be used in the 
 * naming of devices and assets in databases
 * naming of devices and assets in MQTT topics
 
+## Past Versions
+
+- Currently we only serve the latest version of the BDNS built website and pdf documents.
+- The source markdown files of previous versions can be reviewed by referring to the appropriate Github tag/release.
+  - e.g. [BDNS=1.2.0](https://github.com/theodi/BDNS/tree/1.2.0) = `https://github.com/theodi/BDNS/tree/1.2.0` for the source files of v1.2.0
+  - e.g. [BDNS_Specification_naming_syntax=1.2.0](https://github.com/theodi/BDNS/blob/1.2.0/BDNS_Specification_naming_syntax.md) = `https://github.com/theodi/BDNS/blob/1.2.0/BDNS_Specification_naming_syntax.md` for a specific version of a document 
+- The `BDNS_Abbreviations_Register.csv` data file can also be retrieved directly from a previous tag/release if you are required to pin to a given version.
+  - e.g. [BDNS_Abbreviations_Register.csv=1.2.0](https://raw.githubusercontent.com/theodi/BDNS/1.2.0/BDNS_Abbreviations_Register.csv) = `https://raw.githubusercontent.com/theodi/BDNS/1.2.0/BDNS_Abbreviations_Register.csv`
+
 ## Note
 
 The standard is primarily focusing on naming of building control devices, but with its growing usage it also includes a number of maintainable asset names and types.
