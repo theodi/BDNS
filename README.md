@@ -1,3 +1,5 @@
+Access the [latest version of the BDNS specification](https://theodi.github.io/BDNS/)
+
 # Building Device and Asset Naming Standards initiative
 
 {{< include release.md >}}
