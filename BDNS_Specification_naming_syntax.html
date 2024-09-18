@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>bdns_specification_naming_syntax</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">BDNS</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./BDNS_Governance_model.html"> 
+<span class="menu-text">Governance</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./BDNS_Scoping_guidelines_and_principles.html"> 
+<span class="menu-text">Scope</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./BDNS_Specification_naming_syntax.html" aria-current="page"> 
+<span class="menu-text">Naming Specification Syntax</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./BDNS_Abbreviations_Register.html"> 
+<span class="menu-text">Abbreviations Register</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#building-device-and-asset-naming-standards-initiative" id="toc-building-device-and-asset-naming-standards-initiative" class="nav-link active" data-scroll-target="#building-device-and-asset-naming-standards-initiative">Building Device and Asset Naming Standards initiative</a></li>
+  <li><a href="#specification-for-naming-syntax" id="toc-specification-for-naming-syntax" class="nav-link" data-scroll-target="#specification-for-naming-syntax">Specification for naming syntax</a>
+  <ul class="collapse">
+  <li><a href="#purpose-and-scope" id="toc-purpose-and-scope" class="nav-link" data-scroll-target="#purpose-and-scope">Purpose and scope</a></li>
+  <li><a href="#specification-clause-example" id="toc-specification-clause-example" class="nav-link" data-scroll-target="#specification-clause-example">Specification clause example</a></li>
+  <li><a href="#deviceasset-instance-identification-and-naming" id="toc-deviceasset-instance-identification-and-naming" class="nav-link" data-scroll-target="#deviceasset-instance-identification-and-naming">Device/Asset instance identification and naming</a></li>
+  <li><a href="#deviceasset-type-identification-and-naming" id="toc-deviceasset-type-identification-and-naming" class="nav-link" data-scroll-target="#deviceasset-type-identification-and-naming">Device/Asset type identification and naming</a>
+  <ul class="collapse">
+  <li><a href="#deviceasset-instance-guid-asset.guid" id="toc-deviceasset-instance-guid-asset.guid" class="nav-link" data-scroll-target="#deviceasset-instance-guid-asset.guid">Device/Asset instance GUID (asset.guid)</a></li>
+  <li><a href="#deviceasset-type-asset.type" id="toc-deviceasset-type-asset.type" class="nav-link" data-scroll-target="#deviceasset-type-asset.type">Device/Asset type (asset.type)</a></li>
+  <li><a href="#deviceasset-role-name-asset.name" id="toc-deviceasset-role-name-asset.name" class="nav-link" data-scroll-target="#deviceasset-role-name-asset.name">Device/Asset role name (asset.name)</a></li>
+  </ul></li>
+  <li><a href="#physical-deviceasset-labels" id="toc-physical-deviceasset-labels" class="nav-link" data-scroll-target="#physical-deviceasset-labels">Physical device/asset labels</a>
+  <ul class="collapse">
+  <li><a href="#physical-device-human-readable-label" id="toc-physical-device-human-readable-label" class="nav-link" data-scroll-target="#physical-device-human-readable-label">Physical device human readable label</a></li>
+  <li><a href="#physical-deviceasset-machine-readable-identification" id="toc-physical-deviceasset-machine-readable-identification" class="nav-link" data-scroll-target="#physical-deviceasset-machine-readable-identification">Physical device/asset machine readable identification</a></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="BDNS_Specification_naming_syntax.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="building-device-and-asset-naming-standards-initiative" class="level1">
+<h1>Building Device and Asset Naming Standards initiative</h1>
+<p>Status: <em>release</em> 1.3.0-rc1</p>
+</section>
+<section id="specification-for-naming-syntax" class="level1">
+<h1>Specification for naming syntax</h1>
+<section id="purpose-and-scope" class="level2">
+<h2 class="anchored" data-anchor-id="purpose-and-scope">Purpose and scope</h2>
+<p>A consistent approach to naming of assets, devices and building control system control points is fundamental to:</p>
+<ul>
+<li>Achieve consistent identification and data management of devices and assets through the life of a building.</li>
+<li>Enable the deployment of digital buildings and their applications.</li>
+<li>Take advantage of machine learning and artificial intelligence.</li>
+</ul>
+<p>The purpose of this document is to indicate the process to be followed for building projects to name and label assets and devices.</p>
+<p>The following definitions apply:</p>
+<ul>
+<li><strong>Device/Asset Role</strong>: a specific function in a building that is fulfilled by a device. A device role remains fixed for the function even if the hardware is replaced.</li>
+<li><strong>Device/Asset Instance</strong>: a specific individual piece of hardware. If the hardware is replaced for a particular device role, the device instance changes.</li>
+<li><strong>Machine Generated/Readable Device/Asset Instance Globally Unique Identifier (Device/Asset Instance GUID)</strong>: a sequence of digits which is machine generated, is immutable and guaranteed to be globally unique among all identifiers used for the purpose of identification of devices within the digital building system. This type of information can be generated by the manufacturer, BIM or asset management software and is unique to the <em>device instance</em>. If a device is replaced, its <em>Device Instance GUID</em> will change. This type of information _is in the scope of this document.</li>
+<li><strong>Human Readable Device/Asset Type</strong>: a type of device that has been selected to achieve a specific function. A device type remains fixed (provided direct replacement) if the hardware is replaced. (This is an optional field).</li>
+<li><strong>Human Readable Device/Asset Role Name (Device/Asset Role Name)</strong>: an alphanumeric sequence that is selected by a human operator according to a global standard that guarantees correlation to building devices categories and uniqueness within the building for a <em>device role</em>. The device role human readable name will remain unchanged when specific hardware fulfilling the role is changed. This type of information _is in the scope of this document.</li>
+<li><strong>Physical Label</strong>: a physical piece of material affixed to a building control device including the printed name of the device and additional information in the form of QR code, NFC tag or other data encoding technologies. This type of information _is in the scope of this document.</li>
+<li><strong>Network Hostname</strong>: the hostname is a sequence of characters assigned to a device (a host) on a network. A hostname should uniquely identify a single device role on the network at a given point in time. This type of information _is not in the scope of this document.</li>
+<li><strong>Control point name</strong>: the name of each attribute of a device, such as a sensor value or a set point value. This type of information _is not in the scope of this document.</li>
+<li><strong>Metadata</strong>: data associated with a device that provide information about its attributes. This type of information _is not in the scope of this document.</li>
+</ul>
+</section>
+<section id="specification-clause-example" class="level2">
+<h2 class="anchored" data-anchor-id="specification-clause-example">Specification clause example</h2>
+<p>The following specification clause is provided so that BDNS naming can be included in projects:</p>
+<p><em>The convention for building control device naming shall/must follow the Building Device Naming Standard (BDNS) during the project design and construction stages.</em></p>
+<p><em>For a physical device i.e.&nbsp;FCU, CAV etc. the naming conventions for creating these names shall/must be taken from the following links:</em></p>
+<ul>
+<li>https://github.com/theodi/BDNS/blob/master/BDNS_Specification_naming_syntax.md</li>
+<li>https://github.com/theodi/BDNS/blob/master/BDNS_Abbreviations_Register.csv</li>
+</ul>
+</section>
+<section id="deviceasset-instance-identification-and-naming" class="level2">
+<h2 class="anchored" data-anchor-id="deviceasset-instance-identification-and-naming">Device/Asset instance identification and naming</h2>
+<p>Each device or asset will be assigned as a minimum, the following attributes:</p>
+<ul>
+<li>A Device/Asset Instance Global Unique Identifier (GUID)</li>
+<li>A Device/Asset Role Name</li>
+</ul>
+<p>The structure and purpose of these attributes is described in the subsequent sections.</p>
+<p>Where a device or asset is represented in control system software then it shall be named in accordance with this naming standard within the control system software, e.g.&nbsp;a controller or an inverter must be named.</p>
+<p>Wherever possible, the naming shall be applied as close to the edge as possible, i.e.&nbsp;within the device itself rather than at a gateway device, e.g.&nbsp;an M-Bus meter may not be able to adopt the naming within the meters software itself due to the simplicity of the M-Bus protocol, meaning that a mapping would be required between the meter’s software identifier and the naming convention at a gateway.</p>
+</section>
+<section id="deviceasset-type-identification-and-naming" class="level2">
+<h2 class="anchored" data-anchor-id="deviceasset-type-identification-and-naming">Device/Asset type identification and naming</h2>
+<p>During early stages of design, or for generic components (/ BIM objects) where <code>can_be_connected</code> = False, and there are many instances in the BIM model that do not need individual identification (e.g.&nbsp;cables, data cables, pipework, ductwork, …); it may be appropriate to give only a type identification of the object. In these scenarios refer to the <a href="#Device/Asset-type-(asset.type)">asset type naming</a> guidance only.</p>
+<section id="deviceasset-instance-guid-asset.guid" class="level3">
+<h3 class="anchored" data-anchor-id="deviceasset-instance-guid-asset.guid">Device/Asset instance GUID (asset.guid)</h3>
+<p>All devices or assets shall have a unique identifier. Once generated, this shall not be changed at any point for a specific device or asset instance.</p>
+<section id="definition" class="level4">
+<h4 class="anchored" data-anchor-id="definition">Definition</h4>
+<p>The device/asset instance globally unique identifier (GUID) is a machine generated and machine readable unique identifier. It is an auto-generated 128-bit number, which can be encoded using the modalities of the RFC 4122 standard or as an IFC GlobalId object of type <a href="http://www.buildingsmart-tech.org/ifc/IFC4x1/final/html/schema/ifcutilityresource/lexical/ifcgloballyuniqueid.htm">ifcGloballyUniqueId</a>.</p>
+</section>
+<section id="reference-standards" class="level4">
+<h4 class="anchored" data-anchor-id="reference-standards">Reference standards</h4>
+<p><a href="https://tools.ietf.org/html/rfc4122">RFC 4122</a></p>
+<p><a href="https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/">Industry Foundation Classes</a></p>
+</section>
+<section id="originator" class="level4">
+<h4 class="anchored" data-anchor-id="originator">Originator</h4>
+<p>Generated by a BIM operator, design team, project team, manufacturer or facilities team, depending on the project stage.</p>
+<p>In projects which are utilising BIM, this would be generated by the software without human intervention and shall be converted to the latest Industry Foundation Classes encoding.</p>
+<p>For new projects which do not utilise BIM or for application to existing projects this can be generated using one of several freely available GUID tools (e.g.&nbsp;<a href="https://www.guidgenerator.com/">https://www.guidgenerator.com/</a>).</p>
+<p>Alternatively, a unique identifier may be provided by the manufacturer and input to a project master database such as the BIM model.</p>
+</section>
+<section id="format" class="level4">
+<h4 class="anchored" data-anchor-id="format">Format</h4>
+<p>Auto-generated 128-bit integer number.</p>
+<p>If generated from BIM processes, the GUID is represented by 22 <a href="https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/schema/ifcutilityresource/lexical/ifcgloballyuniqueid.htm">IFC base 64</a> characters encoding.</p>
+<p>If generated by GUID tools, the GUID is usually represented by a 32 digits hexadecimal integer number.</p>
+<p>Flexibility of format is to allow for multiple workflows, for example some projects may choose to automatically generate a GUID using BIM software.</p>
+</section>
+<section id="examples" class="level4">
+<h4 class="anchored" data-anchor-id="examples">Examples</h4>
+<p><code>58e6591f-0cef-4bb1-ac9c-6ef03ec58111</code>(32 digits hexadecimal integer)</p>
+<p><code>04aEp5ymD_$u5IxhJN2aGi</code>(<a href="https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/schema/ifcutilityresource/lexical/ifcgloballyuniqueid.htm">IFC base 64</a> format)</p>
+</section>
+<section id="validation-tests" class="level4">
+<h4 class="anchored" data-anchor-id="validation-tests">Validation tests</h4>
+<p>For BIM workflows, the validation procedure shall include the following tests:</p>
+<ol type="1">
+<li><p>Regular expression matching to validate the ID format and avoid non-base64<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> characters and longer or shorter lengths than 22 characters</p></li>
+<li><p>Uniqueness of the ID across all device instances</p></li>
+</ol>
+<section id="regular-expression-matching" class="level5">
+<h5 class="anchored" data-anchor-id="regular-expression-matching">Regular expression matching</h5>
+<p><code>([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12}</code>(32 digits hexadecimal integer)</p>
+<p><code>[A-Za-z0-9_$]{22}</code>(<a href="https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/schema/ifcutilityresource/lexical/ifcgloballyuniqueid.htm">IFC base 64</a> format)</p>
+</section>
+</section>
+</section>
+<section id="deviceasset-type-asset.type" class="level3">
+<h3 class="anchored" data-anchor-id="deviceasset-type-asset.type">Device/Asset type (asset.type)</h3>
+<section id="definition-1" class="level4">
+<h4 class="anchored" data-anchor-id="definition-1">Definition</h4>
+<p>The device or asset type is a human-generated identifier that is unique for a type of assets to the building. It combines a standard abbreviation for device/asset types and a numerical ID that is unique to each specific device/asset type.</p>
+</section>
+<section id="originator-1" class="level4">
+<h4 class="anchored" data-anchor-id="originator-1">Originator</h4>
+<p>Generated by the BIM operator, design team, project team or facilities team, depending on project stage.</p>
+</section>
+<section id="format-1" class="level4">
+<h4 class="anchored" data-anchor-id="format-1">Format</h4>
+<pre><code>&lt;X&gt;&lt;Z&gt;</code></pre>
+<p>where:</p>
+<p><code>X</code>= <type_abbreviation> (alphabetic characters only, variable length, between 2 and 6 characters)</type_abbreviation></p>
+<p><code>Z</code>= <asset_type_incremental_number> (variable length, optional unique integer numbers by asset type in each building, non zero padded)</asset_type_incremental_number></p>
+<p>The type abbreviation shall be according to the <a href="https://github.com/theodi/BDNS/blob/master/BDNS_Abbreviations_Register.csv">Building Device and Asset Abbreviation Registry</a>.</p>
+<p>The format is composed of a 2 to 6 uppercase alphabetical characters long type abbreviation according to the name abbreviation (<code>X</code>) and a variable length character numeric sequence that is unique to the building (<code>Z</code>) for each asset type. No leading zeros are allowed in the asset type incremental number to avoid ambiguity.</p>
+<p>Only uppercase alphabetic characters and numeric characters are allowed, according to the regular expression below. There is no separator character between the type abbreviation and the incremental number for the <code>asset.type</code>.</p>
+<p>If there is only one asset type per abbreviation, the asset type incremental number can be omitted.</p>
+</section>
+<section id="examples-1" class="level4">
+<h4 class="anchored" data-anchor-id="examples-1">Examples</h4>
+<p>Asset type example for a lighting fixture asset type: <code>LT3</code></p>
+<p>Asset type example for an air handling unit asset type: <code>AHU10</code></p>
+<p>Asset type example for a distribution board asset type: <code>DB7</code></p>
+<p>Asset type example for a lighting fixture asset type when there is only one type: <code>LT</code></p>
+<p>Asset type example for an air handling unit asset type when there is only one type: <code>AHU</code></p>
+<p>Asset type example for a distribution board asset type when there is only one type: <code>DB</code></p>
+</section>
+<section id="validation-tests-1" class="level4">
+<h4 class="anchored" data-anchor-id="validation-tests-1">Validation tests</h4>
+<p>The validation procedure shall include the following tests:</p>
+<ol type="1">
+<li>Regular expression matching to validate the name format.</li>
+<li>Uniqueness of the name across all asset types in the building.</li>
+</ol>
+<section id="regular-expression-matching-1" class="level5">
+<h5 class="anchored" data-anchor-id="regular-expression-matching-1">Regular expression matching</h5>
+<pre><code>[A-Z]{2,6}(?:[1-9][0-9]*)?</code></pre>
+</section>
+</section>
+</section>
+<section id="deviceasset-role-name-asset.name" class="level3">
+<h3 class="anchored" data-anchor-id="deviceasset-role-name-asset.name">Device/Asset role name (asset.name)</h3>
+<section id="definition-2" class="level4">
+<h4 class="anchored" data-anchor-id="definition-2">Definition</h4>
+<p>The device or asset role name is a human-generated identifier that is unique to the building. It combines a standard abbreviation for device/asset types and a numerical ID that is unique to each specific device/asset.</p>
+</section>
+<section id="originator-2" class="level4">
+<h4 class="anchored" data-anchor-id="originator-2">Originator</h4>
+<p>Generated by the BIM operator, design team, project team or facilities team, depending on project stage.</p>
+</section>
+<section id="format-2" class="level4">
+<h4 class="anchored" data-anchor-id="format-2">Format</h4>
+<pre><code>&lt;X&gt;-&lt;Y&gt;</code></pre>
+<p>or</p>
+<pre><code>&lt;XZ&gt;-&lt;Y&gt;</code></pre>
+<p>where:</p>
+<p><code>X</code>= <type_abbreviation> (alphabetic characters only, variable length, between 2 and 6 characters)</type_abbreviation></p>
+<p><code>Y</code>= <building_unique_incremental_number> (variable length, unique integer numbers by building, non zero padded)</building_unique_incremental_number></p>
+<p><code>Z</code>= <asset_type_incremental_number> (variable length, unique integer numbers by asset type in each building, non zero padded)</asset_type_incremental_number></p>
+<p>The use of the <code>Z</code> field is optional, only in case there is a need to include <code>asset.type</code> definitions.</p>
+<p>The type abbreviation shall be according to the <a href="https://github.com/theodi/BDNS/blob/master/BDNS_Abbreviations_Register.csv">Building Device and Asset Abbreviation Registry</a>.</p>
+<p>The format is composed of a 2 to 6 uppercase alphabetical characters long type abbreviation according to the name abbreviation (<code>X</code>) and a variable length character numeric sequence that is unique to the building (<code>Y</code>). No leading zeros are allowed in the building unique incremental number to avoid ambiguity.</p>
+<p>Only uppercase alphabetic characters and numeric characters are allowed, according to the regular expression below. The separator character between the type abbreviation and incremental number is a hyphen (<code>-</code>).</p>
+<p>For practical reasons, at the discretion of the user and as long as there are no name clashes between devices in the same building, the digits forming the second part of the device role name can be assigned following spatial or discipline specific scoping methods. For instance, the lighting fixtures on zone 1 of level 3 of a 20 storey building can all share the same first part of the name <code>LT-103####</code> and the subsequent integer numbers can be attributed incrementally.</p>
+</section>
+<section id="examples-2" class="level4">
+<h4 class="anchored" data-anchor-id="examples-2">Examples</h4>
+<p>Name example for a lighting fixture: <code>LT-15</code></p>
+<p>Name example for an air handling unit: <code>AHU-3</code></p>
+<p>Name example for a distribution board: <code>DB-2</code></p>
+<p>Name example for a lighting fixture including an asset type: <code>LT3-375</code></p>
+<p>Name example for an air handling unit including an asset type: <code>AHU10-46</code></p>
+<p>Name example for a distribution board including an asset type: <code>DB3-21</code></p>
+</section>
+<section id="validation-tests-2" class="level4">
+<h4 class="anchored" data-anchor-id="validation-tests-2">Validation tests</h4>
+<p>The validation procedure shall include the following tests:</p>
+<ol type="1">
+<li>Regular expression matching to validate the name format.</li>
+<li>Uniqueness of the name across all devices in the building.</li>
+</ol>
+<section id="regular-expression-matching-2" class="level5">
+<h5 class="anchored" data-anchor-id="regular-expression-matching-2">Regular expression matching</h5>
+<pre><code>[A-Z]{2,6}(?:[1-9][0-9]*)?-[1-9][0-9]*</code></pre>
+</section>
+</section>
+</section>
+</section>
+<section id="physical-deviceasset-labels" class="level2">
+<h2 class="anchored" data-anchor-id="physical-deviceasset-labels">Physical device/asset labels</h2>
+<p>Physical device/asset labels shall contain the following items:</p>
+<ol type="1">
+<li>A human readable label with the device/asset name.</li>
+<li>A machine readable label with encoded identification in at least one of the following two formats:
+<ol type="1">
+<li>Quick response (QR) code</li>
+<li>Near field communication (NFC) tag</li>
+</ol></li>
+</ol>
+<p>QR codes and NFC tags are intended for use cases facilitating the maintenance of equipment and for providing a code or a web based user interface to a physical object.</p>
+<p><img width="120" alt="QR Code Example" src="https://user-images.githubusercontent.com/1533891/102150820-5bf1e600-3e69-11eb-97a7-f01112c5cb41.png"></p>
+<section id="physical-device-human-readable-label" class="level3">
+<h3 class="anchored" data-anchor-id="physical-device-human-readable-label">Physical device human readable label</h3>
+<section id="definition-3" class="level4">
+<h4 class="anchored" data-anchor-id="definition-3">Definition</h4>
+<p>The human readable label shall be based on the <strong>device/asset role name</strong> (<code>asset.name</code>) as indicated above.</p>
+<p>For quick interpretation and conciseness, the recommendation is to keep the label to a minimum.</p>
+<p>Optionally, the human-readable label could be augmented by:</p>
+<ul>
+<li>A prefix, indicating the building identification to guarantee global uniqueness beyond the building.</li>
+<li>A suffix, where concise arbitrary notation can be added to facilitate identification of device properties.</li>
+</ul>
+</section>
+<section id="originator-3" class="level4">
+<h4 class="anchored" data-anchor-id="originator-3">Originator</h4>
+<p>System integrator, master system integrator or 3rd party subcontractor, using information from manufacturer, BIM and/or asset tag registry.</p>
+</section>
+<section id="format-3" class="level4">
+<h4 class="anchored" data-anchor-id="format-3">Format</h4>
+<section id="optional-label-prefix" class="level5">
+<h5 class="anchored" data-anchor-id="optional-label-prefix">Optional label prefix</h5>
+<pre><code>&lt;COUNTRY&gt;-&lt;CITY&gt;-&lt;BUILDING&gt;</code></pre>
+<p>where:</p>
+<p><code>&lt;COUNTRY&gt;-&lt;CITY&gt;-&lt;BUILDING&gt;</code> = assigned location code for building, composed of:</p>
+<p><code>&lt;COUNTRY&gt;</code> = <a href="https://www.nationsonline.org/oneworld/country_code_list.htm">ISO Alpha-2 Country Code</a></p>
+<p><code>&lt;CITY&gt;</code> = <a href="https://github.com/datasets/un-locode">UN LOCODE City Code</a></p>
+<p><code>&lt;BUILDING&gt;</code> = the project specific abbreviation for the building</p>
+<p>The location code identification guarantees global uniqueness.</p>
+<p>The name deliberately omits information like floor, area or connection that can change in it. The optional suffix in the physical label can however contain additional information such as floor level if useful for the specific use case.</p>
+</section>
+</section>
+<section id="compulsory-deviceasset-label-name-same-as-asset.name" class="level4">
+<h4 class="anchored" data-anchor-id="compulsory-deviceasset-label-name-same-as-asset.name">Compulsory device/asset label name (same as <code>asset.name</code>)</h4>
+<pre><code>&lt;X&gt;-&lt;Y&gt;</code></pre>
+<section id="optional-label-suffix" class="level5">
+<h5 class="anchored" data-anchor-id="optional-label-suffix">Optional label suffix</h5>
+<pre><code>_&lt;text&gt;</code></pre>
+<p>where</p>
+<p><code>text</code> = a free text alphanumeric sequence without underscores and without white spaces that adds useful information to the label that can be immediately seen. Text can be hyphenated (-) to represent floor information, room information, distribution board or related equipment.</p>
+<p>The suffix in the physical label (not in <code>device.name</code>) allows practical use of the labels to maintenance technicians and facility managers to avoid disrupting traditional workflows. With time, apps and automation, the suffix is likely to disappear.</p>
+</section>
+</section>
+<section id="examples-3" class="level4">
+<h4 class="anchored" data-anchor-id="examples-3">Examples</h4>
+<p>Compulsory short format name label</p>
+<pre><code>TSTAT-1</code></pre>
+<p>Prefix format label</p>
+<pre><code>UK-LON-BLD1_TSTAT-1</code></pre>
+<p>Suffix format label example (optional for capturing existing tagging information)</p>
+<pre><code>TSTAT-1_RH-2-3-25-CO2
+TSTAT-2_EF</code></pre>
+<p><img width="120" alt="QR Code Example" src="https://user-images.githubusercontent.com/1533891/102150891-83e14980-3e69-11eb-88bd-8657b347a42a.png"></p>
+</section>
+</section>
+<section id="physical-deviceasset-machine-readable-identification" class="level3">
+<h3 class="anchored" data-anchor-id="physical-deviceasset-machine-readable-identification">Physical device/asset machine readable identification</h3>
+<section id="definition-4" class="level4">
+<h4 class="anchored" data-anchor-id="definition-4">Definition</h4>
+<p>The machine readable label is a physical adhesive label that encodes identification and naming to enable automation for identification, provisioning, commissioning and maintenance of devices throughout their lifecycle, from initial configuration and installation to operation and decommissioning.</p>
+</section>
+<section id="reference-standards-1" class="level4">
+<h4 class="anchored" data-anchor-id="reference-standards-1">Reference standards</h4>
+<p><a href="https://www.iso.org/standard/62021.html">ISO/IEC 18004:2015</a></p>
+<p><a href="https://www.iso.org/standard/53430.html">ISO/IEC 13157-1:2010</a></p>
+<p><a href="https://www.iso.org/standard/53424.html">ISO/IEC 18000-3:2010</a></p>
+<p><a href="https://www.iso.org/standard/56692.html">ISO/IEC 18092:2013</a></p>
+</section>
+<section id="originator-4" class="level4">
+<h4 class="anchored" data-anchor-id="originator-4">Originator</h4>
+<p>Master system integrator or 3rd party subcontractor, using information from the contractor’s BIM workflow, asset tag registry and device manufacturers.</p>
+</section>
+<section id="physical-format" class="level4">
+<h4 class="anchored" data-anchor-id="physical-format">Physical format</h4>
+<p>The QR code shall be created according to ISO/IEC 18004:2015. The QR code payload shall be <a href="https://en.wikipedia.org/wiki/Minification_(programming)">minified</a> to reduce the number of characters and shall include the following information.</p>
+<section id="model-format-encoding-example-for-bim-models" class="level5">
+<h5 class="anchored" data-anchor-id="model-format-encoding-example-for-bim-models">Model format (encoding) example for BIM models</h5>
+<pre><code>{
+  "asset": {
+    "guid": "ifc://04aEp5ymD_$u5IxhJN2aGi",
+    "site": "GB-LON-BLD1",
+    "name": "AHU-1"
+  }
+}</code></pre>
+</section>
+<section id="minified-model-format-encoding-example" class="level5">
+<h5 class="anchored" data-anchor-id="minified-model-format-encoding-example">Minified model format (encoding) example</h5>
+<pre><code>{"asset":{"guid":"ifc://04aEp5ymD_$u5IxhJN2aGi","site":"GB-LON-BLD1","name":"AHU-1"}}</code></pre>
+</section>
+<section id="model-format-encoding-when-no-bim-id-is-available" class="level5">
+<h5 class="anchored" data-anchor-id="model-format-encoding-when-no-bim-id-is-available">Model format (encoding) when no BIM ID is available</h5>
+<section id="machine-generated-using-uuidgen" class="level6">
+<h6 class="anchored" data-anchor-id="machine-generated-using-uuidgen">Machine generated using <a href="http://man7.org/linux/man-pages/man1/uuidgen.1.html">uuidgen</a></h6>
+<pre><code>{
+  "asset": {
+    "guid": "uuid://d3501378-dd50-47c5-ae26-806726e1b749",
+    "site": "GB-LON-BLD1",
+    "name": "AHU-1"
+  }
+}</code></pre>
+</section>
+<section id="linked-to-the-device-name-indicated-in-the-drawings" class="level6">
+<h6 class="anchored" data-anchor-id="linked-to-the-device-name-indicated-in-the-drawings"><strong>Linked to the device name indicated in the drawings</strong></h6>
+<pre><code>{
+  "asset": {
+    "guid": "drw://AHU001",
+    "site": "GB-LON-BLD1",
+    "name": "AHU-1"
+  }
+}</code></pre>
+</section>
+</section>
+</section>
+</section>
+<section id="notes" class="level3">
+<h3 class="anchored" data-anchor-id="notes">Notes</h3>
+<p>If necessary, it would be easy to do a simple 1:1 mapping for <code>_</code> ⇔ <code>/</code> and <code>$</code> ⇔ <code>+</code> if necessary for other parts of the system that may treat <code>$</code> or <code>_</code> as reserved characters.</p>
+
+
+</section>
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Note that the IFC standard is slightly different than the web-standard base64 encoding, specifically using <code>_</code> and <code>$</code> instead of <code>/</code> and <code>+</code>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

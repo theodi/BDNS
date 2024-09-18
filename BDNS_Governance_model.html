@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>bdns_governance_model</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">BDNS</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./BDNS_Governance_model.html" aria-current="page"> 
+<span class="menu-text">Governance</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./BDNS_Scoping_guidelines_and_principles.html"> 
+<span class="menu-text">Scope</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./BDNS_Specification_naming_syntax.html"> 
+<span class="menu-text">Naming Specification Syntax</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./BDNS_Abbreviations_Register.html"> 
+<span class="menu-text">Abbreviations Register</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#building-device-and-asset-naming-standards-initiative" id="toc-building-device-and-asset-naming-standards-initiative" class="nav-link active" data-scroll-target="#building-device-and-asset-naming-standards-initiative">Building Device and Asset Naming Standards initiative</a></li>
+  <li><a href="#governance-model" id="toc-governance-model" class="nav-link" data-scroll-target="#governance-model">Governance model</a>
+  <ul class="collapse">
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#scope" id="toc-scope" class="nav-link" data-scroll-target="#scope">Scope</a></li>
+  <li><a href="#governance-and-platforms" id="toc-governance-and-platforms" class="nav-link" data-scroll-target="#governance-and-platforms">Governance and platforms</a></li>
+  <li><a href="#our-governance-principles" id="toc-our-governance-principles" class="nav-link" data-scroll-target="#our-governance-principles">Our governance principles</a></li>
+  <li><a href="#intellectual-property" id="toc-intellectual-property" class="nav-link" data-scroll-target="#intellectual-property">Intellectual property</a></li>
+  <li><a href="#roles-and-responsibilities" id="toc-roles-and-responsibilities" class="nav-link" data-scroll-target="#roles-and-responsibilities">Roles and responsibilities</a>
+  <ul class="collapse">
+  <li><a href="#the-community-group" id="toc-the-community-group" class="nav-link" data-scroll-target="#the-community-group">The Community Group</a></li>
+  <li><a href="#chairs" id="toc-chairs" class="nav-link" data-scroll-target="#chairs">Chair(s)</a></li>
+  <li><a href="#editors" id="toc-editors" class="nav-link" data-scroll-target="#editors">Editor(s)</a></li>
+  <li><a href="#community-group-members" id="toc-community-group-members" class="nav-link" data-scroll-target="#community-group-members">Community Group members</a></li>
+  <li><a href="#other-roles" id="toc-other-roles" class="nav-link" data-scroll-target="#other-roles">Other roles</a></li>
+  </ul></li>
+  <li><a href="#how-we-collaborate" id="toc-how-we-collaborate" class="nav-link" data-scroll-target="#how-we-collaborate">How we collaborate</a></li>
+  <li><a href="#managing-change-and-building-consensus" id="toc-managing-change-and-building-consensus" class="nav-link" data-scroll-target="#managing-change-and-building-consensus">Managing change and building consensus</a>
+  <ul class="collapse">
+  <li><a href="#versioning-of-documents" id="toc-versioning-of-documents" class="nav-link" data-scroll-target="#versioning-of-documents">Versioning of documents</a></li>
+  <li><a href="#our-process-for-building-consensus" id="toc-our-process-for-building-consensus" class="nav-link" data-scroll-target="#our-process-for-building-consensus">Our process for building consensus</a></li>
+  <li><a href="#proposing-specification-changes" id="toc-proposing-specification-changes" class="nav-link" data-scroll-target="#proposing-specification-changes">Proposing specification changes</a></li>
+  <li><a href="#submission-process-for-building-device-names" id="toc-submission-process-for-building-device-names" class="nav-link" data-scroll-target="#submission-process-for-building-device-names">Submission process for building device names</a></li>
+  </ul></li>
+  <li><a href="#funding" id="toc-funding" class="nav-link" data-scroll-target="#funding">Funding</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="BDNS_Governance_model.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="building-device-and-asset-naming-standards-initiative" class="level1">
+<h1>Building Device and Asset Naming Standards initiative</h1>
+<p>Status: <em>release</em> 1.3.0-rc1</p>
+</section>
+<section id="governance-model" class="level1">
+<h1>Governance model</h1>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>This document provides an overview of governance and processes used in the initiative to create a standard for device and assets naming and labeling in the built environment. This initiative was started in late 2019 by a number of organisations working on or with data and/or built environment systems, with an ambition to create an open standard for Building Device Naming.</p>
+<p>This document is intended to be a useful reference point for anyone involved in contributing to the open standard(s) being developed.</p>
+</section>
+<section id="scope" class="level2">
+<h2 class="anchored" data-anchor-id="scope">Scope</h2>
+<p>Building devices and assets in scope for this work are Mechanical, Electrical, Public Health (MEP) devices (known as Operational Technologies - OT) and Information Technology (IT).</p>
+<p>This standard is developed to align and complement other initiatives in the industry such as Brick Schema, Haystack, Omniclass, Uniclass, IFC etc. In scope for this work are:</p>
+<ul>
+<li>A <a href="./BDNS_Specification_naming_syntax.html">specification for the naming syntax</a></li>
+<li>A <a href="BDNS_Abbreviations_Register.csv">register of building device and asset type abbreviations</a></li>
+</ul>
+</section>
+<section id="governance-and-platforms" class="level2">
+<h2 class="anchored" data-anchor-id="governance-and-platforms">Governance and platforms</h2>
+<p>Development and future maintenance of the naming and labelling standard for building devices will rely on technical platforms.</p>
+<p>The used platforms are:</p>
+<ol type="1">
+<li>GitHub for hosting of the specifications and related documentation, issue tracking and resolution;</li>
+<li>a W3C Community group for mailing-lists and other collaboration tools.</li>
+</ol>
+<p>The platforms provide mechanisms to raise, discuss and resolve issues. They are however agnostic on the decision process used to resolve issues, deal with disagreement, or appoint key roles. This document describes the associated governance.</p>
+</section>
+<section id="our-governance-principles" class="level2">
+<h2 class="anchored" data-anchor-id="our-governance-principles">Our governance principles</h2>
+<p>As a group we are committed to <a href="https://open-stand.org/about-us/principles/">the OpenStand principles</a>. These are five principles that guide our work:</p>
+<ul>
+<li><strong>Due process</strong>. Decisions are made with equity and fairness among participants. No one party dominates or guides standards development. Standards processes are transparent and opportunities exist to appeal decisions. Processes for periodic standards review and updating are well defined.</li>
+<li><strong>Broad consensus</strong>. Processes allow for all views to be considered and addressed, such that agreement can be found across a range of interests.</li>
+<li><strong>Transparency</strong>. Standards organizations provide advance public notice of proposed standards development activities, the scope of work to be undertaken, and conditions for participation. Easily accessible records of decisions and the materials used in reaching those decisions are provided. Public comment periods are provided before final standards approval and adoption.</li>
+<li><strong>Balance</strong>. Standards activities are not exclusively dominated by any particular person, company or interest group.</li>
+<li><strong>Openness</strong>. Standards processes are open to all interested and informed parties.</li>
+</ul>
+<p>We are working to improve our process to ensure that we are living up to these principles. This document provides a reference point for our current practices.</p>
+</section>
+<section id="intellectual-property" class="level2">
+<h2 class="anchored" data-anchor-id="intellectual-property">Intellectual property</h2>
+<p>All the outputs from this standards initiative are openly licensed.</p>
+<p>The formal specifications created within the W3C community group are published under <a href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document">the W3C software and document notice and license</a>. It gives permission for you to reuse the work, including implementing the specifications for free, for any purpose.</p>
+<p>Additional documentation and source code produced by this initiative will also be published under an open licence, e.g.&nbsp;the Creative Commons Attribution Licence, or the MIT licence. We encourage other organisations to similarly licence their work, so that it can be used for the benefit of the wider community.</p>
+<p>Individual contributions to the work of the group are covered by <a href="https://www.w3.org/community/about/agreements/cla/">the contributor agreement</a>. This gives the group permission to use individual contributions (e.g.&nbsp;suggested text, contributions to test suites) and publish them under an open licence.</p>
+</section>
+<section id="roles-and-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="roles-and-responsibilities">Roles and responsibilities</h2>
+<section id="the-community-group" class="level3">
+<h3 class="anchored" data-anchor-id="the-community-group">The Community Group</h3>
+<p>A W3C community group provides a neutral location for organisations working across different sectors to collaborate on openly licensed specifications.</p>
+<p>The W3C provide the group with a homepage, a means to publish specifications, and some collaboration tools (e.g.&nbsp;our mailing list). This provides the group with a stable presence on the web, even though the membership of the group might change over time.</p>
+<p>The active organisations participating in the Community Group are:</p>
+<ul>
+<li>Arup</li>
+<li>British Land</li>
+<li>BuildingsIOT</li>
+<li>FPC</li>
+<li>Google</li>
+<li>Lloret</li>
+<li>Max Fordham LLP</li>
+</ul>
+</section>
+<section id="chairs" class="level3">
+<h3 class="anchored" data-anchor-id="chairs">Chair(s)</h3>
+<p>The community group is currently chaired by Sotiria Lavasa (Arup), having been nominated by the members of the Community Group in March 2020. In the future members from other community group organisations may take on responsibility for chairing and managing the group. The Community Group shall (at the end of each calendar year) review whether the nominated chair continues in term for another year.</p>
+<p>It is the responsibility of the Chair to ensure that we are following our governance principles. For example, ensuring that we have developed broad consensus around planned changes, are being transparent around decision making, and are working in the open.</p>
+</section>
+<section id="editors" class="level3">
+<h3 class="anchored" data-anchor-id="editors">Editor(s)</h3>
+<p>The role of the editor(s) is to document decisions and write the specifications for the standard, in line with the decisions. It also includes sharing drafts and changes and gathering feedback from the community.</p>
+<p>Editors appointments are suggested by the chairs, and the decision to appoint follows the group’s usual <a href="#heading=h.xhh6rjqudxhq">process for consensus</a>.</p>
+<p>Current editor(s) for the group is/are:</p>
+<ul>
+<li>Francesco Anselmo (<span class="citation" data-cites="pisuke">@pisuke</span>) – Arup – Register and Syntax</li>
+<li>Richard Reid (<span class="citation" data-cites="richardkreid">@richardkreid</span>) – Google – Register and Syntax</li>
+<li>Olivier Thereaux (<span class="citation" data-cites="olivierthereaux">@olivierthereaux</span>) - ODI - Governance document</li>
+</ul>
+</section>
+<section id="community-group-members" class="level3">
+<h3 class="anchored" data-anchor-id="community-group-members">Community Group members</h3>
+<p>Anyone can join the community group. Everyone who joins the group signs <a href="https://www.w3.org/community/about/agreements/cla/">a contributor agreement</a>. The contributor agreement is part of our commitment to working in the open. It helps to ensure that the work we create can be freely used by anyone for any purpose. All of our outputs are published under an open licence.</p>
+<p>Contributions from the group are voluntary. However we ask that all members think about <a href="https://www.w3.org/community/openactive/how-to-contribute/">how they can contribute</a>, including:</p>
+<ul>
+<li>where possible, attending meetings to provide feedback on current plans</li>
+<li>providing feedback on working documents, and reviewing and voting on issues to help us progress our work</li>
+<li>adopting our standards in your projects and platforms</li>
+<li>provide implementation feedback that can help us plan and prioritise new work</li>
+<li>promoting our activities to a wider community to help us create impact</li>
+</ul>
+<p>To support members we provide a number of ways to engage with our work. These are outlined below.</p>
+</section>
+<section id="other-roles" class="level3">
+<h3 class="anchored" data-anchor-id="other-roles">Other roles</h3>
+<p>Other roles, such as test manager, etc. may be appointed at certain phases of the lifecycle of the standard. A number of those roles and their typical responsibilities are listed in the <a href="https://standards.theodi.org/creating-open-standards/roles-and-responsibilities/">Open Standards for Data guidebook</a>.</p>
+<p>Appointment of those roles among Community Group members are suggested by the chairs, and the decision to appoint follows the group’s usual process for consensus.</p>
+</section>
+</section>
+<section id="how-we-collaborate" class="level2">
+<h2 class="anchored" data-anchor-id="how-we-collaborate">How we collaborate</h2>
+<p>We aim to be respectful of people’s time and so provide multiple ways to monitor progress and engage with the work of the group.</p>
+<p>We aim to use collaboration tools that will enable people to usefully participate in discussions and to help move our work forward.</p>
+<p>Currently we use the following:</p>
+<ul>
+<li><strong>Mailing lists</strong>. The community group has a two mailing-lists: an internal mailing-list used for logistics of the group, and a <a href="https://lists.w3.org/Archives/Public/public-bdns/">publicly available and archived mailing list</a> which anyone can subscribe to. We use this list for key announcements and co-ordinating events.</li>
+<li><strong>Regular teleconference</strong>. Active members of the community group meet frequently (currently: weekly) to discuss progress on the documents and issues. Decisions made during the meeting will be documented in Github issues or commit messages, and may also be posted on the public mailing-list. We also hold quarterly open video calls to provide updates on progress and to help discuss key issues. Dates and logistics of the next call, as well as notes or minutes of previous calls, will be posted on the public mailing-list.</li>
+<li><strong>GitHub</strong>. We use GitHub to manage our working documents and as an issue tracker. The issue tracker for each specification is clearly linked at the top of the document.</li>
+<li><strong>Google Documents</strong>. We occasionally use google documents to help to collaborate on additional best practice guidance or documentation. Documents are always made openly available for anyone to view and/or comment. Documents are shared via the mailing list.</li>
+<li><strong>Blog</strong>. For key milestones we publish short blog posts on the <a href="https://www.w3.org/community/bdns/">W3C Community Group blog</a>.</li>
+</ul>
+<p>Over time we may use additional tools and website to help publish additional tutorials and other supporting documentation.</p>
+</section>
+<section id="managing-change-and-building-consensus" class="level2">
+<h2 class="anchored" data-anchor-id="managing-change-and-building-consensus">Managing change and building consensus</h2>
+<section id="versioning-of-documents" class="level3">
+<h3 class="anchored" data-anchor-id="versioning-of-documents">Versioning of documents</h3>
+<p>The group expects to produce and maintain two types of standards:</p>
+<ol type="1">
+<li>A simple syntax specification</li>
+<li>A register of building device names</li>
+</ol>
+<p>The former specification goes through the following stages:</p>
+<ul>
+<li><strong>Editors Draft</strong>. Working versions of the specifications that are under discussion and review by the community group. These drafts are subject to change.</li>
+<li><strong>Candidate Specification</strong>. Current stable version of our specifications, incorporating the latest agreed changes. These versions are considered stable enough for production implementation. Candidate Specifications will be point releases, e.g.&nbsp;1.1, 1.2, 1.3 version of a specification.</li>
+<li><strong>Final Specification</strong>. A major revision of our specifications. These are clearly linked as “Final Reports” from the community group homepage.</li>
+</ul>
+<p>Candidate and Final Specifications are clearly versioned. To allow for referencing of earlier versions, we will provide links to previous versions of a specification.</p>
+<p>Editors will be in charge of managing the evolution of the specification according to our <a href="#heading=h.xhh6rjqudxhq">process for building consensus</a>.</p>
+<p>For the register of building device names, there are:</p>
+<ul>
+<li><strong>A live list</strong> reflecting at any point the latest state of the list as maintained by the Editors.</li>
+<li><strong>Stable snapshots of the list</strong> with clear version names will be created on a regular basis (aiming to be at least once a year) to provide a stable basis for implementation. Snapshots will only include names for which no open issue is currently open.</li>
+</ul>
+<p>In the interest of speed and flexibility, Editors will be following the <a href="#heading=h.rl8sa2ijqaz3">simplified submission process</a> when adding new entries to the register.</p>
+</section>
+<section id="our-process-for-building-consensus" class="level3">
+<h3 class="anchored" data-anchor-id="our-process-for-building-consensus">Our process for building consensus</h3>
+<p>Our process for making changes to our specifications and building consensus within the community is as follows:</p>
+<ul>
+<li>propose and discuss new work areas in our regular calls, e.g.&nbsp;plans for tackling major new work areas</li>
+<li>raise issues on Github to outline proposed changes in more detail:</li>
+<li>encourage discussion and feedback on those issues by requesting that people leave comments on Github.</li>
+<li>in addition we also review and discuss issues in our regular calls and collate these comments, updating the relevant issues</li>
+<li>once we have a clear proposal with support from the community (see process, below), the specification editor will create a new Editors Draft of the relevant specification, including the proposed changes.</li>
+<li>new and updated Editors Drafts will be circulated to the community group via the mailing list, with a summary of changes</li>
+<li>once we feel that a broad consensus has been achieved around the proposed changes, we will publish a new Candidate Specification</li>
+<li>prior to the annual point release of a specification we will issue a request for any major issues or concerns prior to the publication of the Final Specification.</li>
+</ul>
+<p>Where we have proposed changes to release, we will aim to publish new Candidate Specifications every two months.</p>
+<p>This process provides for multiple points of feedback and communication, giving everyone an opportunity to :</p>
+<ul>
+<li>discussion during our regular calls</li>
+<li>comments on proposed changes or amendment on individual github issues</li>
+<li>call for feedback on new and updated Editors Drafts</li>
+<li>annual call for feedback prior to a major release</li>
+</ul>
+<p>We will aim to do quarterly release updates to the abbreviations register.</p>
+</section>
+<section id="proposing-specification-changes" class="level3">
+<h3 class="anchored" data-anchor-id="proposing-specification-changes">Proposing specification changes</h3>
+<p>Anyone can propose changes to our specifications. The process is to:</p>
+<ol type="1">
+<li>File a proposal by submitting an issue to the relevant GitHub repository for the specification.</li>
+<li>Share your proposal with the community by posting to the community group mailing list</li>
+<li>Work with others, including the specification editor, to respond to any feedback, including making any necessary revisions to the proposal</li>
+<li>Work with the specification editor to make sure that proposal is incorporated in draft</li>
+</ol>
+<p>To help guide decision making we suggest that editors should look for the following as signs that a proposal has the necessary support from the community:</p>
+<ul>
+<li>the backing of both a publisher and a consumer of the data (or API), to be named in the github issue</li>
+<li>at least three positive votes (on the relevant github issue or issues) from community group members</li>
+</ul>
+<p>It is the responsibility of both the person submitting a proposal and the specification editor to ensure that the proposed changes fit within the design principles and scope of the specification.</p>
+</section>
+<section id="submission-process-for-building-device-names" class="level3">
+<h3 class="anchored" data-anchor-id="submission-process-for-building-device-names">Submission process for building device names</h3>
+<p>Anyone can submit a new name to the register. The process for submission is as follows:</p>
+<ol type="1">
+<li>A submission can be made through one of several technical means:
+<ol type="1">
+<li>Additions to the register can be proposed by submitting a “pull request” to the <a href="https://github.com/theodi/BDNS">Github repository</a>.</li>
+<li>Alternative submission mechanisms (e.g.&nbsp;through a mail address) may be made available if the Github PR mechanisms are deemed too technical.</li>
+</ol></li>
+<li>A notification of the submission is made available to the Community Group</li>
+<li>If there are no objections from members of the Community Group or Editors, the editors will either integrate the submission or suggest an alternative to the submitter within two weeks.</li>
+<li>If there are objections from members of the Community Group or Editors, the issue is escalated to the attention of the Community Group and its Chair(s), and the normal consensus building process applies.</li>
+</ol>
+<p>Any change to the register of names will follow the process for <a href="#heading=h.a8exiljj8ajq">proposing specification changes</a> and the <a href="#heading=h.xhh6rjqudxhq">consensus building rules</a>.</p>
+</section>
+</section>
+<section id="funding" class="level2">
+<h2 class="anchored" data-anchor-id="funding">Funding</h2>
+<p>The ODI’s contribution during Phase 1 (2019/2020) of the project was funded through the Arup-ODI Partnership agreement.</p>
+<p><a href="https://www.arup.com">Arup</a>, <a href="https://www.buildingsiot.com/">Buildings IoT</a> and <a href="https://www.fpc-global.com/">FPC</a> worked in 2020 and 2021 as part of agreed Statement of Works funded by Google to undertake the following: * Facilitate the adoption of a Google internal list of abbreviations into BDNS. * Review, updating and addition of Google project related abbreviations.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
