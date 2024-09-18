@@ -1,9 +1,13 @@
-
+---
+format: 
+  html: default
+  pdf: default
+---
 # Building Device and Asset Naming Standards initiative
 
-Status: *release 1.1.0*
+{{< include release.md >}}
 
-## Governance model
+# Governance model
 
 ## Background
 

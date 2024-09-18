@@ -1,2 +1,5 @@
 .vscode
 .idea
+
+/.quarto/
+/_site/*

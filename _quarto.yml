@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  navbar:
+    left:
+      - href: index.qmd
+      - href: BDNS_Governance_model.md
+        text: Governance
+      - href: BDNS_Scoping_guidelines_and_principles.md
+        text: Scope
+      - href: BDNS_Specification_naming_syntax.md
+        text: Naming Specification Syntax
+      - href: BDNS_Abbreviations_Register.qmd
+        text: Abbreviations Register
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
