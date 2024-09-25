@@ -4,7 +4,7 @@
     "href": "BDNS_Specification_naming_syntax.html",
     "title": "Building Device and Asset Naming Standards initiative",
     "section": "",
-    "text": "Status: release 1.3.0-rc1"
+    "text": "Status: release 1.3.0"
   },
   {
     "objectID": "BDNS_Specification_naming_syntax.html#purpose-and-scope",
@@ -53,7 +53,7 @@
     "href": "BDNS_Scoping_guidelines_and_principles.html",
     "title": "Building Device and Asset Naming Standards initiative",
     "section": "",
-    "text": "Status: release 1.3.0-rc1"
+    "text": "Status: release 1.3.0"
   },
   {
     "objectID": "BDNS_Scoping_guidelines_and_principles.html#context-and-background",
@@ -109,7 +109,7 @@
     "href": "index.html",
     "title": "BDNS",
     "section": "",
-    "text": "Status: release 1.3.0-rc1\nThis repository holds resources for an initiative to improve interoperability in building management, by focusing on standardising naming of building devices and assets.\nAchieving a common standard across building devices’ naming is an important first step towards being able to efficiently collect, analyse and capture data insights from buildings, and thus optimise building performance to reduce the operational cost and environmental impact of managing buildings.\nLonger-term, this sets the groundwork for real industry collaboration - with the potential to create industry-wide benchmarking, and to facilitate trading of buildings between portfolios.\nA naming and labelling standard (complementing other industry initiatives ) will simplify and drive consistency, thus increasing value by unlocking the application of technologies such as machine learning.\nThe work of this community group aligns with and complements other initiatives in the industry such as:\n\nIFC\nUniclass and Uniclass2\nOmniclass\nCIBSE Symbols\nUDMI\nWeb of Things\nHyperCat\nProject Haystack\nBrick Schema\nDigital Buildings Ontology\n\nIn scope for this work are: - A specification for naming syntax - A register of building device type abbreviations\nThe register of building device type abbreviations includes the following columns:\n\nasset_description - a desription of what is named; the description typically includes a category when the level of granularity of the abbreviation is more specific\nasset_abbreviation - the BDNS abbreviation itself\ncan_be_connected - a boolean value that distinguishes between assets that do not include any means of network connectivity and connectable devices\ndbo_entity_type - the Digital Buildings Ontology namespace and entity type that can be associated to the BDNS abbreviation; NOTE: while BDNS presupposes that modelers will apply abbreviations consistently based on similar domain expertise, DBO does not; instead, it provides definitions for devices which may have overlapping function or where terms are ambiguous. For example, while a BDNS user may find the distinction between AHU, ACU, and RTU to be meaningful, DBO does consider all of these as classes of AHU (and provides a definition for what an AHU is.\nifc_class - the IFC class that can be associated to the BDNS abbreviation\nifc_type - the specific IFC type associated to the IFC class that can be associated to the BDNS abbreviation\n\nThe comparison columns have the purpose of providing a simple means to correlate the naming of instances with ontology objects that are present in different building services and systems related ontologies, like the Digital Buildings Ontology and IFC.\n\n\nThe device and asset names defined in this standard are meant to be used in the following applications:\n\nnaming of CAD object instances in drawings\nnaming of object instances in BIM models\nnaming of control devices in control software (for instance BACnet device names)\nnaming of assets in asset management systems\nnaming of devices in IoT ingestion systems\nnaming of devices and assets in databases\nnaming of devices and assets in MQTT topics\n\n\n\n\nAt the moment of release 1.1.0, the standard is primarily focusing on naming of building control devices. It also includes a number of maintainable asset names."
+    "text": "Status: release 1.3.0\nThis repository holds resources for an initiative to improve interoperability in building management, by focusing on standardising naming of building devices and assets.\nAchieving a common standard across building devices’ naming is an important first step towards being able to efficiently collect, analyse and capture data insights from buildings, and thus optimise building performance to reduce the operational cost and environmental impact of managing buildings.\nLonger-term, this sets the groundwork for real industry collaboration - with the potential to create industry-wide benchmarking, and to facilitate trading of buildings between portfolios.\nA naming and labelling standard (complementing other industry initiatives ) will simplify and drive consistency, thus increasing value by unlocking the application of technologies such as machine learning.\nThe work of this community group aligns with and complements other initiatives in the industry such as:\n\nIFC\nUniclass and Uniclass2\nOmniclass\nCIBSE Symbols\nUDMI\nWeb of Things\nHyperCat\nProject Haystack\nBrick Schema\nDigital Buildings Ontology\n\nIn scope for this work are: - A specification for naming syntax - A register of building device type abbreviations\nThe register of building device type abbreviations includes the following columns:\n\nasset_description - a desription of what is named; the description typically includes a category when the level of granularity of the abbreviation is more specific\nasset_abbreviation - the BDNS abbreviation itself\ncan_be_connected - a boolean value that distinguishes between assets that do not include any means of network connectivity and connectable devices\ndbo_entity_type - the Digital Buildings Ontology namespace and entity type that can be associated to the BDNS abbreviation; NOTE: while BDNS presupposes that modelers will apply abbreviations consistently based on similar domain expertise, DBO does not; instead, it provides definitions for devices which may have overlapping function or where terms are ambiguous. For example, while a BDNS user may find the distinction between AHU, ACU, and RTU to be meaningful, DBO does consider all of these as classes of AHU (and provides a definition for what an AHU is.\nifc_class - the IFC class that can be associated to the BDNS abbreviation\nifc_type - the specific IFC type associated to the IFC class that can be associated to the BDNS abbreviation\n\nThe comparison columns have the purpose of providing a simple means to correlate the naming of instances with ontology objects that are present in different building services and systems related ontologies, like the Digital Buildings Ontology and IFC.\n\n\nThe device and asset names defined in this standard are meant to be used in the following applications:\n\nnaming of CAD object instances in drawings\nnaming of object instances in BIM models\nnaming of control devices in control software (for instance BACnet device names)\nnaming of assets in asset management systems\nnaming of devices in IoT ingestion systems\nnaming of devices and assets in databases\nnaming of devices and assets in MQTT topics\n\n\n\n\n\nCurrently we only serve the latest version of the BDNS built website and pdf documents.\nThe source markdown files of previous versions can be reviewed by referring to the appropriate Github tag/release.\n\ne.g. BDNS=1.2.0 = https://github.com/theodi/BDNS/tree/1.2.0 for the source files of v1.2.0\ne.g. BDNS_Specification_naming_syntax=1.2.0 = https://github.com/theodi/BDNS/blob/1.2.0/BDNS_Specification_naming_syntax.md for a specific version of a document\n\nThe BDNS_Abbreviations_Register.csv data file can also be retrieved directly from a previous tag/release if you are required to pin to a given version.\n\ne.g. BDNS_Abbreviations_Register.csv=1.2.0 = https://raw.githubusercontent.com/theodi/BDNS/1.2.0/BDNS_Abbreviations_Register.csv\n\n\n\n\n\nThe standard is primarily focusing on naming of building control devices, but with its growing usage it also includes a number of maintainable asset names and types."
   },
   {
     "objectID": "index.html#use",
@@ -119,32 +119,39 @@
     "text": "The device and asset names defined in this standard are meant to be used in the following applications:\n\nnaming of CAD object instances in drawings\nnaming of object instances in BIM models\nnaming of control devices in control software (for instance BACnet device names)\nnaming of assets in asset management systems\nnaming of devices in IoT ingestion systems\nnaming of devices and assets in databases\nnaming of devices and assets in MQTT topics"
   },
   {
+    "objectID": "index.html#past-versions",
+    "href": "index.html#past-versions",
+    "title": "BDNS",
+    "section": "",
+    "text": "Currently we only serve the latest version of the BDNS built website and pdf documents.\nThe source markdown files of previous versions can be reviewed by referring to the appropriate Github tag/release.\n\ne.g. BDNS=1.2.0 = https://github.com/theodi/BDNS/tree/1.2.0 for the source files of v1.2.0\ne.g. BDNS_Specification_naming_syntax=1.2.0 = https://github.com/theodi/BDNS/blob/1.2.0/BDNS_Specification_naming_syntax.md for a specific version of a document\n\nThe BDNS_Abbreviations_Register.csv data file can also be retrieved directly from a previous tag/release if you are required to pin to a given version.\n\ne.g. BDNS_Abbreviations_Register.csv=1.2.0 = https://raw.githubusercontent.com/theodi/BDNS/1.2.0/BDNS_Abbreviations_Register.csv"
+  },
+  {
     "objectID": "index.html#note",
     "href": "index.html#note",
     "title": "BDNS",
     "section": "",
-    "text": "At the moment of release 1.1.0, the standard is primarily focusing on naming of building control devices. It also includes a number of maintainable asset names."
+    "text": "The standard is primarily focusing on naming of building control devices, but with its growing usage it also includes a number of maintainable asset names and types."
   },
   {
     "objectID": "release.html",
     "href": "release.html",
     "title": "",
     "section": "",
-    "text": "Status: release 1.3.0-rc1"
+    "text": "Status: release 1.3.0"
   },
   {
     "objectID": "BDNS_Abbreviations_Register.html",
     "href": "BDNS_Abbreviations_Register.html",
     "title": "Building Device and Asset Naming Standards initiative",
     "section": "",
-    "text": "Building Device and Asset Naming Standards initiative\nStatus: release 1.3.0-rc1\n\n\nAbbreviations Register\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n\n\nThis is the init_notebook_mode cell from ITables v2.1.5\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n\n    \n      \n      asset_description\n      asset_abbreviation\n      dbo_entity_type\n      ifc_class\n      ifc_type\n      can_be_connected\n    \n  \n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n\n\nLoading ITables v2.1.5 from the init_notebook_mode cell...\n(need help?)"
+    "text": "Building Device and Asset Naming Standards initiative\nStatus: release 1.3.0\n\n\nAbbreviations Register\n\n\n\n\n\n\n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n\n\nThis is the init_notebook_mode cell from ITables v2.2.1\n(you should not see this message - is your notebook trusted?)\n\n\n\n\n\n\n\n    \n      \n      asset_description\n      asset_abbreviation\n      dbo_entity_type\n      ifc_class\n      ifc_type\n      can_be_connected\n    \n  \n\n\n\n    \n        \n        \n        \n        \n        \n        \n        \n        \n    \n    \n   \n    \n      \n  \n        \n    \n    \n  \n        \n    \n    \n  \n        \n    \n      \n  \n        \n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n\n            \n                \n                \n            \n        \n    \n\n\n\n\nLoading ITables v2.2.1 from the init_notebook_mode cell...\n(need help?)"
   },
   {
     "objectID": "BDNS_Governance_model.html",
     "href": "BDNS_Governance_model.html",
     "title": "Building Device and Asset Naming Standards initiative",
     "section": "",
-    "text": "Status: release 1.3.0-rc1"
+    "text": "Status: release 1.3.0"
   },
   {
     "objectID": "BDNS_Governance_model.html#background",
@@ -207,6 +214,6 @@
     "href": "BDNS_Governance_model.html#funding",
     "title": "Building Device and Asset Naming Standards initiative",
     "section": "Funding",
-    "text": "Funding\nThe ODI’s contribution during Phase 1 (2019/2020) of the project was funded through the Arup-ODI Partnership agreement.\nArup, Buildings IoT and FPC worked in 2020 and 2021 as part of agreed Statement of Works funded by Google to undertake the following: * Facilitate the adoption of a Google internal list of abbreviations into BDNS. * Review, updating and addition of Google project related abbreviations."
+    "text": "Funding\nThe ODI’s contribution during Phase 1 (2019/2020) of the project was funded through the Arup-ODI Partnership agreement.\nArup, Buildings IoT and FPC worked in 2020 and 2021 as part of agreed Statement of Works funded by Google to undertake the following:\n\nFacilitate the adoption of a Google internal list of abbreviations into BDNS.\nReview, updating and addition of Google project related abbreviations."
   }
 ]
