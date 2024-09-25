@@ -1,58 +1,29 @@
-Access the [latest version of the BDNS specification](https://theodi.github.io/BDNS/)
+# BDNS (Building Device Naming Specification)
 
-# Building Device and Asset Naming Standards initiative
+This repository contains the source code for the BDNS Specification.
 
-{{< include release.md >}}
+Access the [latest version of the BDNS specification](https://theodi.github.io/BDNS/).
 
-This repository holds resources for an initiative to improve interoperability in building management, by focusing on standardising naming of building devices and assets.
+Latest versions of pdf's and csv of the BDNS can be taken directly from the [BDNS specification website](https://theodi.github.io/BDNS/)
+or directly via these links: 
 
-Achieving a common standard across building devices’ naming is an important first step towards being able to efficiently collect, analyse and capture data insights from buildings, and thus optimise building performance to reduce the operational cost and environmental impact of managing buildings.
+- [BDNS_Governance_model](https://theodi.github.io/BDNS/BDNS_Governance_model.pdf)
+- [BDNS_Scoping_guidelines_and_principles](https://theodi.github.io/BDNS/BDNS_Scoping_guidelines_and_principles.pdf)
+- [BDNS_Specification_naming_syntax](https://theodi.github.io/BDNS/BDNS_Specification_naming_syntax.pdf)
+- [BDNS_Abbreviations_Register](https://theodi.github.io/BDNS/BDNS_Abbreviations_Register.csv)
 
-Longer-term, this sets the groundwork for real industry collaboration - with the potential to create industry-wide benchmarking, and to facilitate trading of buildings between portfolios.
+## Development
 
-A naming and labelling standard (complementing other industry initiatives ) will simplify and drive consistency, thus increasing value by unlocking the application of technologies such as machine learning.  
+This repo contains the source markdown files which build the published [BDNS specification website](https://theodi.github.io/BDNS/).
+The website is built using the [Quarto](https://quarto.org/) publishing system.
+To test building the documentation locally:
 
-The work of this community group aligns with and complements other initiatives in the industry such as:
+Install [mamba or micromamba](https://mamba.readthedocs.io/en/latest/index.html) then run the commands below line-by-line.
 
-* [IFC](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/)
-* [Uniclass](https://www.thenbs.com/our-tools/uniclass-2015) and [Uniclass2](http://www.cpic.org.uk/uniclass2/)
-* [Omniclass](https://www.csiresources.org/standards/omniclass)
-* [CIBSE Symbols](https://www.cibse.org/knowledge/digital-knowledge-tools/symbols)
-* [UDMI](https://github.com/faucetsdn/udmi)
-* [Web of Things](https://www.w3.org/WoT/)
-* [HyperCat](https://hypercatiot.github.io/)
-* [Project Haystack](https://project-haystack.org/)
-* [Brick Schema](https://brickschema.org/)
-* [Digital Buildings Ontology](https://github.com/google/digitalbuildings)
-
-In scope for this work are:
-- A [specification for naming syntax](BDNS_Specification_naming_syntax.md)
-- A [register of building device type abbreviations](BDNS_Abbreviations_Register.csv)
-
-The [register of building device type abbreviations](BDNS_Abbreviations_Register.csv) includes the following columns:
-
-* `asset_description` - a desription of what is named; the description typically includes a category when the level of granularity of the abbreviation is more specific
-* `asset_abbreviation` - the BDNS abbreviation itself
-* `can_be_connected` - a boolean value that distinguishes between assets that do not include any means of network connectivity and connectable devices
-* `dbo_entity_type` - the [Digital Buildings Ontology](https://github.com/google/digitalbuildings) namespace and entity type that can be associated to the BDNS abbreviation; NOTE: while BDNS presupposes that modelers will apply abbreviations consistently based on similar domain expertise, DBO does not; instead, it provides definitions for devices which may have overlapping function or where terms are ambiguous. For example, while a BDNS user may find the distinction between AHU, ACU, and RTU to be meaningful, DBO does consider all of these as classes of AHU (and provides a definition for what an AHU is.
-* `ifc_class` - the [IFC](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/) class that can be associated to the BDNS abbreviation
-* `ifc_type` - the specific [IFC](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/) type associated to the IFC class that can be associated to the BDNS abbreviation
-
-The comparison columns have the purpose of providing a simple means to correlate the naming of instances with ontology objects that are present in different building services and systems related ontologies, like the [Digital Buildings Ontology](https://github.com/google/digitalbuildings) and [IFC](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/).
-
-
-## Use
-
-The device and asset names defined in this standard are meant to be used in the following applications:
-
-* naming of CAD object instances in drawings
-* naming of object instances in BIM models
-* naming of control devices in control software (for instance BACnet device names)
-* naming of assets in asset management systems
-* naming of devices in IoT ingestion systems
-* naming of devices and assets in databases
-* naming of devices and assets in MQTT topics
-
-## Note
-
-At the moment of release 1.1.0, the standard is primarily focusing on naming of building control devices. It also includes a number of maintainable asset names.
+```console
+git clone https://github.com/theodi/BDNS.git
+cd BDNS
+mamba env create -f environment.yml
+quarto install tinytex  # required for generating pdf docs
+quarto render .
+```
