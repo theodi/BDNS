@@ -607,7 +607,7 @@ switch - dew point,DEWSW,,IfcSwitchingDevice,HUMIDISTAT,1
 switch - differential pressure,DPSW,,IfcSwitchingDevice,PRESSURESENSOR,1
 switch - static pressure,SPSW,,IfcSwitchingDevice,PRESSURESENSOR,1
 switch - thermal dispersion flow proving switch,TDSW,,IfcSwitchingDevice,NOTDEFINED,1
-tank - break tank and booster set,BTBS,,IfcTank,BREAKPRESSURE,1
+tank - break tank and booster set,BTKBS,,IfcTank,BREAKPRESSURE,1
 tank - brine tank,BTK,,IfcTank,VESSEL,0
 tank - buffer vessel - cooling,CBUFF,,IfcTank,VESSEL,0
 tank - buffer vessel - generic,BUFF,,IfcTank,VESSEL,0
