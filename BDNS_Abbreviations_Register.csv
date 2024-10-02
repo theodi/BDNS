@@ -230,6 +230,7 @@ electric distribution - rectifier,REC,,IfcTransformerType,RECTIFIER,0
 electric distribution - rising busbar,RBB,,IfcCableSegment,BUSBARSEGMENT,0
 electric distribution - static transfer switch,STS,,IfcSwitchingDevice,NOTDEFINED,1
 electric distribution - switchgear (12kv typ),SWGR,,IfcElectricDistributionBoard,SWITCHBOARD,1
+electric distribution - unit substation,USS,ELECTRICAL/PANEL, IfcUnitaryEquipment,USERDEFINED,1
 electric distribution - ups panel / board,UPSB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,1
 electric protective device - circuit breaker,CB,,IfcProtectiveDevice,CIRCUITBREAKER,1
 electric protective device - disconnect fuse,DSCTF,,IfcProtectiveDevice,FUSEDISCONNECTOR,0
