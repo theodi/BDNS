@@ -596,6 +596,7 @@ sensor - thermostat,TSTAT,,IfcUnitaryControlElement,THERMOSTAT,1
 sensor - velocity sensor,VS,SENSOR,IfcSensor,NOTDEFINED,1
 sensor - volumetric flow sensor - air,AVFS,SENSOR,IfcSensor,FLOWSENSOR,1
 sensor - volumetric flow sensor - water,WVFS,SENSOR,IfcSensor,FLOWSENSOR,1
+sensor - wind sensor - wind,WS,SENSOR,IfcSensor,WINDSENSOR,1
 shading - shading device actuator,SDACT,HVAC/SDC,IfcActuator,ELECTRICACTUATOR,1
 shading - shading device blinds,BL,,IfcShadingDevice,NOTDEFINED,0
 shading - shading device controller,SDC,,IfcController,NOTDEFINED,1
