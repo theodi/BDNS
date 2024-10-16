@@ -177,7 +177,7 @@ The validation procedure shall include the following tests:
 ##### Regular expression matching
 
 ```
-[A-Z]{2,6}(?:[1-9][0-9]*)?
+[A-Z]{2,6}-(?:[1-9][0-9]*)?
 ```
 
 ### Device/Asset role name (asset.name)
