@@ -269,6 +269,7 @@ fan - garage / car park supply fan,GSF,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - garage / car park transfer fan,GTF,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - kitchen exhaust fan,KEF,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - mechanical extract ventilation,MEV,HVAC/FAN,IfcFan,NOTDEFINED,1
+fan - mechanical extract ventilation kitchen,MEVK,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - pressurization fan,PF,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - relief fan,RLF,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - return fan,RTF,HVAC/FAN,IfcFan,NOTDEFINED,1
