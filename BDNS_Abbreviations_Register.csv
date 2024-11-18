@@ -175,6 +175,7 @@ distribution piped services - pipework,PW,,IfcPipeSegment,NOTDEFINED,0
 distribution ventilation - ductwork,DUW,,IfcDuctSegment,NOTDEFINED,0
 distribution ventilation - ductwork fire rated,FDUW,,IfcDuctSegment,NOTDEFINED,0
 door,DR,,IfcDoor,DOOR,1
+door - door contact,DC,,IfcDoor,DOOR,1
 door - electromagnetic door holder,EMDH,,IfcElectricAppliance,NOTDEFINED,1
 door - fire door,FDR,SAFETY/FDR,IfcDoor,NOTDEFINED,1
 door - magnetic lock,MLOCK,,IfcElectricAppliance,NOTDEFINED,1
