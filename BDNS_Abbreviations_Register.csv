@@ -22,9 +22,17 @@ air handling unit - make-up air handler,MAU,HVAC/MAU,IfcUnitaryEquipment,AIRHAND
 air handling unit - roof top unit,RTU,HVAC/AHU,IfcUnitaryEquipment,ROOFTOPUNIT,1
 air terminal - generic,AT,,IfcAirTerminal,NOTDEFINED,1
 air terminal box - constant air volume box,CAV,,IfcAirTerminalBox,CONSTANTFLOW,1
+air terminal box - constant air volume box - extract,CAVE,,IfcAirTerminalBox,CONSTANTFLOW,1
+air terminal box - constant air volume box - extract - fixed,CAVEF,,IfcAirTerminalBox,CONSTANTFLOW,1
+air terminal box - constant air volume box - extract - mechanically actuated,CAVEM,,IfcAirTerminalBox,CONSTANTFLOW,1
+air terminal box - constant air volume box - supply,CAVS,,IfcAirTerminalBox,CONSTANTFLOW,1
+air terminal box - constant air volume box - supply - fixed,CAVSF,,IfcAirTerminalBox,CONSTANTFLOW,1
+air terminal box - constant air volume box - supply - mechanically actuated,CAVSM,,IfcAirTerminalBox,CONSTANTFLOW,1
 air terminal box - fan powered box,FPB,,IfcAirTerminalBox,NOTDEFINED,1
 air terminal box - under floor variable air volume box,UFT,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED,1
 air terminal box - variable air volume box,VAV,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED,1
+air terminal box - variable air volume box - extract,VAVE,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED,1
+air terminal box - variable air volume box - supply,VAVS,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED,1
 air terminal box - variable volume and temperature box,VVTB,,IfcAirTerminalBox,NOTDEFINED,1
 air terminal box - variable volume terminal unit,VVT,,IfcAirTerminalBox,NOTDEFINED,1
 alarm - disabled alarm,DA,,IfcAlarm,MANUALPULLBOX,1
