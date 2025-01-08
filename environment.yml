@@ -5,7 +5,6 @@ name: bdns
 # --------------------------------- 
 # requirements for building docs
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - python>=3.8
