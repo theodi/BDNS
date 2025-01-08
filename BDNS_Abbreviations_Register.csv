@@ -113,6 +113,7 @@ condensing unit,CDU,,IfcCondenser,NOTDEFINED,1
 controller,CNTRL,,IfcController,NOTDEFINED,1
 controller - direct digital controller,DDC,,IfcController,PROGRAMMABLE,1
 controller - irrigation controller,IRRC,,IfcController,NOTDEFINED,1
+controller - room controller,ROC,,IfcController,NOTDEFINED,1
 controller - programmable logic controller,PLC,,IfcController,PROGRAMMABLE,1
 cooking appliance - bratt pan,CKBP,,IfcElectricAppliance,NOTDEFINED,0
 cooking appliance - chargrill,CKCGR,,IfcFlowTerminal,NOTDEFINED,0
