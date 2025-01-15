@@ -636,6 +636,7 @@ tank - fuel oil day tank,FODT,,IfcTank,NOTDEFINED,0
 tank - fuel oil storage tank,FOST,,IfcTank,STORAGE,0
 tank - greywater storage tank,GWST,,IfcTank,STORAGE,0
 tank - hot water cylinder,HWC,,IfcTank,STORAGE,0
+tank - mains water storage tank,MWST,,IfcTank,STORAGE,0
 tank - potable/domestic water storage tank,DWST,,IfcTank,STORAGE,0
 tank - potable/domestic water transfer tank,DWTT,,IfcTank,NOTDEFINED,0
 tank - rainwater storage tank,RNWST,,IfcTank,STORAGE,0
