@@ -1,4 +1,5 @@
 asset_description,asset_abbreviation,dbo_entity_type,ifc_class,ifc_type,can_be_connected
+access control - PROXY reader,PROXR,,IfcCommunicationsAppliance,SCANNER,1
 access control - RFID controller,RFIDC,,IfcController,NOTDEFINED,1
 access control - RFID reader,RFIDR,,IfcCommunicationsAppliance,SCANNER,1
 access control - access control system,ACS,,IfcDistributionSystem,SECURITY,1
