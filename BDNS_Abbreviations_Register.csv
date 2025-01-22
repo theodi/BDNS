@@ -4,7 +4,7 @@ access control - RFID reader,RFIDR,,IfcCommunicationsAppliance,SCANNER,1
 access control - access control system,ACS,,IfcDistributionSystem,SECURITY,1
 access control - audio intercom,AIC,,IfcSwitchingDevice,NOTDEFINED,1
 access control - biometric reader,BIOR,,IfcCommunicationsAppliance,SCANNER,1
-access control - request to exit,RTE,,IfcSwitchingDevice,CONTACTOR,1
+access control - door release button,RTE,,IfcSwitchingDevice,CONTACTOR,1
 access control - video intercom,VIC,,IfcSwitchingDevice,NOTDEFINED,1
 actuator,ACT,,IfcActuator,NOTDEFINED,1
 actuator - frost protection switch,FPSW,,IfcActuator,ELECTRICACTUATOR,1
@@ -120,6 +120,7 @@ compressor - air compressor,ACP,HVAC/CMP,ifcCompressor,NOTDEFINED,1
 condensing unit,CDU,,IfcCondenser,NOTDEFINED,1
 controller,CNTRL,,IfcController,NOTDEFINED,1
 controller - direct digital controller,DDC,,IfcController,PROGRAMMABLE,1
+controller - door controller,DRC,,IfcController,PROGRAMMABLE,1
 controller - irrigation controller,IRRC,,IfcController,NOTDEFINED,1
 controller - room controller,ROC,,IfcController,NOTDEFINED,1
 controller - programmable logic controller,PLC,,IfcController,PROGRAMMABLE,1
@@ -184,8 +185,10 @@ distribution piped services - pipework,PW,,IfcPipeSegment,NOTDEFINED,0
 distribution ventilation - ductwork,DUW,,IfcDuctSegment,NOTDEFINED,0
 distribution ventilation - ductwork fire rated,FDUW,,IfcDuctSegment,NOTDEFINED,0
 door,DR,,IfcDoor,DOOR,1
+door - electric lock,ELOCK,,IfcElectricAppliance,NOTDEFINED,1
 door - electromagnetic door holder,EMDH,,IfcElectricAppliance,NOTDEFINED,1
 door - fire door,FDR,SAFETY/FDR,IfcDoor,NOTDEFINED,1
+door - latch lock,LLOCK,,IfcElectricAppliance,NOTDEFINED,1
 door - magnetic lock,MLOCK,,IfcElectricAppliance,NOTDEFINED,1
 drinking fountain / bottle filler,DF,,IfcSanitaryTerminal,SANITARYFOUNTAIN,0
 duct silencer - attenuator,SLCR,,IfcDuctSilencer,NOTDEFINED,0
@@ -259,6 +262,7 @@ emergency assistance - disabled wc control panel,DWCCP,,IfcController,PROGRAMMAB
 emergency assistance - disabled wc overdoor indicator,DWCOI,,IfcAlarm,LIGHT,1
 emergency assistance - disabled wc pull cord,DWCPC,,IfcAlarm,MANUALPULLBOX,1
 emergency assistance - disabled wc reset button,DWCRB,,IfcController,TWOPOSITION,1
+emergency assistance - panic duress button,PDB,,IfcAlarm,TWOPOSITION,1
 emergency voice communication - control panel,EVCCP,,IfcAudioVisualAppliance,COMMUNICATIONTERMINAL,1
 emergency voice communication - outstation,EVCO,,IfcAudioVisualAppliance,RECEIVER,1
 emergency voice communication - outstation disabled refuge,DRO,,IfcAudioVisualAppliance,RECEIVER,1
