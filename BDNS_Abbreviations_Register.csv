@@ -470,14 +470,14 @@ location services - beacon,LBCN,,IfcCommunicationsAppliance,NOTDEFINED,1
 meter,MTR,METERS/MTR,IfcFlowMeter,NOTDEFINED,1
 meter - electric branch meter,EBM,METERS/MTR,IfcFlowMeter,NOTDEFINED,1
 meter - electric meter,EM,METERS/EM,IfcFlowMeter,ENERGYMETER,1
-meter - electric meter (virtual),EMV,METERS/EMV,IfcFlowMeter,ENERGYMETER,0
+meter - electric meter (virtual),EMV,METERS/EMV,IfcFlowMeter,NOTDEFINED,0
 meter - flow meter,FM,METERS/FM,IfcFlowMeter,NOTDEFINED,1
 meter - gas meter,GM,METERS/GM,IfcFlowMeter,GASMETER,1
-meter - gas meter (virtual),GMV,METERS/GMV,IfcFlowMeter,GASMETER,0
+meter - gas meter (virtual),GMV,METERS/GMV,IfcFlowMeter,NOTDEFINED,0
 meter - heat meter,HM,METERS/HM,IfcFlowMeter,NOTDEFINED,1
 meter - heat meter (virtual),HMV,METERS/HMV,IfcFlowMeter,NOTDEFINED,0
 meter - water meter,WM,METERS/WM,IfcFlowMeter,WATERMETER,1
-meter - water meter (virtual),WMV,METERS/WMV,IfcFlowMeter,WATERMETER,0
+meter - water meter (virtual),WMV,METERS/WMV,IfcFlowMeter,NOTDEFINED,0
 motor controller - vsd (inverter drive),VSD,,IfcMotorConnection,NOTDEFINED,1
 natural air ventilator,AVR,,ifcStackTerminal,NOTDEFINED,1
 oil interceptor,OI,,IfcInterceptor,OIL,0
