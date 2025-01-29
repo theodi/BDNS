@@ -247,6 +247,7 @@ electric distribution - passive harmonic filter,PHF,,IfcElectricFlowStorageDevic
 electric distribution - power distribution unit,PDU,,IfcElectricDistributionBoard,NOTDEFINED,1
 electric distribution - power factor correction system,PFC,,IfcElectricFlowTreatmentDevice,NOTDEFINED,0
 electric distribution - rectifier,REC,,IfcTransformerType,RECTIFIER,0
+electric distribution - ring main unit,RMU,,IfcElectricDistributionBoard,NOTDEFINED,0
 electric distribution - rising busbar,RBB,,IfcCableSegment,BUSBARSEGMENT,0
 electric distribution - static transfer switch,STS,,IfcSwitchingDevice,NOTDEFINED,1
 electric distribution - switchgear (12kv typ),SWGR,,IfcElectricDistributionBoard,SWITCHBOARD,1
