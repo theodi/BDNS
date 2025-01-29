@@ -381,6 +381,7 @@ heat emitter - trench heater and cooler,TRHC,,ifcSpaceHeater,NOTDEFINED,1
 heat emitter - trench heating,TRH,,ifcSpaceHeater,NOTDEFINED,1
 heat emitter - underfloor manifold,UFM,,ifcSpaceHeater,NOTDEFINED,1
 heat emitter - unit heater,UH,,IfcSpaceHeater,NOTDEFINED,1
+heat emitter - warm air curtain,WAC,,IfcSpaceHeater,NOTDEFINED,1
 heat exchanger,HX,HVAC/HX,IfcHeatExchanger,NOTDEFINED,1
 heat exchanger - cooling plate heat exchanger,CPHX,HVAC/HX,IfcHeatExchanger,PLATE,1
 heat exchanger - heating plate heat exchanger,HPHX,HVAC/HX,IfcHeatExchanger,PLATE,1
