@@ -122,8 +122,8 @@ controller,CNTRL,,IfcController,NOTDEFINED,1
 controller - direct digital controller,DDC,,IfcController,PROGRAMMABLE,1
 controller - door controller,DRC,,IfcController,PROGRAMMABLE,1
 controller - irrigation controller,IRRC,,IfcController,NOTDEFINED,1
-controller - room controller,ROC,,IfcController,NOTDEFINED,1
 controller - programmable logic controller,PLC,,IfcController,PROGRAMMABLE,1
+controller - room controller,ROC,,IfcController,NOTDEFINED,1
 cooking appliance - bratt pan,CKBP,,IfcElectricAppliance,NOTDEFINED,0
 cooking appliance - chargrill,CKCGR,,IfcFlowTerminal,NOTDEFINED,0
 cooking appliance - combination microwave/high speed oven,CKCMWO,,IfcElectricAppliance,ELECTRICCOOKER,0
@@ -381,7 +381,6 @@ heat emitter - trench heater and cooler,TRHC,,ifcSpaceHeater,NOTDEFINED,1
 heat emitter - trench heating,TRH,,ifcSpaceHeater,NOTDEFINED,1
 heat emitter - underfloor manifold,UFM,,ifcSpaceHeater,NOTDEFINED,1
 heat emitter - unit heater,UH,,IfcSpaceHeater,NOTDEFINED,1
-heat emitter - warm air curtain,WAC,,IfcSpaceHeater,NOTDEFINED,1
 heat exchanger,HX,HVAC/HX,IfcHeatExchanger,NOTDEFINED,1
 heat exchanger - cooling plate heat exchanger,CPHX,HVAC/HX,IfcHeatExchanger,PLATE,1
 heat exchanger - heating plate heat exchanger,HPHX,HVAC/HX,IfcHeatExchanger,PLATE,1
@@ -566,6 +565,9 @@ pv module-level power electronics,PVMLPE,,IfcController,NOTDEFINED,0
 pv panel,PVP,,IfcSolarDevice,SOLARPANEL,1
 pv transformer,PVTXMR,,IfcTransformer,NOTDEFINED,1
 radiant surface - chilled beam,CHB,,IfcCooledBeam,NOTDEFINED,0
+radiant surface - chilled beam - active,ACHB,,IfcCooledBeam,ACTIVE,1
+radiant surface - chilled beam - passive,PCHB,,IfcCooledBeam,PASSIVE,1
+radiant surface - chilled ceiling,CCH,,IfcSpaceHeater,NOTDEFINED,1
 radiant surface - hot water beam,HTB,,IfcSpaceHeater,RADIATOR,0
 refrigeration - blast chiller/freezer,FRZBCF,,IfcElectricAppliance,FREEZER,0
 refrigeration - coldroom freezer,CRFRZ,,IfcElectricAppliance,FREEZER,0
