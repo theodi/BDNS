@@ -1,10 +1,10 @@
 asset_description,asset_abbreviation,dbo_entity_type,ifc_class,ifc_type,can_be_connected
-access control - PROXY reader,PROXR,,IfcCommunicationsAppliance,SCANNER,1
 access control - RFID controller,RFIDC,,IfcController,NOTDEFINED,1
 access control - RFID reader,RFIDR,,IfcCommunicationsAppliance,SCANNER,1
 access control - access control system,ACS,,IfcDistributionSystem,SECURITY,1
 access control - audio intercom,AIC,,IfcSwitchingDevice,NOTDEFINED,1
 access control - biometric reader,BIOR,,IfcCommunicationsAppliance,SCANNER,1
+access control - proximity reader - generic,PROXR,,IfcCommunicationsAppliance,SCANNER,1
 access control - request to exit,RTE,,IfcSwitchingDevice,CONTACTOR,1
 access control - video intercom,VIC,,IfcSwitchingDevice,NOTDEFINED,1
 actuator,ACT,,IfcActuator,NOTDEFINED,1
