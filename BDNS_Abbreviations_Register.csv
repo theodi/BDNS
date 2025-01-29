@@ -122,8 +122,8 @@ controller,CNTRL,,IfcController,NOTDEFINED,1
 controller - direct digital controller,DDC,,IfcController,PROGRAMMABLE,1
 controller - door controller,DRC,,IfcController,PROGRAMMABLE,1
 controller - irrigation controller,IRRC,,IfcController,NOTDEFINED,1
-controller - room controller,ROC,,IfcController,NOTDEFINED,1
 controller - programmable logic controller,PLC,,IfcController,PROGRAMMABLE,1
+controller - room controller,ROC,,IfcController,NOTDEFINED,1
 cooking appliance - bratt pan,CKBP,,IfcElectricAppliance,NOTDEFINED,0
 cooking appliance - chargrill,CKCGR,,IfcFlowTerminal,NOTDEFINED,0
 cooking appliance - combination microwave/high speed oven,CKCMWO,,IfcElectricAppliance,ELECTRICCOOKER,0
@@ -612,6 +612,7 @@ sensor - temperature sensor,TPS,SENSOR,IfcSensor,TEMPERATURESENSOR,1
 sensor - temperature sensor - outside,OTPS,SENSOR,IfcSensor,TEMPERATURESENSOR,1
 sensor - thermostat,TSTAT,,IfcUnitaryControlElement,THERMOSTAT,1
 sensor - velocity sensor,VS,SENSOR,IfcSensor,NOTDEFINED,1
+sensor - vibration sensor,VBS,SENSOR,IfcSensor,NOTDEFINED,1
 sensor - volumetric flow sensor - air,AVFS,SENSOR,IfcSensor,FLOWSENSOR,1
 sensor - volumetric flow sensor - water,WVFS,SENSOR,IfcSensor,FLOWSENSOR,1
 sensor - wind sensor,WS,SENSOR,IfcSensor,WINDSENSOR,1
