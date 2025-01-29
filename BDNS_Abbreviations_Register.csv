@@ -5,6 +5,7 @@ access control - access control system,ACS,,IfcDistributionSystem,SECURITY,1
 access control - audio intercom,AIC,,IfcSwitchingDevice,NOTDEFINED,1
 access control - biometric reader,BIOR,,IfcCommunicationsAppliance,SCANNER,1
 access control - door release button,RTE,,IfcSwitchingDevice,CONTACTOR,1
+access control - proximity reader - generic ,PROXR,,IfcCommunicationsAppliance,SCANNER,1
 access control - video intercom,VIC,,IfcSwitchingDevice,NOTDEFINED,1
 actuator,ACT,,IfcActuator,NOTDEFINED,1
 actuator - frost protection switch,FPSW,,IfcActuator,ELECTRICACTUATOR,1
@@ -122,8 +123,8 @@ controller,CNTRL,,IfcController,NOTDEFINED,1
 controller - direct digital controller,DDC,,IfcController,PROGRAMMABLE,1
 controller - door controller,DRC,,IfcController,PROGRAMMABLE,1
 controller - irrigation controller,IRRC,,IfcController,NOTDEFINED,1
-controller - room controller,ROC,,IfcController,NOTDEFINED,1
 controller - programmable logic controller,PLC,,IfcController,PROGRAMMABLE,1
+controller - room controller,ROC,,IfcController,NOTDEFINED,1
 cooking appliance - bratt pan,CKBP,,IfcElectricAppliance,NOTDEFINED,0
 cooking appliance - chargrill,CKCGR,,IfcFlowTerminal,NOTDEFINED,0
 cooking appliance - combination microwave/high speed oven,CKCMWO,,IfcElectricAppliance,ELECTRICCOOKER,0
