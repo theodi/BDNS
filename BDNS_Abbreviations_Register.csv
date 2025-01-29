@@ -122,8 +122,8 @@ controller,CNTRL,,IfcController,NOTDEFINED,1
 controller - direct digital controller,DDC,,IfcController,PROGRAMMABLE,1
 controller - door controller,DRC,,IfcController,PROGRAMMABLE,1
 controller - irrigation controller,IRRC,,IfcController,NOTDEFINED,1
-controller - room controller,ROC,,IfcController,NOTDEFINED,1
 controller - programmable logic controller,PLC,,IfcController,PROGRAMMABLE,1
+controller - room controller,ROC,,IfcController,NOTDEFINED,1
 cooking appliance - bratt pan,CKBP,,IfcElectricAppliance,NOTDEFINED,0
 cooking appliance - chargrill,CKCGR,,IfcFlowTerminal,NOTDEFINED,0
 cooking appliance - combination microwave/high speed oven,CKCMWO,,IfcElectricAppliance,ELECTRICCOOKER,0
@@ -239,6 +239,7 @@ electric distribution - passive harmonic filter,PHF,,IfcElectricFlowStorageDevic
 electric distribution - power distribution unit,PDU,,IfcElectricDistributionBoard,NOTDEFINED,1
 electric distribution - power factor correction system,PFC,,IfcElectricFlowTreatmentDevice,NOTDEFINED,0
 electric distribution - rectifier,REC,,IfcTransformerType,RECTIFIER,0
+electric distribution - ring main unit,RMU,,IfcElectricDistributionBoard,NOTDEFINED,0
 electric distribution - rising busbar,RBB,,IfcCableSegment,BUSBARSEGMENT,0
 electric distribution - static transfer switch,STS,,IfcSwitchingDevice,NOTDEFINED,1
 electric distribution - switchgear (12kv typ),SWGR,,IfcElectricDistributionBoard,SWITCHBOARD,1
