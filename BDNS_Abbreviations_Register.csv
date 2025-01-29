@@ -20,7 +20,15 @@ air handling unit - dedicated outside air system unit,DOAS,HVAC/DOAS,IfcUnitaryE
 air handling unit - heat recovery unit,HRU,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED,1
 air handling unit - make-up air handler,MAU,HVAC/MAU,IfcUnitaryEquipment,AIRHANDLER,1
 air handling unit - roof top unit,RTU,HVAC/AHU,IfcUnitaryEquipment,ROOFTOPUNIT,1
+air terminal - air valve - supply,EAV,,IfcAirTerminal,NOTDEFINED,1
+air terminal - air valve - supply,SAV,,IfcAirTerminal,NOTDEFINED,1
 air terminal - generic,AT,,IfcAirTerminal,NOTDEFINED,1
+air terminal - grille,GR,,IfcAirTerminal,NOTDEFINED,1
+air terminal - grille - extract,EG,,IfcAirTerminal,NOTDEFINED,1
+air terminal - grille - supply,SG,,IfcAirTerminal,NOTDEFINED,1
+air terminal - louvre,LOU,,IfcAirTerminal,NOTDEFINED,1
+air terminal - louvre - exhaust/extract,ELOU,,IfcAirTerminal,NOTDEFINED,1
+air terminal - louvre - inlet/intake,ILOU,,IfcAirTerminal,NOTDEFINED,1
 air terminal box - constant air volume box,CAV,,IfcAirTerminalBox,CONSTANTFLOW,1
 air terminal box - constant air volume box - extract,CAVE,,IfcAirTerminalBox,CONSTANTFLOW,1
 air terminal box - constant air volume box - extract - fixed,CAVEF,,IfcAirTerminalBox,CONSTANTFLOW,1
@@ -122,8 +130,8 @@ controller,CNTRL,,IfcController,NOTDEFINED,1
 controller - direct digital controller,DDC,,IfcController,PROGRAMMABLE,1
 controller - door controller,DRC,,IfcController,PROGRAMMABLE,1
 controller - irrigation controller,IRRC,,IfcController,NOTDEFINED,1
-controller - room controller,ROC,,IfcController,NOTDEFINED,1
 controller - programmable logic controller,PLC,,IfcController,PROGRAMMABLE,1
+controller - room controller,ROC,,IfcController,NOTDEFINED,1
 cooking appliance - bratt pan,CKBP,,IfcElectricAppliance,NOTDEFINED,0
 cooking appliance - chargrill,CKCGR,,IfcFlowTerminal,NOTDEFINED,0
 cooking appliance - combination microwave/high speed oven,CKCMWO,,IfcElectricAppliance,ELECTRICCOOKER,0
