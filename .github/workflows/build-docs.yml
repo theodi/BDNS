@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
       - name: GitHub Tag Name example
         run: |
           echo "Status: *release* $GITHUB_REF_NAME" > release.md
