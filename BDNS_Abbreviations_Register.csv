@@ -4,7 +4,8 @@ access control - RFID reader,RFIDR,,IfcCommunicationsAppliance,SCANNER,1
 access control - access control system,ACS,,IfcDistributionSystem,SECURITY,1
 access control - audio intercom,AIC,,IfcSwitchingDevice,NOTDEFINED,1
 access control - biometric reader,BIOR,,IfcCommunicationsAppliance,SCANNER,1
-access control - request to exit,RTE,,IfcSwitchingDevice,CONTACTOR,1
+access control - door release button,RTE,,IfcSwitchingDevice,CONTACTOR,1
+access control - proximity reader - generic,PROXR,,IfcCommunicationsAppliance,SCANNER,1
 access control - video intercom,VIC,,IfcSwitchingDevice,NOTDEFINED,1
 actuator,ACT,,IfcActuator,NOTDEFINED,1
 actuator - frost protection switch,FPSW,,IfcActuator,ELECTRICACTUATOR,1
@@ -20,11 +21,27 @@ air handling unit - dedicated outside air system unit,DOAS,HVAC/DOAS,IfcUnitaryE
 air handling unit - heat recovery unit,HRU,HVAC/AHU,IfcAirToAirHeatRecovery,NOTDEFINED,1
 air handling unit - make-up air handler,MAU,HVAC/MAU,IfcUnitaryEquipment,AIRHANDLER,1
 air handling unit - roof top unit,RTU,HVAC/AHU,IfcUnitaryEquipment,ROOFTOPUNIT,1
+air terminal - air valve - extract,EAV,,IfcAirTerminal,NOTDEFINED,1
+air terminal - air valve - supply,SAV,,IfcAirTerminal,NOTDEFINED,1
 air terminal - generic,AT,,IfcAirTerminal,NOTDEFINED,1
+air terminal - grille,GR,,IfcAirTerminal,NOTDEFINED,1
+air terminal - grille - extract,EG,,IfcAirTerminal,NOTDEFINED,1
+air terminal - grille - supply,SG,,IfcAirTerminal,NOTDEFINED,1
+air terminal - louvre,LOU,,IfcAirTerminal,NOTDEFINED,1
+air terminal - louvre - exhaust/extract,ELOU,,IfcAirTerminal,NOTDEFINED,1
+air terminal - louvre - inlet/intake,ILOU,,IfcAirTerminal,NOTDEFINED,1
 air terminal box - constant air volume box,CAV,,IfcAirTerminalBox,CONSTANTFLOW,1
+air terminal box - constant air volume box - extract,CAVE,,IfcAirTerminalBox,CONSTANTFLOW,1
+air terminal box - constant air volume box - extract - fixed,CAVEF,,IfcAirTerminalBox,CONSTANTFLOW,1
+air terminal box - constant air volume box - extract - mechanically actuated,CAVEM,,IfcAirTerminalBox,CONSTANTFLOW,1
+air terminal box - constant air volume box - supply,CAVS,,IfcAirTerminalBox,CONSTANTFLOW,1
+air terminal box - constant air volume box - supply - fixed,CAVSF,,IfcAirTerminalBox,CONSTANTFLOW,1
+air terminal box - constant air volume box - supply - mechanically actuated,CAVSM,,IfcAirTerminalBox,CONSTANTFLOW,1
 air terminal box - fan powered box,FPB,,IfcAirTerminalBox,NOTDEFINED,1
 air terminal box - under floor variable air volume box,UFT,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED,1
 air terminal box - variable air volume box,VAV,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED,1
+air terminal box - variable air volume box - extract,VAVE,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED,1
+air terminal box - variable air volume box - supply,VAVS,HVAC/VAV,IfcAirTerminalBox,NOTDEFINED,1
 air terminal box - variable volume and temperature box,VVTB,,IfcAirTerminalBox,NOTDEFINED,1
 air terminal box - variable volume terminal unit,VVT,,IfcAirTerminalBox,NOTDEFINED,1
 alarm - disabled alarm,DA,,IfcAlarm,MANUALPULLBOX,1
@@ -112,8 +129,10 @@ compressor - air compressor,ACP,HVAC/CMP,ifcCompressor,NOTDEFINED,1
 condensing unit,CDU,,IfcCondenser,NOTDEFINED,1
 controller,CNTRL,,IfcController,NOTDEFINED,1
 controller - direct digital controller,DDC,,IfcController,PROGRAMMABLE,1
+controller - door controller,DRC,,IfcController,PROGRAMMABLE,1
 controller - irrigation controller,IRRC,,IfcController,NOTDEFINED,1
 controller - programmable logic controller,PLC,,IfcController,PROGRAMMABLE,1
+controller - room controller,ROC,,IfcController,NOTDEFINED,1
 cooking appliance - bratt pan,CKBP,,IfcElectricAppliance,NOTDEFINED,0
 cooking appliance - chargrill,CKCGR,,IfcFlowTerminal,NOTDEFINED,0
 cooking appliance - combination microwave/high speed oven,CKCMWO,,IfcElectricAppliance,ELECTRICCOOKER,0
@@ -175,8 +194,10 @@ distribution piped services - pipework,PW,,IfcPipeSegment,NOTDEFINED,0
 distribution ventilation - ductwork,DUW,,IfcDuctSegment,NOTDEFINED,0
 distribution ventilation - ductwork fire rated,FDUW,,IfcDuctSegment,NOTDEFINED,0
 door,DR,,IfcDoor,DOOR,1
+door - electric lock,ELOCK,,IfcElectricAppliance,NOTDEFINED,1
 door - electromagnetic door holder,EMDH,,IfcElectricAppliance,NOTDEFINED,1
 door - fire door,FDR,SAFETY/FDR,IfcDoor,NOTDEFINED,1
+door - latch lock,LLOCK,,IfcElectricAppliance,NOTDEFINED,1
 door - magnetic lock,MLOCK,,IfcElectricAppliance,NOTDEFINED,1
 drinking fountain / bottle filler,DF,,IfcSanitaryTerminal,SANITARYFOUNTAIN,0
 duct silencer - attenuator,SLCR,,IfcDuctSilencer,NOTDEFINED,0
@@ -227,9 +248,11 @@ electric distribution - passive harmonic filter,PHF,,IfcElectricFlowStorageDevic
 electric distribution - power distribution unit,PDU,,IfcElectricDistributionBoard,NOTDEFINED,1
 electric distribution - power factor correction system,PFC,,IfcElectricFlowTreatmentDevice,NOTDEFINED,0
 electric distribution - rectifier,REC,,IfcTransformerType,RECTIFIER,0
+electric distribution - ring main unit,RMU,,IfcElectricDistributionBoard,NOTDEFINED,0
 electric distribution - rising busbar,RBB,,IfcCableSegment,BUSBARSEGMENT,0
 electric distribution - static transfer switch,STS,,IfcSwitchingDevice,NOTDEFINED,1
 electric distribution - switchgear (12kv typ),SWGR,,IfcElectricDistributionBoard,SWITCHBOARD,1
+electric distribution - unit substation,USS,ELECTRICAL/PANEL, IfcUnitaryEquipment,USERDEFINED,1
 electric distribution - ups panel / board,UPSB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,1
 electric protective device - circuit breaker,CB,,IfcProtectiveDevice,CIRCUITBREAKER,1
 electric protective device - disconnect fuse,DSCTF,,IfcProtectiveDevice,FUSEDISCONNECTOR,0
@@ -249,6 +272,7 @@ emergency assistance - disabled wc control panel,DWCCP,,IfcController,PROGRAMMAB
 emergency assistance - disabled wc overdoor indicator,DWCOI,,IfcAlarm,LIGHT,1
 emergency assistance - disabled wc pull cord,DWCPC,,IfcAlarm,MANUALPULLBOX,1
 emergency assistance - disabled wc reset button,DWCRB,,IfcController,TWOPOSITION,1
+emergency assistance - panic duress button,PDB,,IfcAlarm,TWOPOSITION,1
 emergency voice communication - control panel,EVCCP,,IfcAudioVisualAppliance,COMMUNICATIONTERMINAL,1
 emergency voice communication - outstation,EVCO,,IfcAudioVisualAppliance,RECEIVER,1
 emergency voice communication - outstation disabled refuge,DRO,,IfcAudioVisualAppliance,RECEIVER,1
@@ -268,6 +292,7 @@ fan - garage / car park supply fan,GSF,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - garage / car park transfer fan,GTF,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - kitchen exhaust fan,KEF,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - mechanical extract ventilation,MEV,HVAC/FAN,IfcFan,NOTDEFINED,1
+fan - mechanical extract ventilation kitchen,MEVK,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - pressurization fan,PF,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - relief fan,RLF,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - return fan,RTF,HVAC/FAN,IfcFan,NOTDEFINED,1
@@ -456,10 +481,14 @@ location services - beacon,LBCN,,IfcCommunicationsAppliance,NOTDEFINED,1
 meter,MTR,METERS/MTR,IfcFlowMeter,NOTDEFINED,1
 meter - electric branch meter,EBM,METERS/MTR,IfcFlowMeter,NOTDEFINED,1
 meter - electric meter,EM,METERS/EM,IfcFlowMeter,ENERGYMETER,1
+meter - electric meter (virtual),EMV,METERS/EMV,IfcFlowMeter,NOTDEFINED,0
 meter - flow meter,FM,METERS/FM,IfcFlowMeter,NOTDEFINED,1
 meter - gas meter,GM,METERS/GM,IfcFlowMeter,GASMETER,1
+meter - gas meter (virtual),GMV,METERS/GMV,IfcFlowMeter,NOTDEFINED,0
 meter - heat meter,HM,METERS/HM,IfcFlowMeter,NOTDEFINED,1
+meter - heat meter (virtual),HMV,METERS/HMV,IfcFlowMeter,NOTDEFINED,0
 meter - water meter,WM,METERS/WM,IfcFlowMeter,WATERMETER,1
+meter - water meter (virtual),WMV,METERS/WMV,IfcFlowMeter,NOTDEFINED,0
 motor controller - vsd (inverter drive),VSD,,IfcMotorConnection,NOTDEFINED,1
 natural air ventilator,AVR,,ifcStackTerminal,NOTDEFINED,1
 oil interceptor,OI,,IfcInterceptor,OIL,0
@@ -552,6 +581,9 @@ pv module-level power electronics,PVMLPE,,IfcController,NOTDEFINED,0
 pv panel,PVP,,IfcSolarDevice,SOLARPANEL,1
 pv transformer,PVTXMR,,IfcTransformer,NOTDEFINED,1
 radiant surface - chilled beam,CHB,,IfcCooledBeam,NOTDEFINED,0
+radiant surface - chilled beam - active,ACHB,,IfcCooledBeam,ACTIVE,1
+radiant surface - chilled beam - passive,PCHB,,IfcCooledBeam,PASSIVE,1
+radiant surface - chilled ceiling,CCH,,IfcSpaceHeater,NOTDEFINED,1
 radiant surface - hot water beam,HTB,,IfcSpaceHeater,RADIATOR,0
 refrigeration - blast chiller/freezer,FRZBCF,,IfcElectricAppliance,FREEZER,0
 refrigeration - coldroom freezer,CRFRZ,,IfcElectricAppliance,FREEZER,0
@@ -593,8 +625,10 @@ sensor - temperature sensor,TPS,SENSOR,IfcSensor,TEMPERATURESENSOR,1
 sensor - temperature sensor - outside,OTPS,SENSOR,IfcSensor,TEMPERATURESENSOR,1
 sensor - thermostat,TSTAT,,IfcUnitaryControlElement,THERMOSTAT,1
 sensor - velocity sensor,VS,SENSOR,IfcSensor,NOTDEFINED,1
+sensor - vibration sensor,VBS,SENSOR,IfcSensor,NOTDEFINED,1
 sensor - volumetric flow sensor - air,AVFS,SENSOR,IfcSensor,FLOWSENSOR,1
 sensor - volumetric flow sensor - water,WVFS,SENSOR,IfcSensor,FLOWSENSOR,1
+sensor - wind sensor,WS,SENSOR,IfcSensor,WINDSENSOR,1
 shading - shading device actuator,SDACT,HVAC/SDC,IfcActuator,ELECTRICACTUATOR,1
 shading - shading device blinds,BL,,IfcShadingDevice,NOTDEFINED,0
 shading - shading device controller,SDC,,IfcController,NOTDEFINED,1
@@ -607,8 +641,9 @@ switch - dew point,DEWSW,,IfcSwitchingDevice,HUMIDISTAT,1
 switch - differential pressure,DPSW,,IfcSwitchingDevice,PRESSURESENSOR,1
 switch - static pressure,SPSW,,IfcSwitchingDevice,PRESSURESENSOR,1
 switch - thermal dispersion flow proving switch,TDSW,,IfcSwitchingDevice,NOTDEFINED,1
-tank - break tank and booster set,BTBS,,IfcTank,BREAKPRESSURE,1
-tank - brine tank,BTK,,IfcTank,VESSEL,0
+tank - break tank,BTK,,IfcTank,BREAKPRESSURE,1
+tank - break tank and booster set,BTKBS,,IfcTank,BREAKPRESSURE,1
+tank - brine tank,BRITK,,IfcTank,VESSEL,0
 tank - buffer vessel - cooling,CBUFF,,IfcTank,VESSEL,0
 tank - buffer vessel - generic,BUFF,,IfcTank,VESSEL,0
 tank - buffer vessel - heating,HBUFF,,IfcTank,VESSEL,0
@@ -624,6 +659,7 @@ tank - fuel oil day tank,FODT,,IfcTank,NOTDEFINED,0
 tank - fuel oil storage tank,FOST,,IfcTank,STORAGE,0
 tank - greywater storage tank,GWST,,IfcTank,STORAGE,0
 tank - hot water cylinder,HWC,,IfcTank,STORAGE,0
+tank - mains water storage tank,MWST,,IfcTank,STORAGE,0
 tank - potable/domestic water storage tank,DWST,,IfcTank,STORAGE,0
 tank - potable/domestic water transfer tank,DWTT,,IfcTank,NOTDEFINED,0
 tank - rainwater storage tank,RNWST,,IfcTank,STORAGE,0
