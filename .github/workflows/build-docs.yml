@@ -15,13 +15,8 @@ jobs:
         run: |
           echo "Status: *release* $GITHUB_REF_NAME" > release.md
           
-      - name: Setup Mambaforge
-        uses: conda-incubator/setup-miniconda@v2
-        with:
-            miniforge-variant: Mambaforge
-            miniforge-version: latest
-            activate-environment: bdns
-            use-mamba: true
+      - name: setup-micromamba
+        uses: mamba-org/setup-micromamba@v2.0.4
 
       - name: Create environment
         run: mamba env update -n bdns -f environment.yml
