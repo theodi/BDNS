@@ -23,11 +23,9 @@ jobs:
             bash
           cache-environment: true
           post-cleanup: 'all'
-
       - name: Install tinytex
         shell: micromamba-shell {0}
         run: quarto install tinytex
-
       - name: Build docs
         shell: micromamba-shell {0}
         run: quarto render .
