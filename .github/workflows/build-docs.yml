@@ -19,7 +19,7 @@ jobs:
         uses: mamba-org/setup-micromamba@v2.0.4
 
       - name: Create environment
-        run: mamba env update -n bdns -f environment.yml
+        run: micromamba env update -n bdns -f environment.yml
 
       - name: Install tinytex
         shell: bash -l {0}
