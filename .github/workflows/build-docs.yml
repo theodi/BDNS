@@ -16,17 +16,20 @@ jobs:
           echo "Status: *release* $GITHUB_REF_NAME" > release.md
           
       - name: setup-micromamba
-        uses: mamba-org/setup-micromamba@v2.0.4
-
-      - name: Create environment
-        run: micromamba env update -n bdns -f environment.yml
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: environment.yml
+          init-shell: >-
+            bash
+          cache-environment: true
+          post-cleanup: 'all'
 
       - name: Install tinytex
-        shell: bash -l {0}
+        shell: micromamba-shell {0}
         run: quarto install tinytex
 
       - name: Build docs
-        shell: bash -l {0}
+        shell: micromamba-shell {0}
         run: quarto render .
 
       - name: Push docs to gh-pages
