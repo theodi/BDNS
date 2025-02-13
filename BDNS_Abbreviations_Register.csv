@@ -6,7 +6,10 @@ access control - audio intercom,AIC,,IfcSwitchingDevice,NOTDEFINED,1
 access control - biometric reader,BIOR,,IfcCommunicationsAppliance,SCANNER,1
 access control - door release button,RTE,,IfcSwitchingDevice,CONTACTOR,1
 access control - proximity reader - generic,PROXR,,IfcCommunicationsAppliance,SCANNER,1
+access control - speed lanes,SPL,,IfcDoor,DOOR,0
 access control - video intercom,VIC,,IfcSwitchingDevice,NOTDEFINED,1
+access control - QR reader,QRR,,IfcCommunicationsAppliance,SCANNER,1
+access equipment - scissor lift,SCL,,IfcBuildingElementProxy,NOTDEFINED,0
 actuator,ACT,,IfcActuator,NOTDEFINED,1
 actuator - frost protection switch,FPSW,,IfcActuator,ELECTRICACTUATOR,1
 actuator - motorized window operator,WDO,,IfcActuator,ELECTRICACTUATOR,1
@@ -93,6 +96,7 @@ beverage machine - espresso machine,BVCFME,,IfcElectricAppliance,NOTDEFINED,0
 beverage machine - knock out chute,BVKOC,,IfcWasteTerminal,NOTDEFINED,0
 beverage machine - steamer,BVS,,IfcElectricAppliance,NOTDEFINED,0
 beverage machine - water boiler,BVWB,,IfcBoiler,WATER,0
+building maintenance unit,BMU,,IfcTransportElement,NOTDEFINED,0
 burner - boiler,BLR,HVAC/BLR,ifcBoiler,NOTDEFINED,1
 burner - furnace,FR,,IfcBurner,NOTDEFINED,1
 burner - steam boiler,SB,HVAC/BLR,IfcBoiler,STEAM,1
@@ -283,6 +287,7 @@ emergency voice communication - voice alarm microphones,VAM,,IfcAudioVisualAppli
 emergency voice communication - voice alarm speaker,VAS,,IfcAudioVisualAppliance,SPEAKER,1
 employee timeclock with fingerprint scanner,ETCFP,,IfcElectricAppliance,NOTDEFINED,1
 evaporator,EVP,,IfcEvaporator,NOTDEFINED,1
+exhaust flue,EFLU,,IfcDistributionComponent ,NOTDEFINED,0
 fan,FAN,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - cooling tower fan,CTF,HVAC/FAN,IfcFan,NOTDEFINED,1
 fan - elevator / lift well pressurization fan,ELVPF,HVAC/FAN,IfcFan,NOTDEFINED,1
@@ -361,6 +366,7 @@ food serving - ice well,FSIWL,,IfcFlowStorageDevice,NOTDEFINED,0
 food serving - induction warmer,FSIW,,IfcElectricAppliance,NOTDEFINED,0
 food serving - sneeze guard,FSSG,,IfcFurniture,NOTDEFINED,0
 food serving - soup well,FSSWL,,IfcFlowStorageDevice,NOTDEFINED,0
+fuel polishing system,FPS,,IfcPump,NOTDEFINED,0
 furniture - chemical storage cabinet,CSC,,IfcFurniture,NOTDEFINED,0
 furniture - commercial kitchen mobile soak sink,KSINKM,,IfcSanitaryTerminal,SINK,0
 furniture - commercial kitchen sink,KSINK,,IfcSanitaryTerminal,SINK,0
@@ -374,6 +380,7 @@ furniture - commercial kithcen utility chase system,KUCS,,IfcDistributionSystem,
 furniture - desk,DESK,,IfcFurniture,DESK,0
 furniture - emergency eyewash station,EEW,,IfcSanitaryTerminal,SANITARYFOUNTAIN,0
 furniture - locker,LCKR,,IfcFurniture,NOTDEFINED,1
+furniture - oil fill point cabinet,OFPC,,IfcFurniture,NOTDEFINED,0
 generator - clean steam generator,CSG,,IfcElectricGenerator,NOTDEFINED,1
 generator - combined heat and power generator,CHP,,IfcElectricGenerator,CHP,1
 generator - diesel electricity generator,DG,,IfcElectricGenerator,ENGINEGENERATOR,1
@@ -490,6 +497,7 @@ meter - heat meter (virtual),HMV,METERS/HMV,IfcFlowMeter,NOTDEFINED,0
 meter - water meter,WM,METERS/WM,IfcFlowMeter,WATERMETER,1
 meter - water meter (virtual),WMV,METERS/WMV,IfcFlowMeter,NOTDEFINED,0
 motor controller - vsd (inverter drive),VSD,,IfcMotorConnection,NOTDEFINED,1
+monorail track,MTRACK,,IfcMember,NOTDEFINED,0
 natural air ventilator,AVR,,ifcStackTerminal,NOTDEFINED,1
 oil interceptor,OI,,IfcInterceptor,OIL,0
 outlet,OUT,,IfcOutlet,NOTDEFINED,0
@@ -654,6 +662,7 @@ tank - decontamination tank,DET,,IfcTank,NOTDEFINED,0
 tank - emergency sewer tank,EST,,IfcTank,NOTDEFINED,0
 tank - emergency water tank,EWT,,IfcTank,STORAGE,0
 tank - expansion tank,ET,,IfcTank,EXPANSION,0
+tank - fill gauge,FG,,IfcTank,NOTDEFINED,0
 tank - fire hydrant tank,FHT,,IfcTank,STORAGE,0
 tank - fuel oil day tank,FODT,,IfcTank,NOTDEFINED,0
 tank - fuel oil storage tank,FOST,,IfcTank,STORAGE,0
@@ -707,6 +716,7 @@ valve - isolation valve,ISV,HVAC/VLV,IfcValve,ISOLATING,0
 valve - level control valve,LCV,HVAC/VLV,IfcValve,NOTDEFINED,0
 valve - make up water valve,MUV,HVAC/VLV,IfcValve,NOTDEFINED,0
 valve - master thermostatic valve,MMV,HVAC/VLV,IfcValve,NOTDEFINED,0
+valve - oil valve,OV,HVAC/VLV,IfcValve,NOTDEFINED,0
 valve - pressure attenuator,PA,HVAC/VLV,IfcValve,NOTDEFINED,0
 valve - pressure control valve,PCV,HVAC/VLV,IfcValve,NOTDEFINED,0
 valve - pressure independent control valve,PICV,HVAC/VLV,IfcValve,NOTDEFINED,0
@@ -747,3 +757,4 @@ water treatment - dosing pot,DPOT,,IfcDistributionFlowElement,NOTDEFINED,0
 water treatment - electro magnetic water conditioner,EMWC,,IfcFlowTreatmentDevice,NOTDEFINED,0
 weather station,WST,HVAC/WEATHER,IfcUnitaryControlElement,WEATHERSTATION,1
 window,WD,,IfcWindow,NOTDEFINED,0
+window cleaning - cradle,WDC,,IfcTransportElement,NOTDEFINED,0
