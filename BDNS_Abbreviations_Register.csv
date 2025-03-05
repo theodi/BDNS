@@ -494,6 +494,7 @@ natural air ventilator,AVR,,ifcStackTerminal,NOTDEFINED,1
 oil interceptor,OI,,IfcInterceptor,OIL,0
 outlet,OUT,,IfcOutlet,NOTDEFINED,0
 outlet - ceiling duplex,CGDXO,,IfcOutlet,POWEROUTLET,0
+outlet - commando socket outlet,CSO,,IfcOutlet,POWEROUTLET,0
 outlet - connection unit switched fused,CUSF,,IfcOutlet,POWEROUTLET,0
 outlet - connection unit unswitched fused,CUUF,,IfcOutlet,POWEROUTLET,0
 outlet - controlled duplex,CNDO,,IfcOutlet,DATAOUTLET,0
