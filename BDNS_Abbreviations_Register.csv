@@ -93,14 +93,14 @@ beverage machine - espresso machine,BVCFME,,IfcElectricAppliance,NOTDEFINED,0
 beverage machine - knock out chute,BVKOC,,IfcWasteTerminal,NOTDEFINED,0
 beverage machine - steamer,BVS,,IfcElectricAppliance,NOTDEFINED,0
 beverage machine - water boiler,BVWB,,IfcBoiler,WATER,0
-burner - boiler,BLR,HVAC/BLR,ifcBoiler,NOTDEFINED,1
+burner - boiler,BLR,HVAC/BLR,IfcBoiler,NOTDEFINED,1
 burner - furnace,FR,,IfcBurner,NOTDEFINED,1
 burner - steam boiler,SB,HVAC/BLR,IfcBoiler,STEAM,1
-cable management - cable basket,CABASK,,IfcCableCarrierSegmentType,NOTDEFINED,0
-cable management - cable ladder,CALAD,,IfcCableCarrierSegmentType,CABLELADDERSEGMENT,0
-cable management - cable tray,CATR,,IfcCableCarrierSegmentType,CABLETRAYSEGMENT,0
-cable management - cable trunking,CATRK,,IfcCableCarrierSegmentType,CABLETRUNKINGSEGMENT,0
-cable management - floor trunking,CAFTRK,,IfcCableCarrierSegmentType,NOTDEFINED,0
+cable management - cable basket,CABASK,,IfcCableCarrierSegment,NOTDEFINED,0
+cable management - cable ladder,CALAD,,IfcCableCarrierSegment,CABLELADDERSEGMENT,0
+cable management - cable tray,CATR,,IfcCableCarrierSegment,CABLETRAYSEGMENT,0
+cable management - cable trunking,CATRK,,IfcCableCarrierSegment,CABLETRUNKINGSEGMENT,0
+cable management - floor trunking,CAFTRK,,IfcCableCarrierSegment,NOTDEFINED,0
 camera,CAM,,IfcAudioVisualAppliance,CAMERA,1
 camera - pan tilt zoom camera,PTZCAM,,IfcAudioVisualAppliance,CAMERA,1
 chiller,CH,HVAC/CH,IfcChiller,NOTDEFINED,1
@@ -125,7 +125,7 @@ coil - run around coil,RAC,,IfcAirToAirHeatRecovery,RUNAROUNDCOILLOOP,0
 communication appliance - printing device,PRNTR,,IfcCommunicationsAppliance,PRINTER,0
 communication gateway,CGW,,IfcCommunicationsAppliance,GATEWAY,1
 compressor,CMP,HVAC/CMP,IfcCompressor,NOTDEFINED,1
-compressor - air compressor,ACP,HVAC/CMP,ifcCompressor,NOTDEFINED,1
+compressor - air compressor,ACP,HVAC/CMP,IfcCompressor,NOTDEFINED,1
 condensing unit,CDU,,IfcCondenser,NOTDEFINED,1
 controller,CNTRL,,IfcController,NOTDEFINED,1
 controller - direct digital controller,DDC,,IfcController,PROGRAMMABLE,1
@@ -217,43 +217,43 @@ electric appliance - hand dryer,HDY,,IfcElectricAppliance,NOTDEFINED,0
 electric appliance - oven,OVN,,IfcElectricAppliance,ELECTRICCOOKER,0
 electric appliance - scanning device,SCAN,,IfcCommunicationsAppliance,SCANNER,0
 electric appliance - steamer,STE,,IfcElectricAppliance,NOTDEFINED,0
-electric distribution - EVC electric vehicle charging distribution panel,EVDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,1
+electric distribution - EVC electric vehicle charging distribution panel,EVDP,ELECTRICAL/PANEL,IfcDistributionBoard,DISTRIBUTIONBOARD,1
 electric distribution - EVC electric vehicle charging equipment,EVCE,,IfcOutlet,POWEROUTLET,1
 electric distribution - active harmonic filter,AHF,,IfcElectricFlowStorageDevice,HARMONICFILTER,1
 electric distribution - automatic transfer switch,ATS,,IfcProtectiveDevice,NOTDEFINED,1
-electric distribution - branch circuit panel board 120/208V,LVCPB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,0
-electric distribution - branch circuit panel board 277/480V,HVCPB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,0
+electric distribution - branch circuit panel board 120/208V,LVCPB,ELECTRICAL/PANEL,IfcDistributionBoard,DISTRIBUTIONBOARD,0
+electric distribution - branch circuit panel board 277/480V,HVCPB,ELECTRICAL/PANEL,IfcDistributionBoard,DISTRIBUTIONBOARD,0
 electric distribution - busbar,BB,,IfcCableSegment,BUSBARSEGMENT,0
 electric distribution - busbar tapoff,BBTO,,IfcCableSegment,BUSBARSEGMENT,0
-electric distribution - dc-dc converter,DCDC,,IfcTransformerType,NOTDEFINED,0
-electric distribution - distribution panel / board,DB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,1
-electric distribution - distribution panel / board - consumer unit,CU,ELECTRICAL/PANEL,IfcElectricDistributionBoard,CONSUMERUNIT,1
-electric distribution - distribution panel 120/208V,LVDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,1
-electric distribution - distribution panel 277/480V,HVDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,1
-electric distribution - distribution panel for itc equipment,ITDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,NOTDEFINED,1
+electric distribution - dc-dc converter,DCDC,,IfcTransformer,NOTDEFINED,0
+electric distribution - distribution panel / board,DB,ELECTRICAL/PANEL,IfcDistributionBoard,DISTRIBUTIONBOARD,1
+electric distribution - distribution panel / board - consumer unit,CU,ELECTRICAL/PANEL,IfcDistributionBoard,CONSUMERUNIT,1
+electric distribution - distribution panel 120/208V,LVDP,ELECTRICAL/PANEL,IfcDistributionBoard,DISTRIBUTIONBOARD,1
+electric distribution - distribution panel 277/480V,HVDP,ELECTRICAL/PANEL,IfcDistributionBoard,DISTRIBUTIONBOARD,1
+electric distribution - distribution panel for itc equipment,ITDP,ELECTRICAL/PANEL,IfcDistributionBoard,NOTDEFINED,1
 electric distribution - electric switch,ELSW,,IfcSwitchingDevice,TOGGLESWITCH,1
-electric distribution - high voltage switchboard,HVSB,,IfcElectricDistributionBoard,SWITCHBOARD,1
-electric distribution - invertor,IVT,,IfcTransformerType,INVERTER,1
-electric distribution - kitchen electric distribution panel/board,KDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,NOTDEFINED,1
+electric distribution - high voltage switchboard,HVSB,,IfcDistributionBoard,SWITCHBOARD,1
+electric distribution - invertor,IVT,,IfcTransformer,INVERTER,1
+electric distribution - kitchen electric distribution panel/board,KDP,ELECTRICAL/PANEL,IfcDistributionBoard,NOTDEFINED,1
 electric distribution - load bank,LB,,IfcElectricFlowStorageDevice,NOTDEFINED,1
-electric distribution - low voltage switchboard,LVSB,,IfcElectricDistributionBoard,SWITCHBOARD,1
-electric distribution - main panel / board,MPNL,ELECTRICAL/PANEL,IfcElectricDistributionBoard,NOTDEFINED,1
-electric distribution - main switch panel,MSP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,SWITCHBOARD,1
-electric distribution - mains distribution unit,MDU,,IfcElectricDistributionBoard,NOTDEFINED,1
-electric distribution - mains switchboard,MSB,,IfcElectricDistributionBoard,SWITCHBOARD,1
-electric distribution - mechanical distribution panel / board,MDP,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,1
-electric distribution - medium voltage switchboard,MVSB,,IfcElectricDistributionBoard,SWITCHBOARD,1
-electric distribution - panel board,PB,,IfcElectricDistributionBoard,NOTDEFINED,1
+electric distribution - low voltage switchboard,LVSB,,IfcDistributionBoard,SWITCHBOARD,1
+electric distribution - main panel / board,MPNL,ELECTRICAL/PANEL,IfcDistributionBoard,NOTDEFINED,1
+electric distribution - main switch panel,MSP,ELECTRICAL/PANEL,IfcDistributionBoard,SWITCHBOARD,1
+electric distribution - mains distribution unit,MDU,,IfcDistributionBoard,NOTDEFINED,1
+electric distribution - mains switchboard,MSB,,IfcDistributionBoard,SWITCHBOARD,1
+electric distribution - mechanical distribution panel / board,MDP,ELECTRICAL/PANEL,IfcDistributionBoard,DISTRIBUTIONBOARD,1
+electric distribution - medium voltage switchboard,MVSB,,IfcDistributionBoard,SWITCHBOARD,1
+electric distribution - panel board,PB,,IfcDistributionBoard,NOTDEFINED,1
 electric distribution - passive harmonic filter,PHF,,IfcElectricFlowStorageDevice,HARMONICFILTER,0
-electric distribution - power distribution unit,PDU,,IfcElectricDistributionBoard,NOTDEFINED,1
+electric distribution - power distribution unit,PDU,,IfcDistributionBoard,NOTDEFINED,1
 electric distribution - power factor correction system,PFC,,IfcElectricFlowTreatmentDevice,NOTDEFINED,0
-electric distribution - rectifier,REC,,IfcTransformerType,RECTIFIER,0
-electric distribution - ring main unit,RMU,,IfcElectricDistributionBoard,NOTDEFINED,0
+electric distribution - rectifier,REC,,IfcTransformer,RECTIFIER,0
+electric distribution - ring main unit,RMU,,IfcDistributionBoard,NOTDEFINED,0
 electric distribution - rising busbar,RBB,,IfcCableSegment,BUSBARSEGMENT,0
 electric distribution - static transfer switch,STS,,IfcSwitchingDevice,NOTDEFINED,1
-electric distribution - switchgear (12kv typ),SWGR,,IfcElectricDistributionBoard,SWITCHBOARD,1
-electric distribution - unit substation,USS,ELECTRICAL/PANEL, IfcUnitaryEquipment,USERDEFINED,1
-electric distribution - ups panel / board,UPSB,ELECTRICAL/PANEL,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,1
+electric distribution - switchgear (12kv typ),SWGR,,IfcDistributionBoard,SWITCHBOARD,1
+electric distribution - unit substation,USS,ELECTRICAL/PANEL,IfcUnitaryEquipment,USERDEFINED,1
+electric distribution - ups panel / board,UPSB,ELECTRICAL/PANEL,IfcDistributionBoard,DISTRIBUTIONBOARD,1
 electric protective device - circuit breaker,CB,,IfcProtectiveDevice,CIRCUITBREAKER,1
 electric protective device - disconnect fuse,DSCTF,,IfcProtectiveDevice,FUSEDISCONNECTOR,0
 electric protective device - electrical isolator (disconnector),EISO,,IfcSwitchingDevice,SWITCHDISCONNECTOR,0
@@ -380,17 +380,17 @@ generator - diesel electricity generator,DG,,IfcElectricGenerator,ENGINEGENERATO
 generator - electricity generator,GEN,,IfcElectricGenerator,ENGINEGENERATOR,1
 grease waste interceptor,GI,,IfcInterceptor,GREASE,0
 heat emitter - duct heater,DH,HVAC/DH,IfcSpaceHeater,NOTDEFINED,1
-heat emitter - electric unit heater,EUH,HVAC/UH,ifcSpaceHeater,NOTDEFINED,1
+heat emitter - electric unit heater,EUH,HVAC/UH,IfcSpaceHeater,NOTDEFINED,1
 heat emitter - gas unit heater,GUH,HVAC/UH,IfcSpaceHeater,NOTDEFINED,1
 heat emitter - heater,HTR,,IfcSpaceHeater,NOTDEFINED,1
 heat emitter - hydronic trench convector,TC,,IfcSpaceHeater,NOTDEFINED,1
-heat emitter - radiant panel,RP,HVAC/RP,ifcSpaceHeater,RADIATOR,1
+heat emitter - radiant panel,RP,HVAC/RP,IfcSpaceHeater,RADIATOR,1
 heat emitter - radiator,RAD,,IfcSpaceHeater,RADIATOR,1
 heat emitter - radiator electric,ERAD,,IfcSpaceHeater,RADIATOR,1
-heat emitter - trace heating,EHT,,ifcSpaceHeater,NOTDEFINED,1
-heat emitter - trench heater and cooler,TRHC,,ifcSpaceHeater,NOTDEFINED,1
-heat emitter - trench heating,TRH,,ifcSpaceHeater,NOTDEFINED,1
-heat emitter - underfloor manifold,UFM,,ifcSpaceHeater,NOTDEFINED,1
+heat emitter - trace heating,EHT,,IfcSpaceHeater,NOTDEFINED,1
+heat emitter - trench heater and cooler,TRHC,,IfcSpaceHeater,NOTDEFINED,1
+heat emitter - trench heating,TRH,,IfcSpaceHeater,NOTDEFINED,1
+heat emitter - underfloor manifold,UFM,,IfcSpaceHeater,NOTDEFINED,1
 heat emitter - unit heater,UH,,IfcSpaceHeater,NOTDEFINED,1
 heat emitter - warm air curtain,WAC,,IfcSpaceHeater,NOTDEFINED,1
 heat exchanger,HX,HVAC/HX,IfcHeatExchanger,NOTDEFINED,1
@@ -406,8 +406,8 @@ high level interface,HLI,,IfcController,PROGRAMMABLE,1
 horn strobe,HS,SAFETY/HS,IfcAlarm,SIREN,1
 human machine interface,HMI,,IfcCommunicationsAppliance,NOTDEFINED,1
 humidifier,HUM,HVAC/HUM,IfcHumidifier,NOTDEFINED,1
-ict equipment - ethernet switch,ETS,,ifcCommunicationsAppliance,NETWORKBRIDGE,1
-ict equipment - fibre switch,FBS,,ifcCommunicationsAppliance,NETWORKBRIDGE,1
+ict equipment - ethernet switch,ETS,,IfcCommunicationsAppliance,NETWORKBRIDGE,1
+ict equipment - fibre switch,FBS,,IfcCommunicationsAppliance,NETWORKBRIDGE,1
 ict equipment - intermediate distribution frame,IDF,,IfcCommunicationsAppliance,NOTDEFINED,1
 ict equipment - multi-purpose server,SRV,,IfcCommunicationsAppliance,NOTDEFINED,1
 ict equipment - network access manager,NAM,,IfcCommunicationsAppliance,NOTDEFINED,1
@@ -455,7 +455,7 @@ lighting - control - dimmer,DIM,LIGHTING/LCM,IfcSwitchingDevice,DIMMERSWITCH,0
 lighting - control - keypad,LKP,LIGHTING/LKP,IfcSwitchingDevice,KEYPAD,1
 lighting - control - module,LCM,LIGHTING/LCM,IfcUnitaryControlElement,NOTDEFINED,1
 lighting - control - panel,LCP,,IfcUnitaryControlElement,NOTDEFINED,1
-lighting - control - switch,LSW,,IfcSwitchingDeviceTypeEnum,NOTDEFINED,1
+lighting - control - switch,LSW,,IfcSwitchingDevice,NOTDEFINED,1
 lighting - fixture,LT,LIGHTING/LT,IfcLightFixture,NOTDEFINED,0
 lighting - fixture - downlight,DL,LIGHTING/LT,IfcLightFixture,NOTDEFINED,1
 lighting - fixture - illuminated exit sign,EXIT,,IfcLightFixture,SECURITYLIGHTING,1
@@ -490,7 +490,7 @@ meter - heat meter (virtual),HMV,METERS/HMV,IfcFlowMeter,NOTDEFINED,0
 meter - water meter,WM,METERS/WM,IfcFlowMeter,WATERMETER,1
 meter - water meter (virtual),WMV,METERS/WMV,IfcFlowMeter,NOTDEFINED,0
 motor controller - vsd (inverter drive),VSD,,IfcMotorConnection,NOTDEFINED,1
-natural air ventilator,AVR,,ifcStackTerminal,NOTDEFINED,1
+natural air ventilator,AVR,,IfcStackTerminal,NOTDEFINED,1
 oil interceptor,OI,,IfcInterceptor,OIL,0
 outlet,OUT,,IfcOutlet,NOTDEFINED,0
 outlet - ceiling duplex,CGDXO,,IfcOutlet,POWEROUTLET,0
@@ -572,9 +572,9 @@ pump - waste water pump,WWP,HVAC/PMP,IfcPump,NOTDEFINED,1
 pump - wet riser pump,WRP,HVAC/PMP,IfcPump,NOTDEFINED,1
 pv ac disconnect,PVACDS,,IfcSwitchingDevice,SWITCHDISCONNECTOR,0
 pv data acquisition system,PVDAS,,IfcController,NOTDEFINED,1
-pv dc combiner,PVDCC,,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,0
+pv dc combiner,PVDCC,,IfcDistributionBoard,DISTRIBUTIONBOARD,0
 pv dc disconnect,PVDCDS,,IfcSwitchingDevice,SWITCHDISCONNECTOR,0
-pv distribution board,PVDB,,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,1
+pv distribution board,PVDB,,IfcDistributionBoard,DISTRIBUTIONBOARD,1
 pv inverter,PVI,,IfcTransformer,INVERTER,1
 pv microgrid controller,PVMC,,IfcController,NOTDEFINED,1
 pv module-level power electronics,PVMLPE,,IfcController,NOTDEFINED,0
@@ -635,7 +635,7 @@ shading - shading device controller,SDC,,IfcController,NOTDEFINED,1
 shading - shading device keypad,SDKP,,IfcSwitchingDevice,KEYPAD,1
 shading - shading device motor,SDM,,IfcElectricMotor,NOTDEFINED,0
 shading - shading device solar tracking module,SDSTM,,IfcSensor,RADIATIONSENSOR,1
-signal - beacon,BCN,,ifcAlarm,LIGHT,1
+signal - beacon,BCN,,IfcAlarm,LIGHT,1
 switch - absolute pressure,APSW,,IfcSwitchingDevice,PRESSURESENSOR,1
 switch - dew point,DEWSW,,IfcSwitchingDevice,HUMIDISTAT,1
 switch - differential pressure,DPSW,,IfcSwitchingDevice,PRESSURESENSOR,1
@@ -647,8 +647,8 @@ tank - brine tank,BRITK,,IfcTank,VESSEL,0
 tank - buffer vessel - cooling,CBUFF,,IfcTank,VESSEL,0
 tank - buffer vessel - generic,BUFF,,IfcTank,VESSEL,0
 tank - buffer vessel - heating,HBUFF,,IfcTank,VESSEL,0
-tank - compressed air storage tank,CAST,,ifcTank,STORAGE,0
-tank - condensate receiver tank,CNR,,ifcTank,STORAGE,0
+tank - compressed air storage tank,CAST,,IfcTank,STORAGE,0
+tank - condensate receiver tank,CNR,,IfcTank,STORAGE,0
 tank - deareator tank,DEA,,IfcTank,NOTDEFINED,0
 tank - decontamination tank,DET,,IfcTank,NOTDEFINED,0
 tank - emergency sewer tank,EST,,IfcTank,NOTDEFINED,0
@@ -687,7 +687,7 @@ valve - air admittance valve,AAV,HVAC/VLV,IfcValve,AIRRELEASE,0
 valve - angle stop valve,AV,HVAC/VLV,IfcValve,NOTDEFINED,0
 valve - backflow preventer valve,BFP,HVAC/VLV,IfcValve,NOTDEFINED,0
 valve - balancing valve,BLV,HVAC/VLV,IfcValve,COMMISSIONING,0
-valve - ball valve,BV,HVAC/VLV,Ifcvalve,GASCOCK,0
+valve - ball valve,BV,HVAC/VLV,IfcValve,GASCOCK,0
 valve - blowdown valve,BDV,HVAC/VLV,IfcValve,NOTDEFINED,0
 valve - butterfly valve,BFV,HVAC/VLV,IfcValve,NOTDEFINED,0
 valve - bypass valve,BYV,HVAC/VLV,IfcValve,DIVERTING,0
