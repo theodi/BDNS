@@ -100,28 +100,28 @@ cable management - cable basket,CABASK,0,,IfcCableCarrierSegment
 cable management - cable ladder,CALAD,0,,IfcCableCarrierSegmentCABLELADDERSEGMENT
 cable management - cable tray,CATR,0,,IfcCableCarrierSegmentCABLETRAYSEGMENT
 cable management - cable trunking,CATRK,0,,IfcCableCarrierSegmentCABLETRUNKINGSEGMENT
-cable management - floor trunking,CAFTRK,0,,IfcCableCarrierSegment
+cable management - floor trunking,CAFTRK,0,,IfcCableCarrierSegmentCABLETRUNKINGSEGMENT
 camera,CAM,1,,IfcAudioVisualApplianceCAMERA
 camera - pan tilt zoom camera,PTZCAM,1,,IfcAudioVisualApplianceCAMERA
 chiller,CH,1,HVAC/CH,IfcChiller
-chiller - air cooled chiller,ACCH,1,HVAC/CH,IfcChiller
+chiller - air cooled chiller,ACCH,1,HVAC/CH,IfcChillerAIRCOOLED
 chiller - cooling tower,CT,1,HVAC/CT,IfcCoolingTower
 chiller - critical cooling chiller,CCCH,1,HVAC/CH,IfcChiller
 chiller - dry air cooler,DAC,1,HVAC/DC,IfcCondenserAIRCOOLED
 chiller - high temperature chiller,HTCH,1,HVAC/CH,IfcChiller
 chiller - hybrid air cooler or fluid cooler,HYAC,1,HVAC/CH,IfcEvaporativeCooler
 chiller - low temperature chiller,LTCH,1,HVAC/CH,IfcChiller
-chiller - water cooled chiller,WCCH,1,HVAC/CH,IfcChiller
+chiller - water cooled chiller,WCCH,1,HVAC/CH,IfcChillerWATERCOOLED
 cleaning - floor cleaner scrubber dryer,FCSD,0,,IfcElectricAppliance
 cleaning - standalone laundry tumble dryer,TDY,0,,IfcElectricApplianceTUMBLEDRYER
 cleaning - standalone laundry washing mashine,WSH,0,,IfcElectricApplianceWASHINGMACHINE
-coil,COIL,0,,IfcCoil
+coil,COIL,0,,"IfcCoilHYDRONICCOIL,IfcCoil"
 coil - cooling coil,CC,0,,IfcCoilWATERCOOLINGCOIL
-coil - dx reversible coil,DXC,0,,IfcCoil
-coil - frost or preheat coil,PHC,0,,IfcCoil
+coil - dx reversible coil,DXC,0,,IfcCoilDXCOOLINGCOIL
+coil - frost or preheat coil,PHC,0,,IfcCoilHYDRONICCOIL
 coil - heating coil,HC,0,,IfcCoilWATERHEATINGCOIL
-coil - reheat coil,RHC,0,,IfcCoil
-coil - run around coil,RAC,0,,IfcAirToAirHeatRecoveryRUNAROUNDCOILLOOP
+coil - reheat coil,RHC,0,,IfcCoilHYDRONICCOIL
+coil - run around coil,RAC,0,,IfcAirToAirHeatRecoveryRUNAROUNDCOIL
 communication appliance - printing device,PRNTR,0,,IfcCommunicationsAppliancePRINTER
 communication gateway,CGW,1,,IfcCommunicationsApplianceGATEWAY
 compressor,CMP,1,HVAC/CMP,IfcCompressor
@@ -157,7 +157,7 @@ cooking appliance - potato oven,CKPOVN,0,,IfcElectricApplianceELECTRICCOOKER
 cooking appliance - pressure bratt pan,CKPBP,0,,IfcElectricAppliance
 cooking appliance - pressure steamer,CKPSTE,0,,IfcElectricAppliance
 cooking appliance - rice cooker,CKRC,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - rotisserie,CKROT,0,,IfcFlowTerminal
+cooking appliance - rotisserie,CKROT,0,,IfcElectricAppliance
 cooking appliance - salamander grill,CKSGRL,0,,IfcElectricApplianceELECTRICCOOKER
 cooking appliance - steamer,CKSTE,0,,IfcElectricAppliance
 cooking appliance - tandoori oven,CKTOVN,0,,IfcElectricApplianceELECTRICCOOKER
@@ -186,7 +186,7 @@ dispenser - juice,DISPJ,0,,IfcElectricAppliance
 dispenser - milk,DISPMK,0,,IfcElectricAppliance
 dispenser - soft serve ice cream,DISPIC,0,,IfcElectricAppliance
 dispenser - water,DISPW,0,,IfcElectricAppliance
-distribution data - coaxial cable,COAXCA,0,,IfcCableSegment
+distribution data - coaxial cable,COAXCA,0,,IfcCableSegmentFIBERTUBE
 distribution data - data cable,DCA,0,,IfcCableSegment
 distribution electric - cable,CA,0,,IfcCableSegment
 distribution electric - fire rated cable,FCA,0,,IfcCableSegment
@@ -196,7 +196,7 @@ distribution ventilation - ductwork fire rated,FDUW,0,,IfcDuctSegment
 door,DR,1,,IfcDoorDOOR
 door - electric lock,ELOCK,1,,IfcElectricAppliance
 door - electromagnetic door holder,EMDH,1,,IfcElectricAppliance
-door - fire door,FDR,1,SAFETY/FDR,IfcDoor
+door - fire door,FDR,1,SAFETY/FDR,IfcDoorDOOR
 door - latch lock,LLOCK,1,,IfcElectricAppliance
 door - magnetic lock,MLOCK,1,,IfcElectricAppliance
 drinking fountain / bottle filler,DF,0,,IfcSanitaryTerminalSANITARYFOUNTAIN
@@ -349,24 +349,24 @@ fire suppression - sprinkler head terminal,SPH,1,,IfcFireSuppressionTerminalSPRI
 fire suppression - sprinkler isolation valve,SISV,1,,IfcValveISOLATING
 fire suppression - system gas release panel,FSS,1,,IfcUnitaryControlElementCONTROLPANEL
 fire suppression - vaporizer panel,VP,1,,IfcUnitaryControlElementCONTROLPANEL
-food serving - cold plate,FSCPL,0,,IfcFlowTerminal
-food serving - cold well,FSCWL,0,,IfcFlowStorageDevice
+food serving - cold plate,FSCPL,0,,IfcElectricAppliance
+food serving - cold well,FSCWL,0,,IfcElectricAppliance
 food serving - heat lamp,FSHL,0,,IfcSpaceHeater
-food serving - hot and cold plate,FSHCPL,0,,IfcFlowTerminal
-food serving - hot and cold well,FSHCWL,0,,IfcFlowStorageDevice
-food serving - hot plate,FSHPL,0,,IfcFlowTerminal
-food serving - hot well,FSHWL,0,,IfcFlowStorageDevice
+food serving - hot and cold plate,FSHCPL,0,,IfcElectricAppliance
+food serving - hot and cold well,FSHCWL,0,,IfcElectricAppliance
+food serving - hot plate,FSHPL,0,,IfcElectricAppliance
+food serving - hot well,FSHWL,0,,IfcElectricAppliance
 food serving - ice cream display,FSICD,0,,IfcElectricAppliance
-food serving - ice well,FSIWL,0,,IfcFlowStorageDevice
+food serving - ice well,FSIWL,0,,IfcElectricAppliance
 food serving - induction warmer,FSIW,0,,IfcElectricAppliance
 food serving - sneeze guard,FSSG,0,,IfcFurniture
-food serving - soup well,FSSWL,0,,IfcFlowStorageDevice
+food serving - soup well,FSSWL,0,,IfcElectricAppliance
 furniture - chemical storage cabinet,CSC,0,,IfcFurniture
 furniture - commercial kitchen mobile soak sink,KSINKM,0,,IfcSanitaryTerminalSINK
 furniture - commercial kitchen sink,KSINK,0,,IfcSanitaryTerminalSINK
 furniture - commercial kitchen storage cabinet,KSTC,0,,IfcFurniture
-furniture - commercial kitchen storage cabinet heated,KSTCH,0,,IfcFlowStorageDevice
-furniture - commercial kitchen table,KTBL,0,,IfcFurnitureTABLE
+furniture - commercial kitchen storage cabinet heated,KSTCH,0,,IfcElectricAppliance
+furniture - commercial kitchen table,KTBL,0,,IfcFurnitureSHELF
 furniture - commercial kitchen trolley/cart,KCART,0,,IfcFurniture
 furniture - commercial kitchen utlity distribution system,KUDS,0,,IfcDistributionSystem
 furniture - commercial kitchen wall mounted glass rack,KWMGR,0,,IfcFurnitureSHELF
@@ -397,7 +397,7 @@ heat exchanger,HX,1,HVAC/HX,IfcHeatExchanger
 heat exchanger - cooling plate heat exchanger,CPHX,1,HVAC/HX,IfcHeatExchangerPLATE
 heat exchanger - heating plate heat exchanger,HPHX,1,HVAC/HX,IfcHeatExchangerPLATE
 heat exchanger - plate heat exchanger,PHX,1,HVAC/HX,IfcHeatExchangerPLATE
-heat interface unit,HIU,1,,IfcDistributionSystemHEATING
+heat interface unit,HIU,1,,IfcUnitaryEquipment
 heat pump - air source heat pump,ASHP,1,,IfcUnitaryEquipment
 heat pump - ground source heat pump,GSHP,1,,IfcUnitaryEquipment
 heat pump - heat pump,HP,1,,IfcUnitaryEquipment
@@ -473,10 +473,10 @@ lighting - group,LGRP,1,LIGHTING/LGRP,IfcGroup
 lighting - track - electric track for lights,TR,0,LIGHTING/LT,IfcCableSegment
 lightning protection - cast-in-socket,CIS,0,,IfcFastener
 lightning protection - concrete inspection pit,CIP,0,,IfcDistributionElement
-lightning protection - earthing bar,EBA,0,,IfcDistributionElement
+lightning protection - earthing bar,EBA,0,,IfcCableSegment
 lightning protection - earthing clamp,ECL,0,,IfcFastener
-lightning protection - earthing rod,ERO,0,,IfcDistributionElement
-lightning protection - earthing tape,ETA,0,,IfcDistributionElement
+lightning protection - earthing rod,ERO,0,,IfcCableSegment
+lightning protection - earthing tape,ETA,0,,IfcCableSegment
 location services - beacon,LBCN,1,,IfcCommunicationsAppliance
 meter,MTR,1,METERS/MTR,IfcFlowMeter
 meter - electric branch meter,EBM,1,METERS/MTR,IfcFlowMeter
@@ -729,7 +729,7 @@ washing appliance - commercial pot and utensil machine,CDWPUW,0,,IfcElectricAppl
 washing appliance - commercial rack machine,CDWRM,0,,IfcElectricApplianceDISHWASHER
 washing appliance - commercial undercounter machine,CDWUM,0,,IfcElectricApplianceDISHWASHER
 washing appliance - conveyor system,CDWSCS,0,,IfcElectricApplianceDISHWASHER
-washing appliance - roller table,CDWRT,0,,IfcFurnitureTABLE
+washing appliance - roller table,CDWRT,0,,IfcFurnitureSHELF
 waste management - food dehydrator,WSTFD,0,,IfcElectricAppliance
 waste management - waste bin,WSTBIN,0,,IfcFurniture
 waste management - waste compactor,WSTC,0,,IfcElectricAppliance
@@ -741,9 +741,9 @@ water heater - electric water heater,EWH,0,HVAC/HWS,IfcElectricApplianceFREESTAN
 water heater - gas water heater,GWH,0,HVAC/HWS,IfcBoilerWATER
 water heater - instantaneous water heater,IWH,0,HVAC/HWS,IfcElectricAppliance
 water heater - solar water heating panel,SWHP,0,,IfcSolarDeviceSOLARCOLLECTOR
-water treatment - chemical dosage unit,CHDU,1,,IfcDistributionSystemCHEMICAL
+water treatment - chemical dosage unit,CHDU,1,,IfcTank
 water treatment - cooling tower water treatment unit,CTSU,1,,IfcUnitaryEquipment
-water treatment - dosing pot,DPOT,0,,IfcDistributionFlowElement
-water treatment - electro magnetic water conditioner,EMWC,0,,IfcFlowTreatmentDevice
+water treatment - dosing pot,DPOT,0,,IfcTank
+water treatment - electro magnetic water conditioner,EMWC,0,,IfcFilterWATERFILTER
 weather station,WST,1,HVAC/WEATHER,IfcUnitaryControlElementWEATHERSTATION
 window,WD,0,,IfcWindow
