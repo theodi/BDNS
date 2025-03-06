@@ -272,7 +272,7 @@ emergency assistance - disabled wc control panel,DWCCP,,IfcController,PROGRAMMAB
 emergency assistance - disabled wc overdoor indicator,DWCOI,,IfcAlarm,LIGHT,1
 emergency assistance - disabled wc pull cord,DWCPC,,IfcAlarm,MANUALPULLBOX,1
 emergency assistance - disabled wc reset button,DWCRB,,IfcController,TWOPOSITION,1
-emergency assistance - panic duress button,PDB,,IfcAlarm,TWOPOSITION,1
+emergency assistance - panic duress button,PDB,,IfcAlarm,,1
 emergency voice communication - control panel,EVCCP,,IfcAudioVisualAppliance,COMMUNICATIONTERMINAL,1
 emergency voice communication - outstation,EVCO,,IfcAudioVisualAppliance,RECEIVER,1
 emergency voice communication - outstation disabled refuge,DRO,,IfcAudioVisualAppliance,RECEIVER,1
@@ -636,10 +636,10 @@ shading - shading device keypad,SDKP,,IfcSwitchingDevice,KEYPAD,1
 shading - shading device motor,SDM,,IfcElectricMotor,,0
 shading - shading device solar tracking module,SDSTM,,IfcSensor,RADIATIONSENSOR,1
 signal - beacon,BCN,,IfcAlarm,LIGHT,1
-switch - absolute pressure,APSW,,IfcSwitchingDevice,PRESSURESENSOR,1
-switch - dew point,DEWSW,,IfcSwitchingDevice,HUMIDISTAT,1
-switch - differential pressure,DPSW,,IfcSwitchingDevice,PRESSURESENSOR,1
-switch - static pressure,SPSW,,IfcSwitchingDevice,PRESSURESENSOR,1
+switch - absolute pressure,APSW,,IfcSwitchingDevice,,1
+switch - dew point,DEWSW,,IfcSwitchingDevice,,1
+switch - differential pressure,DPSW,,IfcSwitchingDevice,,1
+switch - static pressure,SPSW,,IfcSwitchingDevice,,1
 switch - thermal dispersion flow proving switch,TDSW,,IfcSwitchingDevice,,1
 tank - break tank,BTK,,IfcTank,BREAKPRESSURE,1
 tank - break tank and booster set,BTKBS,,IfcTank,BREAKPRESSURE,1
