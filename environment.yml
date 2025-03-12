@@ -13,4 +13,6 @@ dependencies:
   - itables
   - pyfiglet
   - pandas
-  - bsdd
+  - pip
+  - pip:
+    - bsdd
