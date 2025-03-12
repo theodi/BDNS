@@ -1,749 +1,749 @@
-asset_description,asset_abbreviation,can_be_connected,dbo_entity_type,ifc4_3
-access control - RFID controller,RFIDC,1,,IfcController
-access control - RFID reader,RFIDR,1,,IfcCommunicationsApplianceSCANNER
-access control - access control system,ACS,1,,IfcDistributionSystemSECURITY
-access control - audio intercom,AIC,1,,IfcSwitchingDevice
-access control - biometric reader,BIOR,1,,IfcCommunicationsApplianceSCANNER
-access control - door release button,RTE,1,,IfcSwitchingDeviceCONTACTOR
-access control - proximity reader - generic,PROXR,1,,IfcCommunicationsApplianceSCANNER
-access control - video intercom,VIC,1,,IfcSwitchingDevice
-actuator,ACT,1,,IfcActuator
-actuator - frost protection switch,FPSW,1,,IfcActuatorELECTRICACTUATOR
-actuator - motorized window operator,WDO,1,,IfcActuatorELECTRICACTUATOR
-actuator - switch actuator,SWACT,1,,IfcActuatorELECTRICACTUATOR
-air conditioning unit,ACU,1,HVAC/AHU,IfcUnitaryEquipmentAIRCONDITIONINGUNIT
-air conditioning unit - computer room AC unit,CRAC,1,HVAC/AHU,IfcUnitaryEquipmentAIRCONDITIONINGUNIT
-air conditioning unit - direct expansion cooling unit,DX,1,HVAC/AHU,IfcUnitaryEquipmentSPLITSYSTEM
-air handling - mechanical ventilation with heat recovery,MVHR,1,HVAC/AHU,IfcAirToAirHeatRecovery
-air handling unit - air handling unit,AHU,1,HVAC/AHU,IfcUnitaryEquipmentAIRHANDLER
-air handling unit - computer room air handler,CRAH,1,HVAC/AHU,IfcUnitaryEquipmentAIRHANDLER
-air handling unit - dedicated outside air system unit,DOAS,1,HVAC/DOAS,IfcUnitaryEquipmentAIRHANDLER
-air handling unit - heat recovery unit,HRU,1,HVAC/AHU,IfcAirToAirHeatRecovery
-air handling unit - make-up air handler,MAU,1,HVAC/MAU,IfcUnitaryEquipmentAIRHANDLER
-air handling unit - roof top unit,RTU,1,HVAC/AHU,IfcUnitaryEquipmentROOFTOPUNIT
-air terminal - air valve - extract,EAV,1,,IfcAirTerminal
-air terminal - air valve - supply,SAV,1,,IfcAirTerminal
-air terminal - generic,AT,1,,IfcAirTerminal
-air terminal - grille,GR,1,,IfcAirTerminal
-air terminal - grille - extract,EG,1,,IfcAirTerminal
-air terminal - grille - supply,SG,1,,IfcAirTerminal
-air terminal - louvre,LOU,1,,IfcAirTerminal
-air terminal - louvre - exhaust/extract,ELOU,1,,IfcAirTerminal
-air terminal - louvre - inlet/intake,ILOU,1,,IfcAirTerminal
-air terminal box - constant air volume box,CAV,1,,IfcAirTerminalBoxCONSTANTFLOW
-air terminal box - constant air volume box - extract,CAVE,1,,IfcAirTerminalBoxCONSTANTFLOW
-air terminal box - constant air volume box - extract - fixed,CAVEF,1,,IfcAirTerminalBoxCONSTANTFLOW
-air terminal box - constant air volume box - extract - mechanically actuated,CAVEM,1,,IfcAirTerminalBoxCONSTANTFLOW
-air terminal box - constant air volume box - supply,CAVS,1,,IfcAirTerminalBoxCONSTANTFLOW
-air terminal box - constant air volume box - supply - fixed,CAVSF,1,,IfcAirTerminalBoxCONSTANTFLOW
-air terminal box - constant air volume box - supply - mechanically actuated,CAVSM,1,,IfcAirTerminalBoxCONSTANTFLOW
-air terminal box - fan powered box,FPB,1,,IfcAirTerminalBox
-air terminal box - under floor variable air volume box,UFT,1,HVAC/VAV,IfcAirTerminalBox
-air terminal box - variable air volume box,VAV,1,HVAC/VAV,IfcAirTerminalBox
-air terminal box - variable air volume box - extract,VAVE,1,HVAC/VAV,IfcAirTerminalBox
-air terminal box - variable air volume box - supply,VAVS,1,HVAC/VAV,IfcAirTerminalBox
-air terminal box - variable volume and temperature box,VVTB,1,,IfcAirTerminalBox
-air terminal box - variable volume terminal unit,VVT,1,,IfcAirTerminalBox
-alarm - disabled alarm,DA,1,,IfcAlarmMANUALPULLBOX
-antenna,ANT,0,,IfcCommunicationsApplianceANTENNA
-antenna - wi-fi antenna,WANT,0,,IfcCommunicationsApplianceANTENNA
-architecture - room,ROOM,0,,IfcSpaceINTERNAL
-av equipment,AVEQ,0,,IfcAudioVisualAppliance
-av equipment - audio amplifier,AMP,0,,IfcAudioVisualApplianceAMPLIFIER
-av equipment - audio assistive equipment,AAE,0,,IfcAudioVisualAppliance
-av equipment - audio mixer / splitter / equalizer / diplexer,AMIX,0,,IfcAudioVisualAppliance
-av equipment - audio mixing desk,MIX,0,,IfcAudioVisualAppliance
-av equipment - audio monitor,AMON,0,,IfcAudioVisualApplianceDISPLAY
-av equipment - audio video control keypad,AVKP,0,,IfcAudioVisualAppliance
-av equipment - audio visual encoder,AVE,0,,IfcAudioVisualAppliance
-av equipment - audio visual outlet,AVO,0,,IfcAudioVisualAppliance
-av equipment - audio visual switch,AVS,0,,IfcAudioVisualAppliance
-av equipment - bluetooth audio interface,BTAI,0,,IfcAudioVisualAppliance
-av equipment - camera control unit,CCU,0,,IfcAudioVisualAppliance
-av equipment - codec device,CD,0,,IfcAudioVisualAppliance
-av equipment - digital signal processor,DSP,0,,IfcAudioVisualApplianceTUNER
-av equipment - digital whiteboard,DWB,0,,IfcAudioVisualApplianceDISPLAY
-av equipment - display screen,DS,0,,IfcAudioVisualApplianceDISPLAY
-av equipment - iptv / digital signage decoder,DEC,0,,IfcAudioVisualAppliance
-av equipment - iptv content management system device,CMS,1,,IfcAudioVisualAppliance
-av equipment - matrix switcher,MSW,0,,IfcAudioVisualAppliance
-av equipment - microphone,MIC,0,,IfcAudioVisualApplianceMICROPHONE
-av equipment - networked video recorder,NVR,1,,IfcAudioVisualAppliancePLAYER
-av equipment - room booking panel,RBP,1,,IfcAudioVisualAppliance
-av equipment - speaker,SPK,0,,IfcAudioVisualApplianceSPEAKER
-av equipment - thin client device,TCD,0,,IfcAudioVisualAppliance
-av equipment - touch panel,TPAN,1,,IfcAudioVisualAppliance
-av equipment - video wall,VDW,0,,IfcAudioVisualApplianceDISPLAY
-av equipment - vision mixing desk,VMIX,0,,IfcAudioVisualAppliance
-av equipment - white noise generator,WNG,0,,IfcAudioVisualAppliance
-av equipment - wireless presentation device,WPD,1,,IfcAudioVisualAppliance
-av equipment - wireless receiver,WRCVR,1,,IfcAudioVisualAppliance
-av equipment - wireless sender,WSEND,1,,IfcAudioVisualAppliance
-battery,BATT,0,ELECTRICAL/BATT,IfcElectricFlowStorageDeviceBATTERY
-battery - battery trip unit,BTR,0,ELECTRICAL/BATT,IfcProtectiveDevice
-battery - electric heater battery,EHB,0,ELECTRICAL/BATT,IfcElectricFlowStorageDeviceBATTERY
-battery - lithium ion cell,BATTLI,1,,IfcElectricFlowStorageDevice
-beverage machine - airpot,BVAP,0,,IfcElectricAppliance
-beverage machine - chai machine,BVC,0,,IfcElectricAppliance
-beverage machine - coffee grinder,BVCFMG,0,,IfcElectricAppliance
-beverage machine - coffee machine,BVCFM,0,,IfcElectricAppliance
-beverage machine - coffee nitro machine,BVCFMN,0,,IfcElectricAppliance
-beverage machine - coffee urn,BVCFMU,0,,IfcElectricAppliance
-beverage machine - espresso machine,BVCFME,0,,IfcElectricAppliance
-beverage machine - knock out chute,BVKOC,0,,IfcWasteTerminal
-beverage machine - steamer,BVS,0,,IfcElectricAppliance
-beverage machine - water boiler,BVWB,0,,IfcBoilerWATER
-burner - boiler,BLR,1,HVAC/BLR,IfcBoiler
-burner - furnace,FR,1,,IfcBurner
-burner - steam boiler,SB,1,HVAC/BLR,IfcBoilerSTEAM
-cable management - cable basket,CABASK,0,,IfcCableCarrierSegment
-cable management - cable ladder,CALAD,0,,IfcCableCarrierSegmentCABLELADDERSEGMENT
-cable management - cable tray,CATR,0,,IfcCableCarrierSegmentCABLETRAYSEGMENT
-cable management - cable trunking,CATRK,0,,IfcCableCarrierSegmentCABLETRUNKINGSEGMENT
-cable management - floor trunking,CAFTRK,0,,IfcCableCarrierSegmentCABLETRUNKINGSEGMENT
-camera,CAM,1,,IfcAudioVisualApplianceCAMERA
-camera - pan tilt zoom camera,PTZCAM,1,,IfcAudioVisualApplianceCAMERA
-chiller,CH,1,HVAC/CH,IfcChiller
-chiller - air cooled chiller,ACCH,1,HVAC/CH,IfcChillerAIRCOOLED
-chiller - cooling tower,CT,1,HVAC/CT,IfcCoolingTower
-chiller - critical cooling chiller,CCCH,1,HVAC/CH,IfcChiller
-chiller - dry air cooler,DAC,1,HVAC/DC,IfcCondenserAIRCOOLED
-chiller - high temperature chiller,HTCH,1,HVAC/CH,IfcChiller
-chiller - hybrid air cooler or fluid cooler,HYAC,1,HVAC/CH,IfcEvaporativeCooler
-chiller - low temperature chiller,LTCH,1,HVAC/CH,IfcChiller
-chiller - water cooled chiller,WCCH,1,HVAC/CH,IfcChillerWATERCOOLED
-cleaning - floor cleaner scrubber dryer,FCSD,0,,IfcElectricAppliance
-cleaning - standalone laundry tumble dryer,TDY,0,,IfcElectricApplianceTUMBLEDRYER
-cleaning - standalone laundry washing mashine,WSH,0,,IfcElectricApplianceWASHINGMACHINE
-coil,COIL,0,,"IfcCoilHYDRONICCOIL,IfcCoil"
-coil - cooling coil,CC,0,,IfcCoilWATERCOOLINGCOIL
-coil - dx reversible coil,DXC,0,,IfcCoilDXCOOLINGCOIL
-coil - frost or preheat coil,PHC,0,,IfcCoilHYDRONICCOIL
-coil - heating coil,HC,0,,IfcCoilWATERHEATINGCOIL
-coil - reheat coil,RHC,0,,IfcCoilHYDRONICCOIL
-coil - run around coil,RAC,0,,IfcAirToAirHeatRecoveryRUNAROUNDCOIL
-communication appliance - printing device,PRNTR,0,,IfcCommunicationsAppliancePRINTER
-communication gateway,CGW,1,,IfcCommunicationsApplianceGATEWAY
-compressor,CMP,1,HVAC/CMP,IfcCompressor
-compressor - air compressor,ACP,1,HVAC/CMP,IfcCompressor
-condensing unit,CDU,1,,IfcCondenser
-controller,CNTRL,1,,IfcController
-controller - direct digital controller,DDC,1,,IfcControllerPROGRAMMABLE
-controller - door controller,DRC,1,,IfcControllerPROGRAMMABLE
-controller - irrigation controller,IRRC,1,,IfcController
-controller - programmable logic controller,PLC,1,,IfcControllerPROGRAMMABLE
-controller - room controller,ROC,1,,IfcController
-cooking appliance - bratt pan,CKBP,0,,IfcElectricAppliance
-cooking appliance - chargrill,CKCGR,0,,IfcFlowTerminal
-cooking appliance - combination microwave/high speed oven,CKCMWO,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - combination oven,CKCMOV,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - convection oven,CKCVOV,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - deck/pizza oven,CKDOVN,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - dim sum steamer,CKDSTE,0,,IfcElectricAppliance
-cooking appliance - fry dump,CKFRYD,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - fryer,CKFRY,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - gas range,CKGRCK,0,,IfcFlowTerminal
-cooking appliance - gas wok range,CKGWR,0,,IfcFlowTerminal
-cooking appliance - griddle,CKGRD,0,,IfcElectricAppliance
-cooking appliance - hearth oven,CKHOVN,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - impinger conveyor oven,CKICOV,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - induction,CKIU,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - induction range,CKIRCK,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - induction wok,CKIW,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - kettle,CKKET,0,,IfcElectricAppliance
-cooking appliance - mobile cook station,KMCS,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - pasta cooker,CKPC,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - potato oven,CKPOVN,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - pressure bratt pan,CKPBP,0,,IfcElectricAppliance
-cooking appliance - pressure steamer,CKPSTE,0,,IfcElectricAppliance
-cooking appliance - rice cooker,CKRC,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - rotisserie,CKROT,0,,IfcElectricAppliance
-cooking appliance - salamander grill,CKSGRL,0,,IfcElectricApplianceELECTRICCOOKER
-cooking appliance - steamer,CKSTE,0,,IfcElectricAppliance
-cooking appliance - tandoori oven,CKTOVN,0,,IfcElectricApplianceELECTRICCOOKER
-damper,DMP,1,HVAC/DMP,IfcDamper
-damper - bypass control damper,BYCD,1,HVAC/DMP,IfcDamperCONTROLDAMPER
-damper - exhaust damper,EXD,1,HVAC/DMP,IfcDamper
-damper - fire damper,FD,1,SAFETY/FD,IfcDamperFIREDAMPER
-damper - inlet control damper,ICD,1,HVAC/DMP,IfcDamperCONTROLDAMPER
-damper - inlet isolation damper,IISD,1,HVAC/DMP,IfcDamper
-damper - motorised damper,MD,1,HVAC/DMP,IfcDamper
-damper - motorised fire smoke damper,MFSD,1,HVAC/DMP,IfcDamperFIRESMOKEDAMPER
-damper - motorised smoke control damper,MSCD,1,HVAC/DMP,IfcDamperSMOKEDAMPER
-damper - motorised smoke damper,MSD,1,HVAC/DMP,IfcDamperSMOKEDAMPER
-damper - pressure relief dampers,PRLD,1,HVAC/DMP,IfcDamperRELIEFDAMPER
-damper - recirculation control damper,RECD,1,HVAC/DMP,IfcDamperCONTROLDAMPER
-damper - return control damper,RTCD,1,HVAC/DMP,IfcDamperCONTROLDAMPER
-damper - return isolation damper,RTISD,1,HVAC/DMP,IfcDamperCONTROLDAMPER
-damper - volume control damper,VCD,1,HVAC/DMP,IfcDamperBALANCINGDAMPER
-data processing unit / computer,DPU,1,,IfcCommunicationsAppliance
-dehumidifier,DHUM,1,,IfcUnitaryEquipmentDEHUMIDIFIER
-dispenser,DISP,0,,IfcElectricAppliance
-dispenser - broth,DISPB,0,,IfcElectricAppliance
-dispenser - cereal,DISPC,0,,IfcElectricAppliance
-dispenser - ice/beverage,DISPIB,0,,IfcElectricAppliance
-dispenser - juice,DISPJ,0,,IfcElectricAppliance
-dispenser - milk,DISPMK,0,,IfcElectricAppliance
-dispenser - soft serve ice cream,DISPIC,0,,IfcElectricAppliance
-dispenser - water,DISPW,0,,IfcElectricAppliance
-distribution data - coaxial cable,COAXCA,0,,IfcCableSegmentFIBERTUBE
-distribution data - data cable,DCA,0,,IfcCableSegment
-distribution electric - cable,CA,0,,IfcCableSegment
-distribution electric - fire rated cable,FCA,0,,IfcCableSegment
-distribution piped services - pipework,PW,0,,IfcPipeSegment
-distribution ventilation - ductwork,DUW,0,,IfcDuctSegment
-distribution ventilation - ductwork fire rated,FDUW,0,,IfcDuctSegment
-door,DR,1,,IfcDoorDOOR
-door - electric lock,ELOCK,1,,IfcElectricAppliance
-door - electromagnetic door holder,EMDH,1,,IfcElectricAppliance
-door - fire door,FDR,1,SAFETY/FDR,IfcDoorDOOR
-door - latch lock,LLOCK,1,,IfcElectricAppliance
-door - magnetic lock,MLOCK,1,,IfcElectricAppliance
-drinking fountain / bottle filler,DF,0,,IfcSanitaryTerminalSANITARYFOUNTAIN
-duct silencer - attenuator,SLCR,0,,IfcDuctSilencer
-dx system - branch controller/selector box,BCBOX,1,,IfcUnitaryEquipmentSPLITSYSTEM
-dx system - hybrid variable refrigerant flow unit,HVRF,1,,IfcUnitaryEquipmentSPLITSYSTEM
-dx system - variable refrigerant flow unit,VRF,1,,IfcUnitaryEquipmentSPLITSYSTEM
-dx system - variable refrigerant volume unit,VRV,1,,IfcUnitaryEquipmentSPLITSYSTEM
-electric appliance,EAPPL,0,,IfcElectricAppliance
-electric appliance - air dryer,ADY,0,HVAC/ADY,IfcElectricAppliance
-electric appliance - dishwasher,DW,0,,IfcElectricApplianceDISHWASHER
-electric appliance - electronic point of sale,EPOS,0,,IfcElectricAppliance
-electric appliance - exercise / gym equipment,GYMEQ,0,,IfcElectricAppliance
-electric appliance - food equipment,FOODEQ,0,,IfcElectricAppliance
-electric appliance - fryer,FRY,0,,IfcElectricApplianceELECTRICCOOKER
-electric appliance - generic vending machine,VEND,0,,IfcElectricApplianceVENDINGMACHINE
-electric appliance - hand dryer,HDY,0,,IfcElectricAppliance
-electric appliance - oven,OVN,0,,IfcElectricApplianceELECTRICCOOKER
-electric appliance - scanning device,SCAN,0,,IfcCommunicationsApplianceSCANNER
-electric appliance - steamer,STE,0,,IfcElectricAppliance
-electric distribution - EVC electric vehicle charging distribution panel,EVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD
-electric distribution - EVC electric vehicle charging equipment,EVCE,1,,IfcOutletPOWEROUTLET
-electric distribution - active harmonic filter,AHF,1,,IfcElectricFlowStorageDeviceHARMONICFILTER
-electric distribution - automatic transfer switch,ATS,1,,IfcProtectiveDevice
-electric distribution - branch circuit panel board 120/208V,LVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD
-electric distribution - branch circuit panel board 277/480V,HVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD
-electric distribution - busbar,BB,0,,IfcCableSegmentBUSBARSEGMENT
-electric distribution - busbar tapoff,BBTO,0,,IfcCableSegmentBUSBARSEGMENT
-electric distribution - dc-dc converter,DCDC,0,,IfcTransformer
-electric distribution - distribution panel / board,DB,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD
-electric distribution - distribution panel / board - consumer unit,CU,1,ELECTRICAL/PANEL,IfcDistributionBoardCONSUMERUNIT
-electric distribution - distribution panel 120/208V,LVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD
-electric distribution - distribution panel 277/480V,HVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD
-electric distribution - distribution panel for itc equipment,ITDP,1,ELECTRICAL/PANEL,IfcDistributionBoard
-electric distribution - electric switch,ELSW,1,,IfcSwitchingDeviceTOGGLESWITCH
-electric distribution - high voltage switchboard,HVSB,1,,IfcDistributionBoardSWITCHBOARD
-electric distribution - invertor,IVT,1,,IfcTransformerINVERTER
-electric distribution - kitchen electric distribution panel/board,KDP,1,ELECTRICAL/PANEL,IfcDistributionBoard
-electric distribution - load bank,LB,1,,IfcElectricFlowStorageDevice
-electric distribution - low voltage switchboard,LVSB,1,,IfcDistributionBoardSWITCHBOARD
-electric distribution - main panel / board,MPNL,1,ELECTRICAL/PANEL,IfcDistributionBoard
-electric distribution - main switch panel,MSP,1,ELECTRICAL/PANEL,IfcDistributionBoardSWITCHBOARD
-electric distribution - mains distribution unit,MDU,1,,IfcDistributionBoard
-electric distribution - mains switchboard,MSB,1,,IfcDistributionBoardSWITCHBOARD
-electric distribution - mechanical distribution panel / board,MDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD
-electric distribution - medium voltage switchboard,MVSB,1,,IfcDistributionBoardSWITCHBOARD
-electric distribution - panel board,PB,1,,IfcDistributionBoard
-electric distribution - passive harmonic filter,PHF,0,,IfcElectricFlowStorageDeviceHARMONICFILTER
-electric distribution - power distribution unit,PDU,1,,IfcDistributionBoard
-electric distribution - power factor correction system,PFC,0,,IfcElectricFlowTreatmentDevice
-electric distribution - rectifier,REC,0,,IfcTransformerRECTIFIER
-electric distribution - ring main unit,RMU,0,,IfcDistributionBoard
-electric distribution - rising busbar,RBB,0,,IfcCableSegmentBUSBARSEGMENT
-electric distribution - static transfer switch,STS,1,,IfcSwitchingDevice
-electric distribution - switchgear (12kv typ),SWGR,1,,IfcDistributionBoardSWITCHBOARD
-electric distribution - unit substation,USS,1,ELECTRICAL/PANEL,IfcUnitaryEquipment
-electric distribution - ups panel / board,UPSB,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD
-electric protective device - circuit breaker,CB,1,,IfcProtectiveDeviceCIRCUITBREAKER
-electric protective device - disconnect fuse,DSCTF,0,,IfcProtectiveDeviceFUSEDISCONNECTOR
-electric protective device - electrical isolator (disconnector),EISO,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR
-electric protective device - high temperature cut out switch,HTCO,0,,IfcSwitchingDevice
-electric protective device - isolation transformer,EISOTX,0,,IfcProtectiveDevice
-electric protective device - miniature circuit breaker,MCB,1,,IfcProtectiveDeviceCIRCUITBREAKER
-electric protective device - residual current circuit breaker,RCCB,1,,IfcProtectiveDeviceRESIDUALCURRENTCIRCUITBREAKER
-electric protective device - residual current circuit breaker with over-current,RCBO,1,,IfcProtectiveDeviceRESIDUALCURRENTCIRCUITBREAKER
-electric protective device - safety switch or disconnect switch,DSCTS,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR
-electric protective device - safety switch or disconnect switch - emergency stop button,ESB,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR
-electric protective device - sectionalizer switch,SCS,0,,IfcSwitchingDeviceSELECTORSWITCH
-electric protective device - surge protection,SPD,0,,IfcProtectiveDeviceVARISTOR
-electrochromic glass,ECG,0,,IfcWindow
-electronic key cabinet,EKC,1,,IfcFurniture
-emergency assistance - disabled wc control panel,DWCCP,1,,IfcControllerPROGRAMMABLE
-emergency assistance - disabled wc overdoor indicator,DWCOI,1,,IfcAlarmLIGHT
-emergency assistance - disabled wc pull cord,DWCPC,1,,IfcAlarmMANUALPULLBOX
-emergency assistance - disabled wc reset button,DWCRB,1,,IfcControllerTWOPOSITION
-emergency assistance - panic duress button,PDB,1,,IfcAlarm
-emergency voice communication - control panel,EVCCP,1,,IfcAudioVisualApplianceCOMMUNICATIONTERMINAL
-emergency voice communication - outstation,EVCO,1,,IfcAudioVisualApplianceRECEIVER
-emergency voice communication - outstation disabled refuge,DRO,1,,IfcAudioVisualApplianceRECEIVER
-emergency voice communication - outstation emergency telephone,ETO,1,,IfcAudioVisualApplianceRECEIVER
-emergency voice communication - outstation fire telephone,FTO,1,,IfcAudioVisualApplianceRECEIVER
-emergency voice communication - repeater unit,EVCRU,1,,IfcAudioVisualApplianceSWITCHER
-emergency voice communication - voice alarm microphones,VAM,1,,IfcAudioVisualApplianceMICROPHONE
-emergency voice communication - voice alarm speaker,VAS,1,,IfcAudioVisualApplianceSPEAKER
-employee timeclock with fingerprint scanner,ETCFP,1,,IfcElectricAppliance
-evaporator,EVP,1,,IfcEvaporator
-fan,FAN,1,HVAC/FAN,IfcFan
-fan - cooling tower fan,CTF,1,HVAC/FAN,IfcFan
-fan - elevator / lift well pressurization fan,ELVPF,1,HVAC/FAN,IfcFan
-fan - exhaust fan,EF,1,HVAC/FAN,IfcFan
-fan - fume hood exhaust fan,FHEX,1,HVAC/FAN,IfcDamperFUMEHOODEXHAUST
-fan - garage / car park supply fan,GSF,1,HVAC/FAN,IfcFan
-fan - garage / car park transfer fan,GTF,1,HVAC/FAN,IfcFan
-fan - kitchen exhaust fan,KEF,1,HVAC/FAN,IfcFan
-fan - mechanical extract ventilation,MEV,1,HVAC/FAN,IfcFan
-fan - mechanical extract ventilation kitchen,MEVK,1,HVAC/FAN,IfcFan
-fan - pressurization fan,PF,1,HVAC/FAN,IfcFan
-fan - relief fan,RLF,1,HVAC/FAN,IfcFan
-fan - return fan,RTF,1,HVAC/FAN,IfcFan
-fan - smoke exhaust fan,SEF,1,HVAC/FAN,IfcFan
-fan - stairwell pressurization fan,SPF,1,HVAC/FAN,IfcFan
-fan - supply fan,SF,1,HVAC/FAN,IfcFan
-fan - toilet extract fan,TEF,1,HVAC/FAN,IfcFan
-fan - transfer fan,TF,1,HVAC/FAN,IfcFan
-fan coil unit,FCU,1,HVAC/FCU,IfcUnitaryEquipment
-filter,FLT,1,,IfcFilter
-filter - air and dirt separator,ADS,1,,IfcFlowTreatmentDevice
-filter - air purifier unit,APU,1,,IfcFilter
-filter - air separator,AS,1,,IfcFlowTreatmentDevice
-filter - air washer unit,AWSH,1,,IfcFilter
-filter - bag filter,BFLT,1,,IfcFilter
-filter - carbon filter,CFLT,1,,IfcFilter
-filter - cooling tower filtration unit,CTFS,1,,IfcFilter
-filter - cooling tower filtration unit,CTFU,1,,IfcUnitaryEquipment
-filter - cooling tower sand filter,CTSFLT,1,,IfcFilter
-filter - cooling tower separator,CTSEP,1,,IfcFilter
-filter - cooling tower separator / sand separator,CTSSEP,1,,IfcFilter
-filter - degasser filter,DGA,1,,IfcFilter
-filter - dirt separator,DTS,1,,IfcFilter
-filter - exhaust dry scrubber unit,DSU,1,,IfcFilter
-filter - panel filter,PFLT,1,,IfcFilter
-filter - pollution control unit,PCU,1,,IfcFilterAIRPARTICLEFILTER
-filter - process filtration unit,PFU,1,,IfcUnitaryEquipment
-filter - reverse osmosis system,RO,1,,IfcFilter
-filter - side stream water filters,SSFLT,1,,IfcFilter
-filter - vacuum system filter,VSFLT,1,,IfcFilter
-filter - water - reverse rinsing filter,RRFLT,1,,IfcFilter
-filter - water conditioner,WCR,1,,IfcFilterWATERFILTER
-filter - water softener,WSR,1,,IfcFilterWATERFILTER
-fire detection - alarm annunciator sounder or beacon,FAS,1,,IfcAlarm
-fire detection - aspirating smoke detector,ASD,1,SAFETY/SD,IfcSensorSMOKESENSOR
-fire detection - break glass unit,BGU,1,SAFETY/BGU,IfcAlarmBREAKGLASSBUTTON
-fire detection - control and indication equipment,CIE,1,,IfcUnitaryControlElementINDICATORPANEL
-fire detection - gas detector,GD,1,SENSOR,IfcSensorGASSENSOR
-fire detection - heat detector,HD,1,SENSOR,IfcSensorHEATSENSOR
-fire detection - hydrogen detector,HDS,1,,IfcSensor
-fire detection - input output interface unit,IFU,1,,IfcSwitchingDevice
-fire detection - smoke detector,SD,1,SAFETY/SD,IfcSensorSMOKESENSOR
-fire suppression - fire jockey pump,FJP,1,,IfcPump
-fire suppression - fire pump,FP,1,,IfcPump
-fire suppression - fire pump control panel,FPCP,1,,IfcUnitaryControlElementCONTROLPANEL
-fire suppression - firemans override switch,FMO,0,,IfcSwitchingDevice
-fire suppression - gas suppression control panel,GSCP,1,,IfcUnitaryControlElementCONTROLPANEL
-fire suppression - gas suppression head,GSH,0,,IfcFireSuppressionTerminal
-fire suppression - hose reel terminal,KHRL,0,,IfcFireSuppressionTerminalHOSEREEL
-fire suppression - kitchen fire suppression system,KFSS,1,,IfcDistributionSystemFIREPROTECTION
-fire suppression - sprinkler alarm bell,FB,1,,IfcAlarmBELL
-fire suppression - sprinkler flow switch,FS,1,,IfcSwitchingDevice
-fire suppression - sprinkler head terminal,SPH,1,,IfcFireSuppressionTerminalSPRINKLER
-fire suppression - sprinkler isolation valve,SISV,1,,IfcValveISOLATING
-fire suppression - system gas release panel,FSS,1,,IfcUnitaryControlElementCONTROLPANEL
-fire suppression - vaporizer panel,VP,1,,IfcUnitaryControlElementCONTROLPANEL
-food serving - cold plate,FSCPL,0,,IfcElectricAppliance
-food serving - cold well,FSCWL,0,,IfcElectricAppliance
-food serving - heat lamp,FSHL,0,,IfcSpaceHeater
-food serving - hot and cold plate,FSHCPL,0,,IfcElectricAppliance
-food serving - hot and cold well,FSHCWL,0,,IfcElectricAppliance
-food serving - hot plate,FSHPL,0,,IfcElectricAppliance
-food serving - hot well,FSHWL,0,,IfcElectricAppliance
-food serving - ice cream display,FSICD,0,,IfcElectricAppliance
-food serving - ice well,FSIWL,0,,IfcElectricAppliance
-food serving - induction warmer,FSIW,0,,IfcElectricAppliance
-food serving - sneeze guard,FSSG,0,,IfcFurniture
-food serving - soup well,FSSWL,0,,IfcElectricAppliance
-furniture - chemical storage cabinet,CSC,0,,IfcFurniture
-furniture - commercial kitchen mobile soak sink,KSINKM,0,,IfcSanitaryTerminalSINK
-furniture - commercial kitchen sink,KSINK,0,,IfcSanitaryTerminalSINK
-furniture - commercial kitchen storage cabinet,KSTC,0,,IfcFurniture
-furniture - commercial kitchen storage cabinet heated,KSTCH,0,,IfcElectricAppliance
-furniture - commercial kitchen table,KTBL,0,,IfcFurnitureSHELF
-furniture - commercial kitchen trolley/cart,KCART,0,,IfcFurniture
-furniture - commercial kitchen utlity distribution system,KUDS,0,,IfcDistributionSystem
-furniture - commercial kitchen wall mounted glass rack,KWMGR,0,,IfcFurnitureSHELF
-furniture - commercial kithcen utility chase system,KUCS,0,,IfcDistributionSystem
-furniture - desk,DESK,0,,IfcFurnitureDESK
-furniture - emergency eyewash station,EEW,0,,IfcSanitaryTerminalSANITARYFOUNTAIN
-furniture - locker,LCKR,1,,IfcFurniture
-generator - clean steam generator,CSG,1,,IfcElectricGenerator
-generator - combined heat and power generator,CHP,1,,IfcElectricGeneratorCHP
-generator - diesel electricity generator,DG,1,,IfcElectricGeneratorENGINEGENERATOR
-generator - electricity generator,GEN,1,,IfcElectricGeneratorENGINEGENERATOR
-grease waste interceptor,GI,0,,IfcInterceptorGREASE
-heat emitter - duct heater,DH,1,HVAC/DH,IfcSpaceHeater
-heat emitter - electric unit heater,EUH,1,HVAC/UH,IfcSpaceHeater
-heat emitter - gas unit heater,GUH,1,HVAC/UH,IfcSpaceHeater
-heat emitter - heater,HTR,1,,IfcSpaceHeater
-heat emitter - hydronic trench convector,TC,1,,IfcSpaceHeater
-heat emitter - radiant panel,RP,1,HVAC/RP,IfcSpaceHeaterRADIATOR
-heat emitter - radiator,RAD,1,,IfcSpaceHeaterRADIATOR
-heat emitter - radiator electric,ERAD,1,,IfcSpaceHeaterRADIATOR
-heat emitter - trace heating,EHT,1,,IfcSpaceHeater
-heat emitter - trench heater and cooler,TRHC,1,,IfcSpaceHeater
-heat emitter - trench heating,TRH,1,,IfcSpaceHeater
-heat emitter - underfloor manifold,UFM,1,,IfcSpaceHeater
-heat emitter - unit heater,UH,1,,IfcSpaceHeater
-heat emitter - warm air curtain,WAC,1,,IfcSpaceHeater
-heat exchanger,HX,1,HVAC/HX,IfcHeatExchanger
-heat exchanger - cooling plate heat exchanger,CPHX,1,HVAC/HX,IfcHeatExchangerPLATE
-heat exchanger - heating plate heat exchanger,HPHX,1,HVAC/HX,IfcHeatExchangerPLATE
-heat exchanger - plate heat exchanger,PHX,1,HVAC/HX,IfcHeatExchangerPLATE
-heat interface unit,HIU,1,,IfcUnitaryEquipment
-heat pump - air source heat pump,ASHP,1,,IfcUnitaryEquipment
-heat pump - ground source heat pump,GSHP,1,,IfcUnitaryEquipment
-heat pump - heat pump,HP,1,,IfcUnitaryEquipment
-heat pump - water source heat pump,WSHP,1,,IfcUnitaryEquipment
-high level interface,HLI,1,,IfcControllerPROGRAMMABLE
-horn strobe,HS,1,SAFETY/HS,IfcAlarmSIREN
-human machine interface,HMI,1,,IfcCommunicationsAppliance
-humidifier,HUM,1,HVAC/HUM,IfcHumidifier
-ict equipment - ethernet switch,ETS,1,,IfcCommunicationsApplianceNETWORKBRIDGE
-ict equipment - fibre switch,FBS,1,,IfcCommunicationsApplianceNETWORKBRIDGE
-ict equipment - intermediate distribution frame,IDF,1,,IfcCommunicationsAppliance
-ict equipment - multi-purpose server,SRV,1,,IfcCommunicationsAppliance
-ict equipment - network access manager,NAM,1,,IfcCommunicationsAppliance
-ict equipment - network firewall,FW,1,,IfcCommunicationsApplianceNETWORKAPPLIANCE
-ict equipment - network monitoring system,NMS,1,,IfcCommunicationsAppliance
-ict equipment - network router,RTR,1,,IfcCommunicationsApplianceROUTER
-ict equipment - pdu ip dongle,PDUIPD,1,,IfcCommunicationsAppliance
-ict equipment - power-over-ethernet network switch,POEETS,1,,IfcCommunicationsAppliance
-ict equipment - software-defined networking controller,SDNC,1,,IfcCommunicationsAppliance
-ict equipment - ups management system,UPSMS,1,,IfcCommunicationsAppliance
-ict equipment - wi-fi router,WRTR,1,,IfcCommunicationsApplianceROUTER
-ict equipment - wireless access point,WAP,1,,IfcCommunicationsApplianceROUTER
-ict equipment - wireless lan controller,WLC,1,,IfcControllerPROGRAMMABLE
-kitchen appliance - blender/smoothie maker,KSMBL,0,,IfcElectricAppliance
-kitchen appliance - bowl blender,KBBL,0,,IfcElectricAppliance
-kitchen appliance - bowl cutter,KBC,0,,IfcElectricAppliance
-kitchen appliance - can opener,KCO,0,,IfcElectricAppliance
-kitchen appliance - crepe and waffle maker,KCWM,0,,IfcElectricAppliance
-kitchen appliance - cutlery dryer,KCDY,0,,IfcElectricAppliance
-kitchen appliance - dough divider/rounder,KDR,0,,IfcElectricAppliance
-kitchen appliance - dough press,KDPR,0,,IfcElectricAppliance
-kitchen appliance - insect trap,KICT,0,,IfcElectricAppliance
-kitchen appliance - juicer,KJC,0,,IfcElectricAppliance
-kitchen appliance - meat bone saw,KMBS,0,,IfcElectricAppliance
-kitchen appliance - meat mincer,KMM,0,,IfcElectricAppliance
-kitchen appliance - meat slicer,KMS,0,,IfcElectricAppliance
-kitchen appliance - microwave oven,CKMWO,0,,IfcElectricApplianceMICROWAVE
-kitchen appliance - mixer,KMIX,0,,IfcElectricAppliance
-kitchen appliance - pacotizing machine,KPM,0,,IfcElectricAppliance
-kitchen appliance - potato peeling machine,KPPM,0,,IfcElectricAppliance
-kitchen appliance - scale,KFS,0,,IfcElectricAppliance
-kitchen appliance - stick blender,KSBL,0,,IfcElectricAppliance
-kitchen appliance - storage rack,KSR,0,,IfcFurnitureSHELF
-kitchen appliance - toaster,KTST,0,,IfcElectricAppliance
-kitchen appliance - uv knife steralizer,KUVSC,0,,IfcElectricAppliance
-kitchen appliance - vacuum packing machine,KVPM,0,,IfcElectricAppliance
-kitchen appliance - veg cutting machine,KVCM,0,,IfcElectricAppliance
-kitchen appliance - vegetable washer,KVWM,0,,IfcElectricAppliance
-kitchen appliance - vegetable washer and dryer,KVW,0,,IfcElectricAppliance
-kitchen appliance - warming drawer,WDR,0,,IfcElectricApplianceELECTRICCOOKER
-kitchen ventilation - condensate hood,KVCH,0,,IfcDamperFUMEHOODEXHAUST
-kitchen ventilation - extraction/exhuast grease hood,KVGH,0,,IfcDamperFUMEHOODEXHAUST
-kitchen ventilation - ventilated ceiling,KVVC,0,,IfcAirTerminalBox
-lighting - control - dimmer,DIM,0,LIGHTING/LCM,IfcSwitchingDeviceDIMMERSWITCH
-lighting - control - keypad,LKP,1,LIGHTING/LKP,IfcSwitchingDeviceKEYPAD
-lighting - control - module,LCM,1,LIGHTING/LCM,IfcUnitaryControlElement
-lighting - control - panel,LCP,1,,IfcUnitaryControlElement
-lighting - control - switch,LSW,1,,IfcSwitchingDevice
-lighting - fixture,LT,0,LIGHTING/LT,IfcLightFixture
-lighting - fixture - downlight,DL,1,LIGHTING/LT,IfcLightFixture
-lighting - fixture - illuminated exit sign,EXIT,1,,IfcLightFixtureSECURITYLIGHTING
-lighting - fixture - linear,LL,1,LIGHTING/LT,IfcLightFixtureDIRECTIONSOURCE
-lighting - fixture - linear tape,TL,1,LIGHTING/LT,IfcLightFixtureDIRECTIONSOURCE
-lighting - fixture - pendant,PL,1,LIGHTING/LT,IfcLightFixturePOINTSOURCE
-lighting - fixture - spot light,SL,1,LIGHTING/LT,IfcLightFixturePOINTSOURCE
-lighting - fixture - standalone emergency light,EL,1,LIGHTING/LT,IfcLightFixture
-lighting - fixture - uplight,UL,1,LIGHTING/LT,IfcLightFixture
-lighting - fixture - wall light,WL,1,LIGHTING/LT,IfcLightFixture
-lighting - fixture external - bollard,LBO,1,LIGHTING/LT,IfcLightFixture
-lighting - fixture external - lampost,LPO,1,LIGHTING/LT,IfcLightFixture
-lighting - gateway,LTGW,1,LIGHTING/LTGW,IfcCommunicationsApplianceGATEWAY
-lighting - group,LGRP,1,LIGHTING/LGRP,IfcGroup
-lighting - track - electric track for lights,TR,0,LIGHTING/LT,IfcCableSegment
-lightning protection - cast-in-socket,CIS,0,,IfcFastener
-lightning protection - concrete inspection pit,CIP,0,,IfcDistributionElement
-lightning protection - earthing bar,EBA,0,,IfcCableSegment
-lightning protection - earthing clamp,ECL,0,,IfcFastener
-lightning protection - earthing rod,ERO,0,,IfcCableSegment
-lightning protection - earthing tape,ETA,0,,IfcCableSegment
-location services - beacon,LBCN,1,,IfcCommunicationsAppliance
-meter,MTR,1,METERS/MTR,IfcFlowMeter
-meter - electric branch meter,EBM,1,METERS/MTR,IfcFlowMeter
-meter - electric meter,EM,1,METERS/EM,IfcFlowMeterENERGYMETER
-meter - electric meter (virtual),EMV,0,METERS/EMV,IfcFlowMeter
-meter - flow meter,FM,1,METERS/FM,IfcFlowMeter
-meter - gas meter,GM,1,METERS/GM,IfcFlowMeterGASMETER
-meter - gas meter (virtual),GMV,0,METERS/GMV,IfcFlowMeter
-meter - heat meter,HM,1,METERS/HM,IfcFlowMeter
-meter - heat meter (virtual),HMV,0,METERS/HMV,IfcFlowMeter
-meter - water meter,WM,1,METERS/WM,IfcFlowMeterWATERMETER
-meter - water meter (virtual),WMV,0,METERS/WMV,IfcFlowMeter
-motor controller - vsd (inverter drive),VSD,1,,IfcMotorConnection
-natural air ventilator,AVR,1,,IfcStackTerminal
-oil interceptor,OI,0,,IfcInterceptorOIL
-outlet,OUT,0,,IfcOutlet
-outlet - ceiling duplex,CGDXO,0,,IfcOutletPOWEROUTLET
-outlet - connection unit switched fused,CUSF,0,,IfcOutletPOWEROUTLET
-outlet - connection unit unswitched fused,CUUF,0,,IfcOutletPOWEROUTLET
-outlet - controlled duplex,CNDO,0,,IfcOutletDATAOUTLET
-outlet - data wall outlet,DATA,0,,IfcOutletDATAOUTLET
-outlet - double 20A duplex receptacle,DDR,0,,IfcOutletPOWEROUTLET
-outlet - double switched socket outlet,DSSO,0,,IfcOutletPOWEROUTLET
-outlet - double unswitched socket outlet,DSO,0,,IfcOutletPOWEROUTLET
-outlet - duplex outlets,DXO,0,,IfcOutletPOWEROUTLET
-outlet - floor box,FLRB,0,,IfcOutlet
-outlet - floor duplex outlet,FLRDX,0,,IfcOutletDATAOUTLET
-outlet - floor quad outlet,FLRQD,0,,IfcOutletDATAOUTLET
-outlet - linear electric receptacle,LER,0,,IfcOutlet
-outlet - single switched socket outlet,SSSO,0,,IfcOutletPOWEROUTLET
-outlet - single unswitched socket outlet,SSO,0,,IfcOutletPOWEROUTLET
-panel - alarm panel,AP,1,,IfcUnitaryControlElementALARMPANEL
-panel - chemical treatment control panel,CTCP,1,,IfcUnitaryControlElement
-panel - control panel,CTRP,1,,IfcUnitaryControlElementCONTROLPANEL
-panel - fire alarm control panel,FACP,1,SAFETY/FACP,IfcUnitaryControlElement
-panel - gas booster control panel,GBCP,1,,IfcUnitaryControlElementCONTROLPANEL
-panel - gas detection panel,GASDET,1,,IfcUnitaryControlElementGASDETECTIONPANEL
-panel - generator control panel,GENCP,1,,IfcUnitaryControlElementCONTROLPANEL
-panel - greywater control panel,GWCP,1,,IfcUnitaryControlElementCONTROLPANEL
-panel - hvac control panel,HVACCP,1,,IfcUnitaryControlElementCONTROLPANEL
-panel - leak detection panel,LDP,1,,IfcUnitaryControlElementCONTROLPANEL
-panel - motor control center,MCC,1,,IfcUnitaryControlElement
-panel - remote i/o control panel,RIO,1,,IfcUnitaryControlElement
-panel - rodent repellent panel,RDT,1,,IfcUnitaryControlElementCONTROLPANEL
-panel - variable air volume control station / panel,VAVCTR,1,,IfcUnitaryControlElement
-pressurisation unit,PU,1,,IfcUnitaryEquipment
-pressurisation unit - water system makeup unit,WMS,1,,IfcUnitaryEquipment
-pump,PMP,1,HVAC/PMP,IfcPump
-pump - automatic condensate pump,CNP,1,HVAC/PMP,IfcPump
-pump - auxilliary process cooling water pump,AXCWP,1,HVAC/PMP,IfcPump
-pump - booster pump,BSP,1,HVAC/PMP,IfcPump
-pump - chilled water pump,CHWP,1,HVAC/PMP,IfcPump
-pump - circulating pump,CP,1,HVAC/PMP,IfcPumpCIRCULATOR
-pump - condenser water pump,CDWP,1,HVAC/PMP,IfcPump
-pump - cooling tower separator pump,CTSEPP,1,HVAC/PMP,IfcPump
-pump - domestic hot water circulation pump,DHWP,1,HVAC/PMP,IfcPump
-pump - dosing pump,DP,1,HVAC/PMP,IfcPump
-pump - fire hydrant pump,FHP,1,HVAC/PMP,IfcPump
-pump - fuel oil pump,FOP,1,HVAC/PMP,IfcPump
-pump - gas booster pump,GBP,1,HVAC/PMP,IfcPump
-pump - greywater booster pump,GWBP,1,HVAC/PMP,IfcPump
-pump - heat exchanger pump,HXP,1,HVAC/PMP,IfcPump
-pump - high temperature chilled water pump,HTCHP,1,HVAC/PMP,IfcPump
-pump - high temperature condenser water pump,HTCWP,1,HVAC/PMP,IfcPump
-pump - hot water pump,HWP,1,HVAC/PMP,IfcPump
-pump - low temperature chilled water pump,LTCHWP,1,HVAC/PMP,IfcPump
-pump - low temperature condenser water pump,LTCDWP,1,HVAC/PMP,IfcPump
-pump - low temperature hot water pump,LTHWP,1,HVAC/PMP,IfcPump
-pump - packaged pump set,PAPS,1,HVAC/PMP,IfcPump
-pump - potable/domestic water booster pump,DWBP,1,HVAC/PMP,IfcPump
-pump - potable/domestic water transfer pump,DWTP,1,HVAC/PMP,IfcPump
-pump - primary chilled water pump,PCHWP,1,HVAC/PMP,IfcPump
-pump - primary pump,PP,1,HVAC/PMP,IfcPump
-pump - process cooling water pump,PCWP,1,HVAC/PMP,IfcPump
-pump - process water pump,PWP,1,HVAC/PMP,IfcPump
-pump - rainwater booster pump,RNWBP,1,HVAC/PMP,IfcPump
-pump - rainwater pump,RNWP,1,HVAC/PMP,IfcPump
-pump - recirculation pump,RCP,1,HVAC/PMP,IfcPump
-pump - recycled water pump,RWP,1,HVAC/PMP,IfcPump
-pump - secondary chilled water pump,SCHWP,1,HVAC/PMP,IfcPump
-pump - secondary heating circulation pump,SHCP,1,HVAC/PMP,IfcPump
-pump - secondary hot water circulating pump,SHWP,1,HVAC/PMP,IfcPump
-pump - secondary pump,SP,1,HVAC/PMP,IfcPump
-pump - separator pump,SEPP,1,HVAC/PMP,IfcPump
-pump - sewage ejector pump,SEP,1,HVAC/PMP,IfcPump
-pump - sprinkler pump,SPP,1,HVAC/PMP,IfcPump
-pump - sump pump,SMPP,1,HVAC/PMP,IfcPumpSUMPPUMP
-pump - tower make up pump,TMUP,1,HVAC/PMP,IfcPump
-pump - tower make up valve,TMUV,1,HVAC/PMP,IfcValve
-pump - transfer pump,TRP,1,HVAC/PMP,IfcPump
-pump - vacuum pump,VCP,1,HVAC/PMP,IfcPump
-pump - waste water pump,WWP,1,HVAC/PMP,IfcPump
-pump - wet riser pump,WRP,1,HVAC/PMP,IfcPump
-pv ac disconnect,PVACDS,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR
-pv data acquisition system,PVDAS,1,,IfcController
-pv dc combiner,PVDCC,0,,IfcDistributionBoardDISTRIBUTIONBOARD
-pv dc disconnect,PVDCDS,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR
-pv distribution board,PVDB,1,,IfcDistributionBoardDISTRIBUTIONBOARD
-pv inverter,PVI,1,,IfcTransformerINVERTER
-pv microgrid controller,PVMC,1,,IfcController
-pv module-level power electronics,PVMLPE,0,,IfcController
-pv panel,PVP,1,,IfcSolarDeviceSOLARPANEL
-pv transformer,PVTXMR,1,,IfcTransformer
-radiant surface - chilled beam,CHB,0,,IfcCooledBeam
-radiant surface - chilled beam - active,ACHB,1,,IfcCooledBeamACTIVE
-radiant surface - chilled beam - passive,PCHB,1,,IfcCooledBeamPASSIVE
-radiant surface - chilled ceiling,CCH,1,,IfcSpaceHeater
-radiant surface - hot water beam,HTB,0,,IfcSpaceHeaterRADIATOR
-refrigeration - blast chiller/freezer,FRZBCF,0,,IfcElectricApplianceFREEZER
-refrigeration - coldroom freezer,CRFRZ,0,,IfcElectricApplianceFREEZER
-refrigeration - coldroom hardware/plant,CRHW,0,,IfcElectricApplianceREFRIGERATOR
-refrigeration - coldroom refrigerated,CRREF,0,,IfcElectricApplianceREFRIGERATOR
-refrigeration - freezer,FRZ,0,,IfcElectricApplianceFREEZER
-refrigeration - ice cream chest freezer,FRZICC,0,,IfcElectricApplianceFREEZER
-refrigeration - ice maker,IM,0,,IfcElectricAppliance
-refrigeration - refrigerator,REF,0,,IfcElectricApplianceREFRIGERATOR
-refrigeration - retarder/proover,REFRP,0,,IfcElectricApplianceREFRIGERATOR
-sand oil interceptor,SOI,0,,IfcInterceptorOIL
-sand separator,SSP,0,,IfcInterceptor
-sanitary terminal - hand wash basin,HWB,0,,IfcSanitaryTerminalWASHHANDBASIN
-sensor - CO sensor,COS,1,SENSOR,IfcSensorCOSENSOR
-sensor - CO2 sensor,CDS,1,SENSOR,IfcSensorCO2SENSOR
-sensor - condensation water sensor,CS,1,SENSOR,IfcSensorTEMPERATURESENSOR
-sensor - contact sensor,CNTS,1,SENSOR,IfcSensorCONTACTSENSOR
-sensor - differential pressure sensor,DPS,1,SENSOR,IfcSensorPRESSURESENSOR
-sensor - glycol protector sensor,GLYPR,1,SENSOR,IfcSensor
-sensor - humidity sensor,HMS,1,SENSOR,IfcSensorHUMIDITYSENSOR
-sensor - humidity sensor - outside,OHMS,1,SENSOR,IfcSensorHUMIDITYSENSOR
-sensor - inertial measurement unit sensor,IMUS,1,SENSOR,IfcSensor
-sensor - leak detection sensor,LDS,1,SENSOR,IfcSensor
-sensor - level sensor,LVLS,1,SENSOR,IfcSensor
-sensor - lighting motion sensor,LMS,1,SENSOR,IfcSensorMOVEMENTSENSOR
-sensor - lighting multisensor,LTMTS,1,SENSOR,IfcSensor
-sensor - lighting photocell sensor,LPS,1,SENSOR,IfcSensorLIGHTSENSOR
-sensor - moisture content sensor,MCS,1,SENSOR,IfcSensor
-sensor - motion sensor,MOS,1,SENSOR,IfcSensorMOVEMENTSENSOR
-sensor - multi sensor,MTS,1,SENSOR,IfcSensor
-sensor - nitrogen dioxide sensor,NDS,1,SENSOR,IfcSensor
-sensor - particulate matter sensor,PMS,1,SENSOR,IfcSensor
-sensor - people counting sensor,PCS,1,SENSOR,IfcSensor
-sensor - pressure sensor,PS,1,SENSOR,IfcSensorPRESSURESENSOR
-sensor - seismic sensor,SSS,1,SENSOR,IfcSensor
-sensor - sound level sensor,SLS,1,SENSOR,IfcSensorSOUNDSENSOR
-sensor - static pressure sensor,SPS,1,SENSOR,IfcSensorPRESSURESENSOR
-sensor - temperature sensor,TPS,1,SENSOR,IfcSensorTEMPERATURESENSOR
-sensor - temperature sensor - outside,OTPS,1,SENSOR,IfcSensorTEMPERATURESENSOR
-sensor - thermostat,TSTAT,1,,IfcUnitaryControlElementTHERMOSTAT
-sensor - velocity sensor,VS,1,SENSOR,IfcSensor
-sensor - vibration sensor,VBS,1,SENSOR,IfcSensor
-sensor - volumetric flow sensor - air,AVFS,1,SENSOR,IfcSensorFLOWSENSOR
-sensor - volumetric flow sensor - water,WVFS,1,SENSOR,IfcSensorFLOWSENSOR
-sensor - wind sensor,WS,1,SENSOR,IfcSensorWINDSENSOR
-shading - shading device actuator,SDACT,1,HVAC/SDC,IfcActuatorELECTRICACTUATOR
-shading - shading device blinds,BL,0,,IfcShadingDevice
-shading - shading device controller,SDC,1,,IfcController
-shading - shading device keypad,SDKP,1,,IfcSwitchingDeviceKEYPAD
-shading - shading device motor,SDM,0,,IfcElectricMotor
-shading - shading device solar tracking module,SDSTM,1,,IfcSensorRADIATIONSENSOR
-signal - beacon,BCN,1,,IfcAlarmLIGHT
-switch - absolute pressure,APSW,1,,IfcSwitchingDevice
-switch - dew point,DEWSW,1,,IfcSwitchingDevice
-switch - differential pressure,DPSW,1,,IfcSwitchingDevice
-switch - static pressure,SPSW,1,,IfcSwitchingDevice
-switch - thermal dispersion flow proving switch,TDSW,1,,IfcSwitchingDevice
-tank - break tank,BTK,1,,IfcTankBREAKPRESSURE
-tank - break tank and booster set,BTKBS,1,,IfcTankBREAKPRESSURE
-tank - brine tank,BRITK,0,,IfcTankVESSEL
-tank - buffer vessel - cooling,CBUFF,0,,IfcTankVESSEL
-tank - buffer vessel - generic,BUFF,0,,IfcTankVESSEL
-tank - buffer vessel - heating,HBUFF,0,,IfcTankVESSEL
-tank - compressed air storage tank,CAST,0,,IfcTankSTORAGE
-tank - condensate receiver tank,CNR,0,,IfcTankSTORAGE
-tank - deareator tank,DEA,0,,IfcTank
-tank - decontamination tank,DET,0,,IfcTank
-tank - emergency sewer tank,EST,0,,IfcTank
-tank - emergency water tank,EWT,0,,IfcTankSTORAGE
-tank - expansion tank,ET,0,,IfcTankEXPANSION
-tank - fire hydrant tank,FHT,0,,IfcTankSTORAGE
-tank - fuel oil day tank,FODT,0,,IfcTank
-tank - fuel oil storage tank,FOST,0,,IfcTankSTORAGE
-tank - greywater storage tank,GWST,0,,IfcTankSTORAGE
-tank - hot water cylinder,HWC,0,,IfcTankSTORAGE
-tank - mains water storage tank,MWST,0,,IfcTankSTORAGE
-tank - potable/domestic water storage tank,DWST,0,,IfcTankSTORAGE
-tank - potable/domestic water transfer tank,DWTT,0,,IfcTank
-tank - rainwater storage tank,RNWST,0,,IfcTankSTORAGE
-tank - sprinkler tank,SPT,0,,IfcTankSTORAGE
-tank - thermal storage tank,TST,0,,IfcTankSTORAGE
-tank - water tank,TK,0,,IfcTankSTORAGE
-tank - wet riser tank,WRT,0,,IfcTankSTORAGE
-thermal wheel,TW,0,,IfcAirToAirHeatRecoveryROTARYWHEEL
-timeclock,TMCLK,1,,IfcElectricTimeControlTIMECLOCK
-transformer,TXMR,0,,IfcTransformer
-transportation - escalator,ESC,1,,IfcTransportElementESCALATOR
-transportation - lift / elevator,ELV,1,,IfcTransportElementELEVATOR
-transportation - lift / elevator controller,ELC,1,,IfcUnitaryControlElement
-transportation - lift / elevator door motor,ELDM,1,,IfcElectricMotor
-transportation - lift / elevator inverter,ELI,1,,IfcTransformerINVERTER
-transportation - lift / elevator traction machine,ELTM,1,,IfcElectricMotor
-transportation - moving walkway,AW,1,,IfcTransportElementMOVINGWALKWAY
-trap primer,TP,0,,IfcValve
-trap primer - electronic trap primer,TPE,0,,IfcValve
-ups - uninteruptable power supply unit,UPS,1,ELECTRICAL/UPS,IfcElectricFlowStorageDeviceUPS
-user interface - keypad,KP,1,,IfcSwitchingDeviceKEYPAD
-uv disinfection unit,UVDU,1,,IfcFilter
-valve,VLV,0,HVAC/VLV,IfcValve
-valve - air admittance valve,AAV,0,HVAC/VLV,IfcValveAIRRELEASE
-valve - angle stop valve,AV,0,HVAC/VLV,IfcValve
-valve - backflow preventer valve,BFP,0,HVAC/VLV,IfcValve
-valve - balancing valve,BLV,0,HVAC/VLV,IfcValveCOMMISSIONING
-valve - ball valve,BV,0,HVAC/VLV,IfcValveGASCOCK
-valve - blowdown valve,BDV,0,HVAC/VLV,IfcValve
-valve - butterfly valve,BFV,0,HVAC/VLV,IfcValve
-valve - bypass valve,BYV,0,HVAC/VLV,IfcValveDIVERTING
-valve - check valve,CKV,0,HVAC/VLV,IfcValveCHECK
-valve - chilled water valve,CHWV,0,HVAC/VLV,IfcValve
-valve - condenser water valve,CDWV,0,HVAC/VLV,IfcValve
-valve - control valve,CV,0,HVAC/VLV,IfcValve
-valve - control valve modulating,CVM,0,HVAC/VLV,IfcValve
-valve - control valve open closed,CVO,0,HVAC/VLV,IfcValve
-valve - differential pressure control valve,DPCV,0,HVAC/VLV,IfcValve
-valve - energy valve,ENV,0,HVAC/VLV,IfcValve
-valve - float valve,FV,0,HVAC/VLV,IfcValve
-valve - flow control valve,FCV,0,HVAC/VLV,IfcValve
-valve - gate valve,GV,0,HVAC/VLV,IfcValveSTEAMTRAP
-valve - hot water valve,HWV,0,HVAC/VLV,IfcValve
-valve - isolation valve,ISV,0,HVAC/VLV,IfcValveISOLATING
-valve - level control valve,LCV,0,HVAC/VLV,IfcValve
-valve - make up water valve,MUV,0,HVAC/VLV,IfcValve
-valve - master thermostatic valve,MMV,0,HVAC/VLV,IfcValve
-valve - pressure attenuator,PA,0,HVAC/VLV,IfcValve
-valve - pressure control valve,PCV,0,HVAC/VLV,IfcValve
-valve - pressure independent control valve,PICV,0,HVAC/VLV,IfcValve
-valve - pressure reducing valve,PRV,0,HVAC/VLV,IfcValvePRESSUREREDUCING
-valve - pressure relief valve,PRFV,0,HVAC/VLV,IfcValvePRESSURERELIEF
-valve - process water valve,PWV,0,HVAC/VLV,IfcValve
-valve - recirculation valve,RCV,0,HVAC/VLV,IfcValve
-valve - return valve,RTV,0,HVAC/VLV,IfcValve
-valve - seismic gas valve,SGV,0,HVAC/VLV,IfcValve
-valve - solenoid valve,SNV,1,HVAC/VLV,IfcValveSAFETYCUTOFF
-valve - steam pressure reducing valve,SPRV,0,HVAC/VLV,IfcValve
-valve - supply valve,SPV,0,HVAC/VLV,IfcValve
-valve - temperature control valve,TCV,0,HVAC/VLV,IfcValve
-valve - thermostatic mixing valve,TMV,0,HVAC/VLV,IfcValveMIXING
-valve - water hammer arrestor,WHAV,0,HVAC/VLV,IfcValve
-variable frequency drive,VFD,1,,IfcMotorConnection
-washing appliance - commercial flight machine,CDWFM,0,,IfcElectricApplianceDISHWASHER
-washing appliance - commercial pass through machine,CDWPTM,0,,IfcElectricApplianceDISHWASHER
-washing appliance - commercial pot and utensil machine,CDWPUW,0,,IfcElectricApplianceDISHWASHER
-washing appliance - commercial rack machine,CDWRM,0,,IfcElectricApplianceDISHWASHER
-washing appliance - commercial undercounter machine,CDWUM,0,,IfcElectricApplianceDISHWASHER
-washing appliance - conveyor system,CDWSCS,0,,IfcElectricApplianceDISHWASHER
-washing appliance - roller table,CDWRT,0,,IfcFurnitureSHELF
-waste management - food dehydrator,WSTFD,0,,IfcElectricAppliance
-waste management - waste bin,WSTBIN,0,,IfcFurniture
-waste management - waste compactor,WSTC,0,,IfcElectricAppliance
-waste management - wet waste grinder,WSTWG,0,,IfcElectricAppliance
-waste terminal - area drain,AD,0,,IfcWasteTerminal
-water heater - domestic electric water heater,DEWH,0,HVAC/HWS,IfcElectricApplianceFREESTANDINGWATERHEATER
-water heater - domestic gas water heater,DGWH,0,HVAC/HWS,IfcBoilerWATER
-water heater - electric water heater,EWH,0,HVAC/HWS,IfcElectricApplianceFREESTANDINGWATERHEATER
-water heater - gas water heater,GWH,0,HVAC/HWS,IfcBoilerWATER
-water heater - instantaneous water heater,IWH,0,HVAC/HWS,IfcElectricAppliance
-water heater - solar water heating panel,SWHP,0,,IfcSolarDeviceSOLARCOLLECTOR
-water treatment - chemical dosage unit,CHDU,1,,IfcTank
-water treatment - cooling tower water treatment unit,CTSU,1,,IfcUnitaryEquipment
-water treatment - dosing pot,DPOT,0,,IfcTank
-water treatment - electro magnetic water conditioner,EMWC,0,,IfcFilterWATERFILTER
-weather station,WST,1,HVAC/WEATHER,IfcUnitaryControlElementWEATHERSTATION
-window,WD,0,,IfcWindow
+asset_description,asset_abbreviation,can_be_connected,dbo_entity_type,ifc4_3,ifc2x3
+access control - RFID controller,RFIDC,1,,IfcController,IfcController
+access control - RFID reader,RFIDR,1,,IfcCommunicationsApplianceSCANNER,IfcElectricApplianceSCANNER
+access control - access control system,ACS,1,,IfcDistributionSystemSECURITY,
+access control - audio intercom,AIC,1,,IfcSwitchingDevice,IfcSwitchingDevice
+access control - biometric reader,BIOR,1,,IfcCommunicationsApplianceSCANNER,IfcElectricApplianceSCANNER
+access control - door release button,RTE,1,,IfcSwitchingDeviceCONTACTOR,IfcSwitchingDeviceCONTACTOR
+access control - proximity reader - generic,PROXR,1,,IfcCommunicationsApplianceSCANNER,
+access control - video intercom,VIC,1,,IfcSwitchingDevice,IfcSwitchingDevice
+actuator,ACT,1,,IfcActuator,IfcActuator
+actuator - frost protection switch,FPSW,1,,IfcActuatorELECTRICACTUATOR,IfcActuatorELECTRICACTUATOR
+actuator - motorized window operator,WDO,1,,IfcActuatorELECTRICACTUATOR,IfcActuatorELECTRICACTUATOR
+actuator - switch actuator,SWACT,1,,IfcActuatorELECTRICACTUATOR,IfcActuatorELECTRICACTUATOR
+air conditioning unit,ACU,1,HVAC/AHU,IfcUnitaryEquipmentAIRCONDITIONINGUNIT,IfcUnitaryEquipmentAIRCONDITIONINGUNIT
+air conditioning unit - computer room AC unit,CRAC,1,HVAC/AHU,IfcUnitaryEquipmentAIRCONDITIONINGUNIT,IfcUnitaryEquipmentAIRCONDITIONINGUNIT
+air conditioning unit - direct expansion cooling unit,DX,1,HVAC/AHU,IfcUnitaryEquipmentSPLITSYSTEM,IfcUnitaryEquipmentSPLITSYSTEM
+air handling - mechanical ventilation with heat recovery,MVHR,1,HVAC/AHU,IfcAirToAirHeatRecovery,IfcAirToAirHeatRecovery
+air handling unit - air handling unit,AHU,1,HVAC/AHU,IfcUnitaryEquipmentAIRHANDLER,IfcUnitaryEquipmentAIRHANDLER
+air handling unit - computer room air handler,CRAH,1,HVAC/AHU,IfcUnitaryEquipmentAIRHANDLER,IfcUnitaryEquipmentAIRHANDLER
+air handling unit - dedicated outside air system unit,DOAS,1,HVAC/DOAS,IfcUnitaryEquipmentAIRHANDLER,IfcUnitaryEquipmentAIRHANDLER
+air handling unit - heat recovery unit,HRU,1,HVAC/AHU,IfcAirToAirHeatRecovery,IfcAirToAirHeatRecovery
+air handling unit - make-up air handler,MAU,1,HVAC/MAU,IfcUnitaryEquipmentAIRHANDLER,IfcUnitaryEquipmentAIRHANDLER
+air handling unit - roof top unit,RTU,1,HVAC/AHU,IfcUnitaryEquipmentROOFTOPUNIT,IfcUnitaryEquipmentROOFTOPUNIT
+air terminal - air valve - extract,EAV,1,,IfcAirTerminal,
+air terminal - air valve - supply,SAV,1,,IfcAirTerminal,
+air terminal - generic,AT,1,,IfcAirTerminal,IfcAirTerminal
+air terminal - grille,GR,1,,IfcAirTerminal,
+air terminal - grille - extract,EG,1,,IfcAirTerminal,
+air terminal - grille - supply,SG,1,,IfcAirTerminal,
+air terminal - louvre,LOU,1,,IfcAirTerminal,
+air terminal - louvre - exhaust/extract,ELOU,1,,IfcAirTerminal,
+air terminal - louvre - inlet/intake,ILOU,1,,IfcAirTerminal,
+air terminal box - constant air volume box,CAV,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxCONSTANTFLOW
+air terminal box - constant air volume box - extract,CAVE,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxCONSTANTFLOW
+air terminal box - constant air volume box - extract - fixed,CAVEF,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxCONSTANTFLOW
+air terminal box - constant air volume box - extract - mechanically actuated,CAVEM,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxCONSTANTFLOW
+air terminal box - constant air volume box - supply,CAVS,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxCONSTANTFLOW
+air terminal box - constant air volume box - supply - fixed,CAVSF,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxCONSTANTFLOW
+air terminal box - constant air volume box - supply - mechanically actuated,CAVSM,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxCONSTANTFLOW
+air terminal box - fan powered box,FPB,1,,IfcAirTerminalBox,IfcAirTerminalBox
+air terminal box - under floor variable air volume box,UFT,1,HVAC/VAV,IfcAirTerminalBox,IfcAirTerminalBox
+air terminal box - variable air volume box,VAV,1,HVAC/VAV,IfcAirTerminalBox,IfcAirTerminalBox
+air terminal box - variable air volume box - extract,VAVE,1,HVAC/VAV,IfcAirTerminalBox,IfcAirTerminalBox
+air terminal box - variable air volume box - supply,VAVS,1,HVAC/VAV,IfcAirTerminalBox,IfcAirTerminalBox
+air terminal box - variable volume and temperature box,VVTB,1,,IfcAirTerminalBox,IfcAirTerminalBox
+air terminal box - variable volume terminal unit,VVT,1,,IfcAirTerminalBox,IfcAirTerminalBox
+alarm - disabled alarm,DA,1,,IfcAlarmMANUALPULLBOX,IfcAlarmMANUALPULLBOX
+antenna,ANT,0,,IfcCommunicationsApplianceANTENNA,IfcElectricAppliance
+antenna - wi-fi antenna,WANT,0,,IfcCommunicationsApplianceANTENNA,IfcElectricAppliance
+architecture - room,ROOM,0,,IfcSpaceINTERNAL,IfcSpace
+av equipment,AVEQ,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - audio amplifier,AMP,0,,IfcAudioVisualApplianceAMPLIFIER,IfcElectricAppliance
+av equipment - audio assistive equipment,AAE,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - audio mixer / splitter / equalizer / diplexer,AMIX,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - audio mixing desk,MIX,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - audio monitor,AMON,0,,IfcAudioVisualApplianceDISPLAY,IfcElectricAppliance
+av equipment - audio video control keypad,AVKP,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - audio visual encoder,AVE,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - audio visual outlet,AVO,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - audio visual switch,AVS,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - bluetooth audio interface,BTAI,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - camera control unit,CCU,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - codec device,CD,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - digital signal processor,DSP,0,,IfcAudioVisualApplianceTUNER,IfcElectricAppliance
+av equipment - digital whiteboard,DWB,0,,IfcAudioVisualApplianceDISPLAY,IfcElectricAppliance
+av equipment - display screen,DS,0,,IfcAudioVisualApplianceDISPLAY,IfcElectricAppliance
+av equipment - iptv / digital signage decoder,DEC,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - iptv content management system device,CMS,1,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - matrix switcher,MSW,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - microphone,MIC,0,,IfcAudioVisualApplianceMICROPHONE,IfcElectricAppliance
+av equipment - networked video recorder,NVR,1,,IfcAudioVisualAppliancePLAYER,IfcElectricAppliance
+av equipment - room booking panel,RBP,1,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - speaker,SPK,0,,IfcAudioVisualApplianceSPEAKER,IfcElectricAppliance
+av equipment - thin client device,TCD,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - touch panel,TPAN,1,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - video wall,VDW,0,,IfcAudioVisualApplianceDISPLAY,IfcElectricAppliance
+av equipment - vision mixing desk,VMIX,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - white noise generator,WNG,0,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - wireless presentation device,WPD,1,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - wireless receiver,WRCVR,1,,IfcAudioVisualAppliance,IfcElectricAppliance
+av equipment - wireless sender,WSEND,1,,IfcAudioVisualAppliance,IfcElectricAppliance
+battery,BATT,0,ELECTRICAL/BATT,IfcElectricFlowStorageDeviceBATTERY,IfcElectricFlowStorageDeviceBATTERY
+battery - battery trip unit,BTR,0,ELECTRICAL/BATT,IfcProtectiveDevice,IfcProtectiveDevice
+battery - electric heater battery,EHB,0,ELECTRICAL/BATT,IfcElectricFlowStorageDeviceBATTERY,IfcElectricFlowStorageDeviceBATTERY
+battery - lithium ion cell,BATTLI,1,,IfcElectricFlowStorageDevice,IfcElectricFlowStorageDevice
+beverage machine - airpot,BVAP,0,,IfcElectricAppliance,IfcElectricAppliance
+beverage machine - chai machine,BVC,0,,IfcElectricAppliance,IfcElectricAppliance
+beverage machine - coffee grinder,BVCFMG,0,,IfcElectricAppliance,IfcElectricAppliance
+beverage machine - coffee machine,BVCFM,0,,IfcElectricAppliance,IfcElectricAppliance
+beverage machine - coffee nitro machine,BVCFMN,0,,IfcElectricAppliance,IfcElectricAppliance
+beverage machine - coffee urn,BVCFMU,0,,IfcElectricAppliance,IfcElectricAppliance
+beverage machine - espresso machine,BVCFME,0,,IfcElectricAppliance,IfcElectricAppliance
+beverage machine - knock out chute,BVKOC,0,,IfcWasteTerminal,IfcWasteTerminal
+beverage machine - steamer,BVS,0,,IfcElectricAppliance,IfcElectricAppliance
+beverage machine - water boiler,BVWB,0,,IfcBoilerWATER,IfcBoilerWATER
+burner - boiler,BLR,1,HVAC/BLR,IfcBoiler,IfcBoiler
+burner - furnace,FR,1,,IfcBurner,IfcBuildingElementProxy
+burner - steam boiler,SB,1,HVAC/BLR,IfcBoilerSTEAM,IfcBoilerSTEAM
+cable management - cable basket,CABASK,0,,IfcCableCarrierSegment,IfcCableCarrierSegment
+cable management - cable ladder,CALAD,0,,IfcCableCarrierSegmentCABLELADDERSEGMENT,IfcCableCarrierSegmentCABLELADDERSEGMENT
+cable management - cable tray,CATR,0,,IfcCableCarrierSegmentCABLETRAYSEGMENT,IfcCableCarrierSegmentCABLETRAYSEGMENT
+cable management - cable trunking,CATRK,0,,IfcCableCarrierSegmentCABLETRUNKINGSEGMENT,IfcCableCarrierSegmentCABLETRUNKINGSEGMENT
+cable management - floor trunking,CAFTRK,0,,IfcCableCarrierSegmentCABLETRUNKINGSEGMENT,IfcCableCarrierSegmentCABLETRUNKINGSEGMENT
+camera,CAM,1,,IfcAudioVisualApplianceCAMERA,IfcElectricAppliance
+camera - pan tilt zoom camera,PTZCAM,1,,IfcAudioVisualApplianceCAMERA,IfcElectricAppliance
+chiller,CH,1,HVAC/CH,IfcChiller,IfcChiller
+chiller - air cooled chiller,ACCH,1,HVAC/CH,IfcChillerAIRCOOLED,IfcChillerAIRCOOLED
+chiller - cooling tower,CT,1,HVAC/CT,IfcCoolingTower,IfcCoolingTower
+chiller - critical cooling chiller,CCCH,1,HVAC/CH,IfcChiller,IfcChiller
+chiller - dry air cooler,DAC,1,HVAC/DC,IfcCondenserAIRCOOLED,IfcCondenserAIRCOOLED
+chiller - high temperature chiller,HTCH,1,HVAC/CH,IfcChiller,IfcChiller
+chiller - hybrid air cooler or fluid cooler,HYAC,1,HVAC/CH,IfcEvaporativeCooler,IfcEvaporativeCooler
+chiller - low temperature chiller,LTCH,1,HVAC/CH,IfcChiller,IfcChiller
+chiller - water cooled chiller,WCCH,1,HVAC/CH,IfcChillerWATERCOOLED,IfcChillerWATERCOOLED
+cleaning - floor cleaner scrubber dryer,FCSD,0,,IfcElectricAppliance,IfcElectricAppliance
+cleaning - standalone laundry tumble dryer,TDY,0,,IfcElectricApplianceTUMBLEDRYER,IfcElectricApplianceTUMBLEDRYER
+cleaning - standalone laundry washing mashine,WSH,0,,IfcElectricApplianceWASHINGMACHINE,IfcElectricApplianceWASHINGMACHINE
+coil,COIL,0,,"IfcCoilHYDRONICCOIL,IfcCoil",IfcCoil
+coil - cooling coil,CC,0,,IfcCoilWATERCOOLINGCOIL,IfcCoilWATERCOOLINGCOIL
+coil - dx reversible coil,DXC,0,,IfcCoilDXCOOLINGCOIL,IfcCoilDXCOOLINGCOIL
+coil - frost or preheat coil,PHC,0,,IfcCoilHYDRONICCOIL,IfcCoilHYDRONICCOIL
+coil - heating coil,HC,0,,IfcCoilWATERHEATINGCOIL,IfcCoilWATERHEATINGCOIL
+coil - reheat coil,RHC,0,,IfcCoilHYDRONICCOIL,IfcCoilHYDRONICCOIL
+coil - run around coil,RAC,0,,IfcAirToAirHeatRecoveryRUNAROUNDCOIL,IfcAirToAirHeatRecoveryRUNAROUNDCOIL
+communication appliance - printing device,PRNTR,0,,IfcCommunicationsAppliancePRINTER,IfcElectricAppliancePRINTER
+communication gateway,CGW,1,,IfcCommunicationsApplianceGATEWAY,IfcElectricAppliance
+compressor,CMP,1,HVAC/CMP,IfcCompressor,IfcCompressor
+compressor - air compressor,ACP,1,HVAC/CMP,IfcCompressor,IfcCompressor
+condensing unit,CDU,1,,IfcCondenser,IfcCondenser
+controller,CNTRL,1,,IfcController,IfcController
+controller - direct digital controller,DDC,1,,IfcControllerPROGRAMMABLE,IfcController
+controller - door controller,DRC,1,,IfcControllerPROGRAMMABLE,
+controller - irrigation controller,IRRC,1,,IfcController,IfcController
+controller - programmable logic controller,PLC,1,,IfcControllerPROGRAMMABLE,IfcController
+controller - room controller,ROC,1,,IfcController,IfcController
+cooking appliance - bratt pan,CKBP,0,,IfcElectricAppliance,IfcElectricAppliance
+cooking appliance - chargrill,CKCGR,0,,IfcFlowTerminal,IfcGasTerminalGASAPPLIANCE
+cooking appliance - combination microwave/high speed oven,CKCMWO,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - combination oven,CKCMOV,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - convection oven,CKCVOV,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - deck/pizza oven,CKDOVN,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - dim sum steamer,CKDSTE,0,,IfcElectricAppliance,IfcElectricAppliance
+cooking appliance - fry dump,CKFRYD,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - fryer,CKFRY,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - gas range,CKGRCK,0,,IfcFlowTerminal,IfcGasTerminalGASAPPLIANCE
+cooking appliance - gas wok range,CKGWR,0,,IfcFlowTerminal,IfcGasTerminalGASAPPLIANCE
+cooking appliance - griddle,CKGRD,0,,IfcElectricAppliance,IfcElectricAppliance
+cooking appliance - hearth oven,CKHOVN,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - impinger conveyor oven,CKICOV,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - induction,CKIU,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - induction range,CKIRCK,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - induction wok,CKIW,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - kettle,CKKET,0,,IfcElectricAppliance,IfcElectricAppliance
+cooking appliance - mobile cook station,KMCS,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - pasta cooker,CKPC,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - potato oven,CKPOVN,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - pressure bratt pan,CKPBP,0,,IfcElectricAppliance,IfcElectricAppliance
+cooking appliance - pressure steamer,CKPSTE,0,,IfcElectricAppliance,IfcElectricAppliance
+cooking appliance - rice cooker,CKRC,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - rotisserie,CKROT,0,,IfcElectricAppliance,IfcElectricAppliance
+cooking appliance - salamander grill,CKSGRL,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+cooking appliance - steamer,CKSTE,0,,IfcElectricAppliance,IfcElectricAppliance
+cooking appliance - tandoori oven,CKTOVN,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+damper,DMP,1,HVAC/DMP,IfcDamper,IfcDamper
+damper - bypass control damper,BYCD,1,HVAC/DMP,IfcDamperCONTROLDAMPER,IfcDamperCONTROLDAMPER
+damper - exhaust damper,EXD,1,HVAC/DMP,IfcDamper,IfcDamper
+damper - fire damper,FD,1,SAFETY/FD,IfcDamperFIREDAMPER,IfcDamperFIREDAMPER
+damper - inlet control damper,ICD,1,HVAC/DMP,IfcDamperCONTROLDAMPER,IfcDamperCONTROLDAMPER
+damper - inlet isolation damper,IISD,1,HVAC/DMP,IfcDamper,IfcDamper
+damper - motorised damper,MD,1,HVAC/DMP,IfcDamper,IfcDamper
+damper - motorised fire smoke damper,MFSD,1,HVAC/DMP,IfcDamperFIRESMOKEDAMPER,IfcDamperFIRESMOKEDAMPER
+damper - motorised smoke control damper,MSCD,1,HVAC/DMP,IfcDamperSMOKEDAMPER,IfcDamperSMOKEDAMPER
+damper - motorised smoke damper,MSD,1,HVAC/DMP,IfcDamperSMOKEDAMPER,IfcDamperSMOKEDAMPER
+damper - pressure relief dampers,PRLD,1,HVAC/DMP,IfcDamperRELIEFDAMPER,IfcDamperRELIEFDAMPER
+damper - recirculation control damper,RECD,1,HVAC/DMP,IfcDamperCONTROLDAMPER,IfcDamperCONTROLDAMPER
+damper - return control damper,RTCD,1,HVAC/DMP,IfcDamperCONTROLDAMPER,IfcDamperCONTROLDAMPER
+damper - return isolation damper,RTISD,1,HVAC/DMP,IfcDamperCONTROLDAMPER,IfcDamperCONTROLDAMPER
+damper - volume control damper,VCD,1,HVAC/DMP,IfcDamperBALANCINGDAMPER,IfcDamperBALANCINGDAMPER
+data processing unit / computer,DPU,1,,IfcCommunicationsAppliance,IfcElectricAppliance
+dehumidifier,DHUM,1,,IfcUnitaryEquipmentDEHUMIDIFIER,IfcElectricDistributionPoint
+dispenser,DISP,0,,IfcElectricAppliance,IfcElectricAppliance
+dispenser - broth,DISPB,0,,IfcElectricAppliance,IfcElectricAppliance
+dispenser - cereal,DISPC,0,,IfcElectricAppliance,IfcElectricAppliance
+dispenser - ice/beverage,DISPIB,0,,IfcElectricAppliance,IfcElectricAppliance
+dispenser - juice,DISPJ,0,,IfcElectricAppliance,IfcElectricAppliance
+dispenser - milk,DISPMK,0,,IfcElectricAppliance,IfcElectricAppliance
+dispenser - soft serve ice cream,DISPIC,0,,IfcElectricAppliance,IfcElectricAppliance
+dispenser - water,DISPW,0,,IfcElectricAppliance,IfcElectricAppliance
+distribution data - coaxial cable,COAXCA,0,,IfcCableSegmentFIBERTUBE,IfcCableSegmentFIBERTUBE
+distribution data - data cable,DCA,0,,IfcCableSegment,IfcCableSegmentFIBERTUBE
+distribution electric - cable,CA,0,,IfcCableSegment,IfcCableSegmentFIBERTUBE
+distribution electric - fire rated cable,FCA,0,,IfcCableSegment,IfcCableSegmentFIBERTUBE
+distribution piped services - pipework,PW,0,,IfcPipeSegment,IfcPipeSegment
+distribution ventilation - ductwork,DUW,0,,IfcDuctSegment,IfcDuctSegment
+distribution ventilation - ductwork fire rated,FDUW,0,,IfcDuctSegment,IfcDuctSegment
+door,DR,1,,IfcDoorDOOR,IfcDoorStyle
+door - electric lock,ELOCK,1,,IfcElectricAppliance,
+door - electromagnetic door holder,EMDH,1,,IfcElectricAppliance,IfcElectricAppliance
+door - fire door,FDR,1,SAFETY/FDR,IfcDoorDOOR,IfcDoorStyle
+door - latch lock,LLOCK,1,,IfcElectricAppliance,
+door - magnetic lock,MLOCK,1,,IfcElectricAppliance,IfcElectricAppliance
+drinking fountain / bottle filler,DF,0,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalSANITARYFOUNTAIN
+duct silencer - attenuator,SLCR,0,,IfcDuctSilencer,IfcDuctSilencer
+dx system - branch controller/selector box,BCBOX,1,,IfcUnitaryEquipmentSPLITSYSTEM,IfcUnitaryEquipmentSPLITSYSTEM
+dx system - hybrid variable refrigerant flow unit,HVRF,1,,IfcUnitaryEquipmentSPLITSYSTEM,IfcUnitaryEquipmentSPLITSYSTEM
+dx system - variable refrigerant flow unit,VRF,1,,IfcUnitaryEquipmentSPLITSYSTEM,IfcUnitaryEquipmentSPLITSYSTEM
+dx system - variable refrigerant volume unit,VRV,1,,IfcUnitaryEquipmentSPLITSYSTEM,IfcUnitaryEquipmentSPLITSYSTEM
+electric appliance,EAPPL,0,,IfcElectricAppliance,IfcElectricAppliance
+electric appliance - air dryer,ADY,0,HVAC/ADY,IfcElectricAppliance,IfcElectricAppliance
+electric appliance - dishwasher,DW,0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER
+electric appliance - electronic point of sale,EPOS,0,,IfcElectricAppliance,IfcElectricAppliance
+electric appliance - exercise / gym equipment,GYMEQ,0,,IfcElectricAppliance,IfcElectricAppliance
+electric appliance - food equipment,FOODEQ,0,,IfcElectricAppliance,IfcElectricAppliance
+electric appliance - fryer,FRY,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+electric appliance - generic vending machine,VEND,0,,IfcElectricApplianceVENDINGMACHINE,IfcElectricApplianceVENDINGMACHINE
+electric appliance - hand dryer,HDY,0,,IfcElectricAppliance,IfcElectricAppliance
+electric appliance - oven,OVN,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+electric appliance - scanning device,SCAN,0,,IfcCommunicationsApplianceSCANNER,IfcElectricApplianceSCANNER
+electric appliance - steamer,STE,0,,IfcElectricAppliance,IfcElectricAppliance
+electric distribution - EVC electric vehicle charging distribution panel,EVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - EVC electric vehicle charging equipment,EVCE,1,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
+electric distribution - active harmonic filter,AHF,1,,IfcElectricFlowStorageDeviceHARMONICFILTER,IfcElectricFlowStorageDeviceHARMONICFILTER
+electric distribution - automatic transfer switch,ATS,1,,IfcProtectiveDevice,IfcProtectiveDevice
+electric distribution - branch circuit panel board 120/208V,LVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - branch circuit panel board 277/480V,HVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - busbar,BB,0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment
+electric distribution - busbar tapoff,BBTO,0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment
+electric distribution - dc-dc converter,DCDC,0,,IfcTransformer,IfcTransformer
+electric distribution - distribution panel / board,DB,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - distribution panel / board - consumer unit,CU,1,ELECTRICAL/PANEL,IfcDistributionBoardCONSUMERUNIT,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - distribution panel 120/208V,LVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - distribution panel 277/480V,HVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - distribution panel for itc equipment,ITDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - electric switch,ELSW,1,,IfcSwitchingDeviceTOGGLESWITCH,IfcSwitchingDeviceTOGGLESWITCH
+electric distribution - high voltage switchboard,HVSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD
+electric distribution - invertor,IVT,1,,IfcTransformerINVERTER,IfcTransformerINVERTER
+electric distribution - kitchen electric distribution panel/board,KDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - load bank,LB,1,,IfcElectricFlowStorageDevice,IfcElectricFlowStorageDevice
+electric distribution - low voltage switchboard,LVSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD
+electric distribution - main panel / board,MPNL,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - main switch panel,MSP,1,ELECTRICAL/PANEL,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD
+electric distribution - mains distribution unit,MDU,1,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - mains switchboard,MSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD
+electric distribution - mechanical distribution panel / board,MDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - medium voltage switchboard,MVSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD
+electric distribution - panel board,PB,1,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - passive harmonic filter,PHF,0,,IfcElectricFlowStorageDeviceHARMONICFILTER,IfcElectricFlowStorageDeviceHARMONICFILTER
+electric distribution - power distribution unit,PDU,1,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - power factor correction system,PFC,0,,IfcElectricFlowTreatmentDevice,IfcElectricDistributionPointCONTROLPANEL
+electric distribution - rectifier,REC,0,,IfcTransformerRECTIFIER,IfcTransformer
+electric distribution - ring main unit,RMU,0,,IfcDistributionBoard,
+electric distribution - rising busbar,RBB,0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment
+electric distribution - static transfer switch,STS,1,,IfcSwitchingDevice,IfcSwitchingDevice
+electric distribution - switchgear (12kv typ),SWGR,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD
+electric distribution - unit substation,USS,1,ELECTRICAL/PANEL,IfcUnitaryEquipment,IfcUnitaryEquipment
+electric distribution - ups panel / board,UPSB,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric protective device - circuit breaker,CB,1,,IfcProtectiveDeviceCIRCUITBREAKER,IfcProtectiveDeviceCIRCUITBREAKER
+electric protective device - disconnect fuse,DSCTF,0,,IfcProtectiveDeviceFUSEDISCONNECTOR,IfcProtectiveDeviceFUSEDISCONNECTOR
+electric protective device - electrical isolator (disconnector),EISO,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR
+electric protective device - high temperature cut out switch,HTCO,0,,IfcSwitchingDevice,IfcSwitchingDevice
+electric protective device - isolation transformer,EISOTX,0,,IfcProtectiveDevice,IfcProtectiveDevice
+electric protective device - miniature circuit breaker,MCB,1,,IfcProtectiveDeviceCIRCUITBREAKER,IfcProtectiveDeviceCIRCUITBREAKER
+electric protective device - residual current circuit breaker,RCCB,1,,IfcProtectiveDeviceRESIDUALCURRENTCIRCUITBREAKER,IfcProtectiveDeviceRESIDUALCURRENTCIRCUITBREAKER
+electric protective device - residual current circuit breaker with over-current,RCBO,1,,IfcProtectiveDeviceRESIDUALCURRENTCIRCUITBREAKER,IfcProtectiveDeviceRESIDUALCURRENTCIRCUITBREAKER
+electric protective device - safety switch or disconnect switch,DSCTS,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR
+electric protective device - safety switch or disconnect switch - emergency stop button,ESB,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR
+electric protective device - sectionalizer switch,SCS,0,,IfcSwitchingDeviceSELECTORSWITCH,IfcSwitchingDevice
+electric protective device - surge protection,SPD,0,,IfcProtectiveDeviceVARISTOR,IfcProtectiveDeviceVARISTOR
+electrochromic glass,ECG,0,,IfcWindow,IfcWindowStyle
+electronic key cabinet,EKC,1,,IfcFurniture,IfcFurniture
+emergency assistance - disabled wc control panel,DWCCP,1,,IfcControllerPROGRAMMABLE,IfcController
+emergency assistance - disabled wc overdoor indicator,DWCOI,1,,IfcAlarmLIGHT,IfcAlarmLIGHT
+emergency assistance - disabled wc pull cord,DWCPC,1,,IfcAlarmMANUALPULLBOX,IfcAlarmMANUALPULLBOX
+emergency assistance - disabled wc reset button,DWCRB,1,,IfcControllerTWOPOSITION,IfcControllerTWOPOSITION
+emergency assistance - panic duress button,PDB,1,,IfcAlarm,
+emergency voice communication - control panel,EVCCP,1,,IfcAudioVisualApplianceCOMMUNICATIONTERMINAL,IfcElectricAppliance
+emergency voice communication - outstation,EVCO,1,,IfcAudioVisualApplianceRECEIVER,IfcElectricAppliance
+emergency voice communication - outstation disabled refuge,DRO,1,,IfcAudioVisualApplianceRECEIVER,IfcElectricAppliance
+emergency voice communication - outstation emergency telephone,ETO,1,,IfcAudioVisualApplianceRECEIVER,IfcElectricAppliance
+emergency voice communication - outstation fire telephone,FTO,1,,IfcAudioVisualApplianceRECEIVER,IfcElectricAppliance
+emergency voice communication - repeater unit,EVCRU,1,,IfcAudioVisualApplianceSWITCHER,IfcElectricAppliance
+emergency voice communication - voice alarm microphones,VAM,1,,IfcAudioVisualApplianceMICROPHONE,IfcElectricAppliance
+emergency voice communication - voice alarm speaker,VAS,1,,IfcAudioVisualApplianceSPEAKER,IfcElectricAppliance
+employee timeclock with fingerprint scanner,ETCFP,1,,IfcElectricAppliance,IfcElectricAppliance
+evaporator,EVP,1,,IfcEvaporator,IfcEvaporator
+fan,FAN,1,HVAC/FAN,IfcFan,IfcFan
+fan - cooling tower fan,CTF,1,HVAC/FAN,IfcFan,IfcFan
+fan - elevator / lift well pressurization fan,ELVPF,1,HVAC/FAN,IfcFan,IfcFan
+fan - exhaust fan,EF,1,HVAC/FAN,IfcFan,IfcFan
+fan - fume hood exhaust fan,FHEX,1,HVAC/FAN,IfcDamperFUMEHOODEXHAUST,IfcDamperFUMEHOODEXHAUST
+fan - garage / car park supply fan,GSF,1,HVAC/FAN,IfcFan,IfcFan
+fan - garage / car park transfer fan,GTF,1,HVAC/FAN,IfcFan,IfcFan
+fan - kitchen exhaust fan,KEF,1,HVAC/FAN,IfcFan,IfcFan
+fan - mechanical extract ventilation,MEV,1,HVAC/FAN,IfcFan,IfcFan
+fan - mechanical extract ventilation kitchen,MEVK,1,HVAC/FAN,IfcFan,
+fan - pressurization fan,PF,1,HVAC/FAN,IfcFan,IfcFan
+fan - relief fan,RLF,1,HVAC/FAN,IfcFan,IfcFan
+fan - return fan,RTF,1,HVAC/FAN,IfcFan,IfcFan
+fan - smoke exhaust fan,SEF,1,HVAC/FAN,IfcFan,IfcFan
+fan - stairwell pressurization fan,SPF,1,HVAC/FAN,IfcFan,IfcFan
+fan - supply fan,SF,1,HVAC/FAN,IfcFan,IfcFan
+fan - toilet extract fan,TEF,1,HVAC/FAN,IfcFan,IfcFan
+fan - transfer fan,TF,1,HVAC/FAN,IfcFan,IfcFan
+fan coil unit,FCU,1,HVAC/FCU,IfcUnitaryEquipment,IfcUnitaryEquipment
+filter,FLT,1,,IfcFilter,IfcFilter
+filter - air and dirt separator,ADS,1,,IfcFlowTreatmentDevice,IfcFilter
+filter - air purifier unit,APU,1,,IfcFilter,IfcFilter
+filter - air separator,AS,1,,IfcFlowTreatmentDevice,IfcFilterAIRPARTICLEFILTER
+filter - air washer unit,AWSH,1,,IfcFilter,IfcFilter
+filter - bag filter,BFLT,1,,IfcFilter,IfcFilter
+filter - carbon filter,CFLT,1,,IfcFilter,IfcFilter
+filter - cooling tower filtration unit,CTFS,1,,IfcFilter,IfcFilter
+filter - cooling tower filtration unit,CTFU,1,,IfcUnitaryEquipment,IfcUnitaryEquipment
+filter - cooling tower sand filter,CTSFLT,1,,IfcFilter,IfcFilter
+filter - cooling tower separator,CTSEP,1,,IfcFilter,IfcFilter
+filter - cooling tower separator / sand separator,CTSSEP,1,,IfcFilter,IfcFilter
+filter - degasser filter,DGA,1,,IfcFilter,IfcFilter
+filter - dirt separator,DTS,1,,IfcFilter,IfcFilter
+filter - exhaust dry scrubber unit,DSU,1,,IfcFilter,IfcFilter
+filter - panel filter,PFLT,1,,IfcFilter,IfcFilter
+filter - pollution control unit,PCU,1,,IfcFilterAIRPARTICLEFILTER,IfcFilterAIRPARTICLEFILTER
+filter - process filtration unit,PFU,1,,IfcUnitaryEquipment,IfcUnitaryEquipment
+filter - reverse osmosis system,RO,1,,IfcFilter,IfcFilter
+filter - side stream water filters,SSFLT,1,,IfcFilter,IfcFilter
+filter - vacuum system filter,VSFLT,1,,IfcFilter,IfcFilter
+filter - water - reverse rinsing filter,RRFLT,1,,IfcFilter,IfcFilter
+filter - water conditioner,WCR,1,,IfcFilterWATERFILTER,IfcFilterWATERFILTER
+filter - water softener,WSR,1,,IfcFilterWATERFILTER,IfcFilterWATERFILTER
+fire detection - alarm annunciator sounder or beacon,FAS,1,,IfcAlarm,IfcAlarm
+fire detection - aspirating smoke detector,ASD,1,SAFETY/SD,IfcSensorSMOKESENSOR,IfcSensorSMOKESENSOR
+fire detection - break glass unit,BGU,1,SAFETY/BGU,IfcAlarmBREAKGLASSBUTTON,IfcAlarmBREAKGLASSBUTTON
+fire detection - control and indication equipment,CIE,1,,IfcUnitaryControlElementINDICATORPANEL,IfcElectricDistributionPoint
+fire detection - gas detector,GD,1,SENSOR,IfcSensorGASSENSOR,IfcSensorGASSENSOR
+fire detection - heat detector,HD,1,SENSOR,IfcSensorHEATSENSOR,IfcSensorHEATSENSOR
+fire detection - hydrogen detector,HDS,1,,IfcSensor,IfcSensor
+fire detection - input output interface unit,IFU,1,,IfcSwitchingDevice,IfcSwitchingDevice
+fire detection - smoke detector,SD,1,SAFETY/SD,IfcSensorSMOKESENSOR,IfcSensorSMOKESENSOR
+fire suppression - fire jockey pump,FJP,1,,IfcPump,IfcPump
+fire suppression - fire pump,FP,1,,IfcPump,IfcPump
+fire suppression - fire pump control panel,FPCP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL
+fire suppression - firemans override switch,FMO,0,,IfcSwitchingDevice,IfcSwitchingDevice
+fire suppression - gas suppression control panel,GSCP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL
+fire suppression - gas suppression head,GSH,0,,IfcFireSuppressionTerminal,IfcFireSuppressionTerminal
+fire suppression - hose reel terminal,KHRL,0,,IfcFireSuppressionTerminalHOSEREEL,IfcFireSuppressionTerminalHOSEREEL
+fire suppression - kitchen fire suppression system,KFSS,1,,IfcDistributionSystemFIREPROTECTION,
+fire suppression - sprinkler alarm bell,FB,1,,IfcAlarmBELL,IfcAlarmBELL
+fire suppression - sprinkler flow switch,FS,1,,IfcSwitchingDevice,IfcSwitchingDevice
+fire suppression - sprinkler head terminal,SPH,1,,IfcFireSuppressionTerminalSPRINKLER,IfcFireSuppressionTerminalSPRINKLER
+fire suppression - sprinkler isolation valve,SISV,1,,IfcValveISOLATING,IfcValveISOLATING
+fire suppression - system gas release panel,FSS,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL
+fire suppression - vaporizer panel,VP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL
+food serving - cold plate,FSCPL,0,,IfcElectricAppliance,IfcElectricAppliance
+food serving - cold well,FSCWL,0,,IfcElectricAppliance,IfcElectricAppliance
+food serving - heat lamp,FSHL,0,,IfcSpaceHeater,IfcSpaceHeater
+food serving - hot and cold plate,FSHCPL,0,,IfcElectricAppliance,IfcElectricAppliance
+food serving - hot and cold well,FSHCWL,0,,IfcElectricAppliance,IfcElectricAppliance
+food serving - hot plate,FSHPL,0,,IfcElectricAppliance,IfcElectricAppliance
+food serving - hot well,FSHWL,0,,IfcElectricAppliance,IfcElectricAppliance
+food serving - ice cream display,FSICD,0,,IfcElectricAppliance,IfcElectricAppliance
+food serving - ice well,FSIWL,0,,IfcElectricAppliance,IfcElectricAppliance
+food serving - induction warmer,FSIW,0,,IfcElectricAppliance,IfcElectricAppliance
+food serving - sneeze guard,FSSG,0,,IfcFurniture,IfcFurniture
+food serving - soup well,FSSWL,0,,IfcElectricAppliance,IfcElectricAppliance
+furniture - chemical storage cabinet,CSC,0,,IfcFurniture,IfcFurniture
+furniture - commercial kitchen mobile soak sink,KSINKM,0,,IfcSanitaryTerminalSINK,IfcSanitaryTerminalSINK
+furniture - commercial kitchen sink,KSINK,0,,IfcSanitaryTerminalSINK,IfcSanitaryTerminalSINK
+furniture - commercial kitchen storage cabinet,KSTC,0,,IfcFurniture,IfcFurniture
+furniture - commercial kitchen storage cabinet heated,KSTCH,0,,IfcElectricAppliance,IfcElectricAppliance
+furniture - commercial kitchen table,KTBL,0,,IfcFurnitureSHELF,IfcFurniture
+furniture - commercial kitchen trolley/cart,KCART,0,,IfcFurniture,IfcFurniture
+furniture - commercial kitchen utlity distribution system,KUDS,0,,IfcDistributionSystem,
+furniture - commercial kitchen wall mounted glass rack,KWMGR,0,,IfcFurnitureSHELF,IfcFurniture
+furniture - commercial kithcen utility chase system,KUCS,0,,IfcDistributionSystem,
+furniture - desk,DESK,0,,IfcFurnitureDESK,IfcFurniture
+furniture - emergency eyewash station,EEW,0,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalSANITARYFOUNTAIN
+furniture - locker,LCKR,1,,IfcFurniture,IfcFurniture
+generator - clean steam generator,CSG,1,,IfcElectricGenerator,IfcElectricGenerator
+generator - combined heat and power generator,CHP,1,,IfcElectricGeneratorCHP,IfcElectricGenerator
+generator - diesel electricity generator,DG,1,,IfcElectricGeneratorENGINEGENERATOR,IfcElectricGenerator
+generator - electricity generator,GEN,1,,IfcElectricGeneratorENGINEGENERATOR,IfcElectricGenerator
+grease waste interceptor,GI,0,,IfcInterceptorGREASE,IfcWasteTerminalGREASEINTERCEPTOR
+heat emitter - duct heater,DH,1,HVAC/DH,IfcSpaceHeater,IfcSpaceHeater
+heat emitter - electric unit heater,EUH,1,HVAC/UH,IfcSpaceHeater,IfcSpaceHeater
+heat emitter - gas unit heater,GUH,1,HVAC/UH,IfcSpaceHeater,IfcSpaceHeater
+heat emitter - heater,HTR,1,,IfcSpaceHeater,IfcSpaceHeater
+heat emitter - hydronic trench convector,TC,1,,IfcSpaceHeater,IfcSpaceHeater
+heat emitter - radiant panel,RP,1,HVAC/RP,IfcSpaceHeaterRADIATOR,IfcSpaceHeater
+heat emitter - radiator,RAD,1,,IfcSpaceHeaterRADIATOR,IfcSpaceHeater
+heat emitter - radiator electric,ERAD,1,,IfcSpaceHeaterRADIATOR,IfcSpaceHeater
+heat emitter - trace heating,EHT,1,,IfcSpaceHeater,IfcSpaceHeater
+heat emitter - trench heater and cooler,TRHC,1,,IfcSpaceHeater,IfcSpaceHeater
+heat emitter - trench heating,TRH,1,,IfcSpaceHeater,IfcSpaceHeater
+heat emitter - underfloor manifold,UFM,1,,IfcSpaceHeater,IfcSpaceHeater
+heat emitter - unit heater,UH,1,,IfcSpaceHeater,IfcSpaceHeater
+heat emitter - warm air curtain,WAC,1,,IfcSpaceHeater,IfcSpaceHeater
+heat exchanger,HX,1,HVAC/HX,IfcHeatExchanger,IfcHeatExchanger
+heat exchanger - cooling plate heat exchanger,CPHX,1,HVAC/HX,IfcHeatExchangerPLATE,IfcHeatExchangerPLATE
+heat exchanger - heating plate heat exchanger,HPHX,1,HVAC/HX,IfcHeatExchangerPLATE,IfcHeatExchangerPLATE
+heat exchanger - plate heat exchanger,PHX,1,HVAC/HX,IfcHeatExchangerPLATE,IfcHeatExchangerPLATE
+heat interface unit,HIU,1,,IfcUnitaryEquipment,IfcUnitaryEquipment
+heat pump - air source heat pump,ASHP,1,,IfcUnitaryEquipment,IfcUnitaryEquipment
+heat pump - ground source heat pump,GSHP,1,,IfcUnitaryEquipment,IfcUnitaryEquipment
+heat pump - heat pump,HP,1,,IfcUnitaryEquipment,IfcUnitaryEquipment
+heat pump - water source heat pump,WSHP,1,,IfcUnitaryEquipment,IfcUnitaryEquipment
+high level interface,HLI,1,,IfcControllerPROGRAMMABLE,IfcController
+horn strobe,HS,1,SAFETY/HS,IfcAlarmSIREN,IfcAlarmSIREN
+human machine interface,HMI,1,,IfcCommunicationsAppliance,IfcElectricAppliance
+humidifier,HUM,1,HVAC/HUM,IfcHumidifier,IfcHumidifier
+ict equipment - ethernet switch,ETS,1,,IfcCommunicationsApplianceNETWORKBRIDGE,IfcElectricAppliance
+ict equipment - fibre switch,FBS,1,,IfcCommunicationsApplianceNETWORKBRIDGE,IfcElectricAppliance
+ict equipment - intermediate distribution frame,IDF,1,,IfcCommunicationsAppliance,IfcElectricAppliance
+ict equipment - multi-purpose server,SRV,1,,IfcCommunicationsAppliance,IfcElectricAppliance
+ict equipment - network access manager,NAM,1,,IfcCommunicationsAppliance,IfcElectricAppliance
+ict equipment - network firewall,FW,1,,IfcCommunicationsApplianceNETWORKAPPLIANCE,IfcElectricAppliance
+ict equipment - network monitoring system,NMS,1,,IfcCommunicationsAppliance,IfcElectricAppliance
+ict equipment - network router,RTR,1,,IfcCommunicationsApplianceROUTER,IfcElectricAppliance
+ict equipment - pdu ip dongle,PDUIPD,1,,IfcCommunicationsAppliance,IfcElectricAppliance
+ict equipment - power-over-ethernet network switch,POEETS,1,,IfcCommunicationsAppliance,IfcElectricAppliance
+ict equipment - software-defined networking controller,SDNC,1,,IfcCommunicationsAppliance,IfcElectricAppliance
+ict equipment - ups management system,UPSMS,1,,IfcCommunicationsAppliance,IfcElectricAppliance
+ict equipment - wi-fi router,WRTR,1,,IfcCommunicationsApplianceROUTER,IfcElectricAppliance
+ict equipment - wireless access point,WAP,1,,IfcCommunicationsApplianceROUTER,IfcElectricAppliance
+ict equipment - wireless lan controller,WLC,1,,IfcControllerPROGRAMMABLE,IfcController
+kitchen appliance - blender/smoothie maker,KSMBL,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - bowl blender,KBBL,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - bowl cutter,KBC,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - can opener,KCO,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - crepe and waffle maker,KCWM,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - cutlery dryer,KCDY,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - dough divider/rounder,KDR,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - dough press,KDPR,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - insect trap,KICT,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - juicer,KJC,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - meat bone saw,KMBS,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - meat mincer,KMM,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - meat slicer,KMS,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - microwave oven,CKMWO,0,,IfcElectricApplianceMICROWAVE,IfcElectricApplianceMICROWAVE
+kitchen appliance - mixer,KMIX,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - pacotizing machine,KPM,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - potato peeling machine,KPPM,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - scale,KFS,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - stick blender,KSBL,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - storage rack,KSR,0,,IfcFurnitureSHELF,IfcFurniture
+kitchen appliance - toaster,KTST,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - uv knife steralizer,KUVSC,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - vacuum packing machine,KVPM,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - veg cutting machine,KVCM,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - vegetable washer,KVWM,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - vegetable washer and dryer,KVW,0,,IfcElectricAppliance,IfcElectricAppliance
+kitchen appliance - warming drawer,WDR,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER
+kitchen ventilation - condensate hood,KVCH,0,,IfcDamperFUMEHOODEXHAUST,IfcDamperFUMEHOODEXHAUST
+kitchen ventilation - extraction/exhuast grease hood,KVGH,0,,IfcDamperFUMEHOODEXHAUST,IfcDamperFUMEHOODEXHAUST
+kitchen ventilation - ventilated ceiling,KVVC,0,,IfcAirTerminalBox,IfcAirTerminalBox
+lighting - control - dimmer,DIM,0,LIGHTING/LCM,IfcSwitchingDeviceDIMMERSWITCH,IfcSwitchingDevice
+lighting - control - keypad,LKP,1,LIGHTING/LKP,IfcSwitchingDeviceKEYPAD,IfcSwitchingDevice
+lighting - control - module,LCM,1,LIGHTING/LCM,IfcUnitaryControlElement,IfcController
+lighting - control - panel,LCP,1,,IfcUnitaryControlElement,IfcController
+lighting - control - switch,LSW,1,,IfcSwitchingDevice,IfcSwitchingDevice
+lighting - fixture,LT,0,LIGHTING/LT,IfcLightFixture,IfcLightFixture
+lighting - fixture - downlight,DL,1,LIGHTING/LT,IfcLightFixture,IfcLightFixture
+lighting - fixture - illuminated exit sign,EXIT,1,,IfcLightFixtureSECURITYLIGHTING,IfcLightFixture
+lighting - fixture - linear,LL,1,LIGHTING/LT,IfcLightFixtureDIRECTIONSOURCE,IfcLightFixtureDIRECTIONSOURCE
+lighting - fixture - linear tape,TL,1,LIGHTING/LT,IfcLightFixtureDIRECTIONSOURCE,IfcLightFixtureDIRECTIONSOURCE
+lighting - fixture - pendant,PL,1,LIGHTING/LT,IfcLightFixturePOINTSOURCE,IfcLightFixturePOINTSOURCE
+lighting - fixture - spot light,SL,1,LIGHTING/LT,IfcLightFixturePOINTSOURCE,IfcLightFixturePOINTSOURCE
+lighting - fixture - standalone emergency light,EL,1,LIGHTING/LT,IfcLightFixture,IfcLightFixture
+lighting - fixture - uplight,UL,1,LIGHTING/LT,IfcLightFixture,IfcLightFixture
+lighting - fixture - wall light,WL,1,LIGHTING/LT,IfcLightFixture,IfcLightFixture
+lighting - fixture external - bollard,LBO,1,LIGHTING/LT,IfcLightFixture,IfcLightFixture
+lighting - fixture external - lampost,LPO,1,LIGHTING/LT,IfcLightFixture,IfcLightFixture
+lighting - gateway,LTGW,1,LIGHTING/LTGW,IfcCommunicationsApplianceGATEWAY,IfcElectricAppliance
+lighting - group,LGRP,1,LIGHTING/LGRP,IfcGroup,
+lighting - track - electric track for lights,TR,0,LIGHTING/LT,IfcCableSegment,IfcCableSegmentFIBERTUBE
+lightning protection - cast-in-socket,CIS,0,,IfcFastener,IfcFastener
+lightning protection - concrete inspection pit,CIP,0,,IfcDistributionElement,
+lightning protection - earthing bar,EBA,0,,IfcCableSegment,IfcCableSegment
+lightning protection - earthing clamp,ECL,0,,IfcFastener,IfcFastener
+lightning protection - earthing rod,ERO,0,,IfcCableSegment,IfcCableSegment
+lightning protection - earthing tape,ETA,0,,IfcCableSegment,IfcCableSegment
+location services - beacon,LBCN,1,,IfcCommunicationsAppliance,IfcElectricAppliance
+meter,MTR,1,METERS/MTR,IfcFlowMeter,IfcFlowMeter
+meter - electric branch meter,EBM,1,METERS/MTR,IfcFlowMeter,IfcFlowMeter
+meter - electric meter,EM,1,METERS/EM,IfcFlowMeterENERGYMETER,IfcFlowMeterENERGYMETER
+meter - electric meter (virtual),EMV,0,METERS/EMV,IfcFlowMeter,
+meter - flow meter,FM,1,METERS/FM,IfcFlowMeter,IfcFlowMeter
+meter - gas meter,GM,1,METERS/GM,IfcFlowMeterGASMETER,IfcFlowMeterGASMETER
+meter - gas meter (virtual),GMV,0,METERS/GMV,IfcFlowMeter,
+meter - heat meter,HM,1,METERS/HM,IfcFlowMeter,IfcFlowMeter
+meter - heat meter (virtual),HMV,0,METERS/HMV,IfcFlowMeter,
+meter - water meter,WM,1,METERS/WM,IfcFlowMeterWATERMETER,IfcFlowMeterWATERMETER
+meter - water meter (virtual),WMV,0,METERS/WMV,IfcFlowMeter,
+motor controller - vsd (inverter drive),VSD,1,,IfcMotorConnection,IfcMotorConnection
+natural air ventilator,AVR,1,,IfcStackTerminal,IfcStackTerminal
+oil interceptor,OI,0,,IfcInterceptorOIL,IfcWasteTerminalOILINTERCEPTOR
+outlet,OUT,0,,IfcOutlet,IfcOutlet
+outlet - ceiling duplex,CGDXO,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
+outlet - connection unit switched fused,CUSF,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
+outlet - connection unit unswitched fused,CUUF,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
+outlet - controlled duplex,CNDO,0,,IfcOutletDATAOUTLET,IfcOutletCOMMUNICATIONSOUTLET
+outlet - data wall outlet,DATA,0,,IfcOutletDATAOUTLET,IfcOutletCOMMUNICATIONSOUTLET
+outlet - double 20A duplex receptacle,DDR,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
+outlet - double switched socket outlet,DSSO,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
+outlet - double unswitched socket outlet,DSO,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
+outlet - duplex outlets,DXO,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
+outlet - floor box,FLRB,0,,IfcOutlet,IfcOutlet
+outlet - floor duplex outlet,FLRDX,0,,IfcOutletDATAOUTLET,IfcOutletCOMMUNICATIONSOUTLET
+outlet - floor quad outlet,FLRQD,0,,IfcOutletDATAOUTLET,IfcOutletCOMMUNICATIONSOUTLET
+outlet - linear electric receptacle,LER,0,,IfcOutlet,IfcOutlet
+outlet - single switched socket outlet,SSSO,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
+outlet - single unswitched socket outlet,SSO,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
+panel - alarm panel,AP,1,,IfcUnitaryControlElementALARMPANEL,IfcElectricDistributionPointALARMPANEL
+panel - chemical treatment control panel,CTCP,1,,IfcUnitaryControlElement,IfcController
+panel - control panel,CTRP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL
+panel - fire alarm control panel,FACP,1,SAFETY/FACP,IfcUnitaryControlElement,IfcElectricDistributionPointCONTROLPANEL
+panel - gas booster control panel,GBCP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL
+panel - gas detection panel,GASDET,1,,IfcUnitaryControlElementGASDETECTIONPANEL,IfcElectricDistributionPointGASDETECTORPANEL
+panel - generator control panel,GENCP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL
+panel - greywater control panel,GWCP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL
+panel - hvac control panel,HVACCP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL
+panel - leak detection panel,LDP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL
+panel - motor control center,MCC,1,,IfcUnitaryControlElement,IfcController
+panel - remote i/o control panel,RIO,1,,IfcUnitaryControlElement,IfcElectricDistributionPointCONTROLPANEL
+panel - rodent repellent panel,RDT,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL
+panel - variable air volume control station / panel,VAVCTR,1,,IfcUnitaryControlElement,IfcController
+pressurisation unit,PU,1,,IfcUnitaryEquipment,IfcUnitaryEquipment
+pressurisation unit - water system makeup unit,WMS,1,,IfcUnitaryEquipment,IfcUnitaryEquipment
+pump,PMP,1,HVAC/PMP,IfcPump,IfcPump
+pump - automatic condensate pump,CNP,1,HVAC/PMP,IfcPump,IfcPump
+pump - auxilliary process cooling water pump,AXCWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - booster pump,BSP,1,HVAC/PMP,IfcPump,IfcPump
+pump - chilled water pump,CHWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - circulating pump,CP,1,HVAC/PMP,IfcPumpCIRCULATOR,IfcPumpCIRCULATOR
+pump - condenser water pump,CDWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - cooling tower separator pump,CTSEPP,1,HVAC/PMP,IfcPump,IfcPump
+pump - domestic hot water circulation pump,DHWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - dosing pump,DP,1,HVAC/PMP,IfcPump,IfcPump
+pump - fire hydrant pump,FHP,1,HVAC/PMP,IfcPump,IfcPump
+pump - fuel oil pump,FOP,1,HVAC/PMP,IfcPump,IfcPump
+pump - gas booster pump,GBP,1,HVAC/PMP,IfcPump,IfcPump
+pump - greywater booster pump,GWBP,1,HVAC/PMP,IfcPump,IfcPump
+pump - heat exchanger pump,HXP,1,HVAC/PMP,IfcPump,IfcPump
+pump - high temperature chilled water pump,HTCHP,1,HVAC/PMP,IfcPump,IfcPump
+pump - high temperature condenser water pump,HTCWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - hot water pump,HWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - low temperature chilled water pump,LTCHWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - low temperature condenser water pump,LTCDWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - low temperature hot water pump,LTHWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - packaged pump set,PAPS,1,HVAC/PMP,IfcPump,IfcPump
+pump - potable/domestic water booster pump,DWBP,1,HVAC/PMP,IfcPump,IfcPump
+pump - potable/domestic water transfer pump,DWTP,1,HVAC/PMP,IfcPump,IfcPump
+pump - primary chilled water pump,PCHWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - primary pump,PP,1,HVAC/PMP,IfcPump,IfcPump
+pump - process cooling water pump,PCWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - process water pump,PWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - rainwater booster pump,RNWBP,1,HVAC/PMP,IfcPump,IfcPump
+pump - rainwater pump,RNWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - recirculation pump,RCP,1,HVAC/PMP,IfcPump,IfcPump
+pump - recycled water pump,RWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - secondary chilled water pump,SCHWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - secondary heating circulation pump,SHCP,1,HVAC/PMP,IfcPump,IfcPump
+pump - secondary hot water circulating pump,SHWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - secondary pump,SP,1,HVAC/PMP,IfcPump,IfcPump
+pump - separator pump,SEPP,1,HVAC/PMP,IfcPump,IfcPump
+pump - sewage ejector pump,SEP,1,HVAC/PMP,IfcPump,IfcPump
+pump - sprinkler pump,SPP,1,HVAC/PMP,IfcPump,IfcPump
+pump - sump pump,SMPP,1,HVAC/PMP,IfcPumpSUMPPUMP,IfcPump
+pump - tower make up pump,TMUP,1,HVAC/PMP,IfcPump,IfcPump
+pump - tower make up valve,TMUV,1,HVAC/PMP,IfcValve,IfcValve
+pump - transfer pump,TRP,1,HVAC/PMP,IfcPump,IfcPump
+pump - vacuum pump,VCP,1,HVAC/PMP,IfcPump,IfcPump
+pump - waste water pump,WWP,1,HVAC/PMP,IfcPump,IfcPump
+pump - wet riser pump,WRP,1,HVAC/PMP,IfcPump,IfcPump
+pv ac disconnect,PVACDS,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR
+pv data acquisition system,PVDAS,1,,IfcController,IfcController
+pv dc combiner,PVDCC,0,,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
+pv dc disconnect,PVDCDS,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR
+pv distribution board,PVDB,1,,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
+pv inverter,PVI,1,,IfcTransformerINVERTER,IfcTransformerINVERTER
+pv microgrid controller,PVMC,1,,IfcController,IfcController
+pv module-level power electronics,PVMLPE,0,,IfcController,IfcController
+pv panel,PVP,1,,IfcSolarDeviceSOLARPANEL,IfcDiscreteAccessory
+pv transformer,PVTXMR,1,,IfcTransformer,IfcTransformer
+radiant surface - chilled beam,CHB,0,,IfcCooledBeam,IfcCooledBeam
+radiant surface - chilled beam - active,ACHB,1,,IfcCooledBeamACTIVE,
+radiant surface - chilled beam - passive,PCHB,1,,IfcCooledBeamPASSIVE,
+radiant surface - chilled ceiling,CCH,1,,IfcSpaceHeater,
+radiant surface - hot water beam,HTB,0,,IfcSpaceHeaterRADIATOR,IfcSpaceHeater
+refrigeration - blast chiller/freezer,FRZBCF,0,,IfcElectricApplianceFREEZER,IfcElectricApplianceFREEZER
+refrigeration - coldroom freezer,CRFRZ,0,,IfcElectricApplianceFREEZER,IfcElectricApplianceFREEZER
+refrigeration - coldroom hardware/plant,CRHW,0,,IfcElectricApplianceREFRIGERATOR,IfcElectricApplianceREFRIGERATOR
+refrigeration - coldroom refrigerated,CRREF,0,,IfcElectricApplianceREFRIGERATOR,IfcElectricApplianceREFRIGERATOR
+refrigeration - freezer,FRZ,0,,IfcElectricApplianceFREEZER,IfcElectricApplianceFREEZER
+refrigeration - ice cream chest freezer,FRZICC,0,,IfcElectricApplianceFREEZER,IfcElectricApplianceFREEZER
+refrigeration - ice maker,IM,0,,IfcElectricAppliance,IfcElectricAppliance
+refrigeration - refrigerator,REF,0,,IfcElectricApplianceREFRIGERATOR,IfcElectricApplianceREFRIGERATOR
+refrigeration - retarder/proover,REFRP,0,,IfcElectricApplianceREFRIGERATOR,IfcElectricApplianceREFRIGERATOR
+sand oil interceptor,SOI,0,,IfcInterceptorOIL,IfcWasteTerminalOILINTERCEPTOR
+sand separator,SSP,0,,IfcInterceptor,IfcWasteTerminal
+sanitary terminal - hand wash basin,HWB,0,,IfcSanitaryTerminalWASHHANDBASIN,IfcSanitaryTerminalWASHHANDBASIN
+sensor - CO sensor,COS,1,SENSOR,IfcSensorCOSENSOR,IfcSensorCO2SENSOR
+sensor - CO2 sensor,CDS,1,SENSOR,IfcSensorCO2SENSOR,IfcSensorCO2SENSOR
+sensor - condensation water sensor,CS,1,SENSOR,IfcSensorTEMPERATURESENSOR,IfcSensorTEMPERATURESENSOR
+sensor - contact sensor,CNTS,1,SENSOR,IfcSensorCONTACTSENSOR,IfcSensor
+sensor - differential pressure sensor,DPS,1,SENSOR,IfcSensorPRESSURESENSOR,IfcSensorPRESSURESENSOR
+sensor - glycol protector sensor,GLYPR,1,SENSOR,IfcSensor,IfcSensor
+sensor - humidity sensor,HMS,1,SENSOR,IfcSensorHUMIDITYSENSOR,IfcSensorHUMIDITYSENSOR
+sensor - humidity sensor - outside,OHMS,1,SENSOR,IfcSensorHUMIDITYSENSOR,IfcSensorHUMIDITYSENSOR
+sensor - inertial measurement unit sensor,IMUS,1,SENSOR,IfcSensor,IfcSensor
+sensor - leak detection sensor,LDS,1,SENSOR,IfcSensor,IfcSensor
+sensor - level sensor,LVLS,1,SENSOR,IfcSensor,IfcSensor
+sensor - lighting motion sensor,LMS,1,SENSOR,IfcSensorMOVEMENTSENSOR,IfcSensorMOVEMENTSENSOR
+sensor - lighting multisensor,LTMTS,1,SENSOR,IfcSensor,IfcSensor
+sensor - lighting photocell sensor,LPS,1,SENSOR,IfcSensorLIGHTSENSOR,IfcSensorLIGHTSENSOR
+sensor - moisture content sensor,MCS,1,SENSOR,IfcSensor,IfcSensor
+sensor - motion sensor,MOS,1,SENSOR,IfcSensorMOVEMENTSENSOR,IfcSensorMOVEMENTSENSOR
+sensor - multi sensor,MTS,1,SENSOR,IfcSensor,IfcSensor
+sensor - nitrogen dioxide sensor,NDS,1,SENSOR,IfcSensor,IfcSensor
+sensor - particulate matter sensor,PMS,1,SENSOR,IfcSensor,IfcSensor
+sensor - people counting sensor,PCS,1,SENSOR,IfcSensor,IfcSensor
+sensor - pressure sensor,PS,1,SENSOR,IfcSensorPRESSURESENSOR,IfcSensorPRESSURESENSOR
+sensor - seismic sensor,SSS,1,SENSOR,IfcSensor,IfcSensor
+sensor - sound level sensor,SLS,1,SENSOR,IfcSensorSOUNDSENSOR,IfcSensorSOUNDSENSOR
+sensor - static pressure sensor,SPS,1,SENSOR,IfcSensorPRESSURESENSOR,IfcSensorPRESSURESENSOR
+sensor - temperature sensor,TPS,1,SENSOR,IfcSensorTEMPERATURESENSOR,IfcSensorTEMPERATURESENSOR
+sensor - temperature sensor - outside,OTPS,1,SENSOR,IfcSensorTEMPERATURESENSOR,IfcSensorTEMPERATURESENSOR
+sensor - thermostat,TSTAT,1,,IfcUnitaryControlElementTHERMOSTAT,IfcController
+sensor - velocity sensor,VS,1,SENSOR,IfcSensor,IfcSensor
+sensor - vibration sensor,VBS,1,SENSOR,IfcSensor,
+sensor - volumetric flow sensor - air,AVFS,1,SENSOR,IfcSensorFLOWSENSOR,IfcSensorFLOWSENSOR
+sensor - volumetric flow sensor - water,WVFS,1,SENSOR,IfcSensorFLOWSENSOR,IfcSensorFLOWSENSOR
+sensor - wind sensor,WS,1,SENSOR,IfcSensorWINDSENSOR,IfcSensor
+shading - shading device actuator,SDACT,1,HVAC/SDC,IfcActuatorELECTRICACTUATOR,IfcActuatorELECTRICACTUATOR
+shading - shading device blinds,BL,0,,IfcShadingDevice,IfcDiscreteAccessory
+shading - shading device controller,SDC,1,,IfcController,IfcController
+shading - shading device keypad,SDKP,1,,IfcSwitchingDeviceKEYPAD,IfcSwitchingDevice
+shading - shading device motor,SDM,0,,IfcElectricMotor,IfcElectricMotor
+shading - shading device solar tracking module,SDSTM,1,,IfcSensorRADIATIONSENSOR,IfcSensor
+signal - beacon,BCN,1,,IfcAlarmLIGHT,IfcAlarmLIGHT
+switch - absolute pressure,APSW,1,,IfcSwitchingDevice,IfcSensorPRESSURESENSOR
+switch - dew point,DEWSW,1,,IfcSwitchingDevice,IfcElectricDistributionPoint
+switch - differential pressure,DPSW,1,,IfcSwitchingDevice,IfcSensorPRESSURESENSOR
+switch - static pressure,SPSW,1,,IfcSwitchingDevice,IfcSensorPRESSURESENSOR
+switch - thermal dispersion flow proving switch,TDSW,1,,IfcSwitchingDevice,IfcSwitchingDevice
+tank - break tank,BTK,1,,IfcTankBREAKPRESSURE,IfcTank
+tank - break tank and booster set,BTKBS,1,,IfcTankBREAKPRESSURE,IfcTank
+tank - brine tank,BRITK,0,,IfcTankVESSEL,IfcTank
+tank - buffer vessel - cooling,CBUFF,0,,IfcTankVESSEL,IfcTank
+tank - buffer vessel - generic,BUFF,0,,IfcTankVESSEL,IfcTank
+tank - buffer vessel - heating,HBUFF,0,,IfcTankVESSEL,IfcTank
+tank - compressed air storage tank,CAST,0,,IfcTankSTORAGE,IfcTank
+tank - condensate receiver tank,CNR,0,,IfcTankSTORAGE,IfcTank
+tank - deareator tank,DEA,0,,IfcTank,IfcTank
+tank - decontamination tank,DET,0,,IfcTank,IfcTank
+tank - emergency sewer tank,EST,0,,IfcTank,IfcTank
+tank - emergency water tank,EWT,0,,IfcTankSTORAGE,IfcTank
+tank - expansion tank,ET,0,,IfcTankEXPANSION,IfcTankEXPANSION
+tank - fire hydrant tank,FHT,0,,IfcTankSTORAGE,IfcTank
+tank - fuel oil day tank,FODT,0,,IfcTank,IfcTank
+tank - fuel oil storage tank,FOST,0,,IfcTankSTORAGE,IfcTank
+tank - greywater storage tank,GWST,0,,IfcTankSTORAGE,IfcTank
+tank - hot water cylinder,HWC,0,,IfcTankSTORAGE,IfcTank
+tank - mains water storage tank,MWST,0,,IfcTankSTORAGE,IfcTank
+tank - potable/domestic water storage tank,DWST,0,,IfcTankSTORAGE,IfcTank
+tank - potable/domestic water transfer tank,DWTT,0,,IfcTank,IfcTank
+tank - rainwater storage tank,RNWST,0,,IfcTankSTORAGE,IfcTank
+tank - sprinkler tank,SPT,0,,IfcTankSTORAGE,IfcTank
+tank - thermal storage tank,TST,0,,IfcTankSTORAGE,IfcTank
+tank - water tank,TK,0,,IfcTankSTORAGE,IfcTank
+tank - wet riser tank,WRT,0,,IfcTankSTORAGE,IfcTank
+thermal wheel,TW,0,,IfcAirToAirHeatRecoveryROTARYWHEEL,IfcAirToAirHeatRecoveryROTARYWHEEL
+timeclock,TMCLK,1,,IfcElectricTimeControlTIMECLOCK,IfcElectricTimeControlTIMECLOCK
+transformer,TXMR,0,,IfcTransformer,IfcTransformer
+transportation - escalator,ESC,1,,IfcTransportElementESCALATOR,IfcTransportElementESCALATOR
+transportation - lift / elevator,ELV,1,,IfcTransportElementELEVATOR,IfcTransportElementELEVATOR
+transportation - lift / elevator controller,ELC,1,,IfcUnitaryControlElement,IfcController
+transportation - lift / elevator door motor,ELDM,1,,IfcElectricMotor,IfcElectricMotor
+transportation - lift / elevator inverter,ELI,1,,IfcTransformerINVERTER,IfcTransformerINVERTER
+transportation - lift / elevator traction machine,ELTM,1,,IfcElectricMotor,IfcElectricMotor
+transportation - moving walkway,AW,1,,IfcTransportElementMOVINGWALKWAY,IfcTransportElementMOVINGWALKWAY
+trap primer,TP,0,,IfcValve,IfcValve
+trap primer - electronic trap primer,TPE,0,,IfcValve,IfcValve
+ups - uninteruptable power supply unit,UPS,1,ELECTRICAL/UPS,IfcElectricFlowStorageDeviceUPS,IfcElectricFlowStorageDeviceUPS
+user interface - keypad,KP,1,,IfcSwitchingDeviceKEYPAD,IfcSwitchingDevice
+uv disinfection unit,UVDU,1,,IfcFilter,IfcFilter
+valve,VLV,0,HVAC/VLV,IfcValve,IfcValve
+valve - air admittance valve,AAV,0,HVAC/VLV,IfcValveAIRRELEASE,IfcValveAIRRELEASE
+valve - angle stop valve,AV,0,HVAC/VLV,IfcValve,IfcValve
+valve - backflow preventer valve,BFP,0,HVAC/VLV,IfcValve,IfcValve
+valve - balancing valve,BLV,0,HVAC/VLV,IfcValveCOMMISSIONING,IfcValveCOMMISSIONING
+valve - ball valve,BV,0,HVAC/VLV,IfcValveGASCOCK,IfcValveGASCOCK
+valve - blowdown valve,BDV,0,HVAC/VLV,IfcValve,IfcValve
+valve - butterfly valve,BFV,0,HVAC/VLV,IfcValve,IfcValve
+valve - bypass valve,BYV,0,HVAC/VLV,IfcValveDIVERTING,IfcValveDIVERTING
+valve - check valve,CKV,0,HVAC/VLV,IfcValveCHECK,IfcValveCHECK
+valve - chilled water valve,CHWV,0,HVAC/VLV,IfcValve,IfcValve
+valve - condenser water valve,CDWV,0,HVAC/VLV,IfcValve,IfcValve
+valve - control valve,CV,0,HVAC/VLV,IfcValve,IfcValve
+valve - control valve modulating,CVM,0,HVAC/VLV,IfcValve,IfcValve
+valve - control valve open closed,CVO,0,HVAC/VLV,IfcValve,IfcValve
+valve - differential pressure control valve,DPCV,0,HVAC/VLV,IfcValve,IfcValve
+valve - energy valve,ENV,0,HVAC/VLV,IfcValve,IfcValve
+valve - float valve,FV,0,HVAC/VLV,IfcValve,IfcValve
+valve - flow control valve,FCV,0,HVAC/VLV,IfcValve,IfcValve
+valve - gate valve,GV,0,HVAC/VLV,IfcValveSTEAMTRAP,IfcValveSTEAMTRAP
+valve - hot water valve,HWV,0,HVAC/VLV,IfcValve,IfcValve
+valve - isolation valve,ISV,0,HVAC/VLV,IfcValveISOLATING,IfcValveISOLATING
+valve - level control valve,LCV,0,HVAC/VLV,IfcValve,IfcValve
+valve - make up water valve,MUV,0,HVAC/VLV,IfcValve,IfcValve
+valve - master thermostatic valve,MMV,0,HVAC/VLV,IfcValve,IfcValve
+valve - pressure attenuator,PA,0,HVAC/VLV,IfcValve,IfcValve
+valve - pressure control valve,PCV,0,HVAC/VLV,IfcValve,IfcValve
+valve - pressure independent control valve,PICV,0,HVAC/VLV,IfcValve,IfcValve
+valve - pressure reducing valve,PRV,0,HVAC/VLV,IfcValvePRESSUREREDUCING,IfcValvePRESSUREREDUCING
+valve - pressure relief valve,PRFV,0,HVAC/VLV,IfcValvePRESSURERELIEF,IfcValvePRESSURERELIEF
+valve - process water valve,PWV,0,HVAC/VLV,IfcValve,IfcValve
+valve - recirculation valve,RCV,0,HVAC/VLV,IfcValve,IfcValve
+valve - return valve,RTV,0,HVAC/VLV,IfcValve,IfcValve
+valve - seismic gas valve,SGV,0,HVAC/VLV,IfcValve,IfcValve
+valve - solenoid valve,SNV,1,HVAC/VLV,IfcValveSAFETYCUTOFF,IfcValveSAFETYCUTOFF
+valve - steam pressure reducing valve,SPRV,0,HVAC/VLV,IfcValve,IfcValve
+valve - supply valve,SPV,0,HVAC/VLV,IfcValve,IfcValve
+valve - temperature control valve,TCV,0,HVAC/VLV,IfcValve,IfcValve
+valve - thermostatic mixing valve,TMV,0,HVAC/VLV,IfcValveMIXING,IfcValveMIXING
+valve - water hammer arrestor,WHAV,0,HVAC/VLV,IfcValve,IfcValve
+variable frequency drive,VFD,1,,IfcMotorConnection,IfcMotorConnection
+washing appliance - commercial flight machine,CDWFM,0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER
+washing appliance - commercial pass through machine,CDWPTM,0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER
+washing appliance - commercial pot and utensil machine,CDWPUW,0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER
+washing appliance - commercial rack machine,CDWRM,0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER
+washing appliance - commercial undercounter machine,CDWUM,0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER
+washing appliance - conveyor system,CDWSCS,0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER
+washing appliance - roller table,CDWRT,0,,IfcFurnitureSHELF,IfcFurniture
+waste management - food dehydrator,WSTFD,0,,IfcElectricAppliance,IfcElectricAppliance
+waste management - waste bin,WSTBIN,0,,IfcFurniture,IfcFurniture
+waste management - waste compactor,WSTC,0,,IfcElectricAppliance,IfcElectricAppliance
+waste management - wet waste grinder,WSTWG,0,,IfcElectricAppliance,IfcElectricAppliance
+waste terminal - area drain,AD,0,,IfcWasteTerminal,IfcWasteTerminal
+water heater - domestic electric water heater,DEWH,0,HVAC/HWS,IfcElectricApplianceFREESTANDINGWATERHEATER,IfcElectricApplianceWATERHEATER
+water heater - domestic gas water heater,DGWH,0,HVAC/HWS,IfcBoilerWATER,IfcBoilerWATER
+water heater - electric water heater,EWH,0,HVAC/HWS,IfcElectricApplianceFREESTANDINGWATERHEATER,IfcElectricApplianceWATERHEATER
+water heater - gas water heater,GWH,0,HVAC/HWS,IfcBoilerWATER,IfcBoilerWATER
+water heater - instantaneous water heater,IWH,0,HVAC/HWS,IfcElectricAppliance,IfcElectricAppliance
+water heater - solar water heating panel,SWHP,0,,IfcSolarDeviceSOLARCOLLECTOR,IfcElectricApplianceWATERHEATER
+water treatment - chemical dosage unit,CHDU,1,,IfcTank,IfcTank
+water treatment - cooling tower water treatment unit,CTSU,1,,IfcUnitaryEquipment,IfcUnitaryEquipment
+water treatment - dosing pot,DPOT,0,,IfcTank,IfcTank
+water treatment - electro magnetic water conditioner,EMWC,0,,IfcFilterWATERFILTER,IfcFilterWATERFILTER
+weather station,WST,1,HVAC/WEATHER,IfcUnitaryControlElementWEATHERSTATION,IfcElectricDistributionPoint
+window,WD,0,,IfcWindow,IfcWindowStyle
