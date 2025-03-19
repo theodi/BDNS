@@ -1,0 +1,17 @@
+asset,alex,bdns
+ACT | actuator,"IfcActuatorHANDOPERATEDACTUATOR,IfcActuator,IfcActuatorHYDRAULICACTUATOR,IfcActuatorTHERMOSTATICACTUATOR,IfcActuatorPNEUMATICACTUATOR",IfcActuator
+AT | air terminal - generic,"IfcAirTerminalGRILLE,IfcAirTerminalLOUVRE,IfcAirTerminalEYEBALL,IfcAirTerminalREGISTER,IfcAirTerminalDIFFUSER,IfcAirTerminalLINEARDIFFUSER,IfcAirTerminalIRIS,IfcAirTerminal,IfcAirTerminalLINEARGRILLE",IfcAirTerminal
+ROOM | architecture - room,"IfcSpaceINTERNAL,IfcSpaceSPACE,IfcSpace,IfcSpaceGFA",IfcSpaceINTERNAL
+DCA | distribution data - data cable,IfcCableSegmentFIBERTUBE,IfcCableSegment
+CA | distribution electric - cable,IfcCableSegmentFIBERTUBE,IfcCableSegment
+FCA | distribution electric - fire rated cable,IfcCableSegmentFIBERTUBE,IfcCableSegment
+ECG | electrochromic glass,"IfcWindow,IfcWindowWINDOW,IfcWindowLIGHTDOME,IfcWindowSKYLIGHT",IfcWindow
+ADS | filter - air and dirt separator,"IfcElectricFlowTreatmentDevice,IfcFilter",IfcFlowTreatmentDevice
+AS | filter - air separator,IfcElectricFlowTreatmentDevice,IfcFlowTreatmentDevice
+CTFS | filter - cooling tower filtration unit,"IfcUnitaryEquipment,IfcFilter",IfcFilter
+TR | lighting - track - electric track for lights,IfcCableSegmentFIBERTUBE,IfcCableSegment
+APSW | switch - absolute pressure,IfcSensorPRESSURESENSOR,IfcSwitchingDevice
+DEWSW | switch - dew point,IfcUnitaryControlElementHUMIDISTAT,IfcSwitchingDevice
+DPSW | switch - differential pressure,IfcSensorPRESSURESENSOR,IfcSwitchingDevice
+SPSW | switch - static pressure,IfcSensorPRESSURESENSOR,IfcSwitchingDevice
+WD | window,"IfcWindow,IfcWindowWINDOW,IfcWindowLIGHTDOME,IfcWindowSKYLIGHT",IfcWindow

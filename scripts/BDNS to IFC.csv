@@ -1,0 +1,726 @@
+asset_description,asset_abbreviation,dbo_entity_type,can_be_connected,ifc_class,ifc_type,ifc_version,IFC2x3,IFC4.3
+access control - RFID controller,RFIDC,,1,IfcController,NOTDEFINED,"2x3,4x1,4.3",IfcControllerType.USERDEFINED,IfcControllerType.USERDEFINED
+access control - RFID reader,RFIDR,,1,IfcCommunicationsAppliance,SCANNER,"4x1,4.3",IfcElectricApplianceType.SCANNER,IfcCommunicationsApplianceType.SCANNER
+access control - access control system,ACS,,1,IfcDistributionSystem,SECURITY,,,
+access control - audio intercom,AIC,,1,IfcSwitchingDevice,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED"
+access control - biometric reader,BIOR,,1,IfcCommunicationsAppliance,SCANNER,"4x1,4.3",IfcElectricApplianceType.SCANNER,IfcCommunicationsApplianceType.SCANNER
+access control - request to exit,RTE,,1,IfcSwitchingDevice,CONTACTOR,"2x3,4x1,4.3",IfcSwitchingDeviceType.CONTACTOR,IfcSwitchingDeviceType.CONTACTOR
+access control - video intercom,VIC,,1,IfcSwitchingDevice,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED"
+actuator,ACT,,1,IfcActuator,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3,2x3,4x1,4.3,2x3,4x1,4.3,2x3,4x1,4.3,2x3,4x1,4.3","IfcActuatorType.NOTDEFINED,IfcActuatorType.HANDOPERATEDACTUATOR,IfcActuatorType.HYDRAULICACTUATOR,IfcActuatorType.PNEUMATICACTUATOR,IfcActuatorType.THERMOSTATICACTUATOR,IfcActuatorType.USERDEFINED","IfcActuatorType.NOTDEFINED,IfcActuatorType.HANDOPERATEDACTUATOR,IfcActuatorType.HYDRAULICACTUATOR,IfcActuatorType.PNEUMATICACTUATOR,IfcActuatorType.THERMOSTATICACTUATOR,IfcActuatorType.USERDEFINED"
+actuator - frost protection switch,FPSW,,1,IfcActuator,ELECTRICACTUATOR,"2x3,4x1,4.3",IfcActuatorType.ELECTRICACTUATOR,IfcActuatorType.ELECTRICACTUATOR
+actuator - motorized window operator,WDO,,1,IfcActuator,ELECTRICACTUATOR,"2x3,4x1,4.3",IfcActuatorType.ELECTRICACTUATOR,IfcActuatorType.ELECTRICACTUATOR
+actuator - switch actuator,SWACT,,1,IfcActuator,ELECTRICACTUATOR,"2x3,4x1,4.3",IfcActuatorType.ELECTRICACTUATOR,IfcActuatorType.ELECTRICACTUATOR
+air conditioning unit,ACU,HVAC/AHU,1,IfcUnitaryEquipment,AIRCONDITIONINGUNIT,"2x3,4x1,4.3",IfcUnitaryEquipmentType.AIRCONDITIONINGUNIT,IfcUnitaryEquipmentType.AIRCONDITIONINGUNIT
+air conditioning unit - computer room AC unit,CRAC,HVAC/AHU,1,IfcUnitaryEquipment,AIRCONDITIONINGUNIT,"2x3,4x1,4.3",IfcUnitaryEquipmentType.AIRCONDITIONINGUNIT,IfcUnitaryEquipmentType.AIRCONDITIONINGUNIT
+air conditioning unit - direct expansion cooling unit,DX,HVAC/AHU,1,IfcUnitaryEquipment,SPLITSYSTEM,"2x3,4x1,4.3",IfcUnitaryEquipmentType.SPLITSYSTEM,IfcUnitaryEquipmentType.SPLITSYSTEM
+air handling - mechanical ventilation with heat recovery,MVHR,HVAC/AHU,1,IfcAirToAirHeatRecovery,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcAirToAirHeatRecoveryType.NOTDEFINED,IfcAirToAirHeatRecoveryType.USERDEFINED","IfcAirToAirHeatRecoveryType.NOTDEFINED,IfcAirToAirHeatRecoveryType.USERDEFINED"
+air handling unit - air handling unit,AHU,HVAC/AHU,1,IfcUnitaryEquipment,AIRHANDLER,"2x3,4x1,4.3",IfcUnitaryEquipmentType.AIRHANDLER,IfcUnitaryEquipmentType.AIRHANDLER
+air handling unit - computer room air handler,CRAH,HVAC/AHU,1,IfcUnitaryEquipment,AIRHANDLER,"2x3,4x1,4.3",IfcUnitaryEquipmentType.AIRHANDLER,IfcUnitaryEquipmentType.AIRHANDLER
+air handling unit - dedicated outside air system unit,DOAS,HVAC/DOAS,1,IfcUnitaryEquipment,AIRHANDLER,"2x3,4x1,4.3",IfcUnitaryEquipmentType.AIRHANDLER,IfcUnitaryEquipmentType.AIRHANDLER
+air handling unit - heat recovery unit,HRU,HVAC/AHU,1,IfcAirToAirHeatRecovery,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcAirToAirHeatRecoveryType.NOTDEFINED,IfcAirToAirHeatRecoveryType.USERDEFINED","IfcAirToAirHeatRecoveryType.NOTDEFINED,IfcAirToAirHeatRecoveryType.USERDEFINED"
+air handling unit - make-up air handler,MAU,HVAC/MAU,1,IfcUnitaryEquipment,AIRHANDLER,"2x3,4x1,4.3",IfcUnitaryEquipmentType.AIRHANDLER,IfcUnitaryEquipmentType.AIRHANDLER
+air handling unit - roof top unit,RTU,HVAC/AHU,1,IfcUnitaryEquipment,ROOFTOPUNIT,"2x3,4x1,4.3",IfcUnitaryEquipmentType.ROOFTOPUNIT,IfcUnitaryEquipmentType.ROOFTOPUNIT
+air terminal - generic,AT,,1,IfcAirTerminal,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3,2x3,4x1,4.3,2x3,4x1,4.3,2x3,4x1,4.3,2x3,4x1,4.3,2x3,4x1,4.3,2x3,4x1,4.3,4x1,4.3,2x3,4x1,4.3","IfcAirTerminalType.NOTDEFINED,IfcAirTerminalType.DIFFUSER,IfcAirTerminalType.EYEBALL,IfcAirTerminalType.GRILLE,IfcAirTerminalType.IRIS,IfcAirTerminalType.LINEARDIFFUSER,IfcAirTerminalType.LINEARGRILLE,IfcAirTerminalType.REGISTER,IfcAirTerminalType.USERDEFINED","IfcAirTerminalType.NOTDEFINED,IfcAirTerminalType.DIFFUSER,IfcAirTerminalType.EYEBALL,IfcAirTerminalType.GRILLE,IfcAirTerminalType.IRIS,IfcAirTerminalType.LINEARDIFFUSER,IfcAirTerminalType.LINEARGRILLE,IfcAirTerminalType.REGISTER,IfcAirTerminalType.LOUVRE,IfcAirTerminalType.USERDEFINED"
+air terminal box - constant air volume box,CAV,,1,IfcAirTerminalBox,CONSTANTFLOW,"2x3,4x1,4.3",IfcAirTerminalBoxType.CONSTANTFLOW,IfcAirTerminalBoxType.CONSTANTFLOW
+air terminal box - constant air volume box - extract,CAVE,,1,IfcAirTerminalBox,CONSTANTFLOW,"2x3,4x1,4.3",IfcAirTerminalBoxType.CONSTANTFLOW,IfcAirTerminalBoxType.CONSTANTFLOW
+air terminal box - constant air volume box - extract - fixed,CAVEF,,1,IfcAirTerminalBox,CONSTANTFLOW,"2x3,4x1,4.3",IfcAirTerminalBoxType.CONSTANTFLOW,IfcAirTerminalBoxType.CONSTANTFLOW
+air terminal box - constant air volume box - extract - mechanically actuated,CAVEM,,1,IfcAirTerminalBox,CONSTANTFLOW,"2x3,4x1,4.3",IfcAirTerminalBoxType.CONSTANTFLOW,IfcAirTerminalBoxType.CONSTANTFLOW
+air terminal box - constant air volume box - supply,CAVS,,1,IfcAirTerminalBox,CONSTANTFLOW,"2x3,4x1,4.3",IfcAirTerminalBoxType.CONSTANTFLOW,IfcAirTerminalBoxType.CONSTANTFLOW
+air terminal box - constant air volume box - supply - fixed,CAVSF,,1,IfcAirTerminalBox,CONSTANTFLOW,"2x3,4x1,4.3",IfcAirTerminalBoxType.CONSTANTFLOW,IfcAirTerminalBoxType.CONSTANTFLOW
+air terminal box - constant air volume box - supply - mechanically actuated,CAVSM,,1,IfcAirTerminalBox,CONSTANTFLOW,"2x3,4x1,4.3",IfcAirTerminalBoxType.CONSTANTFLOW,IfcAirTerminalBoxType.CONSTANTFLOW
+air terminal box - fan powered box,FPB,,1,IfcAirTerminalBox,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED"
+air terminal box - under floor variable air volume box,UFT,HVAC/VAV,1,IfcAirTerminalBox,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED"
+air terminal box - variable air volume box,VAV,HVAC/VAV,1,IfcAirTerminalBox,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED"
+air terminal box - variable air volume box - extract,VAVE,HVAC/VAV,1,IfcAirTerminalBox,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED"
+air terminal box - variable air volume box - supply,VAVS,HVAC/VAV,1,IfcAirTerminalBox,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED"
+air terminal box - variable volume and temperature box,VVTB,,1,IfcAirTerminalBox,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED"
+air terminal box - variable volume terminal unit,VVT,,1,IfcAirTerminalBox,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED"
+alarm - disabled alarm,DA,,1,IfcAlarm,MANUALPULLBOX,"2x3,4x1,4.3",IfcAlarmType.MANUALPULLBOX,IfcAlarmType.MANUALPULLBOX
+antenna,ANT,,0,IfcCommunicationsAppliance,ANTENNA,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.ANTENNA
+antenna - wi-fi antenna,WANT,,0,IfcCommunicationsAppliance,ANTENNA,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.ANTENNA
+architecture - room,ROOM,,0,IfcSpace,INTERNAL,"4x1,4.3,2x3,4x1,4.3,2x3,4x1,4.3,4x1,4.3,4x1,4.3","IfcSpaceType.USERDEFINED,IfcSpaceType.NOTDEFINED","IfcSpaceType.GFA,IfcSpaceType.USERDEFINED,IfcSpaceType.NOTDEFINED,IfcSpaceType.INTERNAL,IfcSpaceType.SPACE"
+av equipment,AVEQ,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,"IfcAudioVisualApplianceType.NOTDEFINED,IfcAudioVisualApplianceType.USERDEFINED"
+av equipment - audio amplifier,AMP,,0,IfcAudioVisualAppliance,AMPLIFIER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.AMPLIFIER
+av equipment - audio assistive equipment,AAE,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - audio mixer / splitter / equalizer / diplexer,AMIX,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - audio mixing desk,MIX,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - audio monitor,AMON,,0,IfcAudioVisualAppliance,DISPLAY,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.DISPLAY
+av equipment - audio video control keypad,AVKP,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - audio visual encoder,AVE,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - audio visual outlet,AVO,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - audio visual switch,AVS,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - bluetooth audio interface,BTAI,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - camera control unit,CCU,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - codec device,CD,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - digital signal processor,DSP,,0,IfcAudioVisualAppliance,TUNER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.TUNER
+av equipment - digital whiteboard,DWB,,0,IfcAudioVisualAppliance,DISPLAY,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.DISPLAY
+av equipment - display screen,DS,,0,IfcAudioVisualAppliance,DISPLAY,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.DISPLAY
+av equipment - iptv / digital signage decoder,DEC,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - iptv content management system device,CMS,,1,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - matrix switcher,MSW,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - microphone,MIC,,0,IfcAudioVisualAppliance,MICROPHONE,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.MICROPHONE
+av equipment - networked video recorder,NVR,,1,IfcAudioVisualAppliance,PLAYER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.PLAYER
+av equipment - room booking panel,RBP,,1,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - speaker,SPK,,0,IfcAudioVisualAppliance,SPEAKER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.SPEAKER
+av equipment - thin client device,TCD,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - touch panel,TPAN,,1,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - video wall,VDW,,0,IfcAudioVisualAppliance,DISPLAY,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.DISPLAY
+av equipment - vision mixing desk,VMIX,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - white noise generator,WNG,,0,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - wireless presentation device,WPD,,1,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - wireless receiver,WRCVR,,1,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+av equipment - wireless sender,WSEND,,1,IfcAudioVisualAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.USERDEFINED
+battery,BATT,ELECTRICAL/BATT,0,IfcElectricFlowStorageDevice,BATTERY,"2x3,4x1,4.3",IfcElectricFlowStorageDeviceType.BATTERY,IfcElectricFlowStorageDeviceType.BATTERY
+battery - battery trip unit,BTR,ELECTRICAL/BATT,0,IfcProtectiveDevice,NOTDEFINED,"2x3,4x1,4.3",IfcProtectiveDeviceType.USERDEFINED,IfcProtectiveDeviceType.USERDEFINED
+battery - electric heater battery,EHB,ELECTRICAL/BATT,0,IfcElectricFlowStorageDevice,BATTERY,"2x3,4x1,4.3",IfcElectricFlowStorageDeviceType.BATTERY,IfcElectricFlowStorageDeviceType.BATTERY
+battery - lithium ion cell,BATTLI,,1,IfcElectricFlowStorageDevice,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcElectricFlowStorageDeviceType.USERDEFINED,IfcElectricFlowStorageDeviceType.NOTDEFINED","IfcElectricFlowStorageDeviceType.USERDEFINED,IfcElectricFlowStorageDeviceType.NOTDEFINED"
+beverage machine - airpot,BVAP,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+beverage machine - chai machine,BVC,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+beverage machine - coffee grinder,BVCFMG,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+beverage machine - coffee machine,BVCFM,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+beverage machine - coffee nitro machine,BVCFMN,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+beverage machine - coffee urn,BVCFMU,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+beverage machine - espresso machine,BVCFME,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+beverage machine - knock out chute,BVKOC,,0,IfcWasteTerminal,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcWasteTerminalType.NOTDEFINED,IfcWasteTerminalType.USERDEFINED","IfcWasteTerminalType.NOTDEFINED,IfcWasteTerminalType.USERDEFINED"
+beverage machine - steamer,BVS,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+beverage machine - water boiler,BVWB,,0,IfcBoiler,WATER,"2x3,4x1,4.3",IfcBoilerType.WATER,IfcBoilerType.WATER
+burner - boiler,BLR,HVAC/BLR,1,ifcBoiler,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcBoilerType.NOTDEFINED,IfcBoilerType.USERDEFINED","IfcBoilerType.NOTDEFINED,IfcBoilerType.USERDEFINED"
+burner - furnace,FR,,1,IfcBurner,NOTDEFINED,"4x1,4.3",IfcBuildingElementProxyType.USERDEFINED,IfcBurnerType.USERDEFINED
+burner - steam boiler,SB,HVAC/BLR,1,IfcBoiler,STEAM,"2x3,4x1,4.3",IfcBoilerType.STEAM,IfcBoilerType.STEAM
+cable management - cable basket,CABASK,,0,IfcCableCarrierSegmentType,NOTDEFINED,"2x3,4x1,4.3",IfcCableCarrierSegmentType.USERDEFINED,IfcCableCarrierSegmentType.USERDEFINED
+cable management - cable ladder,CALAD,,0,IfcCableCarrierSegmentType,CABLELADDERSEGMENT,"2x3,4x1,4.3",IfcCableCarrierSegmentType.CABLELADDERSEGMENT,IfcCableCarrierSegmentType.CABLELADDERSEGMENT
+cable management - cable tray,CATR,,0,IfcCableCarrierSegmentType,CABLETRAYSEGMENT,"2x3,4x1,4.3",IfcCableCarrierSegmentType.CABLETRAYSEGMENT,IfcCableCarrierSegmentType.CABLETRAYSEGMENT
+cable management - cable trunking,CATRK,,0,IfcCableCarrierSegmentType,CABLETRUNKINGSEGMENT,"2x3,4x1,4.3",IfcCableCarrierSegmentType.CABLETRUNKINGSEGMENT,IfcCableCarrierSegmentType.CABLETRUNKINGSEGMENT
+cable management - floor trunking,CAFTRK,,0,IfcCableCarrierSegmentType,NOTDEFINED,"2x3,4x1,4.3",IfcCableCarrierSegmentType.CABLETRUNKINGSEGMENT,IfcCableCarrierSegmentType.CABLETRUNKINGSEGMENT
+camera,CAM,,1,IfcAudioVisualAppliance,CAMERA,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.CAMERA
+camera - pan tilt zoom camera,PTZCAM,,1,IfcAudioVisualAppliance,CAMERA,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.CAMERA
+chiller,CH,HVAC/CH,1,IfcChiller,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcChillerType.NOTDEFINED,IfcChillerType.USERDEFINED","IfcChillerType.NOTDEFINED,IfcChillerType.USERDEFINED"
+chiller - air cooled chiller,ACCH,HVAC/CH,1,IfcChiller,NOTDEFINED,"2x3,4x1,4.3",IfcChillerType.AIRCOOLED,IfcChillerType.AIRCOOLED
+chiller - cooling tower,CT,HVAC/CT,1,IfcCoolingTower,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcCoolingTowerType.NOTDEFINED,IfcCoolingTowerType.USERDEFINED","IfcCoolingTowerType.NOTDEFINED,IfcCoolingTowerType.USERDEFINED"
+chiller - critical cooling chiller,CCCH,HVAC/CH,1,IfcChiller,NOTDEFINED,"2x3,4x1,4.3",IfcChillerType.USERDEFINED,IfcChillerType.USERDEFINED
+chiller - dry air cooler,DAC,HVAC/DC,1,IfcCondenser,AIRCOOLED,"2x3,4x1,4.3",IfcCondenserType.AIRCOOLED,IfcCondenserType.AIRCOOLED
+chiller - high temperature chiller,HTCH,HVAC/CH,1,IfcChiller,NOTEDEFINED,"2x3,4x1,4.3",IfcChillerType.USERDEFINED,IfcChillerType.USERDEFINED
+chiller - hybrid air cooler or fluid cooler,HYAC,HVAC/CH,1,IfcEvaporativeCooler,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcEvaporativeCoolerType.NOTDEFINED,IfcEvaporativeCoolerType.USERDEFINED","IfcEvaporativeCoolerType.NOTDEFINED,IfcEvaporativeCoolerType.USERDEFINED"
+chiller - low temperature chiller,LTCH,HVAC/CH,1,IfcChiller,NOTDEFINED,"2x3,4x1,4.3",IfcChillerType.USERDEFINED,IfcChillerType.USERDEFINED
+chiller - water cooled chiller,WCCH,HVAC/CH,1,IfcChiller,NOTDEFINED,"2x3,4x1,4.3",IfcChillerType.WATERCOOLED,IfcChillerType.WATERCOOLED
+cleaning - floor cleaner scrubber dryer,FCSD,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+cleaning - standalone laundry tumble dryer,TDY,,0,IfcElectricAppliance,TUMBLEDRYER,"2x3,4x1,4.3",IfcElectricApplianceType.TUMBLEDRYER,IfcElectricApplianceType.TUMBLEDRYER
+cleaning - standalone laundry washing mashine,WSH,,0,IfcElectricAppliance,WASHINGMACHINE,"2x3,4x1,4.3",IfcElectricApplianceType.WASHINGMACHINE,IfcElectricApplianceType.WASHINGMACHINE
+coil,COIL,,0,IfcCoil,NOTDEFINED,"2x3,4x1,4.3,4x1,4.3","IfcCoilType.NOTDEFINED,IfcCoilType.HYDRONICCOIL","IfcCoilType.NOTDEFINED,IfcCoilType.HYDRONICCOIL"
+coil - cooling coil,CC,,0,IfcCoil,WATERCOOLINGCOIL,"2x3,4x1,4.3",IfcCoilType.WATERCOOLINGCOIL,IfcCoilType.WATERCOOLINGCOIL
+coil - dx reversible coil,DXC,,0,IfcCoil,NOTDEFINED,"2x3,4x1,4.3",IfcCoilType.DXCOOLINGCOIL,IfcCoilType.DXCOOLINGCOIL
+coil - frost or preheat coil,PHC,,0,IfcCoil,NOTDEFINED,"4x1,4.3",IfcCoilType.HYDRONICCOIL,IfcCoilType.HYDRONICCOIL
+coil - heating coil,HC,,0,IfcCoil,WATERHEATINGCOIL,"2x3,4x1,4.3",IfcCoilType.WATERHEATINGCOIL,IfcCoilType.WATERHEATINGCOIL
+coil - reheat coil,RHC,,0,IfcCoil,NOTDEFINED,"4x1,4.3",IfcCoilType.HYDRONICCOIL,IfcCoilType.HYDRONICCOIL
+coil - run around coil,RAC,,0,IfcAirToAirHeatRecovery,RUNAROUNDCOILLOOP,"2x3,4x1,4.3",IfcAirToAirHeatRecoveryType.RUNAROUNDCOIL,IfcAirToAirHeatRecoveryType.RUNAROUNDCOIL
+communication appliance - printing device,PRNTR,,0,IfcCommunicationsAppliance,PRINTER,"4x1,4.3",IfcElectricApplianceType.PRINTER,IfcCommunicationsApplianceType.PRINTER
+communication gateway,CGW,,1,IfcCommunicationsAppliance,GATEWAY,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.GATEWAY
+compressor,CMP,HVAC/CMP,1,IfcCompressor,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcCompressorType.USERDEFINED,IfcCompressorType.NOTDEFINED","IfcCompressorType.USERDEFINED,IfcCompressorType.NOTDEFINED"
+compressor - air compressor,ACP,HVAC/CMP,1,ifcCompressor,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcCompressorType.USERDEFINED,IfcCompressorType.NOTDEFINED","IfcCompressorType.USERDEFINED,IfcCompressorType.NOTDEFINED"
+condensing unit,CDU,,1,IfcCondenser,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcCondenserType.NOTDEFINED,IfcCondenserType.USERDEFINED","IfcCondenserType.NOTDEFINED,IfcCondenserType.USERDEFINED"
+controller,CNTRL,,1,IfcController,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3",IfcControllerType.NOTDEFINED,"IfcControllerType.NOTDEFINED,IfcControllerType.USERDEFINED"
+controller - direct digital controller,DDC,,1,IfcController,PROGRAMMABLE,"4x1,4.3",IfcControllerType.USERDEFINED,IfcControllerType.PROGRAMMABLE
+controller - irrigation controller,IRRC,,1,IfcController,NOTDEFINED,"2x3,4x1,4.3",IfcControllerType.USERDEFINED,IfcControllerType.USERDEFINED
+controller - room controller,ROC,,1,IfcController,NOTDEFINED,"2x3,4x1,4.3",IfcControllerType.USERDEFINED,IfcControllerType.USERDEFINED
+controller - programmable logic controller,PLC,,1,IfcController,PROGRAMMABLE,"4x1,4.3",IfcControllerType.USERDEFINED,IfcControllerType.PROGRAMMABLE
+cooking appliance - bratt pan,CKBP,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+cooking appliance - chargrill,CKCGR,,0,IfcFlowTerminal,NOTDEFINED,,IfcGasTerminalType.GASAPPLIANCE,
+cooking appliance - combination microwave/high speed oven,CKCMWO,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - combination oven,CKCMOV,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - convection oven,CKCVOV,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - deck/pizza oven,CKDOVN,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - dim sum steamer,CKDSTE,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+cooking appliance - fry dump,CKFRYD,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - fryer,CKFRY,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - gas range,CKGRCK,,0,IfcFlowTerminal,NOTDEFINED,,IfcGasTerminalType.GASAPPLIANCE,
+cooking appliance - gas wok range,CKGWR,,0,IfcFlowTerminal,NOTDEFINED,,IfcGasTerminalType.GASAPPLIANCE,
+cooking appliance - griddle,CKGRD,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+cooking appliance - hearth oven,CKHOVN,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - impinger conveyor oven,CKICOV,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - induction,CKIU,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - induction range,CKIRCK,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - induction wok,CKIW,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - kettle,CKKET,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+cooking appliance - mobile cook station,KMCS,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - pasta cooker,CKPC,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - potato oven,CKPOVN,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - pressure bratt pan,CKPBP,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+cooking appliance - pressure steamer,CKPSTE,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+cooking appliance - rice cooker,CKRC,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - rotisserie,CKROT,,0,IfcFlowTerminal,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+cooking appliance - salamander grill,CKSGRL,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+cooking appliance - steamer,CKSTE,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+cooking appliance - tandoori oven,CKTOVN,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+damper,DMP,HVAC/DMP,1,IfcDamper,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcDamperType.USERDEFINED,IfcDamperType.NOTDEFINED","IfcDamperType.USERDEFINED,IfcDamperType.NOTDEFINED"
+damper - bypass control damper,BYCD,HVAC/DMP,1,IfcDamper,CONTROLDAMPER,"2x3,4x1,4.3",IfcDamperType.CONTROLDAMPER,IfcDamperType.CONTROLDAMPER
+damper - exhaust damper,EXD,HVAC/DMP,1,IfcDamper,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcDamperType.USERDEFINED,IfcDamperType.NOTDEFINED","IfcDamperType.USERDEFINED,IfcDamperType.NOTDEFINED"
+damper - fire damper,FD,SAFETY/FD,1,IfcDamper,FIREDAMPER,"2x3,4x1,4.3",IfcDamperType.FIREDAMPER,IfcDamperType.FIREDAMPER
+damper - inlet control damper,ICD,HVAC/DMP,1,IfcDamper,CONTROLDAMPER,"2x3,4x1,4.3",IfcDamperType.CONTROLDAMPER,IfcDamperType.CONTROLDAMPER
+damper - inlet isolation damper,IISD,HVAC/DMP,1,IfcDamper,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcDamperType.USERDEFINED,IfcDamperType.NOTDEFINED","IfcDamperType.USERDEFINED,IfcDamperType.NOTDEFINED"
+damper - motorised damper,MD,HVAC/DMP,1,IfcDamper,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcDamperType.USERDEFINED,IfcDamperType.NOTDEFINED","IfcDamperType.USERDEFINED,IfcDamperType.NOTDEFINED"
+damper - motorised fire smoke damper,MFSD,HVAC/DMP,1,IfcDamper,FIRESMOKEDAMPER,"2x3,4x1,4.3",IfcDamperType.FIRESMOKEDAMPER,IfcDamperType.FIRESMOKEDAMPER
+damper - motorised smoke control damper,MSCD,HVAC/DMP,1,IfcDamper,SMOKEDAMPER,"2x3,4x1,4.3",IfcDamperType.SMOKEDAMPER,IfcDamperType.SMOKEDAMPER
+damper - motorised smoke damper,MSD,HVAC/DMP,1,IfcDamper,SMOKEDAMPER,"2x3,4x1,4.3",IfcDamperType.SMOKEDAMPER,IfcDamperType.SMOKEDAMPER
+damper - pressure relief dampers,PRLD,HVAC/DMP,1,IfcDamper,RELIEFDAMPER,"2x3,4x1,4.3",IfcDamperType.RELIEFDAMPER,IfcDamperType.RELIEFDAMPER
+damper - recirculation control damper,RECD,HVAC/DMP,1,IfcDamper,CONTROLDAMPER,"2x3,4x1,4.3",IfcDamperType.CONTROLDAMPER,IfcDamperType.CONTROLDAMPER
+damper - return control damper,RTCD,HVAC/DMP,1,IfcDamper,CONTROLDAMPER,"2x3,4x1,4.3",IfcDamperType.CONTROLDAMPER,IfcDamperType.CONTROLDAMPER
+damper - return isolation damper,RTISD,HVAC/DMP,1,IfcDamper,CONTROLDAMPER,"2x3,4x1,4.3",IfcDamperType.CONTROLDAMPER,IfcDamperType.CONTROLDAMPER
+damper - volume control damper,VCD,HVAC/DMP,1,IfcDamper,BALANCINGDAMPER,"2x3,4x1,4.3",IfcDamperType.BALANCINGDAMPER,IfcDamperType.BALANCINGDAMPER
+data processing unit / computer,DPU,,1,IfcCommunicationsAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.USERDEFINED
+dehumidifier,DHUM,,1,IfcUnitaryEquipment,DEHUMIDIFIER,"4x1,4.3",IfcElectricDistributionPoint.USERDEFINED,IfcUnitaryEquipmentType.DEHUMIDIFIER
+dispenser,DISP,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+dispenser - broth,DISPB,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+dispenser - cereal,DISPC,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+dispenser - ice/beverage,DISPIB,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+dispenser - juice,DISPJ,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+dispenser - milk,DISPMK,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+dispenser - soft serve ice cream,DISPIC,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+dispenser - water,DISPW,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+distribution data - coaxial cable,COAXCA,,0,IfcCableSegment,NOTDEFINED,4.3,IfcCableSegmentType.FIBERTUBE,IfcCableSegmentType.FIBERTUBE
+distribution data - data cable,DCA,,0,IfcCableSegment,NOTDEFINED,4.3,IfcCableSegmentType.FIBERTUBE,IfcCableSegmentType.FIBERTUBE
+distribution electric - cable,CA,,0,IfcCableSegment,NOTDEFINED,4.3,IfcCableSegmentType.FIBERTUBE,IfcCableSegmentType.FIBERTUBE
+distribution electric - fire rated cable,FCA,,0,IfcCableSegment,NOTDEFINED,4.3,IfcCableSegmentType.FIBERTUBE,IfcCableSegmentType.FIBERTUBE
+distribution piped services - pipework,PW,,0,IfcPipeSegment,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPipeSegmentType.NOTDEFINED,IfcPipeSegmentType.USERDEFINED","IfcPipeSegmentType.NOTDEFINED,IfcPipeSegmentType.USERDEFINED"
+distribution ventilation - ductwork,DUW,,0,IfcDuctSegment,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcDuctSegmentType.NOTDEFINED,IfcDuctSegmentType.USERDEFINED","IfcDuctSegmentType.NOTDEFINED,IfcDuctSegmentType.USERDEFINED"
+distribution ventilation - ductwork fire rated,FDUW,,0,IfcDuctSegment,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcDuctSegmentType.NOTDEFINED,IfcDuctSegmentType.USERDEFINED","IfcDuctSegmentType.NOTDEFINED,IfcDuctSegmentType.USERDEFINED"
+door,DR,,1,IfcDoor,DOOR,"4x1,4.3","IfcDoorStyle.USERDEFINED,IfcDoorStyle.NOTDEFINED",IfcDoorType.DOOR
+door - electromagnetic door holder,EMDH,,1,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+door - fire door,FDR,SAFETY/FDR,1,IfcDoor,NOTDEFINED,"4x1,4.3","IfcDoorStyle.USERDEFINED,IfcDoorStyle.NOTDEFINED",IfcDoorType.DOOR
+door - magnetic lock,MLOCK,,1,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+drinking fountain / bottle filler,DF,,0,IfcSanitaryTerminal,SANITARYFOUNTAIN,"2x3,4x1,4.3",IfcSanitaryTerminalType.SANITARYFOUNTAIN,IfcSanitaryTerminalType.SANITARYFOUNTAIN
+duct silencer - attenuator,SLCR,,0,IfcDuctSilencer,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcDuctSilencerType.NOTDEFINED,IfcDuctSilencerType.USERDEFINED","IfcDuctSilencerType.NOTDEFINED,IfcDuctSilencerType.USERDEFINED"
+dx system - branch controller/selector box,BCBOX,,1,IfcUnitaryEquipment,SPLITSYSTEM,"2x3,4x1,4.3",IfcUnitaryEquipmentType.SPLITSYSTEM,IfcUnitaryEquipmentType.SPLITSYSTEM
+dx system - hybrid variable refrigerant flow unit,HVRF,,1,IfcUnitaryEquipment,SPLITSYSTEM,"2x3,4x1,4.3",IfcUnitaryEquipmentType.SPLITSYSTEM,IfcUnitaryEquipmentType.SPLITSYSTEM
+dx system - variable refrigerant flow unit,VRF,,1,IfcUnitaryEquipment,SPLITSYSTEM,"2x3,4x1,4.3",IfcUnitaryEquipmentType.SPLITSYSTEM,IfcUnitaryEquipmentType.SPLITSYSTEM
+dx system - variable refrigerant volume unit,VRV,,1,IfcUnitaryEquipment,SPLITSYSTEM,"2x3,4x1,4.3",IfcUnitaryEquipmentType.SPLITSYSTEM,IfcUnitaryEquipmentType.SPLITSYSTEM
+electric appliance,EAPPL,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.NOTDEFINED","IfcElectricApplianceType.NOTDEFINED,IfcElectricApplianceType.USERDEFINED"
+electric appliance - air dryer,ADY,HVAC/ADY,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+electric appliance - dishwasher,DW,,0,IfcElectricAppliance,DISHWASHER,"2x3,4x1,4.3",IfcElectricApplianceType.DISHWASHER,IfcElectricApplianceType.DISHWASHER
+electric appliance - electronic point of sale,EPOS,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+electric appliance - exercise / gym equipment,GYMEQ,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+electric appliance - food equipment,FOODEQ,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+electric appliance - fryer,FRY,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+electric appliance - generic vending machine,VEND,,0,IfcElectricAppliance,VENDINGMACHINE,"2x3,4x1,4.3",IfcElectricApplianceType.VENDINGMACHINE,IfcElectricApplianceType.VENDINGMACHINE
+electric appliance - hand dryer,HDY,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+electric appliance - oven,OVN,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+electric appliance - scanning device,SCAN,,0,IfcCommunicationsAppliance,SCANNER,"4x1,4.3",IfcElectricApplianceType.SCANNER,IfcCommunicationsApplianceType.SCANNER
+electric appliance - steamer,STE,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+electric distribution - EVC electric vehicle charging distribution panel,EVDP,ELECTRICAL/PANEL,1,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.DISTRIBUTIONBOARD
+electric distribution - EVC electric vehicle charging equipment,EVCE,,1,IfcOutlet,POWEROUTLET,"2x3,4x1,4.3",IfcOutletType.POWEROUTLET,IfcOutletType.POWEROUTLET
+electric distribution - active harmonic filter,AHF,,1,IfcElectricFlowStorageDevice,HARMONICFILTER,"2x3,4x1,4.3",IfcElectricFlowStorageDeviceType.HARMONICFILTER,IfcElectricFlowStorageDeviceType.HARMONICFILTER
+electric distribution - automatic transfer switch,ATS,,1,IfcProtectiveDevice,NOTDEFINED,"2x3,4x1,4.3",IfcProtectiveDeviceType.USERDEFINED,IfcProtectiveDeviceType.USERDEFINED
+electric distribution - branch circuit panel board 120/208V,LVCPB,ELECTRICAL/PANEL,0,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.DISTRIBUTIONBOARD
+electric distribution - branch circuit panel board 277/480V,HVCPB,ELECTRICAL/PANEL,0,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.DISTRIBUTIONBOARD
+electric distribution - busbar,BB,,0,IfcCableSegment,BUSBARSEGMENT,4.3,IfcCableSegmentType.USERDEFINED,IfcCableSegmentType.BUSBARSEGMENT
+electric distribution - busbar tapoff,BBTO,,0,IfcCableSegment,BUSBARSEGMENT,4.3,IfcCableSegmentType.USERDEFINED,IfcCableSegmentType.BUSBARSEGMENT
+electric distribution - dc-dc converter,DCDC,,0,IfcTransformerType,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcTransformerType.NOTDEFINED,IfcTransformerType.USERDEFINED","IfcTransformerType.NOTDEFINED,IfcTransformerType.USERDEFINED"
+electric distribution - distribution panel / board,DB,ELECTRICAL/PANEL,1,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.DISTRIBUTIONBOARD
+electric distribution - distribution panel / board - consumer unit,CU,ELECTRICAL/PANEL,1,IfcElectricDistributionBoard,CONSUMERUNIT,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.CONSUMERUNIT
+electric distribution - distribution panel 120/208V,LVDP,ELECTRICAL/PANEL,1,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.DISTRIBUTIONBOARD
+electric distribution - distribution panel 277/480V,HVDP,ELECTRICAL/PANEL,1,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.DISTRIBUTIONBOARD
+electric distribution - distribution panel for itc equipment,ITDP,ELECTRICAL/PANEL,1,IfcElectricDistributionBoard,NOTDEFINED,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.USERDEFINED
+electric distribution - electric switch,ELSW,,1,IfcSwitchingDevice,TOGGLESWITCH,"2x3,4x1,4.3",IfcSwitchingDeviceType.TOGGLESWITCH,IfcSwitchingDeviceType.TOGGLESWITCH
+electric distribution - high voltage switchboard,HVSB,,1,IfcElectricDistributionBoard,SWITCHBOARD,"4x1,4.3",IfcElectricDistributionPoint.SWITCHBOARD,IfcElectricDistributionBoardType.SWITCHBOARD
+electric distribution - invertor,IVT,,1,IfcTransformerType,INVERTER,"4x1,4.3",IfcTransformerType.INVERTER,IfcTransformerType.INVERTER
+electric distribution - kitchen electric distribution panel/board,KDP,ELECTRICAL/PANEL,1,IfcElectricDistributionBoard,NOTDEFINED,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.USERDEFINED
+electric distribution - load bank,LB,,1,IfcElectricFlowStorageDevice,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcElectricFlowStorageDeviceType.USERDEFINED,IfcElectricFlowStorageDeviceType.NOTDEFINED","IfcElectricFlowStorageDeviceType.USERDEFINED,IfcElectricFlowStorageDeviceType.NOTDEFINED"
+electric distribution - low voltage switchboard,LVSB,,1,IfcElectricDistributionBoard,SWITCHBOARD,"4x1,4.3",IfcElectricDistributionPoint.SWITCHBOARD,IfcElectricDistributionBoardType.SWITCHBOARD
+electric distribution - main panel / board,MPNL,ELECTRICAL/PANEL,1,IfcElectricDistributionBoard,NOTDEFINED,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.USERDEFINED
+electric distribution - main switch panel,MSP,ELECTRICAL/PANEL,1,IfcElectricDistributionBoard,SWITCHBOARD,"4x1,4.3",IfcElectricDistributionPoint.SWITCHBOARD,IfcElectricDistributionBoardType.SWITCHBOARD
+electric distribution - mains distribution unit,MDU,,1,IfcElectricDistributionBoard,NOTDEFINED,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.USERDEFINED
+electric distribution - mains switchboard,MSB,,1,IfcElectricDistributionBoard,SWITCHBOARD,"4x1,4.3",IfcElectricDistributionPoint.SWITCHBOARD,IfcElectricDistributionBoardType.SWITCHBOARD
+electric distribution - mechanical distribution panel / board,MDP,ELECTRICAL/PANEL,1,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.DISTRIBUTIONBOARD
+electric distribution - medium voltage switchboard,MVSB,,1,IfcElectricDistributionBoard,SWITCHBOARD,"4x1,4.3",IfcElectricDistributionPoint.SWITCHBOARD,IfcElectricDistributionBoardType.SWITCHBOARD
+electric distribution - panel board,PB,,1,IfcElectricDistributionBoard,NOTDEFINED,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.USERDEFINED
+electric distribution - passive harmonic filter,PHF,,0,IfcElectricFlowStorageDevice,HARMONICFILTER,"2x3,4x1,4.3",IfcElectricFlowStorageDeviceType.HARMONICFILTER,IfcElectricFlowStorageDeviceType.HARMONICFILTER
+electric distribution - power distribution unit,PDU,,1,IfcElectricDistributionBoard,NOTDEFINED,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.USERDEFINED
+electric distribution - power factor correction system,PFC,,0,IfcElectricFlowTreatmentDevice,NOTDEFINED,4.3,IfcElectricDistributionPoint.CONTROLPANEL,IfcElectricFlowTreatmentDeviceType.USERDEFINED
+electric distribution - rectifier,REC,,0,IfcTransformerType,RECTIFIER,"4x1,4.3",IfcTransformerType.USERDEFINED,IfcTransformerType.RECTIFIER
+electric distribution - rising busbar,RBB,,0,IfcCableSegment,BUSBARSEGMENT,4.3,IfcCableSegmentType.USERDEFINED,IfcCableSegmentType.BUSBARSEGMENT
+electric distribution - static transfer switch,STS,,1,IfcSwitchingDevice,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED"
+electric distribution - switchgear (12kv typ),SWGR,,1,IfcElectricDistributionBoard,SWITCHBOARD,"4x1,4.3",IfcElectricDistributionPoint.SWITCHBOARD,IfcElectricDistributionBoardType.SWITCHBOARD
+electric distribution - unit substation,USS,ELECTRICAL/PANEL,1, IfcUnitaryEquipment,USERDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED"
+electric distribution - ups panel / board,UPSB,ELECTRICAL/PANEL,1,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.DISTRIBUTIONBOARD
+electric protective device - circuit breaker,CB,,1,IfcProtectiveDevice,CIRCUITBREAKER,"2x3,4x1,4.3",IfcProtectiveDeviceType.CIRCUITBREAKER,IfcProtectiveDeviceType.CIRCUITBREAKER
+electric protective device - disconnect fuse,DSCTF,,0,IfcProtectiveDevice,FUSEDISCONNECTOR,"2x3,4x1,4.3",IfcProtectiveDeviceType.FUSEDISCONNECTOR,IfcProtectiveDeviceType.FUSEDISCONNECTOR
+electric protective device - electrical isolator (disconnector),EISO,,0,IfcSwitchingDevice,SWITCHDISCONNECTOR,"2x3,4x1,4.3",IfcSwitchingDeviceType.SWITCHDISCONNECTOR,IfcSwitchingDeviceType.SWITCHDISCONNECTOR
+electric protective device - high temperature cut out switch,HTCO,,0,IfcSwitchingDevice,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED"
+electric protective device - isolation transformer,EISOTX,,0,IfcProtectiveDevice,NOTDEFINED,"2x3,4x1,4.3",IfcProtectiveDeviceType.USERDEFINED,IfcProtectiveDeviceType.USERDEFINED
+electric protective device - miniature circuit breaker,MCB,,1,IfcProtectiveDevice,CIRCUITBREAKER,"2x3,4x1,4.3",IfcProtectiveDeviceType.CIRCUITBREAKER,IfcProtectiveDeviceType.CIRCUITBREAKER
+electric protective device - residual current circuit breaker,RCCB,,1,IfcProtectiveDevice,RESIDUALCURRENTCIRCUITBREAKER,"2x3,4x1,4.3",IfcProtectiveDeviceType.RESIDUALCURRENTCIRCUITBREAKER,IfcProtectiveDeviceType.RESIDUALCURRENTCIRCUITBREAKER
+electric protective device - residual current circuit breaker with over-current,RCBO,,1,IfcProtectiveDevice,RESIDUALCURRENTCIRCUITBREAKER,"2x3,4x1,4.3",IfcProtectiveDeviceType.RESIDUALCURRENTCIRCUITBREAKER,IfcProtectiveDeviceType.RESIDUALCURRENTCIRCUITBREAKER
+electric protective device - safety switch or disconnect switch,DSCTS,,0,IfcSwitchingDevice,SWITCHDISCONNECTOR,"2x3,4x1,4.3",IfcSwitchingDeviceType.SWITCHDISCONNECTOR,IfcSwitchingDeviceType.SWITCHDISCONNECTOR
+electric protective device - safety switch or disconnect switch - emergency stop button,ESB,,0,IfcSwitchingDevice,SWITCHDISCONNECTOR,"2x3,4x1,4.3",IfcSwitchingDeviceType.SWITCHDISCONNECTOR,IfcSwitchingDeviceType.SWITCHDISCONNECTOR
+electric protective device - sectionalizer switch,SCS,,0,IfcSwitchingDevice,SELECTORSWITCH,"4x1,4.3",IfcSwitchingDeviceType.USERDEFINED,IfcSwitchingDeviceType.SELECTORSWITCH
+electric protective device - surge protection,SPD,,0,IfcProtectiveDevice,VARISTOR,"2x3,4x1,4.3",IfcProtectiveDeviceType.VARISTOR,IfcProtectiveDeviceType.VARISTOR
+electrochromic glass,ECG,,0,IfcWindow,NOTDEFINED,"4x1,4.3,4x1,4.3,4x1,4.3,4x1,4.3,4x1,4.3","IfcWindowStyle.USERDEFINED,IfcWindowStyle.NOTDEFINED","IfcWindowType.NOTDEFINED,IfcWindowType.USERDEFINED,IfcWindowType.WINDOW,IfcWindowType.SKYLIGHT,IfcWindowType.LIGHTDOME"
+electronic key cabinet,EKC,,1,IfcFurniture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED"
+emergency assistance - disabled wc control panel,DWCCP,,1,IfcController,PROGRAMMABLE,"4x1,4.3",IfcControllerType.USERDEFINED,IfcControllerType.PROGRAMMABLE
+emergency assistance - disabled wc overdoor indicator,DWCOI,,1,IfcAlarm,LIGHT,"2x3,4x1,4.3",IfcAlarmType.LIGHT,IfcAlarmType.LIGHT
+emergency assistance - disabled wc pull cord,DWCPC,,1,IfcAlarm,MANUALPULLBOX,"2x3,4x1,4.3",IfcAlarmType.MANUALPULLBOX,IfcAlarmType.MANUALPULLBOX
+emergency assistance - disabled wc reset button,DWCRB,,1,IfcController,TWOPOSITION,"2x3,4x1,4.3",IfcControllerType.TWOPOSITION,IfcControllerType.TWOPOSITION
+emergency voice communication - control panel,EVCCP,,1,IfcAudioVisualAppliance,COMMUNICATIONTERMINAL,4.3,IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.COMMUNICATIONTERMINAL
+emergency voice communication - outstation,EVCO,,1,IfcAudioVisualAppliance,RECEIVER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.RECEIVER
+emergency voice communication - outstation disabled refuge,DRO,,1,IfcAudioVisualAppliance,RECEIVER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.RECEIVER
+emergency voice communication - outstation emergency telephone,ETO,,1,IfcAudioVisualAppliance,RECEIVER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.RECEIVER
+emergency voice communication - outstation fire telephone,FTO,,1,IfcAudioVisualAppliance,RECEIVER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.RECEIVER
+emergency voice communication - repeater unit,EVCRU,,1,IfcAudioVisualAppliance,SWITCHER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.SWITCHER
+emergency voice communication - voice alarm microphones,VAM,,1,IfcAudioVisualAppliance,MICROPHONE,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.MICROPHONE
+emergency voice communication - voice alarm speaker,VAS,,1,IfcAudioVisualAppliance,SPEAKER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcAudioVisualApplianceType.SPEAKER
+employee timeclock with fingerprint scanner,ETCFP,,1,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+evaporator,EVP,,1,IfcEvaporator,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcEvaporatorType.NOTDEFINED,IfcEvaporatorType.USERDEFINED","IfcEvaporatorType.NOTDEFINED,IfcEvaporatorType.USERDEFINED"
+fan,FAN,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - cooling tower fan,CTF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - elevator / lift well pressurization fan,ELVPF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - exhaust fan,EF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - fume hood exhaust fan,FHEX,HVAC/FAN,1,IfcDamper,FUMEHOODEXHAUST,"2x3,4x1,4.3",IfcDamperType.FUMEHOODEXHAUST,IfcDamperType.FUMEHOODEXHAUST
+fan - garage / car park supply fan,GSF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - garage / car park transfer fan,GTF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - kitchen exhaust fan,KEF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - mechanical extract ventilation,MEV,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - pressurization fan,PF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - relief fan,RLF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - return fan,RTF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - smoke exhaust fan,SEF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - stairwell pressurization fan,SPF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - supply fan,SF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - toilet extract fan,TEF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan - transfer fan,TF,HVAC/FAN,1,IfcFan,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED","IfcFanType.USERDEFINED,IfcFanType.NOTDEFINED"
+fan coil unit,FCU,HVAC/FCU,1,IfcUnitaryEquipment,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED"
+filter,FLT,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - air and dirt separator,ADS,,1,IfcFlowTreatmentDevice,NOTDEFINED,"4.3,2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcElectricFlowTreatmentDeviceType.USERDEFINED,IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - air purifier unit,APU,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - air separator,AS,,1,IfcFlowTreatmentDevice,NOTDEFINED,4.3,IfcFilterType.AIRPARTICLEFILTER,IfcElectricFlowTreatmentDeviceType.USERDEFINED
+filter - air washer unit,AWSH,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - bag filter,BFLT,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - carbon filter,CFLT,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - cooling tower filtration unit,CTFS,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED"
+filter - cooling tower filtration unit,CTFU,,1,IfcUnitaryEquipment,NOTDEFINED,"2x3,4x1,4.3",IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.NOTDEFINED
+filter - cooling tower sand filter,CTSFLT,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - cooling tower separator,CTSEP,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - cooling tower separator / sand separator,CTSSEP,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - degasser filter,DGA,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - dirt separator,DTS,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - exhaust dry scrubber unit,DSU,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - panel filter,PFLT,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - pollution control unit,PCU,,1,IfcFilter,AIRPARTICLEFILTER,"2x3,4x1,4.3",IfcFilterType.AIRPARTICLEFILTER,IfcFilterType.AIRPARTICLEFILTER
+filter - process filtration unit,PFU,,1,IfcUnitaryEquipment,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED"
+filter - reverse osmosis system,RO,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - side stream water filters,SSFLT,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - vacuum system filter,VSFLT,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - water - reverse rinsing filter,RRFLT,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+filter - water conditioner,WCR,,1,IfcFilter,WATERFILTER,"2x3,4x1,4.3",IfcFilterType.WATERFILTER,IfcFilterType.WATERFILTER
+filter - water softener,WSR,,1,IfcFilter,WATERFILTER,"2x3,4x1,4.3",IfcFilterType.WATERFILTER,IfcFilterType.WATERFILTER
+fire detection - alarm annunciator sounder or beacon,FAS,,1,IfcAlarm,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcAlarmType.NOTDEFINED,IfcAlarmType.USERDEFINED","IfcAlarmType.NOTDEFINED,IfcAlarmType.USERDEFINED"
+fire detection - aspirating smoke detector,ASD,SAFETY/SD,1,IfcSensor,SMOKESENSOR,"2x3,4x1,4.3",IfcSensorType.SMOKESENSOR,IfcSensorType.SMOKESENSOR
+fire detection - break glass unit,BGU,SAFETY/BGU,1,IfcAlarm,BREAKGLASSBUTTON,"2x3,4x1,4.3",IfcAlarmType.BREAKGLASSBUTTON,IfcAlarmType.BREAKGLASSBUTTON
+fire detection - control and indication equipment,CIE,,1,IfcUnitaryControlElement,INDICATORPANEL,"4x1,4.3",IfcElectricDistributionPoint.USERDEFINED,IfcUnitaryControlElementType.INDICATORPANEL
+fire detection - gas detector,GD,SENSOR,1,IfcSensor,GASSENSOR,"2x3,4x1,4.3",IfcSensorType.GASSENSOR,IfcSensorType.GASSENSOR
+fire detection - heat detector,HD,SENSOR,1,IfcSensor,HEATSENSOR,"2x3,4x1,4.3",IfcSensorType.HEATSENSOR,IfcSensorType.HEATSENSOR
+fire detection - hydrogen detector,HDS,,1,IfcSensor,NOTDEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+fire detection - input output interface unit,IFU,,1,IfcSwitchingDevice,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED"
+fire detection - smoke detector,SD,SAFETY/SD,1,IfcSensor,SMOKESENSOR,"2x3,4x1,4.3",IfcSensorType.SMOKESENSOR,IfcSensorType.SMOKESENSOR
+fire suppression - fire jockey pump,FJP,,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+fire suppression - fire pump,FP,,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+fire suppression - fire pump control panel,FPCP,,1,IfcUnitaryControlElement,CONTROLPANEL,"4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,IfcUnitaryControlElementType.CONTROLPANEL
+fire suppression - firemans override switch,FMO,,0,IfcSwitchingDevice,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED"
+fire suppression - gas suppression control panel,GSCP,,1,IfcUnitaryControlElement,CONTROLPANEL,"4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,IfcUnitaryControlElementType.CONTROLPANEL
+fire suppression - gas suppression head,GSH,,0,IfcFireSuppressionTerminal,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFireSuppressionTerminalType.NOTDEFINED,IfcFireSuppressionTerminalType.USERDEFINED","IfcFireSuppressionTerminalType.NOTDEFINED,IfcFireSuppressionTerminalType.USERDEFINED"
+fire suppression - hose reel terminal,KHRL,,0,IfcFireSuppressionTerminal,HOSEREEL,"2x3,4x1,4.3",IfcFireSuppressionTerminalType.HOSEREEL,IfcFireSuppressionTerminalType.HOSEREEL
+fire suppression - kitchen fire suppression system,KFSS,,1,IfcDistributionSystem,FIREPROTECTION,,,
+fire suppression - sprinkler alarm bell,FB,,1,IfcAlarm,BELL,"2x3,4x1,4.3",IfcAlarmType.BELL,IfcAlarmType.BELL
+fire suppression - sprinkler flow switch,FS,,1,IfcSwitchingDevice,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED"
+fire suppression - sprinkler head terminal,SPH,,1,IfcFireSuppressionTerminal,SPRINKLER,"2x3,4x1,4.3",IfcFireSuppressionTerminalType.SPRINKLER,IfcFireSuppressionTerminalType.SPRINKLER
+fire suppression - sprinkler isolation valve,SISV,,1,IfcValve,ISOLATING,"2x3,4x1,4.3",IfcValveType.ISOLATING,IfcValveType.ISOLATING
+fire suppression - system gas release panel,FSS,,1,IfcUnitaryControlElement,CONTROLPANEL,"4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,IfcUnitaryControlElementType.CONTROLPANEL
+fire suppression - vaporizer panel,VP,,1,IfcUnitaryControlElement,CONTROLPANEL,"4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,IfcUnitaryControlElementType.CONTROLPANEL
+food serving - cold plate,FSCPL,,0,IfcFlowTerminal,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+food serving - cold well,FSCWL,,0,IfcFlowStorageDevice,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+food serving - heat lamp,FSHL,,0,IfcSpaceHeater,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED","IfcSpaceHeaterType.NOTDEFINED,IfcSpaceHeaterType.USERDEFINED"
+food serving - hot and cold plate,FSHCPL,,0,IfcFlowTerminal,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+food serving - hot and cold well,FSHCWL,,0,IfcFlowStorageDevice,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+food serving - hot plate,FSHPL,,0,IfcFlowTerminal,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+food serving - hot well,FSHWL,,0,IfcFlowStorageDevice,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+food serving - ice cream display,FSICD,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+food serving - ice well,FSIWL,,0,IfcFlowStorageDevice,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+food serving - induction warmer,FSIW,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+food serving - sneeze guard,FSSG,,0,IfcFurniture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED"
+food serving - soup well,FSSWL,,0,IfcFlowStorageDevice,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+furniture - chemical storage cabinet,CSC,,0,IfcFurniture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED"
+furniture - commercial kitchen mobile soak sink,KSINKM,,0,IfcSanitaryTerminal,SINK,"2x3,4x1,4.3",IfcSanitaryTerminalType.SINK,IfcSanitaryTerminalType.SINK
+furniture - commercial kitchen sink,KSINK,,0,IfcSanitaryTerminal,SINK,"2x3,4x1,4.3",IfcSanitaryTerminalType.SINK,IfcSanitaryTerminalType.SINK
+furniture - commercial kitchen storage cabinet,KSTC,,0,IfcFurniture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED"
+furniture - commercial kitchen storage cabinet heated,KSTCH,,0,IfcFlowStorageDevice,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+furniture - commercial kitchen table,KTBL,,0,IfcFurniture,TABLE,"4x1,4.3",IfcFurnitureType.USERDEFINED,IfcFurnitureType.SHELF
+furniture - commercial kitchen trolley/cart,KCART,,0,IfcFurniture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED"
+furniture - commercial kitchen utlity distribution system,KUDS,,0,IfcDistributionSystem,NOTDEFINED,,,
+furniture - commercial kitchen wall mounted glass rack,KWMGR,,0,IfcFurniture,SHELF,"4x1,4.3",IfcFurnitureType.USERDEFINED,IfcFurnitureType.SHELF
+furniture - commercial kithcen utility chase system,KUCS,,0,IfcDistributionSystem,NOTDEFINED,,,
+furniture - desk,DESK,,0,IfcFurniture,DESK,"4x1,4.3",IfcFurnitureType.USERDEFINED,IfcFurnitureType.DESK
+furniture - emergency eyewash station,EEW,,0,IfcSanitaryTerminal,SANITARYFOUNTAIN,"2x3,4x1,4.3",IfcSanitaryTerminalType.SANITARYFOUNTAIN,IfcSanitaryTerminalType.SANITARYFOUNTAIN
+furniture - locker,LCKR,,1,IfcFurniture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED"
+generator - clean steam generator,CSG,,1,IfcElectricGenerator,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcElectricGeneratorType.USERDEFINED,IfcElectricGeneratorType.NOTDEFINED","IfcElectricGeneratorType.USERDEFINED,IfcElectricGeneratorType.NOTDEFINED"
+generator - combined heat and power generator,CHP,,1,IfcElectricGenerator,CHP,"4x1,4.3","IfcElectricGeneratorType.USERDEFINED,IfcElectricGeneratorType.NOTDEFINED",IfcElectricGeneratorType.CHP
+generator - diesel electricity generator,DG,,1,IfcElectricGenerator,ENGINEGENERATOR,"4x1,4.3","IfcElectricGeneratorType.USERDEFINED,IfcElectricGeneratorType.NOTDEFINED",IfcElectricGeneratorType.ENGINEGENERATOR
+generator - electricity generator,GEN,,1,IfcElectricGenerator,ENGINEGENERATOR,"4x1,4.3","IfcElectricGeneratorType.USERDEFINED,IfcElectricGeneratorType.NOTDEFINED",IfcElectricGeneratorType.ENGINEGENERATOR
+grease waste interceptor,GI,,0,IfcInterceptor,GREASE,"4x1,4.3",IfcWasteTerminalType.GREASEINTERCEPTOR,IfcInterceptorType.GREASE
+heat emitter - duct heater,DH,HVAC/DH,1,IfcSpaceHeater,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED","IfcSpaceHeaterType.NOTDEFINED,IfcSpaceHeaterType.USERDEFINED"
+heat emitter - electric unit heater,EUH,HVAC/UH,1,ifcSpaceHeater,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED","IfcSpaceHeaterType.NOTDEFINED,IfcSpaceHeaterType.USERDEFINED"
+heat emitter - gas unit heater,GUH,HVAC/UH,1,IfcSpaceHeater,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED","IfcSpaceHeaterType.NOTDEFINED,IfcSpaceHeaterType.USERDEFINED"
+heat emitter - heater,HTR,,1,IfcSpaceHeater,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED","IfcSpaceHeaterType.NOTDEFINED,IfcSpaceHeaterType.USERDEFINED"
+heat emitter - hydronic trench convector,TC,,1,IfcSpaceHeater,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED","IfcSpaceHeaterType.NOTDEFINED,IfcSpaceHeaterType.USERDEFINED"
+heat emitter - radiant panel,RP,HVAC/RP,1,ifcSpaceHeater,RADIATOR,"4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED",IfcSpaceHeaterType.RADIATOR
+heat emitter - radiator,RAD,,1,IfcSpaceHeater,RADIATOR,"4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED",IfcSpaceHeaterType.RADIATOR
+heat emitter - radiator electric,ERAD,,1,IfcSpaceHeater,RADIATOR,"4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED",IfcSpaceHeaterType.RADIATOR
+heat emitter - trace heating,EHT,,1,ifcSpaceHeater,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED","IfcSpaceHeaterType.NOTDEFINED,IfcSpaceHeaterType.USERDEFINED"
+heat emitter - trench heater and cooler,TRHC,,1,ifcSpaceHeater,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED","IfcSpaceHeaterType.NOTDEFINED,IfcSpaceHeaterType.USERDEFINED"
+heat emitter - trench heating,TRH,,1,ifcSpaceHeater,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED","IfcSpaceHeaterType.NOTDEFINED,IfcSpaceHeaterType.USERDEFINED"
+heat emitter - underfloor manifold,UFM,,1,ifcSpaceHeater,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED","IfcSpaceHeaterType.NOTDEFINED,IfcSpaceHeaterType.USERDEFINED"
+heat emitter - unit heater,UH,,1,IfcSpaceHeater,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED","IfcSpaceHeaterType.NOTDEFINED,IfcSpaceHeaterType.USERDEFINED"
+heat emitter - warm air curtain,WAC,,1,IfcSpaceHeater,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED","IfcSpaceHeaterType.NOTDEFINED,IfcSpaceHeaterType.USERDEFINED"
+heat exchanger,HX,HVAC/HX,1,IfcHeatExchanger,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcHeatExchangerType.NOTDEFINED,IfcHeatExchangerType.USERDEFINED","IfcHeatExchangerType.NOTDEFINED,IfcHeatExchangerType.USERDEFINED"
+heat exchanger - cooling plate heat exchanger,CPHX,HVAC/HX,1,IfcHeatExchanger,PLATE,"2x3,4x1,4.3",IfcHeatExchangerType.PLATE,IfcHeatExchangerType.PLATE
+heat exchanger - heating plate heat exchanger,HPHX,HVAC/HX,1,IfcHeatExchanger,PLATE,"2x3,4x1,4.3",IfcHeatExchangerType.PLATE,IfcHeatExchangerType.PLATE
+heat exchanger - plate heat exchanger,PHX,HVAC/HX,1,IfcHeatExchanger,PLATE,"2x3,4x1,4.3",IfcHeatExchangerType.PLATE,IfcHeatExchangerType.PLATE
+heat interface unit,HIU,,1,IfcDistributionSystem,HEATING,"2x3,4x1,4.3",IfcUnitaryEquipmentType.USERDEFINED,IfcUnitaryEquipmentType.USERDEFINED
+heat pump - air source heat pump,ASHP,,1,IfcUnitaryEquipment,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED"
+heat pump - ground source heat pump,GSHP,,1,IfcUnitaryEquipment,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED"
+heat pump - heat pump,HP,,1,IfcUnitaryEquipment,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED"
+heat pump - water source heat pump,WSHP,,1,IfcUnitaryEquipment,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED"
+high level interface,HLI,,1,IfcController,PROGRAMMABLE,"4x1,4.3",IfcControllerType.USERDEFINED,IfcControllerType.PROGRAMMABLE
+horn strobe,HS,SAFETY/HS,1,IfcAlarm,SIREN,"2x3,4x1,4.3",IfcAlarmType.SIREN,IfcAlarmType.SIREN
+human machine interface,HMI,,1,IfcCommunicationsAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.USERDEFINED
+humidifier,HUM,HVAC/HUM,1,IfcHumidifier,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcHumidifierType.NOTDEFINED,IfcHumidifierType.USERDEFINED","IfcHumidifierType.NOTDEFINED,IfcHumidifierType.USERDEFINED"
+ict equipment - ethernet switch,ETS,,1,ifcCommunicationsAppliance,NETWORKBRIDGE,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.NETWORKBRIDGE
+ict equipment - fibre switch,FBS,,1,ifcCommunicationsAppliance,NETWORKBRIDGE,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.NETWORKBRIDGE
+ict equipment - intermediate distribution frame,IDF,,1,IfcCommunicationsAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.USERDEFINED
+ict equipment - multi-purpose server,SRV,,1,IfcCommunicationsAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.USERDEFINED
+ict equipment - network access manager,NAM,,1,IfcCommunicationsAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.USERDEFINED
+ict equipment - network firewall,FW,,1,IfcCommunicationsAppliance,NETWORKAPPLIANCE,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.NETWORKAPPLIANCE
+ict equipment - network monitoring system,NMS,,1,IfcCommunicationsAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.USERDEFINED
+ict equipment - network router,RTR,,1,IfcCommunicationsAppliance,ROUTER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.ROUTER
+ict equipment - pdu ip dongle,PDUIPD,,1,IfcCommunicationsAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.USERDEFINED
+ict equipment - power-over-ethernet network switch,POEETS,,1,IfcCommunicationsAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.USERDEFINED
+ict equipment - software-defined networking controller,SDNC,,1,IfcCommunicationsAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.USERDEFINED
+ict equipment - ups management system,UPSMS,,1,IfcCommunicationsAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.USERDEFINED
+ict equipment - wi-fi router,WRTR,,1,IfcCommunicationsAppliance,ROUTER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.ROUTER
+ict equipment - wireless access point,WAP,,1,IfcCommunicationsAppliance,ROUTER,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.ROUTER
+ict equipment - wireless lan controller,WLC,,1,IfcController,PROGRAMMABLE,"4x1,4.3",IfcControllerType.USERDEFINED,IfcControllerType.PROGRAMMABLE
+kitchen appliance - blender/smoothie maker,KSMBL,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - bowl blender,KBBL,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - bowl cutter,KBC,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - can opener,KCO,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - crepe and waffle maker,KCWM,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - cutlery dryer,KCDY,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - dough divider/rounder,KDR,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - dough press,KDPR,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - insect trap,KICT,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - juicer,KJC,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - meat bone saw,KMBS,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - meat mincer,KMM,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - meat slicer,KMS,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - microwave oven,CKMWO,,0,IfcElectricAppliance,MICROWAVE,"2x3,4x1,4.3",IfcElectricApplianceType.MICROWAVE,IfcElectricApplianceType.MICROWAVE
+kitchen appliance - mixer,KMIX,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - pacotizing machine,KPM,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - potato peeling machine,KPPM,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - scale,KFS,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - stick blender,KSBL,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - storage rack,KSR,,0,IfcFurniture,SHELF,"4x1,4.3",IfcFurnitureType.USERDEFINED,IfcFurnitureType.SHELF
+kitchen appliance - toaster,KTST,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - uv knife steralizer,KUVSC,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - vacuum packing machine,KVPM,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - veg cutting machine,KVCM,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - vegetable washer,KVWM,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - vegetable washer and dryer,KVW,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+kitchen appliance - warming drawer,WDR,,0,IfcElectricAppliance,ELECTRICCOOKER,"2x3,4x1,4.3",IfcElectricApplianceType.ELECTRICCOOKER,IfcElectricApplianceType.ELECTRICCOOKER
+kitchen ventilation - condensate hood,KVCH,,0,IfcDamper,FUMEHOODEXHAUST,"2x3,4x1,4.3",IfcDamperType.FUMEHOODEXHAUST,IfcDamperType.FUMEHOODEXHAUST
+kitchen ventilation - extraction/exhuast grease hood,KVGH,,0,IfcDamper,FUMEHOODEXHAUST,"2x3,4x1,4.3",IfcDamperType.FUMEHOODEXHAUST,IfcDamperType.FUMEHOODEXHAUST
+kitchen ventilation - ventilated ceiling,KVVC,,0,IfcAirTerminalBox,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED","IfcAirTerminalBoxType.NOTDEFINED,IfcAirTerminalBoxType.USERDEFINED"
+lighting - control - dimmer,DIM,LIGHTING/LCM,0,IfcSwitchingDevice,DIMMERSWITCH,"4x1,4.3",IfcSwitchingDeviceType.USERDEFINED,IfcSwitchingDeviceType.DIMMERSWITCH
+lighting - control - keypad,LKP,LIGHTING/LKP,1,IfcSwitchingDevice,KEYPAD,"4x1,4.3",IfcSwitchingDeviceType.USERDEFINED,IfcSwitchingDeviceType.KEYPAD
+lighting - control - module,LCM,LIGHTING/LCM,1,IfcUnitaryControlElement,NOTDEFINED,"4x1,4.3,4x1,4.3",IfcControllerType.USERDEFINED,"IfcUnitaryControlElementType.NOTDEFINED,IfcUnitaryControlElementType.USERDEFINED"
+lighting - control - panel,LCP,,1,IfcUnitaryControlElement,NOTDEFINED,"4x1,4.3,4x1,4.3",IfcControllerType.USERDEFINED,"IfcUnitaryControlElementType.NOTDEFINED,IfcUnitaryControlElementType.USERDEFINED"
+lighting - control - switch,LSW,,1,IfcSwitchingDeviceTypeEnum,NOTDEFINED,"2x3,4x1,4.3",IfcSwitchingDeviceType.USERDEFINED,IfcSwitchingDeviceType.USERDEFINED
+lighting - fixture,LT,LIGHTING/LT,0,IfcLightFixture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3",IfcLightFixtureType.NOTDEFINED,"IfcLightFixtureType.NOTDEFINED,IfcLightFixtureType.USERDEFINED"
+lighting - fixture - downlight,DL,LIGHTING/LT,1,IfcLightFixture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3",IfcLightFixtureType.NOTDEFINED,"IfcLightFixtureType.NOTDEFINED,IfcLightFixtureType.USERDEFINED"
+lighting - fixture - illuminated exit sign,EXIT,,1,IfcLightFixture,SECURITYLIGHTING,"4x1,4.3",IfcLightFixtureType.USERDEFINED,IfcLightFixtureType.SECURITYLIGHTING
+lighting - fixture - linear,LL,LIGHTING/LT,1,IfcLightFixture,DIRECTIONSOURCE,"2x3,4x1,4.3",IfcLightFixtureType.DIRECTIONSOURCE,IfcLightFixtureType.DIRECTIONSOURCE
+lighting - fixture - linear tape,TL,LIGHTING/LT,1,IfcLightFixture,DIRECTIONSOURCE,"2x3,4x1,4.3",IfcLightFixtureType.DIRECTIONSOURCE,IfcLightFixtureType.DIRECTIONSOURCE
+lighting - fixture - pendant,PL,LIGHTING/LT,1,IfcLightFixture,POINTSOURCE,"2x3,4x1,4.3",IfcLightFixtureType.POINTSOURCE,IfcLightFixtureType.POINTSOURCE
+lighting - fixture - spot light,SL,LIGHTING/LT,1,IfcLightFixture,POINTSOURCE,"2x3,4x1,4.3",IfcLightFixtureType.POINTSOURCE,IfcLightFixtureType.POINTSOURCE
+lighting - fixture - standalone emergency light,EL,LIGHTING/LT,1,IfcLightFixture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3",IfcLightFixtureType.NOTDEFINED,"IfcLightFixtureType.NOTDEFINED,IfcLightFixtureType.USERDEFINED"
+lighting - fixture - uplight,UL,LIGHTING/LT,1,IfcLightFixture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3",IfcLightFixtureType.NOTDEFINED,"IfcLightFixtureType.NOTDEFINED,IfcLightFixtureType.USERDEFINED"
+lighting - fixture - wall light,WL,LIGHTING/LT,1,IfcLightFixture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3",IfcLightFixtureType.NOTDEFINED,"IfcLightFixtureType.NOTDEFINED,IfcLightFixtureType.USERDEFINED"
+lighting - fixture external - bollard,LBO,LIGHTING/LT,1,IfcLightFixture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3",IfcLightFixtureType.NOTDEFINED,"IfcLightFixtureType.NOTDEFINED,IfcLightFixtureType.USERDEFINED"
+lighting - fixture external - lampost,LPO,LIGHTING/LT,1,IfcLightFixture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3",IfcLightFixtureType.NOTDEFINED,"IfcLightFixtureType.NOTDEFINED,IfcLightFixtureType.USERDEFINED"
+lighting - gateway,LTGW,LIGHTING/LTGW,1,IfcCommunicationsAppliance,GATEWAY,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.GATEWAY
+lighting - group,LGRP,LIGHTING/LGRP,1,IfcGroup,NOTDEFINED,,,
+lighting - track - electric track for lights,TR,LIGHTING/LT,0,IfcCableSegment,NOTDEFINED,4.3,IfcCableSegmentType.FIBERTUBE,IfcCableSegmentType.FIBERTUBE
+lightning protection - cast-in-socket,CIS,,0,IfcFastener,NOTDEFINED,"2x3,4x1,4.3",IfcFastenerType.NOTDEFINED,IfcFastenerType.NOTDEFINED
+lightning protection - concrete inspection pit,CIP,,0,IfcDistributionElement,NOTDEFINED,,,
+lightning protection - earthing bar,EBA,,0,IfcDistributionElement,NOTDEFINED,"2x3,4x1,4.3",IfcCableSegmentType.USERDEFINED,IfcCableSegmentType.USERDEFINED
+lightning protection - earthing clamp,ECL,,0,IfcFastener,NOTDEFINED,"2x3,4x1,4.3",IfcFastenerType.NOTDEFINED,IfcFastenerType.NOTDEFINED
+lightning protection - earthing rod,ERO,,0,IfcDistributionElement,NOTDEFINED,"2x3,4x1,4.3",IfcCableSegmentType.USERDEFINED,IfcCableSegmentType.USERDEFINED
+lightning protection - earthing tape,ETA,,0,IfcDistributionElement,NOTDEFINED,"2x3,4x1,4.3",IfcCableSegmentType.USERDEFINED,IfcCableSegmentType.USERDEFINED
+location services - beacon,LBCN,,1,IfcCommunicationsAppliance,NOTDEFINED,"4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcCommunicationsApplianceType.USERDEFINED
+meter,MTR,METERS/MTR,1,IfcFlowMeter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFlowMeterType.USERDEFINED,IfcFlowMeterType.NOTDEFINED","IfcFlowMeterType.USERDEFINED,IfcFlowMeterType.NOTDEFINED"
+meter - electric branch meter,EBM,METERS/MTR,1,IfcFlowMeter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFlowMeterType.USERDEFINED,IfcFlowMeterType.NOTDEFINED","IfcFlowMeterType.USERDEFINED,IfcFlowMeterType.NOTDEFINED"
+meter - electric meter,EM,METERS/EM,1,IfcFlowMeter,ENERGYMETER,"2x3,4x1,4.3",IfcFlowMeterType.ENERGYMETER,IfcFlowMeterType.ENERGYMETER
+meter - flow meter,FM,METERS/FM,1,IfcFlowMeter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFlowMeterType.USERDEFINED,IfcFlowMeterType.NOTDEFINED","IfcFlowMeterType.USERDEFINED,IfcFlowMeterType.NOTDEFINED"
+meter - gas meter,GM,METERS/GM,1,IfcFlowMeter,GASMETER,"2x3,4x1,4.3",IfcFlowMeterType.GASMETER,IfcFlowMeterType.GASMETER
+meter - heat meter,HM,METERS/HM,1,IfcFlowMeter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFlowMeterType.USERDEFINED,IfcFlowMeterType.NOTDEFINED","IfcFlowMeterType.USERDEFINED,IfcFlowMeterType.NOTDEFINED"
+meter - water meter,WM,METERS/WM,1,IfcFlowMeter,WATERMETER,"2x3,4x1,4.3",IfcFlowMeterType.WATERMETER,IfcFlowMeterType.WATERMETER
+motor controller - vsd (inverter drive),VSD,,1,IfcMotorConnection,NOTDEFINED,"2x3,4x1,4.3",IfcMotorConnectionType.USERDEFINED,IfcMotorConnectionType.USERDEFINED
+natural air ventilator,AVR,,1,ifcStackTerminal,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcStackTerminalType.NOTDEFINED,IfcStackTerminalType.USERDEFINED","IfcStackTerminalType.NOTDEFINED,IfcStackTerminalType.USERDEFINED"
+oil interceptor,OI,,0,IfcInterceptor,OIL,"4x1,4.3",IfcWasteTerminalType.OILINTERCEPTOR,IfcInterceptorType.OIL
+outlet,OUT,,0,IfcOutlet,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcOutletType.NOTDEFINED,IfcOutletType.USERDEFINED","IfcOutletType.NOTDEFINED,IfcOutletType.USERDEFINED"
+outlet - ceiling duplex,CGDXO,,0,IfcOutlet,POWEROUTLET,"2x3,4x1,4.3",IfcOutletType.POWEROUTLET,IfcOutletType.POWEROUTLET
+outlet - connection unit switched fused,CUSF,,0,IfcOutlet,POWEROUTLET,"2x3,4x1,4.3",IfcOutletType.POWEROUTLET,IfcOutletType.POWEROUTLET
+outlet - connection unit unswitched fused,CUUF,,0,IfcOutlet,POWEROUTLET,"2x3,4x1,4.3",IfcOutletType.POWEROUTLET,IfcOutletType.POWEROUTLET
+outlet - controlled duplex,CNDO,,0,IfcOutlet,DATAOUTLET,"4x1,4.3",IfcOutletType.COMMUNICATIONSOUTLET,IfcOutletType.DATAOUTLET
+outlet - data wall outlet,DATA,,0,IfcOutlet,DATAOUTLET,"4x1,4.3",IfcOutletType.COMMUNICATIONSOUTLET,IfcOutletType.DATAOUTLET
+outlet - double 20A duplex receptacle,DDR,,0,IfcOutlet,POWEROUTLET,"2x3,4x1,4.3",IfcOutletType.POWEROUTLET,IfcOutletType.POWEROUTLET
+outlet - double switched socket outlet,DSSO,,0,IfcOutlet,POWEROUTLET,"2x3,4x1,4.3",IfcOutletType.POWEROUTLET,IfcOutletType.POWEROUTLET
+outlet - double unswitched socket outlet,DSO,,0,IfcOutlet,POWEROUTLET,"2x3,4x1,4.3",IfcOutletType.POWEROUTLET,IfcOutletType.POWEROUTLET
+outlet - duplex outlets,DXO,,0,IfcOutlet,POWEROUTLET,"2x3,4x1,4.3",IfcOutletType.POWEROUTLET,IfcOutletType.POWEROUTLET
+outlet - floor box,FLRB,,0,IfcOutlet,NOTDEFINED,"2x3,4x1,4.3",IfcOutletType.USERDEFINED,IfcOutletType.USERDEFINED
+outlet - floor duplex outlet,FLRDX,,0,IfcOutlet,DATAOUTLET,"4x1,4.3",IfcOutletType.COMMUNICATIONSOUTLET,IfcOutletType.DATAOUTLET
+outlet - floor quad outlet,FLRQD,,0,IfcOutlet,DATAOUTLET,"4x1,4.3",IfcOutletType.COMMUNICATIONSOUTLET,IfcOutletType.DATAOUTLET
+outlet - linear electric receptacle,LER,,0,IfcOutlet,NOTDEFINED,"2x3,4x1,4.3",IfcOutletType.USERDEFINED,IfcOutletType.USERDEFINED
+outlet - single switched socket outlet,SSSO,,0,IfcOutlet,POWEROUTLET,"2x3,4x1,4.3",IfcOutletType.POWEROUTLET,IfcOutletType.POWEROUTLET
+outlet - single unswitched socket outlet,SSO,,0,IfcOutlet,POWEROUTLET,"2x3,4x1,4.3",IfcOutletType.POWEROUTLET,IfcOutletType.POWEROUTLET
+panel - alarm panel,AP,,1,IfcUnitaryControlElement,ALARMPANEL,"4x1,4.3",IfcElectricDistributionPoint.ALARMPANEL,IfcUnitaryControlElementType.ALARMPANEL
+panel - chemical treatment control panel,CTCP,,1,IfcUnitaryControlElement,NOTDEFINED,"4x1,4.3,4x1,4.3",IfcControllerType.USERDEFINED,"IfcUnitaryControlElementType.NOTDEFINED,IfcUnitaryControlElementType.USERDEFINED"
+panel - control panel,CTRP,,1,IfcUnitaryControlElement,CONTROLPANEL,"4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,IfcUnitaryControlElementType.CONTROLPANEL
+panel - fire alarm control panel,FACP,SAFETY/FACP,1,IfcUnitaryControlElement,NOTDEFINED,"4x1,4.3,4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,"IfcUnitaryControlElementType.NOTDEFINED,IfcUnitaryControlElementType.USERDEFINED"
+panel - gas booster control panel,GBCP,,1,IfcUnitaryControlElement,CONTROLPANEL,"4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,IfcUnitaryControlElementType.CONTROLPANEL
+panel - gas detection panel,GASDET,,1,IfcUnitaryControlElement,GASDETECTIONPANEL,"4x1,4.3",IfcElectricDistributionPoint.GASDETECTORPANEL,IfcUnitaryControlElementType.GASDETECTIONPANEL
+panel - generator control panel,GENCP,,1,IfcUnitaryControlElement,CONTROLPANEL,"4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,IfcUnitaryControlElementType.CONTROLPANEL
+panel - greywater control panel,GWCP,,1,IfcUnitaryControlElement,CONTROLPANEL,"4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,IfcUnitaryControlElementType.CONTROLPANEL
+panel - hvac control panel,HVACCP,,1,IfcUnitaryControlElement,CONTROLPANEL,"4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,IfcUnitaryControlElementType.CONTROLPANEL
+panel - leak detection panel,LDP,,1,IfcUnitaryControlElement,CONTROLPANEL,"4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,IfcUnitaryControlElementType.CONTROLPANEL
+panel - motor control center,MCC,,1,IfcUnitaryControlElement,NOTDEFINED,"4x1,4.3,4x1,4.3",IfcControllerType.USERDEFINED,"IfcUnitaryControlElementType.NOTDEFINED,IfcUnitaryControlElementType.USERDEFINED"
+panel - remote i/o control panel,RIO,,1,IfcUnitaryControlElement,NOTDEFINED,"4x1,4.3,4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,"IfcUnitaryControlElementType.NOTDEFINED,IfcUnitaryControlElementType.USERDEFINED"
+panel - rodent repellent panel,RDT,,1,IfcUnitaryControlElement,CONTROLPANEL,"4x1,4.3",IfcElectricDistributionPoint.CONTROLPANEL,IfcUnitaryControlElementType.CONTROLPANEL
+panel - variable air volume control station / panel,VAVCTR,,1,IfcUnitaryControlElement,NOTDEFINED,"4x1,4.3,4x1,4.3",IfcControllerType.USERDEFINED,"IfcUnitaryControlElementType.NOTDEFINED,IfcUnitaryControlElementType.USERDEFINED"
+pressurisation unit,PU,,1,IfcUnitaryEquipment,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED"
+pressurisation unit - water system makeup unit,WMS,,1,IfcUnitaryEquipment,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED"
+pump,PMP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - automatic condensate pump,CNP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - auxilliary process cooling water pump,AXCWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - booster pump,BSP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - chilled water pump,CHWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - circulating pump,CP,HVAC/PMP,1,IfcPump,CIRCULATOR,"2x3,4x1,4.3",IfcPumpType.CIRCULATOR,IfcPumpType.CIRCULATOR
+pump - condenser water pump,CDWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - cooling tower separator pump,CTSEPP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - domestic hot water circulation pump,DHWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - dosing pump,DP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - fire hydrant pump,FHP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - fuel oil pump,FOP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - gas booster pump,GBP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - greywater booster pump,GWBP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - heat exchanger pump,HXP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - high temperature chilled water pump,HTCHP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - high temperature condenser water pump,HTCWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - hot water pump,HWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - low temperature chilled water pump,LTCHWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - low temperature condenser water pump,LTCDWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - low temperature hot water pump,LTHWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - packaged pump set,PAPS,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - potable/domestic water booster pump,DWBP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - potable/domestic water transfer pump,DWTP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - primary chilled water pump,PCHWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - primary pump,PP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - process cooling water pump,PCWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - process water pump,PWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - rainwater booster pump,RNWBP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - rainwater pump,RNWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - recirculation pump,RCP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - recycled water pump,RWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - secondary chilled water pump,SCHWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - secondary heating circulation pump,SHCP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - secondary hot water circulating pump,SHWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - secondary pump,SP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - separator pump,SEPP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - sewage ejector pump,SEP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - sprinkler pump,SPP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - sump pump,SMPP,HVAC/PMP,1,IfcPump,SUMPPUMP,"4x1,4.3",IfcPumpType.USERDEFINED,IfcPumpType.SUMPPUMP
+pump - tower make up pump,TMUP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - tower make up valve,TMUV,HVAC/PMP,1,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+pump - transfer pump,TRP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - vacuum pump,VCP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - waste water pump,WWP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pump - wet riser pump,WRP,HVAC/PMP,1,IfcPump,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED","IfcPumpType.NOTDEFINED,IfcPumpType.USERDEFINED"
+pv ac disconnect,PVACDS,,0,IfcSwitchingDevice,SWITCHDISCONNECTOR,"2x3,4x1,4.3",IfcSwitchingDeviceType.SWITCHDISCONNECTOR,IfcSwitchingDeviceType.SWITCHDISCONNECTOR
+pv data acquisition system,PVDAS,,1,IfcController,NOTDEFINED,"2x3,4x1,4.3",IfcControllerType.USERDEFINED,IfcControllerType.USERDEFINED
+pv dc combiner,PVDCC,,0,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.DISTRIBUTIONBOARD
+pv dc disconnect,PVDCDS,,0,IfcSwitchingDevice,SWITCHDISCONNECTOR,"2x3,4x1,4.3",IfcSwitchingDeviceType.SWITCHDISCONNECTOR,IfcSwitchingDeviceType.SWITCHDISCONNECTOR
+pv distribution board,PVDB,,1,IfcElectricDistributionBoard,DISTRIBUTIONBOARD,"4x1,4.3",IfcElectricDistributionPoint.DISTRIBUTIONBOARD,IfcElectricDistributionBoardType.DISTRIBUTIONBOARD
+pv inverter,PVI,,1,IfcTransformer,INVERTER,"4x1,4.3",IfcTransformerType.INVERTER,IfcTransformerType.INVERTER
+pv microgrid controller,PVMC,,1,IfcController,NOTDEFINED,"2x3,4x1,4.3",IfcControllerType.USERDEFINED,IfcControllerType.USERDEFINED
+pv module-level power electronics,PVMLPE,,0,IfcController,NOTDEFINED,"2x3,4x1,4.3",IfcControllerType.USERDEFINED,IfcControllerType.USERDEFINED
+pv panel,PVP,,1,IfcSolarDevice,SOLARPANEL,"4x1,4.3",IfcDiscreteAccessoryType.USERDEFINED,IfcSolarDeviceType.SOLARPANEL
+pv transformer,PVTXMR,,1,IfcTransformer,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcTransformerType.NOTDEFINED,IfcTransformerType.USERDEFINED","IfcTransformerType.NOTDEFINED,IfcTransformerType.USERDEFINED"
+radiant surface - chilled beam,CHB,,0,IfcCooledBeam,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcCooledBeamType.NOTDEFINED,IfcCooledBeamType.USERDEFINED","IfcCooledBeamType.NOTDEFINED,IfcCooledBeamType.USERDEFINED"
+radiant surface - hot water beam,HTB,,0,IfcSpaceHeater,RADIATOR,"4x1,4.3","IfcSpaceHeaterType.USERDEFINED,IfcSpaceHeaterType.NOTDEFINED",IfcSpaceHeaterType.RADIATOR
+refrigeration - blast chiller/freezer,FRZBCF,,0,IfcElectricAppliance,FREEZER,"2x3,4x1,4.3",IfcElectricApplianceType.FREEZER,IfcElectricApplianceType.FREEZER
+refrigeration - coldroom freezer,CRFRZ,,0,IfcElectricAppliance,FREEZER,"2x3,4x1,4.3",IfcElectricApplianceType.FREEZER,IfcElectricApplianceType.FREEZER
+refrigeration - coldroom hardware/plant,CRHW,,0,IfcElectricAppliance,REFRIGERATOR,"2x3,4x1,4.3",IfcElectricApplianceType.REFRIGERATOR,IfcElectricApplianceType.REFRIGERATOR
+refrigeration - coldroom refrigerated,CRREF,,0,IfcElectricAppliance,REFRIGERATOR,"2x3,4x1,4.3",IfcElectricApplianceType.REFRIGERATOR,IfcElectricApplianceType.REFRIGERATOR
+refrigeration - freezer,FRZ,,0,IfcElectricAppliance,FREEZER,"2x3,4x1,4.3",IfcElectricApplianceType.FREEZER,IfcElectricApplianceType.FREEZER
+refrigeration - ice cream chest freezer,FRZICC,,0,IfcElectricAppliance,FREEZER,"2x3,4x1,4.3",IfcElectricApplianceType.FREEZER,IfcElectricApplianceType.FREEZER
+refrigeration - ice maker,IM,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+refrigeration - refrigerator,REF,,0,IfcElectricAppliance,REFRIGERATOR,"2x3,4x1,4.3",IfcElectricApplianceType.REFRIGERATOR,IfcElectricApplianceType.REFRIGERATOR
+refrigeration - retarder/proover,REFRP,,0,IfcElectricAppliance,REFRIGERATOR,"2x3,4x1,4.3",IfcElectricApplianceType.REFRIGERATOR,IfcElectricApplianceType.REFRIGERATOR
+sand oil interceptor,SOI,,0,IfcInterceptor,OIL,"4x1,4.3",IfcWasteTerminalType.OILINTERCEPTOR,IfcInterceptorType.OIL
+sand separator,SSP,,0,IfcInterceptor,NOTDEFINED,"4x1,4.3",IfcWasteTerminalType.USERDEFINED,IfcInterceptorType.USERDEFINED
+sanitary terminal - hand wash basin,HWB,,0,IfcSanitaryTerminal,WASHHANDBASIN,"2x3,4x1,4.3",IfcSanitaryTerminalType.WASHHANDBASIN,IfcSanitaryTerminalType.WASHHANDBASIN
+sensor - CO sensor,COS,SENSOR,1,IfcSensor,COSENSOR,"4x1,4.3",IfcSensorType.CO2SENSOR,IfcSensorType.COSENSOR
+sensor - CO2 sensor,CDS,SENSOR,1,IfcSensor,CO2SENSOR,"2x3,4x1,4.3",IfcSensorType.CO2SENSOR,IfcSensorType.CO2SENSOR
+sensor - condensation water sensor,CS,SENSOR,1,IfcSensor,TEMPERATURESENSOR,"2x3,4x1,4.3",IfcSensorType.TEMPERATURESENSOR,IfcSensorType.TEMPERATURESENSOR
+sensor - contact sensor,CNTS,SENSOR,1,IfcSensor,CONTACTSENSOR,"4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.CONTACTSENSOR
+sensor - differential pressure sensor,DPS,SENSOR,1,IfcSensor,PRESSURESENSOR,"2x3,4x1,4.3",IfcSensorType.PRESSURESENSOR,IfcSensorType.PRESSURESENSOR
+sensor - glycol protector sensor,GLYPR,SENSOR,1,IfcSensor,NOTDEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+sensor - humidity sensor,HMS,SENSOR,1,IfcSensor,HUMIDITYSENSOR,"2x3,4x1,4.3",IfcSensorType.HUMIDITYSENSOR,IfcSensorType.HUMIDITYSENSOR
+sensor - humidity sensor - outside,OHMS,SENSOR,1,IfcSensor,HUMIDITYSENSOR,"2x3,4x1,4.3",IfcSensorType.HUMIDITYSENSOR,IfcSensorType.HUMIDITYSENSOR
+sensor - inertial measurement unit sensor,IMUS,SENSOR,1,IfcSensor,NOTDEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+sensor - leak detection sensor,LDS,SENSOR,1,IfcSensor,NOTDEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+sensor - level sensor,LVLS,SENSOR,1,IfcSensor,NOTDEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+sensor - lighting motion sensor,LMS,SENSOR,1,IfcSensor,MOVEMENTSENSOR,"2x3,4x1,4.3",IfcSensorType.MOVEMENTSENSOR,IfcSensorType.MOVEMENTSENSOR
+sensor - lighting multisensor,LTMTS,SENSOR,1,IfcSensor,NOTDEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+sensor - lighting photocell sensor,LPS,SENSOR,1,IfcSensor,LIGHTSENSOR,"2x3,4x1,4.3",IfcSensorType.LIGHTSENSOR,IfcSensorType.LIGHTSENSOR
+sensor - moisture content sensor,MCS,SENSOR,1,IfcSensor,NOTDEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+sensor - motion sensor,MOS,SENSOR,1,IfcSensor,MOVEMENTSENSOR,"2x3,4x1,4.3",IfcSensorType.MOVEMENTSENSOR,IfcSensorType.MOVEMENTSENSOR
+sensor - multi sensor,MTS,SENSOR,1,IfcSensor,NOT DEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+sensor - nitrogen dioxide sensor,NDS,SENSOR,1,IfcSensor,NOTDEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+sensor - particulate matter sensor,PMS,SENSOR,1,IfcSensor,NOTDEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+sensor - people counting sensor,PCS,SENSOR,1,IfcSensor,NOTDEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+sensor - pressure sensor,PS,SENSOR,1,IfcSensor,PRESSURESENSOR,"2x3,4x1,4.3",IfcSensorType.PRESSURESENSOR,IfcSensorType.PRESSURESENSOR
+sensor - seismic sensor,SSS,SENSOR,1,IfcSensor,NOTDEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+sensor - sound level sensor,SLS,SENSOR,1,IfcSensor,SOUNDSENSOR,"2x3,4x1,4.3",IfcSensorType.SOUNDSENSOR,IfcSensorType.SOUNDSENSOR
+sensor - static pressure sensor,SPS,SENSOR,1,IfcSensor,PRESSURESENSOR,"2x3,4x1,4.3",IfcSensorType.PRESSURESENSOR,IfcSensorType.PRESSURESENSOR
+sensor - temperature sensor,TPS,SENSOR,1,IfcSensor,TEMPERATURESENSOR,"2x3,4x1,4.3",IfcSensorType.TEMPERATURESENSOR,IfcSensorType.TEMPERATURESENSOR
+sensor - temperature sensor - outside,OTPS,SENSOR,1,IfcSensor,TEMPERATURESENSOR,"2x3,4x1,4.3",IfcSensorType.TEMPERATURESENSOR,IfcSensorType.TEMPERATURESENSOR
+sensor - thermostat,TSTAT,,1,IfcUnitaryControlElement,THERMOSTAT,"4x1,4.3",IfcControllerType.USERDEFINED,IfcUnitaryControlElementType.THERMOSTAT
+sensor - velocity sensor,VS,SENSOR,1,IfcSensor,NOTDEFINED,"2x3,4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.USERDEFINED
+sensor - volumetric flow sensor - air,AVFS,SENSOR,1,IfcSensor,FLOWSENSOR,"2x3,4x1,4.3",IfcSensorType.FLOWSENSOR,IfcSensorType.FLOWSENSOR
+sensor - volumetric flow sensor - water,WVFS,SENSOR,1,IfcSensor,FLOWSENSOR,"2x3,4x1,4.3",IfcSensorType.FLOWSENSOR,IfcSensorType.FLOWSENSOR
+sensor - wind sensor,WS,SENSOR,1,IfcSensor,WINDSENSOR,"4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.WINDSENSOR
+shading - shading device actuator,SDACT,HVAC/SDC,1,IfcActuator,ELECTRICACTUATOR,"2x3,4x1,4.3",IfcActuatorType.ELECTRICACTUATOR,IfcActuatorType.ELECTRICACTUATOR
+shading - shading device blinds,BL,,0,IfcShadingDevice,NOTDEFINED,"4x1,4.3",IfcDiscreteAccessoryType.USERDEFINED,IfcShadingDeviceType.USERDEFINED
+shading - shading device controller,SDC,,1,IfcController,NOTDEFINED,"2x3,4x1,4.3",IfcControllerType.USERDEFINED,IfcControllerType.USERDEFINED
+shading - shading device keypad,SDKP,,1,IfcSwitchingDevice,KEYPAD,"4x1,4.3",IfcSwitchingDeviceType.USERDEFINED,IfcSwitchingDeviceType.KEYPAD
+shading - shading device motor,SDM,,0,IfcElectricMotor,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcElectricMotorType.USERDEFINED,IfcElectricMotorType.NOTDEFINED","IfcElectricMotorType.USERDEFINED,IfcElectricMotorType.NOTDEFINED"
+shading - shading device solar tracking module,SDSTM,,1,IfcSensor,RADIATIONSENSOR,"4x1,4.3",IfcSensorType.USERDEFINED,IfcSensorType.RADIATIONSENSOR
+signal - beacon,BCN,,1,ifcAlarm,LIGHT,"2x3,4x1,4.3",IfcAlarmType.LIGHT,IfcAlarmType.LIGHT
+switch - absolute pressure,APSW,,1,IfcSwitchingDevice,PRESSURESENSOR,"2x3,4x1,4.3",IfcSensorType.PRESSURESENSOR,IfcSensorType.PRESSURESENSOR
+switch - dew point,DEWSW,,1,IfcSwitchingDevice,HUMIDISTAT,"4x1,4.3",IfcElectricDistributionPoint.USERDEFINED,IfcUnitaryControlElementType.HUMIDISTAT
+switch - differential pressure,DPSW,,1,IfcSwitchingDevice,PRESSURESENSOR,"2x3,4x1,4.3",IfcSensorType.PRESSURESENSOR,IfcSensorType.PRESSURESENSOR
+switch - static pressure,SPSW,,1,IfcSwitchingDevice,PRESSURESENSOR,"2x3,4x1,4.3",IfcSensorType.PRESSURESENSOR,IfcSensorType.PRESSURESENSOR
+switch - thermal dispersion flow proving switch,TDSW,,1,IfcSwitchingDevice,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED","IfcSwitchingDeviceType.NOTDEFINED,IfcSwitchingDeviceType.USERDEFINED"
+tank - break tank,BTK,,1,IfcTank,BREAKPRESSURE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.BREAKPRESSURE
+tank - break tank and booster set,BTKBS,,1,IfcTank,BREAKPRESSURE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.BREAKPRESSURE
+tank - brine tank,BRITK,,0,IfcTank,VESSEL,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.VESSEL
+tank - buffer vessel - cooling,CBUFF,,0,IfcTank,VESSEL,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.VESSEL
+tank - buffer vessel - generic,BUFF,,0,IfcTank,VESSEL,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.VESSEL
+tank - buffer vessel - heating,HBUFF,,0,IfcTank,VESSEL,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.VESSEL
+tank - compressed air storage tank,CAST,,0,ifcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - condensate receiver tank,CNR,,0,ifcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - deareator tank,DEA,,0,IfcTank,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcTankType.NOTDEFINED,IfcTankType.USERDEFINED","IfcTankType.NOTDEFINED,IfcTankType.USERDEFINED"
+tank - decontamination tank,DET,,0,IfcTank,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcTankType.NOTDEFINED,IfcTankType.USERDEFINED","IfcTankType.NOTDEFINED,IfcTankType.USERDEFINED"
+tank - emergency sewer tank,EST,,0,IfcTank,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcTankType.NOTDEFINED,IfcTankType.USERDEFINED","IfcTankType.NOTDEFINED,IfcTankType.USERDEFINED"
+tank - emergency water tank,EWT,,0,IfcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - expansion tank,ET,,0,IfcTank,EXPANSION,"2x3,4x1,4.3",IfcTankType.EXPANSION,IfcTankType.EXPANSION
+tank - fire hydrant tank,FHT,,0,IfcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - fuel oil day tank,FODT,,0,IfcTank,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcTankType.NOTDEFINED,IfcTankType.USERDEFINED","IfcTankType.NOTDEFINED,IfcTankType.USERDEFINED"
+tank - fuel oil storage tank,FOST,,0,IfcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - greywater storage tank,GWST,,0,IfcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - hot water cylinder,HWC,,0,IfcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - mains water storage tank,MWST,,0,IfcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - potable/domestic water storage tank,DWST,,0,IfcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - potable/domestic water transfer tank,DWTT,,0,IfcTank,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcTankType.NOTDEFINED,IfcTankType.USERDEFINED","IfcTankType.NOTDEFINED,IfcTankType.USERDEFINED"
+tank - rainwater storage tank,RNWST,,0,IfcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - sprinkler tank,SPT,,0,IfcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - thermal storage tank,TST,,0,IfcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - water tank,TK,,0,IfcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+tank - wet riser tank,WRT,,0,IfcTank,STORAGE,"4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.STORAGE
+thermal wheel,TW,,0,IfcAirToAirHeatRecovery,ROTARYWHEEL,"2x3,4x1,4.3",IfcAirToAirHeatRecoveryType.ROTARYWHEEL,IfcAirToAirHeatRecoveryType.ROTARYWHEEL
+timeclock,TMCLK,,1,IfcElectricTimeControl,TIMECLOCK,"2x3,4x1,4.3",IfcElectricTimeControlType.TIMECLOCK,IfcElectricTimeControlType.TIMECLOCK
+transformer,TXMR,,0,IfcTransformer,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcTransformerType.NOTDEFINED,IfcTransformerType.USERDEFINED","IfcTransformerType.NOTDEFINED,IfcTransformerType.USERDEFINED"
+transportation - escalator,ESC,,1,IfcTransportElement,ESCALATOR,"2x3,4x1,4.3",IfcTransportElementType.ESCALATOR,IfcTransportElementType.ESCALATOR
+transportation - lift / elevator,ELV,,1,IfcTransportElement,ELEVATOR,"2x3,4x1,4.3",IfcTransportElementType.ELEVATOR,IfcTransportElementType.ELEVATOR
+transportation - lift / elevator controller,ELC,,1,IfcUnitaryControlElement,NOTDEFINED,"4x1,4.3,4x1,4.3",IfcControllerType.USERDEFINED,"IfcUnitaryControlElementType.NOTDEFINED,IfcUnitaryControlElementType.USERDEFINED"
+transportation - lift / elevator door motor,ELDM,,1,IfcElectricMotor,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcElectricMotorType.USERDEFINED,IfcElectricMotorType.NOTDEFINED","IfcElectricMotorType.USERDEFINED,IfcElectricMotorType.NOTDEFINED"
+transportation - lift / elevator inverter,ELI,,1,IfcTransformer,INVERTER,"4x1,4.3",IfcTransformerType.INVERTER,IfcTransformerType.INVERTER
+transportation - lift / elevator traction machine,ELTM,,1,IfcElectricMotor,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcElectricMotorType.USERDEFINED,IfcElectricMotorType.NOTDEFINED","IfcElectricMotorType.USERDEFINED,IfcElectricMotorType.NOTDEFINED"
+transportation - moving walkway,AW,,1,IfcTransportElement,MOVINGWALKWAY,"2x3,4x1,4.3",IfcTransportElementType.MOVINGWALKWAY,IfcTransportElementType.MOVINGWALKWAY
+trap primer,TP,,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+trap primer - electronic trap primer,TPE,,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+ups - uninteruptable power supply unit,UPS,ELECTRICAL/UPS,1,IfcElectricFlowStorageDevice,UPS,"2x3,4x1,4.3",IfcElectricFlowStorageDeviceType.UPS,IfcElectricFlowStorageDeviceType.UPS
+user interface - keypad,KP,,1,IfcSwitchingDevice,KEYPAD,"4x1,4.3",IfcSwitchingDeviceType.USERDEFINED,IfcSwitchingDeviceType.KEYPAD
+uv disinfection unit,UVDU,,1,IfcFilter,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED","IfcFilterType.USERDEFINED,IfcFilterType.NOTDEFINED"
+valve,VLV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - air admittance valve,AAV,HVAC/VLV,0,IfcValve,AIRRELEASE,"2x3,4x1,4.3",IfcValveType.AIRRELEASE,IfcValveType.AIRRELEASE
+valve - angle stop valve,AV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - backflow preventer valve,BFP,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - balancing valve,BLV,HVAC/VLV,0,IfcValve,COMMISSIONING,"2x3,4x1,4.3",IfcValveType.COMMISSIONING,IfcValveType.COMMISSIONING
+valve - ball valve,BV,HVAC/VLV,0,Ifcvalve,GASCOCK,"2x3,4x1,4.3",IfcValveType.GASCOCK,IfcValveType.GASCOCK
+valve - blowdown valve,BDV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - butterfly valve,BFV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - bypass valve,BYV,HVAC/VLV,0,IfcValve,DIVERTING,"2x3,4x1,4.3",IfcValveType.DIVERTING,IfcValveType.DIVERTING
+valve - check valve,CKV,HVAC/VLV,0,IfcValve,CHECK,"2x3,4x1,4.3",IfcValveType.CHECK,IfcValveType.CHECK
+valve - chilled water valve,CHWV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - condenser water valve,CDWV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - control valve,CV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - control valve modulating,CVM,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - control valve open closed,CVO,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - differential pressure control valve,DPCV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - energy valve,ENV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - float valve,FV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - flow control valve,FCV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - gate valve,GV,HVAC/VLV,0,IfcValve,STEAMTRAP,"2x3,4x1,4.3",IfcValveType.STEAMTRAP,IfcValveType.STEAMTRAP
+valve - hot water valve,HWV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - isolation valve,ISV,HVAC/VLV,0,IfcValve,ISOLATING,"2x3,4x1,4.3",IfcValveType.ISOLATING,IfcValveType.ISOLATING
+valve - level control valve,LCV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - make up water valve,MUV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - master thermostatic valve,MMV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - pressure attenuator,PA,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - pressure control valve,PCV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - pressure independent control valve,PICV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - pressure reducing valve,PRV,HVAC/VLV,0,IfcValve,PRESSUREREDUCING,"2x3,4x1,4.3",IfcValveType.PRESSUREREDUCING,IfcValveType.PRESSUREREDUCING
+valve - pressure relief valve,PRFV,HVAC/VLV,0,IfcValve,PRESSURERELIEF,"2x3,4x1,4.3",IfcValveType.PRESSURERELIEF,IfcValveType.PRESSURERELIEF
+valve - process water valve,PWV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - recirculation valve,RCV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - return valve,RTV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - seismic gas valve,SGV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - solenoid valve,SNV,HVAC/VLV,1,IfcValve,SAFETYCUTOFF,"2x3,4x1,4.3",IfcValveType.SAFETYCUTOFF,IfcValveType.SAFETYCUTOFF
+valve - steam pressure reducing valve,SPRV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - supply valve,SPV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - temperature control valve,TCV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+valve - thermostatic mixing valve,TMV,HVAC/VLV,0,IfcValve,MIXING,"2x3,4x1,4.3",IfcValveType.MIXING,IfcValveType.MIXING
+valve - water hammer arrestor,WHAV,HVAC/VLV,0,IfcValve,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED","IfcValveType.NOTDEFINED,IfcValveType.USERDEFINED"
+variable frequency drive,VFD,,1,IfcMotorConnection,NOTDEFINED,"2x3,4x1,4.3",IfcMotorConnectionType.USERDEFINED,IfcMotorConnectionType.USERDEFINED
+washing appliance - commercial flight machine,CDWFM,,0,IfcElectricAppliance,DISHWASHER,"2x3,4x1,4.3",IfcElectricApplianceType.DISHWASHER,IfcElectricApplianceType.DISHWASHER
+washing appliance - commercial pass through machine,CDWPTM,,0,IfcElectricAppliance,DISHWASHER,"2x3,4x1,4.3",IfcElectricApplianceType.DISHWASHER,IfcElectricApplianceType.DISHWASHER
+washing appliance - commercial pot and utensil machine,CDWPUW,,0,IfcElectricAppliance,DISHWASHER,"2x3,4x1,4.3",IfcElectricApplianceType.DISHWASHER,IfcElectricApplianceType.DISHWASHER
+washing appliance - commercial rack machine,CDWRM,,0,IfcElectricAppliance,DISHWASHER,"2x3,4x1,4.3",IfcElectricApplianceType.DISHWASHER,IfcElectricApplianceType.DISHWASHER
+washing appliance - commercial undercounter machine,CDWUM,,0,IfcElectricAppliance,DISHWASHER,"2x3,4x1,4.3",IfcElectricApplianceType.DISHWASHER,IfcElectricApplianceType.DISHWASHER
+washing appliance - conveyor system,CDWSCS,,0,IfcElectricAppliance,DISHWASHER,"2x3,4x1,4.3",IfcElectricApplianceType.DISHWASHER,IfcElectricApplianceType.DISHWASHER
+washing appliance - roller table,CDWRT,,0,IfcFurniture,TABLE,"4x1,4.3",IfcFurnitureType.USERDEFINED,IfcFurnitureType.SHELF
+waste management - food dehydrator,WSTFD,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+waste management - waste bin,WSTBIN,,0,IfcFurniture,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED","IfcFurnitureType.NOTDEFINED,IfcFurnitureType.USERDEFINED"
+waste management - waste compactor,WSTC,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+waste management - wet waste grinder,WSTWG,,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+waste terminal - area drain,AD,,0,IfcWasteTerminal,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcWasteTerminalType.NOTDEFINED,IfcWasteTerminalType.USERDEFINED","IfcWasteTerminalType.NOTDEFINED,IfcWasteTerminalType.USERDEFINED"
+water heater - domestic electric water heater,DEWH,HVAC/HWS,0,IfcElectricAppliance,FREESTANDINGWATERHEATER,"4x1,4.3",IfcElectricApplianceType.WATERHEATER,IfcElectricApplianceType.FREESTANDINGWATERHEATER
+water heater - domestic gas water heater,DGWH,HVAC/HWS,0,IfcBoiler,WATER,"2x3,4x1,4.3",IfcBoilerType.WATER,IfcBoilerType.WATER
+water heater - electric water heater,EWH,HVAC/HWS,0,IfcElectricAppliance,FREESTANDINGWATERHEATER,"4x1,4.3",IfcElectricApplianceType.WATERHEATER,IfcElectricApplianceType.FREESTANDINGWATERHEATER
+water heater - gas water heater,GWH,HVAC/HWS,0,IfcBoiler,WATER,"2x3,4x1,4.3",IfcBoilerType.WATER,IfcBoilerType.WATER
+water heater - instantaneous water heater,IWH,HVAC/HWS,0,IfcElectricAppliance,NOTDEFINED,"2x3,4x1,4.3",IfcElectricApplianceType.USERDEFINED,IfcElectricApplianceType.USERDEFINED
+water heater - solar water heating panel,SWHP,,0,IfcSolarDevice,SOLARCOLLECTOR,"4x1,4.3",IfcElectricApplianceType.WATERHEATER,IfcSolarDeviceType.SOLARCOLLECTOR
+water treatment - chemical dosage unit,CHDU,,1,IfcDistributionSystem,CHEMICAL,"2x3,4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.USERDEFINED
+water treatment - cooling tower water treatment unit,CTSU,,1,IfcUnitaryEquipment,NOTDEFINED,"2x3,4x1,4.3,2x3,4x1,4.3","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED","IfcUnitaryEquipmentType.NOTDEFINED,IfcUnitaryEquipmentType.USERDEFINED"
+water treatment - dosing pot,DPOT,,0,IfcDistributionFlowElement,NOTDEFINED,"2x3,4x1,4.3",IfcTankType.USERDEFINED,IfcTankType.USERDEFINED
+water treatment - electro magnetic water conditioner,EMWC,,0,IfcFlowTreatmentDevice,NOTDEFINED,"2x3,4x1,4.3",IfcFilterType.WATERFILTER,IfcFilterType.WATERFILTER
+weather station,WST,HVAC/WEATHER,1,IfcUnitaryControlElement,WEATHERSTATION,"4x1,4.3",IfcElectricDistributionPoint.USERDEFINED,IfcUnitaryControlElementType.WEATHERSTATION
+window,WD,,0,IfcWindow,NOTDEFINED,"4x1,4.3,4x1,4.3,4x1,4.3,4x1,4.3,4x1,4.3","IfcWindowStyle.USERDEFINED,IfcWindowStyle.NOTDEFINED","IfcWindowType.NOTDEFINED,IfcWindowType.USERDEFINED,IfcWindowType.WINDOW,IfcWindowType.SKYLIGHT,IfcWindowType.LIGHTDOME"
