@@ -692,6 +692,7 @@ valve - blowdown valve,BDV,0,HVAC/VLV,IfcValve,IfcValve
 valve - butterfly valve,BFV,0,HVAC/VLV,IfcValve,IfcValve
 valve - bypass valve,BYV,0,HVAC/VLV,IfcValveDIVERTING,IfcValveDIVERTING
 valve - check valve,CKV,0,HVAC/VLV,IfcValveCHECK,IfcValveCHECK
+valve - check valve sprinkler,CKVS,0,,IfcValveCHECK,IfcValveCHECK
 valve - chilled water valve,CHWV,0,HVAC/VLV,IfcValve,IfcValve
 valve - condenser water valve,CDWV,0,HVAC/VLV,IfcValve,IfcValve
 valve - control valve,CV,0,HVAC/VLV,IfcValve,IfcValve
