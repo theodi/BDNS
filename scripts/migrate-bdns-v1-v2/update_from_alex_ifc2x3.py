@@ -1,7 +1,7 @@
 import pandas as pd
 import pathlib
 
-BDNS_REGISTER = pathlib.Path(__file__).parent.parent / "BDNS_Abbreviations_Register.csv"
+BDNS_REGISTER = pathlib.Path(__file__).parent.parent.parent / "BDNS_Abbreviations_Register.csv"
 BDNS_ALEX_UPDATE = pathlib.Path(__file__).parent / "BDNS to IFC.csv"
 
 df_bdns = pd.read_csv(BDNS_REGISTER)

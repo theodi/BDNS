@@ -115,13 +115,13 @@ chiller - water cooled chiller,WCCH,1,HVAC/CH,IfcChillerWATERCOOLED,IfcChillerWA
 cleaning - floor cleaner scrubber dryer,FCSD,0,,IfcElectricAppliance,IfcElectricAppliance
 cleaning - standalone laundry tumble dryer,TDY,0,,IfcElectricApplianceTUMBLEDRYER,IfcElectricApplianceTUMBLEDRYER
 cleaning - standalone laundry washing mashine,WSH,0,,IfcElectricApplianceWASHINGMACHINE,IfcElectricApplianceWASHINGMACHINE
-coil,COIL,0,,"IfcCoilHYDRONICCOIL,IfcCoil",IfcCoil
+coil,COIL,0,,IfcCoil,IfcCoil
 coil - cooling coil,CC,0,,IfcCoilWATERCOOLINGCOIL,IfcCoilWATERCOOLINGCOIL
 coil - dx reversible coil,DXC,0,,IfcCoilDXCOOLINGCOIL,IfcCoilDXCOOLINGCOIL
 coil - frost or preheat coil,PHC,0,,IfcCoilHYDRONICCOIL,IfcCoilHYDRONICCOIL
 coil - heating coil,HC,0,,IfcCoilWATERHEATINGCOIL,IfcCoilWATERHEATINGCOIL
 coil - reheat coil,RHC,0,,IfcCoilHYDRONICCOIL,IfcCoilHYDRONICCOIL
-coil - run around coil,RAC,0,,IfcAirToAirHeatRecoveryRUNAROUNDCOIL,IfcAirToAirHeatRecoveryRUNAROUNDCOIL
+coil - run around coil,RAC,0,,IfcAirToAirHeatRecoveryRUNAROUNDCOILLOOP,IfcAirToAirHeatRecoveryRUNAROUNDCOIL
 communication appliance - printing device,PRNTR,0,,IfcCommunicationsAppliancePRINTER,IfcElectricAppliancePRINTER
 communication gateway,CGW,1,,IfcCommunicationsApplianceGATEWAY,IfcElectricAppliance
 compressor,CMP,1,HVAC/CMP,IfcCompressor,IfcCompressor
