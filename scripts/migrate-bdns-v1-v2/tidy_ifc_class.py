@@ -3,7 +3,7 @@ import pathlib
 from bsdd import Client
 
 IFC4X3_URI = "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3"
-BDNS_REGISTER = pathlib.Path(__file__).parent.parent / "BDNS_Abbreviations_Register.csv"
+BDNS_REGISTER = pathlib.Path(__file__).parent.parent.parent / "BDNS_Abbreviations_Register.csv"
 
 def get_ifc_classes(client):
     def get_batch(i):
