@@ -505,6 +505,7 @@ outlet - duplex outlets,DXO,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
 outlet - floor box,FLRB,0,,IfcOutlet,IfcOutlet
 outlet - floor duplex outlet,FLRDX,0,,IfcOutletDATAOUTLET,IfcOutletCOMMUNICATIONSOUTLET
 outlet - floor quad outlet,FLRQD,0,,IfcOutletDATAOUTLET,IfcOutletCOMMUNICATIONSOUTLET
+outlet - industrial (commando) socket outlet,INSO,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
 outlet - linear electric receptacle,LER,0,,IfcOutlet,IfcOutlet
 outlet - single switched socket outlet,SSSO,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
 outlet - single unswitched socket outlet,SSO,0,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET
