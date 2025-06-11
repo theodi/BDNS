@@ -13,6 +13,8 @@ website:
         text: Naming Specification Syntax
       - href: BDNS_Abbreviations_Register.qmd
         text: Abbreviations Register
+      - href: BDNS_Abbreviations_Systems.qmd
+        text: Systems Abbreviations
 
 format:
   html:
