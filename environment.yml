@@ -10,7 +10,7 @@ dependencies:
   - python>=3.8
   - jupyter
   - quarto
-  - itables
+  - itables>2.4.0
   - pyfiglet
   - pandas
   - pip

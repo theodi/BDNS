@@ -32,18 +32,31 @@ import pandas as pd
 import re
 from itables import init_notebook_mode, show
 
+
 def ifc_strip_enum(ifc_class: str) -> str:
     return re.sub(r"([A-Z0-9_]+_?)$", "", ifc_class)
 
+
 init_notebook_mode(all_interactive=True)
-df = pd.read_csv("BDNS_Abbreviations_Register.csv") # .query("'IfcDistributionSystem' in ifc4_3")
+df = pd.read_csv(
+    "BDNS_Abbreviations_Register.csv"
+)
 df["IfcEntity"] = [ifc_strip_enum(x) for x in df.ifc4_3]
 df = df.query("'IfcDistributionSystem' in IfcEntity")
 del df["IfcEntity"]
 
 df["ifc4_3"] = [
-    '<a href="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/{}" target="_blank">{}</a>'.format(x, x)
+    '<a href="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/{}" target="_blank">{}</a>'.format(
+        x, x
+    )
     for x in df["ifc4_3"]
 ]
-show(df, buttons=["pageLength", "csvHtml5"], lengthMenu=[20, 50, 100, 500], style="table-layout:auto;width:100%;float:left")
+show(
+    df,
+    buttons=["pageLength", "csvHtml5"],
+    lengthMenu=[20, 50, 100, 500],
+    style="table-layout:auto;width:100%;float:left",
+    allow_html=True,
+)
+
 ```
