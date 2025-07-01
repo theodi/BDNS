@@ -706,10 +706,10 @@ structure - mooring device,MRD,,,IfcMooringDevice,
 structure - opening,OPN,,,IfcOpeningElement,
 structure - pavement,PAV,,,IfcPavement,
 structure - pile,PIL,,,IfcPile,
-structure - ramp,RLG,,,IfcRailing,
-structure - ramp flight,RAMP,,,IfcRamp,
-structure - reinforcing bar,RAIL,,,IfcRail,
-structure - reinforcing bar,RAMPFL,,,IfcRampFlight,
+structure - rail,RAIL,,,IfcRail,
+structure - railing,RLG,,,IfcRailing,
+structure - ramp,RAMP,,,IfcRamp,
+structure - ramp flight,RAMPFL,,,IfcRampFlight,
 structure - reinforcing bar,RFB,,,IfcReinforcingBar,
 structure - reinforcing mesh,RFM,,,IfcReinforcingMesh,
 structure - slab,SLB,,,IfcSlab,
@@ -727,6 +727,7 @@ switch - dew point,DEWSW,1.0,,IfcSwitchingDevice,IfcElectricDistributionPoint
 switch - differential pressure,DPSW,1.0,,IfcSwitchingDevice,IfcSensorPRESSURESENSOR
 switch - static pressure,SPSW,1.0,,IfcSwitchingDevice,IfcSensorPRESSURESENSOR
 switch - thermal dispersion flow proving switch,TDSW,1.0,,IfcSwitchingDevice,IfcSwitchingDevice
+tank,TK,0.0,,IfcTank,IfcTank
 tank - break tank,BTK,1.0,,IfcTankBREAKPRESSURE,IfcTank
 tank - break tank and booster set,BTKBS,1.0,,IfcTankBREAKPRESSURE,IfcTank
 tank - brine tank,BRITK,0.0,,IfcTankVESSEL,IfcTank
@@ -751,7 +752,6 @@ tank - potable/domestic water transfer tank,DWTT,0.0,,IfcTank,IfcTank
 tank - rainwater storage tank,RNWST,0.0,,IfcTankSTORAGE,IfcTank
 tank - sprinkler tank,SPT,0.0,,IfcTankSTORAGE,IfcTank
 tank - thermal storage tank,TST,0.0,,IfcTankSTORAGE,IfcTank
-tank - water tank,TK,0.0,,IfcTankSTORAGE,IfcTank
 tank - wet riser tank,WRT,0.0,,IfcTankSTORAGE,IfcTank
 thermal wheel,TW,0.0,,IfcAirToAirHeatRecoveryROTARYWHEEL,IfcAirToAirHeatRecoveryROTARYWHEEL
 timeclock,TMCLK,1.0,,IfcElectricTimeControlTIMECLOCK,IfcElectricTimeControlTIMECLOCK
