@@ -413,7 +413,7 @@ geographic element,GEO,,,IfcGeographicElement,
 grease waste interceptor,GI,0.0,,IfcInterceptorGREASE,IfcWasteTerminalGREASEINTERCEPTOR
 grid,GRD,,,IfcGrid,
 group,GRP,,,IfcGroup,
-heat emitter - air heater,AHR,,,IfcAirToAirHeatRecovery,
+heat emitter - air heater,AHR,,,IfcSpaceHeater,
 heat emitter - duct heater,DH,1.0,HVAC/DH,IfcSpaceHeater,IfcSpaceHeater
 heat emitter - electric unit heater,EUH,1.0,HVAC/UH,IfcSpaceHeater,IfcSpaceHeater
 heat emitter - gas unit heater,GUH,1.0,HVAC/UH,IfcSpaceHeater,IfcSpaceHeater
