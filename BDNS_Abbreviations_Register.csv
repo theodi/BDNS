@@ -23,7 +23,7 @@ air handling unit - make-up air handler,MAU,1.0,HVAC/MAU,IfcUnitaryEquipmentAIRH
 air handling unit - roof top unit,RTU,1.0,HVAC/AHU,IfcUnitaryEquipmentROOFTOPUNIT,IfcUnitaryEquipmentROOFTOPUNIT,0
 air terminal - air valve - extract,EAV,1.0,,IfcAirTerminalNOTDEFINED,NOTDEFINED,0
 air terminal - air valve - supply,SAV,1.0,,IfcAirTerminalNOTDEFINED,NOTDEFINED,0
-air terminal - box,ATB,,,IfcAirTerminalBox,,1
+air terminal - box,ATB,1,,IfcAirTerminalBox,,1
 air terminal - generic,AT,1.0,,IfcAirTerminal,IfcAirTerminal,1
 air terminal - grille,GR,1.0,,IfcAirTerminalNOTDEFINED,NOTDEFINED,0
 air terminal - grille - extract,EG,1.0,,IfcAirTerminalNOTDEFINED,NOTDEFINED,0
@@ -45,16 +45,16 @@ air terminal box - variable air volume box - extract,VAVE,1.0,HVAC/VAV,IfcAirTer
 air terminal box - variable air volume box - supply,VAVS,1.0,HVAC/VAV,IfcAirTerminalBoxNOTDEFINED,IfcAirTerminalBoxNOTDEFINED,0
 air terminal box - variable volume and temperature box,VVTB,1.0,,IfcAirTerminalBoxNOTDEFINED,IfcAirTerminalBoxNOTDEFINED,0
 air terminal box - variable volume terminal unit,VVT,1.0,,IfcAirTerminalBoxNOTDEFINED,IfcAirTerminalBoxNOTDEFINED,0
-alarm,ALR,,,IfcAlarm,,1
+alarm,ALR,1,,IfcAlarm,,1
 alarm - disabled alarm,DA,1.0,,IfcAlarmMANUALPULLBOX,IfcAlarmMANUALPULLBOX,0
 antenna,ANT,0.0,,IfcCommunicationsApplianceANTENNA,IfcElectricAppliance,0
 antenna - wi-fi antenna,WANT,0.0,,IfcCommunicationsApplianceANTENNA,IfcElectricAppliance,0
-architecture - covering,COV,,,IfcCovering,,1
-architecture - furniture,FUR,,,IfcFurniture,,1
-architecture - navigation element,NAV,,,IfcNavigationElement,,1
+architecture - covering,COV,0,,IfcCovering,,1
+architecture - furniture,FUR,0,,IfcFurniture,,1
+architecture - navigation element,NAV,1,,IfcNavigationElement,,1
 architecture - room,ROOM,0.0,,IfcSpaceINTERNAL,IfcSpace,0
-architecture - sign,SIGN,,,IfcSign,,1
-arhitecture - system furniture element,SFE,,,IfcSystemFurnitureElement,,1
+architecture - sign,SIGN,1,,IfcSign,,1
+arhitecture - system furniture element,SFE,0,,IfcSystemFurnitureElement,,1
 av equipment,AVEQ,0.0,,IfcAudioVisualAppliance,IfcElectricAppliance,1
 av equipment - audio amplifier,AMP,0.0,,IfcAudioVisualApplianceAMPLIFIER,IfcElectricAppliance,0
 av equipment - audio assistive equipment,AAE,0.0,,IfcAudioVisualApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
@@ -100,15 +100,15 @@ beverage machine - espresso machine,BVCFME,0.0,,IfcElectricApplianceNOTDEFINED,I
 beverage machine - knock out chute,BVKOC,0.0,,IfcWasteTerminalNOTDEFINED,IfcWasteTerminalNOTDEFINED,0
 beverage machine - steamer,BVS,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
 beverage machine - water boiler,BVWB,0.0,,IfcBoilerWATER,IfcBoilerWATER,0
-borehole,BHL,,,IfcBorehole,,1
+borehole,BHL,0,,IfcBorehole,,1
 burner - boiler,BLR,1.0,HVAC/BLR,IfcBoiler,IfcBoiler,1
 burner - furnace,FR,1.0,,IfcBurnerNOTDEFINED,IfcBuildingElementProxyNOTDEFINED,0
-burner - generic,BUR,,,IfcBurner,,1
+burner - generic,BUR,1,,IfcBurner,,1
 burner - steam boiler,SB,1.0,HVAC/BLR,IfcBoilerSTEAM,IfcBoilerSTEAM,0
 cable management - cable basket,CABASK,0.0,,IfcCableCarrierSegmentNOTDEFINED,IfcCableCarrierSegmentNOTDEFINED,0
-cable management - cable carrier fitting,CCF,,,IfcCableCarrierFitting,,1
-cable management - cable carrier segment,CCS,,,IfcCableCarrierSegment,,1
-cable management - cable fitting,CFT,,,IfcCableFitting,,1
+cable management - cable carrier fitting,CCF,0,,IfcCableCarrierFitting,,1
+cable management - cable carrier segment,CCS,0,,IfcCableCarrierSegment,,1
+cable management - cable fitting,CFT,0,,IfcCableFitting,,1
 cable management - cable ladder,CALAD,0.0,,IfcCableCarrierSegmentCABLELADDERSEGMENT,IfcCableCarrierSegmentCABLELADDERSEGMENT,0
 cable management - cable tray,CATR,0.0,,IfcCableCarrierSegmentCABLETRAYSEGMENT,IfcCableCarrierSegmentCABLETRAYSEGMENT,0
 cable management - cable trunking,CATRK,0.0,,IfcCableCarrierSegmentCABLETRUNKINGSEGMENT,IfcCableCarrierSegmentCABLETRUNKINGSEGMENT,0
@@ -134,7 +134,7 @@ coil - frost or preheat coil,PHC,0.0,,IfcCoilHYDRONICCOIL,IfcCoilHYDRONICCOIL,0
 coil - heating coil,HC,0.0,,IfcCoilWATERHEATINGCOIL,IfcCoilWATERHEATINGCOIL,0
 coil - reheat coil,RHC,0.0,,IfcCoilHYDRONICCOIL,IfcCoilHYDRONICCOIL,0
 coil - run around coil,RAC,0.0,,IfcAirToAirHeatRecoveryRUNAROUNDCOILLOOP,IfcAirToAirHeatRecoveryRUNAROUNDCOIL,0
-communication appliance,CMA,,,IfcCommunicationsAppliance,,1
+communication appliance,CMA,1,,IfcCommunicationsAppliance,,1
 communication appliance - printing device,PRNTR,0.0,,IfcCommunicationsAppliancePRINTER,IfcElectricAppliancePRINTER,0
 communication gateway,CGW,1.0,,IfcCommunicationsApplianceGATEWAY,IfcElectricAppliance,0
 compressor,CMP,1.0,HVAC/CMP,IfcCompressor,IfcCompressor,1
@@ -146,7 +146,7 @@ controller - door controller,DRC,1.0,,IfcControllerPROGRAMMABLE,,0
 controller - irrigation controller,IRRC,1.0,,IfcControllerNOTDEFINED,IfcControllerNOTDEFINED,0
 controller - programmable logic controller,PLC,1.0,,IfcControllerPROGRAMMABLE,IfcController,0
 controller - room controller,ROC,1.0,,IfcControllerNOTDEFINED,IfcControllerNOTDEFINED,0
-conveyor segment,CNV,,,IfcConveyorSegment,,1
+conveyor segment,CNV,0,,IfcConveyorSegment,,1
 cooking appliance - bratt pan,CKBP,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
 cooking appliance - chargrill,CKCGR,0.0,,IfcFlowTerminalNOTDEFINED,IfcGasTerminalGASAPPLIANCENOTDEFINED,0
 cooking appliance - combination microwave/high speed oven,CKCMWO,0.0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER,0
@@ -200,9 +200,9 @@ dispenser - juice,DISPJ,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricAppliance
 dispenser - milk,DISPMK,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
 dispenser - soft serve ice cream,DISPIC,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
 dispenser - water,DISPW,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
-distribution - chamber,DCE,,,IfcDistributionChamberElement,,1
-distribution - circuit,DCT,,,IfcDistributionCircuit,,1
-distribution - system,DSYS,,,IfcDistributionSystem,,1
+distribution - chamber,DCE,0,,IfcDistributionChamberElement,,1
+distribution - circuit,DCT,0,,IfcDistributionCircuit,,1
+distribution - system,DSYS,0,,IfcDistributionSystem,,1
 distribution data - coaxial cable,COAXCA,0.0,,IfcCableSegmentFIBERTUBE,IfcCableSegmentFIBERTUBE,0
 distribution data - data cable,DCA,0.0,,IfcCableSegmentNOTDEFINED,IfcCableSegmentFIBERTUBENOTDEFINED,0
 distribution electric - cable,CA,0.0,,IfcCableSegment,IfcCableSegmentFIBERTUBE,1
@@ -217,13 +217,13 @@ door - fire door,FDR,1.0,SAFETY/FDR,IfcDoorDOOR,IfcDoorStyle,0
 door - latch lock,LLOCK,1.0,,IfcElectricApplianceNOTDEFINED,NOTDEFINED,0
 door - magnetic lock,MLOCK,1.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
 drinking fountain / bottle filler,DF,0.0,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalSANITARYFOUNTAIN,0
-duct fitting,DFT,,,IfcDuctFitting,,1
+duct fitting,DFT,0,,IfcDuctFitting,,1
 duct silencer - attenuator,SLCR,0.0,,IfcDuctSilencer,IfcDuctSilencer,1
 dx system - branch controller/selector box,BCBOX,1.0,,IfcUnitaryEquipmentSPLITSYSTEM,IfcUnitaryEquipmentSPLITSYSTEM,0
 dx system - hybrid variable refrigerant flow unit,HVRF,1.0,,IfcUnitaryEquipmentSPLITSYSTEM,IfcUnitaryEquipmentSPLITSYSTEM,0
 dx system - variable refrigerant flow unit,VRF,1.0,,IfcUnitaryEquipmentSPLITSYSTEM,IfcUnitaryEquipmentSPLITSYSTEM,0
 dx system - variable refrigerant volume unit,VRV,1.0,,IfcUnitaryEquipmentSPLITSYSTEM,IfcUnitaryEquipmentSPLITSYSTEM,0
-electric - switching device,SWD,,,IfcSwitchingDevice,,1
+electric - switching device,SWD,1,,IfcSwitchingDevice,,1
 electric appliance,EAPPL,0.0,,IfcElectricAppliance,IfcElectricAppliance,1
 electric appliance - air dryer,ADY,0.0,HVAC/ADY,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
 electric appliance - dishwasher,DW,0.0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER,0
@@ -273,7 +273,7 @@ electric distribution - static transfer switch,STS,1.0,,IfcSwitchingDeviceNOTDEF
 electric distribution - switchgear (12kv typ),SWGR,1.0,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
 electric distribution - unit substation,USS,1.0,ELECTRICAL/PANEL,IfcUnitaryEquipmentNOTDEFINED,IfcUnitaryEquipmentNOTDEFINED,0
 electric distribution - ups panel / board,UPSB,1.0,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric flow treatment device,EFT,,,IfcElectricFlowTreatmentDevice,,1
+electric flow treatment device,EFT,1,,IfcElectricFlowTreatmentDevice,,1
 electric protective device - circuit breaker,CB,1.0,,IfcProtectiveDeviceCIRCUITBREAKER,IfcProtectiveDeviceCIRCUITBREAKER,0
 electric protective device - disconnect fuse,DSCTF,0.0,,IfcProtectiveDeviceFUSEDISCONNECTOR,IfcProtectiveDeviceFUSEDISCONNECTOR,0
 electric protective device - electrical isolator (disconnector),EISO,0.0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR,0
@@ -286,14 +286,14 @@ electric protective device - safety switch or disconnect switch,DSCTS,0.0,,IfcSw
 electric protective device - safety switch or disconnect switch - emergency stop button,ESB,0.0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR,0
 electric protective device - sectionalizer switch,SCS,0.0,,IfcSwitchingDeviceSELECTORSWITCH,IfcSwitchingDevice,0
 electric protective device - surge protection,SPD,0.0,,IfcProtectiveDeviceVARISTOR,IfcProtectiveDeviceVARISTOR,0
-electric time control,ETC,,,IfcElectricTimeControl,,1
-electrical equipment - engine,ENG,,,IfcEngine,,1
-electrical equipment - motor,EMT,,,IfcElectricMotor,,1
-electrical protective device,PDV,,,IfcProtectiveDevice,,1
-electrical tripping unit,PTU,,,IfcProtectiveDeviceTrippingUnit,,1
+electric time control,ETC,1,,IfcElectricTimeControl,,1
+electrical equipment - engine,ENG,1,,IfcEngine,,1
+electrical equipment - motor,EMT,1,,IfcElectricMotor,,1
+electrical protective device,PDV,1,,IfcProtectiveDevice,,1
+electrical tripping unit,PTU,1,,IfcProtectiveDeviceTrippingUnit,,1
 electrochromic glass,ECG,0.0,,IfcWindowNOTDEFINED,IfcWindowStyleNOTDEFINED,0
 electronic key cabinet,EKC,1.0,,IfcFurnitureNOTDEFINED,IfcFurnitureNOTDEFINED,0
-element assembly,ASM,,,IfcElementAssembly,,1
+element assembly,ASM,0,,IfcElementAssembly,,1
 emergency assistance - disabled wc control panel,DWCCP,1.0,,IfcControllerPROGRAMMABLE,IfcController,0
 emergency assistance - disabled wc overdoor indicator,DWCOI,1.0,,IfcAlarmLIGHT,IfcAlarmLIGHT,0
 emergency assistance - disabled wc pull cord,DWCPC,1.0,,IfcAlarmMANUALPULLBOX,IfcAlarmMANUALPULLBOX,0
@@ -308,7 +308,7 @@ emergency voice communication - repeater unit,EVCRU,1.0,,IfcAudioVisualAppliance
 emergency voice communication - voice alarm microphones,VAM,1.0,,IfcAudioVisualApplianceMICROPHONE,IfcElectricAppliance,0
 emergency voice communication - voice alarm speaker,VAS,1.0,,IfcAudioVisualApplianceSPEAKER,IfcElectricAppliance,0
 employee timeclock with fingerprint scanner,ETCFP,1.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
-evaporative cooler ,EVCL,,,IfcEvaporativeCooler,,1
+evaporative cooler ,EVCL,1,,IfcEvaporativeCooler,,1
 evaporator,EVP,1.0,,IfcEvaporator,IfcEvaporator,1
 fan,FAN,1.0,HVAC/FAN,IfcFan,IfcFan,1
 fan - cooling tower fan,CTF,1.0,HVAC/FAN,IfcFanNOTDEFINED,IfcFanNOTDEFINED,0
@@ -376,8 +376,8 @@ fire suppression - sprinkler head terminal,SPH,1.0,,IfcFireSuppressionTerminalSP
 fire suppression - sprinkler isolation valve,SISV,1.0,,IfcValveISOLATING,IfcValveISOLATING,0
 fire suppression - system gas release panel,FSS,1.0,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
 fire suppression - vaporizer panel,VP,1.0,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
-fire suppression terminal,FSP,,,IfcFireSuppressionTerminal,,1
-flow instrument / gauge,FIN,,,IfcFlowInstrument,,1
+fire suppression terminal,FSP,1,,IfcFireSuppressionTerminal,,1
+flow instrument / gauge,FIN,0,,IfcFlowInstrument,,1
 food serving - cold plate,FSCPL,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
 food serving - cold well,FSCWL,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
 food serving - heat lamp,FSHL,0.0,,IfcSpaceHeaterNOTDEFINED,IfcSpaceHeaterNOTDEFINED,0
@@ -407,13 +407,13 @@ generator - clean steam generator,CSG,1.0,,IfcElectricGenerator,IfcElectricGener
 generator - combined heat and power generator,CHP,1.0,,IfcElectricGeneratorCHP,IfcElectricGenerator,0
 generator - diesel electricity generator,DG,1.0,,IfcElectricGeneratorENGINEGENERATOR,IfcElectricGenerator,0
 generator - electricity generator,GEN,1.0,,IfcElectricGeneratorENGINEGENERATOR,IfcElectricGenerator,0
-generic built object - built element,ELEM,,,IfcBuiltElement,,1
-generic built object - element proxy,PROXY,,,IfcBuildingElementProxy,,1
-geographic element,GEO,,,IfcGeographicElement,,1
+generic built object - built element,ELEM,0,,IfcBuiltElement,,1
+generic built object - element proxy,PROXY,0,,IfcBuildingElementProxy,,1
+geographic element,GEO,0,,IfcGeographicElement,,1
 grease waste interceptor,GI,0.0,,IfcInterceptorGREASE,IfcWasteTerminalGREASEINTERCEPTOR,0
-grid,GRD,,,IfcGrid,,1
-group,GRP,,,IfcGroup,,1
-heat emitter - air heater,AHR,,,IfcSpaceHeaterNOTDEFINED,NOTDEFINED,0
+grid,GRD,0,,IfcGrid,,1
+group,GRP,0,,IfcGroup,,1
+heat emitter - air heater,AHR,1,,IfcSpaceHeaterNOTDEFINED,NOTDEFINED,0
 heat emitter - duct heater,DH,1.0,HVAC/DH,IfcSpaceHeaterNOTDEFINED,IfcSpaceHeaterNOTDEFINED,0
 heat emitter - electric unit heater,EUH,1.0,HVAC/UH,IfcSpaceHeaterNOTDEFINED,IfcSpaceHeaterNOTDEFINED,0
 heat emitter - gas unit heater,GUH,1.0,HVAC/UH,IfcSpaceHeaterNOTDEFINED,IfcSpaceHeaterNOTDEFINED,0
@@ -456,9 +456,9 @@ ict equipment - ups management system,UPSMS,1.0,,IfcCommunicationsApplianceNOTDE
 ict equipment - wi-fi router,WRTR,1.0,,IfcCommunicationsApplianceROUTER,IfcElectricAppliance,0
 ict equipment - wireless access point,WAP,1.0,,IfcCommunicationsApplianceROUTER,IfcElectricAppliance,0
 ict equipment - wireless lan controller,WLC,1.0,,IfcControllerPROGRAMMABLE,IfcController,0
-impact protection device,IPD,,,IfcImpactProtectionDevice,,1
-interceptor,INT,,,IfcInterceptor,,1
-junction box,JB,,,IfcJunctionBox,,1
+impact protection device,IPD,0,,IfcImpactProtectionDevice,,1
+interceptor,INT,0,,IfcInterceptor,,1
+junction box,JB,0,,IfcJunctionBox,,1
 kitchen appliance - blender/smoothie maker,KSMBL,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
 kitchen appliance - bowl blender,KBBL,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
 kitchen appliance - bowl cutter,KBC,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
@@ -508,7 +508,7 @@ lighting - fixture external - bollard,LBO,1.0,LIGHTING/LT,IfcLightFixtureNOTDEFI
 lighting - fixture external - lampost,LPO,1.0,LIGHTING/LT,IfcLightFixtureNOTDEFINED,IfcLightFixtureNOTDEFINED,0
 lighting - gateway,LTGW,1.0,LIGHTING/LTGW,IfcCommunicationsApplianceGATEWAY,IfcElectricAppliance,0
 lighting - group,LGRP,1.0,LIGHTING/LGRP,IfcGroupNOTDEFINED,NOTDEFINED,0
-lighting - lamp,LMP,,,IfcLamp,,1
+lighting - lamp,LMP,1,,IfcLamp,,1
 lighting - track - electric track for lights,TR,0.0,LIGHTING/LT,IfcCableSegmentNOTDEFINED,IfcCableSegmentFIBERTUBENOTDEFINED,0
 lightning protection - cast-in-socket,CIS,0.0,,IfcFastenerNOTDEFINED,IfcFastenerNOTDEFINED,0
 lightning protection - concrete inspection pit,CIP,0.0,,IfcDistributionElement,,1
@@ -516,9 +516,9 @@ lightning protection - earthing bar,EBA,0.0,,IfcCableSegmentNOTDEFINED,IfcCableS
 lightning protection - earthing clamp,ECL,0.0,,IfcFastenerNOTDEFINED,IfcFastenerNOTDEFINED,0
 lightning protection - earthing rod,ERO,0.0,,IfcCableSegmentNOTDEFINED,IfcCableSegmentNOTDEFINED,0
 lightning protection - earthing tape,ETA,0.0,,IfcCableSegmentNOTDEFINED,IfcCableSegmentNOTDEFINED,0
-liquid terminal,LQT,,,IfcLiquidTerminal,,1
+liquid terminal,LQT,0,,IfcLiquidTerminal,,1
 location services - beacon,LBCN,1.0,,IfcCommunicationsApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
-medical device,MED,,,IfcMedicalDevice,,1
+medical device,MED,1,,IfcMedicalDevice,,1
 meter,MTR,1.0,METERS/MTR,IfcFlowMeter,IfcFlowMeter,1
 meter - electric branch meter,EBM,1.0,METERS/MTR,IfcFlowMeterNOTDEFINED,IfcFlowMeterNOTDEFINED,0
 meter - electric meter,EM,1.0,METERS/EM,IfcFlowMeterENERGYMETER,IfcFlowMeterENERGYMETER,0
@@ -530,8 +530,8 @@ meter - heat meter,HM,1.0,METERS/HM,IfcFlowMeterNOTDEFINED,IfcFlowMeterNOTDEFINE
 meter - heat meter (virtual),HMV,0.0,METERS/HMV,IfcFlowMeterNOTDEFINED,NOTDEFINED,0
 meter - water meter,WM,1.0,METERS/WM,IfcFlowMeterWATERMETER,IfcFlowMeterWATERMETER,0
 meter - water meter (virtual),WMV,0.0,METERS/WMV,IfcFlowMeterNOTDEFINED,NOTDEFINED,0
-mobile telecommunications appliance,MTA,,,IfcMobileTelecommunicationsAppliance,,1
-motor connection,MCN,,,IfcMotorConnection,,1
+mobile telecommunications appliance,MTA,1,,IfcMobileTelecommunicationsAppliance,,1
+motor connection,MCN,1,,IfcMotorConnection,,1
 motor controller - vsd (inverter drive),VSD,1.0,,IfcMotorConnectionNOTDEFINED,IfcMotorConnectionNOTDEFINED,0
 natural air ventilator,AVR,1.0,,IfcStackTerminal,IfcStackTerminal,1
 oil interceptor,OI,0.0,,IfcInterceptorOIL,IfcWasteTerminalOILINTERCEPTOR,0
@@ -566,8 +566,8 @@ panel - motor control center,MCC,1.0,,IfcUnitaryControlElementNOTDEFINED,IfcCont
 panel - remote i/o control panel,RIO,1.0,,IfcUnitaryControlElementNOTDEFINED,IfcElectricDistributionPointCONTROLPANELNOTDEFINED,0
 panel - rodent repellent panel,RDT,1.0,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
 panel - variable air volume control station / panel,VAVCTR,1.0,,IfcUnitaryControlElementNOTDEFINED,IfcControllerNOTDEFINED,0
-pipe fitting,PFT,,,IfcPipeFitting,,1
-plate,PLT,,,IfcPlate,,1
+pipe fitting,PFT,0,,IfcPipeFitting,,1
+plate,PLT,0,,IfcPlate,,1
 pressurisation unit,PU,1.0,,IfcUnitaryEquipmentNOTDEFINED,IfcUnitaryEquipmentNOTDEFINED,0
 pressurisation unit - water system makeup unit,WMS,1.0,,IfcUnitaryEquipmentNOTDEFINED,IfcUnitaryEquipmentNOTDEFINED,0
 pump,PMP,1.0,HVAC/PMP,IfcPump,IfcPump,1
@@ -642,9 +642,9 @@ refrigeration - refrigerator,REF,0.0,,IfcElectricApplianceREFRIGERATOR,IfcElectr
 refrigeration - retarder/proover,REFRP,0.0,,IfcElectricApplianceREFRIGERATOR,IfcElectricApplianceREFRIGERATOR,0
 sand oil interceptor,SOI,0.0,,IfcInterceptorOIL,IfcWasteTerminalOILINTERCEPTOR,0
 sand separator,SSP,0.0,,IfcInterceptorNOTDEFINED,IfcWasteTerminalNOTDEFINED,0
-sanitary terminal,SAN,,,IfcSanitaryTerminal,,1
+sanitary terminal,SAN,0,,IfcSanitaryTerminal,,1
 sanitary terminal - hand wash basin,HWB,0.0,,IfcSanitaryTerminalWASHHANDBASIN,IfcSanitaryTerminalWASHHANDBASIN,0
-sensor,SNS,,,IfcSensor,,1
+sensor,SNS,1,,IfcSensor,,1
 sensor - CO sensor,COS,1.0,SENSOR,IfcSensorCOSENSOR,IfcSensorCO2SENSOR,0
 sensor - CO2 sensor,CDS,1.0,SENSOR,IfcSensorCO2SENSOR,IfcSensorCO2SENSOR,0
 sensor - condensation water sensor,CS,1.0,SENSOR,IfcSensorTEMPERATURESENSOR,IfcSensorTEMPERATURESENSOR,0
@@ -683,45 +683,45 @@ shading - shading device controller,SDC,1.0,,IfcControllerNOTDEFINED,IfcControll
 shading - shading device keypad,SDKP,1.0,,IfcSwitchingDeviceKEYPAD,IfcSwitchingDevice,0
 shading - shading device motor,SDM,0.0,,IfcElectricMotorNOTDEFINED,IfcElectricMotorNOTDEFINED,0
 shading - shading device solar tracking module,SDSTM,1.0,,IfcSensorRADIATIONSENSOR,IfcSensor,0
-shading device,SHD,,,IfcShadingDevice,,1
+shading device,SHD,1,,IfcShadingDevice,,1
 signal - beacon,BCN,1.0,,IfcAlarmLIGHT,IfcAlarmLIGHT,0
-solar device,SOL,,,IfcSolarDevice,,1
-space,SPACE,,,IfcSpace,,1
-spatial zone,SZONE,,,IfcSpatialZone,,1
-structure -  caisson foundation,CFN,,,IfcCaissonFoundation,,1
-structure - anchor,TAN,,,IfcTendonAnchor,,1
-structure - beam,BEAM,,,IfcBeam,,1
-structure - bearing,BRG,,,IfcBearing,,1
-structure - bridge,BRDG,,,IfcBridge,,1
-structure - chimney,CMN,,,IfcChimney,,1
-structure - column,COL,,,IfcColumn,,1
-structure - curtain wall,CTW,,,IfcCurtainWall,,1
-structure - earthworks cut,EWC,,,IfcEarthworksCut,,1
-structure - fastener,FSTN,,,IfcFastener,,1
-structure - footing,FOT,,,IfcFooting,,1
-structure - kerb,KRB,,,IfcKerb,,1
-structure - mechanical fastener,MCF,,,IfcMechanicalFastener,,1
-structure - member,MBR,,,IfcMember,,1
-structure - mooring device,MRD,,,IfcMooringDevice,,1
-structure - opening,OPN,,,IfcOpeningElement,,1
-structure - pavement,PAV,,,IfcPavement,,1
-structure - pile,PIL,,,IfcPile,,1
-structure - rail,RAIL,,,IfcRail,,1
-structure - railing,RLG,,,IfcRailing,,1
-structure - ramp,RAMP,,,IfcRamp,,1
-structure - ramp flight,RAMPFL,,,IfcRampFlight,,1
-structure - reinforcing bar,RFB,,,IfcReinforcingBar,,1
-structure - reinforcing mesh,RFM,,,IfcReinforcingMesh,,1
-structure - slab,SLB,,,IfcSlab,,1
-structure - stair,STR,,,IfcStair,,1
-structure - stair flight,STRFL,,,IfcStairFlight,,1
-structure - tendon,TEN,,,IfcTendon,,1
-structure - tendon circuit,TCN,,,IfcTendonConduit,,1
-structure - track,TRACK,,,IfcTrackElement,,1
-structure - vibration damper,VIBDMP,,,IfcVibrationDamper,,1
-structure - vibration isolator,VIBISO,,,IfcVibrationIsolator,,1
-structure - wall,WALL,,,IfcWall,,1
-stucture - roof,ROOF,,,IfcRoof,,1
+solar device,SOL,1,,IfcSolarDevice,,1
+space,SPACE,0,,IfcSpace,,1
+spatial zone,SZONE,0,,IfcSpatialZone,,1
+structure -  caisson foundation,CFN,0,,IfcCaissonFoundation,,1
+structure - anchor,TAN,0,,IfcTendonAnchor,,1
+structure - beam,BEAM,0,,IfcBeam,,1
+structure - bearing,BRG,0,,IfcBearing,,1
+structure - bridge,BRDG,0,,IfcBridge,,1
+structure - chimney,CMN,0,,IfcChimney,,1
+structure - column,COL,0,,IfcColumn,,1
+structure - curtain wall,CTW,0,,IfcCurtainWall,,1
+structure - earthworks cut,EWC,0,,IfcEarthworksCut,,1
+structure - fastener,FSTN,0,,IfcFastener,,1
+structure - footing,FOT,0,,IfcFooting,,1
+structure - kerb,KRB,0,,IfcKerb,,1
+structure - mechanical fastener,MCF,0,,IfcMechanicalFastener,,1
+structure - member,MBR,0,,IfcMember,,1
+structure - mooring device,MRD,0,,IfcMooringDevice,,1
+structure - opening,OPN,0,,IfcOpeningElement,,1
+structure - pavement,PAV,0,,IfcPavement,,1
+structure - pile,PIL,0,,IfcPile,,1
+structure - rail,RAIL,0,,IfcRail,,1
+structure - railing,RLG,0,,IfcRailing,,1
+structure - ramp,RAMP,0,,IfcRamp,,1
+structure - ramp flight,RAMPFL,0,,IfcRampFlight,,1
+structure - reinforcing bar,RFB,0,,IfcReinforcingBar,,1
+structure - reinforcing mesh,RFM,0,,IfcReinforcingMesh,,1
+structure - slab,SLB,0,,IfcSlab,,1
+structure - stair,STR,0,,IfcStair,,1
+structure - stair flight,STRFL,0,,IfcStairFlight,,1
+structure - tendon,TEN,0,,IfcTendon,,1
+structure - tendon circuit,TCN,0,,IfcTendonConduit,,1
+structure - track,TRACK,0,,IfcTrackElement,,1
+structure - vibration damper,VIBDMP,1,,IfcVibrationDamper,,1
+structure - vibration isolator,VIBISO,1,,IfcVibrationIsolator,,1
+structure - wall,WALL,1,,IfcWall,,1
+stucture - roof,ROOF,0,,IfcRoof,,1
 switch - absolute pressure,APSW,1.0,,IfcSwitchingDeviceNOTDEFINED,IfcSensorPRESSURESENSORNOTDEFINED,0
 switch - dew point,DEWSW,1.0,,IfcSwitchingDeviceNOTDEFINED,IfcElectricDistributionPointNOTDEFINED,0
 switch - differential pressure,DPSW,1.0,,IfcSwitchingDeviceNOTDEFINED,IfcSensorPRESSURESENSORNOTDEFINED,0
@@ -756,7 +756,7 @@ tank - wet riser tank,WRT,0.0,,IfcTankSTORAGE,IfcTank,0
 thermal wheel,TW,0.0,,IfcAirToAirHeatRecoveryROTARYWHEEL,IfcAirToAirHeatRecoveryROTARYWHEEL,0
 timeclock,TMCLK,1.0,,IfcElectricTimeControlTIMECLOCK,IfcElectricTimeControlTIMECLOCK,0
 transformer,TXMR,0.0,,IfcTransformer,IfcTransformer,1
-transport element,TRE,,,IfcTransportElement,,1
+transport element,TRE,0,,IfcTransportElement,,1
 transportation - escalator,ESC,1.0,,IfcTransportElementESCALATOR,IfcTransportElementESCALATOR,0
 transportation - lift / elevator,ELV,1.0,,IfcTransportElementELEVATOR,IfcTransportElementELEVATOR,0
 transportation - lift / elevator controller,ELC,1.0,,IfcUnitaryControlElementNOTDEFINED,IfcControllerNOTDEFINED,0
@@ -766,9 +766,9 @@ transportation - lift / elevator traction machine,ELTM,1.0,,IfcElectricMotorNOTD
 transportation - moving walkway,AW,1.0,,IfcTransportElementMOVINGWALKWAY,IfcTransportElementMOVINGWALKWAY,0
 trap primer,TP,0.0,,IfcValveNOTDEFINED,IfcValveNOTDEFINED,0
 trap primer - electronic trap primer,TPE,0.0,,IfcValveNOTDEFINED,IfcValveNOTDEFINED,0
-tube bundle,TBN,,,IfcTubeBundle,,1
-unitary control element,UCE,,,IfcUnitaryControlElement,,1
-unitary equipment - pre packaged equipment,UEQ,,,IfcUnitaryEquipment,,1
+tube bundle,TBN,0,,IfcTubeBundle,,1
+unitary control element,UCE,0,,IfcUnitaryControlElement,,1
+unitary equipment - pre packaged equipment,UEQ,1,,IfcUnitaryEquipment,,1
 ups - uninteruptable power supply unit,UPS,1.0,ELECTRICAL/UPS,IfcElectricFlowStorageDeviceUPS,IfcElectricFlowStorageDeviceUPS,0
 user interface - keypad,KP,1.0,,IfcSwitchingDeviceKEYPAD,IfcSwitchingDevice,0
 uv disinfection unit,UVDU,1.0,,IfcFilterNOTDEFINED,IfcFilterNOTDEFINED,0
@@ -814,7 +814,7 @@ valve - temperature control valve,TCV,0.0,HVAC/VLV,IfcValveNOTDEFINED,IfcValveNO
 valve - thermostatic mixing valve,TMV,0.0,HVAC/VLV,IfcValveMIXING,IfcValveMIXING,0
 valve - water hammer arrestor,WHAV,0.0,HVAC/VLV,IfcValveNOTDEFINED,IfcValveNOTDEFINED,0
 variable frequency drive,VFD,1.0,,IfcMotorConnectionNOTDEFINED,IfcMotorConnectionNOTDEFINED,0
-vehicle,VCL,,,IfcVehicle,,1
+vehicle,VCL,1,,IfcVehicle,,1
 washing appliance - commercial flight machine,CDWFM,0.0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER,0
 washing appliance - commercial pass through machine,CDWPTM,0.0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER,0
 washing appliance - commercial pot and utensil machine,CDWPUW,0.0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER,0
@@ -826,7 +826,7 @@ waste management - food dehydrator,WSTFD,0.0,,IfcElectricApplianceNOTDEFINED,Ifc
 waste management - waste bin,WSTBIN,0.0,,IfcFurnitureNOTDEFINED,IfcFurnitureNOTDEFINED,0
 waste management - waste compactor,WSTC,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
 waste management - wet waste grinder,WSTWG,0.0,,IfcElectricApplianceNOTDEFINED,IfcElectricApplianceNOTDEFINED,0
-waste terminal,WSTT,,,IfcWasteTerminal,,1
+waste terminal,WSTT,1,,IfcWasteTerminal,,1
 waste terminal - area drain,AD,0.0,,IfcWasteTerminalNOTDEFINED,IfcWasteTerminalNOTDEFINED,0
 water heater - domestic electric water heater,DEWH,0.0,HVAC/HWS,IfcElectricApplianceFREESTANDINGWATERHEATER,IfcElectricApplianceWATERHEATER,0
 water heater - domestic gas water heater,DGWH,0.0,HVAC/HWS,IfcBoilerWATER,IfcBoilerWATER,0
@@ -840,4 +840,4 @@ water treatment - dosing pot,DPOT,0.0,,IfcTankNOTDEFINED,IfcTankNOTDEFINED,0
 water treatment - electro magnetic water conditioner,EMWC,0.0,,IfcFilterWATERFILTER,IfcFilterWATERFILTER,0
 weather station,WST,1.0,HVAC/WEATHER,IfcUnitaryControlElementWEATHERSTATION,IfcElectricDistributionPoint,0
 window,WD,0.0,,IfcWindow,IfcWindowStyle,1
-zone,ZONE,,,IfcZone,,1
+zone,ZONE,1,,IfcZone,,1
