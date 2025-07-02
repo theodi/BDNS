@@ -1,10 +1,15 @@
-import pandas as pd
 import pathlib
 from bsdd import Client
 from sys import exit
+import csv
 
 IFC4X3_URI = "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3"
 BDNS_REGISTER = pathlib.Path(__file__).parent.parent / "BDNS_Abbreviations_Register.csv"
+
+def read_csv(path: pathlib.Path) -> list[list]:
+    """Read a CSV file and return its content as a list of lists."""
+    return list(csv.reader(path.read_text().split("\n")))
+
 
 def get_ifc_classes(client):
     def get_batch(i):
@@ -21,18 +26,25 @@ def get_ifc_classes(client):
         ifc_classes = ifc_classes | {x["code"]: x for x in get_batch(i)}
     return ifc_classes
 
+
+# get all valid ifc4_3 classes from the bsdd client
 client = Client()
 di_ifc_classes = get_ifc_classes(client)
 li_ifc_classes = list(di_ifc_classes.keys())
-df_bdns = pd.read_csv(BDNS_REGISTER)
 
-# Validate that all values in the 'ifc4_3' column are in li_ifc_classes
-invalid_ifc_classes = df_bdns[~df_bdns["ifc4_3"].isin(li_ifc_classes)]
+# get all ifc4_3 classes from the BDNS register
+abbreviations = read_csv(BDNS_REGISTER)
+ifc_classes_bdns = [x[-3].replace("NOTDEFINED", "").replace("USERDEFINED", "") for x in abbreviations[1:] if x[-3] != ""]
 
-assert invalid_ifc_classes.empty, f"Invalid IFC classes found: {invalid_ifc_classes['ifc4_3'].tolist()}"
-print("All IFC classes in 'ifc4_3' column are valid.")
+invalid_ifc_classes = [x for x in ifc_classes_bdns if x not in li_ifc_classes]
 
-if not invalid_ifc_classes.empty:
+
+assert len(invalid_ifc_classes) == 0, f"Invalid IFC classes found: {invalid_ifc_classes}"
+
+
+if len(invalid_ifc_classes) > 0:
     print("Invalid IFC classes found:")
-    print(invalid_ifc_classes["ifc4_3"].tolist())
+    print(invalid_ifc_classes)
     exit(1)
+else:
+    print("All IFC classes in 'ifc4_3' column are valid.")

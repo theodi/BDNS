@@ -67,7 +67,8 @@ len_ifc_core = len(ifc_core)
 
 init_notebook_mode(all_interactive=True)
 df = pd.read_csv("BDNS_Abbreviations_Register.csv") # .query("'IfcDistributionSystem' in ifc4_3")
-df = df[df['ifc4_3'].isin(ifc_core)]
+df["ifc4_3"] = df.ifc4_3.str.replace("NOTDEFINED", "")
+df = df[df['is_ifc_default']==1]
 len_bdns_mappings= len(df)
 
 missing = [x for x in ifc_core if x not in df['ifc4_3'].to_list()]
