@@ -245,7 +245,7 @@ electric distribution - branch circuit panel board 277/480V,HVCPB,0.0,ELECTRICAL
 electric distribution - busbar,BB,0.0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment
 electric distribution - busbar tapoff,BBTO,0.0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment
 electric distribution - dc-dc converter,DCDC,0.0,,IfcTransformer,IfcTransformer
-electric distribution - distribution panel / board,DB,1.0,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
+electric distribution - distribution panel / board,DB,1.0,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPoint
 electric distribution - distribution panel / board - consumer unit,CU,1.0,ELECTRICAL/PANEL,IfcDistributionBoardCONSUMERUNIT,IfcElectricDistributionPointDISTRIBUTIONBOARD
 electric distribution - distribution panel 120/208V,LVDP,1.0,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
 electric distribution - distribution panel 277/480V,HVDP,1.0,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD
