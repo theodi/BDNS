@@ -1,6 +1,7 @@
 import pandas as pd
 import pathlib
 from bsdd import Client
+from sys import exit
 
 IFC4X3_URI = "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3"
 BDNS_REGISTER = pathlib.Path(__file__).parent.parent / "BDNS_Abbreviations_Register.csv"
@@ -30,3 +31,8 @@ invalid_ifc_classes = df_bdns[~df_bdns["ifc4_3"].isin(li_ifc_classes)]
 
 assert invalid_ifc_classes.empty, f"Invalid IFC classes found: {invalid_ifc_classes['ifc4_3'].tolist()}"
 print("All IFC classes in 'ifc4_3' column are valid.")
+
+if not invalid_ifc_classes.empty:
+    print("Invalid IFC classes found:")
+    print(invalid_ifc_classes["ifc4_3"].tolist())
+    exit(1)
