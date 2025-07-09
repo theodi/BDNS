@@ -1,0 +1,48 @@
+asset_description,asset_abbreviation,can_be_connected,dbo_entity_type,ifc4_3,ifc2x3,is_ifc_default
+system - airconditioning,AIRCON,0,,IfcDistributionSystemAIRCONDITIONING,,1
+system - catenary_system,CATNY,0,,IfcDistributionSystemCATENARY_SYSTEM,,1
+system - chemical,CHEM,0,,IfcDistributionSystemCHEMICAL,,1
+system - chilledwater,CHW,0,,IfcDistributionSystemCHILLEDWATER,,1
+system - communication,COMMS,0,,IfcDistributionSystemCOMMUNICATION,,1
+system - compressedair,CPAIR,0,,IfcDistributionSystemCOMPRESSEDAIR,,1
+system - condenserwater,CDW,0,,IfcDistributionSystemCONDENSERWATER,,1
+system - control,BMS,0,,IfcDistributionSystemCONTROL,,1
+system - conveying,CONVEY,0,,IfcDistributionSystemCONVEYING,,1
+system - domesticcoldwater,DCW,0,,IfcDistributionSystemDOMESTICCOLDWATER,,1
+system - domestichotwater,DHW,0,,IfcDistributionSystemDOMESTICHOTWATER,,1
+system - drainage,DRNG,0,,IfcDistributionSystemDRAINAGE,,1
+system - earthing,EARTH,0,,IfcDistributionSystemEARTHING,,1
+system - electrical (low voltage),LV,0,,IfcDistributionSystemELECTRICAL,,1
+system - electrical (high voltage),HV,0,,IfcDistributionSystemELECTRICAL,,0
+system - electroacoustic,AUDIO,0,,IfcDistributionSystemELECTROACOUSTIC,,1
+system - exhaust,EA,0,,IfcDistributionSystemEXHAUST,,1
+system - fireprotection,SPR,0,,IfcDistributionSystemFIREPROTECTION,,1
+system - fuel,FUEL,0,,IfcDistributionSystemFUEL,,1
+system - gas,GAS,0,,IfcDistributionSystemGAS,,1
+system - hazardous,HAZ,0,,IfcDistributionSystemHAZARDOUS,,1
+system - heating (low template hot water),LTHW,0,,IfcDistributionSystemHEATING,,1
+system - heating (medium template hot water),MTHW,0,,IfcDistributionSystemHEATING,,0
+system - lighting,LTG,0,,IfcDistributionSystemLIGHTING,,1
+system - lightningprotection,LPSY,0,,IfcDistributionSystemLIGHTNINGPROTECTION,,1
+system - mobilenetwork,MOB,0,,IfcDistributionSystemMOBILENETWORK,,1
+system - monitoring system,MS,0,,IfcDistributionSystemMONITORINGSYSTEM,,1
+system - municipalsolidwaste,WSTSOL,0,,IfcDistributionSystemMUNICIPALSOLIDWASTE,,1
+system - oil,OIL,0,,IfcDistributionSystemOIL,,1
+system - operational,OPSUP,0,,IfcDistributionSystemOPERATIONAL,,1
+system - operationaltelephonysystem,PHON,0,,IfcDistributionSystemOPERATIONALTELEPHONYSYSTEM,,1
+system - overhead_contactline_system,OVER,0,,IfcDistributionSystemOVERHEAD_CONTACTLINE_SYSTEM,,1
+system - powergeneration,EGEN,0,,IfcDistributionSystemPOWERGENERATION,,1
+system - rainwater,RW,0,,IfcDistributionSystemRAINWATER,,1
+system - refrigeration,RF,0,,IfcDistributionSystemREFRIGERATION,,1
+system - return_circuit,RETCIR,0,,IfcDistributionSystemRETURN_CIRCUIT,,1
+system - security,SEC,0,,IfcDistributionSystemSECURITY,,1
+system - sewage,SWG,0,,IfcDistributionSystemSEWAGE,,1
+system - signal,SIG,0,,IfcDistributionSystemSIGNAL,,1
+system - stormwater,STORM,0,,IfcDistributionSystemSTORMWATER,,1
+system - telephone,TELE,0,,IfcDistributionSystemTELEPHONE,,1
+system - tv,TV,0,,IfcDistributionSystemTV,,1
+system - vacuum,VAC,0,,IfcDistributionSystemVACUUM,,1
+system - vent,VENTP,0,,IfcDistributionSystemVENT,,1
+system - ventilation,VENT,0,,IfcDistributionSystemVENTILATION,,1
+system - wastewater,WSTWAT,0,,IfcDistributionSystemWASTEWATER,,1
+system - watersupply,WATSUP,0,,IfcDistributionSystemWATERSUPPLY,,1

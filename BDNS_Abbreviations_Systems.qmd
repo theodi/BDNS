@@ -23,15 +23,37 @@ jupyter:
 
 {{< include release.md >}}
 
-# Abbreviations Register
+# Systems Abbreviation
+
+This sub-list is achieved by filtering and on the ifc4_3 column for classes containing `IfcDistributionSystem`.
+As a minimum BDNS aims to ensure that there is an abbreviation for every [IfcDistributionSystemEnum](https://ifc43-docs.standards.buildingsmart.org/IFC/RELEASE/IFC4x3/HTML/lexical/IfcDistributionSystemEnum.htm).
+
+::: {.callout-important}
+## Systems Abbreviations are WIP
+
+If you have comments on those shown please add to discussion here:
+https://github.com/theodi/BDNS/issues/157
+
+:::
 
 ```{python}
 import pandas as pd
+import re
 from itables import init_notebook_mode, show
 
+
+def ifc_strip_enum(ifc_class: str) -> str:
+    return re.sub(r"([A-Z0-9_]+_?)$", "", ifc_class)
+
+
 init_notebook_mode(all_interactive=True)
-df = pd.read_csv("BDNS_Abbreviations_Register.csv").fillna("")
-df["ifc4_3"] = df.ifc4_3.str.replace("NOTDEFINED", "")
+df = pd.read_csv(
+    "BDNS_Abbreviations_Register.csv"
+).fillna("")
+df["IfcEntity"] = [ifc_strip_enum(x) for x in df.ifc4_3]
+df = df.query("'IfcDistributionSystem' in IfcEntity")
+del df["IfcEntity"]
+
 df["ifc4_3"] = [
     '<a href="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/{}" target="_blank">{}</a>'.format(
         x, x
@@ -45,4 +67,5 @@ show(
     style="table-layout:auto;width:100%;float:left",
     allow_html=True,
 )
+
 ```
