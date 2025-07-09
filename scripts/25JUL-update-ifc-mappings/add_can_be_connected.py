@@ -7,7 +7,10 @@ BDNS_REGISTER = pathlib.Path(__file__).parent.parent.parent / "BDNS_Abbreviation
 
 def read_csv(path: pathlib.Path) -> list[list]:
     """Read a CSV file and return its content as a list of lists."""
-    return list(csv.reader(path.read_text().split("\n")))
+    data = list(csv.reader(path.read_text().split("\n")))
+    if data[-1] == []:
+        data = data[:-1]
+    return data
 
 def write_csv(path: pathlib.Path, data: list[list]) -> None:
     """Write a list of lists to a CSV file."""

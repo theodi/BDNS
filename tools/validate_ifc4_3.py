@@ -8,7 +8,10 @@ BDNS_REGISTER = pathlib.Path(__file__).parent.parent / "BDNS_Abbreviations_Regis
 
 def read_csv(path: pathlib.Path) -> list[list]:
     """Read a CSV file and return its content as a list of lists."""
-    return list(csv.reader(path.read_text().split("\n")))
+    data = list(csv.reader(path.read_text().split("\n")))
+    if data[-1] == []:
+        data = data[:-1]
+    return data
 
 
 def get_ifc_classes(client):

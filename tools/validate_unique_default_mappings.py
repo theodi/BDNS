@@ -15,7 +15,10 @@ def ifc_class_is_enum(ifc_class: str) -> bool:
 
 def read_csv(path: pathlib.Path) -> list[list]:
     """Read a CSV file and return its content as a list of lists."""
-    return list(csv.reader(path.read_text().split("\n")))
+    data = list(csv.reader(path.read_text().split("\n")))
+    if data[-1] == []:
+        data = data[:-1]
+    return data
 
 abbreviations = read_csv(BDNS_REGISTER)
 defaults = [x for x in abbreviations[1:] if x[-1] == "1"]
