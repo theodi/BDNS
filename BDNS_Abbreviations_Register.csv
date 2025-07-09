@@ -748,8 +748,8 @@ system - fireprotection,SPR,0,,IfcDistributionSystemFIREPROTECTION,,1
 system - fuel,FUEL,0,,IfcDistributionSystemFUEL,,1
 system - gas,GAS,0,,IfcDistributionSystemGAS,,1
 system - hazardous,HAZ,0,,IfcDistributionSystemHAZARDOUS,,1
-system - heating (low template hot water),LTHW,0,,IfcDistributionSystemHEATING,,1
-system - heating (medium template hot water),MTHW,0,,IfcDistributionSystemHEATING,,0
+system - heating (low temperature hot water),LTHW,0,,IfcDistributionSystemHEATING,,1
+system - heating (medium temperature hot water),MTHW,0,,IfcDistributionSystemHEATING,,0
 system - lighting,LTG,0,,IfcDistributionSystemLIGHTING,,1
 system - lightningprotection,LPSY,0,,IfcDistributionSystemLIGHTNINGPROTECTION,,1
 system - mobilenetwork,MOB,0,,IfcDistributionSystemMOBILENETWORK,,1
