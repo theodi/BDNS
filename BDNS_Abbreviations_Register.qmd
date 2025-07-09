@@ -30,7 +30,7 @@ import pandas as pd
 from itables import init_notebook_mode, show
 
 init_notebook_mode(all_interactive=True)
-df = pd.read_csv("BDNS_Abbreviations_Register.csv")
+df = pd.read_csv("BDNS_Abbreviations_Register.csv").fillna("")
 df["ifc4_3"] = df.ifc4_3.str.replace("NOTDEFINED", "")
 df["ifc4_3"] = [
     '<a href="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/{}" target="_blank">{}</a>'.format(

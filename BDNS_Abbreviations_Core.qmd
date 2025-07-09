@@ -66,7 +66,7 @@ ifc_core = [x for x in ifc_classes if not ifc_class_is_enum(x)]
 len_ifc_core = len(ifc_core)
 
 init_notebook_mode(all_interactive=True)
-df = pd.read_csv("BDNS_Abbreviations_Register.csv") # .query("'IfcDistributionSystem' in ifc4_3")
+df = pd.read_csv("BDNS_Abbreviations_Register.csv").fillna("") # .query("'IfcDistributionSystem' in ifc4_3")
 df["ifc4_3"] = df.ifc4_3.str.replace("NOTDEFINED", "")
 df = df[df['is_ifc_default']==1]
 len_bdns_mappings= len(df)
@@ -98,4 +98,3 @@ show(df,
     allow_html=True,
 )
 ```
-    

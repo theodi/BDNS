@@ -49,7 +49,7 @@ def ifc_strip_enum(ifc_class: str) -> str:
 init_notebook_mode(all_interactive=True)
 df = pd.read_csv(
     "BDNS_Abbreviations_Register.csv"
-)
+).fillna("")
 df["IfcEntity"] = [ifc_strip_enum(x) for x in df.ifc4_3]
 df = df.query("'IfcDistributionSystem' in IfcEntity")
 del df["IfcEntity"]
