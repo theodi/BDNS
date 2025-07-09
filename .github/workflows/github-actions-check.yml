@@ -36,3 +36,15 @@ jobs:
       run: |
         python check-duplicates.py --input ../BDNS_Abbreviations_Register.csv
       working-directory: ./tools/
+
+    - name:  Check sorted
+      run: |
+        python tools/sort.py
+
+    - name:  validate ifc4_3 mappings
+      run: |
+        python tools/validate_ifc4_3.py
+
+    - name:  validate unique ifc4_3 mappings
+      run: |
+        python tools/validate_unique_default_mappings.py

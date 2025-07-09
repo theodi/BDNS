@@ -1,0 +1,100 @@
+---
+execute:
+  echo: false
+tbl-cap-location: bottom
+format: 
+  html:
+    page-layout: custom
+toc: false
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+---
+
+# Building Device and Asset Naming Standards initiative
+
+{{< include release.md >}}
+
+```{python}
+import pandas as pd
+import re
+from itables import init_notebook_mode, show
+import re
+
+import bsdd
+from IPython.display import Markdown
+
+IFC4X3_URI = "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3"
+
+
+def ifc_strip_enum(ifc_class: str) -> str:
+    return re.sub(r"([A-Z0-9_]+_?)$", "", ifc_class)
+
+
+def ifc_class_is_enum(ifc_class: str) -> bool:
+    return ifc_strip_enum(ifc_class) != ifc_class
+
+
+def get_ifc_classes(client=None):
+    if client is None:
+        client = bsdd.Client()
+
+    def get_batch(i):
+        return client.get_classes(
+            IFC4X3_URI,
+            use_nested_classes=False,
+            class_type="Class",
+            offset=i[0],
+            limit=i[1],
+        )["classes"]
+
+    ifc_classes = {}
+    for i in [(0, 1000), (1000, 2000)]:  # 1418 classes in total. 1000 max request limit
+        ifc_classes = ifc_classes | {x["code"]: x for x in get_batch(i)}
+    return ifc_classes
+
+ifc_classes = get_ifc_classes()
+ifc_core = [x for x in ifc_classes if not ifc_class_is_enum(x)]
+len_ifc_core = len(ifc_core)
+
+init_notebook_mode(all_interactive=True)
+df = pd.read_csv("BDNS_Abbreviations_Register.csv") # .query("'IfcDistributionSystem' in ifc4_3")
+df["ifc4_3"] = df.ifc4_3.str.replace("NOTDEFINED", "")
+df = df[df['is_ifc_default']==1]
+len_bdns_mappings= len(df)
+
+missing = [x for x in ifc_core if x not in df['ifc4_3'].to_list()]
+md_missing = ", ".join(missing)
+
+df["ifc4_3"] = [
+    '<a href="https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/{}" target="_blank">{}</a>'.format(x, x)
+    for x in df["ifc4_3"]
+]
+```
+
+
+Number of IfcEntities = `{python} len_ifc_core`, Number of BDNS mappings to core IfcEntities = `{python} len_bdns_mappings`
+
+::: {.callout-note collapse="true"}
+## IfcEntities missing from core mapping
+
+`{python} md_missing`
+
+:::
+
+```{python}
+show(df, 
+    buttons=["pageLength", "csvHtml5"], 
+    lengthMenu=[20, 50, 100, 500], 
+    style="table-layout:auto;width:100%;float:left",
+    allow_html=True,
+)
+```
