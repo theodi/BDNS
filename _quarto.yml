@@ -2,6 +2,8 @@ project:
   type: website
 
 website:
+  repo-url: https://github.com/theodi/BDNS
+  repo-actions: [edit, source, issue]
   navbar:
     left:
       - href: index.qmd
