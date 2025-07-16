@@ -23,6 +23,14 @@ jupyter:
 
 {{< include release.md >}}
 
+::: {.callout-important}
+## Core Ifc mappings are WIP
+
+If you have comments on those shown please add to discussion here:
+https://github.com/theodi/BDNS/issues/355
+
+:::
+
 ```{python}
 import pandas as pd
 import re
