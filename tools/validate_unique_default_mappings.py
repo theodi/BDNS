@@ -38,6 +38,6 @@ ifc_4_3_core = [x for x in ifc_4_3_mappings if not ifc_class_is_enum(x)]
 duplicate_ifc_4_3_core = [i for i in set(default_abbreviations) if default_abbreviations.count(i) > 1]
 assert len(duplicate_ifc_4_3_core) == 0, f"Core ifc mappings are not unique: {duplicate_ifc_4_3_core}"
 if len(duplicate_ifc_4_3_core) == 0:
-    print("All default ifc4_3 mappings that do not specify and enum are unique.")
+    print("All default ifc4_3 mappings that do not specify an enum are unique.")
 else:
     exit(1)
