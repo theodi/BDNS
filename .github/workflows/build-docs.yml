@@ -20,6 +20,7 @@ jobs:
       # - run: | 
       #     quarto install tinytex
       #   shell: pixi run bash -e {0} # https://pixi.sh/latest/advanced/github_actions/#custom-shell-wrapper
+      - run: pixi run install-tinytex
       - run: pixi run build-docs
         
       - name: Push docs to gh-pages

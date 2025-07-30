@@ -30,4 +30,5 @@ itables = ">=2.4.0,<3"
 docs = { features = ["docs"] }
 
 [feature.docs.tasks]
+install-tinytex = { cmd = "quarto install tinytex" }
 build-docs = { cmd = "quarto render ." }
