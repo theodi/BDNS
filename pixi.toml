@@ -1,0 +1,34 @@
+[workspace]
+authors = ["jgunstone <j.gunstone@maxfordham.com>"]
+channels = ["conda-forge"]
+name = "BDNS"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+check-duplicates = "python tools/check-duplicates.py"
+check-sort = "python tools/sort.py"
+sort = "python tools/sort.py -e"
+check-ifc4_3 = "python tools/validate_ifc4_3.py"
+check-unique-ifc4_3-mappings = "python tools/validate_unique_default_mappings.py"
+
+[dependencies]
+python = ">=3.13.5,<3.14"
+pandas = ">=2.3.1,<3"
+pyfiglet = ">=1.0.3,<2"
+
+[pypi-dependencies]
+bsdd = ">=0.8.3, <0.9"
+
+[feature.docs.dependencies]
+jupyter = "*"
+quarto = ">=1.6.40,<2"
+r-tinytex = "*"
+itables = ">=2.4.0,<3"
+
+[environments]
+docs = { features = ["docs"] }
+
+[feature.docs.tasks]
+install-tinytex = { cmd = "quarto install tinytex" }
+build-docs = { cmd = "quarto render ." }

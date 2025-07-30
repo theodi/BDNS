@@ -8,26 +8,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+            
     steps:
-      - uses: actions/checkout@v3
-      - name: GitHub Tag Name example
-        run: |
-          echo "Status: *release* $GITHUB_REF_NAME" > release.md
-          
-      - uses: mamba-org/setup-micromamba@v2
+      - uses: actions/checkout@v4
+      - uses: prefix-dev/setup-pixi@v0.8.13
         with:
-          environment-file: environment.yml
-          init-shell: >-
-            bash
-          cache-environment: true
-          post-cleanup: 'all'
-      - name: Install tinytex
-        shell: micromamba-shell {0}
-        run: quarto install tinytex
-      - name: Build docs
-        shell: micromamba-shell {0}
-        run: quarto render .
-
+            manifest-path: pixi.toml
+            pixi-version: v0.49.0
+            cache: true
+            cache-write: ${{ github.event_name == 'push' && github.ref_name == 'main' }}
+      # - run: | 
+      #     quarto install tinytex
+      #   shell: pixi run bash -e {0} # https://pixi.sh/latest/advanced/github_actions/#custom-shell-wrapper
+      - run: pixi run install-tinytex
+      - run: pixi run build-docs
+        
       - name: Push docs to gh-pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:

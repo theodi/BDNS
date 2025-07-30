@@ -2,7 +2,10 @@ project:
   type: website
 
 website:
+  repo-url: https://github.com/theodi/BDNS
+  repo-actions: [edit, source, issue]
   navbar:
+
     left:
       - href: index.qmd
       - href: BDNS_Governance_model.md
@@ -18,11 +21,17 @@ website:
       - href: BDNS_Abbreviations_Core.qmd
         text: Abbreviations Core
 
+    right:
+      - icon: github
+        href: https://github.com/theodi/BDNS
+        aria-label: GitHub
+
 format:
   html:
-    theme: cosmo
     css: styles.css
     toc: true
-
+    theme:
+      light: flatly
+      dark: darkly
 
 
