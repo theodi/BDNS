@@ -18,12 +18,18 @@ This repo contains the source markdown files which build the published [BDNS spe
 The website is built using the [Quarto](https://quarto.org/) publishing system.
 To test building the documentation locally:
 
-Install [mamba or micromamba](https://mamba.readthedocs.io/en/latest/index.html) then run the commands below line-by-line.
+Install [pixi](https://pixi.sh/latest/installation/) then run the commands below line-by-line.
 
 ```console
 git clone https://github.com/theodi/BDNS.git
 cd BDNS
-mamba env create -f environment.yml
-quarto install tinytex  # required for generating pdf docs
-quarto render .
+pixi install # install environment dependencies
+pixi run install-tinytex # install tinytex for pdf generation
+pixi run # this will list all the available commands
+
+# e.g. to build the docs
+pixi run build-docs
+
+# to check for duplicate abbreviations
+pixi run check-duplicates
 ```
