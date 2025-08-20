@@ -616,6 +616,7 @@ pump - transfer pump,TRP,1,HVAC/PMP,IfcPumpNOTDEFINED,IfcPumpNOTDEFINED,0
 pump - vacuum pump,VCP,1,HVAC/PMP,IfcPumpNOTDEFINED,IfcPumpNOTDEFINED,0
 pump - waste water pump,WWP,1,HVAC/PMP,IfcPumpNOTDEFINED,IfcPumpNOTDEFINED,0
 pump - wet riser pump,WRP,1,HVAC/PMP,IfcPumpNOTDEFINED,IfcPumpNOTDEFINED,0
+pump - window drencher pump,WDP,1,HVAC/PMP,IfcPumpNOTDEFINED,IfcPumpNOTDEFINED,0
 pv ac disconnect,PVACDS,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR,0
 pv data acquisition system,PVDAS,1,,IfcControllerNOTDEFINED,IfcControllerNOTDEFINED,0
 pv dc combiner,PVDCC,0,,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
@@ -800,6 +801,7 @@ tank - rainwater storage tank,RNWST,0,,IfcTankSTORAGE,IfcTank,0
 tank - sprinkler tank,SPT,0,,IfcTankSTORAGE,IfcTank,0
 tank - thermal storage tank,TST,0,,IfcTankSTORAGE,IfcTank,0
 tank - wet riser tank,WRT,0,,IfcTankSTORAGE,IfcTank,0
+tank - window drencher tank,WDT,0,,IfcTankSTORAGE,IfcTank,0
 thermal wheel,TW,0,,IfcAirToAirHeatRecoveryROTARYWHEEL,IfcAirToAirHeatRecoveryROTARYWHEEL,0
 timeclock,TMCLK,1,,IfcElectricTimeControlTIMECLOCK,IfcElectricTimeControlTIMECLOCK,0
 transformer,TXMR,0,,IfcTransformer,IfcTransformer,1
