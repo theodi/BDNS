@@ -21,23 +21,41 @@ def read_csv(path: pathlib.Path) -> list[list]:
     return data
 
 abbreviations = read_csv(BDNS_REGISTER)
-defaults = [x for x in abbreviations[1:] if x[-1] == "1"]
-default_abbreviations = [x[1] for x in defaults]
+
+is_ifc_default_index = abbreviations[0].index("is_ifc_default") 
+ifc4_3_index = abbreviations[0].index("ifc4_3")
+asset_abbreviation_index = abbreviations[0].index("asset_abbreviation")
+
+defaults = [x for x in abbreviations[1:] if x[is_ifc_default_index] == "1"]
+default_abbreviations = [x[asset_abbreviation_index] for x in defaults]
 duplicates = [i for i in set(default_abbreviations) if default_abbreviations.count(i) > 1]
 unique_defaults = list(set(default_abbreviations))
 
 
-assert len(duplicates) == 0, f"There are duplicate default mappings in BDNS Abbreviations Register: {duplicates}"
-if len(duplicates) == 0:
+assert len(default_abbreviations) == len(unique_defaults), f"There are duplicate default mappings in BDNS Abbreviations Register: {duplicates}"
+if len(default_abbreviations) == len(unique_defaults):
     print("All default ifc4_3 is_default_ifc mappings in BDNS Abbreviations Register are unique.")
 
 
 # TODO: check core classes are unique
-ifc_4_3_mappings = [x[-2] for x in abbreviations[1:] if x[-2] != ""]
+ifc_4_3_mappings = [x[ifc4_3_index] for x in abbreviations[1:] if x[ifc4_3_index] != ""]
 ifc_4_3_core = [x for x in ifc_4_3_mappings if not ifc_class_is_enum(x)]
-duplicate_ifc_4_3_core = [i for i in set(default_abbreviations) if default_abbreviations.count(i) > 1]
-assert len(duplicate_ifc_4_3_core) == 0, f"Core ifc mappings are not unique: {duplicate_ifc_4_3_core}"
-if len(duplicate_ifc_4_3_core) == 0:
-    print("All default ifc4_3 mappings that do not specify an enum are unique.")
+
+unique_ifc_core = list(set(ifc_4_3_core))
+
+count_duplicate_ifc_core_mappings = dict(sorted(
+    ((x, ifc_4_3_core.count(x)) for x in set(ifc_4_3_core)),
+    key=lambda item: item[1],
+    reverse=True
+))
+
+for k, v in count_duplicate_ifc_core_mappings.items():
+    if v > 1:
+        print(f"{k} appears {v} times.")
+
+# duplicate_ifc_4_3_core = [i for i in set(default_abbreviations) if default_abbreviations.count(i) > 1]
+# assert len(duplicate_ifc_4_3_core) == 0, f"Core ifc mappings are not unique: {duplicate_ifc_4_3_core}"
+if len(default_abbreviations) == len(unique_defaults):
+    print("---end---")
 else:
     exit(1)
