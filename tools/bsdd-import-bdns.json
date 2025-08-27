@@ -1,0 +1,4451 @@
+{
+    "ModelVersion": "2.0",
+    "OrganizationCode": "bdns",
+    "DictionaryCode": "bdns",
+    "DictionaryName": "Building Device Naming Syntax",
+    "DictionaryVersion": "2.1.0",
+    "LanguageIsoCode": "EN",
+    "Status": "Preview",
+    "Classes": [
+        {
+            "Code": "RFIDC",
+            "Name": "access control - RFID controller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RFIDR",
+            "Name": "access control - RFID reader",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ACS",
+            "Name": "access control - access control system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AIC",
+            "Name": "access control - audio intercom",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BIOR",
+            "Name": "access control - biometric reader",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RTE",
+            "Name": "access control - door release button",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PROXR",
+            "Name": "access control - proximity reader - generic",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VIC",
+            "Name": "access control - video intercom",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ACT",
+            "Name": "actuator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FPSW",
+            "Name": "actuator - frost protection switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WDO",
+            "Name": "actuator - motorized window operator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SWACT",
+            "Name": "actuator - switch actuator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ACU",
+            "Name": "air conditioning unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CRAC",
+            "Name": "air conditioning unit - computer room AC unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DX",
+            "Name": "air conditioning unit - direct expansion cooling unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MVHR",
+            "Name": "air handling - mechanical ventilation with heat recovery",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AHU",
+            "Name": "air handling unit - air handling unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CRAH",
+            "Name": "air handling unit - computer room air handler",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DOAS",
+            "Name": "air handling unit - dedicated outside air system unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HRU",
+            "Name": "air handling unit - heat recovery unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MAU",
+            "Name": "air handling unit - make-up air handler",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RTU",
+            "Name": "air handling unit - roof top unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EAV",
+            "Name": "air terminal - air valve - extract",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SAV",
+            "Name": "air terminal - air valve - supply",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ATB",
+            "Name": "air terminal - box",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AT",
+            "Name": "air terminal - generic",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GR",
+            "Name": "air terminal - grille",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EG",
+            "Name": "air terminal - grille - extract",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SG",
+            "Name": "air terminal - grille - supply",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LOU",
+            "Name": "air terminal - louvre",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ELOU",
+            "Name": "air terminal - louvre - exhaust/extract",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ILOU",
+            "Name": "air terminal - louvre - inlet/intake",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CAV",
+            "Name": "air terminal box - constant air volume box",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CAVE",
+            "Name": "air terminal box - constant air volume box - extract",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CAVEF",
+            "Name": "air terminal box - constant air volume box - extract - fixed",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CAVEM",
+            "Name": "air terminal box - constant air volume box - extract - mechanically actuated",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CAVS",
+            "Name": "air terminal box - constant air volume box - supply",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CAVSF",
+            "Name": "air terminal box - constant air volume box - supply - fixed",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CAVSM",
+            "Name": "air terminal box - constant air volume box - supply - mechanically actuated",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FPB",
+            "Name": "air terminal box - fan powered box",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "UFT",
+            "Name": "air terminal box - under floor variable air volume box",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VAV",
+            "Name": "air terminal box - variable air volume box",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VAVE",
+            "Name": "air terminal box - variable air volume box - extract",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VAVS",
+            "Name": "air terminal box - variable air volume box - supply",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VVTB",
+            "Name": "air terminal box - variable volume and temperature box",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VVT",
+            "Name": "air terminal box - variable volume terminal unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ALR",
+            "Name": "alarm",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DA",
+            "Name": "alarm - disabled alarm",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ANT",
+            "Name": "antenna",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WANT",
+            "Name": "antenna - wi-fi antenna",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "COV",
+            "Name": "architecture - covering",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FUR",
+            "Name": "architecture - furniture",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "NAV",
+            "Name": "architecture - navigation element",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ROOM",
+            "Name": "architecture - room",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SIGN",
+            "Name": "architecture - sign",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SFE",
+            "Name": "arhitecture - system furniture element",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AVEQ",
+            "Name": "av equipment",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AMP",
+            "Name": "av equipment - audio amplifier",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AAE",
+            "Name": "av equipment - audio assistive equipment",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AMIX",
+            "Name": "av equipment - audio mixer / splitter / equalizer / diplexer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MIX",
+            "Name": "av equipment - audio mixing desk",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AMON",
+            "Name": "av equipment - audio monitor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AVKP",
+            "Name": "av equipment - audio video control keypad",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AVE",
+            "Name": "av equipment - audio visual encoder",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AVO",
+            "Name": "av equipment - audio visual outlet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AVS",
+            "Name": "av equipment - audio visual switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BTAI",
+            "Name": "av equipment - bluetooth audio interface",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CCU",
+            "Name": "av equipment - camera control unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CD",
+            "Name": "av equipment - codec device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DSP",
+            "Name": "av equipment - digital signal processor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DWB",
+            "Name": "av equipment - digital whiteboard",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DS",
+            "Name": "av equipment - display screen",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DEC",
+            "Name": "av equipment - iptv / digital signage decoder",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CMS",
+            "Name": "av equipment - iptv content management system device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MSW",
+            "Name": "av equipment - matrix switcher",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MIC",
+            "Name": "av equipment - microphone",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "NVR",
+            "Name": "av equipment - networked video recorder",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RBP",
+            "Name": "av equipment - room booking panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SPK",
+            "Name": "av equipment - speaker",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TCD",
+            "Name": "av equipment - thin client device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TPAN",
+            "Name": "av equipment - touch panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VDW",
+            "Name": "av equipment - video wall",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VMIX",
+            "Name": "av equipment - vision mixing desk",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WNG",
+            "Name": "av equipment - white noise generator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WPD",
+            "Name": "av equipment - wireless presentation device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WRCVR",
+            "Name": "av equipment - wireless receiver",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WSEND",
+            "Name": "av equipment - wireless sender",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BATT",
+            "Name": "battery",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BTR",
+            "Name": "battery - battery trip unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EHB",
+            "Name": "battery - electric heater battery",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BATTLI",
+            "Name": "battery - lithium ion cell",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BVAP",
+            "Name": "beverage machine - airpot",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BVC",
+            "Name": "beverage machine - chai machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BVCFMG",
+            "Name": "beverage machine - coffee grinder",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BVCFM",
+            "Name": "beverage machine - coffee machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BVCFMN",
+            "Name": "beverage machine - coffee nitro machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BVCFMU",
+            "Name": "beverage machine - coffee urn",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BVCFME",
+            "Name": "beverage machine - espresso machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BVKOC",
+            "Name": "beverage machine - knock out chute",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BVS",
+            "Name": "beverage machine - steamer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BVWB",
+            "Name": "beverage machine - water boiler",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BHL",
+            "Name": "borehole",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BLR",
+            "Name": "burner - boiler",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FR",
+            "Name": "burner - furnace",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BUR",
+            "Name": "burner - generic",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SB",
+            "Name": "burner - steam boiler",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CABASK",
+            "Name": "cable management - cable basket",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CCF",
+            "Name": "cable management - cable carrier fitting",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CCS",
+            "Name": "cable management - cable carrier segment",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CFT",
+            "Name": "cable management - cable fitting",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CALAD",
+            "Name": "cable management - cable ladder",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CATR",
+            "Name": "cable management - cable tray",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CATRK",
+            "Name": "cable management - cable trunking",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CAFTRK",
+            "Name": "cable management - floor trunking",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CAM",
+            "Name": "camera",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PTZCAM",
+            "Name": "camera - pan tilt zoom camera",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CH",
+            "Name": "chiller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ACCH",
+            "Name": "chiller - air cooled chiller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CT",
+            "Name": "chiller - cooling tower",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CCCH",
+            "Name": "chiller - critical cooling chiller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DAC",
+            "Name": "chiller - dry air cooler",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HTCH",
+            "Name": "chiller - high temperature chiller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HYAC",
+            "Name": "chiller - hybrid air cooler or fluid cooler",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LTCH",
+            "Name": "chiller - low temperature chiller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WCCH",
+            "Name": "chiller - water cooled chiller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FCSD",
+            "Name": "cleaning - floor cleaner scrubber dryer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TDY",
+            "Name": "cleaning - standalone laundry tumble dryer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WSH",
+            "Name": "cleaning - standalone laundry washing mashine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "COIL",
+            "Name": "coil",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CC",
+            "Name": "coil - cooling coil",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DXC",
+            "Name": "coil - dx reversible coil",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PHC",
+            "Name": "coil - frost or preheat coil",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HC",
+            "Name": "coil - heating coil",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RHC",
+            "Name": "coil - reheat coil",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RAC",
+            "Name": "coil - run around coil",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CMA",
+            "Name": "communication appliance",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PRNTR",
+            "Name": "communication appliance - printing device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CGW",
+            "Name": "communication gateway",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CMP",
+            "Name": "compressor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ACP",
+            "Name": "compressor - air compressor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CDU",
+            "Name": "condensing unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CNTRL",
+            "Name": "controller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DDC",
+            "Name": "controller - direct digital controller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DRC",
+            "Name": "controller - door controller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "IRRC",
+            "Name": "controller - irrigation controller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PLC",
+            "Name": "controller - programmable logic controller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ROC",
+            "Name": "controller - room controller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CNV",
+            "Name": "conveyor segment",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKBP",
+            "Name": "cooking appliance - bratt pan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKCGR",
+            "Name": "cooking appliance - chargrill",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKCMWO",
+            "Name": "cooking appliance - combination microwave/high speed oven",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKCMOV",
+            "Name": "cooking appliance - combination oven",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKCVOV",
+            "Name": "cooking appliance - convection oven",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKDOVN",
+            "Name": "cooking appliance - deck/pizza oven",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKDSTE",
+            "Name": "cooking appliance - dim sum steamer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKFRYD",
+            "Name": "cooking appliance - fry dump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKFRY",
+            "Name": "cooking appliance - fryer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKGRCK",
+            "Name": "cooking appliance - gas range",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKGWR",
+            "Name": "cooking appliance - gas wok range",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKGRD",
+            "Name": "cooking appliance - griddle",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKHOVN",
+            "Name": "cooking appliance - hearth oven",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKICOV",
+            "Name": "cooking appliance - impinger conveyor oven",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKIU",
+            "Name": "cooking appliance - induction",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKIRCK",
+            "Name": "cooking appliance - induction range",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKIW",
+            "Name": "cooking appliance - induction wok",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKKET",
+            "Name": "cooking appliance - kettle",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KMCS",
+            "Name": "cooking appliance - mobile cook station",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKPC",
+            "Name": "cooking appliance - pasta cooker",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKPOVN",
+            "Name": "cooking appliance - potato oven",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKPBP",
+            "Name": "cooking appliance - pressure bratt pan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKPSTE",
+            "Name": "cooking appliance - pressure steamer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKRC",
+            "Name": "cooking appliance - rice cooker",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKROT",
+            "Name": "cooking appliance - rotisserie",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKSGRL",
+            "Name": "cooking appliance - salamander grill",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKSTE",
+            "Name": "cooking appliance - steamer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKTOVN",
+            "Name": "cooking appliance - tandoori oven",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DMP",
+            "Name": "damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BYCD",
+            "Name": "damper - bypass control damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EXD",
+            "Name": "damper - exhaust damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FD",
+            "Name": "damper - fire damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ICD",
+            "Name": "damper - inlet control damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "IISD",
+            "Name": "damper - inlet isolation damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MD",
+            "Name": "damper - motorised damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MFSD",
+            "Name": "damper - motorised fire smoke damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MSCD",
+            "Name": "damper - motorised smoke control damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MSD",
+            "Name": "damper - motorised smoke damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PRLD",
+            "Name": "damper - pressure relief dampers",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RECD",
+            "Name": "damper - recirculation control damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RTCD",
+            "Name": "damper - return control damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RTISD",
+            "Name": "damper - return isolation damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VCD",
+            "Name": "damper - volume control damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DPU",
+            "Name": "data processing unit / computer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DHUM",
+            "Name": "dehumidifier",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DISP",
+            "Name": "dispenser",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DISPB",
+            "Name": "dispenser - broth",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DISPC",
+            "Name": "dispenser - cereal",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DISPIB",
+            "Name": "dispenser - ice/beverage",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DISPJ",
+            "Name": "dispenser - juice",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DISPMK",
+            "Name": "dispenser - milk",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DISPIC",
+            "Name": "dispenser - soft serve ice cream",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DISPW",
+            "Name": "dispenser - water",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DCE",
+            "Name": "distribution - chamber",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DCT",
+            "Name": "distribution - circuit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DSYS",
+            "Name": "distribution - system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "COAXCA",
+            "Name": "distribution data - coaxial cable",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DCA",
+            "Name": "distribution data - data cable",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CA",
+            "Name": "distribution electric - cable",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FCA",
+            "Name": "distribution electric - fire rated cable",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PW",
+            "Name": "distribution piped services - pipework",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DUW",
+            "Name": "distribution ventilation - ductwork",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FDUW",
+            "Name": "distribution ventilation - ductwork fire rated",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DR",
+            "Name": "door",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ELOCK",
+            "Name": "door - electric lock",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EMDH",
+            "Name": "door - electromagnetic door holder",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FDR",
+            "Name": "door - fire door",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LLOCK",
+            "Name": "door - latch lock",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MLOCK",
+            "Name": "door - magnetic lock",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DF",
+            "Name": "drinking fountain / bottle filler",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DFT",
+            "Name": "duct fitting",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SLCR",
+            "Name": "duct silencer - attenuator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BCBOX",
+            "Name": "dx system - branch controller/selector box",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HVRF",
+            "Name": "dx system - hybrid variable refrigerant flow unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VRF",
+            "Name": "dx system - variable refrigerant flow unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VRV",
+            "Name": "dx system - variable refrigerant volume unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SWD",
+            "Name": "electric - switching device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EAPPL",
+            "Name": "electric appliance",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ADY",
+            "Name": "electric appliance - air dryer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DW",
+            "Name": "electric appliance - dishwasher",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EPOS",
+            "Name": "electric appliance - electronic point of sale",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GYMEQ",
+            "Name": "electric appliance - exercise / gym equipment",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FOODEQ",
+            "Name": "electric appliance - food equipment",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FRY",
+            "Name": "electric appliance - fryer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VEND",
+            "Name": "electric appliance - generic vending machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HDY",
+            "Name": "electric appliance - hand dryer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "OVN",
+            "Name": "electric appliance - oven",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SCAN",
+            "Name": "electric appliance - scanning device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "STE",
+            "Name": "electric appliance - steamer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EVDP",
+            "Name": "electric distribution - EVC electric vehicle charging distribution panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EVCE",
+            "Name": "electric distribution - EVC electric vehicle charging equipment",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AHF",
+            "Name": "electric distribution - active harmonic filter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ATS",
+            "Name": "electric distribution - automatic transfer switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LVCPB",
+            "Name": "electric distribution - branch circuit panel board 120/208V",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HVCPB",
+            "Name": "electric distribution - branch circuit panel board 277/480V",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BB",
+            "Name": "electric distribution - busbar",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BBTO",
+            "Name": "electric distribution - busbar tapoff",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DCDC",
+            "Name": "electric distribution - dc-dc converter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DB",
+            "Name": "electric distribution - distribution panel / board",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CU",
+            "Name": "electric distribution - distribution panel / board - consumer unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LVDP",
+            "Name": "electric distribution - distribution panel 120/208V",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HVDP",
+            "Name": "electric distribution - distribution panel 277/480V",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ITDP",
+            "Name": "electric distribution - distribution panel for itc equipment",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ELSW",
+            "Name": "electric distribution - electric switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HVSB",
+            "Name": "electric distribution - high voltage switchboard",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "IVT",
+            "Name": "electric distribution - invertor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KDP",
+            "Name": "electric distribution - kitchen electric distribution panel/board",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LB",
+            "Name": "electric distribution - load bank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LVSB",
+            "Name": "electric distribution - low voltage switchboard",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MPNL",
+            "Name": "electric distribution - main panel / board",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MSP",
+            "Name": "electric distribution - main switch panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MDU",
+            "Name": "electric distribution - mains distribution unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MSB",
+            "Name": "electric distribution - mains switchboard",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MDP",
+            "Name": "electric distribution - mechanical distribution panel / board",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MVSB",
+            "Name": "electric distribution - medium voltage switchboard",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PB",
+            "Name": "electric distribution - panel board",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PHF",
+            "Name": "electric distribution - passive harmonic filter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PDU",
+            "Name": "electric distribution - power distribution unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PFC",
+            "Name": "electric distribution - power factor correction system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "REC",
+            "Name": "electric distribution - rectifier",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RMU",
+            "Name": "electric distribution - ring main unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RBB",
+            "Name": "electric distribution - rising busbar",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "STS",
+            "Name": "electric distribution - static transfer switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SWGR",
+            "Name": "electric distribution - switchgear (12kv typ)",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "USS",
+            "Name": "electric distribution - unit substation",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "UPSB",
+            "Name": "electric distribution - ups panel / board",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EFT",
+            "Name": "electric flow treatment device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CB",
+            "Name": "electric protective device - circuit breaker",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DSCTF",
+            "Name": "electric protective device - disconnect fuse",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EISO",
+            "Name": "electric protective device - electrical isolator (disconnector)",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HTCO",
+            "Name": "electric protective device - high temperature cut out switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EISOTX",
+            "Name": "electric protective device - isolation transformer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MCB",
+            "Name": "electric protective device - miniature circuit breaker",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RCCB",
+            "Name": "electric protective device - residual current circuit breaker",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RCBO",
+            "Name": "electric protective device - residual current circuit breaker with over-current",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DSCTS",
+            "Name": "electric protective device - safety switch or disconnect switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ESB",
+            "Name": "electric protective device - safety switch or disconnect switch - emergency stop button",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SCS",
+            "Name": "electric protective device - sectionalizer switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SPD",
+            "Name": "electric protective device - surge protection",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ETC",
+            "Name": "electric time control",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ENG",
+            "Name": "electrical equipment - engine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EMT",
+            "Name": "electrical equipment - motor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PDV",
+            "Name": "electrical protective device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PTU",
+            "Name": "electrical tripping unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ECG",
+            "Name": "electrochromic glass",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EKC",
+            "Name": "electronic key cabinet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ASM",
+            "Name": "element assembly",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DWCCP",
+            "Name": "emergency assistance - disabled wc control panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DWCOI",
+            "Name": "emergency assistance - disabled wc overdoor indicator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DWCPC",
+            "Name": "emergency assistance - disabled wc pull cord",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DWCRB",
+            "Name": "emergency assistance - disabled wc reset button",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PDB",
+            "Name": "emergency assistance - panic duress button",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EVCCP",
+            "Name": "emergency voice communication - control panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EVCO",
+            "Name": "emergency voice communication - outstation",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DRO",
+            "Name": "emergency voice communication - outstation disabled refuge",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ETO",
+            "Name": "emergency voice communication - outstation emergency telephone",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FTO",
+            "Name": "emergency voice communication - outstation fire telephone",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EVCRU",
+            "Name": "emergency voice communication - repeater unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VAM",
+            "Name": "emergency voice communication - voice alarm microphones",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VAS",
+            "Name": "emergency voice communication - voice alarm speaker",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ETCFP",
+            "Name": "employee timeclock with fingerprint scanner",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EVCL",
+            "Name": "evaporative cooler ",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EVP",
+            "Name": "evaporator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FAN",
+            "Name": "fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CTF",
+            "Name": "fan - cooling tower fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ELVPF",
+            "Name": "fan - elevator / lift well pressurization fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EF",
+            "Name": "fan - exhaust fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FHEX",
+            "Name": "fan - fume hood exhaust fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GSF",
+            "Name": "fan - garage / car park supply fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GTF",
+            "Name": "fan - garage / car park transfer fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KEF",
+            "Name": "fan - kitchen exhaust fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MEV",
+            "Name": "fan - mechanical extract ventilation",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MEVK",
+            "Name": "fan - mechanical extract ventilation kitchen",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PF",
+            "Name": "fan - pressurization fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RLF",
+            "Name": "fan - relief fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RTF",
+            "Name": "fan - return fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SEF",
+            "Name": "fan - smoke exhaust fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SPF",
+            "Name": "fan - stairwell pressurization fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SF",
+            "Name": "fan - supply fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TEF",
+            "Name": "fan - toilet extract fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TF",
+            "Name": "fan - transfer fan",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FCU",
+            "Name": "fan coil unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FLT",
+            "Name": "filter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ADS",
+            "Name": "filter - air and dirt separator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "APU",
+            "Name": "filter - air purifier unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AS",
+            "Name": "filter - air separator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AWSH",
+            "Name": "filter - air washer unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BFLT",
+            "Name": "filter - bag filter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CFLT",
+            "Name": "filter - carbon filter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CTFS",
+            "Name": "filter - cooling tower filtration unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CTFU",
+            "Name": "filter - cooling tower filtration unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CTSFLT",
+            "Name": "filter - cooling tower sand filter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CTSEP",
+            "Name": "filter - cooling tower separator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CTSSEP",
+            "Name": "filter - cooling tower separator / sand separator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DGA",
+            "Name": "filter - degasser filter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DTS",
+            "Name": "filter - dirt separator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DSU",
+            "Name": "filter - exhaust dry scrubber unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PFLT",
+            "Name": "filter - panel filter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PCU",
+            "Name": "filter - pollution control unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PFU",
+            "Name": "filter - process filtration unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RO",
+            "Name": "filter - reverse osmosis system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SSFLT",
+            "Name": "filter - side stream water filters",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VSFLT",
+            "Name": "filter - vacuum system filter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RRFLT",
+            "Name": "filter - water - reverse rinsing filter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WCR",
+            "Name": "filter - water conditioner",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WSR",
+            "Name": "filter - water softener",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FAS",
+            "Name": "fire detection - alarm annunciator sounder or beacon",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ASD",
+            "Name": "fire detection - aspirating smoke detector",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BGU",
+            "Name": "fire detection - break glass unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CIE",
+            "Name": "fire detection - control and indication equipment",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GD",
+            "Name": "fire detection - gas detector",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HD",
+            "Name": "fire detection - heat detector",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HDS",
+            "Name": "fire detection - hydrogen detector",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "IFU",
+            "Name": "fire detection - input output interface unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SD",
+            "Name": "fire detection - smoke detector",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FJP",
+            "Name": "fire suppression - fire jockey pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FP",
+            "Name": "fire suppression - fire pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FPCP",
+            "Name": "fire suppression - fire pump control panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FMO",
+            "Name": "fire suppression - firemans override switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GSCP",
+            "Name": "fire suppression - gas suppression control panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GSH",
+            "Name": "fire suppression - gas suppression head",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KHRL",
+            "Name": "fire suppression - hose reel terminal",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FB",
+            "Name": "fire suppression - sprinkler alarm bell",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FS",
+            "Name": "fire suppression - sprinkler flow switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SPH",
+            "Name": "fire suppression - sprinkler head terminal",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SISV",
+            "Name": "fire suppression - sprinkler isolation valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSS",
+            "Name": "fire suppression - system gas release panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VP",
+            "Name": "fire suppression - vaporizer panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSP",
+            "Name": "fire suppression terminal",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FIN",
+            "Name": "flow instrument / gauge",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSCPL",
+            "Name": "food serving - cold plate",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSCWL",
+            "Name": "food serving - cold well",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSHL",
+            "Name": "food serving - heat lamp",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSHCPL",
+            "Name": "food serving - hot and cold plate",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSHCWL",
+            "Name": "food serving - hot and cold well",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSHPL",
+            "Name": "food serving - hot plate",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSHWL",
+            "Name": "food serving - hot well",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSICD",
+            "Name": "food serving - ice cream display",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSIWL",
+            "Name": "food serving - ice well",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSIW",
+            "Name": "food serving - induction warmer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSSG",
+            "Name": "food serving - sneeze guard",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSSWL",
+            "Name": "food serving - soup well",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CSC",
+            "Name": "furniture - chemical storage cabinet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KSINKM",
+            "Name": "furniture - commercial kitchen mobile soak sink",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KSINK",
+            "Name": "furniture - commercial kitchen sink",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KSTC",
+            "Name": "furniture - commercial kitchen storage cabinet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KSTCH",
+            "Name": "furniture - commercial kitchen storage cabinet heated",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KTBL",
+            "Name": "furniture - commercial kitchen table",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KCART",
+            "Name": "furniture - commercial kitchen trolley/cart",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KUDS",
+            "Name": "furniture - commercial kitchen utility distribution system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KWMGR",
+            "Name": "furniture - commercial kitchen wall mounted glass rack",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KUCS",
+            "Name": "furniture - commercial kitchen utility chase system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DESK",
+            "Name": "furniture - desk",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EEW",
+            "Name": "furniture - emergency eyewash station",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LCKR",
+            "Name": "furniture - locker",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CSG",
+            "Name": "generator - clean steam generator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CHP",
+            "Name": "generator - combined heat and power generator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DG",
+            "Name": "generator - diesel electricity generator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GEN",
+            "Name": "generator - electricity generator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ELEM",
+            "Name": "generic built object - built element",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PROXY",
+            "Name": "generic built object - element proxy",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GEO",
+            "Name": "geographic element",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GI",
+            "Name": "grease waste interceptor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GRD",
+            "Name": "grid",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GRP",
+            "Name": "group",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AHR",
+            "Name": "heat emitter - air heater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DH",
+            "Name": "heat emitter - duct heater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EUH",
+            "Name": "heat emitter - electric unit heater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GUH",
+            "Name": "heat emitter - gas unit heater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HTR",
+            "Name": "heat emitter - heater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TC",
+            "Name": "heat emitter - hydronic trench convector",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RP",
+            "Name": "heat emitter - radiant panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RAD",
+            "Name": "heat emitter - radiator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ERAD",
+            "Name": "heat emitter - radiator electric",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EHT",
+            "Name": "heat emitter - trace heating",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TRHC",
+            "Name": "heat emitter - trench heater and cooler",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TRH",
+            "Name": "heat emitter - trench heating",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "UFM",
+            "Name": "heat emitter - underfloor manifold",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "UH",
+            "Name": "heat emitter - unit heater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WAC",
+            "Name": "heat emitter - warm air curtain",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HX",
+            "Name": "heat exchanger",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CPHX",
+            "Name": "heat exchanger - cooling plate heat exchanger",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HPHX",
+            "Name": "heat exchanger - heating plate heat exchanger",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PHX",
+            "Name": "heat exchanger - plate heat exchanger",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HIU",
+            "Name": "heat interface unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ASHP",
+            "Name": "heat pump - air source heat pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GSHP",
+            "Name": "heat pump - ground source heat pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HP",
+            "Name": "heat pump - heat pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WSHP",
+            "Name": "heat pump - water source heat pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HLI",
+            "Name": "high level interface",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HS",
+            "Name": "horn strobe",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HMI",
+            "Name": "human machine interface",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HUM",
+            "Name": "humidifier",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ETS",
+            "Name": "ict equipment - ethernet switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FBS",
+            "Name": "ict equipment - fibre switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "IDF",
+            "Name": "ict equipment - intermediate distribution frame",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SRV",
+            "Name": "ict equipment - multi-purpose server",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "NAM",
+            "Name": "ict equipment - network access manager",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FW",
+            "Name": "ict equipment - network firewall",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "NMS",
+            "Name": "ict equipment - network monitoring system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RTR",
+            "Name": "ict equipment - network router",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PDUIPD",
+            "Name": "ict equipment - pdu ip dongle",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "POEETS",
+            "Name": "ict equipment - power-over-ethernet network switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SDNC",
+            "Name": "ict equipment - software-defined networking controller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "UPSMS",
+            "Name": "ict equipment - ups management system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WRTR",
+            "Name": "ict equipment - wi-fi router",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WAP",
+            "Name": "ict equipment - wireless access point",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WLC",
+            "Name": "ict equipment - wireless lan controller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "IPD",
+            "Name": "impact protection device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "INT",
+            "Name": "interceptor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "JB",
+            "Name": "junction box",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KSMBL",
+            "Name": "kitchen appliance - blender/smoothie maker",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KBBL",
+            "Name": "kitchen appliance - bowl blender",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KBC",
+            "Name": "kitchen appliance - bowl cutter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KCO",
+            "Name": "kitchen appliance - can opener",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KCWM",
+            "Name": "kitchen appliance - crepe and waffle maker",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KCDY",
+            "Name": "kitchen appliance - cutlery dryer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KDR",
+            "Name": "kitchen appliance - dough divider/rounder",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KDPR",
+            "Name": "kitchen appliance - dough press",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KICT",
+            "Name": "kitchen appliance - insect trap",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KJC",
+            "Name": "kitchen appliance - juicer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KMBS",
+            "Name": "kitchen appliance - meat bone saw",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KMM",
+            "Name": "kitchen appliance - meat mincer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KMS",
+            "Name": "kitchen appliance - meat slicer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKMWO",
+            "Name": "kitchen appliance - microwave oven",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KMIX",
+            "Name": "kitchen appliance - mixer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KPM",
+            "Name": "kitchen appliance - pacotizing machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KPPM",
+            "Name": "kitchen appliance - potato peeling machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KFS",
+            "Name": "kitchen appliance - scale",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KSBL",
+            "Name": "kitchen appliance - stick blender",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KSR",
+            "Name": "kitchen appliance - storage rack",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KTST",
+            "Name": "kitchen appliance - toaster",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KUVSC",
+            "Name": "kitchen appliance - uv knife steralizer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KVPM",
+            "Name": "kitchen appliance - vacuum packing machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KVCM",
+            "Name": "kitchen appliance - veg cutting machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KVWM",
+            "Name": "kitchen appliance - vegetable washer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KVW",
+            "Name": "kitchen appliance - vegetable washer and dryer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WDR",
+            "Name": "kitchen appliance - warming drawer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KVCH",
+            "Name": "kitchen ventilation - condensate hood",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KVGH",
+            "Name": "kitchen ventilation - extraction/exhuast grease hood",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KVVC",
+            "Name": "kitchen ventilation - ventilated ceiling",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DIM",
+            "Name": "lighting - control - dimmer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LKP",
+            "Name": "lighting - control - keypad",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LCM",
+            "Name": "lighting - control - module",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LCP",
+            "Name": "lighting - control - panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LSW",
+            "Name": "lighting - control - switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LT",
+            "Name": "lighting - fixture",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DL",
+            "Name": "lighting - fixture - downlight",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EXIT",
+            "Name": "lighting - fixture - illuminated exit sign",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LL",
+            "Name": "lighting - fixture - linear",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TL",
+            "Name": "lighting - fixture - linear tape",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PL",
+            "Name": "lighting - fixture - pendant",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SL",
+            "Name": "lighting - fixture - spot light",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EL",
+            "Name": "lighting - fixture - standalone emergency light",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "UL",
+            "Name": "lighting - fixture - uplight",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WL",
+            "Name": "lighting - fixture - wall light",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LBO",
+            "Name": "lighting - fixture external - bollard",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LPO",
+            "Name": "lighting - fixture external - lampost",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LTGW",
+            "Name": "lighting - gateway",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LGRP",
+            "Name": "lighting - group",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LMP",
+            "Name": "lighting - lamp",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TR",
+            "Name": "lighting - track - electric track for lights",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CIS",
+            "Name": "lightning protection - cast-in-socket",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CIP",
+            "Name": "lightning protection - concrete inspection pit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EBA",
+            "Name": "lightning protection - earthing bar",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ECL",
+            "Name": "lightning protection - earthing clamp",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ERO",
+            "Name": "lightning protection - earthing rod",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ETA",
+            "Name": "lightning protection - earthing tape",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LQT",
+            "Name": "liquid terminal",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LBCN",
+            "Name": "location services - beacon",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MED",
+            "Name": "medical device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MTR",
+            "Name": "meter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EBM",
+            "Name": "meter - electric branch meter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EM",
+            "Name": "meter - electric meter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EMV",
+            "Name": "meter - electric meter (virtual)",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FM",
+            "Name": "meter - flow meter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GM",
+            "Name": "meter - gas meter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GMV",
+            "Name": "meter - gas meter (virtual)",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HM",
+            "Name": "meter - heat meter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HMV",
+            "Name": "meter - heat meter (virtual)",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WM",
+            "Name": "meter - water meter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WMV",
+            "Name": "meter - water meter (virtual)",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MTA",
+            "Name": "mobile telecommunications appliance",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MCN",
+            "Name": "motor connection",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VSD",
+            "Name": "motor controller - vsd (inverter drive)",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AVR",
+            "Name": "natural air ventilator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "OI",
+            "Name": "oil interceptor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "OUT",
+            "Name": "outlet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CGDXO",
+            "Name": "outlet - ceiling duplex",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CUSF",
+            "Name": "outlet - connection unit switched fused",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CUUF",
+            "Name": "outlet - connection unit unswitched fused",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CNDO",
+            "Name": "outlet - controlled duplex",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DATA",
+            "Name": "outlet - data wall outlet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DDR",
+            "Name": "outlet - double 20A duplex receptacle",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DSSO",
+            "Name": "outlet - double switched socket outlet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DSO",
+            "Name": "outlet - double unswitched socket outlet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DXO",
+            "Name": "outlet - duplex outlets",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FLRB",
+            "Name": "outlet - floor box",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FLRDX",
+            "Name": "outlet - floor duplex outlet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FLRQD",
+            "Name": "outlet - floor quad outlet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "INSO",
+            "Name": "outlet - industrial (commando) socket outlet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LER",
+            "Name": "outlet - linear electric receptacle",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SSSO",
+            "Name": "outlet - single switched socket outlet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SSO",
+            "Name": "outlet - single unswitched socket outlet",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AP",
+            "Name": "panel - alarm panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CTCP",
+            "Name": "panel - chemical treatment control panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CTRP",
+            "Name": "panel - control panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FACP",
+            "Name": "panel - fire alarm control panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GBCP",
+            "Name": "panel - gas booster control panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GASDET",
+            "Name": "panel - gas detection panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GENCP",
+            "Name": "panel - generator control panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GWCP",
+            "Name": "panel - greywater control panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HVACCP",
+            "Name": "panel - hvac control panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LDP",
+            "Name": "panel - leak detection panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MCC",
+            "Name": "panel - motor control center",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RIO",
+            "Name": "panel - remote i/o control panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RDT",
+            "Name": "panel - rodent repellent panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VAVCTR",
+            "Name": "panel - variable air volume control station / panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PFT",
+            "Name": "pipe fitting",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PLT",
+            "Name": "plate",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PU",
+            "Name": "pressurisation unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WMS",
+            "Name": "pressurisation unit - water system makeup unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PMP",
+            "Name": "pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CNP",
+            "Name": "pump - automatic condensate pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AXCWP",
+            "Name": "pump - auxilliary process cooling water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BSP",
+            "Name": "pump - booster pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CHWP",
+            "Name": "pump - chilled water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CP",
+            "Name": "pump - circulating pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CDWP",
+            "Name": "pump - condenser water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CTSEPP",
+            "Name": "pump - cooling tower separator pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DHWP",
+            "Name": "pump - domestic hot water circulation pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DP",
+            "Name": "pump - dosing pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FHP",
+            "Name": "pump - fire hydrant pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FOP",
+            "Name": "pump - fuel oil pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GBP",
+            "Name": "pump - gas booster pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GWBP",
+            "Name": "pump - greywater booster pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HXP",
+            "Name": "pump - heat exchanger pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HTCHP",
+            "Name": "pump - high temperature chilled water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HTCWP",
+            "Name": "pump - high temperature condenser water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HWP",
+            "Name": "pump - hot water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LTCHWP",
+            "Name": "pump - low temperature chilled water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LTCDWP",
+            "Name": "pump - low temperature condenser water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LTHWP",
+            "Name": "pump - low temperature hot water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PAPS",
+            "Name": "pump - packaged pump set",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DWBP",
+            "Name": "pump - potable/domestic water booster pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DWTP",
+            "Name": "pump - potable/domestic water transfer pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PCHWP",
+            "Name": "pump - primary chilled water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PP",
+            "Name": "pump - primary pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PCWP",
+            "Name": "pump - process cooling water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PWP",
+            "Name": "pump - process water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RNWBP",
+            "Name": "pump - rainwater booster pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RNWP",
+            "Name": "pump - rainwater pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RCP",
+            "Name": "pump - recirculation pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RWP",
+            "Name": "pump - recycled water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SCHWP",
+            "Name": "pump - secondary chilled water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SHCP",
+            "Name": "pump - secondary heating circulation pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SHWP",
+            "Name": "pump - secondary hot water circulating pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SP",
+            "Name": "pump - secondary pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SEPP",
+            "Name": "pump - separator pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SEP",
+            "Name": "pump - sewage ejector pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SPP",
+            "Name": "pump - sprinkler pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SMPP",
+            "Name": "pump - sump pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TMUP",
+            "Name": "pump - tower make up pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TMUV",
+            "Name": "pump - tower make up valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TRP",
+            "Name": "pump - transfer pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VCP",
+            "Name": "pump - vacuum pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WWP",
+            "Name": "pump - waste water pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WRP",
+            "Name": "pump - wet riser pump",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PVACDS",
+            "Name": "pv ac disconnect",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PVDAS",
+            "Name": "pv data acquisition system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PVDCC",
+            "Name": "pv dc combiner",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PVDCDS",
+            "Name": "pv dc disconnect",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PVDB",
+            "Name": "pv distribution board",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PVI",
+            "Name": "pv inverter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PVMC",
+            "Name": "pv microgrid controller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PVMLPE",
+            "Name": "pv module-level power electronics",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PVP",
+            "Name": "pv panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PVTXMR",
+            "Name": "pv transformer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CHB",
+            "Name": "radiant surface - chilled beam",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ACHB",
+            "Name": "radiant surface - chilled beam - active",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PCHB",
+            "Name": "radiant surface - chilled beam - passive",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CCH",
+            "Name": "radiant surface - chilled ceiling",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HTB",
+            "Name": "radiant surface - hot water beam",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FRZBCF",
+            "Name": "refrigeration - blast chiller/freezer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CRFRZ",
+            "Name": "refrigeration - coldroom freezer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CRHW",
+            "Name": "refrigeration - coldroom hardware/plant",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CRREF",
+            "Name": "refrigeration - coldroom refrigerated",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FRZ",
+            "Name": "refrigeration - freezer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FRZICC",
+            "Name": "refrigeration - ice cream chest freezer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "IM",
+            "Name": "refrigeration - ice maker",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "REF",
+            "Name": "refrigeration - refrigerator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "REFRP",
+            "Name": "refrigeration - retarder/proover",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SOI",
+            "Name": "sand oil interceptor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SSP",
+            "Name": "sand separator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SAN",
+            "Name": "sanitary terminal",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HWB",
+            "Name": "sanitary terminal - hand wash basin",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SNS",
+            "Name": "sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "COS",
+            "Name": "sensor - CO sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CDS",
+            "Name": "sensor - CO2 sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CS",
+            "Name": "sensor - condensation water sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CNTS",
+            "Name": "sensor - contact sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DPS",
+            "Name": "sensor - differential pressure sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GLYPR",
+            "Name": "sensor - glycol protector sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HMS",
+            "Name": "sensor - humidity sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "OHMS",
+            "Name": "sensor - humidity sensor - outside",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "IMUS",
+            "Name": "sensor - inertial measurement unit sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LDS",
+            "Name": "sensor - leak detection sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LVLS",
+            "Name": "sensor - level sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LMS",
+            "Name": "sensor - lighting motion sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LTMTS",
+            "Name": "sensor - lighting multisensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LPS",
+            "Name": "sensor - lighting photocell sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MCS",
+            "Name": "sensor - moisture content sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MOS",
+            "Name": "sensor - motion sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MTS",
+            "Name": "sensor - multi sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "NDS",
+            "Name": "sensor - nitrogen dioxide sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PMS",
+            "Name": "sensor - particulate matter sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PCS",
+            "Name": "sensor - people counting sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PS",
+            "Name": "sensor - pressure sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SSS",
+            "Name": "sensor - seismic sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SLS",
+            "Name": "sensor - sound level sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SPS",
+            "Name": "sensor - static pressure sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TPS",
+            "Name": "sensor - temperature sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "OTPS",
+            "Name": "sensor - temperature sensor - outside",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TSTAT",
+            "Name": "sensor - thermostat",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VS",
+            "Name": "sensor - velocity sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VBS",
+            "Name": "sensor - vibration sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AVFS",
+            "Name": "sensor - volumetric flow sensor - air",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WVFS",
+            "Name": "sensor - volumetric flow sensor - water",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WS",
+            "Name": "sensor - wind sensor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SDACT",
+            "Name": "shading - shading device actuator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BL",
+            "Name": "shading - shading device blinds",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SDC",
+            "Name": "shading - shading device controller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SDKP",
+            "Name": "shading - shading device keypad",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SDM",
+            "Name": "shading - shading device motor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SDSTM",
+            "Name": "shading - shading device solar tracking module",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SHD",
+            "Name": "shading device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BCN",
+            "Name": "signal - beacon",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SOL",
+            "Name": "solar device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SPACE",
+            "Name": "space",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SZONE",
+            "Name": "spatial zone",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CFN",
+            "Name": "structure -  caisson foundation",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TAN",
+            "Name": "structure - anchor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BEAM",
+            "Name": "structure - beam",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BRG",
+            "Name": "structure - bearing",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BRDG",
+            "Name": "structure - bridge",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CMN",
+            "Name": "structure - chimney",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "COL",
+            "Name": "structure - column",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CTW",
+            "Name": "structure - curtain wall",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EWC",
+            "Name": "structure - earthworks cut",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FSTN",
+            "Name": "structure - fastener",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FOT",
+            "Name": "structure - footing",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KRB",
+            "Name": "structure - kerb",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MCF",
+            "Name": "structure - mechanical fastener",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MBR",
+            "Name": "structure - member",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MRD",
+            "Name": "structure - mooring device",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "OPN",
+            "Name": "structure - opening",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PAV",
+            "Name": "structure - pavement",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PIL",
+            "Name": "structure - pile",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RAIL",
+            "Name": "structure - rail",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RLG",
+            "Name": "structure - railing",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RAMP",
+            "Name": "structure - ramp",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RAMPFL",
+            "Name": "structure - ramp flight",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RFB",
+            "Name": "structure - reinforcing bar",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RFM",
+            "Name": "structure - reinforcing mesh",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SLB",
+            "Name": "structure - slab",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "STR",
+            "Name": "structure - stair",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "STRFL",
+            "Name": "structure - stair flight",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TEN",
+            "Name": "structure - tendon",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TCN",
+            "Name": "structure - tendon circuit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TRACK",
+            "Name": "structure - track",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VIBDMP",
+            "Name": "structure - vibration damper",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VIBISO",
+            "Name": "structure - vibration isolator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WALL",
+            "Name": "structure - wall",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ROOF",
+            "Name": "stucture - roof",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "APSW",
+            "Name": "switch - absolute pressure",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DEWSW",
+            "Name": "switch - dew point",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DPSW",
+            "Name": "switch - differential pressure",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SPSW",
+            "Name": "switch - static pressure",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TDSW",
+            "Name": "switch - thermal dispersion flow proving switch",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AIRCON",
+            "Name": "system - airconditioning",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CATNY",
+            "Name": "system - catenary_system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CHEM",
+            "Name": "system - chemical",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CHW",
+            "Name": "system - chilledwater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "COMMS",
+            "Name": "system - communication",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CPAIR",
+            "Name": "system - compressedair",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CDW",
+            "Name": "system - condenserwater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BMS",
+            "Name": "system - control",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CONVEY",
+            "Name": "system - conveying",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DCW",
+            "Name": "system - domesticcoldwater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DHW",
+            "Name": "system - domestichotwater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DRNG",
+            "Name": "system - drainage",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EARTH",
+            "Name": "system - earthing",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HV",
+            "Name": "system - electrical (high voltage)",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LV",
+            "Name": "system - electrical (low voltage)",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AUDIO",
+            "Name": "system - electroacoustic",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EA",
+            "Name": "system - exhaust",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SPR",
+            "Name": "system - fireprotection",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FUEL",
+            "Name": "system - fuel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GAS",
+            "Name": "system - gas",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HAZ",
+            "Name": "system - hazardous",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LTHW",
+            "Name": "system - heating (low temperature hot water)",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MTHW",
+            "Name": "system - heating (medium temperature hot water)",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LTG",
+            "Name": "system - lighting",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LPSY",
+            "Name": "system - lightningprotection",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MOB",
+            "Name": "system - mobilenetwork",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MS",
+            "Name": "system - monitoring system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WSTSOL",
+            "Name": "system - municipalsolidwaste",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "OIL",
+            "Name": "system - oil",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "OPSUP",
+            "Name": "system - operational",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PHON",
+            "Name": "system - operationaltelephonysystem",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "OVER",
+            "Name": "system - overhead_contactline_system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EGEN",
+            "Name": "system - powergeneration",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RW",
+            "Name": "system - rainwater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RF",
+            "Name": "system - refrigeration",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RETCIR",
+            "Name": "system - return_circuit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SEC",
+            "Name": "system - security",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SWG",
+            "Name": "system - sewage",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SIG",
+            "Name": "system - signal",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "STORM",
+            "Name": "system - stormwater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TELE",
+            "Name": "system - telephone",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TV",
+            "Name": "system - tv",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VAC",
+            "Name": "system - vacuum",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VENTP",
+            "Name": "system - vent",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VENT",
+            "Name": "system - ventilation",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WSTWAT",
+            "Name": "system - wastewater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WATSUP",
+            "Name": "system - watersupply",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TK",
+            "Name": "tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BTK",
+            "Name": "tank - break tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BTKBS",
+            "Name": "tank - break tank and booster set",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BRITK",
+            "Name": "tank - brine tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CBUFF",
+            "Name": "tank - buffer vessel - cooling",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BUFF",
+            "Name": "tank - buffer vessel - generic",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HBUFF",
+            "Name": "tank - buffer vessel - heating",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CAST",
+            "Name": "tank - compressed air storage tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CNR",
+            "Name": "tank - condensate receiver tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DEA",
+            "Name": "tank - deareator tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DET",
+            "Name": "tank - decontamination tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EST",
+            "Name": "tank - emergency sewer tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EWT",
+            "Name": "tank - emergency water tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ET",
+            "Name": "tank - expansion tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FHT",
+            "Name": "tank - fire hydrant tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FODT",
+            "Name": "tank - fuel oil day tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FOST",
+            "Name": "tank - fuel oil storage tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GWST",
+            "Name": "tank - greywater storage tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HWC",
+            "Name": "tank - hot water cylinder",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MWST",
+            "Name": "tank - mains water storage tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DWST",
+            "Name": "tank - potable/domestic water storage tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DWTT",
+            "Name": "tank - potable/domestic water transfer tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RNWST",
+            "Name": "tank - rainwater storage tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SPT",
+            "Name": "tank - sprinkler tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TST",
+            "Name": "tank - thermal storage tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WRT",
+            "Name": "tank - wet riser tank",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TW",
+            "Name": "thermal wheel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TMCLK",
+            "Name": "timeclock",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TXMR",
+            "Name": "transformer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TRE",
+            "Name": "transport element",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ESC",
+            "Name": "transportation - escalator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ELV",
+            "Name": "transportation - lift / elevator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ELC",
+            "Name": "transportation - lift / elevator controller",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ELDM",
+            "Name": "transportation - lift / elevator door motor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ELI",
+            "Name": "transportation - lift / elevator inverter",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ELTM",
+            "Name": "transportation - lift / elevator traction machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AW",
+            "Name": "transportation - moving walkway",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TP",
+            "Name": "trap primer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TPE",
+            "Name": "trap primer - electronic trap primer",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TBN",
+            "Name": "tube bundle",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "UCE",
+            "Name": "unitary control element",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "UEQ",
+            "Name": "unitary equipment - pre packaged equipment",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "UPS",
+            "Name": "ups - uninteruptable power supply unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "KP",
+            "Name": "user interface - keypad",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "UVDU",
+            "Name": "uv disinfection unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VLV",
+            "Name": "valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AAV",
+            "Name": "valve - air admittance valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AV",
+            "Name": "valve - angle stop valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BFP",
+            "Name": "valve - backflow preventer valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BLV",
+            "Name": "valve - balancing valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BV",
+            "Name": "valve - ball valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BDV",
+            "Name": "valve - blowdown valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BFV",
+            "Name": "valve - butterfly valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "BYV",
+            "Name": "valve - bypass valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKV",
+            "Name": "valve - check valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CKVS",
+            "Name": "valve - check valve sprinkler",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CHWV",
+            "Name": "valve - chilled water valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CDWV",
+            "Name": "valve - condenser water valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CV",
+            "Name": "valve - control valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CVM",
+            "Name": "valve - control valve modulating",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CVO",
+            "Name": "valve - control valve open closed",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DPCV",
+            "Name": "valve - differential pressure control valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ENV",
+            "Name": "valve - energy valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FV",
+            "Name": "valve - float valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "FCV",
+            "Name": "valve - flow control valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GV",
+            "Name": "valve - gate valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "HWV",
+            "Name": "valve - hot water valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ISV",
+            "Name": "valve - isolation valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "LCV",
+            "Name": "valve - level control valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MUV",
+            "Name": "valve - make up water valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "MMV",
+            "Name": "valve - master thermostatic valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PA",
+            "Name": "valve - pressure attenuator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PCV",
+            "Name": "valve - pressure control valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PICV",
+            "Name": "valve - pressure independent control valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PRV",
+            "Name": "valve - pressure reducing valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PRFV",
+            "Name": "valve - pressure relief valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "PWV",
+            "Name": "valve - process water valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RCV",
+            "Name": "valve - recirculation valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "RTV",
+            "Name": "valve - return valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SGV",
+            "Name": "valve - seismic gas valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SNV",
+            "Name": "valve - solenoid valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SPRV",
+            "Name": "valve - steam pressure reducing valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SPV",
+            "Name": "valve - supply valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TCV",
+            "Name": "valve - temperature control valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "TMV",
+            "Name": "valve - thermostatic mixing valve",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WHAV",
+            "Name": "valve - water hammer arrestor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VFD",
+            "Name": "variable frequency drive",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "VCL",
+            "Name": "vehicle",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CDWFM",
+            "Name": "washing appliance - commercial flight machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CDWPTM",
+            "Name": "washing appliance - commercial pass through machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CDWPUW",
+            "Name": "washing appliance - commercial pot and utensil machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CDWRM",
+            "Name": "washing appliance - commercial rack machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CDWUM",
+            "Name": "washing appliance - commercial undercounter machine",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CDWSCS",
+            "Name": "washing appliance - conveyor system",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CDWRT",
+            "Name": "washing appliance - roller table",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WSTFD",
+            "Name": "waste management - food dehydrator",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WSTBIN",
+            "Name": "waste management - waste bin",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WSTC",
+            "Name": "waste management - waste compactor",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WSTWG",
+            "Name": "waste management - wet waste grinder",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WSTT",
+            "Name": "waste terminal",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "AD",
+            "Name": "waste terminal - area drain",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DEWH",
+            "Name": "water heater - domestic electric water heater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DGWH",
+            "Name": "water heater - domestic gas water heater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EWH",
+            "Name": "water heater - electric water heater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "GWH",
+            "Name": "water heater - gas water heater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "IWH",
+            "Name": "water heater - instantaneous water heater",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "SWHP",
+            "Name": "water heater - solar water heating panel",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CHDU",
+            "Name": "water treatment - chemical dosage unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "CTSU",
+            "Name": "water treatment - cooling tower water treatment unit",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "DPOT",
+            "Name": "water treatment - dosing pot",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "EMWC",
+            "Name": "water treatment - electro magnetic water conditioner",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WST",
+            "Name": "weather station",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "WD",
+            "Name": "window",
+            "ClassType": "Class"
+        },
+        {
+            "Code": "ZONE",
+            "Name": "zone",
+            "ClassType": "Class"
+        }
+    ]
+}
