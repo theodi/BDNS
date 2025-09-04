@@ -2,10 +2,14 @@ import pathlib
 import csv
 import json
 import re
+import yaml
 
 BDNS_REGISTER = pathlib.Path(__file__).parent.parent / "BDNS_Abbreviations_Register.csv"
 BSDD_IMPORT_BDNS = pathlib.Path(__file__).parent / "bsdd-import-bdns.json"
-
+VARIABLES_YML = pathlib.Path(__file__).parent.parent / "_variables.yml"
+with open(VARIABLES_YML, "r") as f:
+    variables = yaml.safe_load(f)
+tag = variables.get("tag")
 
 def ifc_strip_enum(ifc_class: str) -> str:
     return re.sub(r"([A-Z0-9_]+_?)$", "", ifc_class)
@@ -24,7 +28,7 @@ def read_csv(path: pathlib.Path) -> list[list]:
 
 # from: https://github.com/buildingSMART/bSDD/blob/master/Model/Import%20Model/bsdd-import-model.json
 bsdd_import_template = {
-    "ModelVersion": "2.0",  # TODO: get from release
+    "ModelVersion": tag, 
     "OrganizationCode": "bdns",
     "DictionaryCode": "bdns",
     "DictionaryName": "Building Device Naming Syntax",
