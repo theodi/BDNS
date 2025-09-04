@@ -1,9 +1,18 @@
 import pathlib
 import csv
 import json
+import re
 
 BDNS_REGISTER = pathlib.Path(__file__).parent.parent / "BDNS_Abbreviations_Register.csv"
 BSDD_IMPORT_BDNS = pathlib.Path(__file__).parent / "bsdd-import-bdns.json"
+
+
+def ifc_strip_enum(ifc_class: str) -> str:
+    return re.sub(r"([A-Z0-9_]+_?)$", "", ifc_class)
+
+
+def ifc_class_is_enum(ifc_class: str) -> bool:
+    return ifc_strip_enum(ifc_class) != ifc_class
 
 def read_csv(path: pathlib.Path) -> list[list]:
     """Read a CSV file and return its content as a list of lists."""
@@ -15,7 +24,7 @@ def read_csv(path: pathlib.Path) -> list[list]:
 
 # from: https://github.com/buildingSMART/bSDD/blob/master/Model/Import%20Model/bsdd-import-model.json
 bsdd_import_template = {
-    "ModelVersion": "2.0", # TODO: get from release
+    "ModelVersion": "2.0",  # TODO: get from release
     "OrganizationCode": "bdns",
     "DictionaryCode": "bdns",
     "DictionaryName": "Building Device Naming Syntax",
@@ -171,16 +180,34 @@ bsdd_import_template = {
     #     ]
     #   }
     # ]
-  }
+}
 
 
 bdns = read_csv(BDNS_REGISTER)
 bdns = [dict(zip(bdns[0], row)) for row in bdns[1:]]
 
-classes = [{"Code": x["asset_abbreviation"], "Name": x["asset_description"], "ClassType": "Class"} for x in bdns]
+# parents = [x["parent"] for x in bdns]
+map_ifc_parents = {x["ifc4_3"]: x["asset_abbreviation"] for x in bdns if x["is_ifc_default"] == "1"}
+map_ifc_parents = {k: v for k, v in map_ifc_parents.items() if not ifc_class_is_enum(k)}
+
+classes = [
+    {
+        "Code": x["asset_abbreviation"],
+        "Name": x["asset_description"],
+        "Description": x["asset_description"],
+        "ClassType": "Class",
+        "RelatedIfcEntityNamesList": [x["ifc4_3"]],
+    }
+    for x in bdns
+]
+for c in classes:
+    if c["RelatedIfcEntityNamesList"][0] in map_ifc_parents:
+        parent_ifc = map_ifc_parents[c["RelatedIfcEntityNamesList"][0]]
+        if parent_ifc != c["Code"]:
+            c["ParentClassCode"] = parent_ifc
 
 bsdd_import_template["Classes"] = classes
-# BSDD_IMPORT_BDNS.write_text(json.dumps(bsdd_import_template, indent=4)) 
+# BSDD_IMPORT_BDNS.write_text(json.dumps(bsdd_import_template, indent=4))
 BSDD_IMPORT_BDNS.write_bytes(json.dumps(bsdd_import_template, indent=4).encode("utf-8"))
 
 print("done")
