@@ -33,3 +33,4 @@ docs = { features = ["docs"] }
 [feature.docs.tasks]
 install-tinytex = { cmd = "quarto install tinytex" }
 build-docs = { cmd = "quarto render ." }
+preview-docs = { cmd = "quarto preview ." }

@@ -1,0 +1,29 @@
+---
+format: 
+  html: default
+---
+# Building Device and Asset Naming Standards initiative
+
+Status: *release* {{< var tag >}}
+
+# BDNS on BSDD (Building Smart Data Dictionaries)
+
+In the summer of 2025 there was a concerted effort between BDNS, IFC and Building Smart to add the BDNS abbreviations to the BSDD. 
+
+🚀 The dictionary is now available here: **[https://identifier.buildingsmart.org/uri/bdns](https://identifier.buildingsmart.org/uri/bdns)** 🚀
+
+## Keeping the BSDD up-to-date
+
+There is a [plan to publish on tag...](https://github.com/theodi/BDNS/issues/365) but until that is ready please do the following:
+
+1. Go to the built docs and download the bsdd import file: 
+  - [https://github.com/theodi/BDNS/blob/gh-pages/bsdd-import-bdns.json](https://github.com/theodi/BDNS/blob/gh-pages/bsdd-import-bdns.json)
+2. Go to the BSDD manage page and upload the file.
+  - [https://manage.bsdd.buildingsmart.org/dictionaries](https://manage.bsdd.buildingsmart.org/dictionaries)
+
+For info, the import json can be inspected here: 
+
+```{ojs}
+bsdd_import_bdns = await FileAttachment("tools/bsdd-import-bdns.json").json();
+bsdd_import_bdns
+```
