@@ -203,13 +203,16 @@ dispenser - water,DISPW,0,,IfcElectricAppliance,IfcElectricAppliance,0
 distribution - chamber,DCE,0,,IfcDistributionChamberElement,IfcDistributionChamberElement,1
 distribution - circuit,DCT,0,,IfcDistributionCircuit,,1
 distribution - system,DSYS,0,,IfcDistributionSystem,,1
-distribution data - coaxial cable,COAXCA,0,,IfcCableSegmentFIBERTUBE,IfcCableSegmentFIBERTUBE,0
-distribution data - data cable,DCA,0,,IfcCableSegment,IfcCableSegmentFIBERTUBE,0
-distribution electric - cable,CA,0,,IfcCableSegment,IfcCableSegmentFIBERTUBE,1
-distribution electric - fire rated cable,FCA,0,,IfcCableSegment,IfcCableSegmentFIBERTUBE,0
+distribution data - coaxial cable,COAXCA,0,,IfcCableSegment,IfcCableSegment,0
+distribution data - data cable,DCA,0,,IfcCableSegment,IfcCableSegment,0
+distribution electric - cable,CA,0,,IfcCableSegment,IfcCableSegment,1
+distribution electric - fire rated cable,FCA,0,,IfcCableSegment,IfcCableSegment,0
 distribution piped services - pipework,PW,0,,IfcPipeSegment,IfcPipeSegment,1
+distribution piped services - pipework fitting,PWF,0,,IfcPipeFitting,IfcPipeFitting,1
 distribution ventilation - ductwork,DUW,0,,IfcDuctSegment,IfcDuctSegment,1
+distribution ventilation - ductwork fitting,DUWF,0,,IfcDuctFitting,IfcDuctFitting,1
 distribution ventilation - ductwork fire rated,FDUW,0,,IfcDuctSegment,IfcDuctSegment,0
+distribution ventilation - ductwork fire rated fitting,FDUWF,0,,IfcDuctFitting,IfcDuctFitting,0
 door,DR,1,,IfcDoorDOOR,IfcDoorStyle,0
 door - electric lock,ELOCK,1,,IfcElectricAppliance,IfcElectricAppliance,0
 door - electromagnetic door holder,EMDH,1,,IfcElectricAppliance,IfcElectricAppliance,0
@@ -236,16 +239,16 @@ electric appliance - hand dryer,HDY,0,,IfcElectricAppliance,IfcElectricAppliance
 electric appliance - oven,OVN,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER,0
 electric appliance - scanning device,SCAN,0,,IfcCommunicationsApplianceSCANNER,IfcElectricApplianceSCANNER,0
 electric appliance - steamer,STE,0,,IfcElectricAppliance,IfcElectricAppliance,0
-electric distribution - EVC electric vehicle charging distribution panel,EVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+electric distribution - EVC electric vehicle charging distribution panel,EVDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 electric distribution - EVC electric vehicle charging equipment,EVCE,1,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET,0
 electric distribution - active harmonic filter,AHF,1,,IfcElectricFlowStorageDeviceHARMONICFILTER,IfcElectricFlowStorageDeviceHARMONICFILTER,0
 electric distribution - automatic transfer switch,ATS,1,,IfcProtectiveDevice,IfcProtectiveDevice,0
-electric distribution - branch circuit panel board 120/208V,LVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - branch circuit panel board 277/480V,HVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+electric distribution - branch circuit panel board 120/208V,LVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+electric distribution - branch circuit panel board 277/480V,HVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 electric distribution - busbar,BB,0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment,0
 electric distribution - busbar tapoff,BBTO,0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment,0
 electric distribution - dc-dc converter,DCDC,0,,IfcTransformer,IfcTransformer,0
-electric distribution - distribution panel / board,DB,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPoint,1
+electric distribution - distribution panel / board,DB,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,1
 electric distribution - distribution panel / board - consumer unit,CU,1,ELECTRICAL/PANEL,IfcDistributionBoardCONSUMERUNIT,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 electric distribution - distribution panel 120/208V,LVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 electric distribution - distribution panel 277/480V,HVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
@@ -336,8 +339,7 @@ filter - air separator,AS,1,,IfcFlowTreatmentDevice,IfcFilterAIRPARTICLEFILTER,0
 filter - air washer unit,AWSH,1,,IfcFilter,IfcFilter,0
 filter - bag filter,BFLT,1,,IfcFilter,IfcFilter,0
 filter - carbon filter,CFLT,1,,IfcFilter,IfcFilter,0
-filter - cooling tower filtration unit,CTFS,1,,IfcFilter,IfcFilter,0
-filter - cooling tower filtration unit,CTFU,1,,IfcUnitaryEquipment,IfcUnitaryEquipment,0
+filter - cooling tower filtration unit/system,CTFU,1,,IfcUnitaryEquipment,IfcUnitaryEquipment,0
 filter - cooling tower sand filter,CTSFLT,1,,IfcFilter,IfcFilter,0
 filter - cooling tower separator,CTSEP,1,,IfcFilter,IfcFilter,0
 filter - cooling tower separator / sand separator,CTSSEP,1,,IfcFilter,IfcFilter,0
@@ -508,9 +510,9 @@ lighting - fixture external - lampost,LPO,1,LIGHTING/LT,IfcLightFixture,IfcLight
 lighting - gateway,LTGW,1,LIGHTING/LTGW,IfcCommunicationsApplianceGATEWAY,IfcElectricAppliance,0
 lighting - group,LGRP,1,LIGHTING/LGRP,IfcGroup,IfcGroup,0
 lighting - lamp,LMP,1,,IfcLamp,IfcLamp,1
-lighting - track - electric track for lights,TR,0,LIGHTING/LT,IfcCableSegment,IfcCableSegmentFIBERTUBE,0
+lighting - track - electric track for lights,TR,0,LIGHTING/LT,IfcCableSegment,IfcCableSegment,0
 lightning protection - cast-in-socket,CIS,0,,IfcFastener,IfcFastener,0
-lightning protection - concrete inspection pit,CIP,0,,IfcDistributionElement,,1
+lightning protection - concrete inspection pit,CIP,0,,IfcDistributionChamberElementINSPECTIONPIT,IfcDistributionChamberElementINSPECTIONPIT,1
 lightning protection - earthing bar,EBA,0,,IfcCableSegment,IfcCableSegment,0
 lightning protection - earthing clamp,ECL,0,,IfcFastener,IfcFastener,0
 lightning protection - earthing rod,ERO,0,,IfcCableSegment,IfcCableSegment,0
@@ -617,9 +619,9 @@ pump - waste water pump,WWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - wet riser pump,WRP,1,HVAC/PMP,IfcPump,IfcPump,0
 pv ac disconnect,PVACDS,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR,0
 pv data acquisition system,PVDAS,1,,IfcController,IfcController,0
-pv dc combiner,PVDCC,0,,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+pv dc combiner,PVDCC,0,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 pv dc disconnect,PVDCDS,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR,0
-pv distribution board,PVDB,1,,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+pv distribution board,PVDB,1,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 pv inverter,PVI,1,,IfcTransformerINVERTER,IfcTransformer,0
 pv microgrid controller,PVMC,1,,IfcController,IfcController,0
 pv module-level power electronics,PVMLPE,0,,IfcController,IfcController,0
@@ -721,10 +723,10 @@ structure - vibration damper,VIBDMP,1,,IfcVibrationDamper,,1
 structure - vibration isolator,VIBISO,1,,IfcVibrationIsolator,IfcVibrationIsolator,1
 structure - wall,WALL,1,,IfcWall,IfcWall,1
 stucture - roof,ROOF,0,,IfcRoof,IfcRoof,1
-switch - absolute pressure,APSW,1,,IfcSwitchingDevice,IfcSensorPRESSURESENSOR,0
-switch - dew point,DEWSW,1,,IfcSwitchingDevice,IfcElectricDistributionPoint,0
-switch - differential pressure,DPSW,1,,IfcSwitchingDevice,IfcSensorPRESSURESENSOR,0
-switch - static pressure,SPSW,1,,IfcSwitchingDevice,IfcSensorPRESSURESENSOR,0
+switch - absolute pressure,APSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
+switch - dew point,DEWSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
+switch - differential pressure,DPSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
+switch - static pressure,SPSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
 switch - thermal dispersion flow proving switch,TDSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
 system - airconditioning,AIRCON,0,,IfcDistributionSystemAIRCONDITIONING,,1
 system - catenary_system,CATNY,0,,IfcDistributionSystemCATENARY_SYSTEM,,1
