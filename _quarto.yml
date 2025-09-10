@@ -1,5 +1,7 @@
 project:
   type: website
+  pre-render: tools/make_bsdd_import_json.py
+  post-render: "cp tools/bsdd-import-bdns.json _site/bsdd-import-bdns.json"
 
 website:
   repo-url: https://github.com/theodi/BDNS
@@ -20,6 +22,8 @@ website:
         text: Systems Abbreviations
       - href: BDNS_Abbreviations_Core.qmd
         text: Abbreviations Core
+      - href: BDNS_BSDD.qmd
+        text: BDNS on BSDD
 
     right:
       - icon: github
