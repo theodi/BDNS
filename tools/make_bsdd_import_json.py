@@ -11,6 +11,7 @@ with open(VARIABLES_YML, "r") as f:
     variables = yaml.safe_load(f)
 tag = variables.get("tag")
 
+
 def ifc_strip_enum(ifc_class: str) -> str:
     return re.sub(r"([A-Z0-9_]+_?)$", "", ifc_class)
 
@@ -28,11 +29,11 @@ def read_csv(path: pathlib.Path) -> list[list]:
 
 # from: https://github.com/buildingSMART/bSDD/blob/master/Model/Import%20Model/bsdd-import-model.json
 bsdd_import_template = {
-    "ModelVersion": tag, 
+    "ModelVersion": "2.0", 
     "OrganizationCode": "bdns",
     "DictionaryCode": "bdns",
     "DictionaryName": "Building Device Naming Syntax",
-    "DictionaryVersion": "2.1.0",
+    "DictionaryVersion": tag,
     "LanguageIsoCode": "EN",
     # "LanguageOnly": False,
     # "UseOwnUri": False,
@@ -44,7 +45,7 @@ bsdd_import_template = {
     # "QualityAssuranceProcedure": None,
     # "QualityAssuranceProcedureUrl": None,
     # "ReleaseDate": None,
-    "Status": "Preview",
+    "Status": "Preview", # https://technical.buildingsmart.org/services/bsdd/manage/  -> The lifecycle of a dictionary
     # "Classes": [
     #   {
     #     "Code": None,
@@ -198,6 +199,7 @@ classes = [
     {
         "Code": x["asset_abbreviation"],
         "Name": x["asset_description"],
+        "Definition": x["asset_description"],
         "Description": x["asset_description"],
         "ClassType": "Class",
         "RelatedIfcEntityNamesList": [x["ifc4_3"]],
