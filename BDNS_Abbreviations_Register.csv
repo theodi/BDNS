@@ -724,10 +724,10 @@ structure - vibration damper,VIBDMP,1,,IfcVibrationDamper,,1
 structure - vibration isolator,VIBISO,1,,IfcVibrationIsolator,IfcVibrationIsolator,1
 structure - wall,WALL,1,,IfcWall,IfcWall,1
 stucture - roof,ROOF,0,,IfcRoof,IfcRoof,1
-switch - absolute pressure,APSW,1,,IfcSensorPRESSURESENSOR,IfcSensorPRESSURESENSOR,0
-switch - dew point,DEWSW,1,,IfcUnitaryControlElementHUMIDISTAT,IfcElectricDistributionPoint,0
-switch - differential pressure,DPSW,1,,IfcSensorPRESSURESENSOR,IfcSensorPRESSURESENSOR,0
-switch - static pressure,SPSW,1,,IfcSensorPRESSURESENSOR,IfcSensorPRESSURESENSOR,0
+switch - absolute pressure,APSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
+switch - dew point,DEWSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
+switch - differential pressure,DPSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
+switch - static pressure,SPSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
 switch - thermal dispersion flow proving switch,TDSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
 system - airconditioning,AIRCON,0,,IfcDistributionSystemAIRCONDITIONING,,1
 system - catenary_system,CATNY,0,,IfcDistributionSystemCATENARY_SYSTEM,,1
