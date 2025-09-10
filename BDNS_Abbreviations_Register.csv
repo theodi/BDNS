@@ -339,8 +339,7 @@ filter - air separator,AS,1,,IfcFlowTreatmentDevice,IfcFilterAIRPARTICLEFILTER,0
 filter - air washer unit,AWSH,1,,IfcFilter,IfcFilter,0
 filter - bag filter,BFLT,1,,IfcFilter,IfcFilter,0
 filter - carbon filter,CFLT,1,,IfcFilter,IfcFilter,0
-filter - cooling tower filtration unit,CTFS,1,,IfcFilter,IfcFilter,0
-filter - cooling tower filtration unit,CTFU,1,,IfcUnitaryEquipment,IfcUnitaryEquipment,0
+filter - cooling tower filtration unit/system,CTFU,1,,IfcUnitaryEquipment,IfcUnitaryEquipment,0
 filter - cooling tower sand filter,CTSFLT,1,,IfcFilter,IfcFilter,0
 filter - cooling tower separator,CTSEP,1,,IfcFilter,IfcFilter,0
 filter - cooling tower separator / sand separator,CTSSEP,1,,IfcFilter,IfcFilter,0
