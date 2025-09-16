@@ -1,0 +1,10 @@
+---
+title: "BDNS at Max Fordham"
+hide-description: true
+date: "2025-09-17"
+author: j.gunstone
+---
+
+```{=html}
+<iframe width="1600" height="800" src="../../../presentations/25/0917-JG-BDNS-at-MaxFordham/index.html" title="presentation"></iframe>
+```

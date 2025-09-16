@@ -1,0 +1,191 @@
+---
+title: "BDNS at Max Fordham"
+author: "John Gunstone"
+format: revealjs
+logo: images/logo.png
+---
+
+## Quick intro to myself...
+
+::: {.incremental}
+- MEP Engineer for 6 years at Max Fordham
+  - Project Engineer on multiple projects delivered on-site
+- Staggered by the inefficiencies in the design, construction and commissioning of Buildings
+- Started writing code to automate various calculations and design processes on Projects
+- That soon became my full-time job
+- Now run a small team develeping software products focused on Engineering Delivery
+:::
+
+## Digital Transformation
+
+```{mermaid}
+{{< include digital-transformation.mmd >}}
+```
+
+## Engineering Tools at Max Fordham (MF)
+
+:::: {.columns}
+
+::: {.column width="25%" }
+![toolbox-apps](images/toolbox.png)
+:::
+
+::: {.column width="25%" }
+![jupyterhub](images/jupyterhub.png)
+:::
+
+::: {.column width="25%"}
+![backend-database](images/backend-database.png)
+:::
+
+::: {.column width="25%"}
+![dashboards](images/dashboards.png)
+:::
+
+::::
+
+## My Intro to BDNS
+
+- A project asked for it to be used in a BEP (BIM Execution Plan)
+- I was in the process of developing a product specification and cataloguing system (Digital Schedules)
+- I wanted to try and standardise how equipment were named across projects
+- I found the BDNS community to be active, supportive and willing to expand to satisfy new use cases
+- My first commit was merged in Nov 2022
+
+## BDNS at MF - Digital Schedules
+
+![](images/making-schedules.png)
+
+## Schedules - old 
+
+![status-quo](images/status-quo.png)
+
+## Digital Schedules - new
+
+![brave-new-world](images/brave-new-world.png)
+
+## Revit Properties
+
+![](images/revit-properties.png)
+
+## AecSchedule App
+
+![](images/revit-aecschedule-sync.png)
+
+## Revit export data rich IFC
+
+![](images/revit-export-ifc.png)
+
+## aectemplater - data flow
+
+- define templates / extend IFC classes
+
+![](images/scope-aectemplater.png)
+
+## aecschedule - data flow
+
+- record project data against templates
+
+![](images/scope-aecschedule.png)
+
+
+## Custom Templates / Classes
+
+We have extended the IFC classes to satisfy all scheduling needs. 
+Sometimes that means a new class, sometimes that means extending an IFC class with extra properties.
+Classes (/Templates) are given default BDNS abbreviations. 
+
+![](images/aecschedule-abbreviations.png)
+
+
+## Minimum Data Fields
+
+:::: {.columns}
+
+::: {.column width="50%" }
+**Types**
+
+```json
+{
+    "project_number": 5003, 
+    "abbreviation": "DB", 
+    "type_reference": 16
+}
+```
+- BDNS = 5003-DB16 
+- BDNS = 5003-DB (no inc. type)
+:::
+
+::: {.column width="50%" }
+**Instances**
+
+```json
+{
+    "project_number": 5003, 
+    "abbreviation": "DB", 
+    "type_reference": 16,
+    "instance_reference": 1
+}
+```
+- BDNS = 5003-DB16-1  
+- BDNS = 5003-DB-1 (no inc. type)
+
+:::
+::::
+
+## Centralised Product Data
+
+![dashboards](images/dashboards.png)
+
+## Pain Points - Assemblies / IfcUnitaryEquipment
+
+![](images/coming-soon-scheduling-assemblies.png)
+
+## Pain Points - Types and Instances
+
+:::: {.columns}
+
+::: {.column width="40%" }
+Instances: 
+
+- main mech equipment (e.g. AHU, FAN etc. )
+- main elec equipment (e.g. DB, PB etc.)
+- ...
+:::
+::: {.column width="20%" }
+:::
+
+::: {.column width="40%" }
+Types: 
+
+- small power accessories (e.g. SSO, DSSO)
+- ...
+
+:::
+::::
+
+Not always clear which to use when.
+
+## Pain Points - Customising references on Drawings
+
+![](images/customising-references.png)
+
+
+## Ongoing Work - bdns-plus
+
+[bdns-plus](https://maxfordham.github.io/bdns-plus/)
+
+
+## Desired Outcomes
+
+- better definitions of the parameter names that build the reference
+- description of which of those names should exist in the Revit model
+  - e.g. "name", "id" ?
+
+
+## Other stuff... tooling (more later...?)
+
+
+
+
+
