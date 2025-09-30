@@ -2,9 +2,8 @@
 title: "Blog"
 listing:
   contents: posts
-  fields: [date-modified, date, title]
+  fields: [title, date, author]
   sort: 
-    - "date-modified desc"
     - "date desc"
   type: table # grid, table, default
 #   image-height: 100px
