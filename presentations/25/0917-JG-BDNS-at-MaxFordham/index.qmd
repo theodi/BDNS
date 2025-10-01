@@ -1,8 +1,14 @@
 ---
 title: "BDNS at Max Fordham"
 author: "John Gunstone"
-format: revealjs
-logo: images/logo.png
+format:
+  revealjs:
+    logo: images/logo.png
+    footer: "BDNS | Max Fordham"
+    title-slide-attributes:
+      data-background-image: images/logo.png
+      data-background-size: "500px"
+      data-background-opacity: "0.3"
 ---
 
 ## Quick intro to myself...
@@ -21,6 +27,7 @@ logo: images/logo.png
 ```{mermaid}
 {{< include digital-transformation.mmd >}}
 ```
+<!-- ![](images/digital-transformation.png) -->
 
 ## Engineering Tools at Max Fordham (MF)
 
