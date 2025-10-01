@@ -2,10 +2,11 @@
 title: "BDNS at Max Fordham"
 hide-description: true
 date: "2025-09-17"
-author: j.gunstone
-affiliations:
-  - id: MXF
-    name: Max Fordham LLP
+author: 
+  - name: John Gunstone
+  - affiliations:
+    - id: MXF
+      name: Max Fordham LLP
 ---
 
 ```{=html}
