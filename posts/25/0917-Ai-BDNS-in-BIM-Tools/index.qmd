@@ -4,6 +4,6 @@ author: "山本　愛 (Ai Yamamo)"
 date: "2025-09-17"
 ---
 
-```{html}
+```{=html}
 <embed src="20250917_BDNS-in-BIM-tools.pdf" width="800px" height="600px"/>
 ```
