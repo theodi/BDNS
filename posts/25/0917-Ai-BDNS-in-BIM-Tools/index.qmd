@@ -1,0 +1,9 @@
+---
+title: "BDNS in BIM Tools"
+author: "山本　愛 (Ai Yamamoto)"
+date: "2025-09-17"
+---
+
+```{=html}
+<embed src="20250917_BDNS-in-BIM-tools.pdf" width="800px" height="600px"/>
+```

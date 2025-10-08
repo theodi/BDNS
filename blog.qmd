@@ -1,0 +1,15 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  fields: [title, date, author]
+  sort: 
+    - "date desc"
+  type: table # grid, table, default
+#   image-height: 100px
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---

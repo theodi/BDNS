@@ -24,6 +24,8 @@ website:
         text: Abbreviations Core
       - href: BDNS_BSDD.qmd
         text: BDNS on BSDD
+      - href: blog.qmd
+        text: Blog
 
     right:
       - icon: github

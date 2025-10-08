@@ -1,0 +1,12 @@
+---
+title: "BDNS at Max Fordham"
+hide-description: true
+date: "2025-09-17"
+author: 
+  name: John Gunstone
+  affiliation: Max Fordham LLP
+---
+
+```{=html}
+<iframe width="800" height="600" src="../../../presentations/25/0917-JG-BDNS-at-MaxFordham/index.html" title="presentation"></iframe>
+```

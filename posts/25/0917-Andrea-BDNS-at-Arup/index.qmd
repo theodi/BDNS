@@ -1,0 +1,12 @@
+---
+title: "BDNS at Arup"
+hide-description: true
+date: "2025-09-17"
+author: 
+  name: Andrea Spanu
+  affiliation: Arup
+---
+
+```{=html}
+<embed src="Using-BDNS-in-Arup.pdf" width="800px" height="600px"/>
+```
