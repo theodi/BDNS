@@ -1,0 +1,14 @@
+---
+title: "BDNS IFC Summit"
+hide-description: true
+date: "2025-09-17"
+author: 
+  name: Francesco Anselmo
+  affiliation: Google
+---
+
+Find the agenda for our recent summit here along with some of the history of BDNS and other Smart Buildings standards.
+
+```{=html}
+<embed src="2025-09-17-BDNS-IFC-Summit.pdf" width="800px" height="600px"/>
+```

@@ -4,7 +4,7 @@ title: "BDNS"
 
 # Building Device and Asset Naming Standards initiative
 
-{{< include release.md >}}
+Status: *release* {{< var tag >}}
 
 This repository holds resources for an initiative to improve interoperability in building management, by focusing on standardising naming of building devices and assets.
 

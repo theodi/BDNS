@@ -5,7 +5,7 @@ format:
 ---
 # Building Device and Asset Naming Standards initiative
 
-{{< include release.md >}}
+Status: *release* {{< var tag >}}
 
 # Governance model
 
