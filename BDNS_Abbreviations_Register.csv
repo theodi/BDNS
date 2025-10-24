@@ -377,6 +377,8 @@ fire suppression - sprinkler head terminal,SPH,1,,IfcFireSuppressionTerminalSPRI
 fire suppression - sprinkler isolation valve,SISV,1,,IfcValveISOLATING,IfcValveISOLATING,0
 fire suppression - system gas release panel,FSS,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
 fire suppression - vaporizer panel,VP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
+fire suppression - window drencher pump,WDP,1,HVAC/PMP,IfcPump,IfcPump,0
+fire suppression - window drencher tank,WDT,0,,IfcTankSTORAGE,IfcTank,0
 fire suppression terminal,FSP,1,,IfcFireSuppressionTerminal,IfcFireSuppressionTerminal,1
 flow instrument / gauge,FIN,0,,IfcFlowInstrument,IfcFlowInstrument,1
 food serving - cold plate,FSCPL,0,,IfcElectricAppliance,IfcElectricAppliance,0
