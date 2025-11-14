@@ -22,7 +22,7 @@ air handling unit - heat recovery unit,HRU,1,HVAC/AHU,IfcAirToAirHeatRecovery,If
 air handling unit - make-up air handler,MAU,1,HVAC/MAU,IfcUnitaryEquipmentAIRHANDLER,IfcUnitaryEquipmentAIRHANDLER,0
 air handling unit - roof top unit,RTU,1,HVAC/AHU,IfcUnitaryEquipmentROOFTOPUNIT,IfcUnitaryEquipmentROOFTOPUNIT,0
 air terminal - air valve - extract,EAV,1,,IfcAirTerminal,IfcAirTerminal,0
-air terminal - air valve - supply,SAV,1,,IfcAirTerminal,,0
+air terminal - air valve - supply,SAV,1,,IfcAirTerminal,IfcAirTerminal,0
 air terminal - box,ATB,1,,IfcAirTerminalBox,IfcAirTerminalBox,1
 air terminal - generic,AT,1,,IfcAirTerminal,IfcAirTerminal,1
 air terminal - grille,GR,1,,IfcAirTerminal,IfcAirTerminal,0
@@ -122,6 +122,7 @@ chiller - critical cooling chiller,CCCH,1,HVAC/CH,IfcChiller,IfcChiller,0
 chiller - dry air cooler,DAC,1,HVAC/DC,IfcCondenserAIRCOOLED,IfcCondenserAIRCOOLED,0
 chiller - high temperature chiller,HTCH,1,HVAC/CH,IfcChiller,IfcChiller,0
 chiller - hybrid air cooler or fluid cooler,HYAC,1,HVAC/CH,IfcEvaporativeCooler,IfcEvaporativeCooler,0
+chiller - in row cooler/chiller,IRCL,1,HVAC/CH,IfcChiller,IfcChiller,0
 chiller - low temperature chiller,LTCH,1,HVAC/CH,IfcChiller,IfcChiller,0
 chiller - water cooled chiller,WCCH,1,HVAC/CH,IfcChillerWATERCOOLED,IfcChillerWATERCOOLED,0
 cleaning - floor cleaner scrubber dryer,FCSD,0,,IfcElectricAppliance,IfcElectricAppliance,0
@@ -137,6 +138,7 @@ coil - run around coil,RAC,0,,IfcAirToAirHeatRecoveryRUNAROUNDCOILLOOP,IfcAirToA
 communication appliance,CMA,1,,IfcCommunicationsAppliance,,1
 communication appliance - printing device,PRNTR,0,,IfcCommunicationsAppliancePRINTER,IfcElectricAppliancePRINTER,0
 communication gateway,CGW,1,,IfcCommunicationsApplianceGATEWAY,IfcElectricAppliance,0
+communication gateway (virtual),CGWV,1,,IfcCommunicationsApplianceGATEWAY,IfcElectricAppliance,0
 compressor,CMP,1,HVAC/CMP,IfcCompressor,IfcCompressor,1
 compressor - air compressor,ACP,1,HVAC/CMP,IfcCompressor,IfcCompressor,0
 condensing unit,CDU,1,,IfcCondenser,IfcCondenser,1
@@ -205,8 +207,45 @@ distribution - circuit,DCT,0,,IfcDistributionCircuit,,1
 distribution - system,DSYS,0,,IfcDistributionSystem,,1
 distribution data - coaxial cable,COAXCA,0,,IfcCableSegment,IfcCableSegment,0
 distribution data - data cable,DCA,0,,IfcCableSegment,IfcCableSegment,0
+distribution electric - active harmonic filter,AHF,1,,IfcElectricFlowStorageDeviceHARMONICFILTER,IfcElectricFlowStorageDeviceHARMONICFILTER,0
+distribution electric - automatic transfer switch,ATS,1,,IfcProtectiveDevice,IfcProtectiveDevice,0
+distribution electric - branch circuit panel board 120/208V,LVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - branch circuit panel board 277/480V,HVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - busbar,BB,0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment,0
+distribution electric - busbar tapoff,BBTO,0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment,0
 distribution electric - cable,CA,0,,IfcCableSegment,IfcCableSegment,1
+distribution electric - dc-dc converter,DCDC,0,,IfcTransformer,IfcTransformer,0
+distribution electric - distribution panel / board,DB,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,1
+distribution electric - distribution panel / board - consumer unit,CU,1,ELECTRICAL/PANEL,IfcDistributionBoardCONSUMERUNIT,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - distribution panel 120/208V,LVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - distribution panel 277/480V,HVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - distribution panel for itc equipment,ITDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - electric switch,ELSW,1,,IfcSwitchingDeviceTOGGLESWITCH,IfcSwitchingDeviceTOGGLESWITCH,0
+distribution electric - EVC electric vehicle charging distribution panel,EVDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - EVC electric vehicle charging equipment,EVCE,1,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET,0
 distribution electric - fire rated cable,FCA,0,,IfcCableSegment,IfcCableSegment,0
+distribution electric - high voltage switchboard,HVSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
+distribution electric - invertor,IVT,1,,IfcTransformerINVERTER,IfcTransformer,0
+distribution electric - kitchen electric distribution panel/board,KDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - load bank,LB,1,,IfcElectricFlowStorageDevice,IfcElectricFlowStorageDevice,0
+distribution electric - low voltage switchboard,LVSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
+distribution electric - main panel / board,MPNL,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - main switch panel,MSP,1,ELECTRICAL/PANEL,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
+distribution electric - mains distribution unit,MDU,1,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - mains switchboard,MSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
+distribution electric - mechanical distribution panel / board,MDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - medium voltage switchboard,MVSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
+distribution electric - panel board,PB,1,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - passive harmonic filter,PHF,0,,IfcElectricFlowStorageDeviceHARMONICFILTER,IfcElectricFlowStorageDeviceHARMONICFILTER,0
+distribution electric - power distribution unit,PDU,1,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - power factor correction system,PFC,0,,IfcElectricFlowTreatmentDevice,IfcElectricDistributionPointCONTROLPANEL,0
+distribution electric - rectifier,REC,0,,IfcTransformerRECTIFIER,IfcTransformer,0
+distribution electric - ring main unit,RMU,0,,IfcDistributionBoard,IfcElectricDistributionPoint,0
+distribution electric - rising busbar,RBB,0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment,0
+distribution electric - static transfer switch,STS,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
+distribution electric - switchgear (12kv typ),SWGR,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
+distribution electric - unit substation,USS,1,ELECTRICAL/PANEL,IfcUnitaryEquipment,IfcUnitaryEquipment,0
+distribution electric - ups panel / board,UPSB,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 distribution piped services - pipework,PW,0,,IfcPipeSegment,IfcPipeSegment,1
 distribution piped services - pipework fitting,PWF,0,,IfcPipeFitting,IfcPipeFitting,1
 distribution ventilation - ductwork,DUW,0,,IfcDuctSegment,IfcDuctSegment,1
@@ -239,43 +278,6 @@ electric appliance - hand dryer,HDY,0,,IfcElectricAppliance,IfcElectricAppliance
 electric appliance - oven,OVN,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricApplianceELECTRICCOOKER,0
 electric appliance - scanning device,SCAN,0,,IfcCommunicationsApplianceSCANNER,IfcElectricApplianceSCANNER,0
 electric appliance - steamer,STE,0,,IfcElectricAppliance,IfcElectricAppliance,0
-electric distribution - EVC electric vehicle charging distribution panel,EVDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - EVC electric vehicle charging equipment,EVCE,1,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET,0
-electric distribution - active harmonic filter,AHF,1,,IfcElectricFlowStorageDeviceHARMONICFILTER,IfcElectricFlowStorageDeviceHARMONICFILTER,0
-electric distribution - automatic transfer switch,ATS,1,,IfcProtectiveDevice,IfcProtectiveDevice,0
-electric distribution - branch circuit panel board 120/208V,LVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - branch circuit panel board 277/480V,HVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - busbar,BB,0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment,0
-electric distribution - busbar tapoff,BBTO,0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment,0
-electric distribution - dc-dc converter,DCDC,0,,IfcTransformer,IfcTransformer,0
-electric distribution - distribution panel / board,DB,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,1
-electric distribution - distribution panel / board - consumer unit,CU,1,ELECTRICAL/PANEL,IfcDistributionBoardCONSUMERUNIT,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - distribution panel 120/208V,LVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - distribution panel 277/480V,HVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - distribution panel for itc equipment,ITDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - electric switch,ELSW,1,,IfcSwitchingDeviceTOGGLESWITCH,IfcSwitchingDeviceTOGGLESWITCH,0
-electric distribution - high voltage switchboard,HVSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
-electric distribution - invertor,IVT,1,,IfcTransformerINVERTER,IfcTransformer,0
-electric distribution - kitchen electric distribution panel/board,KDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - load bank,LB,1,,IfcElectricFlowStorageDevice,IfcElectricFlowStorageDevice,0
-electric distribution - low voltage switchboard,LVSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
-electric distribution - main panel / board,MPNL,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - main switch panel,MSP,1,ELECTRICAL/PANEL,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
-electric distribution - mains distribution unit,MDU,1,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - mains switchboard,MSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
-electric distribution - mechanical distribution panel / board,MDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - medium voltage switchboard,MVSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
-electric distribution - panel board,PB,1,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - passive harmonic filter,PHF,0,,IfcElectricFlowStorageDeviceHARMONICFILTER,IfcElectricFlowStorageDeviceHARMONICFILTER,0
-electric distribution - power distribution unit,PDU,1,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-electric distribution - power factor correction system,PFC,0,,IfcElectricFlowTreatmentDevice,IfcElectricDistributionPointCONTROLPANEL,0
-electric distribution - rectifier,REC,0,,IfcTransformerRECTIFIER,IfcTransformer,0
-electric distribution - ring main unit,RMU,0,,IfcDistributionBoard,IfcElectricDistributionPoint,0
-electric distribution - rising busbar,RBB,0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment,0
-electric distribution - static transfer switch,STS,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
-electric distribution - switchgear (12kv typ),SWGR,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
-electric distribution - unit substation,USS,1,ELECTRICAL/PANEL,IfcUnitaryEquipment,IfcUnitaryEquipment,0
-electric distribution - ups panel / board,UPSB,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 electric flow treatment device,EFT,1,,IfcElectricFlowTreatmentDevice,,1
 electric protective device - circuit breaker,CB,1,,IfcProtectiveDeviceCIRCUITBREAKER,IfcProtectiveDeviceCIRCUITBREAKER,0
 electric protective device - disconnect fuse,DSCTF,0,,IfcProtectiveDeviceFUSEDISCONNECTOR,IfcProtectiveDeviceFUSEDISCONNECTOR,0
@@ -453,6 +455,7 @@ ict equipment - network firewall,FW,1,,IfcCommunicationsApplianceNETWORKAPPLIANC
 ict equipment - network monitoring system,NMS,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
 ict equipment - network router,RTR,1,,IfcCommunicationsApplianceROUTER,IfcElectricAppliance,0
 ict equipment - pdu ip dongle,PDUIPD,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
+ict equalizer - personal computer,PC,1,,IfcCommunicationsApplianceCOMPUTER,IfcElectricAppliance,0
 ict equipment - power-over-ethernet network switch,POEETS,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
 ict equipment - software-defined networking controller,SDNC,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
 ict equipment - ups management system,UPSMS,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
@@ -598,6 +601,7 @@ pump - packaged pump set,PAPS,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - potable/domestic water booster pump,DWBP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - potable/domestic water transfer pump,DWTP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - primary chilled water pump,PCHWP,1,HVAC/PMP,IfcPump,IfcPump,0
+pump - primary low temperature hot water pump,PLTHWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - primary pump,PP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - process cooling water pump,PCWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - process water pump,PWP,1,HVAC/PMP,IfcPump,IfcPump,0
@@ -608,6 +612,7 @@ pump - recycled water pump,RWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - secondary chilled water pump,SCHWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - secondary heating circulation pump,SHCP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - secondary hot water circulating pump,SHWP,1,HVAC/PMP,IfcPump,IfcPump,0
+pump - swcondary low temperature hot water pump,SLTHWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - secondary pump,SP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - separator pump,SEPP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - sewage ejector pump,SEP,1,HVAC/PMP,IfcPump,IfcPump,0
