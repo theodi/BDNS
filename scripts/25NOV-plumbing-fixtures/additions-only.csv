@@ -7,7 +7,7 @@ waste terminal - waste trap,WT,0,,IfcWasteTerminalWASTETRAP,IfcWasteTerminalWAST
 sanitary terminal - bath,BATH,0,,IfcSanitaryTerminalBATH,IfcSanitaryTerminalBATH,1
 sanitary terminal - bidet,BIDET,0,,IfcSanitaryTerminalBIDET,IfcSanitaryTerminalBIDET,1
 sanitary terminal - cistern,CIST,0,,IfcSanitaryTerminalCISTERN,IfcSanitaryTerminalCISTERN,1
-sanitary terminal - cistern,DF,1,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalSANITARYFOUNTAIN,1
+sanitary terminal - sanitary fountain,SFN,1,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalSANITARYFOUNTAIN,1
 sanitary terminal - shower,SHW,1,,IfcSanitaryTerminalSHOWER,IfcSanitaryTerminalSHOWER,1
 sanitary terminal - sink,SINK,0,,IfcSanitaryTerminalSINK,IfcSanitaryTerminalSINK,1
 sanitary terminal - WC (toilet),WC,0,,IfcSanitaryTerminalTOILETPAN,IfcSanitaryTerminalTOILETPAN,1
