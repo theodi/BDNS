@@ -258,7 +258,7 @@ door - electromagnetic door holder,EMDH,1,,IfcElectricAppliance,IfcElectricAppli
 door - fire door,FDR,1,SAFETY/FDR,IfcDoorDOOR,IfcDoorStyle,0
 door - latch lock,LLOCK,1,,IfcElectricAppliance,IfcElectricAppliance,0
 door - magnetic lock,MLOCK,1,,IfcElectricAppliance,IfcElectricAppliance,0
-drinking fountain / bottle filler,DF,0,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalSANITARYFOUNTAIN,0
+sanitary terminal - drinking fountain / bottle filler,DF,0,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalSANITARYFOUNTAIN,0
 duct fitting,DFT,0,,IfcDuctFitting,IfcDuctFitting,1
 duct silencer - attenuator,SLCR,0,,IfcDuctSilencer,IfcDuctSilencer,1
 dx system - branch controller/selector box,BCBOX,1,,IfcUnitaryEquipmentSPLITSYSTEM,IfcUnitaryEquipmentSPLITSYSTEM,0
@@ -268,7 +268,7 @@ dx system - variable refrigerant volume unit,VRV,1,,IfcUnitaryEquipmentSPLITSYST
 electric - switching device,SWD,1,,IfcSwitchingDevice,IfcSwitchingDevice,1
 electric appliance,EAPPL,0,,IfcElectricAppliance,IfcElectricAppliance,1
 electric appliance - air dryer,ADY,0,HVAC/ADY,IfcElectricAppliance,IfcElectricAppliance,0
-electric appliance - dishwasher,DW,0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER,0
+electric appliance - dishwasher,DW,0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER,1
 electric appliance - electronic point of sale,EPOS,0,,IfcElectricAppliance,IfcElectricAppliance,0
 electric appliance - exercise / gym equipment,GYMEQ,0,,IfcElectricAppliance,IfcElectricAppliance,0
 electric appliance - food equipment,FOODEQ,0,,IfcElectricAppliance,IfcElectricAppliance,0
@@ -378,7 +378,7 @@ fire suppression - sprinkler flow switch,FS,1,,IfcSwitchingDevice,IfcSwitchingDe
 fire suppression - sprinkler head terminal,SPH,1,,IfcFireSuppressionTerminalSPRINKLER,IfcFireSuppressionTerminalSPRINKLER,0
 fire suppression - sprinkler isolation valve,SISV,1,,IfcValveISOLATING,IfcValveISOLATING,0
 fire suppression - system gas release panel,FSS,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
-fire suppression - vaporizer panel,VP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
+fire suppression - vaporizer panel,VZP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
 fire suppression - window drencher pump,WDP,1,HVAC/PMP,IfcPump,IfcPump,0
 fire suppression - window drencher tank,WDT,0,,IfcTankSTORAGE,IfcTank,0
 fire suppression terminal,FSP,1,,IfcFireSuppressionTerminal,IfcFireSuppressionTerminal,1
