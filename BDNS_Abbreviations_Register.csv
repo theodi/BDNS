@@ -612,7 +612,7 @@ pump - recycled water pump,RWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - secondary chilled water pump,SCHWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - secondary heating circulation pump,SHCP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - secondary hot water circulating pump,SHWP,1,HVAC/PMP,IfcPump,IfcPump,0
-pump - swcondary low temperature hot water pump,SLTHWP,1,HVAC/PMP,IfcPump,IfcPump,0
+pump - secondary low temperature hot water pump,SLTHWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - secondary pump,SP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - separator pump,SEPP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - sewage ejector pump,SEP,1,HVAC/PMP,IfcPump,IfcPump,0
@@ -651,7 +651,6 @@ refrigeration - retarder/proover,REFRP,0,,IfcElectricApplianceREFRIGERATOR,IfcEl
 sand oil interceptor,SOI,0,,IfcInterceptorOIL,IfcWasteTerminalOILINTERCEPTOR,0
 sand separator,SSP,0,,IfcInterceptor,IfcWasteTerminal,0
 sanitary terminal,SAN,0,,IfcSanitaryTerminal,IfcSanitaryTerminal,1
-sanitary terminal - hand wash basin,HWB,0,,IfcSanitaryTerminalWASHHANDBASIN,IfcSanitaryTerminalWASHHANDBASIN,0
 sensor,SNS,1,,IfcSensor,IfcSensor,1
 sensor - CO sensor,COS,1,SENSOR,IfcSensorCOSENSOR,IfcSensorCO2SENSOR,0
 sensor - CO2 sensor,CDS,1,SENSOR,IfcSensorCO2SENSOR,IfcSensorCO2SENSOR,0
