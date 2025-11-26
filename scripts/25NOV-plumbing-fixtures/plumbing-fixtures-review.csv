@@ -1,0 +1,52 @@
+﻿from-issue,asset_description,asset_abbreviation,can_be_connected,dbo_entity_type,ifc4_3,ifc2x3,is_ifc_default,ifc4_3 description
+Plumbing Fixture - Waste Trap #278,waste terminal - floor waste trap,FWT,0,,IfcWasteTerminalFLOORTRAP,,1,"Pipe fitting, set into the floor, that retains liquid to prevent the passage of foul air"
+Floor Gully,waste terminal - floor gully,FG,0,,IfcWasteTerminalFLOORWASTE,,1,"Pipe fitting, set into the floor, that collects waste water and discharges it to a separate trap."
+Gully Sump,waste terminal - gully sump,GUS,0,,IfcWasteTerminalGULLYSUMP,,1,"Pipe fitting or assembly of fittings to receive surface water or waste water, fitted with a grating or sealed cover."
+Rain Water - Outlet #375,waste terminal - roof drain,RD,0,,IfcWasteTerminalROOFDRAIN,,1,"Pipe fitting, set into the roof, that collects rainwater for discharge into the rainwater system."
+Waste Disposal Unit (Macerator),waste terminal - waste disposal unit (macerator),WDU,1,,IfcWasteTerminalWASTEDISPOSALUNIT,,1,Electrically operated device that reduces kitchen or other waste into fragments small enough to be flushed into a drainage system.
+Plumbing Fixture - Waste Trap #278,waste terminal - waste trap,WT,0,,IfcWasteTerminalWASTETRAP,,1,"Pipe fitting, set adjacent to a sanitary terminal, that retains liquid to prevent the passage of foul air."
+,sanitary terminal - bath,BATH,0,,IfcSanitaryTerminalBATH,,1,Sanitary appliance for immersion of the human body or parts of it.
+,sanitary terminal - bidet,BIDET,0,,IfcSanitaryTerminalBIDET,,1,Waste water appliance for washing the excretory organs while sitting astride the bowl.
+Plumbing Fixture Concealed Cistern #275,sanitary terminal - cistern,CIST,0,,IfcSanitaryTerminalCISTERN,,1,"A water storage unit attached to a sanitary terminal that is fitted with a device, operated automatically or by the user, that discharges water to cleanse a water closet (toilet) pan, urinal or slop hopper."
+,sanitary terminal - cistern,DF,1,,IfcSanitaryTerminalSANITARYFOUNTAIN,,1,A sanitary terminal that provides a low pressure jet of water for a specific purpose.
+SHWRH Request to add 'SHWR' for Showers #382,sanitary terminal - shower,SHW,1,,IfcSanitaryTerminalSHOWER,,1,Installation or waste water appliance that emits a spray of water to wash the human body.
+,sanitary terminal - sink,SINK,0,,IfcSanitaryTerminalSINK,,1,"Waste water appliance for receiving, retaining or disposing of domestic, culinary, laboratory or industrial process liquids."
+,sanitary terminal - WC (toilet),WC,0,,IfcSanitaryTerminalTOILETPAN,,1,Soil appliance for the disposal of excrement.
+,sanitary terminal - urinal,UR,0,,IfcSanitaryTerminalURINAL,,1,Soil appliance that receives urine and directs it to a waste outlet.
+,sanitary terminal - wash hand basin,WHB,0,,IfcSanitaryTerminalWASHHANDBASIN,,1,Waste water appliance for washing the upper parts of the body.
+,sanitary terminal - tap,TAP,0,,IfcSanitaryTerminal,,0,
+,sanitary terminal - sensor tap,STAP,1,,IfcSanitaryTerminal,,0,
+Plumbing Fixture - Washroom Trough #279,sanitary terminal - washroom vanity trough,WVT,0,,IfcSanitaryTerminal,,0,
+,stack terminal - birdcage,BDCG,0,,IfcStackTerminalBIRDCAGE,,1,"Guard cage, typically wire mesh, at the top of the stack preventing access by birds."
+,stack terminal - cowl,COWL,0,,IfcStackTerminalCOWL,,1,A cowling placed at the top of a stack to eliminate downdraft.
+,stack terminal - rain water hopper,RWH,0,,IfcStackTerminalRAINWATERHOPPER,,1,A box placed at the top of a rainwater downpipe to catch rainwater from guttering.
+Stubb Stack #260,stack terminal - stubb stack,SS,0,,IfcStackTerminal,,0,
+Vent Pipe #260,stack terminal - vent pipe,VP,0,,IfcStackTerminal,,0,
+Soil Vent Pipe #260,stack terminal - soil vent pipe,SVP,0,,IfcStackTerminal,,0,
+Rodding Eye #260,stack terminal - rodding eye,RE,0,,IfcStackTerminal,,0,
+,interceptor,ITCP,0,,IfcInterceptor,,1,
+,interceptor - cyclonic,ITCPC,0,,IfcInterceptorCYCLONIC,,1,Removes larger liquid drops or larger solid particles.
+,interceptor - grease,ITCPG,0,,IfcInterceptorGREASE,,1,"Chamber, on the line of a drain or discharge pipe, that prevents grease passing into a drainage system."
+,interceptor - oil,ITCPO,0,,IfcInterceptorOIL,,1,One or more chambers arranged to prevent the ingress of oil to a drain or sewer that retains the oil for later removal.
+,interceptor - petrol,ITCPP,0,,IfcInterceptorPETROL,,1,Two or more chambers with inlet and outlet pipes arranged to allow petrol/gasoline collected on the surface of water drained into them to evaporate through ventilating pipes.
+,fire suppression terminal - inlet breaching valve,IBRV,0,,IfcFireSuppressionTerminalBREECHINGINLET,,1,Symmetrical pipe fitting that unites two or more inlets into a single pipe. A breeching inlet may be used on either a wet or dry riser. Used by fire services personnel for fast connection of fire appliance hose reels. May also be used for foam.
+,fire suppression terminal - fire hydrant,FH,0,,IfcFireSuppressionTerminalFIREHYDRANT,,1,"Device, fitted to a pipe, through which a temporary supply of water may be provided. May also be termed a stand pipe."
+,fire suppression terminal - hose reel,HR,0,,IfcFireSuppressionTerminalHOSEREEL,,1,A supporting framework on which a hose may be wound.
+,distibution chamber - inspection chamber,IC,0,,IfcDistributionChamberElementINSPECTIONCHAMBER,,1,"Chamber constructed on a drain, sewer or pipeline with a removable cover that permits visible inspection."
+,distibution chamber - man hole,MH,0,,IfcDistributionChamberElementMANHOLE,,1,"Chamber constructed on a drain, sewer or pipeline with a removable cover that permits the entry of a person."
+,distibution chamber - meter chamber,MTRC,0,,IfcDistributionChamberElementMETERCHAMBER,,1,Chamber that houses a meter(s).
+,distibution chamber - sump,SUMP,0,,IfcDistributionChamberElementSUMP,,1,Recessed or small chamber into which liquid is drained to facilitate its collection for removal.
+,distibution chamber - trench,TRENCH,0,,IfcDistributionChamberElementTRENCH,,1,"Excavated chamber, the length of which typically exceeds the width."
+,distibution chamber - valve chamber,VLVC,0,,IfcDistributionChamberElementVALVECHAMBER,,1,Chamber that houses a valve(s).
+---------------------,---------------------,---------------------,---------------------,---------------------,---------------------,---------------------,---------------------,---------------------
+ALREADY EXIST,,,,,,,,
+,fire suppression - sprinkler head terminal,SPH,1,,IfcFireSuppressionTerminalSPRINKLER,IfcFireSuppressionTerminalSPRINKLER,0,
+,distibution chamber - concrete inspection pit,CIP,0,,IfcDistributionChamberElementINSPECTIONPIT,,1,Recess or chamber formed to permit access for inspection of substructure and services.
+,waste terminal - area drain,AD,0,,IfcWasteTerminal,,1,
+,electric appliance - dishwasher,DW,1,,IfcElectricApplianceDISHWASHER,,1,
+,stack terminal - air admittance valve,AAV,0,HVAC/VLV,IfcValveAIRRELEASE,IfcValveAIRRELEASE,0
+---------------------,---------------------,---------------------,---------------------,---------------------,---------------------,---------------------,---------------------,---------------------
+EXIST IN IFC - IGNORED HERE,,,,,,,,
+,,,,,IfcWasteTerminalGULLYTRAP,,,Pipe fitting or assembly of fittings that receives surface water or waste water; fitted with a grating or sealed cover that discharges water through a trap.
+,,,,,IfcFireSuppressionTerminalFIREMONITOR,,,Fire monitor.
+,,,,,IfcDistributionChamberElementFORMEDDUCT,,,"Space formed in the ground for the passage of pipes, cables, ducts."

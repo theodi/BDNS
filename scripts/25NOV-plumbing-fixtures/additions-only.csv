@@ -1,0 +1,39 @@
+﻿waste terminal - floor waste trap,FWT,0,,IfcWasteTerminalFLOORTRAP,IfcWasteTerminalFLOORTRAP,1
+waste terminal - floor gully,FG,0,,IfcWasteTerminalFLOORWASTE,IfcWasteTerminalFLOORWASTE,1
+waste terminal - gully sump,GUS,0,,IfcWasteTerminalGULLYSUMP,IfcWasteTerminalGULLYSUMP,1
+waste terminal - roof drain,RD,0,,IfcWasteTerminalROOFDRAIN,IfcWasteTerminalROOFDRAIN,1
+waste terminal - waste disposal unit (macerator),WDU,1,,IfcWasteTerminalWASTEDISPOSALUNIT,IfcWasteTerminalWASTEDISPOSALUNIT,1
+waste terminal - waste trap,WT,0,,IfcWasteTerminalWASTETRAP,IfcWasteTerminalWASTETRAP,1
+sanitary terminal - bath,BATH,0,,IfcSanitaryTerminalBATH,IfcSanitaryTerminalBATH,1
+sanitary terminal - bidet,BIDET,0,,IfcSanitaryTerminalBIDET,IfcSanitaryTerminalBIDET,1
+sanitary terminal - cistern,CIST,0,,IfcSanitaryTerminalCISTERN,IfcSanitaryTerminalCISTERN,1
+sanitary terminal - cistern,DF,1,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalSANITARYFOUNTAIN,1
+sanitary terminal - shower,SHW,1,,IfcSanitaryTerminalSHOWER,IfcSanitaryTerminalSHOWER,1
+sanitary terminal - sink,SINK,0,,IfcSanitaryTerminalSINK,IfcSanitaryTerminalSINK,1
+sanitary terminal - WC (toilet),WC,0,,IfcSanitaryTerminalTOILETPAN,IfcSanitaryTerminalTOILETPAN,1
+sanitary terminal - urinal,UR,0,,IfcSanitaryTerminalURINAL,IfcSanitaryTerminalURINAL,1
+sanitary terminal - wash hand basin,WHB,0,,IfcSanitaryTerminalWASHHANDBASIN,IfcSanitaryTerminalWASHHANDBASIN,1
+sanitary terminal - tap,TAP,0,,IfcSanitaryTerminal,IfcSanitaryTerminal,0
+sanitary terminal - sensor tap,STAP,1,,IfcSanitaryTerminal,IfcSanitaryTerminal,0
+sanitary terminal - washroom vanity trough,WVT,0,,IfcSanitaryTerminal,IfcSanitaryTerminal,0
+stack terminal - birdcage,BDCG,0,,IfcStackTerminalBIRDCAGE,IfcStackTerminalBIRDCAGE,1
+stack terminal - cowl,COWL,0,,IfcStackTerminalCOWL,IfcStackTerminalCOWL,1
+stack terminal - rain water hopper,RWH,0,,IfcStackTerminalRAINWATERHOPPER,IfcStackTerminalRAINWATERHOPPER,1
+stack terminal - stubb stack,SS,0,,IfcStackTerminal,IfcStackTerminal,0
+stack terminal - vent pipe,VP,0,,IfcStackTerminal,IfcStackTerminal,0
+stack terminal - soil vent pipe,SVP,0,,IfcStackTerminal,IfcStackTerminal,0
+stack terminal - rodding eye,RE,0,,IfcStackTerminal,IfcStackTerminal,0
+interceptor,ITCP,0,,IfcInterceptor,IfcInterceptor,1
+interceptor - cyclonic,ITCPC,0,,IfcInterceptorCYCLONIC,IfcInterceptorCYCLONIC,1
+interceptor - grease,ITCPG,0,,IfcInterceptorGREASE,IfcInterceptorGREASE,1
+interceptor - oil,ITCPO,0,,IfcInterceptorOIL,IfcInterceptorOIL,1
+interceptor - petrol,ITCPP,0,,IfcInterceptorPETROL,IfcInterceptorPETROL,1
+fire suppression terminal - inlet breaching valve,IBRV,0,,IfcFireSuppressionTerminalBREECHINGINLET,IfcFireSuppressionTerminalBREECHINGINLET,1
+fire suppression terminal - fire hydrant,FH,0,,IfcFireSuppressionTerminalFIREHYDRANT,IfcFireSuppressionTerminalFIREHYDRANT,1
+fire suppression terminal - hose reel,HR,0,,IfcFireSuppressionTerminalHOSEREEL,IfcFireSuppressionTerminalHOSEREEL,1
+distibution chamber - inspection chamber,IC,0,,IfcDistributionChamberElementINSPECTIONCHAMBER,IfcDistributionChamberElementINSPECTIONCHAMBER,1
+distibution chamber - man hole,MH,0,,IfcDistributionChamberElementMANHOLE,IfcDistributionChamberElementMANHOLE,1
+distibution chamber - meter chamber,MTRC,0,,IfcDistributionChamberElementMETERCHAMBER,IfcDistributionChamberElementMETERCHAMBER,1
+distibution chamber - sump,SUMP,0,,IfcDistributionChamberElementSUMP,IfcDistributionChamberElementSUMP,1
+distibution chamber - trench,TRENCH,0,,IfcDistributionChamberElementTRENCH,IfcDistributionChamberElementTRENCH,1
+distibution chamber - valve chamber,VLVC,0,,IfcDistributionChamberElementVALVECHAMBER,IfcDistributionChamberElementVALVECHAMBER,1

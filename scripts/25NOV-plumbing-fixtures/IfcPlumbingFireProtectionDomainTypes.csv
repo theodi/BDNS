@@ -1,0 +1,36 @@
+﻿IfcFireSuppressionTerminal,BREECHINGINLET,Symmetrical pipe fitting that unites two or more inlets into a single pipe. A breeching inlet may be used on either a wet or dry riser. Used by fire services personnel for fast connection of fire appliance hose reels. May also be used for foam.
+IfcFireSuppressionTerminal,FIREHYDRANT,"Device, fitted to a pipe, through which a temporary supply of water may be provided. May also be termed a stand pipe."
+IfcFireSuppressionTerminal,FIREMONITOR,Fire monitor.
+IfcFireSuppressionTerminal,HOSEREEL,A supporting framework on which a hose may be wound.
+IfcFireSuppressionTerminal,SPRINKLER,Device for sprinkling water from a pipe under pressure over an area.
+IfcStackTerminal,BIRDCAGE,"Guard cage, typically wire mesh, at the top of the stack preventing access by birds."
+IfcStackTerminal,COWL,A cowling placed at the top of a stack to eliminate downdraft.
+IfcStackTerminal,RAINWATERHOPPER,A box placed at the top of a rainwater downpipe to catch rainwater from guttering.
+IfcInterceptor,CYCLONIC,Removes larger liquid drops or larger solid particles.
+IfcInterceptor,GREASE,"Chamber, on the line of a drain or discharge pipe, that prevents grease passing into a drainage system."
+IfcInterceptor,OIL,One or more chambers arranged to prevent the ingress of oil to a drain or sewer that retains the oil for later removal.
+IfcInterceptor,PETROL,Two or more chambers with inlet and outlet pipes arranged to allow petrol/gasoline collected on the surface of water drained into them to evaporate through ventilating pipes.
+IfcWasteTerminal,FLOORTRAP,"Pipe fitting, set into the floor, that retains liquid to prevent the passage of foul air"
+IfcWasteTerminal,FLOORWASTE,"Pipe fitting, set into the floor, that collects waste water and discharges it to a separate trap."
+IfcWasteTerminal,GULLYSUMP,"Pipe fitting or assembly of fittings to receive surface water or waste water, fitted with a grating or sealed cover."
+IfcWasteTerminal,GULLYTRAP,Pipe fitting or assembly of fittings that receives surface water or waste water; fitted with a grating or sealed cover that discharges water through a trap.
+IfcWasteTerminal,ROOFDRAIN,"Pipe fitting, set into the roof, that collects rainwater for discharge into the rainwater system."
+IfcWasteTerminal,WASTEDISPOSALUNIT,Electrically operated device that reduces kitchen or other waste into fragments small enough to be flushed into a drainage system.
+IfcWasteTerminal,WASTETRAP,"Pipe fitting, set adjacent to a sanitary terminal, that retains liquid to prevent the passage of foul air."
+IfcSanitaryTerminal,BATH,Sanitary appliance for immersion of the human body or parts of it.
+IfcSanitaryTerminal,BIDET,Waste water appliance for washing the excretory organs while sitting astride the bowl.
+IfcSanitaryTerminal,CISTERN,"A water storage unit attached to a sanitary terminal that is fitted with a device, operated automatically or by the user, that discharges water to cleanse a water closet (toilet) pan, urinal or slop hopper."
+IfcSanitaryTerminal,SANITARYFOUNTAIN,A sanitary terminal that provides a low pressure jet of water for a specific purpose.
+IfcSanitaryTerminal,SHOWER,Installation or waste water appliance that emits a spray of water to wash the human body.
+IfcSanitaryTerminal,SINK,"Waste water appliance for receiving, retaining or disposing of domestic, culinary, laboratory or industrial process liquids."
+IfcSanitaryTerminal,TOILETPAN,Soil appliance for the disposal of excrement.
+IfcSanitaryTerminal,URINAL,Soil appliance that receives urine and directs it to a waste outlet.
+IfcSanitaryTerminal,WASHHANDBASIN,Waste water appliance for washing the upper parts of the body.
+IfcDistributionChamberElement,FORMEDDUCT,"Space formed in the ground for the passage of pipes, cables, ducts."
+IfcDistributionChamberElement,INSPECTIONCHAMBER,"Chamber constructed on a drain, sewer or pipeline with a removable cover that permits visible inspection."
+IfcDistributionChamberElement,INSPECTIONPIT,Recess or chamber formed to permit access for inspection of substructure and services.
+IfcDistributionChamberElement,MANHOLE,"Chamber constructed on a drain, sewer or pipeline with a removable cover that permits the entry of a person."
+IfcDistributionChamberElement,METERCHAMBER,Chamber that houses a meter(s).
+IfcDistributionChamberElement,SUMP,Recessed or small chamber into which liquid is drained to facilitate its collection for removal.
+IfcDistributionChamberElement,TRENCH,"Excavated chamber, the length of which typically exceeds the width."
+IfcDistributionChamberElement,VALVECHAMBER,Chamber that houses a valve(s).
