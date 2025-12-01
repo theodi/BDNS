@@ -454,7 +454,7 @@ high level interface,HLI,1,,IfcControllerPROGRAMMABLE,IfcController,0
 horn strobe,HS,1,SAFETY/HS,IfcAlarmSIREN,IfcAlarmSIREN,0
 human machine interface,HMI,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
 humidifier,HUM,1,HVAC/HUM,IfcHumidifier,IfcHumidifier,1
-ict equalizer - personal computer,PC,1,,IfcCommunicationsApplianceCOMPUTER,IfcElectricAppliance,0
+ict equipment - personal computer,PC,1,,IfcCommunicationsApplianceCOMPUTER,IfcElectricAppliance,0
 ict equipment - ethernet switch,ETS,1,,IfcCommunicationsApplianceNETWORKBRIDGE,IfcElectricAppliance,0
 ict equipment - fibre switch,FBS,1,,IfcCommunicationsApplianceNETWORKBRIDGE,IfcElectricAppliance,0
 ict equipment - intermediate distribution frame,IDF,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
