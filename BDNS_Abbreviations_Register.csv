@@ -202,11 +202,19 @@ dispenser - juice,DISPJ,0,,IfcElectricAppliance,IfcElectricAppliance,0
 dispenser - milk,DISPMK,0,,IfcElectricAppliance,IfcElectricAppliance,0
 dispenser - soft serve ice cream,DISPIC,0,,IfcElectricAppliance,IfcElectricAppliance,0
 dispenser - water,DISPW,0,,IfcElectricAppliance,IfcElectricAppliance,0
+distibution chamber - inspection chamber,IC,0,,IfcDistributionChamberElementINSPECTIONCHAMBER,IfcDistributionChamberElementINSPECTIONCHAMBER,1
+distibution chamber - man hole,MH,0,,IfcDistributionChamberElementMANHOLE,IfcDistributionChamberElementMANHOLE,1
+distibution chamber - meter chamber,MTRC,0,,IfcDistributionChamberElementMETERCHAMBER,IfcDistributionChamberElementMETERCHAMBER,1
+distibution chamber - sump,SUMP,0,,IfcDistributionChamberElementSUMP,IfcDistributionChamberElementSUMP,1
+distibution chamber - trench,TRENCH,0,,IfcDistributionChamberElementTRENCH,IfcDistributionChamberElementTRENCH,1
+distibution chamber - valve chamber,VLVC,0,,IfcDistributionChamberElementVALVECHAMBER,IfcDistributionChamberElementVALVECHAMBER,1
 distribution - chamber,DCE,0,,IfcDistributionChamberElement,IfcDistributionChamberElement,1
 distribution - circuit,DCT,0,,IfcDistributionCircuit,,1
 distribution - system,DSYS,0,,IfcDistributionSystem,,1
 distribution data - coaxial cable,COAXCA,0,,IfcCableSegment,IfcCableSegment,0
 distribution data - data cable,DCA,0,,IfcCableSegment,IfcCableSegment,0
+distribution electric - EVC electric vehicle charging distribution panel,EVDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - EVC electric vehicle charging equipment,EVCE,1,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET,0
 distribution electric - active harmonic filter,AHF,1,,IfcElectricFlowStorageDeviceHARMONICFILTER,IfcElectricFlowStorageDeviceHARMONICFILTER,0
 distribution electric - automatic transfer switch,ATS,1,,IfcProtectiveDevice,IfcProtectiveDevice,0
 distribution electric - branch circuit panel board 120/208V,LVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
@@ -221,8 +229,6 @@ distribution electric - distribution panel 120/208V,LVDP,1,ELECTRICAL/PANEL,IfcD
 distribution electric - distribution panel 277/480V,HVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 distribution electric - distribution panel for itc equipment,ITDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 distribution electric - electric switch,ELSW,1,,IfcSwitchingDeviceTOGGLESWITCH,IfcSwitchingDeviceTOGGLESWITCH,0
-distribution electric - EVC electric vehicle charging distribution panel,EVDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-distribution electric - EVC electric vehicle charging equipment,EVCE,1,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET,0
 distribution electric - fire rated cable,FCA,0,,IfcCableSegment,IfcCableSegment,0
 distribution electric - high voltage switchboard,HVSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
 distribution electric - invertor,IVT,1,,IfcTransformerINVERTER,IfcTransformer,0
@@ -249,16 +255,15 @@ distribution electric - ups panel / board,UPSB,1,ELECTRICAL/PANEL,IfcDistributio
 distribution piped services - pipework,PW,0,,IfcPipeSegment,IfcPipeSegment,1
 distribution piped services - pipework fitting,PWF,0,,IfcPipeFitting,IfcPipeFitting,1
 distribution ventilation - ductwork,DUW,0,,IfcDuctSegment,IfcDuctSegment,1
-distribution ventilation - ductwork fitting,DUWF,0,,IfcDuctFitting,IfcDuctFitting,1
 distribution ventilation - ductwork fire rated,FDUW,0,,IfcDuctSegment,IfcDuctSegment,0
 distribution ventilation - ductwork fire rated fitting,FDUWF,0,,IfcDuctFitting,IfcDuctFitting,0
+distribution ventilation - ductwork fitting,DUWF,0,,IfcDuctFitting,IfcDuctFitting,1
 door,DR,1,,IfcDoorDOOR,IfcDoorStyle,0
 door - electric lock,ELOCK,1,,IfcElectricAppliance,IfcElectricAppliance,0
 door - electromagnetic door holder,EMDH,1,,IfcElectricAppliance,IfcElectricAppliance,0
 door - fire door,FDR,1,SAFETY/FDR,IfcDoorDOOR,IfcDoorStyle,0
 door - latch lock,LLOCK,1,,IfcElectricAppliance,IfcElectricAppliance,0
 door - magnetic lock,MLOCK,1,,IfcElectricAppliance,IfcElectricAppliance,0
-drinking fountain / bottle filler,DF,0,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalSANITARYFOUNTAIN,0
 duct fitting,DFT,0,,IfcDuctFitting,IfcDuctFitting,1
 duct silencer - attenuator,SLCR,0,,IfcDuctSilencer,IfcDuctSilencer,1
 dx system - branch controller/selector box,BCBOX,1,,IfcUnitaryEquipmentSPLITSYSTEM,IfcUnitaryEquipmentSPLITSYSTEM,0
@@ -268,7 +273,7 @@ dx system - variable refrigerant volume unit,VRV,1,,IfcUnitaryEquipmentSPLITSYST
 electric - switching device,SWD,1,,IfcSwitchingDevice,IfcSwitchingDevice,1
 electric appliance,EAPPL,0,,IfcElectricAppliance,IfcElectricAppliance,1
 electric appliance - air dryer,ADY,0,HVAC/ADY,IfcElectricAppliance,IfcElectricAppliance,0
-electric appliance - dishwasher,DW,0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER,0
+electric appliance - dishwasher,DW,0,,IfcElectricApplianceDISHWASHER,IfcElectricApplianceDISHWASHER,1
 electric appliance - electronic point of sale,EPOS,0,,IfcElectricAppliance,IfcElectricAppliance,0
 electric appliance - exercise / gym equipment,GYMEQ,0,,IfcElectricAppliance,IfcElectricAppliance,0
 electric appliance - food equipment,FOODEQ,0,,IfcElectricAppliance,IfcElectricAppliance,0
@@ -378,10 +383,13 @@ fire suppression - sprinkler flow switch,FS,1,,IfcSwitchingDevice,IfcSwitchingDe
 fire suppression - sprinkler head terminal,SPH,1,,IfcFireSuppressionTerminalSPRINKLER,IfcFireSuppressionTerminalSPRINKLER,0
 fire suppression - sprinkler isolation valve,SISV,1,,IfcValveISOLATING,IfcValveISOLATING,0
 fire suppression - system gas release panel,FSS,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
-fire suppression - vaporizer panel,VP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
+fire suppression - vaporizer panel,VZP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
 fire suppression - window drencher pump,WDP,1,HVAC/PMP,IfcPump,IfcPump,0
 fire suppression - window drencher tank,WDT,0,,IfcTankSTORAGE,IfcTank,0
 fire suppression terminal,FSP,1,,IfcFireSuppressionTerminal,IfcFireSuppressionTerminal,1
+fire suppression terminal - fire hydrant,FH,0,,IfcFireSuppressionTerminalFIREHYDRANT,IfcFireSuppressionTerminalFIREHYDRANT,1
+fire suppression terminal - hose reel,HR,0,,IfcFireSuppressionTerminalHOSEREEL,IfcFireSuppressionTerminalHOSEREEL,1
+fire suppression terminal - inlet breaching valve,IBRV,0,,IfcFireSuppressionTerminalBREECHINGINLET,IfcFireSuppressionTerminalBREECHINGINLET,1
 flow instrument / gauge,FIN,0,,IfcFlowInstrument,IfcFlowInstrument,1
 food serving - cold plate,FSCPL,0,,IfcElectricAppliance,IfcElectricAppliance,0
 food serving - cold well,FSCWL,0,,IfcElectricAppliance,IfcElectricAppliance,0
@@ -402,9 +410,9 @@ furniture - commercial kitchen storage cabinet,KSTC,0,,IfcFurniture,IfcFurniture
 furniture - commercial kitchen storage cabinet heated,KSTCH,0,,IfcElectricAppliance,IfcElectricAppliance,0
 furniture - commercial kitchen table,KTBL,0,,IfcFurnitureSHELF,IfcFurniture,0
 furniture - commercial kitchen trolley/cart,KCART,0,,IfcFurniture,IfcFurniture,0
+furniture - commercial kitchen utility chase system,KUCS,0,,IfcDistributionSystem,,0
 furniture - commercial kitchen utility distribution system,KUDS,0,,IfcDistributionSystem,,0
 furniture - commercial kitchen wall mounted glass rack,KWMGR,0,,IfcFurnitureSHELF,IfcFurniture,0
-furniture - commercial kitchen utility chase system,KUCS,0,,IfcDistributionSystem,,0
 furniture - desk,DESK,0,,IfcFurnitureDESK,IfcFurniture,0
 furniture - emergency eyewash station,EEW,0,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalSANITARYFOUNTAIN,0
 furniture - locker,LCKR,1,,IfcFurniture,IfcFurniture,0
@@ -446,6 +454,7 @@ high level interface,HLI,1,,IfcControllerPROGRAMMABLE,IfcController,0
 horn strobe,HS,1,SAFETY/HS,IfcAlarmSIREN,IfcAlarmSIREN,0
 human machine interface,HMI,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
 humidifier,HUM,1,HVAC/HUM,IfcHumidifier,IfcHumidifier,1
+ict equipment - personal computer,PC,1,,IfcCommunicationsApplianceCOMPUTER,IfcElectricAppliance,0
 ict equipment - ethernet switch,ETS,1,,IfcCommunicationsApplianceNETWORKBRIDGE,IfcElectricAppliance,0
 ict equipment - fibre switch,FBS,1,,IfcCommunicationsApplianceNETWORKBRIDGE,IfcElectricAppliance,0
 ict equipment - intermediate distribution frame,IDF,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
@@ -455,7 +464,6 @@ ict equipment - network firewall,FW,1,,IfcCommunicationsApplianceNETWORKAPPLIANC
 ict equipment - network monitoring system,NMS,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
 ict equipment - network router,RTR,1,,IfcCommunicationsApplianceROUTER,IfcElectricAppliance,0
 ict equipment - pdu ip dongle,PDUIPD,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
-ict equalizer - personal computer,PC,1,,IfcCommunicationsApplianceCOMPUTER,IfcElectricAppliance,0
 ict equipment - power-over-ethernet network switch,POEETS,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
 ict equipment - software-defined networking controller,SDNC,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
 ict equipment - ups management system,UPSMS,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
@@ -464,6 +472,11 @@ ict equipment - wireless access point,WAP,1,,IfcCommunicationsApplianceROUTER,If
 ict equipment - wireless lan controller,WLC,1,,IfcControllerPROGRAMMABLE,IfcController,0
 impact protection device,IPD,0,,IfcImpactProtectionDevice,,1
 interceptor,INT,0,,IfcInterceptor,,1
+interceptor,ITCP,0,,IfcInterceptor,IfcInterceptor,1
+interceptor - cyclonic,ITCPC,0,,IfcInterceptorCYCLONIC,IfcInterceptorCYCLONIC,1
+interceptor - grease,ITCPG,0,,IfcInterceptorGREASE,IfcInterceptorGREASE,1
+interceptor - oil,ITCPO,0,,IfcInterceptorOIL,IfcInterceptorOIL,1
+interceptor - petrol,ITCPP,0,,IfcInterceptorPETROL,IfcInterceptorPETROL,1
 junction box,JB,0,,IfcJunctionBox,IfcJunctionBox,1
 kitchen appliance - blender/smoothie maker,KSMBL,0,,IfcElectricAppliance,IfcElectricAppliance,0
 kitchen appliance - bowl blender,KBBL,0,,IfcElectricAppliance,IfcElectricAppliance,0
@@ -612,7 +625,7 @@ pump - recycled water pump,RWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - secondary chilled water pump,SCHWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - secondary heating circulation pump,SHCP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - secondary hot water circulating pump,SHWP,1,HVAC/PMP,IfcPump,IfcPump,0
-pump - swcondary low temperature hot water pump,SLTHWP,1,HVAC/PMP,IfcPump,IfcPump,0
+pump - secondary low temperature hot water pump,SLTHWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - secondary pump,SP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - separator pump,SEPP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - sewage ejector pump,SEP,1,HVAC/PMP,IfcPump,IfcPump,0
@@ -651,7 +664,19 @@ refrigeration - retarder/proover,REFRP,0,,IfcElectricApplianceREFRIGERATOR,IfcEl
 sand oil interceptor,SOI,0,,IfcInterceptorOIL,IfcWasteTerminalOILINTERCEPTOR,0
 sand separator,SSP,0,,IfcInterceptor,IfcWasteTerminal,0
 sanitary terminal,SAN,0,,IfcSanitaryTerminal,IfcSanitaryTerminal,1
-sanitary terminal - hand wash basin,HWB,0,,IfcSanitaryTerminalWASHHANDBASIN,IfcSanitaryTerminalWASHHANDBASIN,0
+sanitary terminal - WC (toilet),WC,0,,IfcSanitaryTerminalTOILETPAN,IfcSanitaryTerminalTOILETPAN,1
+sanitary terminal - bath,BATH,0,,IfcSanitaryTerminalBATH,IfcSanitaryTerminalBATH,1
+sanitary terminal - bidet,BIDET,0,,IfcSanitaryTerminalBIDET,IfcSanitaryTerminalBIDET,1
+sanitary terminal - cistern,CIST,0,,IfcSanitaryTerminalCISTERN,IfcSanitaryTerminalCISTERN,1
+sanitary terminal - drinking fountain / bottle filler,DF,0,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalSANITARYFOUNTAIN,0
+sanitary terminal - sanitary fountain,SFN,1,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalSANITARYFOUNTAIN,1
+sanitary terminal - sensor tap,STAP,1,,IfcSanitaryTerminal,IfcSanitaryTerminal,0
+sanitary terminal - shower,SHW,1,,IfcSanitaryTerminalSHOWER,IfcSanitaryTerminalSHOWER,1
+sanitary terminal - sink,SINK,0,,IfcSanitaryTerminalSINK,IfcSanitaryTerminalSINK,1
+sanitary terminal - tap,TAP,0,,IfcSanitaryTerminal,IfcSanitaryTerminal,0
+sanitary terminal - urinal,UR,0,,IfcSanitaryTerminalURINAL,IfcSanitaryTerminalURINAL,1
+sanitary terminal - wash hand basin,WHB,0,,IfcSanitaryTerminalWASHHANDBASIN,IfcSanitaryTerminalWASHHANDBASIN,1
+sanitary terminal - washroom vanity trough,WVT,0,,IfcSanitaryTerminal,IfcSanitaryTerminal,0
 sensor,SNS,1,,IfcSensor,IfcSensor,1
 sensor - CO sensor,COS,1,SENSOR,IfcSensorCOSENSOR,IfcSensorCO2SENSOR,0
 sensor - CO2 sensor,CDS,1,SENSOR,IfcSensorCO2SENSOR,IfcSensorCO2SENSOR,0
@@ -696,6 +721,13 @@ signal - beacon,BCN,1,,IfcAlarmLIGHT,IfcAlarmLIGHT,0
 solar device,SOL,1,,IfcSolarDevice,,1
 space,SPACE,0,,IfcSpace,IfcSpace,1
 spatial zone,SZONE,0,,IfcSpatialZone,,1
+stack terminal - birdcage,BDCG,0,,IfcStackTerminalBIRDCAGE,IfcStackTerminalBIRDCAGE,1
+stack terminal - cowl,COWL,0,,IfcStackTerminalCOWL,IfcStackTerminalCOWL,1
+stack terminal - rain water hopper,RWH,0,,IfcStackTerminalRAINWATERHOPPER,IfcStackTerminalRAINWATERHOPPER,1
+stack terminal - rodding eye,RE,0,,IfcStackTerminal,IfcStackTerminal,0
+stack terminal - soil vent pipe,SVP,0,,IfcStackTerminal,IfcStackTerminal,0
+stack terminal - stubb stack,SS,0,,IfcStackTerminal,IfcStackTerminal,0
+stack terminal - vent pipe,VP,0,,IfcStackTerminal,IfcStackTerminal,0
 structure -  caisson foundation,CFN,0,,IfcCaissonFoundation,,1
 structure - anchor,TAN,0,,IfcTendonAnchor,IfcTendonAnchor,1
 structure - beam,BEAM,0,,IfcBeam,IfcBeam,1
@@ -883,6 +915,12 @@ waste management - waste compactor,WSTC,0,,IfcElectricAppliance,IfcElectricAppli
 waste management - wet waste grinder,WSTWG,0,,IfcElectricAppliance,IfcElectricAppliance,0
 waste terminal,WSTT,1,,IfcWasteTerminal,IfcWasteTerminal,1
 waste terminal - area drain,AD,0,,IfcWasteTerminal,IfcWasteTerminal,0
+waste terminal - floor gully,FG,0,,IfcWasteTerminalFLOORWASTE,IfcWasteTerminalFLOORWASTE,1
+waste terminal - floor waste trap,FWT,0,,IfcWasteTerminalFLOORTRAP,IfcWasteTerminalFLOORTRAP,1
+waste terminal - gully sump,GUS,0,,IfcWasteTerminalGULLYSUMP,IfcWasteTerminalGULLYSUMP,1
+waste terminal - roof drain,RD,0,,IfcWasteTerminalROOFDRAIN,IfcWasteTerminalROOFDRAIN,1
+waste terminal - waste disposal unit (macerator),WDU,1,,IfcWasteTerminalWASTEDISPOSALUNIT,IfcWasteTerminalWASTEDISPOSALUNIT,1
+waste terminal - waste trap,WT,0,,IfcWasteTerminalWASTETRAP,IfcWasteTerminalWASTETRAP,1
 water heater - domestic electric water heater,DEWH,0,HVAC/HWS,IfcElectricApplianceFREESTANDINGWATERHEATER,IfcElectricApplianceWATERHEATER,0
 water heater - domestic gas water heater,DGWH,0,HVAC/HWS,IfcBoilerWATER,IfcBoilerWATER,0
 water heater - electric water heater,EWH,0,HVAC/HWS,IfcElectricApplianceFREESTANDINGWATERHEATER,IfcElectricApplianceWATERHEATER,0
