@@ -454,7 +454,6 @@ high level interface,HLI,1,,IfcControllerPROGRAMMABLE,IfcController,0
 horn strobe,HS,1,SAFETY/HS,IfcAlarmSIREN,IfcAlarmSIREN,0
 human machine interface,HMI,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
 humidifier,HUM,1,HVAC/HUM,IfcHumidifier,IfcHumidifier,1
-ict equipment - personal computer,PC,1,,IfcCommunicationsApplianceCOMPUTER,IfcElectricAppliance,0
 ict equipment - ethernet switch,ETS,1,,IfcCommunicationsApplianceNETWORKBRIDGE,IfcElectricAppliance,0
 ict equipment - fibre switch,FBS,1,,IfcCommunicationsApplianceNETWORKBRIDGE,IfcElectricAppliance,0
 ict equipment - intermediate distribution frame,IDF,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
@@ -464,6 +463,7 @@ ict equipment - network firewall,FW,1,,IfcCommunicationsApplianceNETWORKAPPLIANC
 ict equipment - network monitoring system,NMS,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
 ict equipment - network router,RTR,1,,IfcCommunicationsApplianceROUTER,IfcElectricAppliance,0
 ict equipment - pdu ip dongle,PDUIPD,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
+ict equipment - personal computer,PC,1,,IfcCommunicationsApplianceCOMPUTER,IfcElectricAppliance,0
 ict equipment - power-over-ethernet network switch,POEETS,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
 ict equipment - software-defined networking controller,SDNC,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
 ict equipment - ups management system,UPSMS,1,,IfcCommunicationsAppliance,IfcElectricAppliance,0
@@ -682,6 +682,7 @@ sensor - CO sensor,COS,1,SENSOR,IfcSensorCOSENSOR,IfcSensorCO2SENSOR,0
 sensor - CO2 sensor,CDS,1,SENSOR,IfcSensorCO2SENSOR,IfcSensorCO2SENSOR,0
 sensor - condensation water sensor,CS,1,SENSOR,IfcSensorTEMPERATURESENSOR,IfcSensorTEMPERATURESENSOR,0
 sensor - contact sensor,CNTS,1,SENSOR,IfcSensorCONTACTSENSOR,IfcSensor,0
+sensor - corrosion sensor,CRRS,1,SENSOR,IfcSensor,IfcSensor,0
 sensor - differential pressure sensor,DPS,1,SENSOR,IfcSensorPRESSURESENSOR,IfcSensorPRESSURESENSOR,0
 sensor - glycol protector sensor,GLYPR,1,SENSOR,IfcSensor,IfcSensor,0
 sensor - humidity sensor,HMS,1,SENSOR,IfcSensorHUMIDITYSENSOR,IfcSensorHUMIDITYSENSOR,0
