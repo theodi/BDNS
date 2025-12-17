@@ -3,7 +3,7 @@
     "OrganizationCode": "bdns",
     "DictionaryCode": "bdns",
     "DictionaryName": "Building Device Naming Syntax",
-    "DictionaryVersion": "2.1.2",
+    "DictionaryVersion": "2.1.3",
     "LanguageIsoCode": "EN",
     "Status": "Preview",
     "Classes": [
@@ -1293,6 +1293,17 @@
             "ParentClassCode": "EVCL"
         },
         {
+            "Code": "IRCL",
+            "Name": "chiller - in row cooler/chiller",
+            "Definition": "chiller - in row cooler/chiller",
+            "Description": "chiller - in row cooler/chiller",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcChiller"
+            ],
+            "ParentClassCode": "CH"
+        },
+        {
             "Code": "LTCH",
             "Name": "chiller - low temperature chiller",
             "Definition": "chiller - low temperature chiller",
@@ -1439,6 +1450,16 @@
             "Name": "communication gateway",
             "Definition": "communication gateway",
             "Description": "communication gateway",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcCommunicationsApplianceGATEWAY"
+            ]
+        },
+        {
+            "Code": "CGWV",
+            "Name": "communication gateway (virtual)",
+            "Definition": "communication gateway (virtual)",
+            "Description": "communication gateway (virtual)",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcCommunicationsApplianceGATEWAY"
@@ -2098,6 +2119,66 @@
             "ParentClassCode": "EAPPL"
         },
         {
+            "Code": "IC",
+            "Name": "distibution chamber - inspection chamber",
+            "Definition": "distibution chamber - inspection chamber",
+            "Description": "distibution chamber - inspection chamber",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionChamberElementINSPECTIONCHAMBER"
+            ]
+        },
+        {
+            "Code": "MH",
+            "Name": "distibution chamber - man hole",
+            "Definition": "distibution chamber - man hole",
+            "Description": "distibution chamber - man hole",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionChamberElementMANHOLE"
+            ]
+        },
+        {
+            "Code": "MTRC",
+            "Name": "distibution chamber - meter chamber",
+            "Definition": "distibution chamber - meter chamber",
+            "Description": "distibution chamber - meter chamber",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionChamberElementMETERCHAMBER"
+            ]
+        },
+        {
+            "Code": "SUMP",
+            "Name": "distibution chamber - sump",
+            "Definition": "distibution chamber - sump",
+            "Description": "distibution chamber - sump",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionChamberElementSUMP"
+            ]
+        },
+        {
+            "Code": "TRENCH",
+            "Name": "distibution chamber - trench",
+            "Definition": "distibution chamber - trench",
+            "Description": "distibution chamber - trench",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionChamberElementTRENCH"
+            ]
+        },
+        {
+            "Code": "VLVC",
+            "Name": "distibution chamber - valve chamber",
+            "Definition": "distibution chamber - valve chamber",
+            "Description": "distibution chamber - valve chamber",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionChamberElementVALVECHAMBER"
+            ]
+        },
+        {
             "Code": "DCE",
             "Name": "distribution - chamber",
             "Definition": "distribution - chamber",
@@ -2150,6 +2231,90 @@
             "ParentClassCode": "CA"
         },
         {
+            "Code": "EVDP",
+            "Name": "distribution electric - EVC electric vehicle charging distribution panel",
+            "Definition": "distribution electric - EVC electric vehicle charging distribution panel",
+            "Description": "distribution electric - EVC electric vehicle charging distribution panel",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoard"
+            ],
+            "ParentClassCode": "DB"
+        },
+        {
+            "Code": "EVCE",
+            "Name": "distribution electric - EVC electric vehicle charging equipment",
+            "Definition": "distribution electric - EVC electric vehicle charging equipment",
+            "Description": "distribution electric - EVC electric vehicle charging equipment",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcOutletPOWEROUTLET"
+            ]
+        },
+        {
+            "Code": "AHF",
+            "Name": "distribution electric - active harmonic filter",
+            "Definition": "distribution electric - active harmonic filter",
+            "Description": "distribution electric - active harmonic filter",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcElectricFlowStorageDeviceHARMONICFILTER"
+            ]
+        },
+        {
+            "Code": "ATS",
+            "Name": "distribution electric - automatic transfer switch",
+            "Definition": "distribution electric - automatic transfer switch",
+            "Description": "distribution electric - automatic transfer switch",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcProtectiveDevice"
+            ],
+            "ParentClassCode": "PDV"
+        },
+        {
+            "Code": "LVCPB",
+            "Name": "distribution electric - branch circuit panel board 120/208V",
+            "Definition": "distribution electric - branch circuit panel board 120/208V",
+            "Description": "distribution electric - branch circuit panel board 120/208V",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoard"
+            ],
+            "ParentClassCode": "DB"
+        },
+        {
+            "Code": "HVCPB",
+            "Name": "distribution electric - branch circuit panel board 277/480V",
+            "Definition": "distribution electric - branch circuit panel board 277/480V",
+            "Description": "distribution electric - branch circuit panel board 277/480V",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoard"
+            ],
+            "ParentClassCode": "DB"
+        },
+        {
+            "Code": "BB",
+            "Name": "distribution electric - busbar",
+            "Definition": "distribution electric - busbar",
+            "Description": "distribution electric - busbar",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcCableSegmentBUSBARSEGMENT"
+            ]
+        },
+        {
+            "Code": "BBTO",
+            "Name": "distribution electric - busbar tapoff",
+            "Definition": "distribution electric - busbar tapoff",
+            "Description": "distribution electric - busbar tapoff",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcCableSegmentBUSBARSEGMENT"
+            ]
+        },
+        {
             "Code": "CA",
             "Name": "distribution electric - cable",
             "Definition": "distribution electric - cable",
@@ -2157,6 +2322,78 @@
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcCableSegment"
+            ]
+        },
+        {
+            "Code": "DCDC",
+            "Name": "distribution electric - dc-dc converter",
+            "Definition": "distribution electric - dc-dc converter",
+            "Description": "distribution electric - dc-dc converter",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcTransformer"
+            ],
+            "ParentClassCode": "TXMR"
+        },
+        {
+            "Code": "DB",
+            "Name": "distribution electric - distribution panel / board",
+            "Definition": "distribution electric - distribution panel / board",
+            "Description": "distribution electric - distribution panel / board",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoard"
+            ]
+        },
+        {
+            "Code": "CU",
+            "Name": "distribution electric - distribution panel / board - consumer unit",
+            "Definition": "distribution electric - distribution panel / board - consumer unit",
+            "Description": "distribution electric - distribution panel / board - consumer unit",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoardCONSUMERUNIT"
+            ]
+        },
+        {
+            "Code": "LVDP",
+            "Name": "distribution electric - distribution panel 120/208V",
+            "Definition": "distribution electric - distribution panel 120/208V",
+            "Description": "distribution electric - distribution panel 120/208V",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoardDISTRIBUTIONBOARD"
+            ]
+        },
+        {
+            "Code": "HVDP",
+            "Name": "distribution electric - distribution panel 277/480V",
+            "Definition": "distribution electric - distribution panel 277/480V",
+            "Description": "distribution electric - distribution panel 277/480V",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoardDISTRIBUTIONBOARD"
+            ]
+        },
+        {
+            "Code": "ITDP",
+            "Name": "distribution electric - distribution panel for itc equipment",
+            "Definition": "distribution electric - distribution panel for itc equipment",
+            "Description": "distribution electric - distribution panel for itc equipment",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoard"
+            ],
+            "ParentClassCode": "DB"
+        },
+        {
+            "Code": "ELSW",
+            "Name": "distribution electric - electric switch",
+            "Definition": "distribution electric - electric switch",
+            "Description": "distribution electric - electric switch",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSwitchingDeviceTOGGLESWITCH"
             ]
         },
         {
@@ -2169,6 +2406,235 @@
                 "IfcCableSegment"
             ],
             "ParentClassCode": "CA"
+        },
+        {
+            "Code": "HVSB",
+            "Name": "distribution electric - high voltage switchboard",
+            "Definition": "distribution electric - high voltage switchboard",
+            "Description": "distribution electric - high voltage switchboard",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoardSWITCHBOARD"
+            ]
+        },
+        {
+            "Code": "IVT",
+            "Name": "distribution electric - invertor",
+            "Definition": "distribution electric - invertor",
+            "Description": "distribution electric - invertor",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcTransformerINVERTER"
+            ]
+        },
+        {
+            "Code": "KDP",
+            "Name": "distribution electric - kitchen electric distribution panel/board",
+            "Definition": "distribution electric - kitchen electric distribution panel/board",
+            "Description": "distribution electric - kitchen electric distribution panel/board",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoard"
+            ],
+            "ParentClassCode": "DB"
+        },
+        {
+            "Code": "LB",
+            "Name": "distribution electric - load bank",
+            "Definition": "distribution electric - load bank",
+            "Description": "distribution electric - load bank",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcElectricFlowStorageDevice"
+            ]
+        },
+        {
+            "Code": "LVSB",
+            "Name": "distribution electric - low voltage switchboard",
+            "Definition": "distribution electric - low voltage switchboard",
+            "Description": "distribution electric - low voltage switchboard",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoardSWITCHBOARD"
+            ]
+        },
+        {
+            "Code": "MPNL",
+            "Name": "distribution electric - main panel / board",
+            "Definition": "distribution electric - main panel / board",
+            "Description": "distribution electric - main panel / board",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoard"
+            ],
+            "ParentClassCode": "DB"
+        },
+        {
+            "Code": "MSP",
+            "Name": "distribution electric - main switch panel",
+            "Definition": "distribution electric - main switch panel",
+            "Description": "distribution electric - main switch panel",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoardSWITCHBOARD"
+            ]
+        },
+        {
+            "Code": "MDU",
+            "Name": "distribution electric - mains distribution unit",
+            "Definition": "distribution electric - mains distribution unit",
+            "Description": "distribution electric - mains distribution unit",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoard"
+            ],
+            "ParentClassCode": "DB"
+        },
+        {
+            "Code": "MSB",
+            "Name": "distribution electric - mains switchboard",
+            "Definition": "distribution electric - mains switchboard",
+            "Description": "distribution electric - mains switchboard",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoardSWITCHBOARD"
+            ]
+        },
+        {
+            "Code": "MDP",
+            "Name": "distribution electric - mechanical distribution panel / board",
+            "Definition": "distribution electric - mechanical distribution panel / board",
+            "Description": "distribution electric - mechanical distribution panel / board",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoardDISTRIBUTIONBOARD"
+            ]
+        },
+        {
+            "Code": "MVSB",
+            "Name": "distribution electric - medium voltage switchboard",
+            "Definition": "distribution electric - medium voltage switchboard",
+            "Description": "distribution electric - medium voltage switchboard",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoardSWITCHBOARD"
+            ]
+        },
+        {
+            "Code": "PB",
+            "Name": "distribution electric - panel board",
+            "Definition": "distribution electric - panel board",
+            "Description": "distribution electric - panel board",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoard"
+            ],
+            "ParentClassCode": "DB"
+        },
+        {
+            "Code": "PHF",
+            "Name": "distribution electric - passive harmonic filter",
+            "Definition": "distribution electric - passive harmonic filter",
+            "Description": "distribution electric - passive harmonic filter",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcElectricFlowStorageDeviceHARMONICFILTER"
+            ]
+        },
+        {
+            "Code": "PDU",
+            "Name": "distribution electric - power distribution unit",
+            "Definition": "distribution electric - power distribution unit",
+            "Description": "distribution electric - power distribution unit",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoard"
+            ],
+            "ParentClassCode": "DB"
+        },
+        {
+            "Code": "PFC",
+            "Name": "distribution electric - power factor correction system",
+            "Definition": "distribution electric - power factor correction system",
+            "Description": "distribution electric - power factor correction system",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcElectricFlowTreatmentDevice"
+            ],
+            "ParentClassCode": "EFT"
+        },
+        {
+            "Code": "REC",
+            "Name": "distribution electric - rectifier",
+            "Definition": "distribution electric - rectifier",
+            "Description": "distribution electric - rectifier",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcTransformerRECTIFIER"
+            ]
+        },
+        {
+            "Code": "RMU",
+            "Name": "distribution electric - ring main unit",
+            "Definition": "distribution electric - ring main unit",
+            "Description": "distribution electric - ring main unit",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoard"
+            ],
+            "ParentClassCode": "DB"
+        },
+        {
+            "Code": "RBB",
+            "Name": "distribution electric - rising busbar",
+            "Definition": "distribution electric - rising busbar",
+            "Description": "distribution electric - rising busbar",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcCableSegmentBUSBARSEGMENT"
+            ]
+        },
+        {
+            "Code": "STS",
+            "Name": "distribution electric - static transfer switch",
+            "Definition": "distribution electric - static transfer switch",
+            "Description": "distribution electric - static transfer switch",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSwitchingDevice"
+            ],
+            "ParentClassCode": "SWD"
+        },
+        {
+            "Code": "SWGR",
+            "Name": "distribution electric - switchgear (12kv typ)",
+            "Definition": "distribution electric - switchgear (12kv typ)",
+            "Description": "distribution electric - switchgear (12kv typ)",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoardSWITCHBOARD"
+            ]
+        },
+        {
+            "Code": "USS",
+            "Name": "distribution electric - unit substation",
+            "Definition": "distribution electric - unit substation",
+            "Description": "distribution electric - unit substation",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcUnitaryEquipment"
+            ],
+            "ParentClassCode": "UEQ"
+        },
+        {
+            "Code": "UPSB",
+            "Name": "distribution electric - ups panel / board",
+            "Definition": "distribution electric - ups panel / board",
+            "Description": "distribution electric - ups panel / board",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoardDISTRIBUTIONBOARD"
+            ]
         },
         {
             "Code": "PW",
@@ -2202,17 +2668,6 @@
             ]
         },
         {
-            "Code": "DUWF",
-            "Name": "distribution ventilation - ductwork fitting",
-            "Definition": "distribution ventilation - ductwork fitting",
-            "Description": "distribution ventilation - ductwork fitting",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDuctFitting"
-            ],
-            "ParentClassCode": "DFT"
-        },
-        {
             "Code": "FDUW",
             "Name": "distribution ventilation - ductwork fire rated",
             "Definition": "distribution ventilation - ductwork fire rated",
@@ -2228,6 +2683,17 @@
             "Name": "distribution ventilation - ductwork fire rated fitting",
             "Definition": "distribution ventilation - ductwork fire rated fitting",
             "Description": "distribution ventilation - ductwork fire rated fitting",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDuctFitting"
+            ],
+            "ParentClassCode": "DFT"
+        },
+        {
+            "Code": "DUWF",
+            "Name": "distribution ventilation - ductwork fitting",
+            "Definition": "distribution ventilation - ductwork fitting",
+            "Description": "distribution ventilation - ductwork fitting",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDuctFitting"
@@ -2297,16 +2763,6 @@
                 "IfcElectricAppliance"
             ],
             "ParentClassCode": "EAPPL"
-        },
-        {
-            "Code": "DF",
-            "Name": "drinking fountain / bottle filler",
-            "Definition": "drinking fountain / bottle filler",
-            "Description": "drinking fountain / bottle filler",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcSanitaryTerminalSANITARYFOUNTAIN"
-            ]
         },
         {
             "Code": "DFT",
@@ -2503,391 +2959,6 @@
                 "IfcElectricAppliance"
             ],
             "ParentClassCode": "EAPPL"
-        },
-        {
-            "Code": "EVDP",
-            "Name": "electric distribution - EVC electric vehicle charging distribution panel",
-            "Definition": "electric distribution - EVC electric vehicle charging distribution panel",
-            "Description": "electric distribution - EVC electric vehicle charging distribution panel",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoard"
-            ],
-            "ParentClassCode": "DB"
-        },
-        {
-            "Code": "EVCE",
-            "Name": "electric distribution - EVC electric vehicle charging equipment",
-            "Definition": "electric distribution - EVC electric vehicle charging equipment",
-            "Description": "electric distribution - EVC electric vehicle charging equipment",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcOutletPOWEROUTLET"
-            ]
-        },
-        {
-            "Code": "AHF",
-            "Name": "electric distribution - active harmonic filter",
-            "Definition": "electric distribution - active harmonic filter",
-            "Description": "electric distribution - active harmonic filter",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcElectricFlowStorageDeviceHARMONICFILTER"
-            ]
-        },
-        {
-            "Code": "ATS",
-            "Name": "electric distribution - automatic transfer switch",
-            "Definition": "electric distribution - automatic transfer switch",
-            "Description": "electric distribution - automatic transfer switch",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcProtectiveDevice"
-            ],
-            "ParentClassCode": "PDV"
-        },
-        {
-            "Code": "LVCPB",
-            "Name": "electric distribution - branch circuit panel board 120/208V",
-            "Definition": "electric distribution - branch circuit panel board 120/208V",
-            "Description": "electric distribution - branch circuit panel board 120/208V",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoard"
-            ],
-            "ParentClassCode": "DB"
-        },
-        {
-            "Code": "HVCPB",
-            "Name": "electric distribution - branch circuit panel board 277/480V",
-            "Definition": "electric distribution - branch circuit panel board 277/480V",
-            "Description": "electric distribution - branch circuit panel board 277/480V",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoard"
-            ],
-            "ParentClassCode": "DB"
-        },
-        {
-            "Code": "BB",
-            "Name": "electric distribution - busbar",
-            "Definition": "electric distribution - busbar",
-            "Description": "electric distribution - busbar",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcCableSegmentBUSBARSEGMENT"
-            ]
-        },
-        {
-            "Code": "BBTO",
-            "Name": "electric distribution - busbar tapoff",
-            "Definition": "electric distribution - busbar tapoff",
-            "Description": "electric distribution - busbar tapoff",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcCableSegmentBUSBARSEGMENT"
-            ]
-        },
-        {
-            "Code": "DCDC",
-            "Name": "electric distribution - dc-dc converter",
-            "Definition": "electric distribution - dc-dc converter",
-            "Description": "electric distribution - dc-dc converter",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcTransformer"
-            ],
-            "ParentClassCode": "TXMR"
-        },
-        {
-            "Code": "DB",
-            "Name": "electric distribution - distribution panel / board",
-            "Definition": "electric distribution - distribution panel / board",
-            "Description": "electric distribution - distribution panel / board",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoard"
-            ]
-        },
-        {
-            "Code": "CU",
-            "Name": "electric distribution - distribution panel / board - consumer unit",
-            "Definition": "electric distribution - distribution panel / board - consumer unit",
-            "Description": "electric distribution - distribution panel / board - consumer unit",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoardCONSUMERUNIT"
-            ]
-        },
-        {
-            "Code": "LVDP",
-            "Name": "electric distribution - distribution panel 120/208V",
-            "Definition": "electric distribution - distribution panel 120/208V",
-            "Description": "electric distribution - distribution panel 120/208V",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoardDISTRIBUTIONBOARD"
-            ]
-        },
-        {
-            "Code": "HVDP",
-            "Name": "electric distribution - distribution panel 277/480V",
-            "Definition": "electric distribution - distribution panel 277/480V",
-            "Description": "electric distribution - distribution panel 277/480V",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoardDISTRIBUTIONBOARD"
-            ]
-        },
-        {
-            "Code": "ITDP",
-            "Name": "electric distribution - distribution panel for itc equipment",
-            "Definition": "electric distribution - distribution panel for itc equipment",
-            "Description": "electric distribution - distribution panel for itc equipment",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoard"
-            ],
-            "ParentClassCode": "DB"
-        },
-        {
-            "Code": "ELSW",
-            "Name": "electric distribution - electric switch",
-            "Definition": "electric distribution - electric switch",
-            "Description": "electric distribution - electric switch",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcSwitchingDeviceTOGGLESWITCH"
-            ]
-        },
-        {
-            "Code": "HVSB",
-            "Name": "electric distribution - high voltage switchboard",
-            "Definition": "electric distribution - high voltage switchboard",
-            "Description": "electric distribution - high voltage switchboard",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoardSWITCHBOARD"
-            ]
-        },
-        {
-            "Code": "IVT",
-            "Name": "electric distribution - invertor",
-            "Definition": "electric distribution - invertor",
-            "Description": "electric distribution - invertor",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcTransformerINVERTER"
-            ]
-        },
-        {
-            "Code": "KDP",
-            "Name": "electric distribution - kitchen electric distribution panel/board",
-            "Definition": "electric distribution - kitchen electric distribution panel/board",
-            "Description": "electric distribution - kitchen electric distribution panel/board",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoard"
-            ],
-            "ParentClassCode": "DB"
-        },
-        {
-            "Code": "LB",
-            "Name": "electric distribution - load bank",
-            "Definition": "electric distribution - load bank",
-            "Description": "electric distribution - load bank",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcElectricFlowStorageDevice"
-            ]
-        },
-        {
-            "Code": "LVSB",
-            "Name": "electric distribution - low voltage switchboard",
-            "Definition": "electric distribution - low voltage switchboard",
-            "Description": "electric distribution - low voltage switchboard",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoardSWITCHBOARD"
-            ]
-        },
-        {
-            "Code": "MPNL",
-            "Name": "electric distribution - main panel / board",
-            "Definition": "electric distribution - main panel / board",
-            "Description": "electric distribution - main panel / board",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoard"
-            ],
-            "ParentClassCode": "DB"
-        },
-        {
-            "Code": "MSP",
-            "Name": "electric distribution - main switch panel",
-            "Definition": "electric distribution - main switch panel",
-            "Description": "electric distribution - main switch panel",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoardSWITCHBOARD"
-            ]
-        },
-        {
-            "Code": "MDU",
-            "Name": "electric distribution - mains distribution unit",
-            "Definition": "electric distribution - mains distribution unit",
-            "Description": "electric distribution - mains distribution unit",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoard"
-            ],
-            "ParentClassCode": "DB"
-        },
-        {
-            "Code": "MSB",
-            "Name": "electric distribution - mains switchboard",
-            "Definition": "electric distribution - mains switchboard",
-            "Description": "electric distribution - mains switchboard",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoardSWITCHBOARD"
-            ]
-        },
-        {
-            "Code": "MDP",
-            "Name": "electric distribution - mechanical distribution panel / board",
-            "Definition": "electric distribution - mechanical distribution panel / board",
-            "Description": "electric distribution - mechanical distribution panel / board",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoardDISTRIBUTIONBOARD"
-            ]
-        },
-        {
-            "Code": "MVSB",
-            "Name": "electric distribution - medium voltage switchboard",
-            "Definition": "electric distribution - medium voltage switchboard",
-            "Description": "electric distribution - medium voltage switchboard",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoardSWITCHBOARD"
-            ]
-        },
-        {
-            "Code": "PB",
-            "Name": "electric distribution - panel board",
-            "Definition": "electric distribution - panel board",
-            "Description": "electric distribution - panel board",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoard"
-            ],
-            "ParentClassCode": "DB"
-        },
-        {
-            "Code": "PHF",
-            "Name": "electric distribution - passive harmonic filter",
-            "Definition": "electric distribution - passive harmonic filter",
-            "Description": "electric distribution - passive harmonic filter",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcElectricFlowStorageDeviceHARMONICFILTER"
-            ]
-        },
-        {
-            "Code": "PDU",
-            "Name": "electric distribution - power distribution unit",
-            "Definition": "electric distribution - power distribution unit",
-            "Description": "electric distribution - power distribution unit",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoard"
-            ],
-            "ParentClassCode": "DB"
-        },
-        {
-            "Code": "PFC",
-            "Name": "electric distribution - power factor correction system",
-            "Definition": "electric distribution - power factor correction system",
-            "Description": "electric distribution - power factor correction system",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcElectricFlowTreatmentDevice"
-            ],
-            "ParentClassCode": "EFT"
-        },
-        {
-            "Code": "REC",
-            "Name": "electric distribution - rectifier",
-            "Definition": "electric distribution - rectifier",
-            "Description": "electric distribution - rectifier",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcTransformerRECTIFIER"
-            ]
-        },
-        {
-            "Code": "RMU",
-            "Name": "electric distribution - ring main unit",
-            "Definition": "electric distribution - ring main unit",
-            "Description": "electric distribution - ring main unit",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoard"
-            ],
-            "ParentClassCode": "DB"
-        },
-        {
-            "Code": "RBB",
-            "Name": "electric distribution - rising busbar",
-            "Definition": "electric distribution - rising busbar",
-            "Description": "electric distribution - rising busbar",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcCableSegmentBUSBARSEGMENT"
-            ]
-        },
-        {
-            "Code": "STS",
-            "Name": "electric distribution - static transfer switch",
-            "Definition": "electric distribution - static transfer switch",
-            "Description": "electric distribution - static transfer switch",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcSwitchingDevice"
-            ],
-            "ParentClassCode": "SWD"
-        },
-        {
-            "Code": "SWGR",
-            "Name": "electric distribution - switchgear (12kv typ)",
-            "Definition": "electric distribution - switchgear (12kv typ)",
-            "Description": "electric distribution - switchgear (12kv typ)",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoardSWITCHBOARD"
-            ]
-        },
-        {
-            "Code": "USS",
-            "Name": "electric distribution - unit substation",
-            "Definition": "electric distribution - unit substation",
-            "Description": "electric distribution - unit substation",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcUnitaryEquipment"
-            ],
-            "ParentClassCode": "UEQ"
-        },
-        {
-            "Code": "UPSB",
-            "Name": "electric distribution - ups panel / board",
-            "Definition": "electric distribution - ups panel / board",
-            "Description": "electric distribution - ups panel / board",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoardDISTRIBUTIONBOARD"
-            ]
         },
         {
             "Code": "EFT",
@@ -3938,13 +4009,34 @@
             ]
         },
         {
-            "Code": "VP",
+            "Code": "VZP",
             "Name": "fire suppression - vaporizer panel",
             "Definition": "fire suppression - vaporizer panel",
             "Description": "fire suppression - vaporizer panel",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcUnitaryControlElementCONTROLPANEL"
+            ]
+        },
+        {
+            "Code": "WDP",
+            "Name": "fire suppression - window drencher pump",
+            "Definition": "fire suppression - window drencher pump",
+            "Description": "fire suppression - window drencher pump",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcPump"
+            ],
+            "ParentClassCode": "PMP"
+        },
+        {
+            "Code": "WDT",
+            "Name": "fire suppression - window drencher tank",
+            "Definition": "fire suppression - window drencher tank",
+            "Description": "fire suppression - window drencher tank",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcTankSTORAGE"
             ]
         },
         {
@@ -3955,6 +4047,36 @@
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcFireSuppressionTerminal"
+            ]
+        },
+        {
+            "Code": "FH",
+            "Name": "fire suppression terminal - fire hydrant",
+            "Definition": "fire suppression terminal - fire hydrant",
+            "Description": "fire suppression terminal - fire hydrant",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcFireSuppressionTerminalFIREHYDRANT"
+            ]
+        },
+        {
+            "Code": "HR",
+            "Name": "fire suppression terminal - hose reel",
+            "Definition": "fire suppression terminal - hose reel",
+            "Description": "fire suppression terminal - hose reel",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcFireSuppressionTerminalHOSEREEL"
+            ]
+        },
+        {
+            "Code": "IBRV",
+            "Name": "fire suppression terminal - inlet breaching valve",
+            "Definition": "fire suppression terminal - inlet breaching valve",
+            "Description": "fire suppression terminal - inlet breaching valve",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcFireSuppressionTerminalBREECHINGINLET"
             ]
         },
         {
@@ -4174,6 +4296,17 @@
             "ParentClassCode": "FUR"
         },
         {
+            "Code": "KUCS",
+            "Name": "furniture - commercial kitchen utility chase system",
+            "Definition": "furniture - commercial kitchen utility chase system",
+            "Description": "furniture - commercial kitchen utility chase system",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionSystem"
+            ],
+            "ParentClassCode": "DSYS"
+        },
+        {
             "Code": "KUDS",
             "Name": "furniture - commercial kitchen utility distribution system",
             "Definition": "furniture - commercial kitchen utility distribution system",
@@ -4193,17 +4326,6 @@
             "RelatedIfcEntityNamesList": [
                 "IfcFurnitureSHELF"
             ]
-        },
-        {
-            "Code": "KUCS",
-            "Name": "furniture - commercial kitchen utility chase system",
-            "Definition": "furniture - commercial kitchen utility chase system",
-            "Description": "furniture - commercial kitchen utility chase system",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionSystem"
-            ],
-            "ParentClassCode": "DSYS"
         },
         {
             "Code": "DESK",
@@ -4729,6 +4851,16 @@
             "ParentClassCode": "CMA"
         },
         {
+            "Code": "PC",
+            "Name": "ict equipment - personal computer",
+            "Definition": "ict equipment - personal computer",
+            "Description": "ict equipment - personal computer",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcCommunicationsApplianceCOMPUTER"
+            ]
+        },
+        {
             "Code": "POEETS",
             "Name": "ict equipment - power-over-ethernet network switch",
             "Definition": "ict equipment - power-over-ethernet network switch",
@@ -4809,6 +4941,57 @@
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcInterceptor"
+            ],
+            "ParentClassCode": "ITCP"
+        },
+        {
+            "Code": "ITCP",
+            "Name": "interceptor",
+            "Definition": "interceptor",
+            "Description": "interceptor",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcInterceptor"
+            ]
+        },
+        {
+            "Code": "ITCPC",
+            "Name": "interceptor - cyclonic",
+            "Definition": "interceptor - cyclonic",
+            "Description": "interceptor - cyclonic",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcInterceptorCYCLONIC"
+            ]
+        },
+        {
+            "Code": "ITCPG",
+            "Name": "interceptor - grease",
+            "Definition": "interceptor - grease",
+            "Description": "interceptor - grease",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcInterceptorGREASE"
+            ]
+        },
+        {
+            "Code": "ITCPO",
+            "Name": "interceptor - oil",
+            "Definition": "interceptor - oil",
+            "Description": "interceptor - oil",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcInterceptorOIL"
+            ]
+        },
+        {
+            "Code": "ITCPP",
+            "Name": "interceptor - petrol",
+            "Definition": "interceptor - petrol",
+            "Description": "interceptor - petrol",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcInterceptorPETROL"
             ]
         },
         {
@@ -6264,6 +6447,17 @@
             "ParentClassCode": "PMP"
         },
         {
+            "Code": "PLTHWP",
+            "Name": "pump - primary low temperature hot water pump",
+            "Definition": "pump - primary low temperature hot water pump",
+            "Description": "pump - primary low temperature hot water pump",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcPump"
+            ],
+            "ParentClassCode": "PMP"
+        },
+        {
             "Code": "PP",
             "Name": "pump - primary pump",
             "Definition": "pump - primary pump",
@@ -6367,6 +6561,17 @@
             "Name": "pump - secondary hot water circulating pump",
             "Definition": "pump - secondary hot water circulating pump",
             "Description": "pump - secondary hot water circulating pump",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcPump"
+            ],
+            "ParentClassCode": "PMP"
+        },
+        {
+            "Code": "SLTHWP",
+            "Name": "pump - secondary low temperature hot water pump",
+            "Definition": "pump - secondary low temperature hot water pump",
+            "Description": "pump - secondary low temperature hot water pump",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcPump"
@@ -6760,7 +6965,7 @@
             "RelatedIfcEntityNamesList": [
                 "IfcInterceptor"
             ],
-            "ParentClassCode": "INT"
+            "ParentClassCode": "ITCP"
         },
         {
             "Code": "SAN",
@@ -6773,14 +6978,137 @@
             ]
         },
         {
-            "Code": "HWB",
-            "Name": "sanitary terminal - hand wash basin",
-            "Definition": "sanitary terminal - hand wash basin",
-            "Description": "sanitary terminal - hand wash basin",
+            "Code": "WC",
+            "Name": "sanitary terminal - WC (toilet)",
+            "Definition": "sanitary terminal - WC (toilet)",
+            "Description": "sanitary terminal - WC (toilet)",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminalTOILETPAN"
+            ]
+        },
+        {
+            "Code": "BATH",
+            "Name": "sanitary terminal - bath",
+            "Definition": "sanitary terminal - bath",
+            "Description": "sanitary terminal - bath",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminalBATH"
+            ]
+        },
+        {
+            "Code": "BIDET",
+            "Name": "sanitary terminal - bidet",
+            "Definition": "sanitary terminal - bidet",
+            "Description": "sanitary terminal - bidet",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminalBIDET"
+            ]
+        },
+        {
+            "Code": "CIST",
+            "Name": "sanitary terminal - cistern",
+            "Definition": "sanitary terminal - cistern",
+            "Description": "sanitary terminal - cistern",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminalCISTERN"
+            ]
+        },
+        {
+            "Code": "DF",
+            "Name": "sanitary terminal - drinking fountain / bottle filler",
+            "Definition": "sanitary terminal - drinking fountain / bottle filler",
+            "Description": "sanitary terminal - drinking fountain / bottle filler",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminalSANITARYFOUNTAIN"
+            ]
+        },
+        {
+            "Code": "SFN",
+            "Name": "sanitary terminal - sanitary fountain",
+            "Definition": "sanitary terminal - sanitary fountain",
+            "Description": "sanitary terminal - sanitary fountain",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminalSANITARYFOUNTAIN"
+            ]
+        },
+        {
+            "Code": "STAP",
+            "Name": "sanitary terminal - sensor tap",
+            "Definition": "sanitary terminal - sensor tap",
+            "Description": "sanitary terminal - sensor tap",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminal"
+            ],
+            "ParentClassCode": "SAN"
+        },
+        {
+            "Code": "SHW",
+            "Name": "sanitary terminal - shower",
+            "Definition": "sanitary terminal - shower",
+            "Description": "sanitary terminal - shower",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminalSHOWER"
+            ]
+        },
+        {
+            "Code": "SINK",
+            "Name": "sanitary terminal - sink",
+            "Definition": "sanitary terminal - sink",
+            "Description": "sanitary terminal - sink",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminalSINK"
+            ]
+        },
+        {
+            "Code": "TAP",
+            "Name": "sanitary terminal - tap",
+            "Definition": "sanitary terminal - tap",
+            "Description": "sanitary terminal - tap",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminal"
+            ],
+            "ParentClassCode": "SAN"
+        },
+        {
+            "Code": "UR",
+            "Name": "sanitary terminal - urinal",
+            "Definition": "sanitary terminal - urinal",
+            "Description": "sanitary terminal - urinal",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminalURINAL"
+            ]
+        },
+        {
+            "Code": "WHB",
+            "Name": "sanitary terminal - wash hand basin",
+            "Definition": "sanitary terminal - wash hand basin",
+            "Description": "sanitary terminal - wash hand basin",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcSanitaryTerminalWASHHANDBASIN"
             ]
+        },
+        {
+            "Code": "WVT",
+            "Name": "sanitary terminal - washroom vanity trough",
+            "Definition": "sanitary terminal - washroom vanity trough",
+            "Description": "sanitary terminal - washroom vanity trough",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminal"
+            ],
+            "ParentClassCode": "SAN"
         },
         {
             "Code": "SNS",
@@ -6831,6 +7159,17 @@
             "RelatedIfcEntityNamesList": [
                 "IfcSensorCONTACTSENSOR"
             ]
+        },
+        {
+            "Code": "CRRS",
+            "Name": "sensor - corrosion sensor",
+            "Definition": "sensor - corrosion sensor",
+            "Description": "sensor - corrosion sensor",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSensor"
+            ],
+            "ParentClassCode": "SNS"
         },
         {
             "Code": "DPS",
@@ -7237,6 +7576,80 @@
             "RelatedIfcEntityNamesList": [
                 "IfcSpatialZone"
             ]
+        },
+        {
+            "Code": "BDCG",
+            "Name": "stack terminal - birdcage",
+            "Definition": "stack terminal - birdcage",
+            "Description": "stack terminal - birdcage",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcStackTerminalBIRDCAGE"
+            ]
+        },
+        {
+            "Code": "COWL",
+            "Name": "stack terminal - cowl",
+            "Definition": "stack terminal - cowl",
+            "Description": "stack terminal - cowl",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcStackTerminalCOWL"
+            ]
+        },
+        {
+            "Code": "RWH",
+            "Name": "stack terminal - rain water hopper",
+            "Definition": "stack terminal - rain water hopper",
+            "Description": "stack terminal - rain water hopper",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcStackTerminalRAINWATERHOPPER"
+            ]
+        },
+        {
+            "Code": "RE",
+            "Name": "stack terminal - rodding eye",
+            "Definition": "stack terminal - rodding eye",
+            "Description": "stack terminal - rodding eye",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcStackTerminal"
+            ],
+            "ParentClassCode": "AVR"
+        },
+        {
+            "Code": "SVP",
+            "Name": "stack terminal - soil vent pipe",
+            "Definition": "stack terminal - soil vent pipe",
+            "Description": "stack terminal - soil vent pipe",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcStackTerminal"
+            ],
+            "ParentClassCode": "AVR"
+        },
+        {
+            "Code": "SS",
+            "Name": "stack terminal - stubb stack",
+            "Definition": "stack terminal - stubb stack",
+            "Description": "stack terminal - stubb stack",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcStackTerminal"
+            ],
+            "ParentClassCode": "AVR"
+        },
+        {
+            "Code": "VP",
+            "Name": "stack terminal - vent pipe",
+            "Definition": "stack terminal - vent pipe",
+            "Description": "stack terminal - vent pipe",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcStackTerminal"
+            ],
+            "ParentClassCode": "AVR"
         },
         {
             "Code": "CFN",
@@ -9157,6 +9570,66 @@
                 "IfcWasteTerminal"
             ],
             "ParentClassCode": "WSTT"
+        },
+        {
+            "Code": "FG",
+            "Name": "waste terminal - floor gully",
+            "Definition": "waste terminal - floor gully",
+            "Description": "waste terminal - floor gully",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcWasteTerminalFLOORWASTE"
+            ]
+        },
+        {
+            "Code": "FWT",
+            "Name": "waste terminal - floor waste trap",
+            "Definition": "waste terminal - floor waste trap",
+            "Description": "waste terminal - floor waste trap",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcWasteTerminalFLOORTRAP"
+            ]
+        },
+        {
+            "Code": "GUS",
+            "Name": "waste terminal - gully sump",
+            "Definition": "waste terminal - gully sump",
+            "Description": "waste terminal - gully sump",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcWasteTerminalGULLYSUMP"
+            ]
+        },
+        {
+            "Code": "RD",
+            "Name": "waste terminal - roof drain",
+            "Definition": "waste terminal - roof drain",
+            "Description": "waste terminal - roof drain",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcWasteTerminalROOFDRAIN"
+            ]
+        },
+        {
+            "Code": "WDU",
+            "Name": "waste terminal - waste disposal unit (macerator)",
+            "Definition": "waste terminal - waste disposal unit (macerator)",
+            "Description": "waste terminal - waste disposal unit (macerator)",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcWasteTerminalWASTEDISPOSALUNIT"
+            ]
+        },
+        {
+            "Code": "WT",
+            "Name": "waste terminal - waste trap",
+            "Definition": "waste terminal - waste trap",
+            "Description": "waste terminal - waste trap",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcWasteTerminalWASTETRAP"
+            ]
         },
         {
             "Code": "DEWH",
