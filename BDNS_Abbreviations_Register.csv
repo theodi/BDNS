@@ -145,6 +145,7 @@ condensing unit,CDU,1,,IfcCondenser,IfcCondenser,1
 controller,CNTRL,1,,IfcController,IfcController,1
 controller - direct digital controller,DDC,1,,IfcControllerPROGRAMMABLE,IfcController,0
 controller - door controller,DRC,1,,IfcControllerPROGRAMMABLE,IfcController,0
+controller - heat pump controller,HPC,1,,IfcControllerPROGRAMMABLE,IfcController,0
 controller - irrigation controller,IRRC,1,,IfcController,IfcController,0
 controller - programmable logic controller,PLC,1,,IfcControllerPROGRAMMABLE,IfcController,0
 controller - room controller,ROC,1,,IfcController,IfcController,0
@@ -438,7 +439,6 @@ heat emitter - radiator electric,ERAD,1,,IfcSpaceHeaterRADIATOR,IfcSpaceHeater,0
 heat emitter - trace heating,EHT,1,,IfcSpaceHeater,IfcSpaceHeater,0
 heat emitter - trench heater and cooler,TRHC,1,,IfcSpaceHeater,IfcSpaceHeater,0
 heat emitter - trench heating,TRH,1,,IfcSpaceHeater,IfcSpaceHeater,0
-heat emitter - underfloor manifold,UFM,1,,IfcSpaceHeater,IfcSpaceHeater,0
 heat emitter - unit heater,UH,1,,IfcSpaceHeater,IfcSpaceHeater,0
 heat emitter - warm air curtain,WAC,1,,IfcSpaceHeater,IfcSpaceHeater,0
 heat exchanger,HX,1,HVAC/HX,IfcHeatExchanger,IfcHeatExchanger,1
@@ -540,6 +540,7 @@ location services - beacon,LBCN,1,,IfcCommunicationsAppliance,IfcElectricApplian
 medical device,MED,1,,IfcMedicalDevice,,1
 meter,MTR,1,METERS/MTR,IfcFlowMeter,IfcFlowMeter,1
 meter - electric branch meter,EBM,1,METERS/MTR,IfcFlowMeter,IfcFlowMeter,0
+meter - electric branch meter (virtual),EBMV,1,METERS/MTR,IfcFlowMeter,IfcFlowMeter,0
 meter - electric meter,EM,1,METERS/EM,IfcFlowMeterENERGYMETER,IfcFlowMeterENERGYMETER,0
 meter - electric meter (virtual),EMV,0,METERS/EMV,IfcFlowMeter,IfcFlowMeter,0
 meter - flow meter,FM,1,METERS/FM,IfcFlowMeter,IfcFlowMeter,0
@@ -586,6 +587,8 @@ panel - remote i/o control panel,RIO,1,,IfcUnitaryControlElement,IfcElectricDist
 panel - rodent repellent panel,RDT,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
 panel - variable air volume control station / panel,VAVCTR,1,,IfcUnitaryControlElement,IfcController,0
 pipe fitting,PFT,0,,IfcPipeFitting,IfcPipeFitting,1
+pipe fitting - underfloor manifold,UFM,1,,IfcPipeFittingCONNECTOR,IfcPipeFittingCONNECTOR,0
+pipe fitting - underfloor heating manifold,UFHM,1,,IfcPipeFittingCONNECTOR,IfcPipeFittingCONNECTOR,0
 plate,PLT,0,,IfcPlate,IfcPlate,1
 pressurisation unit,PU,1,,IfcUnitaryEquipment,IfcUnitaryEquipment,0
 pressurisation unit - water system makeup unit,WMS,1,,IfcUnitaryEquipment,IfcUnitaryEquipment,0
@@ -717,7 +720,8 @@ shading - shading device controller,SDC,1,,IfcController,IfcController,0
 shading - shading device keypad,SDKP,1,,IfcSwitchingDeviceKEYPAD,IfcSwitchingDevice,0
 shading - shading device motor,SDM,0,,IfcElectricMotor,IfcElectricMotor,0
 shading - shading device solar tracking module,SDSTM,1,,IfcSensorRADIATIONSENSOR,IfcSensor,0
-shading device,SHD,1,,IfcShadingDevice,,1
+shading - shading device,SHD,1,,IfcShadingDevice,,1
+shading - shading group,SGRP,1,,IfcGroup,IfcGroup,0
 signal - beacon,BCN,1,,IfcAlarmLIGHT,IfcAlarmLIGHT,0
 solar device,SOL,1,,IfcSolarDevice,,1
 space,SPACE,0,,IfcSpace,IfcSpace,1
@@ -766,6 +770,7 @@ stucture - roof,ROOF,0,,IfcRoof,IfcRoof,1
 switch - absolute pressure,APSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
 switch - dew point,DEWSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
 switch - differential pressure,DPSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
+switch - liquid flow,LFSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
 switch - static pressure,SPSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
 switch - thermal dispersion flow proving switch,TDSW,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
 system - airconditioning,AIRCON,0,,IfcDistributionSystemAIRCONDITIONING,,1
@@ -785,7 +790,7 @@ system - electrical (high voltage),HV,0,,IfcDistributionSystemELECTRICAL,,0
 system - electrical (low voltage),LV,0,,IfcDistributionSystemELECTRICAL,,1
 system - electroacoustic,AUDIO,0,,IfcDistributionSystemELECTROACOUSTIC,,1
 system - exhaust,EA,0,,IfcDistributionSystemEXHAUST,,1
-system - fireprotection,SPR,0,,IfcDistributionSystemFIREPROTECTION,,1
+system - fireprotection,SFR,0,,IfcDistributionSystemFIREPROTECTION,,1
 system - fuel,FUEL,0,,IfcDistributionSystemFUEL,,1
 system - gas,GAS,0,,IfcDistributionSystemGAS,,1
 system - hazardous,HAZ,0,,IfcDistributionSystemHAZARDOUS,,1
