@@ -285,6 +285,7 @@ electric appliance - oven,OVN,0,,IfcElectricApplianceELECTRICCOOKER,IfcElectricA
 electric appliance - scanning device,SCAN,0,,IfcCommunicationsApplianceSCANNER,IfcElectricApplianceSCANNER,0
 electric appliance - steamer,STE,0,,IfcElectricAppliance,IfcElectricAppliance,0
 electric flow treatment device,EFT,1,,IfcElectricFlowTreatmentDevice,,1
+electric protective device - arc fault detection device,AFDD,1,,IfcProtectiveDeviceANTI_ARCING_DEVICE,IfcProtectiveDevice,1
 electric protective device - circuit breaker,CB,1,,IfcProtectiveDeviceCIRCUITBREAKER,IfcProtectiveDeviceCIRCUITBREAKER,0
 electric protective device - disconnect fuse,DSCTF,0,,IfcProtectiveDeviceFUSEDISCONNECTOR,IfcProtectiveDeviceFUSEDISCONNECTOR,0
 electric protective device - electrical isolator (disconnector),EISO,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR,0
@@ -587,8 +588,8 @@ panel - remote i/o control panel,RIO,1,,IfcUnitaryControlElement,IfcElectricDist
 panel - rodent repellent panel,RDT,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
 panel - variable air volume control station / panel,VAVCTR,1,,IfcUnitaryControlElement,IfcController,0
 pipe fitting,PFT,0,,IfcPipeFitting,IfcPipeFitting,1
-pipe fitting - underfloor manifold,UFM,1,,IfcPipeFittingCONNECTOR,IfcPipeFittingCONNECTOR,0
 pipe fitting - underfloor heating manifold,UFHM,1,,IfcPipeFittingCONNECTOR,IfcPipeFittingCONNECTOR,0
+pipe fitting - underfloor manifold,UFM,1,,IfcPipeFittingCONNECTOR,IfcPipeFittingCONNECTOR,0
 plate,PLT,0,,IfcPlate,IfcPlate,1
 pressurisation unit,PU,1,,IfcUnitaryEquipment,IfcUnitaryEquipment,0
 pressurisation unit - water system makeup unit,WMS,1,,IfcUnitaryEquipment,IfcUnitaryEquipment,0
@@ -714,13 +715,13 @@ sensor - vibration sensor,VBS,1,SENSOR,IfcSensor,IfcSensor,0
 sensor - volumetric flow sensor - air,AVFS,1,SENSOR,IfcSensorFLOWSENSOR,IfcSensorFLOWSENSOR,0
 sensor - volumetric flow sensor - water,WVFS,1,SENSOR,IfcSensorFLOWSENSOR,IfcSensorFLOWSENSOR,0
 sensor - wind sensor,WS,1,SENSOR,IfcSensorWINDSENSOR,IfcSensor,0
+shading - shading device,SHD,1,,IfcShadingDevice,,1
 shading - shading device actuator,SDACT,1,HVAC/SDC,IfcActuatorELECTRICACTUATOR,IfcActuatorELECTRICACTUATOR,0
 shading - shading device blinds,BL,0,,IfcShadingDevice,IfcDiscreteAccessory,0
 shading - shading device controller,SDC,1,,IfcController,IfcController,0
 shading - shading device keypad,SDKP,1,,IfcSwitchingDeviceKEYPAD,IfcSwitchingDevice,0
 shading - shading device motor,SDM,0,,IfcElectricMotor,IfcElectricMotor,0
 shading - shading device solar tracking module,SDSTM,1,,IfcSensorRADIATIONSENSOR,IfcSensor,0
-shading - shading device,SHD,1,,IfcShadingDevice,,1
 shading - shading group,SGRP,1,,IfcGroup,IfcGroup,0
 signal - beacon,BCN,1,,IfcAlarmLIGHT,IfcAlarmLIGHT,0
 solar device,SOL,1,,IfcSolarDevice,,1
