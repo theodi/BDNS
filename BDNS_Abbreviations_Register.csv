@@ -246,6 +246,7 @@ distribution electric - panel board,PB,1,,IfcDistributionBoard,IfcElectricDistri
 distribution electric - passive harmonic filter,PHF,0,,IfcElectricFlowStorageDeviceHARMONICFILTER,IfcElectricFlowStorageDeviceHARMONICFILTER,0
 distribution electric - power distribution unit,PDU,1,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 distribution electric - power factor correction system,PFC,0,,IfcElectricFlowTreatmentDevice,IfcElectricDistributionPointCONTROLPANEL,0
+distribution electric - power supply unit,PSU,1,,IfcTransformerRECTIFIER,,0
 distribution electric - rectifier,REC,0,,IfcTransformerRECTIFIER,IfcTransformer,0
 distribution electric - ring main unit,RMU,0,,IfcDistributionBoard,IfcElectricDistributionPoint,0
 distribution electric - rising busbar,RBB,0,,IfcCableSegmentBUSBARSEGMENT,IfcCableSegment,0
@@ -368,6 +369,7 @@ fire detection - alarm annunciator sounder or beacon,FAS,1,,IfcAlarm,IfcAlarm,0
 fire detection - aspirating smoke detector,ASD,1,SAFETY/SD,IfcSensorSMOKESENSOR,IfcSensorSMOKESENSOR,0
 fire detection - break glass unit,BGU,1,SAFETY/BGU,IfcAlarmBREAKGLASSBUTTON,IfcAlarmBREAKGLASSBUTTON,0
 fire detection - control and indication equipment,CIE,1,,IfcUnitaryControlElementINDICATORPANEL,IfcElectricDistributionPoint,0
+fire detection - flame detector,FLMD,1,,IfcSensorFIRESENSOR,,0
 fire detection - gas detector,GD,1,SENSOR,IfcSensorGASSENSOR,IfcSensorGASSENSOR,0
 fire detection - heat detector,HD,1,SENSOR,IfcSensorHEATSENSOR,IfcSensorHEATSENSOR,0
 fire detection - hydrogen detector,HDS,1,,IfcSensor,IfcSensor,0
@@ -472,7 +474,6 @@ ict equipment - wi-fi router,WRTR,1,,IfcCommunicationsApplianceROUTER,IfcElectri
 ict equipment - wireless access point,WAP,1,,IfcCommunicationsApplianceROUTER,IfcElectricAppliance,0
 ict equipment - wireless lan controller,WLC,1,,IfcControllerPROGRAMMABLE,IfcController,0
 impact protection device,IPD,0,,IfcImpactProtectionDevice,,1
-interceptor,INT,0,,IfcInterceptor,,1
 interceptor,ITCP,0,,IfcInterceptor,IfcInterceptor,1
 interceptor - cyclonic,ITCPC,0,,IfcInterceptorCYCLONIC,IfcInterceptorCYCLONIC,1
 interceptor - grease,ITCPG,0,,IfcInterceptorGREASE,IfcInterceptorGREASE,1
