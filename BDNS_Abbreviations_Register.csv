@@ -1,11 +1,11 @@
 asset_description,asset_abbreviation,can_be_connected,dbo_entity_type,ifc4_3,ifc2x3,is_ifc_default
-access control - RFID controller,RFIDC,1,,IfcController,IfcController,0
-access control - RFID reader,RFIDR,1,,IfcCommunicationsApplianceSCANNER,IfcElectricApplianceSCANNER,0
 access control - access control system,ACS,1,,IfcDistributionSystemSECURITY,,0
 access control - audio intercom,AIC,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
 access control - biometric reader,BIOR,1,,IfcCommunicationsApplianceSCANNER,IfcElectricApplianceSCANNER,0
 access control - door release button,RTE,1,,IfcSwitchingDeviceCONTACTOR,IfcSwitchingDeviceCONTACTOR,0
 access control - proximity reader - generic,PROXR,1,,IfcCommunicationsApplianceSCANNER,IfcElectricApplianceSCANNER,0
+access control - RFID controller,RFIDC,1,,IfcController,IfcController,0
+access control - RFID reader,RFIDR,1,,IfcCommunicationsApplianceSCANNER,IfcElectricApplianceSCANNER,0
 access control - video intercom,VIC,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
 actuator,ACT,1,,IfcActuator,IfcActuator,1
 actuator - frost protection switch,FPSW,1,,IfcActuatorELECTRICACTUATOR,IfcActuatorELECTRICACTUATOR,0
@@ -54,7 +54,8 @@ architecture - furniture,FUR,0,,IfcFurniture,IfcFurniture,1
 architecture - navigation element,NAV,1,,IfcNavigationElement,,1
 architecture - room,ROOM,0,,IfcSpaceINTERNAL,IfcSpace,0
 architecture - sign,SIGN,1,,IfcSign,,1
-arhitecture - system furniture element,SFE,0,,IfcSystemFurnitureElement,,1
+architecture - system furniture element,SFE,0,,IfcSystemFurnitureElement,,1
+automatic external defibrillator,AED,0,,IfcElectricAppliance,IfcElectricAppliance,0
 av equipment,AVEQ,0,,IfcAudioVisualAppliance,IfcElectricAppliance,1
 av equipment - audio amplifier,AMP,0,,IfcAudioVisualApplianceAMPLIFIER,IfcElectricAppliance,0
 av equipment - audio assistive equipment,AAE,0,,IfcAudioVisualAppliance,IfcElectricAppliance,0
@@ -120,12 +121,14 @@ chiller - air cooled chiller,ACCH,1,HVAC/CH,IfcChillerAIRCOOLED,IfcChillerAIRCOO
 chiller - cooling tower,CT,1,HVAC/CT,IfcCoolingTower,IfcCoolingTower,1
 chiller - critical cooling chiller,CCCH,1,HVAC/CH,IfcChiller,IfcChiller,0
 chiller - dry air cooler,DAC,1,HVAC/DC,IfcCondenserAIRCOOLED,IfcCondenserAIRCOOLED,0
+chiller - heat/energy recovery chiller,HRC,1,HVAC/CH,IfcChiller,IfcChiller,0
 chiller - high temperature chiller,HTCH,1,HVAC/CH,IfcChiller,IfcChiller,0
 chiller - hybrid air cooler or fluid cooler,HYAC,1,HVAC/CH,IfcEvaporativeCooler,IfcEvaporativeCooler,0
 chiller - in row cooler/chiller,IRCL,1,HVAC/CH,IfcChiller,IfcChiller,0
 chiller - low temperature chiller,LTCH,1,HVAC/CH,IfcChiller,IfcChiller,0
 chiller - water cooled chiller,WCCH,1,HVAC/CH,IfcChillerWATERCOOLED,IfcChillerWATERCOOLED,0
 cleaning - floor cleaner scrubber dryer,FCSD,0,,IfcElectricAppliance,IfcElectricAppliance,0
+cleaning - electric washing machine and dryer,EWD,0,,IfcElectricAppliance,IfcElectricAppliance,0
 cleaning - standalone laundry tumble dryer,TDY,0,,IfcElectricApplianceTUMBLEDRYER,IfcElectricApplianceTUMBLEDRYER,0
 cleaning - standalone laundry washing mashine,WSH,0,,IfcElectricApplianceWASHINGMACHINE,IfcElectricApplianceWASHINGMACHINE,0
 coil,COIL,0,,IfcCoil,IfcCoil,1
@@ -214,8 +217,6 @@ distribution - circuit,DCT,0,,IfcDistributionCircuit,,1
 distribution - system,DSYS,0,,IfcDistributionSystem,,1
 distribution data - coaxial cable,COAXCA,0,,IfcCableSegment,IfcCableSegment,0
 distribution data - data cable,DCA,0,,IfcCableSegment,IfcCableSegment,0
-distribution electric - EVC electric vehicle charging distribution panel,EVDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-distribution electric - EVC electric vehicle charging equipment,EVCE,1,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET,0
 distribution electric - active harmonic filter,AHF,1,,IfcElectricFlowStorageDeviceHARMONICFILTER,IfcElectricFlowStorageDeviceHARMONICFILTER,0
 distribution electric - automatic transfer switch,ATS,1,,IfcProtectiveDevice,IfcProtectiveDevice,0
 distribution electric - branch circuit panel board 120/208V,LVCPB,0,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
@@ -230,6 +231,8 @@ distribution electric - distribution panel 120/208V,LVDP,1,ELECTRICAL/PANEL,IfcD
 distribution electric - distribution panel 277/480V,HVDP,1,ELECTRICAL/PANEL,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 distribution electric - distribution panel for itc equipment,ITDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 distribution electric - electric switch,ELSW,1,,IfcSwitchingDeviceTOGGLESWITCH,IfcSwitchingDeviceTOGGLESWITCH,0
+distribution electric - EVC electric vehicle charging distribution panel,EVDP,1,ELECTRICAL/PANEL,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
+distribution electric - EVC electric vehicle charging equipment,EVCE,1,,IfcOutletPOWEROUTLET,IfcOutletPOWEROUTLET,0
 distribution electric - fire rated cable,FCA,0,,IfcCableSegment,IfcCableSegment,0
 distribution electric - high voltage switchboard,HVSB,1,,IfcDistributionBoardSWITCHBOARD,IfcElectricDistributionPointSWITCHBOARD,0
 distribution electric - invertor,IVT,1,,IfcTransformerINVERTER,IfcTransformer,0
@@ -375,6 +378,8 @@ fire detection - heat detector,HD,1,SENSOR,IfcSensorHEATSENSOR,IfcSensorHEATSENS
 fire detection - hydrogen detector,HDS,1,,IfcSensor,IfcSensor,0
 fire detection - input output interface unit,IFU,1,,IfcSwitchingDevice,IfcSwitchingDevice,0
 fire detection - smoke detector,SD,1,SAFETY/SD,IfcSensorSMOKESENSOR,IfcSensorSMOKESENSOR,0
+fire suppression - fire and smoke curtain,FSC,0,,,,0
+fire suppression - fire extinguisher cabinet,FEC,0,,IfcFurnitureTECHNICALCABINET,IfcFurniture,0
 fire suppression - fire jockey pump,FJP,1,,IfcPump,IfcPump,0
 fire suppression - fire pump,FP,1,,IfcPump,IfcPump,0
 fire suppression - fire pump control panel,FPCP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
@@ -474,6 +479,11 @@ ict equipment - wi-fi router,WRTR,1,,IfcCommunicationsApplianceROUTER,IfcElectri
 ict equipment - wireless access point,WAP,1,,IfcCommunicationsApplianceROUTER,IfcElectricAppliance,0
 ict equipment - wireless lan controller,WLC,1,,IfcControllerPROGRAMMABLE,IfcController,0
 impact protection device,IPD,0,,IfcImpactProtectionDevice,,1
+indicator - flow indicator/gauge,FI,0,,IfcFlowInstrument,IfcFlowInstrument,1
+indicator - differential pressure indicator/gauge,DPI,0,,IfcFlowInstrumentPRESSUREGAUGE,IfcFlowInstrumentPRESSUREGAUGE,0
+indicator - pressure indicator/gauge,PI,0,,IfcFlowInstrumentPRESSUREGAUGE,IfcFlowInstrumentPRESSUREGAUGE,0
+indicator - level indicator/gauge,LI,0,,IfcFlowInstrument,IfcFlowInstrument,0
+indicator - temperature indicator/gauge,TI,0,,IfcFlowInstrumentTHERMOMETER,IfcFlowInstrumentTHERMOMETER,0
 interceptor,ITCP,0,,IfcInterceptor,IfcInterceptor,1
 interceptor - cyclonic,ITCPC,0,,IfcInterceptorCYCLONIC,IfcInterceptorCYCLONIC,1
 interceptor - grease,ITCPG,0,,IfcInterceptorGREASE,IfcInterceptorGREASE,1
@@ -549,7 +559,9 @@ meter - flow meter,FM,1,METERS/FM,IfcFlowMeter,IfcFlowMeter,0
 meter - gas meter,GM,1,METERS/GM,IfcFlowMeterGASMETER,IfcFlowMeterGASMETER,0
 meter - gas meter (virtual),GMV,0,METERS/GMV,IfcFlowMeter,IfcFlowMeter,0
 meter - heat meter,HM,1,METERS/HM,IfcFlowMeter,IfcFlowMeter,0
-meter - heat meter (virtual),HMV,0,METERS/HMV,IfcFlowMeter,IfcFlowMeter,0
+meter - heat meter (virtual),HMV,1,METERS/HMV,IfcFlowMeter,IfcFlowMeter,0
+meter - thermal energy meter,TEM,1,METERS/HM,IfcFlowMeter,IfcFlowMeter,0
+meter - thermal energy meter (virtual),TEMV,1,METERS/HMV,IfcFlowMeter,IfcFlowMeter,0
 meter - water meter,WM,1,METERS/WM,IfcFlowMeterWATERMETER,IfcFlowMeterWATERMETER,0
 meter - water meter (virtual),WMV,0,METERS/WMV,IfcFlowMeter,IfcFlowMeter,0
 mobile telecommunications appliance,MTA,1,,IfcMobileTelecommunicationsAppliance,,1
@@ -589,8 +601,9 @@ panel - remote i/o control panel,RIO,1,,IfcUnitaryControlElement,IfcElectricDist
 panel - rodent repellent panel,RDT,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
 panel - variable air volume control station / panel,VAVCTR,1,,IfcUnitaryControlElement,IfcController,0
 pipe fitting,PFT,0,,IfcPipeFitting,IfcPipeFitting,1
-pipe fitting - underfloor heating manifold,UFHM,1,,IfcPipeFittingCONNECTOR,IfcPipeFittingCONNECTOR,0
-pipe fitting - underfloor manifold,UFM,1,,IfcPipeFittingCONNECTOR,IfcPipeFittingCONNECTOR,0
+pipe fitting - geothermal manifold,GXM,0,,IfcPipeFittingCONNECTOR,IfcPipeFittingCONNECTOR,0
+pipe fitting - underfloor heating manifold,UFHM,0,,IfcPipeFittingCONNECTOR,IfcPipeFittingCONNECTOR,0
+pipe fitting - underfloor manifold,UFM,0,,IfcPipeFittingCONNECTOR,IfcPipeFittingCONNECTOR,0
 plate,PLT,0,,IfcPlate,IfcPlate,1
 pressurisation unit,PU,1,,IfcUnitaryEquipment,IfcUnitaryEquipment,0
 pressurisation unit - water system makeup unit,WMS,1,,IfcUnitaryEquipment,IfcUnitaryEquipment,0
@@ -609,6 +622,8 @@ pump - fuel oil pump,FOP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - gas booster pump,GBP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - greywater booster pump,GWBP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - heat exchanger pump,HXP,1,HVAC/PMP,IfcPump,IfcPump,0
+pump - heat recovery chilled water pump,HRHWP,1,HVAC/PMP,IfcPump,IfcPump,0
+pump - heat recovery condenser water pump,HRCWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - high temperature chilled water pump,HTCHP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - high temperature condenser water pump,HTCWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - hot water pump,HWP,1,HVAC/PMP,IfcPump,IfcPump,0
@@ -619,6 +634,7 @@ pump - packaged pump set,PAPS,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - potable/domestic water booster pump,DWBP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - potable/domestic water transfer pump,DWTP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - primary chilled water pump,PCHWP,1,HVAC/PMP,IfcPump,IfcPump,0
+pump - primary hot water pump,PHWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - primary low temperature hot water pump,PLTHWP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - primary pump,PP,1,HVAC/PMP,IfcPump,IfcPump,0
 pump - process cooling water pump,PCWP,1,HVAC/PMP,IfcPump,IfcPump,0
@@ -669,7 +685,6 @@ refrigeration - retarder/proover,REFRP,0,,IfcElectricApplianceREFRIGERATOR,IfcEl
 sand oil interceptor,SOI,0,,IfcInterceptorOIL,IfcWasteTerminalOILINTERCEPTOR,0
 sand separator,SSP,0,,IfcInterceptor,IfcWasteTerminal,0
 sanitary terminal,SAN,0,,IfcSanitaryTerminal,IfcSanitaryTerminal,1
-sanitary terminal - WC (toilet),WC,0,,IfcSanitaryTerminalTOILETPAN,IfcSanitaryTerminalTOILETPAN,1
 sanitary terminal - bath,BATH,0,,IfcSanitaryTerminalBATH,IfcSanitaryTerminalBATH,1
 sanitary terminal - bidet,BIDET,0,,IfcSanitaryTerminalBIDET,IfcSanitaryTerminalBIDET,1
 sanitary terminal - cistern,CIST,0,,IfcSanitaryTerminalCISTERN,IfcSanitaryTerminalCISTERN,1
@@ -682,6 +697,7 @@ sanitary terminal - tap,TAP,0,,IfcSanitaryTerminal,IfcSanitaryTerminal,0
 sanitary terminal - urinal,UR,0,,IfcSanitaryTerminalURINAL,IfcSanitaryTerminalURINAL,1
 sanitary terminal - wash hand basin,WHB,0,,IfcSanitaryTerminalWASHHANDBASIN,IfcSanitaryTerminalWASHHANDBASIN,1
 sanitary terminal - washroom vanity trough,WVT,0,,IfcSanitaryTerminal,IfcSanitaryTerminal,0
+sanitary terminal - WC (toilet),WC,0,,IfcSanitaryTerminalTOILETPAN,IfcSanitaryTerminalTOILETPAN,1
 sensor,SNS,1,,IfcSensor,IfcSensor,1
 sensor - CO sensor,COS,1,SENSOR,IfcSensorCOSENSOR,IfcSensorCO2SENSOR,0
 sensor - CO2 sensor,CDS,1,SENSOR,IfcSensorCO2SENSOR,IfcSensorCO2SENSOR,0
@@ -692,6 +708,7 @@ sensor - differential pressure sensor,DPS,1,SENSOR,IfcSensorPRESSURESENSOR,IfcSe
 sensor - glycol protector sensor,GLYPR,1,SENSOR,IfcSensor,IfcSensor,0
 sensor - humidity sensor,HMS,1,SENSOR,IfcSensorHUMIDITYSENSOR,IfcSensorHUMIDITYSENSOR,0
 sensor - humidity sensor - outside,OHMS,1,SENSOR,IfcSensorHUMIDITYSENSOR,IfcSensorHUMIDITYSENSOR,0
+sensor - indoor air quality sensor,IAQS,1,SENSOR,IfcSensor,IfcSensor,0
 sensor - inertial measurement unit sensor,IMUS,1,SENSOR,IfcSensor,IfcSensor,0
 sensor - leak detection sensor,LDS,1,SENSOR,IfcSensor,IfcSensor,0
 sensor - level sensor,LVLS,1,SENSOR,IfcSensor,IfcSensor,0
@@ -704,6 +721,9 @@ sensor - multi sensor,MTS,1,SENSOR,IfcSensor,IfcSensor,0
 sensor - nitrogen dioxide sensor,NDS,1,SENSOR,IfcSensor,IfcSensor,0
 sensor - particulate matter sensor,PMS,1,SENSOR,IfcSensor,IfcSensor,0
 sensor - people counting sensor,PCS,1,SENSOR,IfcSensor,IfcSensor,0
+sensor - people counting sensor - area count,PCSA,1,SENSOR,IfcSensor,IfcSensor,0
+sensor - people counting sensor - threshold count,PCST,1,SENSOR,IfcSensor,IfcSensor,0
+sensor - people counting sensor (virtual),PCSV,1,SENSOR,IfcSensor,IfcSensor,0
 sensor - pressure sensor,PS,1,SENSOR,IfcSensorPRESSURESENSOR,IfcSensorPRESSURESENSOR,0
 sensor - seismic sensor,SSS,1,SENSOR,IfcSensor,IfcSensor,0
 sensor - sound level sensor,SLS,1,SENSOR,IfcSensorSOUNDSENSOR,IfcSensorSOUNDSENSOR,0
@@ -720,6 +740,7 @@ shading - shading device,SHD,1,,IfcShadingDevice,,1
 shading - shading device actuator,SDACT,1,HVAC/SDC,IfcActuatorELECTRICACTUATOR,IfcActuatorELECTRICACTUATOR,0
 shading - shading device blinds,BL,0,,IfcShadingDevice,IfcDiscreteAccessory,0
 shading - shading device controller,SDC,1,,IfcController,IfcController,0
+shading - shading control panel,SDCP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
 shading - shading device keypad,SDKP,1,,IfcSwitchingDeviceKEYPAD,IfcSwitchingDevice,0
 shading - shading device motor,SDM,0,,IfcElectricMotor,IfcElectricMotor,0
 shading - shading device solar tracking module,SDSTM,1,,IfcSensorRADIATIONSENSOR,IfcSensor,0
@@ -728,6 +749,7 @@ signal - beacon,BCN,1,,IfcAlarmLIGHT,IfcAlarmLIGHT,0
 solar device,SOL,1,,IfcSolarDevice,,1
 space,SPACE,0,,IfcSpace,IfcSpace,1
 spatial zone,SZONE,0,,IfcSpatialZone,,1
+spill control kit,SCK,0,,,,0
 stack terminal - birdcage,BDCG,0,,IfcStackTerminalBIRDCAGE,IfcStackTerminalBIRDCAGE,1
 stack terminal - cowl,COWL,0,,IfcStackTerminalCOWL,IfcStackTerminalCOWL,1
 stack terminal - rain water hopper,RWH,0,,IfcStackTerminalRAINWATERHOPPER,IfcStackTerminalRAINWATERHOPPER,1
@@ -762,6 +784,7 @@ structure - reinforcing mesh,RFM,0,,IfcReinforcingMesh,IfcReinforcingMesh,1
 structure - slab,SLB,0,,IfcSlab,IfcSlab,1
 structure - stair,STR,0,,IfcStair,IfcStair,1
 structure - stair flight,STRFL,0,,IfcStairFlight,IfcStairFlight,1
+structure - stair - ladder,LAD,0,,IfcStairLADDER,IfcStair,0
 structure - tendon,TEN,0,,IfcTendon,IfcTendon,1
 structure - tendon circuit,TCN,0,,IfcTendonConduit,,1
 structure - track,TRACK,0,,IfcTrackElement,,1
@@ -829,6 +852,7 @@ tank - brine tank,BRITK,0,,IfcTankVESSEL,IfcTank,0
 tank - buffer vessel - cooling,CBUFF,0,,IfcTankVESSEL,IfcTank,0
 tank - buffer vessel - generic,BUFF,0,,IfcTankVESSEL,IfcTank,0
 tank - buffer vessel - heating,HBUFF,0,,IfcTankVESSEL,IfcTank,0
+tank - cold water storage tank,CWST,0,,IfcTankSTORAGE,IfcTank,0
 tank - compressed air storage tank,CAST,0,,IfcTankSTORAGE,IfcTank,0
 tank - condensate receiver tank,CNR,0,,IfcTankSTORAGE,IfcTank,0
 tank - deareator tank,DEA,0,,IfcTank,IfcTank,0
@@ -853,6 +877,7 @@ timeclock,TMCLK,1,,IfcElectricTimeControlTIMECLOCK,IfcElectricTimeControlTIMECLO
 transformer,TXMR,0,,IfcTransformer,IfcTransformer,1
 transport element,TRE,0,,IfcTransportElement,IfcTransportElement,1
 transportation - escalator,ESC,1,,IfcTransportElementESCALATOR,IfcTransportElementESCALATOR,0
+transportation - hydraulic dock leveller,HDL,0,,IfcTransportElementLIFTINGGEAR,IfcTransportElement,0
 transportation - lift / elevator,ELV,1,,IfcTransportElementELEVATOR,IfcTransportElementELEVATOR,0
 transportation - lift / elevator controller,ELC,1,,IfcUnitaryControlElement,IfcController,0
 transportation - lift / elevator door motor,ELDM,1,,IfcElectricMotor,IfcElectricMotor,0
@@ -869,6 +894,7 @@ user interface - keypad,KP,1,,IfcSwitchingDeviceKEYPAD,IfcSwitchingDevice,0
 uv disinfection unit,UVDU,1,,IfcFilter,IfcFilter,0
 valve,VLV,0,HVAC/VLV,IfcValve,IfcValve,1
 valve - air admittance valve,AAV,0,HVAC/VLV,IfcValveAIRRELEASE,IfcValveAIRRELEASE,0
+valve - air release valve,ARV,0,HVAC/VLV,IfcValveAIRRELEASE,IfcValveAIRRELEASE,0
 valve - angle stop valve,AV,0,HVAC/VLV,IfcValve,IfcValve,0
 valve - backflow preventer valve,BFP,0,HVAC/VLV,IfcValve,IfcValve,0
 valve - balancing valve,BLV,0,HVAC/VLV,IfcValveCOMMISSIONING,IfcValveCOMMISSIONING,0
@@ -904,6 +930,7 @@ valve - return valve,RTV,0,HVAC/VLV,IfcValve,IfcValve,0
 valve - seismic gas valve,SGV,0,HVAC/VLV,IfcValve,IfcValve,0
 valve - solenoid valve,SNV,1,HVAC/VLV,IfcValveSAFETYCUTOFF,IfcValveSAFETYCUTOFF,0
 valve - steam pressure reducing valve,SPRV,0,HVAC/VLV,IfcValve,IfcValve,0
+valve - strainer valve,STRV,0,HVAC/VLV,IfcValve,IfcValve,0
 valve - supply valve,SPV,0,HVAC/VLV,IfcValve,IfcValve,0
 valve - temperature control valve,TCV,0,HVAC/VLV,IfcValve,IfcValve,0
 valve - thermostatic mixing valve,TMV,0,HVAC/VLV,IfcValveMIXING,IfcValveMIXING,0
