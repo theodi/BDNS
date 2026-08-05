@@ -293,7 +293,7 @@ electric appliance - steamer,STE,0,,IfcElectricAppliance,IfcElectricAppliance,0
 electric flow treatment device,EFT,1,,IfcElectricFlowTreatmentDevice,,1
 electric protective device - arc fault detection device,AFDD,1,,IfcProtectiveDeviceANTI_ARCING_DEVICE,IfcProtectiveDevice,1
 electric protective device - circuit breaker,CB,1,,IfcProtectiveDeviceCIRCUITBREAKER,IfcProtectiveDeviceCIRCUITBREAKER,0
-electric protective device - combination motor starter,CMS,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR,0
+electric protective device - combination motor starter,CMST,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR,0
 electric protective device - disconnect fuse,DSCTF,0,,IfcProtectiveDeviceFUSEDISCONNECTOR,IfcProtectiveDeviceFUSEDISCONNECTOR,0
 electric protective device - electrical isolator (disconnector),EISO,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceSWITCHDISCONNECTOR,0
 electric protective device - high temperature cut out switch,HTCO,0,,IfcSwitchingDevice,IfcSwitchingDevice,0
