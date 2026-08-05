@@ -3,7 +3,7 @@
     "OrganizationCode": "bdns",
     "DictionaryCode": "bdns",
     "DictionaryName": "Building Device Naming Syntax",
-    "DictionaryVersion": "2.1.4",
+    "DictionaryVersion": "2.1.4b",
     "LanguageIsoCode": "EN",
     "Status": "Preview",
     "Classes": [
@@ -3064,7 +3064,7 @@
             ]
         },
         {
-            "Code": "CMS",
+            "Code": "CMST",
             "Name": "electric protective device - combination motor starter",
             "Definition": "electric protective device - combination motor starter",
             "Description": "electric protective device - combination motor starter",
