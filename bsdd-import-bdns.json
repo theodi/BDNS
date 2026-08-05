@@ -3,31 +3,10 @@
     "OrganizationCode": "bdns",
     "DictionaryCode": "bdns",
     "DictionaryName": "Building Device Naming Syntax",
-    "DictionaryVersion": "2.1.3",
+    "DictionaryVersion": "2.1.4",
     "LanguageIsoCode": "EN",
     "Status": "Preview",
     "Classes": [
-        {
-            "Code": "RFIDC",
-            "Name": "access control - RFID controller",
-            "Definition": "access control - RFID controller",
-            "Description": "access control - RFID controller",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcController"
-            ],
-            "ParentClassCode": "CNTRL"
-        },
-        {
-            "Code": "RFIDR",
-            "Name": "access control - RFID reader",
-            "Definition": "access control - RFID reader",
-            "Description": "access control - RFID reader",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcCommunicationsApplianceSCANNER"
-            ]
-        },
         {
             "Code": "ACS",
             "Name": "access control - access control system",
@@ -74,6 +53,27 @@
             "Name": "access control - proximity reader - generic",
             "Definition": "access control - proximity reader - generic",
             "Description": "access control - proximity reader - generic",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcCommunicationsApplianceSCANNER"
+            ]
+        },
+        {
+            "Code": "RFIDC",
+            "Name": "access control - RFID controller",
+            "Definition": "access control - RFID controller",
+            "Description": "access control - RFID controller",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcController"
+            ],
+            "ParentClassCode": "CNTRL"
+        },
+        {
+            "Code": "RFIDR",
+            "Name": "access control - RFID reader",
+            "Definition": "access control - RFID reader",
+            "Description": "access control - RFID reader",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcCommunicationsApplianceSCANNER"
@@ -578,13 +578,24 @@
         },
         {
             "Code": "SFE",
-            "Name": "arhitecture - system furniture element",
-            "Definition": "arhitecture - system furniture element",
-            "Description": "arhitecture - system furniture element",
+            "Name": "architecture - system furniture element",
+            "Definition": "architecture - system furniture element",
+            "Description": "architecture - system furniture element",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcSystemFurnitureElement"
             ]
+        },
+        {
+            "Code": "AED",
+            "Name": "automatic external defibrillator",
+            "Definition": "automatic external defibrillator",
+            "Description": "automatic external defibrillator",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcElectricAppliance"
+            ],
+            "ParentClassCode": "EAPPL"
         },
         {
             "Code": "AVEQ",
@@ -949,6 +960,26 @@
             ]
         },
         {
+            "Code": "EBR",
+            "Name": "battery - exterior battery rack",
+            "Definition": "battery - exterior battery rack",
+            "Description": "battery - exterior battery rack",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcElectricFlowStorageDeviceBATTERY"
+            ]
+        },
+        {
+            "Code": "IBR",
+            "Name": "battery - interior battery rack",
+            "Definition": "battery - interior battery rack",
+            "Description": "battery - interior battery rack",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcElectricFlowStorageDeviceBATTERY"
+            ]
+        },
+        {
             "Code": "BATTLI",
             "Name": "battery - lithium ion cell",
             "Definition": "battery - lithium ion cell",
@@ -1271,6 +1302,17 @@
             ]
         },
         {
+            "Code": "HRC",
+            "Name": "chiller - heat/energy recovery chiller",
+            "Definition": "chiller - heat/energy recovery chiller",
+            "Description": "chiller - heat/energy recovery chiller",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcChiller"
+            ],
+            "ParentClassCode": "CH"
+        },
+        {
             "Code": "HTCH",
             "Name": "chiller - high temperature chiller",
             "Definition": "chiller - high temperature chiller",
@@ -1329,6 +1371,17 @@
             "Name": "cleaning - floor cleaner scrubber dryer",
             "Definition": "cleaning - floor cleaner scrubber dryer",
             "Description": "cleaning - floor cleaner scrubber dryer",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcElectricAppliance"
+            ],
+            "ParentClassCode": "EAPPL"
+        },
+        {
+            "Code": "EWD",
+            "Name": "cleaning - electric washing machine and dryer",
+            "Definition": "cleaning - electric washing machine and dryer",
+            "Description": "cleaning - electric washing machine and dryer",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcElectricAppliance"
@@ -1521,6 +1574,16 @@
             "Name": "controller - door controller",
             "Definition": "controller - door controller",
             "Description": "controller - door controller",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcControllerPROGRAMMABLE"
+            ]
+        },
+        {
+            "Code": "HPC",
+            "Name": "controller - heat pump controller",
+            "Definition": "controller - heat pump controller",
+            "Description": "controller - heat pump controller",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcControllerPROGRAMMABLE"
@@ -2231,27 +2294,6 @@
             "ParentClassCode": "CA"
         },
         {
-            "Code": "EVDP",
-            "Name": "distribution electric - EVC electric vehicle charging distribution panel",
-            "Definition": "distribution electric - EVC electric vehicle charging distribution panel",
-            "Description": "distribution electric - EVC electric vehicle charging distribution panel",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcDistributionBoard"
-            ],
-            "ParentClassCode": "DB"
-        },
-        {
-            "Code": "EVCE",
-            "Name": "distribution electric - EVC electric vehicle charging equipment",
-            "Definition": "distribution electric - EVC electric vehicle charging equipment",
-            "Description": "distribution electric - EVC electric vehicle charging equipment",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcOutletPOWEROUTLET"
-            ]
-        },
-        {
             "Code": "AHF",
             "Name": "distribution electric - active harmonic filter",
             "Definition": "distribution electric - active harmonic filter",
@@ -2394,6 +2436,27 @@
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcSwitchingDeviceTOGGLESWITCH"
+            ]
+        },
+        {
+            "Code": "EVDP",
+            "Name": "distribution electric - EVC electric vehicle charging distribution panel",
+            "Definition": "distribution electric - EVC electric vehicle charging distribution panel",
+            "Description": "distribution electric - EVC electric vehicle charging distribution panel",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcDistributionBoard"
+            ],
+            "ParentClassCode": "DB"
+        },
+        {
+            "Code": "EVCE",
+            "Name": "distribution electric - EVC electric vehicle charging equipment",
+            "Definition": "distribution electric - EVC electric vehicle charging equipment",
+            "Description": "distribution electric - EVC electric vehicle charging equipment",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcOutletPOWEROUTLET"
             ]
         },
         {
@@ -2562,6 +2625,16 @@
                 "IfcElectricFlowTreatmentDevice"
             ],
             "ParentClassCode": "EFT"
+        },
+        {
+            "Code": "PSU",
+            "Name": "distribution electric - power supply unit",
+            "Definition": "distribution electric - power supply unit",
+            "Description": "distribution electric - power supply unit",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcTransformerRECTIFIER"
+            ]
         },
         {
             "Code": "REC",
@@ -2971,6 +3044,16 @@
             ]
         },
         {
+            "Code": "AFDD",
+            "Name": "electric protective device - arc fault detection device",
+            "Definition": "electric protective device - arc fault detection device",
+            "Description": "electric protective device - arc fault detection device",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcProtectiveDeviceANTI_ARCING_DEVICE"
+            ]
+        },
+        {
             "Code": "CB",
             "Name": "electric protective device - circuit breaker",
             "Definition": "electric protective device - circuit breaker",
@@ -2978,6 +3061,16 @@
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcProtectiveDeviceCIRCUITBREAKER"
+            ]
+        },
+        {
+            "Code": "CMS",
+            "Name": "electric protective device - combination motor starter",
+            "Definition": "electric protective device - combination motor starter",
+            "Description": "electric protective device - combination motor starter",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSwitchingDeviceSWITCHDISCONNECTOR"
             ]
         },
         {
@@ -3832,6 +3925,16 @@
             ]
         },
         {
+            "Code": "FLMD",
+            "Name": "fire detection - flame detector",
+            "Definition": "fire detection - flame detector",
+            "Description": "fire detection - flame detector",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSensorFIRESENSOR"
+            ]
+        },
+        {
             "Code": "GD",
             "Name": "fire detection - gas detector",
             "Definition": "fire detection - gas detector",
@@ -3881,6 +3984,26 @@
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcSensorSMOKESENSOR"
+            ]
+        },
+        {
+            "Code": "FSC",
+            "Name": "fire suppression - fire and smoke curtain",
+            "Definition": "fire suppression - fire and smoke curtain",
+            "Description": "fire suppression - fire and smoke curtain",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                ""
+            ]
+        },
+        {
+            "Code": "FEC",
+            "Name": "fire suppression - fire extinguisher cabinet",
+            "Definition": "fire suppression - fire extinguisher cabinet",
+            "Description": "fire suppression - fire extinguisher cabinet",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcFurnitureTECHNICALCABINET"
             ]
         },
         {
@@ -4087,7 +4210,8 @@
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcFlowInstrument"
-            ]
+            ],
+            "ParentClassCode": "FI"
         },
         {
             "Code": "FSCPL",
@@ -4587,17 +4711,6 @@
             "ParentClassCode": "HTR"
         },
         {
-            "Code": "UFM",
-            "Name": "heat emitter - underfloor manifold",
-            "Definition": "heat emitter - underfloor manifold",
-            "Description": "heat emitter - underfloor manifold",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcSpaceHeater"
-            ],
-            "ParentClassCode": "HTR"
-        },
-        {
             "Code": "UH",
             "Name": "heat emitter - unit heater",
             "Definition": "heat emitter - unit heater",
@@ -4934,15 +5047,55 @@
             ]
         },
         {
-            "Code": "INT",
-            "Name": "interceptor",
-            "Definition": "interceptor",
-            "Description": "interceptor",
+            "Code": "FI",
+            "Name": "indicator - flow indicator/gauge",
+            "Definition": "indicator - flow indicator/gauge",
+            "Description": "indicator - flow indicator/gauge",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
-                "IfcInterceptor"
+                "IfcFlowInstrument"
+            ]
+        },
+        {
+            "Code": "DPI",
+            "Name": "indicator - differential pressure indicator/gauge",
+            "Definition": "indicator - differential pressure indicator/gauge",
+            "Description": "indicator - differential pressure indicator/gauge",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcFlowInstrumentPRESSUREGAUGE"
+            ]
+        },
+        {
+            "Code": "PI",
+            "Name": "indicator - pressure indicator/gauge",
+            "Definition": "indicator - pressure indicator/gauge",
+            "Description": "indicator - pressure indicator/gauge",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcFlowInstrumentPRESSUREGAUGE"
+            ]
+        },
+        {
+            "Code": "LI",
+            "Name": "indicator - level indicator/gauge",
+            "Definition": "indicator - level indicator/gauge",
+            "Description": "indicator - level indicator/gauge",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcFlowInstrument"
             ],
-            "ParentClassCode": "ITCP"
+            "ParentClassCode": "FI"
+        },
+        {
+            "Code": "TI",
+            "Name": "indicator - temperature indicator/gauge",
+            "Definition": "indicator - temperature indicator/gauge",
+            "Description": "indicator - temperature indicator/gauge",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcFlowInstrumentTHERMOMETER"
+            ]
         },
         {
             "Code": "ITCP",
@@ -5330,6 +5483,17 @@
             "ParentClassCode": "ATB"
         },
         {
+            "Code": "LAC",
+            "Name": "lighting - control - area controller",
+            "Definition": "lighting - control - area controller",
+            "Description": "lighting - control - area controller",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcUnitaryControlElement"
+            ],
+            "ParentClassCode": "UCE"
+        },
+        {
             "Code": "DIM",
             "Name": "lighting - control - dimmer",
             "Definition": "lighting - control - dimmer",
@@ -5668,6 +5832,17 @@
             "ParentClassCode": "MTR"
         },
         {
+            "Code": "EBMV",
+            "Name": "meter - electric branch meter (virtual)",
+            "Definition": "meter - electric branch meter (virtual)",
+            "Description": "meter - electric branch meter (virtual)",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcFlowMeter"
+            ],
+            "ParentClassCode": "MTR"
+        },
+        {
             "Code": "EM",
             "Name": "meter - electric meter",
             "Definition": "meter - electric meter",
@@ -5736,6 +5911,28 @@
             "Name": "meter - heat meter (virtual)",
             "Definition": "meter - heat meter (virtual)",
             "Description": "meter - heat meter (virtual)",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcFlowMeter"
+            ],
+            "ParentClassCode": "MTR"
+        },
+        {
+            "Code": "TEM",
+            "Name": "meter - thermal energy meter",
+            "Definition": "meter - thermal energy meter",
+            "Description": "meter - thermal energy meter",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcFlowMeter"
+            ],
+            "ParentClassCode": "MTR"
+        },
+        {
+            "Code": "TEMV",
+            "Name": "meter - thermal energy meter (virtual)",
+            "Definition": "meter - thermal energy meter (virtual)",
+            "Description": "meter - thermal energy meter (virtual)",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcFlowMeter"
@@ -6142,6 +6339,36 @@
             ]
         },
         {
+            "Code": "GXM",
+            "Name": "pipe fitting - geothermal manifold",
+            "Definition": "pipe fitting - geothermal manifold",
+            "Description": "pipe fitting - geothermal manifold",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcPipeFittingCONNECTOR"
+            ]
+        },
+        {
+            "Code": "UFHM",
+            "Name": "pipe fitting - underfloor heating manifold",
+            "Definition": "pipe fitting - underfloor heating manifold",
+            "Description": "pipe fitting - underfloor heating manifold",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcPipeFittingCONNECTOR"
+            ]
+        },
+        {
+            "Code": "UFM",
+            "Name": "pipe fitting - underfloor manifold",
+            "Definition": "pipe fitting - underfloor manifold",
+            "Description": "pipe fitting - underfloor manifold",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcPipeFittingCONNECTOR"
+            ]
+        },
+        {
             "Code": "PLT",
             "Name": "plate",
             "Definition": "plate",
@@ -6238,7 +6465,7 @@
             ]
         },
         {
-            "Code": "CDWP",
+            "Code": "CWP",
             "Name": "pump - condenser water pump",
             "Definition": "pump - condenser water pump",
             "Description": "pump - condenser water pump",
@@ -6337,6 +6564,28 @@
             "ParentClassCode": "PMP"
         },
         {
+            "Code": "HRHWP",
+            "Name": "pump - heat recovery chilled water pump",
+            "Definition": "pump - heat recovery chilled water pump",
+            "Description": "pump - heat recovery chilled water pump",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcPump"
+            ],
+            "ParentClassCode": "PMP"
+        },
+        {
+            "Code": "HRCWP",
+            "Name": "pump - heat recovery condenser water pump",
+            "Definition": "pump - heat recovery condenser water pump",
+            "Description": "pump - heat recovery condenser water pump",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcPump"
+            ],
+            "ParentClassCode": "PMP"
+        },
+        {
             "Code": "HTCHP",
             "Name": "pump - high temperature chilled water pump",
             "Definition": "pump - high temperature chilled water pump",
@@ -6381,7 +6630,7 @@
             "ParentClassCode": "PMP"
         },
         {
-            "Code": "LTCDWP",
+            "Code": "LTCWP",
             "Name": "pump - low temperature condenser water pump",
             "Definition": "pump - low temperature condenser water pump",
             "Description": "pump - low temperature condenser water pump",
@@ -6440,6 +6689,17 @@
             "Name": "pump - primary chilled water pump",
             "Definition": "pump - primary chilled water pump",
             "Description": "pump - primary chilled water pump",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcPump"
+            ],
+            "ParentClassCode": "PMP"
+        },
+        {
+            "Code": "PHWP",
+            "Name": "pump - primary hot water pump",
+            "Definition": "pump - primary hot water pump",
+            "Description": "pump - primary hot water pump",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcPump"
@@ -6978,16 +7238,6 @@
             ]
         },
         {
-            "Code": "WC",
-            "Name": "sanitary terminal - WC (toilet)",
-            "Definition": "sanitary terminal - WC (toilet)",
-            "Description": "sanitary terminal - WC (toilet)",
-            "ClassType": "Class",
-            "RelatedIfcEntityNamesList": [
-                "IfcSanitaryTerminalTOILETPAN"
-            ]
-        },
-        {
             "Code": "BATH",
             "Name": "sanitary terminal - bath",
             "Definition": "sanitary terminal - bath",
@@ -7111,6 +7361,16 @@
             "ParentClassCode": "SAN"
         },
         {
+            "Code": "WC",
+            "Name": "sanitary terminal - WC (toilet)",
+            "Definition": "sanitary terminal - WC (toilet)",
+            "Description": "sanitary terminal - WC (toilet)",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSanitaryTerminalTOILETPAN"
+            ]
+        },
+        {
             "Code": "SNS",
             "Name": "sensor",
             "Definition": "sensor",
@@ -7211,6 +7471,17 @@
             "RelatedIfcEntityNamesList": [
                 "IfcSensorHUMIDITYSENSOR"
             ]
+        },
+        {
+            "Code": "IAQS",
+            "Name": "sensor - indoor air quality sensor",
+            "Definition": "sensor - indoor air quality sensor",
+            "Description": "sensor - indoor air quality sensor",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSensor"
+            ],
+            "ParentClassCode": "SNS"
         },
         {
             "Code": "IMUS",
@@ -7342,6 +7613,39 @@
             "ParentClassCode": "SNS"
         },
         {
+            "Code": "PCSA",
+            "Name": "sensor - people counting sensor - area count",
+            "Definition": "sensor - people counting sensor - area count",
+            "Description": "sensor - people counting sensor - area count",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSensor"
+            ],
+            "ParentClassCode": "SNS"
+        },
+        {
+            "Code": "PCST",
+            "Name": "sensor - people counting sensor - threshold count",
+            "Definition": "sensor - people counting sensor - threshold count",
+            "Description": "sensor - people counting sensor - threshold count",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSensor"
+            ],
+            "ParentClassCode": "SNS"
+        },
+        {
+            "Code": "PCSV",
+            "Name": "sensor - people counting sensor (virtual)",
+            "Definition": "sensor - people counting sensor (virtual)",
+            "Description": "sensor - people counting sensor (virtual)",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSensor"
+            ],
+            "ParentClassCode": "SNS"
+        },
+        {
             "Code": "PS",
             "Name": "sensor - pressure sensor",
             "Definition": "sensor - pressure sensor",
@@ -7465,6 +7769,16 @@
             ]
         },
         {
+            "Code": "SHD",
+            "Name": "shading - shading device",
+            "Definition": "shading - shading device",
+            "Description": "shading - shading device",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcShadingDevice"
+            ]
+        },
+        {
             "Code": "SDACT",
             "Name": "shading - shading device actuator",
             "Definition": "shading - shading device actuator",
@@ -7495,6 +7809,16 @@
                 "IfcController"
             ],
             "ParentClassCode": "CNTRL"
+        },
+        {
+            "Code": "SDCP",
+            "Name": "shading - shading control panel",
+            "Definition": "shading - shading control panel",
+            "Description": "shading - shading control panel",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcUnitaryControlElementCONTROLPANEL"
+            ]
         },
         {
             "Code": "SDKP",
@@ -7528,14 +7852,15 @@
             ]
         },
         {
-            "Code": "SHD",
-            "Name": "shading device",
-            "Definition": "shading device",
-            "Description": "shading device",
+            "Code": "SGRP",
+            "Name": "shading - shading group",
+            "Definition": "shading - shading group",
+            "Description": "shading - shading group",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
-                "IfcShadingDevice"
-            ]
+                "IfcGroup"
+            ],
+            "ParentClassCode": "GRP"
         },
         {
             "Code": "BCN",
@@ -7576,6 +7901,17 @@
             "RelatedIfcEntityNamesList": [
                 "IfcSpatialZone"
             ]
+        },
+        {
+            "Code": "SCK",
+            "Name": "spill control kit",
+            "Definition": "spill control kit",
+            "Description": "spill control kit",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcFurniture"
+            ],
+            "ParentClassCode": "FUR"
         },
         {
             "Code": "BDCG",
@@ -7650,6 +7986,17 @@
                 "IfcStackTerminal"
             ],
             "ParentClassCode": "AVR"
+        },
+        {
+            "Code": "SDPS",
+            "Name": "storm drain pump station",
+            "Definition": "storm drain pump station",
+            "Description": "storm drain pump station",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcUnitaryEquipment"
+            ],
+            "ParentClassCode": "UEQ"
         },
         {
             "Code": "CFN",
@@ -7922,6 +8269,16 @@
             ]
         },
         {
+            "Code": "LAD",
+            "Name": "structure - stair - ladder",
+            "Definition": "structure - stair - ladder",
+            "Description": "structure - stair - ladder",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcStairLADDER"
+            ]
+        },
+        {
             "Code": "TEN",
             "Name": "structure - tendon",
             "Definition": "structure - tendon",
@@ -8025,6 +8382,17 @@
             "ParentClassCode": "SWD"
         },
         {
+            "Code": "LFSW",
+            "Name": "switch - liquid flow",
+            "Definition": "switch - liquid flow",
+            "Description": "switch - liquid flow",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcSwitchingDevice"
+            ],
+            "ParentClassCode": "SWD"
+        },
+        {
             "Code": "SPSW",
             "Name": "switch - static pressure",
             "Definition": "switch - static pressure",
@@ -8048,9 +8416,9 @@
         },
         {
             "Code": "AIRCON",
-            "Name": "system - airconditioning",
-            "Definition": "system - airconditioning",
-            "Description": "system - airconditioning",
+            "Name": "system - air conditioning",
+            "Definition": "system - air conditioning",
+            "Description": "system - air conditioning",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemAIRCONDITIONING"
@@ -8058,9 +8426,9 @@
         },
         {
             "Code": "CATNY",
-            "Name": "system - catenary_system",
-            "Definition": "system - catenary_system",
-            "Description": "system - catenary_system",
+            "Name": "system - catenary system",
+            "Definition": "system - catenary system",
+            "Description": "system - catenary system",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemCATENARY_SYSTEM"
@@ -8078,9 +8446,9 @@
         },
         {
             "Code": "CHW",
-            "Name": "system - chilledwater",
-            "Definition": "system - chilledwater",
-            "Description": "system - chilledwater",
+            "Name": "system - chilled water",
+            "Definition": "system - chilled water",
+            "Description": "system - chilled water",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemCHILLEDWATER"
@@ -8098,19 +8466,19 @@
         },
         {
             "Code": "CPAIR",
-            "Name": "system - compressedair",
-            "Definition": "system - compressedair",
-            "Description": "system - compressedair",
+            "Name": "system - compressed air",
+            "Definition": "system - compressed air",
+            "Description": "system - compressed air",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemCOMPRESSEDAIR"
             ]
         },
         {
-            "Code": "CDW",
-            "Name": "system - condenserwater",
-            "Definition": "system - condenserwater",
-            "Description": "system - condenserwater",
+            "Code": "CW",
+            "Name": "system - condenser water",
+            "Definition": "system - condenser water",
+            "Description": "system - condenser water",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemCONDENSERWATER"
@@ -8138,9 +8506,9 @@
         },
         {
             "Code": "DCW",
-            "Name": "system - domesticcoldwater",
-            "Definition": "system - domesticcoldwater",
-            "Description": "system - domesticcoldwater",
+            "Name": "system - domestic cold water",
+            "Definition": "system - domestic cold water",
+            "Description": "system - domestic cold water",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemDOMESTICCOLDWATER"
@@ -8148,9 +8516,9 @@
         },
         {
             "Code": "DHW",
-            "Name": "system - domestichotwater",
-            "Definition": "system - domestichotwater",
-            "Description": "system - domestichotwater",
+            "Name": "system - domestic hot water",
+            "Definition": "system - domestic hot water",
+            "Description": "system - domestic hot water",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemDOMESTICHOTWATER"
@@ -8217,7 +8585,7 @@
             ]
         },
         {
-            "Code": "SPR",
+            "Code": "SFR",
             "Name": "system - fireprotection",
             "Definition": "system - fireprotection",
             "Description": "system - fireprotection",
@@ -8288,9 +8656,9 @@
         },
         {
             "Code": "LPSY",
-            "Name": "system - lightningprotection",
-            "Definition": "system - lightningprotection",
-            "Description": "system - lightningprotection",
+            "Name": "system - lightning protection",
+            "Definition": "system - lightning protection",
+            "Description": "system - lightning protection",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemLIGHTNINGPROTECTION"
@@ -8298,9 +8666,9 @@
         },
         {
             "Code": "MOB",
-            "Name": "system - mobilenetwork",
-            "Definition": "system - mobilenetwork",
-            "Description": "system - mobilenetwork",
+            "Name": "system - mobile network",
+            "Definition": "system - mobile network",
+            "Description": "system - mobile network",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemMOBILENETWORK"
@@ -8318,9 +8686,9 @@
         },
         {
             "Code": "WSTSOL",
-            "Name": "system - municipalsolidwaste",
-            "Definition": "system - municipalsolidwaste",
-            "Description": "system - municipalsolidwaste",
+            "Name": "system - municipal solid waste",
+            "Definition": "system - municipal solid waste",
+            "Description": "system - municipal solid waste",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemMUNICIPALSOLIDWASTE"
@@ -8348,9 +8716,9 @@
         },
         {
             "Code": "PHON",
-            "Name": "system - operationaltelephonysystem",
-            "Definition": "system - operationaltelephonysystem",
-            "Description": "system - operationaltelephonysystem",
+            "Name": "system - operational telephony system",
+            "Definition": "system - operational telephony system",
+            "Description": "system - operational telephony system",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemOPERATIONALTELEPHONYSYSTEM"
@@ -8358,9 +8726,9 @@
         },
         {
             "Code": "OVER",
-            "Name": "system - overhead_contactline_system",
-            "Definition": "system - overhead_contactline_system",
-            "Description": "system - overhead_contactline_system",
+            "Name": "system - overhead contact line system",
+            "Definition": "system - overhead contact line system",
+            "Description": "system - overhead contact line system",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemOVERHEAD_CONTACTLINE_SYSTEM"
@@ -8368,9 +8736,9 @@
         },
         {
             "Code": "EGEN",
-            "Name": "system - powergeneration",
-            "Definition": "system - powergeneration",
-            "Description": "system - powergeneration",
+            "Name": "system - power generation",
+            "Definition": "system - power generation",
+            "Description": "system - power generation",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemPOWERGENERATION"
@@ -8398,9 +8766,9 @@
         },
         {
             "Code": "RETCIR",
-            "Name": "system - return_circuit",
-            "Definition": "system - return_circuit",
-            "Description": "system - return_circuit",
+            "Name": "system - return circuit",
+            "Definition": "system - return circuit",
+            "Description": "system - return circuit",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemRETURN_CIRCUIT"
@@ -8438,9 +8806,9 @@
         },
         {
             "Code": "STORM",
-            "Name": "system - stormwater",
-            "Definition": "system - stormwater",
-            "Description": "system - stormwater",
+            "Name": "system - storm water",
+            "Definition": "system - storm water",
+            "Description": "system - storm water",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcDistributionSystemSTORMWATER"
@@ -8584,6 +8952,16 @@
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcTankVESSEL"
+            ]
+        },
+        {
+            "Code": "CWST",
+            "Name": "tank - cold water storage tank",
+            "Definition": "tank - cold water storage tank",
+            "Description": "tank - cold water storage tank",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcTankSTORAGE"
             ]
         },
         {
@@ -8832,6 +9210,16 @@
             ]
         },
         {
+            "Code": "HDL",
+            "Name": "transportation - hydraulic dock leveller",
+            "Definition": "transportation - hydraulic dock leveller",
+            "Description": "transportation - hydraulic dock leveller",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcTransportElementLIFTINGGEAR"
+            ]
+        },
+        {
             "Code": "ELV",
             "Name": "transportation - lift / elevator",
             "Definition": "transportation - lift / elevator",
@@ -8998,6 +9386,16 @@
             ]
         },
         {
+            "Code": "ARV",
+            "Name": "valve - air release valve",
+            "Definition": "valve - air release valve",
+            "Description": "valve - air release valve",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcValveAIRRELEASE"
+            ]
+        },
+        {
             "Code": "AV",
             "Name": "valve - angle stop valve",
             "Definition": "valve - angle stop valve",
@@ -9103,7 +9501,7 @@
             "ParentClassCode": "VLV"
         },
         {
-            "Code": "CDWV",
+            "Code": "CWV",
             "Name": "valve - condenser water valve",
             "Definition": "valve - condenser water valve",
             "Description": "valve - condenser water valve",
@@ -9366,6 +9764,17 @@
             "Name": "valve - steam pressure reducing valve",
             "Definition": "valve - steam pressure reducing valve",
             "Description": "valve - steam pressure reducing valve",
+            "ClassType": "Class",
+            "RelatedIfcEntityNamesList": [
+                "IfcValve"
+            ],
+            "ParentClassCode": "VLV"
+        },
+        {
+            "Code": "STRV",
+            "Name": "valve - strainer valve",
+            "Definition": "valve - strainer valve",
+            "Description": "valve - strainer valve",
             "ClassType": "Class",
             "RelatedIfcEntityNamesList": [
                 "IfcValve"
