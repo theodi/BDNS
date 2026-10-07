@@ -21,9 +21,9 @@ air handling unit - dedicated outside air system unit,DOAS,1,HVAC/DOAS,IfcUnitar
 air handling unit - heat recovery unit,HRU,1,HVAC/AHU,IfcAirToAirHeatRecovery,IfcAirToAirHeatRecoveryType,1
 air handling unit - make-up air handler,MAU,1,HVAC/MAU,IfcUnitaryEquipmentAIRHANDLER,IfcUnitaryEquipmentTypeAIRHANDLER,0
 air handling unit - roof top unit,RTU,1,HVAC/AHU,IfcUnitaryEquipmentROOFTOPUNIT,IfcUnitaryEquipmentTypeROOFTOPUNIT,0
+air terminal box - air curtain,ARCT,1,,IfcAirTerminal,IfcAirTerminalType,0
 air terminal - air valve - extract,EAV,1,,IfcAirTerminal,IfcAirTerminalType,0
 air terminal - air valve - supply,SAV,1,,IfcAirTerminal,IfcAirTerminalType,0
-air terminal - box,ATB,1,,IfcAirTerminalBox,IfcAirTerminalBoxType,1
 air terminal - generic,AT,1,,IfcAirTerminal,IfcAirTerminalType,1
 air terminal - grille,GR,1,,IfcAirTerminalGRILLE,IfcAirTerminalTypeGRILLE,0
 air terminal - grille - extract,EG,1,,IfcAirTerminalGRILLE,IfcAirTerminalTypeGRILLE,0
@@ -31,6 +31,7 @@ air terminal - grille - supply,SG,1,,IfcAirTerminalGRILLE,IfcAirTerminalTypeGRIL
 air terminal - louvre,LOU,1,,IfcAirTerminalLOUVRE,IfcAirTerminalTypeLINEARGRILLE,0
 air terminal - louvre - exhaust/extract,ELOU,1,,IfcAirTerminalLOUVRE,IfcAirTerminalTypeLINEARGRILLE,0
 air terminal - louvre - inlet/intake,ILOU,1,,IfcAirTerminalLOUVRE,IfcAirTerminalTypeLINEARGRILLE,0
+air terminal box,ATB,1,,IfcAirTerminalBox,IfcAirTerminalBoxType,1
 air terminal box - constant air volume box,CAV,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxTypeCONSTANTFLOW,0
 air terminal box - constant air volume box - extract,CAVE,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxTypeCONSTANTFLOW,0
 air terminal box - constant air volume box - extract - fixed,CAVEF,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxTypeCONSTANTFLOW,0
@@ -38,6 +39,7 @@ air terminal box - constant air volume box - extract - mechanically actuated,CAV
 air terminal box - constant air volume box - supply,CAVS,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxTypeCONSTANTFLOW,0
 air terminal box - constant air volume box - supply - fixed,CAVSF,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxTypeCONSTANTFLOW,0
 air terminal box - constant air volume box - supply - mechanically actuated,CAVSM,1,,IfcAirTerminalBoxCONSTANTFLOW,IfcAirTerminalBoxTypeCONSTANTFLOW,0
+air terminal box - fan coil unit,FCU,1,HVAC/FCU,IfcUnitaryEquipment,IfcUnitaryEquipmentType,0
 air terminal box - fan powered box,FPB,1,,IfcAirTerminalBox,IfcAirTerminalBoxType,0
 air terminal box - under floor variable air volume box,UFT,1,HVAC/VAV,IfcAirTerminalBox,IfcAirTerminalBoxType,0
 air terminal box - variable air volume box,VAV,1,HVAC/VAV,IfcAirTerminalBox,IfcAirTerminalBoxType,0
@@ -189,6 +191,7 @@ damper - exhaust damper,EXD,1,HVAC/DMP,IfcDamper,IfcDamperType,0
 damper - fire damper,FD,1,SAFETY/FD,IfcDamperFIREDAMPER,IfcDamperTypeFIREDAMPER,0
 damper - inlet control damper,ICD,1,HVAC/DMP,IfcDamperCONTROLDAMPER,IfcDamperTypeCONTROLDAMPER,0
 damper - inlet isolation damper,IISD,1,HVAC/DMP,IfcDamper,IfcDamperType,0
+damper - motorised control damper,MCD,1,HVAC/DMP,IfcDamperCONTROLDAMPER,IfcDamperTypeCONTROLDAMPER,0
 damper - motorised damper,MD,1,HVAC/DMP,IfcDamper,IfcDamperType,0
 damper - motorised fire smoke damper,MFSD,1,HVAC/DMP,IfcDamperFIRESMOKEDAMPER,IfcDamperTypeFIRESMOKEDAMPER,0
 damper - motorised smoke control damper,MSCD,1,HVAC/DMP,IfcDamperSMOKEDAMPER,IfcDamperTypeSMOKEDAMPER,0
@@ -234,6 +237,7 @@ door - electromagnetic door holder,EMDH,1,,IfcElectricAppliance,IfcElectricAppli
 door - fire door,FDR,1,SAFETY/FDR,IfcDoorDOOR,IfcDoorStyle,0
 door - latch lock,LLOCK,1,,IfcElectricAppliance,IfcElectricApplianceType,0
 door - magnetic lock,MLOCK,1,,IfcElectricAppliance,IfcElectricApplianceType,0
+door - roll up dock door,RUDR,0,,IfcDoorDOOR,IfcDoorStyle,0
 drinking fountain / bottle filler,DF,0,,IfcSanitaryTerminalSANITARYFOUNTAIN,IfcSanitaryTerminalTypeSANITARYFOUNTAIN,0
 duct fitting,DFT,0,,IfcDuctFitting,IfcDuctFittingType,1
 duct silencer - attenuator,SLCR,0,,IfcDuctSilencer,IfcDuctSilencerType,1
@@ -348,7 +352,6 @@ fan - stairwell pressurization fan,SPF,1,HVAC/FAN,IfcFan,IfcFanType,0
 fan - supply fan,SF,1,HVAC/FAN,IfcFan,IfcFanType,0
 fan - toilet extract fan,TEF,1,HVAC/FAN,IfcFan,IfcFanType,0
 fan - transfer fan,TF,1,HVAC/FAN,IfcFan,IfcFanType,0
-fan coil unit,FCU,1,HVAC/FCU,IfcUnitaryEquipment,IfcUnitaryEquipmentType,0
 filter,FLT,1,,IfcFilter,IfcFilterType,1
 filter - air and dirt separator,ADS,1,,IfcFlowTreatmentDevice,IfcFilterType,0
 filter - air purifier unit,APU,1,,IfcFilter,IfcFilterType,0
@@ -382,12 +385,14 @@ fire detection - heat detector,HD,1,SENSOR,IfcSensorHEATSENSOR,IfcSensorTypeHEAT
 fire detection - hydrogen detector,HDS,1,,IfcSensor,IfcSensorType,0
 fire detection - input output interface unit,IFU,1,,IfcSwitchingDevice,IfcSwitchingDeviceType,0
 fire detection - smoke detector,SD,1,SAFETY/SD,IfcSensorSMOKESENSOR,IfcSensorTypeSMOKESENSOR,0
-fire suppression - fire and smoke curtain,FSC,0,,IfcDoor,IfcDoorStyle,0
+fire protection - fire and smoke curtain,FSC,0,,IfcDoor,IfcDoorStyle,0
+fire protection - fire curtain controller,FCC,1,,IfcController,IfcControllerType,0
+fire protection - fire curtain panel,FCP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
+fire protection - fireman override switch,FMO,0,,IfcSwitchingDevice,IfcSwitchingDeviceType,0
 fire suppression - fire extinguisher cabinet,FEC,0,,IfcFurnitureTECHNICALCABINET,IfcFurnitureType,0
 fire suppression - fire jockey pump,FJP,1,,IfcPump,IfcPumpType,0
 fire suppression - fire pump,FP,1,,IfcPump,IfcPumpType,0
 fire suppression - fire pump control panel,FPCP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
-fire suppression - firemans override switch,FMO,0,,IfcSwitchingDevice,IfcSwitchingDeviceType,0
 fire suppression - gas suppression control panel,GSCP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
 fire suppression - gas suppression head,GSH,0,,IfcFireSuppressionTerminal,IfcFireSuppressionTerminalType,0
 fire suppression - hose reel terminal,KHRL,0,,IfcFireSuppressionTerminalHOSEREEL,IfcFireSuppressionTerminalTypeHOSEREEL,0
@@ -531,6 +536,8 @@ lighting - control - keypad,LKP,1,LIGHTING/LKP,IfcSwitchingDeviceKEYPAD,IfcSwitc
 lighting - control - module,LCM,1,LIGHTING/LCM,IfcController,IfcControllerType,0
 lighting - control - panel,LCP,1,,IfcUnitaryControlElementCONTROLPANEL,IfcElectricDistributionPointCONTROLPANEL,0
 lighting - control - switch,LSW,1,,IfcSwitchingDevice,IfcSwitchingDeviceType,0
+lighting - emergency - lighting inverter,LTI,1,,IfcTransformerINVERTER,IfcTransformerType,0
+lighting - emergency - standalone emergency light,EL,1,LIGHTING/LT,IfcLightFixture,IfcLightFixtureType,0
 lighting - fixture,LT,0,LIGHTING/LT,IfcLightFixture,IfcLightFixtureType,1
 lighting - fixture - downlight,DL,1,LIGHTING/LT,IfcLightFixture,IfcLightFixtureType,0
 lighting - fixture - illuminated exit sign,EXIT,1,,IfcLightFixtureSECURITYLIGHTING,IfcLightFixtureType,0
@@ -538,7 +545,6 @@ lighting - fixture - linear,LL,1,LIGHTING/LT,IfcLightFixtureDIRECTIONSOURCE,IfcL
 lighting - fixture - linear tape,TL,1,LIGHTING/LT,IfcLightFixtureDIRECTIONSOURCE,IfcLightFixtureTypeDIRECTIONSOURCE,0
 lighting - fixture - pendant,PL,1,LIGHTING/LT,IfcLightFixturePOINTSOURCE,IfcLightFixtureTypePOINTSOURCE,0
 lighting - fixture - spot light,SL,1,LIGHTING/LT,IfcLightFixturePOINTSOURCE,IfcLightFixtureTypePOINTSOURCE,0
-lighting - fixture - standalone emergency light,EL,1,LIGHTING/LT,IfcLightFixture,IfcLightFixtureType,0
 lighting - fixture - uplight,UL,1,LIGHTING/LT,IfcLightFixture,IfcLightFixtureType,0
 lighting - fixture - wall light,WL,1,LIGHTING/LT,IfcLightFixture,IfcLightFixtureType,0
 lighting - fixture external - bollard,LBO,1,LIGHTING/LT,IfcLightFixture,IfcLightFixtureType,0
@@ -629,7 +635,7 @@ pump - greywater booster pump,GWBP,1,HVAC/PMP,IfcPump,IfcPumpType,0
 pump - heat exchanger pump,HXP,1,HVAC/PMP,IfcPump,IfcPumpType,0
 pump - heat recovery chilled water pump,HRHWP,1,HVAC/PMP,IfcPump,IfcPumpType,0
 pump - heat recovery condenser water pump,HRCWP,1,HVAC/PMP,IfcPump,IfcPumpType,0
-pump - high temperature chilled water pump,HTCHP,1,HVAC/PMP,IfcPump,IfcPumpType,0
+pump - high temperature chilled water pump,HTCHWP,1,HVAC/PMP,IfcPump,IfcPumpType,0
 pump - high temperature condenser water pump,HTCWP,1,HVAC/PMP,IfcPump,IfcPumpType,0
 pump - hot water pump,HWP,1,HVAC/PMP,IfcPump,IfcPumpType,0
 pump - low temperature chilled water pump,LTCHWP,1,HVAC/PMP,IfcPump,IfcPumpType,0
@@ -664,11 +670,12 @@ pump - vacuum pump,VCP,1,HVAC/PMP,IfcPump,IfcPumpType,0
 pump - waste water pump,WWP,1,HVAC/PMP,IfcPump,IfcPumpType,0
 pump - wet riser pump,WRP,1,HVAC/PMP,IfcPump,IfcPumpType,0
 pv ac disconnect,PVACDS,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceTypeSWITCHDISCONNECTOR,0
+pv ac combiner,PVACC,1,,IfcTransformerINVERTER,IfcTransformerType,0
 pv data acquisition system,PVDAS,1,,IfcController,IfcControllerType,0
 pv dc combiner,PVDCC,0,,IfcDistributionBoard,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
 pv dc disconnect,PVDCDS,0,,IfcSwitchingDeviceSWITCHDISCONNECTOR,IfcSwitchingDeviceTypeSWITCHDISCONNECTOR,0
 pv distribution board,PVDB,1,,IfcDistributionBoardDISTRIBUTIONBOARD,IfcElectricDistributionPointDISTRIBUTIONBOARD,0
-pv inverter,PVI,1,,IfcTransformerINVERTER,IfcTransformerType,0
+pv dc-ac inverter,PVI,1,,IfcTransformerINVERTER,IfcTransformerType,0
 pv microgrid controller,PVMC,1,,IfcController,IfcControllerType,0
 pv module-level power electronics,PVMLPE,0,,IfcController,IfcControllerType,0
 pv panel,PVP,1,,IfcSolarDeviceSOLARPANEL,IfcDiscreteAccessoryType,0
@@ -881,8 +888,9 @@ thermal wheel,TW,0,,IfcAirToAirHeatRecoveryROTARYWHEEL,IfcAirToAirHeatRecoveryTy
 timeclock,TMCLK,1,,IfcElectricTimeControlTIMECLOCK,IfcElectricTimeControlTypeTIMECLOCK,0
 transformer,TXMR,0,,IfcTransformer,IfcTransformerType,1
 transport element,TRE,0,,IfcTransportElement,IfcTransportElementType,1
+transportation - dock lift / elevator,DCLFT,1,,IfcTransportElementLIFTINGGEAR,IfcTransportElementType,0
 transportation - escalator,ESC,1,,IfcTransportElementESCALATOR,IfcTransportElementTypeESCALATOR,0
-transportation - hydraulic dock leveller,HDL,0,,IfcTransportElementLIFTINGGEAR,IfcTransportElementType,0
+transportation - hydraulic dock leveller,HDL,1,,IfcTransportElementLIFTINGGEAR,IfcTransportElementType,0
 transportation - lift / elevator,ELV,1,,IfcTransportElementELEVATOR,IfcTransportElementTypeELEVATOR,0
 transportation - lift / elevator controller,ELC,1,,IfcController,IfcControllerType,0
 transportation - lift / elevator door motor,ELDM,1,,IfcElectricMotor,IfcElectricMotorType,0
